@@ -1,0 +1,42 @@
+# 台本サンプル
+# Usage: python tools/voicevox/generate.py rick-brick-content/scripts/sample.yml
+
+title: "ずんだもんとめたんの技術トーク"
+
+speakers:
+  zundamon:
+    name: "ずんだもん"
+    speaker_id: 3      # ノーマル
+    speed: 1.0
+    intonation: 1.2    # やや抑揚強め
+
+  metan:
+    name: "四国めたん"
+    speaker_id: 2      # ノーマル
+    speed: 1.0
+
+# --- 台本 ---
+# speaker: speakers で定義したキー
+# text: セリフ
+# pause: セリフ間の無音（秒）
+# speed/pitch/intonation/volume: 行単位で上書き可能
+
+script:
+  - speaker: zundamon
+    text: "はい、どうもー！ずんだもんなのだ！"
+
+  - speaker: metan
+    text: "四国めたんです。今日もよろしくお願いしますね。"
+
+  - pause: 0.5
+
+  - speaker: zundamon
+    text: "今日はクロードコードについて話すのだ！"
+
+  - speaker: metan
+    text: "エーアイを使ってコードを書く時代になりましたね。"
+
+  - speaker: zundamon
+    text: "すごい時代なのだ！"
+    speed: 1.3          # このセリフだけ速めに
+    intonation: 1.5     # テンション高め

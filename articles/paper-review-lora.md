@@ -1,0 +1,21 @@
+---
+title: "LoRA: 大規模モデルの効率的ファインチューニング"
+summary: "低ランク行列分解で学習パラメータを削減する手法"
+date: "2024-07-05"
+category: paper-review
+tags: ["LoRA", "ファインチューニング", "LLM"]
+automated: true
+paper_url: "https://arxiv.org/abs/2106.09685"
+paper_title: "LoRA: Low-Rank Adaptation of Large Language Models"
+sources: ["https://arxiv.org/abs/2106.09685"]
+---
+
+## はじめに
+
+LoRA（Low-Rank Adaptation）は、大規模言語モデルのファインチューニングを効率的に行うための手法です。低ランク行列分解を用いることで、学習に必要なパラメータ数を大幅に削減できます。
+
+全パラメータの更新ではなく、低ランク行列のみを学習することで、メモリ使用量と計算量を削減。同時に、高いタスク適応性を保つことができます。
+
+## まとめ
+
+LoRAはLLMのファインチューニングにおいて革新的な手法です。リソース制限のある環境でも大規模モデルの活用が可能になりました。
