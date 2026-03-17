@@ -8,11 +8,13 @@
     "generate": "tsx src/scripts/generate.ts",
     "thumbnail": "tsx src/scripts/thumbnail.ts",
     "validate": "tsx src/scripts/validate.ts",
-    "trigger-deploy": "tsx src/scripts/trigger-deploy.ts"
+    "trigger-deploy": "tsx src/scripts/trigger-deploy.ts",
+    "test": "vitest run"
   },
   "devDependencies": {
     "sharp": "^0.33.0",
     "tsx": "^4.0.0",
-    "typescript": "~5.9.0"
+    "typescript": "~5.9.0",
+    "vitest": "^3.0.0"
   }
 }

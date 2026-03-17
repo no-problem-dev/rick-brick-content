@@ -1,6 +1,9 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
+import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
+import type { ResearchResult } from '../types/research.js';
+import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
 
 type CheckSeverity = 'error' | 'warning';
 
@@ -91,8 +94,8 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
       checkId: 8,
       description: 'サムネイル画像の存在',
       severity: 'warning',
-      passed: existsSync(join('images', `${slug}.png`)) ||
-        existsSync(join('images/defaults', 'default.png')),
+      passed: existsSync(join(IMAGES_DIR, `${slug}.png`)) ||
+        existsSync(join(IMAGES_DIR, 'defaults', 'default.png')),
       message: 'サムネイル画像が見つかりません',
     },
     {
@@ -122,23 +125,20 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
 
 function main() {
   const today = new Date().toISOString().split('T')[0]!;
-  const articlesDir = 'articles';
-  const categories = ['paper-review', 'ai-news-digest'] as const;
+  const articlesDir = ARTICLES_DIR;
+  const categories = CATEGORIES;
 
   const results: ArticleValidationResult[] = [];
 
   for (const category of categories) {
-    const tmpPath = join('.tmp', `research-${category}.json`);
+    const tmpPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(tmpPath)) continue;
 
-    const research = JSON.parse(readFileSync(tmpPath, 'utf-8')) as {
-      status: string;
-      frontmatter?: { slug?: string };
-    };
+    const research: ResearchResult = JSON.parse(readFileSync(tmpPath, 'utf-8'));
     if (research.status !== 'success') continue;
 
-    const slug = research.frontmatter?.slug ?? `${category}-${today}`;
-    const filePath = join(articlesDir, `${today}-${slug}.md`);
+    const slug = resolveSlug(research, category, today);
+    const filePath = join(articlesDir, buildArticleFilename(slug, today));
 
     if (!existsSync(filePath)) {
       console.log(`${category}: file not found (${filePath}), skipping`);
