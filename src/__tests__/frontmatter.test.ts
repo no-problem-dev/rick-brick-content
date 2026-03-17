@@ -97,6 +97,12 @@ describe('extractMarkdownFromLLMResponse', () => {
     const result = extractMarkdownFromLLMResponse(input);
     expect(result).toBe(input);
   });
+
+  it('fm-15: 開始 --- なしの frontmatter フィールドを補完する', () => {
+    const input = 'title: "Test Article"\nslug: "test"\ndate: "2026-03-17"\n---\n# Body';
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result).toBe('---\ntitle: "Test Article"\nslug: "test"\ndate: "2026-03-17"\n---\n# Body');
+  });
 });
 
 describe('normalizeFrontmatter', () => {

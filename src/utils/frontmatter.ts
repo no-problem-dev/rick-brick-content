@@ -71,7 +71,7 @@ export function upsertFrontmatterField(content: string, key: string, value: stri
 /**
  * LLM 出力から Markdown を抽出する。
  * コードフェンスで囲まれている場合は除去。
- * frontmatter がない場合は空の frontmatter を付与。
+ * frontmatter がない場合は補完する。
  */
 export function extractMarkdownFromLLMResponse(rawText: string): string {
   let text = rawText.trim();
@@ -82,12 +82,19 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
     text = fenceMatch[1]!.trim();
   }
 
-  // frontmatter がない場合は空の frontmatter を付与
-  if (!text.startsWith('---\n')) {
-    text = `---\n---\n${text}`;
+  if (text.startsWith('---\n')) {
+    return text;
   }
 
-  return text;
+  // 開始の --- がないが、frontmatter フィールドで始まるケース
+  // (例: "title: ...\nslug: ...\n---\n# Body")
+  const closingFmMatch = text.match(/^((?:\w+:.*\n)+)---\n([\s\S]*)$/);
+  if (closingFmMatch) {
+    return `---\n${closingFmMatch[1]}---\n${closingFmMatch[2]}`;
+  }
+
+  // frontmatter がまったくない場合は空の frontmatter を付与
+  return `---\n---\n${text}`;
 }
 
 /**

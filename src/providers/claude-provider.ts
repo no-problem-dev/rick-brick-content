@@ -16,7 +16,7 @@ export class ClaudeProvider extends BaseResearchProvider {
       },
       body: JSON.stringify({
         model: this.config.model,
-        max_tokens: 8192,
+        max_tokens: 16384,
         tools: [{ type: 'web_search_20250305', name: 'web_search' }],
         messages: [{ role: 'user', content: fullPrompt }],
       }),
