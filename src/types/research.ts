@@ -1,4 +1,4 @@
-export type ResearchProviderName = 'claude' | 'gemini' | 'openai';
+export type ResearchProviderName = 'claude' | 'gemini' | 'openai' | 'mock';
 
 export interface ResearchRequest {
   category: 'paper-review' | 'ai-news-digest';

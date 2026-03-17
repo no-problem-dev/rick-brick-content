@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       provider:
-        description: 'リサーチプロバイダー (claude / gemini / openai)'
+        description: 'リサーチプロバイダー (claude / gemini / openai / mock)'
         required: false
         default: 'claude'
         type: choice
@@ -15,10 +15,16 @@ on:
           - claude
           - gemini
           - openai
+          - mock
       model:
         description: 'モデル上書き（空欄でデフォルト）'
         required: false
         default: ''
+      draft_mode:
+        description: 'Draft モード（生成記事に draft: true を付与）'
+        required: false
+        type: boolean
+        default: false
       dry_run:
         description: 'ドライラン（push・デプロイトリガーをスキップ）'
         required: false
@@ -56,6 +62,8 @@ jobs:
 
       - name: Generate articles
         run: npx tsx src/scripts/generate.ts
+        env:
+          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
 
       - name: Generate thumbnails
         run: npx tsx src/scripts/thumbnail.ts

@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
+import { upsertFrontmatterField } from '../utils/frontmatter.js';
 import { CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
 export interface ProcessedArticle {
@@ -54,7 +55,11 @@ function main() {
     }
 
     const outputPath = join(ARTICLES_DIR, processed.filename);
-    writeFileSync(outputPath, processed.markdown);
+    let markdown = processed.markdown;
+    if (process.env.DRAFT_MODE === 'true') {
+      markdown = upsertFrontmatterField(markdown, 'draft', 'true');
+    }
+    writeFileSync(outputPath, markdown);
     console.log(`${category}: generated ${processed.filename}`);
   }
 }

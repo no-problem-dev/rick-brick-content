@@ -2,6 +2,7 @@ import type { ResearchProvider, ResearchProviderName } from '../types/research.j
 import { ClaudeProvider } from './claude-provider.js';
 import { GeminiProvider } from './gemini-provider.js';
 import { OpenaiProvider } from './openai-provider.js';
+import { MockProvider } from './mock-provider.js';
 
 export function createResearchProvider(): ResearchProvider {
   const providerName = (process.env.RESEARCH_PROVIDER || 'claude') as ResearchProviderName;
@@ -22,6 +23,9 @@ export function createResearchProvider(): ResearchProvider {
       const apiKey = process.env.OPENAI_API_KEY;
       if (!apiKey) throw new Error('OPENAI_API_KEY is not set');
       return new OpenaiProvider({ apiKey, model: modelOverride || 'gpt-4.1-nano' });
+    }
+    case 'mock': {
+      return new MockProvider({ apiKey: 'mock', model: 'mock' });
     }
     default:
       throw new Error(`Unknown RESEARCH_PROVIDER: ${providerName}`);

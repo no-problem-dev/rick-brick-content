@@ -118,12 +118,17 @@ function updateArticleThumbnail(slug: string, thumbnailPath: string): void {
 }
 
 async function main() {
-  const apiKey = process.env.GEMINI_IMAGE_API_KEY;
-  if (!apiKey) {
-    console.error('GEMINI_IMAGE_API_KEY is not set');
-    process.exit(1);
+  const isMock = process.env.RESEARCH_PROVIDER === 'mock';
+
+  if (!isMock) {
+    const apiKey = process.env.GEMINI_IMAGE_API_KEY;
+    if (!apiKey) {
+      console.error('GEMINI_IMAGE_API_KEY is not set');
+      process.exit(1);
+    }
   }
 
+  const apiKey = isMock ? '' : process.env.GEMINI_IMAGE_API_KEY!;
   const categories = CATEGORIES;
   const today = new Date().toISOString().split('T')[0];
 
@@ -139,6 +144,19 @@ async function main() {
       console.error(`${category}: invalid slug "${slug}", skipping thumbnail generation`);
       continue;
     }
+
+    if (isMock) {
+      const mockSrc = 'fixtures/images/mock-thumbnail.png';
+      const outputPath = join(IMAGES_DIR, `${slug}.png`);
+      mkdirSync(dirname(outputPath), { recursive: true });
+      if (existsSync(mockSrc)) {
+        copyFileSync(mockSrc, outputPath);
+        console.log(`${category}: mock thumbnail copied → ${outputPath}`);
+      }
+      updateArticleThumbnail(slug, `/images/${slug}.png`);
+      continue;
+    }
+
     const { title, summary } = result.frontmatter;
     const thumbnailResult = await generateThumbnail(slug, title, summary, apiKey);
     console.log(`${category}: thumbnail ${thumbnailResult.status} → ${thumbnailResult.path}`);
