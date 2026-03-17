@@ -57,7 +57,10 @@ export function upsertFrontmatterField(content: string, key: string, value: stri
   const pattern = new RegExp(`^${key}:\\s*`);
 
   const existingIndex = lines.findIndex((line) => pattern.test(line));
-  const newLine = `${key}: "${value}"`;
+  // boolean 値はクォートなしで書き込む（Astro の Zod スキーマが boolean を期待するため）
+  const newLine = value === 'true' || value === 'false'
+    ? `${key}: ${value}`
+    : `${key}: "${value}"`;
 
   if (existingIndex >= 0) {
     lines[existingIndex] = newLine;
