@@ -5,7 +5,6 @@ date: "2024-05-01"
 category: tech-article
 tags: ["Tailwind CSS", "CSS", "Web開発", "フロントエンド"]
 automated: false
-draft: true
 ---
 
 ## はじめに

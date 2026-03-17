@@ -5,7 +5,6 @@ date: "2024-06-20"
 category: tech-article
 tags: ["Docker", "コンテナ", "DevOps"]
 automated: false
-draft: true
 ---
 
 ## はじめに

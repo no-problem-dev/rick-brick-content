@@ -5,7 +5,6 @@ date: "2024-09-25"
 category: tech-article
 tags: ["Pagefind", "検索", "SSG"]
 automated: false
-draft: true
 ---
 
 ## はじめに

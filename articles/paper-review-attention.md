@@ -6,7 +6,6 @@ category: paper-review
 tags: ["Transformer", "自然言語処理", "ディープラーニング"]
 automated: false
 sources: ["https://arxiv.org/abs/1706.03762"]
-draft: true
 ---
 
 ## はじめに

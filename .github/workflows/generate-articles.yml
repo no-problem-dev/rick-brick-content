@@ -77,6 +77,16 @@ jobs:
       - name: Validate articles
         run: npx tsx src/scripts/validate.ts
 
+      - name: Publish articles (remove draft flag)
+        if: ${{ !inputs.draft_mode }}
+        run: |
+          for file in articles/*.md; do
+            if grep -q "^draft: true$" "$file" 2>/dev/null; then
+              sed -i '/^draft: true$/d' "$file"
+              echo "Published: $file"
+            fi
+          done
+
       - name: Commit and push
         if: ${{ !inputs.dry_run }}
         run: |

@@ -5,7 +5,6 @@ date: "2026-03-16"
 category: tech-article
 tags: ["Astro", "Cloudflare Pages", "SSG", "テスト"]
 automated: false
-draft: true
 ---
 
 ## はじめに

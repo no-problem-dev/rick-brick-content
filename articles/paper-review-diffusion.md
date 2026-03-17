@@ -7,7 +7,6 @@ tags: ["拡散モデル", "画像生成", "生成AI"]
 automated: true
 provider: openai
 sources: ["https://arxiv.org/abs/2006.11239"]
-draft: true
 ---
 
 ## はじめに

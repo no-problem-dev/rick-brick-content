@@ -5,7 +5,6 @@ date: "2024-10-20"
 category: tech-article
 tags: ["AI", "GPU", "半導体", "TSMC", "サプライチェーン"]
 automated: false
-draft: true
 ---
 
 ## はじめに

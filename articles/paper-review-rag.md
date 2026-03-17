@@ -7,7 +7,6 @@ tags: ["RAG", "LLM", "検索", "AI"]
 automated: true
 provider: openai
 sources: ["https://arxiv.org/abs/2312.10997"]
-draft: true
 ---
 
 ## はじめに

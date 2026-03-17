@@ -7,7 +7,6 @@ tags: ["MoE", "スケーリング", "LLM"]
 automated: true
 provider: gemini
 sources: ["https://arxiv.org/abs/2401.04088"]
-draft: true
 ---
 
 ## はじめに

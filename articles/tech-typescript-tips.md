@@ -5,7 +5,6 @@ date: "2024-08-05"
 category: tech-article
 tags: ["TypeScript", "型安全", "Web開発"]
 automated: false
-draft: true
 ---
 
 ## はじめに

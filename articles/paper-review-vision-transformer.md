@@ -7,7 +7,6 @@ tags: ["ViT", "画像認識", "Transformer"]
 automated: true
 provider: claude
 sources: ["https://arxiv.org/abs/2010.11929"]
-draft: true
 ---
 
 ## はじめに
