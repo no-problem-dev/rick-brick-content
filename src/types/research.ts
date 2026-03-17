@@ -25,17 +25,7 @@ export interface ResearchProvider {
   research(request: ResearchRequest): Promise<ResearchResult>;
 }
 
-export interface ClaudeProviderConfig {
-  apiKey: string;
-  model: string;
-}
-
-export interface GeminiProviderConfig {
-  apiKey: string;
-  model: string;
-}
-
-export interface OpenaiProviderConfig {
+export interface ProviderConfig {
   apiKey: string;
   model: string;
 }

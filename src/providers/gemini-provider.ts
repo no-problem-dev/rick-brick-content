@@ -1,18 +1,11 @@
-import type { ResearchProvider, ResearchRequest, ResearchResult, GeminiProviderConfig } from '../types/research.js';
-import { readFileSync } from 'node:fs';
+import type { ResearchRequest, ResearchResult } from '../types/research.js';
+import { BaseResearchProvider } from './base-provider.js';
 
-export class GeminiProvider implements ResearchProvider {
+export class GeminiProvider extends BaseResearchProvider {
   readonly name = 'gemini' as const;
-  private config: GeminiProviderConfig;
-
-  constructor(config: GeminiProviderConfig) {
-    this.config = config;
-  }
 
   async research(request: ResearchRequest): Promise<ResearchResult> {
-    const basePrompt = readFileSync(request.basePromptPath, 'utf-8');
-    const providerPrompt = readFileSync(request.providerPromptPath, 'utf-8');
-    const fullPrompt = `${basePrompt}\n\n${providerPrompt}`;
+    const fullPrompt = this.loadPrompts(request);
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.config.model}:generateContent?key=${this.config.apiKey}`;
     const response = await fetch(url, {
@@ -26,11 +19,7 @@ export class GeminiProvider implements ResearchProvider {
 
     if (!response.ok) {
       const errorText = await response.text();
-      return {
-        category: request.category,
-        status: 'error',
-        error: `Gemini API error ${response.status}: ${errorText}`,
-      };
+      return this.buildError(request.category, `Gemini API error ${response.status}: ${errorText}`);
     }
 
     const data = await response.json() as {
@@ -38,17 +27,9 @@ export class GeminiProvider implements ResearchProvider {
     };
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
     if (!text) {
-      return {
-        category: request.category,
-        status: 'error',
-        error: 'No text content in Gemini response',
-      };
+      return this.buildError(request.category, 'No text content in Gemini response');
     }
 
-    return {
-      category: request.category,
-      status: 'success',
-      markdown: text,
-    };
+    return this.buildResult(request.category, text);
   }
 }
