@@ -23,6 +23,8 @@ function main() {
 
     // Markdown にフロントマッターが含まれているか確認
     let markdown = result.markdown;
+    // draft: true をフロントマッターに挿入
+    markdown = markdown.replace(/^---\n/, '---\ndraft: true\n');
     // 自動生成注意文を末尾に追加
     markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
 
