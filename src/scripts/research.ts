@@ -14,8 +14,8 @@ async function main() {
     const outputPath = join(TMP_DIR, `research-${category}.json`);
     let data: { category: string; status: 'success' | 'error'; error?: string; markdown?: string; frontmatter?: unknown };
 
-    // リトライ: 最大2回
-    for (let attempt = 1; attempt <= 2; attempt++) {
+    // リトライ: 最大3回（429 レート制限時は60秒待機）
+    for (let attempt = 1; attempt <= 3; attempt++) {
       try {
         const result = await provider.research({
           category,
@@ -24,8 +24,11 @@ async function main() {
         });
         data = result;
         if (result.status === 'success') break;
-        if (attempt < 2) {
-          await new Promise(resolve => setTimeout(resolve, 5000));
+        const isRateLimit = result.error?.includes('429') || result.error?.includes('rate_limit');
+        if (attempt < 3) {
+          const waitMs = isRateLimit ? 60000 : 5000;
+          console.log(`${category}: attempt ${attempt} failed, retrying in ${waitMs / 1000}s...`);
+          await new Promise(resolve => setTimeout(resolve, waitMs));
         }
       } catch (error) {
         data = {
@@ -33,7 +36,7 @@ async function main() {
           status: 'error' as const,
           error: error instanceof Error ? error.message : String(error),
         };
-        if (attempt < 2) {
+        if (attempt < 3) {
           await new Promise(resolve => setTimeout(resolve, 5000));
         }
       }
@@ -44,6 +47,12 @@ async function main() {
       console.log(`${category}: OK`);
     } else {
       console.error(`${category}: ERROR - ${'error' in data! ? data!.error : 'unknown'}`);
+    }
+
+    // レート制限回避: カテゴリ間で60秒待機（API の per-minute 制限対策）
+    if (categories.indexOf(category) < categories.length - 1) {
+      console.log('Waiting 60s before next research to avoid rate limits...');
+      await new Promise(resolve => setTimeout(resolve, 60000));
     }
   }
 }
