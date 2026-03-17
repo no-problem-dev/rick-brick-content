@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, afterEach } from 'vitest';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
 import type { ResearchResult } from '../types/research.js';
 
@@ -119,5 +119,43 @@ describe('validateSlug', () => {
   it('slug-9: ハイフン始まりは false を返す', () => {
     // Arrange & Act & Assert
     expect(validateSlug('-starts-with-hyphen')).toBe(false);
+  });
+});
+
+describe('resolveSlug with SLUG_SUFFIX', () => {
+  const category = 'paper-review';
+  const date = '2026-03-17';
+
+  afterEach(() => {
+    delete process.env.SLUG_SUFFIX;
+  });
+
+  it('slug-suffix-1: SLUG_SUFFIX 未設定時は従来通りの slug', () => {
+    delete process.env.SLUG_SUFFIX;
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date, slug: 'paper-review-2026-03-17' },
+    };
+    expect(resolveSlug(result, category, date)).toBe('paper-review-2026-03-17');
+  });
+
+  it('slug-suffix-2: SLUG_SUFFIX=gemini の場合はサフィックスが付く', () => {
+    process.env.SLUG_SUFFIX = 'gemini';
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date, slug: 'paper-review-2026-03-17' },
+    };
+    expect(resolveSlug(result, category, date)).toBe('paper-review-2026-03-17-gemini');
+  });
+
+  it('slug-suffix-3: SLUG_SUFFIX=openai でフォールバック slug にもサフィックスが付く', () => {
+    process.env.SLUG_SUFFIX = 'openai';
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+    };
+    expect(resolveSlug(result, category, date)).toBe('paper-review-2026-03-17-openai');
   });
 });

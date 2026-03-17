@@ -86,7 +86,50 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
     text = fenceMatch[1]!.trim();
   }
 
+  // 二重 frontmatter 検出: `---` が3つ以上出現するケースを処理
   if (text.startsWith('---\n')) {
+    const separatorPattern = /^---$/gm;
+    const separators: number[] = [];
+    let m: RegExpExecArray | null;
+    while ((m = separatorPattern.exec(text)) !== null) {
+      separators.push(m.index);
+    }
+
+    if (separators.length >= 4) {
+      // 複数の frontmatter ブロック候補がある
+      // 各ペアのブロックを評価し、frontmatter らしいキーが最も多いものを採用
+      const fmKeys = /^(?:title|slug|date|category|tags|summary|sources|automated|provider|draft|thumbnail):/m;
+      let bestPairIdx = -1;
+      let bestScore = -1;
+
+      for (let i = 0; i < separators.length - 1; i += 1) {
+        const blockStart = separators[i]! + 4; // skip "---\n"
+        const blockEnd = separators[i + 1]!;
+        const block = text.slice(blockStart, blockEnd);
+        // Count frontmatter-like key: value lines
+        const keyMatches = block.match(/^\w+:\s/gm);
+        const score = keyMatches ? keyMatches.length : 0;
+        // Also check for known frontmatter keys
+        const hasKnownKeys = fmKeys.test(block);
+        const adjustedScore = hasKnownKeys ? score + 10 : score;
+        if (adjustedScore > bestScore) {
+          bestScore = adjustedScore;
+          bestPairIdx = i;
+        }
+      }
+
+      if (bestPairIdx >= 0 && bestScore > 0) {
+        const blockStart = separators[bestPairIdx]! + 4;
+        const blockEnd = separators[bestPairIdx + 1]!;
+        const fmContent = text.slice(blockStart, blockEnd);
+        const bodyAfter = text.slice(separators[bestPairIdx + 1]! + 3); // skip "---"
+        // bodyAfter starts with \n or is empty
+        const body = bodyAfter.startsWith('\n') ? bodyAfter.slice(1) : bodyAfter;
+        return `---\n${fmContent}\n---\n${body}`;
+      }
+    }
+
+    // 正常な単一 frontmatter（--- が2つ）、またはスコアが0のケース
     return text;
   }
 
@@ -108,6 +151,26 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
 }
 
 /**
+ * URL からトラッキングパラメータ（utm_*）を除去する
+ */
+function cleanTrackingParams(url: string): string {
+  try {
+    const u = new URL(url);
+    const trackingParams = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+    let changed = false;
+    trackingParams.forEach(p => {
+      if (u.searchParams.has(p)) {
+        u.searchParams.delete(p);
+        changed = true;
+      }
+    });
+    return changed ? u.toString() : url;
+  } catch {
+    return url;
+  }
+}
+
+/**
  * frontmatter のフィールドを検証し、不足・不正フィールドを補完する。
  * LLM がどんな出力をしても最低限の品質を保証する「安全ネット」。
  */
@@ -115,9 +178,17 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   const extracted = extractMarkdownFromLLMResponse(markdown);
   const { frontmatter, body } = parseFrontmatter(extracted);
 
-  // title
+  // title: 空文字の場合は body の最初の見出しから取得を試みる。見出しもなければフォールバック
   if (!frontmatter.title || String(frontmatter.title).trim() === '') {
-    frontmatter.title = `[${defaults.category}] ${defaults.date}`;
+    let titleFromBody: string | undefined;
+    // title フィールドが存在するが空の場合（LLM が空値を出力）、body の見出しから取得
+    if (frontmatter.title !== undefined) {
+      const headingMatch = body.match(/^#+\s+(.+)$/m);
+      if (headingMatch && headingMatch[1]!.trim().length > 0) {
+        titleFromBody = headingMatch[1]!.trim();
+      }
+    }
+    frontmatter.title = titleFromBody ?? `[${defaults.category}] ${defaults.date}`;
   }
 
   // slug: 不正文字を除去
@@ -169,22 +240,56 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
       frontmatter.summary = summary.slice(0, 197) + '...';
     }
   }
+  // summary サニタイズ
+  let summaryStr = String(frontmatter.summary);
+  // 改行を半角スペースに置換
+  summaryStr = summaryStr.replace(/\n/g, ' ');
+  // リテラルな \n も置換（LLM が文字列として出力するケース）
+  summaryStr = summaryStr.replace(/\\n/g, ' ');
+  // 先頭の --- やフィールド名エコーを除去
+  summaryStr = summaryStr.replace(/^---\s*/, '').replace(/^(title|slug|date|category):\s*/i, '');
+  // 連続スペースを単一スペースに正規化
+  summaryStr = summaryStr.replace(/\s{2,}/g, ' ').trim();
+  frontmatter.summary = summaryStr;
 
-  // sources: URL でない項目を除去
+  // sources: URL でない項目を除去 + トラッキングパラメータ除去
   if (!Array.isArray(frontmatter.sources)) {
     frontmatter.sources = [];
   } else {
     frontmatter.sources = (frontmatter.sources as string[]).filter((s) => {
       try { new URL(String(s)); return true; } catch { return false; }
-    });
+    }).map(s => cleanTrackingParams(String(s)));
   }
 
-  // frontmatter を再構築
-  const fmLines = Object.entries(frontmatter).map(([key, val]) => {
-    if (typeof val === 'boolean') return `${key}: ${val}`;
-    if (Array.isArray(val)) return `${key}: ${JSON.stringify(val)}`;
-    return `${key}: "${String(val)}"`;
-  });
+  // sources が空の場合、body 内の Markdown リンクから URL を抽出
+  if ((frontmatter.sources as string[]).length === 0) {
+    const urlPattern = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+    const extractedUrls: string[] = [];
+    let match;
+    while ((match = urlPattern.exec(body)) !== null) {
+      extractedUrls.push(cleanTrackingParams(match[2]!));
+    }
+    // 重複排除、最大10件
+    frontmatter.sources = [...new Set(extractedUrls)].slice(0, 10);
+  }
+
+  // ホワイトリスト方式: FIELD_ORDER に含まれるフィールドのみ、指定順序で出力
+  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources'];
+
+  const fmLines: string[] = [];
+  for (const key of FIELD_ORDER) {
+    if (frontmatter[key] === undefined) continue;
+    // provider が空文字やfalsyの場合はスキップ（provider 未指定時）
+    if (key === 'provider' && !frontmatter[key]) continue;
+    const val = frontmatter[key];
+    if (typeof val === 'boolean') {
+      fmLines.push(`${key}: ${val}`);
+    } else if (Array.isArray(val)) {
+      fmLines.push(`${key}: ${JSON.stringify(val)}`);
+    } else {
+      fmLines.push(`${key}: "${String(val)}"`);
+    }
+  }
 
   return `---\n${fmLines.join('\n')}\n---\n${body}`;
 }

@@ -10,8 +10,9 @@ export function resolveSlug(
   date: string,
 ): string {
   const slug = result.frontmatter?.slug;
-  if (slug && slug.trim() !== '') return slug.trim();
-  return `${category}-${date}`;
+  const base = slug && slug.trim() !== '' ? slug.trim() : `${category}-${date}`;
+  const suffix = process.env.SLUG_SUFFIX;
+  return suffix ? `${base}-${suffix}` : base;
 }
 
 /**

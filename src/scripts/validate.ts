@@ -112,6 +112,27 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
       passed: body.length >= 2000,
       message: '本文が 2000 文字未満です',
     },
+    {
+      checkId: 11,
+      description: 'provider フィールドの値',
+      severity: 'warning' as CheckSeverity,
+      passed: typeof fm.provider === 'string' && ['claude', 'gemini', 'openai'].includes(fm.provider),
+      message: 'provider が claude/gemini/openai のいずれかではありません',
+    },
+    {
+      checkId: 12,
+      description: '本文中に Markdown リンクが存在',
+      severity: 'warning' as CheckSeverity,
+      passed: /\[([^\]]+)\]\(https?:\/\/[^\s)]+\)/.test(body),
+      message: '本文中に Markdown リンク [text](url) が見つかりません',
+    },
+    {
+      checkId: 13,
+      description: '参考文献セクションの存在',
+      severity: 'warning' as CheckSeverity,
+      passed: /参考文献/.test(body),
+      message: '本文中に「参考文献」セクションが見つかりません',
+    },
   ];
 
   return {

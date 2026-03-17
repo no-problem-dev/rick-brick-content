@@ -104,6 +104,55 @@ describe('extractMarkdownFromLLMResponse', () => {
     expect(result).toBe('---\ntitle: "Test Article"\nslug: "test"\ndate: "2026-03-17"\n---\n# Body');
   });
 
+  it('fm-double-1: 正常な単一 frontmatter はそのまま返す', () => {
+    const input = '---\ntitle: Test\nslug: test-slug\ndate: 2026-03-17\n---\n# Body';
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result).toBe(input);
+  });
+
+  it('fm-double-2: 二重 frontmatter から正しい frontmatter を抽出する', () => {
+    const input = [
+      '---',
+      'some: broken',
+      'output: from prompt echo',
+      '---',
+      '',
+      '---',
+      'title: "Real Article Title"',
+      'slug: "paper-review-2026-03-17"',
+      'date: "2026-03-17"',
+      'category: "paper-review"',
+      'automated: true',
+      'tags: ["AI", "ML"]',
+      'summary: "This is the real summary"',
+      'sources: ["https://example.com"]',
+      '---',
+      '',
+      '# Real Body Content',
+      'This is the actual article body.',
+    ].join('\n');
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result).toContain('title: "Real Article Title"');
+    expect(result).toContain('# Real Body Content');
+    expect(result).not.toContain('broken');
+    expect(result).not.toContain('prompt echo');
+    // 結果が正しい frontmatter で始まること
+    expect(result.startsWith('---\n')).toBe(true);
+  });
+
+  it('fm-double-3: frontmatter なしは空 frontmatter を付与', () => {
+    const input = '# Just a body\nNo frontmatter.';
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result.startsWith('---\n---\n')).toBe(true);
+    expect(result).toContain('# Just a body');
+  });
+
+  it('fm-double-4: コードフェンス内の frontmatter を正しく処理', () => {
+    const input = '```markdown\n---\ntitle: Test\nslug: test\n---\n# Body\n```';
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result).toBe('---\ntitle: Test\nslug: test\n---\n# Body');
+  });
+
   it('fm-16: summary が長文でも開始 --- なしの frontmatter を補完する', () => {
     const input = 'title: "Test"\nsummary: "This is a very long summary that might span or have special chars: colons, quotes"\nsources: ["https://example.com"]\n---\n\n## Body';
     const result = extractMarkdownFromLLMResponse(input);
@@ -215,5 +264,73 @@ describe('normalizeFrontmatter', () => {
       const { frontmatter } = parseFrontmatter(result);
       expect(frontmatter.provider).toBe(provider);
     }
+  });
+});
+
+describe('normalizeFrontmatter - sources auto-extraction', () => {
+  const defaults = { category: 'paper-review', date: '2026-03-17', automated: true };
+
+  it('fm-sources-1: frontmatter に有効 URL ありならそのまま', () => {
+    const input = '---\ntitle: Test\nsources: ["https://example.com"]\ntags: ["AI"]\n---\n# Body\n[link](https://other.com)';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.sources).toEqual(['https://example.com']);
+  });
+
+  it('fm-sources-2: sources 空 + body にリンクあり → body から抽出', () => {
+    const input = '---\ntitle: Test\nsources: []\ntags: ["AI"]\n---\n# Body\n[Paper](https://arxiv.org/abs/1234) and [Blog](https://blog.example.com)';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.sources).toEqual(['https://arxiv.org/abs/1234', 'https://blog.example.com']);
+  });
+
+  it('fm-sources-3: sources 空 + body にリンクなし → 空配列', () => {
+    const input = '---\ntitle: Test\nsources: []\ntags: ["AI"]\n---\n# Body\nNo links here.';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.sources).toEqual([]);
+  });
+
+  it('fm-sources-4: UTM パラメータ付き URL → パラメータ除去', () => {
+    const input = '---\ntitle: Test\nsources: ["https://example.com/article?utm_source=openai&utm_medium=referral"]\ntags: ["AI"]\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.sources).toEqual(['https://example.com/article']);
+  });
+});
+
+describe('normalizeFrontmatter - field ordering and sanitization', () => {
+  const defaults = { category: 'paper-review', date: '2026-03-17', automated: true, provider: 'claude' };
+
+  it('fm-order-1: フィールド順序が FIELD_ORDER に一致する', () => {
+    const input = '---\nsources: ["https://example.com"]\ntitle: Test\ncategory: paper-review\nslug: test\ndate: 2026-03-17\nautomated: true\ntags: ["AI"]\nsummary: A valid summary text here\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    const lines = result.split('\n');
+    // frontmatter 内のフィールド順序を確認（--- の間の行）
+    const fmLines = lines.slice(1, lines.indexOf('---', 1));
+    const keys = fmLines.map(l => l.split(':')[0]);
+    expect(keys).toEqual(['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources']);
+  });
+
+  it('fm-order-2: 余分なフィールドが除去される', () => {
+    const input = '---\ntitle: Test\nslug: test\nextra_field: should be removed\ntags: ["AI"]\nsummary: A valid summary\ndate: 2026-03-17\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    expect(result).not.toContain('extra_field');
+  });
+
+  it('fm-sanitize-1: summary の改行・連続スペースを正規化', () => {
+    const input = '---\ntitle: Test\ntags: ["AI"]\nsummary: Line one\\nLine two   with   spaces\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    const summary = String(frontmatter.summary);
+    expect(summary).not.toContain('\\n');
+    expect(summary).not.toMatch(/\s{2,}/);
+  });
+
+  it('fm-sanitize-2: title が空 → body の最初の見出しから取得', () => {
+    const input = '---\ntitle: \ntags: ["AI"]\nsummary: A valid summary text\n---\n# Amazing Paper Title\nBody content here.';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.title).toBe('Amazing Paper Title');
   });
 });

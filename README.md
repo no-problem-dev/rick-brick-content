@@ -44,8 +44,8 @@ Select the LLM provider with the `RESEARCH_PROVIDER` environment variable.
 | Value | Provider | Default Model |
 |-------|----------|---------------|
 | `claude` | Claude API (web_search) | claude-haiku-4-5 |
-| `gemini` | Gemini API (Grounding with Google Search) | gemini-2.0-flash |
-| `openai` | OpenAI API (web_search_preview) | gpt-4o-mini-search-preview |
+| `gemini` | Gemini API (Grounding with Google Search) | gemini-2.5-flash |
+| `openai` | OpenAI API (web_search) | gpt-4.1-mini |
 
 ### Manual Execution
 
