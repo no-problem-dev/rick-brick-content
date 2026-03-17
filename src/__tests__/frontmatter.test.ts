@@ -140,6 +140,38 @@ describe('extractMarkdownFromLLMResponse', () => {
     expect(result.startsWith('---\n')).toBe(true);
   });
 
+  it('fm-double-5: 末尾スペース付き二重 frontmatter (OpenAI 実パターン) を処理する', () => {
+    // OpenAI Responses API は `--- ` (末尾スペース) と各行に末尾スペースを付けて出力する
+    const input = [
+      '--- ',
+      'title: "Broken Title" ',
+      'slug: "paper-review-2026-03-17" ',
+      '--- ',
+      '--- ',
+      '--- ',
+      'title: "Real Article Title" ',
+      'slug: "paper-review-2026-03-17" ',
+      'date: "2026-03-17" ',
+      'tags: ["AI", "ML"] ',
+      'category: "paper-review" ',
+      'automated: true ',
+      'sources: ["https://arxiv.org/abs/1234.5678"] ',
+      '--- ',
+      '',
+      '### エグゼクティブサマリー',
+      '',
+      '本論文の解説です。',
+    ].join('\n');
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result).toContain('title: "Real Article Title"');
+    expect(result).toContain('### エグゼクティブサマリー');
+    expect(result).not.toContain('Broken Title');
+    expect(result.startsWith('---\n')).toBe(true);
+    // body に余分な --- が残っていないこと
+    const { body } = parseFrontmatter(result);
+    expect(body).not.toMatch(/^---$/m);
+  });
+
   it('fm-double-3: frontmatter なしは空 frontmatter を付与', () => {
     const input = '# Just a body\nNo frontmatter.';
     const result = extractMarkdownFromLLMResponse(input);

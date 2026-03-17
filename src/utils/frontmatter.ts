@@ -87,6 +87,11 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
   }
 
   // 二重 frontmatter 検出: `---` が3つ以上出現するケースを処理
+  // OpenAI は `--- ` (末尾スペース) を出力するため、trim して正規化
+  text = text.replace(/^---[ \t]*$/gm, '---');
+  // 各行の末尾スペースも除去（frontmatter フィールド行の末尾スペース対策）
+  text = text.split('\n').map(line => line.trimEnd()).join('\n');
+
   if (text.startsWith('---\n')) {
     const separatorPattern = /^---$/gm;
     const separators: number[] = [];
