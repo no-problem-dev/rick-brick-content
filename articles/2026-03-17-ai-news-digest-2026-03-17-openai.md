@@ -8,7 +8,6 @@ category: "ai-news-digest"
 automated: true
 provider: "openai"
 sources: ["https://www.sankei.jp/wp-content/uploads/2026/03/AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%A7%E8%80%83%E3%81%88%E3%82%8BRoi%E3%81%A8%E6226.pdf","https://www.comture.com/ir/irlibrary/briefingmaterial/pdf/20260206kikan.pdf","https://prtimes.jp/a/?c=5875&f=d5875-7166-ce7e248a26898cb98ea505cc53ec9113.pdf&r=7166","https://www.sbic.co.jp/wordpress/file/2026.03.05%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E6%A1%88%E5%86%85%E7%8A%B6%EF%BC%88%E6%9C%80%E7%B5%82.pdf","https://gozen-ai.com/wp-content/uploads/2025/06/GOZEN_AINews_20250609.pdf"]
-draft: true
 thumbnail: "/images/ai-news-digest-2026-03-17-openai.png"
 ---
 

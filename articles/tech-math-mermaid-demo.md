@@ -5,7 +5,6 @@ date: "2024-01-15"
 category: tech-article
 tags: ["KaTeX", "Mermaid", "デモ"]
 automated: false
-draft: true
 ---
 
 ## 数式レンダリング（KaTeX）
