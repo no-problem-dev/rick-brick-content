@@ -1,0 +1,83 @@
+name: Generate Articles
+
+on:
+  schedule:
+    # 毎日 UTC 20:00 (JST 05:00) に実行
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: 'リサーチプロバイダー (claude / gemini / openai)'
+        required: false
+        default: 'claude'
+        type: choice
+        options:
+          - claude
+          - gemini
+          - openai
+      model:
+        description: 'モデル上書き（空欄でデフォルト）'
+        required: false
+        default: ''
+      dry_run:
+        description: 'ドライラン（push・デプロイトリガーをスキップ）'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      RESEARCH_PROVIDER: ${{ inputs.provider || 'openai' }}
+      RESEARCH_MODEL: ${{ inputs.model || '' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run research
+        run: npx tsx src/scripts/research.ts
+
+      - name: Generate articles
+        run: npx tsx src/scripts/generate.ts
+
+      - name: Generate thumbnails
+        run: npx tsx src/scripts/thumbnail.ts
+
+      - name: Validate articles
+        run: npx tsx src/scripts/validate.ts
+
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/ images/
+          if git diff --staged --quiet; then
+            echo "No new articles generated"
+            exit 0
+          fi
+          git commit -m "chore: auto-generate articles $(date -u +%Y-%m-%d)"
+          git push origin main
+
+      - name: Trigger deploy
+        if: ${{ !inputs.dry_run }}
+        run: npx tsx src/scripts/trigger-deploy.ts
+        env:
+          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}
