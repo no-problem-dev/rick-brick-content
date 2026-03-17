@@ -42,7 +42,7 @@ jobs:
     timeout-minutes: 30
 
     env:
-      RESEARCH_PROVIDER: ${{ inputs.provider || 'openai' }}
+      RESEARCH_PROVIDER: ${{ inputs.provider || 'claude' }}
       RESEARCH_MODEL: ${{ inputs.model || '' }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -77,11 +77,12 @@ jobs:
       - name: Validate articles
         run: npx tsx src/scripts/validate.ts
 
-      - name: Publish articles (remove draft flag)
+      - name: Publish articles (remove draft flag from newly generated only)
         if: ${{ !inputs.draft_mode }}
         run: |
-          for file in articles/*.md; do
-            if grep -q "^draft: true$" "$file" 2>/dev/null; then
+          TODAY=$(date -u +%Y-%m-%d)
+          for file in articles/${TODAY}-*.md; do
+            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
               sed -i '/^draft: true$/d' "$file"
               echo "Published: $file"
             fi
