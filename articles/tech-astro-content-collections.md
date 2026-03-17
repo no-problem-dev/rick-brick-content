@@ -120,8 +120,7 @@ const baseSchema = z.object({
 });
 
 const paperReviewSchema = baseSchema.extend({
-  paper_url: z.string().url(),
-  paper_title: z.string(),
+  sources: z.array(z.string().url()).min(1),
 });
 ```
 

@@ -15,9 +15,7 @@ date: "YYYY-MM-DD"
 tags: ["関連タグ1", "関連タグ2", "関連タグ3"]
 category: "paper-review"
 automated: true
-paper_url: "論文のURL"
-paper_title: "論文の原題（英語）"
-sources: ["参考URL1", "参考URL2"]
+sources: ["論文のURL", "参考URL1", "参考URL2"]
 ---
 
 **slug の命名規則**: `{category}-{YYYY-MM-DD}` 形式を厳守してください。例: `paper-review-2026-03-17`

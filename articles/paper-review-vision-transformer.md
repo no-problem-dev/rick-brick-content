@@ -6,8 +6,6 @@ category: paper-review
 tags: ["ViT", "画像認識", "Transformer"]
 automated: true
 provider: claude
-paper_url: "https://arxiv.org/abs/2010.11929"
-paper_title: "An Image is Worth 16x16 Words"
 sources: ["https://arxiv.org/abs/2010.11929"]
 draft: true
 ---
