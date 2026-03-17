@@ -6,8 +6,6 @@ category: paper-review
 tags: ["LoRA", "ファインチューニング", "LLM"]
 automated: true
 provider: gemini
-paper_url: "https://arxiv.org/abs/2106.09685"
-paper_title: "LoRA: Low-Rank Adaptation of Large Language Models"
 sources: ["https://arxiv.org/abs/2106.09685"]
 draft: true
 ---

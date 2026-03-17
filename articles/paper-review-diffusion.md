@@ -6,8 +6,6 @@ category: paper-review
 tags: ["拡散モデル", "画像生成", "生成AI"]
 automated: true
 provider: openai
-paper_url: "https://arxiv.org/abs/2006.11239"
-paper_title: "Denoising Diffusion Probabilistic Models"
 sources: ["https://arxiv.org/abs/2006.11239"]
 draft: true
 ---

@@ -5,8 +5,6 @@ date: "2024-03-10"
 category: paper-review
 tags: ["Transformer", "自然言語処理", "ディープラーニング"]
 automated: false
-paper_url: "https://arxiv.org/abs/1706.03762"
-paper_title: "Attention Is All You Need"
 sources: ["https://arxiv.org/abs/1706.03762"]
 draft: true
 ---

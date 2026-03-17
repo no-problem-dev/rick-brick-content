@@ -6,8 +6,6 @@ category: paper-review
 tags: ["RAG", "LLM", "検索", "AI"]
 automated: true
 provider: openai
-paper_url: "https://arxiv.org/abs/2312.10997"
-paper_title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
 sources: ["https://arxiv.org/abs/2312.10997"]
 draft: true
 ---

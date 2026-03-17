@@ -6,8 +6,6 @@ category: paper-review
 tags: ["SSM", "Mamba", "ディープラーニング"]
 automated: true
 provider: claude
-paper_url: "https://arxiv.org/abs/2312.00752"
-paper_title: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
 sources: ["https://arxiv.org/abs/2312.00752"]
 draft: true
 ---
