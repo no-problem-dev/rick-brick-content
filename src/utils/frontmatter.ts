@@ -86,11 +86,17 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
     return text;
   }
 
-  // 開始の --- がないが、frontmatter フィールドで始まるケース
+  // 開始の --- がないが、\n---\n が本文中にあるケース
+  // frontmatter フィールドが先頭にあり、--- で閉じられている
   // (例: "title: ...\nslug: ...\n---\n# Body")
-  const closingFmMatch = text.match(/^((?:\w+:.*\n)+)---\n([\s\S]*)$/);
-  if (closingFmMatch) {
-    return `---\n${closingFmMatch[1]}---\n${closingFmMatch[2]}`;
+  // summary が複数行にまたがったり、空行が混じる場合にも対応
+  const closingIdx = text.indexOf('\n---\n');
+  if (closingIdx > 0) {
+    const before = text.slice(0, closingIdx);
+    // 先頭部分が key: value 形式の行で始まっているか確認
+    if (/^\w+:\s/.test(before)) {
+      return `---\n${before}\n---\n${text.slice(closingIdx + 5)}`;
+    }
   }
 
   // frontmatter がまったくない場合は空の frontmatter を付与
