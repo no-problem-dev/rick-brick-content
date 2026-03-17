@@ -12,7 +12,7 @@ export function createResearchProvider(): ResearchProvider {
     case 'claude': {
       const apiKey = process.env.ANTHROPIC_API_KEY;
       if (!apiKey) throw new Error('ANTHROPIC_API_KEY is not set');
-      return new ClaudeProvider({ apiKey, model: modelOverride || 'claude-haiku-4-5' });
+      return new ClaudeProvider({ apiKey, model: modelOverride || 'claude-sonnet-4-5' });
     }
     case 'gemini': {
       const apiKey = process.env.GEMINI_API_KEY;
