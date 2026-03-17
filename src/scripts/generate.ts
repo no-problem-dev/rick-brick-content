@@ -1,41 +1,61 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
+import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
+import { CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
+
+export interface ProcessedArticle {
+  slug: string;
+  filename: string;
+  markdown: string;
+}
+
+/**
+ * ResearchResult を処理し、ファイル出力用のデータを生成する純粋関数。
+ * ファイル I/O は含まない。
+ */
+export function processResearchResult(
+  result: ResearchResult,
+  category: string,
+  today: string,
+): ProcessedArticle | null {
+  if (result.status !== 'success' || !result.markdown) {
+    return null;
+  }
+
+  let markdown = result.markdown;
+  // 自動生成注意文を末尾に追加
+  markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
+
+  const slug = resolveSlug(result, category, today);
+  if (!validateSlug(slug)) {
+    return null;
+  }
+
+  const filename = buildArticleFilename(slug, today);
+  return { slug, filename, markdown };
+}
 
 function main() {
-  const tmpDir = '.tmp';
-  const outputDir = 'articles';
-  const categories = ['paper-review', 'ai-news-digest'] as const;
   const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
-  for (const category of categories) {
-    const inputPath = join(tmpDir, `research-${category}.json`);
+  for (const category of CATEGORIES) {
+    const inputPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(inputPath)) {
       console.log(`${category}: research file not found, skipping`);
       continue;
     }
 
     const result: ResearchResult = JSON.parse(readFileSync(inputPath, 'utf-8'));
-    if (result.status !== 'success' || !result.markdown) {
-      console.log(`${category}: research failed, skipping`);
+    const processed = processResearchResult(result, category, today);
+    if (!processed) {
+      console.log(`${category}: research failed or invalid slug, skipping`);
       continue;
     }
 
-    // Markdown にフロントマッターが含まれているか確認
-    let markdown = result.markdown;
-    // draft: true をフロントマッターに挿入
-    markdown = markdown.replace(/^---\n/, '---\ndraft: true\n');
-    // 自動生成注意文を末尾に追加
-    markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
-
-    // slug を frontmatter から抽出するか、カテゴリ+日付で生成
-    const slugMatch = markdown.match(/slug:\s*["']?([^\s"']+)/);
-    const slug = slugMatch?.[1] || `${category}-${today}`;
-    const filename = `${today}-${slug}.md`;
-    const outputPath = join(outputDir, filename);
-
-    writeFileSync(outputPath, markdown);
-    console.log(`${category}: generated ${filename}`);
+    const outputPath = join(ARTICLES_DIR, processed.filename);
+    writeFileSync(outputPath, processed.markdown);
+    console.log(`${category}: generated ${processed.filename}`);
   }
 }
 

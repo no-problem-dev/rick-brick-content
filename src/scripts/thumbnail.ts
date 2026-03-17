@@ -2,6 +2,8 @@ import { readFileSync, writeFileSync, existsSync, copyFileSync, mkdirSync, readd
 import { join, dirname } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { upsertFrontmatterField } from '../utils/frontmatter.js';
+import { resolveSlug, validateSlug } from '../utils/slug.js';
+import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH } from '../config/constants.js';
 
 interface ThumbnailResult {
   slug: string;
@@ -33,16 +35,15 @@ async function generateThumbnail(
   summary: string,
   apiKey: string,
 ): Promise<ThumbnailResult> {
-  const outputDir = 'images';
-  const outputPath = join(outputDir, `${slug}.png`);
-  const defaultImagePath = join(outputDir, 'defaults', 'default.png');
+  const outputPath = join(IMAGES_DIR, `${slug}.png`);
+  const defaultImagePath = DEFAULT_IMAGE_PATH;
 
   mkdirSync(dirname(outputPath), { recursive: true });
 
   try {
     const prompt = `Create a modern, visually appealing blog thumbnail image.\nTopic: ${title}\nSummary: ${summary}\nStyle: Clean, tech-themed, abstract illustration. No text in the image.`;
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGEN_MODEL}:predict?key=${apiKey}`;
     const response = await fetch(url, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
@@ -60,9 +61,9 @@ async function generateThumbnail(
     }
 
     const data = await response.json() as {
-      predictions?: Array<{ bytesBase64Encoded?: string }>;
+      generatedImages?: Array<{ image?: { imageBytes?: string } }>;
     };
-    const imageData = data.predictions?.[0]?.bytesBase64Encoded;
+    const imageData = data.generatedImages?.[0]?.image?.imageBytes;
 
     if (!imageData) {
       throw new Error('No image data in Imagen response');
@@ -93,7 +94,7 @@ async function generateThumbnail(
  * 記事ファイルの frontmatter に thumbnail パスを追記する
  */
 function updateArticleThumbnail(slug: string, thumbnailPath: string): void {
-  const articlesDir = 'articles';
+  const articlesDir = ARTICLES_DIR;
 
   // articles/ から {date}-{slug}.md にマッチするファイルを探す
   if (!existsSync(articlesDir)) {
@@ -123,17 +124,22 @@ async function main() {
     process.exit(1);
   }
 
-  const tmpDir = '.tmp';
-  const categories = ['paper-review', 'ai-news-digest'] as const;
+  const categories = CATEGORIES;
+  const today = new Date().toISOString().split('T')[0];
 
   for (const category of categories) {
-    const inputPath = join(tmpDir, `research-${category}.json`);
+    const inputPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(inputPath)) continue;
 
     const result: ResearchResult = JSON.parse(readFileSync(inputPath, 'utf-8'));
     if (result.status !== 'success' || !result.frontmatter) continue;
 
-    const { slug, title, summary } = result.frontmatter;
+    const slug = resolveSlug(result, category, today);
+    if (!validateSlug(slug)) {
+      console.error(`${category}: invalid slug "${slug}", skipping thumbnail generation`);
+      continue;
+    }
+    const { title, summary } = result.frontmatter;
     const thumbnailResult = await generateThumbnail(slug, title, summary, apiKey);
     console.log(`${category}: thumbnail ${thumbnailResult.status} → ${thumbnailResult.path}`);
 

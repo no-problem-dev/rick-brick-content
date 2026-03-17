@@ -1,13 +1,13 @@
 import { createResearchProvider } from '../providers/provider-factory.js';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { CATEGORIES, TMP_DIR } from '../config/constants.js';
 
 async function main() {
   const provider = createResearchProvider();
-  const tmpDir = '.tmp';
-  mkdirSync(tmpDir, { recursive: true });
+  mkdirSync(TMP_DIR, { recursive: true });
 
-  const categories = ['paper-review', 'ai-news-digest'] as const;
+  const categories = CATEGORIES;
 
   // 並列実行
   const results = await Promise.allSettled(
@@ -41,7 +41,7 @@ async function main() {
     const category = categories[i];
     const settled = results[i];
     if (!settled) continue;
-    const outputPath = join(tmpDir, `research-${category}.json`);
+    const outputPath = join(TMP_DIR, `research-${category}.json`);
     const data = settled.status === 'fulfilled'
       ? settled.value
       : { category, status: 'error' as const, error: String((settled as PromiseRejectedResult).reason) };
