@@ -36,11 +36,23 @@ export class ClaudeProvider extends BaseResearchProvider {
 
     console.log(`Claude response: ${data.content.length} content blocks, types: [${data.content.map((c) => c.type).join(', ')}]`);
 
-    // web_search 使用時は複数の text ブロックが返る:
-    // 最初の text = 前置き（「調査します」等）、最後の text = 実際の記事
-    // frontmatter (---) を含む text ブロックを優先、なければ最後の text ブロックを使用
-    const articleBlock = textBlocks.find((c) => c.text!.includes('---\n')) ?? textBlocks[textBlocks.length - 1]!;
+    // web_search 使用時、text ブロックが多数に分割される:
+    // [text(前置き), server_tool_use, ..., web_search_tool_result, text(記事1), text(記事2), ...]
+    // 最後の web_search_tool_result 以降の text ブロックをすべて連結して記事とする
+    const lastSearchIdx = data.content.reduce(
+      (acc, c, i) => (c.type === 'web_search_tool_result' ? i : acc), -1,
+    );
 
-    return this.buildResult(request.category, articleBlock.text!);
+    // 検索結果以降の text ブロックを連結（検索なしの場合は前置きを除いて全連結）
+    const articleTexts = data.content
+      .filter((c, i) => c.type === 'text' && c.text && i > (lastSearchIdx >= 0 ? lastSearchIdx : 0))
+      .map((c) => c.text!);
+
+    // 検索結果後の text がなければフォールバック: 全 text ブロックの最後
+    const articleText = articleTexts.length > 0
+      ? articleTexts.join('\n\n')
+      : textBlocks[textBlocks.length - 1]!.text!;
+
+    return this.buildResult(request.category, articleText);
   }
 }
