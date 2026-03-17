@@ -46,7 +46,11 @@ async function main() {
       ? settled.value
       : { category, status: 'error' as const, error: String((settled as PromiseRejectedResult).reason) };
     writeFileSync(outputPath, JSON.stringify(data, null, 2));
-    console.log(`${category}: ${data.status === 'success' ? 'OK' : 'ERROR'}`);
+    if (data.status === 'success') {
+      console.log(`${category}: OK`);
+    } else {
+      console.error(`${category}: ERROR - ${'error' in data ? data.error : 'unknown'}`);
+    }
   }
 }
 
