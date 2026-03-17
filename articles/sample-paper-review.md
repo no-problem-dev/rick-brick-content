@@ -8,6 +8,7 @@ automated: false
 paper_url: "https://arxiv.org/abs/1234.56789"
 paper_title: "Sample Paper Title"
 sources: ["https://arxiv.org/abs/1234.56789"]
+draft: true
 ---
 
 ## はじめに

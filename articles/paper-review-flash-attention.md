@@ -5,9 +5,11 @@ date: "2024-08-01"
 category: paper-review
 tags: ["FlashAttention", "GPU", "最適化"]
 automated: true
+provider: claude
 paper_url: "https://arxiv.org/abs/2205.14135"
 paper_title: "FlashAttention: Fast and Memory-Efficient Exact Attention"
 sources: ["https://arxiv.org/abs/2205.14135"]
+draft: true
 ---
 
 ## はじめに

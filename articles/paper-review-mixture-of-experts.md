@@ -5,9 +5,11 @@ date: "2024-09-01"
 category: paper-review
 tags: ["MoE", "スケーリング", "LLM"]
 automated: true
+provider: gemini
 paper_url: "https://arxiv.org/abs/2401.04088"
 paper_title: "Mixtral of Experts"
 sources: ["https://arxiv.org/abs/2401.04088"]
+draft: true
 ---
 
 ## はじめに
