@@ -1,18 +1,11 @@
-import type { ResearchProvider, ResearchRequest, ResearchResult, ClaudeProviderConfig } from '../types/research.js';
-import { readFileSync } from 'node:fs';
+import type { ResearchRequest, ResearchResult } from '../types/research.js';
+import { BaseResearchProvider } from './base-provider.js';
 
-export class ClaudeProvider implements ResearchProvider {
+export class ClaudeProvider extends BaseResearchProvider {
   readonly name = 'claude' as const;
-  private config: ClaudeProviderConfig;
-
-  constructor(config: ClaudeProviderConfig) {
-    this.config = config;
-  }
 
   async research(request: ResearchRequest): Promise<ResearchResult> {
-    const basePrompt = readFileSync(request.basePromptPath, 'utf-8');
-    const providerPrompt = readFileSync(request.providerPromptPath, 'utf-8');
-    const fullPrompt = `${basePrompt}\n\n${providerPrompt}`;
+    const fullPrompt = this.loadPrompts(request);
 
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -31,27 +24,15 @@ export class ClaudeProvider implements ResearchProvider {
 
     if (!response.ok) {
       const errorText = await response.text();
-      return {
-        category: request.category,
-        status: 'error',
-        error: `Claude API error ${response.status}: ${errorText}`,
-      };
+      return this.buildError(request.category, `Claude API error ${response.status}: ${errorText}`);
     }
 
     const data = await response.json() as { content: Array<{ type: string; text?: string }> };
     const textBlock = data.content.find((c) => c.type === 'text');
     if (!textBlock?.text) {
-      return {
-        category: request.category,
-        status: 'error',
-        error: 'No text content in Claude response',
-      };
+      return this.buildError(request.category, 'No text content in Claude response');
     }
 
-    return {
-      category: request.category,
-      status: 'success',
-      markdown: textBlock.text,
-    };
+    return this.buildResult(request.category, textBlock.text);
   }
 }

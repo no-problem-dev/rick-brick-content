@@ -1,18 +1,11 @@
-import type { ResearchProvider, ResearchRequest, ResearchResult, OpenaiProviderConfig } from '../types/research.js';
-import { readFileSync } from 'node:fs';
+import type { ResearchRequest, ResearchResult } from '../types/research.js';
+import { BaseResearchProvider } from './base-provider.js';
 
-export class OpenaiProvider implements ResearchProvider {
+export class OpenaiProvider extends BaseResearchProvider {
   readonly name = 'openai' as const;
-  private config: OpenaiProviderConfig;
-
-  constructor(config: OpenaiProviderConfig) {
-    this.config = config;
-  }
 
   async research(request: ResearchRequest): Promise<ResearchResult> {
-    const basePrompt = readFileSync(request.basePromptPath, 'utf-8');
-    const providerPrompt = readFileSync(request.providerPromptPath, 'utf-8');
-    const fullPrompt = `${basePrompt}\n\n${providerPrompt}`;
+    const fullPrompt = this.loadPrompts(request);
 
     const response = await fetch('https://api.openai.com/v1/responses', {
       method: 'POST',
@@ -29,11 +22,7 @@ export class OpenaiProvider implements ResearchProvider {
 
     if (!response.ok) {
       const errorText = await response.text();
-      return {
-        category: request.category,
-        status: 'error',
-        error: `OpenAI API error ${response.status}: ${errorText}`,
-      };
+      return this.buildError(request.category, `OpenAI API error ${response.status}: ${errorText}`);
     }
 
     const data = await response.json() as {
@@ -42,17 +31,9 @@ export class OpenaiProvider implements ResearchProvider {
     const messageItem = data.output.find((item) => item.type === 'message');
     const text = messageItem?.content?.find((c) => c.type === 'output_text')?.text;
     if (!text) {
-      return {
-        category: request.category,
-        status: 'error',
-        error: 'No text content in OpenAI response',
-      };
+      return this.buildError(request.category, 'No text content in OpenAI response');
     }
 
-    return {
-      category: request.category,
-      status: 'success',
-      markdown: text,
-    };
+    return this.buildResult(request.category, text);
   }
 }
