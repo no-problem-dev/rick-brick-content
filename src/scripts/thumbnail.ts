@@ -43,10 +43,13 @@ async function generateThumbnail(
   try {
     const prompt = `Create a modern, visually appealing blog thumbnail image.\nTopic: ${title}\nSummary: ${summary}\nStyle: Clean, tech-themed, abstract illustration. No text in the image.`;
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGEN_MODEL}:predict?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGEN_MODEL}:predict`;
     const response = await fetch(url, {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: {
+        'content-type': 'application/json',
+        'x-goog-api-key': apiKey,
+      },
       body: JSON.stringify({
         instances: [{ prompt }],
         parameters: {
