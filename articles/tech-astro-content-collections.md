@@ -5,6 +5,7 @@ date: "2024-02-20"
 category: tech-article
 tags: ["Astro", "TypeScript", "SSG", "Web開発"]
 automated: false
+draft: true
 ---
 
 ## はじめに

@@ -22,7 +22,7 @@ export function createResearchProvider(): ResearchProvider {
     case 'openai': {
       const apiKey = process.env.OPENAI_API_KEY;
       if (!apiKey) throw new Error('OPENAI_API_KEY is not set');
-      return new OpenaiProvider({ apiKey, model: modelOverride || 'gpt-4.1-mini' });
+      return new OpenaiProvider({ apiKey, model: modelOverride || 'gpt-4.1' });
     }
     case 'mock': {
       return new MockProvider({ apiKey: 'mock', model: 'mock' });

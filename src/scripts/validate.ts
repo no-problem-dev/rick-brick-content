@@ -186,8 +186,11 @@ function main() {
   console.log(`\n--- Summary ---`);
   console.log(`Total: ${summary.totalArticles}, Errors: ${summary.articlesWithErrors}, Warnings: ${summary.articlesWithWarnings}`);
 
-  // QG-3: エラーでも続行（常に exit 0）
-  process.exit(0);
+  // QG-3: エラーがある場合は exit 1 で後続の commit/push を阻止
+  if (summary.articlesWithErrors > 0) {
+    console.error(`\nValidation failed: ${summary.articlesWithErrors} article(s) have errors`);
+    process.exit(1);
+  }
 }
 
 // スクリプトとして直接実行された場合のみ main を呼ぶ

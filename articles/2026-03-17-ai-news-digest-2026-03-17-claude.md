@@ -8,6 +8,7 @@ category: "ai-news-digest"
 automated: true
 provider: "claude"
 sources: ["https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/","https://blogs.nvidia.com/blog/gtc-2026-news/","https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html","https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/","https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/","https://www.anthropic.com/news","https://deepmind.google/","https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html"]
+draft: true
 thumbnail: "/images/ai-news-digest-2026-03-17-claude.png"
 ---
 
