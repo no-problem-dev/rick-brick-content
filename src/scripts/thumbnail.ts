@@ -61,9 +61,9 @@ async function generateThumbnail(
     }
 
     const data = await response.json() as {
-      generatedImages?: Array<{ image?: { imageBytes?: string } }>;
+      predictions?: Array<{ bytesBase64Encoded?: string; mimeType?: string }>;
     };
-    const imageData = data.generatedImages?.[0]?.image?.imageBytes;
+    const imageData = data.predictions?.[0]?.bytesBase64Encoded;
 
     if (!imageData) {
       throw new Error('No image data in Imagen response');
