@@ -11,7 +11,7 @@ export class ClaudeProvider extends BaseResearchProvider {
       method: 'POST',
       headers: {
         'x-api-key': this.config.apiKey,
-        'anthropic-version': '2023-06-01',
+        'anthropic-version': '2025-04-15',
         'content-type': 'application/json',
       },
       body: JSON.stringify({
@@ -28,11 +28,19 @@ export class ClaudeProvider extends BaseResearchProvider {
     }
 
     const data = await response.json() as { content: Array<{ type: string; text?: string }> };
-    const textBlock = data.content.find((c) => c.type === 'text');
-    if (!textBlock?.text) {
+    const textBlocks = data.content.filter((c) => c.type === 'text' && c.text);
+
+    if (textBlocks.length === 0) {
       return this.buildError(request.category, 'No text content in Claude response');
     }
 
-    return this.buildResult(request.category, textBlock.text);
+    console.log(`Claude response: ${data.content.length} content blocks, types: [${data.content.map((c) => c.type).join(', ')}]`);
+
+    // web_search 使用時は複数の text ブロックが返る:
+    // 最初の text = 前置き（「調査します」等）、最後の text = 実際の記事
+    // frontmatter (---) を含む text ブロックを優先、なければ最後の text ブロックを使用
+    const articleBlock = textBlocks.find((c) => c.text!.includes('---\n')) ?? textBlocks[textBlocks.length - 1]!;
+
+    return this.buildResult(request.category, articleBlock.text!);
   }
 }

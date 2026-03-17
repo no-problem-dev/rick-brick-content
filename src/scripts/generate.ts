@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
-import { upsertFrontmatterField } from '../utils/frontmatter.js';
+import { upsertFrontmatterField, normalizeFrontmatter } from '../utils/frontmatter.js';
 import { CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
 export interface ProcessedArticle {
@@ -24,7 +24,12 @@ export function processResearchResult(
     return null;
   }
 
-  let markdown = result.markdown;
+  // LLM 出力の frontmatter を正規化（不足フィールドの補完、不正値の修復）
+  let markdown = normalizeFrontmatter(result.markdown, {
+    category,
+    date: today,
+    automated: true,
+  });
   // 自動生成注意文を末尾に追加
   markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
 

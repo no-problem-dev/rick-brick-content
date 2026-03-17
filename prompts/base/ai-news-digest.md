@@ -6,12 +6,14 @@
 - 注目のAIツール・サービスのリリース
 
 ## 出力形式
+**出力の最初の行は必ず `---` であること。** 前置きテキスト（「以下にまとめます」等）は絶対に付けないでください。
+
 以下のfrontmatter付きMarkdownを出力してください:
 
 ---
 title: "AIニュースダイジェスト YYYY年MM月DD日"
 slug: "ai-news-digest-YYYY-MM-DD"
-summary: "100-150文字の要約"
+summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"
 tags: ["AI", "ニュース", "その他関連タグ"]
 category: "ai-news-digest"
@@ -19,8 +21,13 @@ automated: true
 sources: ["ニュースソースURL1", "ニュースソースURL2", ...]
 ---
 
-**slug の命名規則**: `{category}-{YYYY-MM-DD}` 形式を厳守してください。例: `ai-news-digest-2026-03-17`
-※ thumbnail フィールドは後処理で自動注入されるため、ここでは指定しないでください。
+### frontmatter ルール
+- **slug**: `{category}-{YYYY-MM-DD}` 形式を厳守。例: `ai-news-digest-2026-03-17`
+- **summary**: 50〜200文字の日本語要約
+- **tags**: 3個以上の配列
+- **sources**: 有効な URL のみ
+- **automated**: 必ず `true`
+- ※ thumbnail フィールドは後処理で自動注入されるため、ここでは指定しないでください
 
 ## 記事構成
 1. 今日のハイライト（最重要ニュース1-2件を深掘り）
