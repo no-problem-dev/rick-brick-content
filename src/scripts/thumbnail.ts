@@ -41,7 +41,7 @@ async function generateThumbnail(
   mkdirSync(dirname(outputPath), { recursive: true });
 
   try {
-    const prompt = `Create a cute illustrated blog thumbnail featuring a cat as the main character acting out the topic.\nTopic: ${title}\nSummary: ${summary}\nStyle: The cat should be drawn in a cute, expressive anime-inspired illustration style, dressed up or acting in a role that represents the topic. For example: if the topic is about robotics, draw a cat wearing engineer goggles working with robots. If about politics or government policy, draw a cat in a suit giving a speech at a podium. If about a new AI model release, draw a cat scientist in a lab coat. The background should be colorful and tech-themed. No text in the image.`;
+    const prompt = `A photorealistic image of a real cat as the main character, acting out the topic of this blog post.\nTopic: ${title}\nSummary: ${summary}\nStyle: The cat must look like a real, photorealistic cat (not cartoon or illustration). The cat should be dressed up or placed in a scene that represents the topic. For example: if the topic is about robotics or physical AI, show a real cat wearing a tiny hard hat at a construction site. If about politics or government, show a real cat in a tiny suit at a podium. If about a new AI model, show a real cat wearing tiny glasses in a laboratory. The scene should be detailed and realistic with appropriate props and background.\nSTRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, or captions anywhere in the image. The image must contain zero text of any kind.`;
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGEN_MODEL}:predict`;
     const response = await fetch(url, {
