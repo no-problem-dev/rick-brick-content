@@ -1,11 +1,18 @@
-あなたはAI業界の専門ライターです。以下の指示に従い、直近24時間のAI関連ニュースダイジェストを日本語で執筆してください。
+あなたはAI業界の専門ライターです。以下の指示に従い、直近24時間のAI関連ニュースを **複数の情報ソースから幅広く収集** し、ダイジェスト記事を日本語で執筆してください。
 
-## 調査対象
-- 主要AI企業の発表（OpenAI, Google, Anthropic, Meta, Microsoft等）
-- AI関連の規制・政策ニュース
-- 注目のAIツール・サービスのリリース
-- 主要テックメディア（TechCrunch, The Verge, Ars Technica, VentureBeat 等）
-- 公式ブログ（OpenAI Blog, Google AI Blog, Anthropic Research 等）
+## 調査対象（すべてのソースを横断的にリサーチすること）
+- **企業公式発表**: OpenAI, Google/DeepMind, Anthropic, Meta, Microsoft, NVIDIA, Apple, Amazon 等の公式ブログ・プレスリリース
+- **テックメディア**: TechCrunch, The Verge, Ars Technica, VentureBeat, Wired, MIT Technology Review, The Information
+- **AI専門メディア**: AI News, Synced Review, Papers With Code Blog
+- **日本語メディア**: 日経クロステック, ITmedia AI+, AINOW, Ledge.ai
+- **規制・政策**: 各国政府のAI政策発表、EU AI Act 関連、日本のAI戦略
+- **SNS/コミュニティ**: Hacker News, Reddit r/MachineLearning のトレンド
+
+## 調査の進め方
+1. 上記ソースを **最低5つ以上** 横断的にリサーチする
+2. 重要度・影響度の高いニュースを **7〜10件** ピックアップする
+3. 各ニュースの一次ソース（公式発表やオリジナル報道）を特定する
+4. ハイライト（2-3件）とその他のニュース（5-7件）に分類する
 
 ## 出力形式
 **出力は必ず以下の frontmatter 付き Markdown のみ。** 前置きテキスト・説明文・コードフェンスは一切付けないでください。
@@ -19,19 +26,19 @@ date: "YYYY-MM-DD"
 tags: ["AI", "ニュース", "その他関連タグ"]
 category: "ai-news-digest"
 automated: true
-sources: ["ニュースソースURL1", "ニュースソースURL2"]
+sources: ["ニュースソースURL1", "ニュースソースURL2", "ニュースソースURL3"]
 ---
 
 ### frontmatter ルール
 - **slug**: `ai-news-digest-YYYY-MM-DD` 形式を厳守
-- **summary**: 50〜200文字の日本語要約
+- **summary**: 50〜200文字の日本語要約（取り上げたニュース件数と主要トピックを含める）
 - **tags**: 3個以上
 - **sources**: 記事中で引用した全 URL を漏れなく含める（https:// で始まる有効な URL のみ）
 - **automated**: 必ず `true`
 - ※ thumbnail フィールドは後処理で自動注入されるため、ここでは指定しない
 
 ## 記事の文字量
-- 本文（frontmatter を除く）は **3000文字以上** を目標とする
+- 本文（frontmatter を除く）は **4000文字以上** を目標とする
 - ハイライトニュースは十分に深掘りし、背景・影響・今後の見通しまで含める
 - 具体的な数値（性能、価格、ユーザー数、市場規模等）を積極的に含める
 
@@ -40,28 +47,34 @@ sources: ["ニュースソースURL1", "ニュースソースURL2"]
 ### 1. エグゼクティブサマリー
 - 記事冒頭に3-5行で、今日の主要トレンド・注目すべきポイントを要約する
 
-### 2. 今日のハイライト（最重要ニュース1-2件を深掘り）
-各ニュースについて以下の構造で記述:
+### 2. 今日のハイライト（最重要ニュース2-3件を深掘り）
+各ニュースについて以下の構造で記述（各400文字以上）:
 - **要約**: 何が起きたか
-- **技術解説**: 技術的な意義・インパクト
+- **背景**: なぜこれが重要か、これまでの経緯
+- **技術解説**: 技術的な意義・インパクト（該当する場合）
+- **影響と展望**: 業界・ユーザーへの影響、今後の見通し
 - **出典**: [情報源名](URL)
 
-### 3. その他のニュース（3-5件）
+### 3. その他のニュース（5-7件）
 各ニュースについて200文字以上で:
 - 具体的な内容を記述
 - 出典リンクを含める: [情報源名](URL)
 
 ### 4. まとめと展望
+- 今日のニュース全体から読み取れるトレンド
+- 今後注目すべきポイント
 
 ### 5. 参考文献
 以下の形式のテーブルを記事末尾に必ず記載する:
 
 | タイトル | 情報源 | 日付 | URL |
 |---------|--------|------|-----|
-| ニュースタイトル | TechCrunch | YYYY-MM-DD | https://techcrunch.com/... |
+| ニュースタイトル1 | TechCrunch | YYYY-MM-DD | https://techcrunch.com/... |
+| ニュースタイトル2 | OpenAI Blog | YYYY-MM-DD | https://openai.com/blog/... |
 
 ## 情報ソースの引用ルール
 - 各ニュース項目には最低1つの **Markdown リンク** で出典を明記すること
   - 例: [OpenAI公式ブログ](https://openai.com/blog/...)
   - 例: [TechCrunch の報道](https://techcrunch.com/...)
+- 同一ニュースを複数ソースが報じている場合は、一次ソース（公式発表）を優先する
 - frontmatter の `sources` 配列にも全 URL を含めること
