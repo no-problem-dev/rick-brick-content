@@ -11,7 +11,7 @@ export class ClaudeProvider extends BaseResearchProvider {
       method: 'POST',
       headers: {
         'x-api-key': this.config.apiKey,
-        'anthropic-version': '2025-04-15',
+        'anthropic-version': '2023-06-01',
         'content-type': 'application/json',
       },
       body: JSON.stringify({
