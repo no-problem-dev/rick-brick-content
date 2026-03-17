@@ -103,6 +103,13 @@ describe('extractMarkdownFromLLMResponse', () => {
     const result = extractMarkdownFromLLMResponse(input);
     expect(result).toBe('---\ntitle: "Test Article"\nslug: "test"\ndate: "2026-03-17"\n---\n# Body');
   });
+
+  it('fm-16: summary が長文でも開始 --- なしの frontmatter を補完する', () => {
+    const input = 'title: "Test"\nsummary: "This is a very long summary that might span or have special chars: colons, quotes"\nsources: ["https://example.com"]\n---\n\n## Body';
+    const result = extractMarkdownFromLLMResponse(input);
+    expect(result.startsWith('---\ntitle:')).toBe(true);
+    expect(result).toContain('\n---\n\n## Body');
+  });
 });
 
 describe('normalizeFrontmatter', () => {
