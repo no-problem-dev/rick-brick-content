@@ -17,12 +17,12 @@ export function createResearchProvider(): ResearchProvider {
     case 'gemini': {
       const apiKey = process.env.GEMINI_API_KEY;
       if (!apiKey) throw new Error('GEMINI_API_KEY is not set');
-      return new GeminiProvider({ apiKey, model: modelOverride || 'gemini-2.0-flash' });
+      return new GeminiProvider({ apiKey, model: modelOverride || 'gemini-2.5-flash' });
     }
     case 'openai': {
       const apiKey = process.env.OPENAI_API_KEY;
       if (!apiKey) throw new Error('OPENAI_API_KEY is not set');
-      return new OpenaiProvider({ apiKey, model: modelOverride || 'gpt-4.1-nano' });
+      return new OpenaiProvider({ apiKey, model: modelOverride || 'gpt-4.1-mini' });
     }
     case 'mock': {
       return new MockProvider({ apiKey: 'mock', model: 'mock' });
