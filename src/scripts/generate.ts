@@ -40,6 +40,9 @@ export function processResearchResult(
     return null;
   }
 
+  // frontmatter 内の slug を resolveSlug の結果（SLUG_SUFFIX 付き）で上書き
+  markdown = upsertFrontmatterField(markdown, 'slug', slug);
+
   const filename = buildArticleFilename(slug, today);
   return { slug, filename, markdown };
 }

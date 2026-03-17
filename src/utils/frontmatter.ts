@@ -100,7 +100,7 @@ export function extractMarkdownFromLLMResponse(rawText: string): string {
       separators.push(m.index);
     }
 
-    if (separators.length >= 4) {
+    if (separators.length >= 3) {
       // 複数の frontmatter ブロック候補がある
       // 各ペアのブロックを評価し、frontmatter らしいキーが最も多いものを採用
       const fmKeys = /^(?:title|slug|date|category|tags|summary|sources|automated|provider|draft|thumbnail):/m;
