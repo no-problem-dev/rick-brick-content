@@ -13,6 +13,7 @@ export interface FrontmatterDefaults {
   category: string;
   date: string;
   automated: boolean;
+  provider?: string;
 }
 
 /**
@@ -139,6 +140,11 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   // automated
   if (frontmatter.automated === undefined) {
     frontmatter.automated = defaults.automated;
+  }
+
+  // provider: デフォルト値で補完（LLM 出力に含まれていない場合）
+  if (!frontmatter.provider && defaults.provider) {
+    frontmatter.provider = defaults.provider;
   }
 
   // tags: 配列でなければ配列化

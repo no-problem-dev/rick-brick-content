@@ -186,4 +186,34 @@ describe('normalizeFrontmatter', () => {
     const { frontmatter } = parseFrontmatter(result);
     expect(frontmatter.sources).toEqual(['https://example.com']);
   });
+
+  it('fm-17: provider 指定時に frontmatter に provider が追加される', () => {
+    const input = '---\ntitle: Test\ntags: ["AI"]\n---\n# Body';
+    const result = normalizeFrontmatter(input, { ...defaults, provider: 'claude' });
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.provider).toBe('claude');
+  });
+
+  it('fm-18: provider 未指定時は frontmatter に provider が含まれない', () => {
+    const input = '---\ntitle: Test\ntags: ["AI"]\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.provider).toBeUndefined();
+  });
+
+  it('fm-19: LLM 出力に provider が既にある場合は上書きしない', () => {
+    const input = '---\ntitle: Test\nprovider: gemini\ntags: ["AI"]\n---\n# Body';
+    const result = normalizeFrontmatter(input, { ...defaults, provider: 'claude' });
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.provider).toBe('gemini');
+  });
+
+  it('fm-20: 各プロバイダー（claude/gemini/openai）が正しく設定される', () => {
+    const input = '---\ntitle: Test\ntags: ["AI"]\n---\n# Body';
+    for (const provider of ['claude', 'gemini', 'openai']) {
+      const result = normalizeFrontmatter(input, { ...defaults, provider });
+      const { frontmatter } = parseFrontmatter(result);
+      expect(frontmatter.provider).toBe(provider);
+    }
+  });
 });

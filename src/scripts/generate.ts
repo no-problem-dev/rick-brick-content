@@ -19,6 +19,7 @@ export function processResearchResult(
   result: ResearchResult,
   category: string,
   today: string,
+  provider?: string,
 ): ProcessedArticle | null {
   if (result.status !== 'success' || !result.markdown) {
     return null;
@@ -29,6 +30,7 @@ export function processResearchResult(
     category,
     date: today,
     automated: true,
+    provider,
   });
   // 自動生成注意文を末尾に追加
   markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
@@ -44,6 +46,7 @@ export function processResearchResult(
 
 function main() {
   const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  const provider = process.env.RESEARCH_PROVIDER || undefined;
 
   for (const category of CATEGORIES) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);
@@ -53,7 +56,7 @@ function main() {
     }
 
     const result: ResearchResult = JSON.parse(readFileSync(inputPath, 'utf-8'));
-    const processed = processResearchResult(result, category, today);
+    const processed = processResearchResult(result, category, today, provider);
     if (!processed) {
       console.log(`${category}: research failed or invalid slug, skipping`);
       continue;

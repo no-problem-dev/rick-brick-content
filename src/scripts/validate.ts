@@ -107,10 +107,10 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
     },
     {
       checkId: 10,
-      description: '本文の最低文字数 (500文字)',
+      description: '本文の最低文字数 (2000文字)',
       severity: 'error',
-      passed: body.length >= 500,
-      message: '本文が 500 文字未満です',
+      passed: body.length >= 2000,
+      message: '本文が 2000 文字未満です',
     },
   ];
 
