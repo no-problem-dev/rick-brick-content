@@ -5,9 +5,11 @@ date: "2024-07-20"
 category: paper-review
 tags: ["GPT-4", "LLM", "マルチモーダル"]
 automated: true
+provider: openai
 paper_url: "https://arxiv.org/abs/2303.08774"
 paper_title: "GPT-4 Technical Report"
 sources: ["https://arxiv.org/abs/2303.08774"]
+draft: true
 ---
 
 ## はじめに

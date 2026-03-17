@@ -5,6 +5,7 @@ date: "2024-09-10"
 category: tech-article
 tags: ["Cloudflare", "Jamstack", "デプロイ"]
 automated: false
+draft: true
 ---
 
 ## はじめに

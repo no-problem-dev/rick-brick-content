@@ -5,6 +5,7 @@ date: "2024-08-20"
 category: tech-article
 tags: ["Vitest", "テスト", "JavaScript"]
 automated: false
+draft: true
 ---
 
 ## はじめに

@@ -8,6 +8,7 @@ automated: false
 paper_url: "https://arxiv.org/abs/1706.03762"
 paper_title: "Attention Is All You Need"
 sources: ["https://arxiv.org/abs/1706.03762"]
+draft: true
 ---
 
 ## はじめに
