@@ -10,12 +10,12 @@ export const IMAGES_DIR = 'images';
 export const TMP_DIR = '.tmp';
 
 /** Imagen API */
-export const IMAGEN_MODEL = 'imagen-4.0-fast-generate-001';
+export const IMAGEN_MODEL = 'imagen-4.0-generate-001';
 
 /** Thumbnail prompt generation */
 export const THUMBNAIL_PROMPT_MODEL = 'claude-haiku-4-5-20251001';
-export const THUMBNAIL_COMMON_CONSTRAINTS = `This must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. The cat should be naturally posed. All props and environment must also look photographically real — no CGI, no digital art, no illustration style.
-STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style — this must be indistinguishable from a real photograph.`;
+export const THUMBNAIL_COMMON_CONSTRAINTS = `The cat itself must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. However, the SITUATION must be completely impossible and surreal — a real cat placed in an absurd, fantastical, or physically impossible scenario. The contrast between "photorealistic cat" and "impossible situation" is the core aesthetic. Think: a real cat confidently operating a spaceship control panel, a real cat presiding over a boardroom of mice, a real cat surfing on a giant circuit board through cyberspace. The more impossible and absurd the scenario, the better — as long as the cat looks 100% real.
+STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style for the cat — the cat must be photorealistic even when the situation is insane.`;
 
 /** デフォルト画像 */
 export const DEFAULT_IMAGE_PATH = 'images/defaults/default.png';

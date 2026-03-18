@@ -4,8 +4,8 @@ import type { ResearchResult } from '../types/research.js';
 import { upsertFrontmatterField } from '../utils/frontmatter.js';
 import { resolveSlug, validateSlug } from '../utils/slug.js';
 import { getTodayDate } from '../utils/date.js';
-import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH, THUMBNAIL_PROMPT_MODEL, THUMBNAIL_COMMON_CONSTRAINTS } from '../config/constants.js';
-import { generateThumbnailPrompt } from '../thumbnail/prompt-generator.js';
+import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH, THUMBNAIL_COMMON_CONSTRAINTS } from '../config/constants.js';
+import { resolvePromptGeneratorConfig, generatePromptByProvider } from '../thumbnail/prompt-factory.js';
 
 export interface ThumbnailResult {
   slug: string;
@@ -37,7 +37,6 @@ export async function generateThumbnail(
   summary: string,
   body: string,
   apiKey: string,
-  promptApiKey: string,
 ): Promise<ThumbnailResult> {
   const outputPath = join(IMAGES_DIR, `${slug}.png`);
   const defaultImagePath = DEFAULT_IMAGE_PATH;
@@ -46,13 +45,13 @@ export async function generateThumbnail(
 
   let prompt: string;
   try {
-    const promptResult = await generateThumbnailPrompt(
+    const promptConfig = resolvePromptGeneratorConfig();
+    const promptResult = await generatePromptByProvider(
       { title, summary, body, category: 'paper-review' as const },
-      promptApiKey,
-      process.env.THUMBNAIL_PROMPT_MODEL ?? THUMBNAIL_PROMPT_MODEL,
+      promptConfig,
     );
     prompt = promptResult.prompt;
-    console.log(`Dynamic prompt generated (scene: ${promptResult.scene.slice(0, 80)}...)`);
+    console.log(`Dynamic prompt generated via ${promptConfig.provider} (scene: ${promptResult.scene.slice(0, 80)}...)`);
   } catch (error) {
     console.warn('Prompt generation failed, using fallback:', error);
     prompt = `A real domestic cat photographed in a scene related to the blog topic.\nTopic: ${title}\nSummary: ${summary}\n${THUMBNAIL_COMMON_CONSTRAINTS}`;
@@ -148,10 +147,6 @@ async function main() {
   }
 
   const apiKey = isMock ? '' : process.env.GEMINI_IMAGE_API_KEY!;
-  const promptApiKey = process.env.ANTHROPIC_API_KEY;
-  if (!promptApiKey) {
-    console.warn('ANTHROPIC_API_KEY is not set, thumbnail prompts will use fallback');
-  }
 
   const categories = CATEGORIES;
   const today = getTodayDate();
@@ -191,7 +186,7 @@ async function main() {
 
     const { title, summary } = result.frontmatter;
     const body = result.markdown ?? '';
-    const thumbnailResult = await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey ?? '');
+    const thumbnailResult = await generateThumbnail(slug, title, summary, body, apiKey);
     console.log(`${category}: thumbnail ${thumbnailResult.status} → ${thumbnailResult.path}`);
 
     // 記事 frontmatter に thumbnail パスを追記

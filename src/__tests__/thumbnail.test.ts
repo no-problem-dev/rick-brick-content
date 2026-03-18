@@ -1,8 +1,9 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 
-// generateThumbnailPrompt をモック（T05 実装後に generateThumbnail から呼ばれる）
-vi.mock('../thumbnail/prompt-generator.js', () => ({
-  generateThumbnailPrompt: vi.fn(),
+// prompt-factory をモック
+vi.mock('../thumbnail/prompt-factory.js', () => ({
+  resolvePromptGeneratorConfig: vi.fn(),
+  generatePromptByProvider: vi.fn(),
 }));
 
 // fs モジュールをモック（ファイル I/O を回避）
@@ -15,7 +16,7 @@ vi.mock('node:fs', () => ({
   readdirSync: vi.fn().mockReturnValue([]),
 }));
 
-import { generateThumbnailPrompt } from '../thumbnail/prompt-generator.js';
+import { resolvePromptGeneratorConfig, generatePromptByProvider } from '../thumbnail/prompt-factory.js';
 import { generateThumbnail } from '../scripts/thumbnail.js';
 import type { ThumbnailPromptResult } from '../types/thumbnail.js';
 
@@ -40,29 +41,29 @@ describe('generateThumbnail（統合テスト）', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     globalThis.fetch = makeImagenFetchMock();
-    vi.mocked(generateThumbnailPrompt).mockResolvedValue(MOCK_PROMPT_RESULT);
+    vi.mocked(resolvePromptGeneratorConfig).mockReturnValue({ provider: 'claude', apiKey: 'test-key' });
+    vi.mocked(generatePromptByProvider).mockResolvedValue(MOCK_PROMPT_RESULT);
   });
 
   afterEach(() => {
     vi.restoreAllMocks();
   });
 
-  it('TC-06: generateThumbnailPrompt を呼び出してプロンプトを取得し、Imagen API にそのプロンプトを渡す', async () => {
+  it('TC-06: プロンプトファクトリー経由でプロンプトを取得し、Imagen API にそのプロンプトを渡す', async () => {
     // Arrange
     const slug = 'quantum-computing-2026-03-18';
     const title = 'Quantum Computing Breakthrough';
     const summary = 'A new quantum algorithm achieves exponential speedup';
     const body = 'Researchers at MIT have developed a novel quantum algorithm...';
     const apiKey = 'imagen-api-key';
-    const promptApiKey = 'claude-api-key';
 
     // Act
-    const result = await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey);
+    const result = await generateThumbnail(slug, title, summary, body, apiKey);
 
-    // Assert: generateThumbnailPrompt が呼ばれた
-    expect(generateThumbnailPrompt).toHaveBeenCalledOnce();
+    // Assert: generatePromptByProvider が呼ばれた
+    expect(generatePromptByProvider).toHaveBeenCalledOnce();
 
-    // Assert: Imagen API の fetch に generateThumbnailPrompt の返り値の prompt が渡された
+    // Assert: Imagen API の fetch に prompt が渡された
     expect(globalThis.fetch).toHaveBeenCalledOnce();
     const fetchCall = vi.mocked(globalThis.fetch).mock.calls[0];
     const fetchBody = JSON.parse(fetchCall![1]!.body as string);
@@ -72,39 +73,36 @@ describe('generateThumbnail（統合テスト）', () => {
     expect(result).toBeDefined();
   });
 
-  it('TC-07: body 引数が generateThumbnailPrompt の request.body に渡される', async () => {
+  it('TC-07: body 引数が generatePromptByProvider の request.body に渡される', async () => {
     // Arrange
     const slug = 'ai-news-2026-03-18';
     const title = 'AI News Today';
     const summary = 'Latest AI developments';
     const body = 'This is the full article body with detailed content about AI breakthroughs.';
     const apiKey = 'imagen-api-key';
-    const promptApiKey = 'claude-api-key';
 
     // Act
-    await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey);
+    await generateThumbnail(slug, title, summary, body, apiKey);
 
-    // Assert: generateThumbnailPrompt が body を受け取っている
-    expect(generateThumbnailPrompt).toHaveBeenCalledWith(
+    // Assert: generatePromptByProvider が body を受け取っている
+    expect(generatePromptByProvider).toHaveBeenCalledWith(
       expect.objectContaining({ body }),
-      promptApiKey,
-      expect.anything(),
+      expect.objectContaining({ provider: 'claude', apiKey: 'test-key' }),
     );
   });
 
-  it('TC-08: generateThumbnailPrompt がエラー（reject）しても画像生成を試み、ThumbnailResult を返す', async () => {
+  it('TC-08: generatePromptByProvider がエラー（reject）しても画像生成を試み、ThumbnailResult を返す', async () => {
     // Arrange
-    vi.mocked(generateThumbnailPrompt).mockRejectedValue(new Error('LLM API unavailable'));
+    vi.mocked(generatePromptByProvider).mockRejectedValue(new Error('LLM API unavailable'));
 
     const slug = 'fallback-test-2026-03-18';
     const title = 'Fallback Test Article';
     const summary = 'Testing fallback behavior';
     const body = 'Article body content';
     const apiKey = 'imagen-api-key';
-    const promptApiKey = 'claude-api-key';
 
     // Act: 例外を投げずに結果を返す
-    const result = await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey);
+    const result = await generateThumbnail(slug, title, summary, body, apiKey);
 
     // Assert: クラッシュせず ThumbnailResult を返す
     expect(result).toBeDefined();
@@ -127,10 +125,9 @@ describe('generateThumbnail（統合テスト）', () => {
     const summary = 'An article without body content';
     const body = '';
     const apiKey = 'imagen-api-key';
-    const promptApiKey = 'claude-api-key';
 
     // Act & Assert: 例外を投げずに ThumbnailResult を返す
-    const result = await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey);
+    const result = await generateThumbnail(slug, title, summary, body, apiKey);
 
     expect(result).toBeDefined();
     expect(result.slug).toBe(slug);
