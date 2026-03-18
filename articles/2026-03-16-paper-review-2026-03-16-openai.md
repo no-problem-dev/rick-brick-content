@@ -8,7 +8,7 @@ category: "paper-review"
 automated: true
 provider: "openai"
 sources: ["https://arxiv.org/abs/2602.19682","https://arxiv.org/abs/2603.08760","https://arxiv.org/abs/2603.07315","https://arxiv.org/abs/2601.10173","https://openai.com/index/updating-our-preparedness-framework/","https://openreview.net/forum?id=cb8c853189fbb48aa7030e3d17357250d793922b","https://www.theguardian.com/technology/openai/2026/mar/06/all"]
-draft: true
+draft: false
 thumbnail: "/images/paper-review-2026-03-16-openai.png"
 ---
 

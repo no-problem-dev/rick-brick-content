@@ -8,7 +8,7 @@ category: "ai-news-digest"
 automated: true
 provider: "openai"
 sources: ["https://openai.com/index/scaling-ai-for-everyone/","https://www.anthropic.com/news/sydney-fourth-office-asia-pacific","https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/","https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/","https://blogs.nvidia.com/blog/abb-robotics-omniverse/","https://aws.amazon.com/blogs/machine-learning/create-a-generative-ai-based-application-builder-assistant-using-amazon-bedrock-agents/","https://www.microsoft.com/en-us/industry/blog/telecommunications/2026/02/24/microsoft-accelerates-telecom-return-on-intelligence-with-a-unified-trusted-ai-platform/","https://machinelearning.apple.com/updates/aiml-residency-program-application-2026","https://www.anthropic.com/events/agentic-ai-in-action","https://www.reddit.com/r/MachineLearning/comments/1rsixzv/big_labs_2026_what_they_dont_want_to_say/","https://x.com/bledi_ai/status/2018645945198530799","https://x.com/inkeep/status/2026350838432633140"]
-draft: true
+draft: false
 thumbnail: "/images/ai-news-digest-2026-03-16-openai.png"
 ---
 
