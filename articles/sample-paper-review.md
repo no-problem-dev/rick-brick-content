@@ -6,6 +6,7 @@ category: paper-review
 tags: ["AI", "機械学習"]
 automated: false
 sources: ["https://arxiv.org/abs/1234.56789"]
+draft: true
 ---
 
 ## はじめに

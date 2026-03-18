@@ -5,6 +5,7 @@ date: "2024-07-10"
 category: tech-article
 tags: ["GitHub Actions", "CI/CD", "自動化"]
 automated: false
+draft: true
 ---
 
 ## はじめに

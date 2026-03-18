@@ -7,6 +7,7 @@ tags: ["GPT-4", "LLM", "マルチモーダル"]
 automated: true
 provider: openai
 sources: ["https://arxiv.org/abs/2303.08774"]
+draft: true
 ---
 
 ## はじめに
