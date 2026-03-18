@@ -1,5 +1,5 @@
 ---
-title: "AIニュースダイジェスト 2026年03月18日"
+title: "AIニュースダイジェスト 2026年03月16日"
 slug: "ai-news-digest-2026-03-16-openai"
 summary: "OpenAIは大規模投資で「AIをより多くの人へ」方針を強化。Anthropicは豪州/ニュージーランド拠点拡大、NVIDIAは次世代Vera Rubin計画やNemotron 3 Superを発表。コミュニティではエージェント連携の実装論が活発。"
 date: "2026-03-16"
