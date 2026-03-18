@@ -105,7 +105,7 @@ jobs:
       - name: Publish articles (remove draft flag from newly generated only)
         if: ${{ !inputs.draft_mode }}
         run: |
-          TODAY="${TARGET_DATE:-$(date -u +%Y-%m-%d)}"
+          TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
           for file in articles/${TODAY}-*.md; do
             if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
               sed -i '/^draft: true$/d' "$file"
@@ -123,7 +123,7 @@ jobs:
             echo "No new articles generated"
             exit 0
           fi
-          git commit -m "chore: auto-generate articles $(date -u +%Y-%m-%d)"
+          git commit -m "chore: auto-generate articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push origin main
 
       - name: Trigger deploy
@@ -151,7 +151,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run_summary=true" >> $GITHUB_OUTPUT
           else
-            DOW=$(date -u +%u)
+            DOW=$(TZ=Asia/Tokyo date +%u)
             if [ "$DOW" -eq 1 ]; then
               echo "run_summary=true" >> $GITHUB_OUTPUT
             else
@@ -197,7 +197,7 @@ jobs:
       - name: Publish articles
         if: steps.check-day.outputs.run_summary == 'true' && !inputs.draft_mode
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
           for file in articles/${TODAY}-*.md; do
             if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
               sed -i '/^draft: true$/d' "$file"
@@ -215,7 +215,7 @@ jobs:
             echo "No weekly summary generated"
             exit 0
           fi
-          git commit -m "docs: add weekly summary $(date -u +%Y-%m-%d)"
+          git commit -m "docs: add weekly summary $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push origin main
 
       - name: Trigger deploy
