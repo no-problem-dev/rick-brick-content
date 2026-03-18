@@ -42,7 +42,7 @@ jobs:
     timeout-minutes: 30
 
     env:
-      RESEARCH_PROVIDER: ${{ inputs.provider || 'claude' }}
+      RESEARCH_PROVIDER: ${{ inputs.provider || 'openai' }}
       RESEARCH_MODEL: ${{ inputs.model || '' }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

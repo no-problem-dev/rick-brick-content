@@ -8,7 +8,7 @@ export const IMAGES_DIR = 'images';
 export const TMP_DIR = '.tmp';
 
 /** Imagen API */
-export const IMAGEN_MODEL = 'imagen-4.0-generate-001';
+export const IMAGEN_MODEL = 'imagen-4.0-fast-generate-001';
 
 /** Thumbnail prompt generation */
 export const THUMBNAIL_PROMPT_MODEL = 'claude-haiku-4-5-20251001';
