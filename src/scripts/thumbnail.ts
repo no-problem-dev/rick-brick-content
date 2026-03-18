@@ -153,7 +153,7 @@ async function main() {
   }
 
   const categories = CATEGORIES;
-  const today = new Date().toISOString().split('T')[0];
+  const today = process.env.TARGET_DATE || new Date().toISOString().split('T')[0];
 
   for (const category of categories) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);

@@ -179,7 +179,7 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
 }
 
 function main() {
-  const today = new Date().toISOString().split('T')[0]!;
+  const today = (process.env.TARGET_DATE || new Date().toISOString().split('T')[0])!;
   const articlesDir = ARTICLES_DIR;
 
   const results: ArticleValidationResult[] = [];

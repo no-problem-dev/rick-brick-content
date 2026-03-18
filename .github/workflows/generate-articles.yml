@@ -35,6 +35,11 @@ on:
         required: false
         default: ''
         type: string
+      target_date:
+        description: '記事の日付を上書き（YYYY-MM-DD 形式。空欄で当日）'
+        required: false
+        default: ''
+        type: string
       generate_summary:
         description: 'Generate weekly summary (regardless of day)'
         type: boolean
@@ -53,6 +58,7 @@ jobs:
       GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       SLUG_SUFFIX: ${{ inputs.slug_suffix || '' }}
+      TARGET_DATE: ${{ inputs.target_date || '' }}
 
     steps:
       - name: Checkout repository
@@ -99,7 +105,7 @@ jobs:
       - name: Publish articles (remove draft flag from newly generated only)
         if: ${{ !inputs.draft_mode }}
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY="${TARGET_DATE:-$(date -u +%Y-%m-%d)}"
           for file in articles/${TODAY}-*.md; do
             if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
               sed -i '/^draft: true$/d' "$file"

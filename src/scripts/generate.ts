@@ -48,7 +48,7 @@ export function processResearchResult(
 }
 
 function main() {
-  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  const today = process.env.TARGET_DATE || new Date().toISOString().split('T')[0]; // YYYY-MM-DD
   const provider = process.env.RESEARCH_PROVIDER || undefined;
 
   for (const category of DAILY_CATEGORIES) {
