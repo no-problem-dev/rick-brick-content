@@ -2,6 +2,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
+import { getTodayDate } from '../utils/date.js';
 import type { ResearchResult } from '../types/research.js';
 import { DAILY_CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
 
@@ -179,7 +180,7 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
 }
 
 function main() {
-  const today = (process.env.TARGET_DATE || new Date().toISOString().split('T')[0])!;
+  const today = getTodayDate();
   const articlesDir = ARTICLES_DIR;
 
   const results: ArticleValidationResult[] = [];

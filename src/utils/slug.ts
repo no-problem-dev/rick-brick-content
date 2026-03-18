@@ -10,9 +10,24 @@ export function resolveSlug(
   date: string,
 ): string {
   const slug = result.frontmatter?.slug;
-  const base = slug && slug.trim() !== '' ? slug.trim() : `${category}-${date}`;
+  let base = slug && slug.trim() !== '' ? slug.trim() : `${category}-${date}`;
+
+  // TARGET_DATE が設定されている場合、slug 内の日付部分を date（= TARGET_DATE）に置換
+  const targetDate = process.env.TARGET_DATE;
+  if (targetDate) {
+    base = replaceDateInSlug(base, date);
+  }
+
   const suffix = process.env.SLUG_SUFFIX;
   return suffix ? `${base}-${suffix}` : base;
+}
+
+/**
+ * slug 内の YYYY-MM-DD パターンを指定日付に置換する。
+ * 複数の日付パターンがある場合は最初のマッチのみ置換。
+ */
+export function replaceDateInSlug(slug: string, date: string): string {
+  return slug.replace(/\d{4}-\d{2}-\d{2}/, date);
 }
 
 /**

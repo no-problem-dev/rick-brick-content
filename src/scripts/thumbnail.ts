@@ -3,6 +3,7 @@ import { join, dirname } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { upsertFrontmatterField } from '../utils/frontmatter.js';
 import { resolveSlug, validateSlug } from '../utils/slug.js';
+import { getTodayDate } from '../utils/date.js';
 import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH, THUMBNAIL_PROMPT_MODEL, THUMBNAIL_COMMON_CONSTRAINTS } from '../config/constants.js';
 import { generateThumbnailPrompt } from '../thumbnail/prompt-generator.js';
 
@@ -153,7 +154,7 @@ async function main() {
   }
 
   const categories = CATEGORIES;
-  const today = process.env.TARGET_DATE || new Date().toISOString().split('T')[0];
+  const today = getTodayDate();
 
   for (const category of categories) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);
@@ -165,6 +166,14 @@ async function main() {
     const slug = resolveSlug(result, category, today);
     if (!validateSlug(slug)) {
       console.error(`${category}: invalid slug "${slug}", skipping thumbnail generation`);
+      continue;
+    }
+
+    // TARGET_DATE モード: 既存画像があればスキップ（本番画像の上書き防止）
+    const imagePath = join(IMAGES_DIR, `${slug}.png`);
+    if (process.env.TARGET_DATE && existsSync(imagePath)) {
+      console.log(`${category}: thumbnail already exists (${slug}.png), skipping (TARGET_DATE mode)`);
+      updateArticleThumbnail(slug, `/images/${slug}.png`);
       continue;
     }
 

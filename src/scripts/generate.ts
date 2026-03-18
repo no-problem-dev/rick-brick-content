@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
+import { getTodayDate } from '../utils/date.js';
 import { upsertFrontmatterField, normalizeFrontmatter } from '../utils/frontmatter.js';
 import { DAILY_CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
@@ -48,7 +49,7 @@ export function processResearchResult(
 }
 
 function main() {
-  const today = process.env.TARGET_DATE || new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  const today = getTodayDate();
   const provider = process.env.RESEARCH_PROVIDER || undefined;
 
   for (const category of DAILY_CATEGORIES) {

@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from 'vitest';
-import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
+import { resolveSlug, buildArticleFilename, validateSlug, replaceDateInSlug } from '../utils/slug.js';
 import type { ResearchResult } from '../types/research.js';
 
 describe('resolveSlug', () => {
@@ -157,5 +157,66 @@ describe('resolveSlug with SLUG_SUFFIX', () => {
       status: 'success',
     };
     expect(resolveSlug(result, category, date)).toBe('paper-review-2026-03-17-openai');
+  });
+});
+
+describe('resolveSlug with TARGET_DATE', () => {
+  afterEach(() => {
+    delete process.env.TARGET_DATE;
+    delete process.env.SLUG_SUFFIX;
+  });
+
+  it('target-date-1: TARGET_DATE 設定時、LLM slug 内の日付が TARGET_DATE に置換される', () => {
+    process.env.TARGET_DATE = '2026-03-17';
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-18', slug: 'paper-review-2026-03-18' },
+    };
+    expect(resolveSlug(result, 'paper-review', '2026-03-17')).toBe('paper-review-2026-03-17');
+  });
+
+  it('target-date-2: TARGET_DATE 未設定時は LLM slug をそのまま使用', () => {
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-18', slug: 'paper-review-2026-03-18' },
+    };
+    expect(resolveSlug(result, 'paper-review', '2026-03-18')).toBe('paper-review-2026-03-18');
+  });
+
+  it('target-date-3: TARGET_DATE + SLUG_SUFFIX の併用', () => {
+    process.env.TARGET_DATE = '2026-03-17';
+    process.env.SLUG_SUFFIX = 'gemini';
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-18', slug: 'paper-review-2026-03-18' },
+    };
+    expect(resolveSlug(result, 'paper-review', '2026-03-17')).toBe('paper-review-2026-03-17-gemini');
+  });
+
+  it('target-date-4: slug に日付パターンがない場合は変更なし', () => {
+    process.env.TARGET_DATE = '2026-03-17';
+    const result: ResearchResult = {
+      category: 'paper-review',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-18', slug: 'my-custom-slug' },
+    };
+    expect(resolveSlug(result, 'paper-review', '2026-03-17')).toBe('my-custom-slug');
+  });
+});
+
+describe('replaceDateInSlug', () => {
+  it('slug 内の日付を指定日付に置換する', () => {
+    expect(replaceDateInSlug('paper-review-2026-03-18', '2026-03-17')).toBe('paper-review-2026-03-17');
+  });
+
+  it('日付パターンがない場合は変更なし', () => {
+    expect(replaceDateInSlug('my-custom-slug', '2026-03-17')).toBe('my-custom-slug');
+  });
+
+  it('複数の日付パターンがある場合は最初のみ置換', () => {
+    expect(replaceDateInSlug('2026-03-18-review-2026-03-18', '2026-03-17')).toBe('2026-03-17-review-2026-03-18');
   });
 });
