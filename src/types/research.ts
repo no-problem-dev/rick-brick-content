@@ -1,13 +1,15 @@
+import type { Category } from '../config/constants.js';
+
 export type ResearchProviderName = 'claude' | 'gemini' | 'openai' | 'mock';
 
 export interface ResearchRequest {
-  category: 'paper-review' | 'ai-news-digest';
+  category: Category;
   basePromptPath: string;
   providerPromptPath: string;
 }
 
 export interface ResearchResult {
-  category: 'paper-review' | 'ai-news-digest';
+  category: Category;
   status: 'success' | 'error';
   error?: string;
   markdown?: string;

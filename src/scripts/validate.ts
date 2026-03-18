@@ -1,9 +1,9 @@
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
 import type { ResearchResult } from '../types/research.js';
-import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
+import { DAILY_CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
 
 type CheckSeverity = 'error' | 'warning';
 
@@ -36,6 +36,21 @@ interface ValidationSummary {
 export function validateArticle(filePath: string, slug: string): ArticleValidationResult {
   const content = readFileSync(filePath, 'utf-8');
   const { frontmatter: fm, body } = parseFrontmatter(content);
+
+  const isWeeklySummary = fm.category === 'weekly-summary';
+
+  // summary_period 妥当性チェック用ヘルパー
+  function validateSummaryPeriod(period: unknown): boolean {
+    if (typeof period !== 'string') return false;
+    const match = period.match(/^(\d{4}-\d{2}-\d{2})\/(\d{4}-\d{2}-\d{2})$/);
+    if (!match) return false;
+    const start = new Date(match[1]!);
+    const end = new Date(match[2]!);
+    if (isNaN(start.getTime()) || isNaN(end.getTime())) return false;
+    if (start >= end) return false;
+    const diffDays = (end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24);
+    return diffDays >= 6 && diffDays <= 8;
+  }
 
   const checks: CheckResult[] = [
     {
@@ -123,15 +138,34 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
       checkId: 12,
       description: '本文中に Markdown リンクが存在',
       severity: 'warning' as CheckSeverity,
-      passed: /\[([^\]]+)\]\(https?:\/\/[^\s)]+\)/.test(body),
+      // weekly-summary は免除
+      passed: isWeeklySummary ? true : /\[([^\]]+)\]\(https?:\/\/[^\s)]+\)/.test(body),
       message: '本文中に Markdown リンク [text](url) が見つかりません',
     },
     {
       checkId: 13,
       description: '参考文献セクションの存在',
       severity: 'warning' as CheckSeverity,
-      passed: /参考文献/.test(body),
+      // weekly-summary は免除
+      passed: isWeeklySummary ? true : /参考文献/.test(body),
       message: '本文中に「参考文献」セクションが見つかりません',
+    },
+    {
+      checkId: 14,
+      description: 'summary_period フィールド（YYYY-MM-DD/YYYY-MM-DD 形式）',
+      severity: 'error' as const,
+      passed: fm.category !== 'weekly-summary' || (
+        typeof fm.summary_period === 'string' &&
+        /^\d{4}-\d{2}-\d{2}\/\d{4}-\d{2}-\d{2}$/.test(fm.summary_period)
+      ),
+      message: 'summary_period が YYYY-MM-DD/YYYY-MM-DD 形式ではありません',
+    },
+    {
+      checkId: 15,
+      description: 'summary_period 期間妥当性（開始日 < 終了日、7±1日）',
+      severity: 'warning' as const,
+      passed: fm.category !== 'weekly-summary' || validateSummaryPeriod(fm.summary_period),
+      message: '期間が不正です（開始日 < 終了日、6-8日間であること）',
     },
   ];
 
@@ -147,11 +181,11 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
 function main() {
   const today = new Date().toISOString().split('T')[0]!;
   const articlesDir = ARTICLES_DIR;
-  const categories = CATEGORIES;
 
   const results: ArticleValidationResult[] = [];
 
-  for (const category of categories) {
+  // 日次カテゴリ: .tmp/research-{category}.json 経由でファイルパスを解決
+  for (const category of DAILY_CATEGORIES) {
     const tmpPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(tmpPath)) continue;
 
@@ -170,6 +204,25 @@ function main() {
     results.push(result);
 
     console.log(`\n${category} (${filePath}):`);
+    for (const c of result.checks) {
+      const icon = c.passed ? '\u2713' : (c.severity === 'error' ? '\u2717' : '\u26a0');
+      console.log(`  ${icon} [${c.severity}] ${c.description}: ${c.passed ? 'OK' : c.message}`);
+    }
+  }
+
+  // weekly-summary: articles/ ディレクトリから当日ファイルを直接検索
+  const weeklyPattern = new RegExp(`^${today}-weekly-summary-.+\\.md$`);
+  const allArticles = existsSync(articlesDir) ? readdirSync(articlesDir) : [];
+  const weeklyFiles = allArticles.filter((f) => weeklyPattern.test(f));
+
+  for (const filename of weeklyFiles) {
+    const filePath = join(articlesDir, filename);
+    const slug = filename.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+
+    const result = validateArticle(filePath, slug);
+    results.push(result);
+
+    console.log(`\nweekly-summary (${filePath}):`);
     for (const c of result.checks) {
       const icon = c.passed ? '\u2713' : (c.severity === 'error' ? '\u2717' : '\u26a0');
       console.log(`  ${icon} [${c.severity}] ${c.description}: ${c.passed ? 'OK' : c.message}`);

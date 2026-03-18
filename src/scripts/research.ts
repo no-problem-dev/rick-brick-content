@@ -1,13 +1,13 @@
 import { createResearchProvider } from '../providers/provider-factory.js';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { CATEGORIES, TMP_DIR } from '../config/constants.js';
+import { DAILY_CATEGORIES, TMP_DIR } from '../config/constants.js';
 
 async function main() {
   const provider = createResearchProvider();
   mkdirSync(TMP_DIR, { recursive: true });
 
-  const categories = CATEGORIES;
+  const categories = DAILY_CATEGORIES;
 
   // 順次実行（web_search レート制限を回避するため並列にしない）
   for (const category of categories) {

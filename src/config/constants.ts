@@ -1,5 +1,7 @@
 /** 記事カテゴリ一覧 */
-export const CATEGORIES = ['paper-review', 'ai-news-digest'] as const;
+export const DAILY_CATEGORIES = ['paper-review', 'ai-news-digest'] as const;
+export const WEEKLY_CATEGORIES = ['weekly-summary'] as const;
+export const CATEGORIES = [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES] as const;
 export type Category = (typeof CATEGORIES)[number];
 
 /** ディレクトリパス */

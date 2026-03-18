@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
 import { upsertFrontmatterField, normalizeFrontmatter } from '../utils/frontmatter.js';
-import { CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
+import { DAILY_CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
 export interface ProcessedArticle {
   slug: string;
@@ -51,7 +51,7 @@ function main() {
   const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
   const provider = process.env.RESEARCH_PROVIDER || undefined;
 
-  for (const category of CATEGORIES) {
+  for (const category of DAILY_CATEGORIES) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(inputPath)) {
       console.log(`${category}: research file not found, skipping`);
