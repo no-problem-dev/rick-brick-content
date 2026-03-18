@@ -3,9 +3,10 @@ import { join, dirname } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { upsertFrontmatterField } from '../utils/frontmatter.js';
 import { resolveSlug, validateSlug } from '../utils/slug.js';
-import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH } from '../config/constants.js';
+import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH, THUMBNAIL_PROMPT_MODEL, THUMBNAIL_COMMON_CONSTRAINTS } from '../config/constants.js';
+import { generateThumbnailPrompt } from '../thumbnail/prompt-generator.js';
 
-interface ThumbnailResult {
+export interface ThumbnailResult {
   slug: string;
   status: 'success' | 'fallback';
   path: string;
@@ -29,92 +30,34 @@ async function cropImage(inputBuffer: Buffer, outputPath: string): Promise<void>
   }
 }
 
-/**
- * サムネイルプロンプトを多様なスタイルから選択して生成する。
- * slug のハッシュ値を使い、同じ記事なら同じスタイルが選ばれる（再現性あり）。
- */
-function buildThumbnailPrompt(title: string, summary: string, slug: string): string {
-  const styles = [
-    {
-      camera: 'Canon EOS R5 with RF 50mm f/1.2L lens, ISO 400',
-      lighting: 'natural golden hour window lighting with warm tones',
-      direction: 'Shallow depth of field with creamy circular bokeh. Warm, inviting atmosphere.',
-      catBreed: 'a fluffy orange tabby cat',
-      environment: 'cozy home office with wooden desk, warm lamp light, and scattered tech magazines',
-    },
-    {
-      camera: 'Sony A7R V with 85mm f/1.4 GM lens, ISO 200',
-      lighting: 'cool blue-toned ambient light from multiple monitors',
-      direction: 'Moody, cinematic look with dramatic light-shadow contrast. Cyberpunk aesthetic.',
-      catBreed: 'a sleek black cat with bright green eyes',
-      environment: 'dark tech lab with neon-lit screens, server racks glowing in the background',
-    },
-    {
-      camera: 'Nikon Z9 with 35mm f/1.4 lens, ISO 800',
-      lighting: 'bright overhead studio lighting, clean white background',
-      direction: 'Clean, minimalist composition with sharp focus. Editorial magazine style.',
-      catBreed: 'a white Scottish Fold with round face',
-      environment: 'minimalist white desk with a single sleek laptop and coffee cup',
-    },
-    {
-      camera: 'Fujifilm X-T5 with 56mm f/1.2 lens, ISO 400',
-      lighting: 'soft diffused natural light from a large window, rainy day atmosphere',
-      direction: 'Film-like grain with muted pastel tones. Nostalgic, contemplative mood.',
-      catBreed: 'a gray British Shorthair with amber eyes',
-      environment: 'library corner with stacked books, rain-streaked window, and a vintage desk lamp',
-    },
-    {
-      camera: 'Leica SL2-S with 50mm f/2 APO lens, ISO 100',
-      lighting: 'harsh directional sunlight creating strong geometric shadows',
-      direction: 'High contrast with deep blacks and bright highlights. Architectural feel.',
-      catBreed: 'a calico cat with distinctive patches',
-      environment: 'modern concrete office with floor-to-ceiling windows and geometric furniture',
-    },
-    {
-      camera: 'Canon EOS R3 with RF 28-70mm f/2L lens, ISO 320',
-      lighting: 'warm tungsten desk lamp mixed with cool screen glow',
-      direction: 'Split lighting with warm and cool tones. Intimate, focused atmosphere.',
-      catBreed: 'a Siamese cat with blue eyes',
-      environment: 'cluttered engineer workstation with oscilloscope, breadboards, and tangled cables',
-    },
-    {
-      camera: 'Hasselblad X2D with XCD 80mm f/1.9 lens, ISO 64',
-      lighting: 'overcast outdoor light, soft and even illumination',
-      direction: 'Medium format look with incredible detail and smooth tonal gradation.',
-      catBreed: 'a Maine Coon with luxurious fur',
-      environment: 'rooftop terrace with city skyline backdrop, potted plants, and a tablet on the table',
-    },
-    {
-      camera: 'Olympus OM-1 Mark II with 45mm f/1.2 PRO lens, ISO 640',
-      lighting: 'colorful LED strip lighting in pink, purple, and blue',
-      direction: 'Vibrant neon color palette with playful energy. Gaming/streamer aesthetic.',
-      catBreed: 'a Bengal cat with spotted coat',
-      environment: 'gaming setup with RGB keyboard, multiple monitors showing AI dashboards, and headphones',
-    },
-  ];
-
-  // slug から決定的にスタイルを選択（同じ記事 = 同じスタイル）
-  const hash = slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
-  const style = styles[hash % styles.length]!;
-
-  return `Shot on ${style.camera}, ${style.lighting}. A real domestic cat — specifically ${style.catBreed} — photographed in a scene related to the blog topic.\nTopic: ${title}\nSummary: ${summary}\nPhotography direction: ${style.direction} This must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. The cat should be naturally posed in or near props that represent the topic. ${style.environment}. The props and environment must also look photographically real — no CGI, no digital art, no illustration style.\nSTRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style — this must be indistinguishable from a real photograph.`;
-}
-
-async function generateThumbnail(
+export async function generateThumbnail(
   slug: string,
   title: string,
   summary: string,
+  body: string,
   apiKey: string,
+  promptApiKey: string,
 ): Promise<ThumbnailResult> {
-  console.log(`Thumbnail style seed: slug="${slug}" → style index ${slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) % 8}`);
   const outputPath = join(IMAGES_DIR, `${slug}.png`);
   const defaultImagePath = DEFAULT_IMAGE_PATH;
 
   mkdirSync(dirname(outputPath), { recursive: true });
 
+  let prompt: string;
   try {
-    const prompt = buildThumbnailPrompt(title, summary, slug);
+    const promptResult = await generateThumbnailPrompt(
+      { title, summary, body, category: 'paper-review' as const },
+      promptApiKey,
+      process.env.THUMBNAIL_PROMPT_MODEL ?? THUMBNAIL_PROMPT_MODEL,
+    );
+    prompt = promptResult.prompt;
+    console.log(`Dynamic prompt generated (scene: ${promptResult.scene.slice(0, 80)}...)`);
+  } catch (error) {
+    console.warn('Prompt generation failed, using fallback:', error);
+    prompt = `A real domestic cat photographed in a scene related to the blog topic.\nTopic: ${title}\nSummary: ${summary}\n${THUMBNAIL_COMMON_CONSTRAINTS}`;
+  }
 
+  try {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${IMAGEN_MODEL}:predict`;
     const response = await fetch(url, {
       method: 'POST',
@@ -204,6 +147,11 @@ async function main() {
   }
 
   const apiKey = isMock ? '' : process.env.GEMINI_IMAGE_API_KEY!;
+  const promptApiKey = process.env.ANTHROPIC_API_KEY;
+  if (!promptApiKey) {
+    console.warn('ANTHROPIC_API_KEY is not set, thumbnail prompts will use fallback');
+  }
+
   const categories = CATEGORIES;
   const today = new Date().toISOString().split('T')[0];
 
@@ -233,7 +181,8 @@ async function main() {
     }
 
     const { title, summary } = result.frontmatter;
-    const thumbnailResult = await generateThumbnail(slug, title, summary, apiKey);
+    const body = result.markdown ?? '';
+    const thumbnailResult = await generateThumbnail(slug, title, summary, body, apiKey, promptApiKey ?? '');
     console.log(`${category}: thumbnail ${thumbnailResult.status} → ${thumbnailResult.path}`);
 
     // 記事 frontmatter に thumbnail パスを追記
@@ -244,4 +193,7 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+const isMainModule = process.argv[1]?.endsWith('thumbnail.ts') || process.argv[1]?.endsWith('thumbnail.js');
+if (isMainModule) {
+  main().catch(console.error);
+}
