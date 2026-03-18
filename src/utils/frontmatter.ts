@@ -203,8 +203,8 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.slug = String(frontmatter.slug).replace(/[^a-z0-9-]/gi, '-').toLowerCase();
   }
 
-  // date
-  if (!frontmatter.date || !/^\d{4}-\d{2}-\d{2}$/.test(String(frontmatter.date))) {
+  // date: TARGET_DATE 設定時は常に defaults.date（= TARGET_DATE）を使用
+  if (process.env.TARGET_DATE || !frontmatter.date || !/^\d{4}-\d{2}-\d{2}$/.test(String(frontmatter.date))) {
     frontmatter.date = defaults.date;
   }
 
