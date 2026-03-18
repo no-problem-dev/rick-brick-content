@@ -38,7 +38,7 @@ GPT-4  ─┤── MCP Client ──→ MCP Server（GitHub）
 Gemini ─┘                ──→ MCP Server（Slack）
 ```
 
-MCPはこの問題を「1:N」構造で解決する。一度MCPサーバーとして実装されれば、MCPに対応するすべてのAIクライアントから利用できる。
+MCPはこの問題を「1\:N」構造で解決する。一度MCPサーバーとして実装されれば、MCPに対応するすべてのAIクライアントから利用できる。
 
 ---
 
