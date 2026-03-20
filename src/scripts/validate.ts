@@ -4,7 +4,7 @@ import { parseFrontmatter } from '../utils/frontmatter.js';
 import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
 import { getTodayDate } from '../utils/date.js';
 import type { ResearchResult } from '../types/research.js';
-import { DAILY_CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
+import { DAILY_CATEGORIES, WEEKLY_CATEGORIES, RECAP_CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
 
 type CheckSeverity = 'error' | 'warning';
 
@@ -38,10 +38,10 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
   const content = readFileSync(filePath, 'utf-8');
   const { frontmatter: fm, body } = parseFrontmatter(content);
 
-  const isWeeklySummary = fm.category === 'weekly-summary';
+  const isRecap = (RECAP_CATEGORIES as readonly string[]).includes(String(fm.category));
 
-  // summary_period 妥当性チェック用ヘルパー
-  function validateSummaryPeriod(period: unknown): boolean {
+  // recap_period 妥当性チェック用ヘルパー
+  function validateRecapPeriod(period: unknown, category: unknown): boolean {
     if (typeof period !== 'string') return false;
     const match = period.match(/^(\d{4}-\d{2}-\d{2})\/(\d{4}-\d{2}-\d{2})$/);
     if (!match) return false;
@@ -50,6 +50,7 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
     if (isNaN(start.getTime()) || isNaN(end.getTime())) return false;
     if (start >= end) return false;
     const diffDays = (end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24);
+    if (category === 'monthly-paper-recap') return diffDays >= 28 && diffDays <= 32;
     return diffDays >= 6 && diffDays <= 8;
   }
 
@@ -139,34 +140,34 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
       checkId: 12,
       description: '本文中に Markdown リンクが存在',
       severity: 'warning' as CheckSeverity,
-      // weekly-summary は免除
-      passed: isWeeklySummary ? true : /\[([^\]]+)\]\(https?:\/\/[^\s)]+\)/.test(body),
+      // recap カテゴリは免除
+      passed: isRecap ? true : /\[([^\]]+)\]\(https?:\/\/[^\s)]+\)/.test(body),
       message: '本文中に Markdown リンク [text](url) が見つかりません',
     },
     {
       checkId: 13,
       description: '参考文献セクションの存在',
       severity: 'warning' as CheckSeverity,
-      // weekly-summary は免除
-      passed: isWeeklySummary ? true : /参考文献/.test(body),
+      // recap カテゴリは免除
+      passed: isRecap ? true : /参考文献/.test(body),
       message: '本文中に「参考文献」セクションが見つかりません',
     },
     {
       checkId: 14,
-      description: 'summary_period フィールド（YYYY-MM-DD/YYYY-MM-DD 形式）',
+      description: 'recap_period フィールド（YYYY-MM-DD/YYYY-MM-DD 形式）',
       severity: 'error' as const,
-      passed: fm.category !== 'weekly-summary' || (
-        typeof fm.summary_period === 'string' &&
-        /^\d{4}-\d{2}-\d{2}\/\d{4}-\d{2}-\d{2}$/.test(fm.summary_period)
+      passed: !isRecap || (
+        typeof fm.recap_period === 'string' &&
+        /^\d{4}-\d{2}-\d{2}\/\d{4}-\d{2}-\d{2}$/.test(fm.recap_period)
       ),
-      message: 'summary_period が YYYY-MM-DD/YYYY-MM-DD 形式ではありません',
+      message: 'recap_period が YYYY-MM-DD/YYYY-MM-DD 形式ではありません',
     },
     {
       checkId: 15,
-      description: 'summary_period 期間妥当性（開始日 < 終了日、7±1日）',
+      description: 'recap_period 期間妥当性（monthly: 28-32日、週次: 6-8日）',
       severity: 'warning' as const,
-      passed: fm.category !== 'weekly-summary' || validateSummaryPeriod(fm.summary_period),
-      message: '期間が不正です（開始日 < 終了日、6-8日間であること）',
+      passed: !isRecap || validateRecapPeriod(fm.recap_period, fm.category),
+      message: '期間が不正です（monthly: 28-32日間、週次: 6-8日間であること）',
     },
   ];
 
@@ -185,8 +186,8 @@ function main() {
 
   const results: ArticleValidationResult[] = [];
 
-  // 日次カテゴリ: .tmp/research-{category}.json 経由でファイルパスを解決
-  for (const category of DAILY_CATEGORIES) {
+  // 日次 + 週次カテゴリ: .tmp/research-{category}.json 経由でファイルパスを解決
+  for (const category of [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES]) {
     const tmpPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(tmpPath)) continue;
 
@@ -211,22 +212,24 @@ function main() {
     }
   }
 
-  // weekly-summary: articles/ ディレクトリから当日ファイルを直接検索
-  const weeklyPattern = new RegExp(`^${today}-weekly-summary-.+\\.md$`);
+  // recap カテゴリ: articles/ ディレクトリから当日ファイルを直接検索
   const allArticles = existsSync(articlesDir) ? readdirSync(articlesDir) : [];
-  const weeklyFiles = allArticles.filter((f) => weeklyPattern.test(f));
+  for (const recapCategory of RECAP_CATEGORIES) {
+    const recapPattern = new RegExp(`^${today}-${recapCategory}-.+\\.md$`);
+    const recapFiles = allArticles.filter((f) => recapPattern.test(f));
 
-  for (const filename of weeklyFiles) {
-    const filePath = join(articlesDir, filename);
-    const slug = filename.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    for (const filename of recapFiles) {
+      const filePath = join(articlesDir, filename);
+      const slug = filename.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 
-    const result = validateArticle(filePath, slug);
-    results.push(result);
+      const result = validateArticle(filePath, slug);
+      results.push(result);
 
-    console.log(`\nweekly-summary (${filePath}):`);
-    for (const c of result.checks) {
-      const icon = c.passed ? '\u2713' : (c.severity === 'error' ? '\u2717' : '\u26a0');
-      console.log(`  ${icon} [${c.severity}] ${c.description}: ${c.passed ? 'OK' : c.message}`);
+      console.log(`\n${recapCategory} (${filePath}):`);
+      for (const c of result.checks) {
+        const icon = c.passed ? '\u2713' : (c.severity === 'error' ? '\u2717' : '\u26a0');
+        console.log(`  ${icon} [${c.severity}] ${c.description}: ${c.passed ? 'OK' : c.message}`);
+      }
     }
   }
 

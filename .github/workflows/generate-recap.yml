@@ -1,0 +1,129 @@
+name: Generate Recap Articles
+
+on:
+  schedule:
+    # 週次 recap: 毎週月曜 UTC 22:00 (JST 火曜 07:00)
+    - cron: '0 22 * * 1'
+    # 月次 recap: 毎月1日 UTC 23:00 (JST 2日 08:00)
+    - cron: '0 23 1 * *'
+  workflow_dispatch:
+    inputs:
+      recap_type:
+        description: '生成するまとめ記事の種類'
+        required: false
+        default: 'all-weekly'
+        type: choice
+        options:
+          - ai-weekly-recap
+          - extended-weekly-recap
+          - monthly-paper-recap
+          - all-weekly
+      draft_mode:
+        description: 'Draft モード（生成記事に draft: true を付与）'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'ドライラン（push・デプロイトリガーをスキップ）'
+        required: false
+        type: boolean
+        default: false
+      target_date:
+        description: '記事の日付を上書き（YYYY-MM-DD 形式。空欄で当日）'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  generate-recap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      TARGET_DATE: ${{ inputs.target_date || '' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DEPLOY_TRIGGER_PAT || github.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull latest articles
+        run: git pull origin main
+
+      - name: Generate ai-weekly-recap
+        if: >-
+          github.event.schedule == '0 22 * * 1' ||
+          (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'ai-weekly-recap' || inputs.recap_type == 'all-weekly'))
+        run: npx tsx src/scripts/recap.ts
+        env:
+          RECAP_TYPE: ai-weekly-recap
+          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
+
+      - name: Generate extended-weekly-recap
+        if: >-
+          github.event.schedule == '0 22 * * 1' ||
+          (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'extended-weekly-recap' || inputs.recap_type == 'all-weekly'))
+        run: npx tsx src/scripts/recap.ts
+        env:
+          RECAP_TYPE: extended-weekly-recap
+          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
+
+      - name: Generate monthly-paper-recap
+        if: >-
+          github.event.schedule == '0 23 1 * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.recap_type == 'monthly-paper-recap')
+        run: npx tsx src/scripts/recap.ts
+        env:
+          RECAP_TYPE: monthly-paper-recap
+          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
+
+      - name: Generate thumbnails
+        run: npx tsx src/scripts/thumbnail.ts
+
+      - name: Validate articles
+        run: npx tsx src/scripts/validate.ts
+        continue-on-error: true
+
+      - name: Publish articles (remove draft flag from newly generated only)
+        if: ${{ !inputs.draft_mode }}
+        run: |
+          TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
+          for file in articles/${TODAY}-*.md; do
+            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
+              sed -i '/^draft: true$/d' "$file"
+              echo "Published: $file"
+            fi
+          done
+
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/ images/
+          if git diff --staged --quiet; then
+            echo "No recap articles generated"
+            exit 0
+          fi
+          git commit -m "chore: auto-generate recap articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git push origin main
+
+      - name: Trigger deploy
+        if: ${{ !inputs.dry_run }}
+        run: npx tsx src/scripts/trigger-deploy.ts
+        env:
+          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}

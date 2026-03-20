@@ -10,7 +10,7 @@ export interface ResearchRequest {
 
 export interface ResearchResult {
   category: Category;
-  status: 'success' | 'error';
+  status: 'success' | 'error' | 'skipped';
   error?: string;
   markdown?: string;
   frontmatter?: {
@@ -20,6 +20,8 @@ export interface ResearchResult {
     date: string;
     slug: string;
   };
+  /** 検索ツールのAPIレスポンスから構造的に抽出したURL一覧 */
+  searchUrls?: string[];
 }
 
 export interface ResearchProvider {

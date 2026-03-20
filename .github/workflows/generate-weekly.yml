@@ -1,0 +1,134 @@
+name: Generate Weekly Articles
+
+on:
+  schedule:
+    # 毎週月曜 UTC 21:00 (JST 火曜 06:00) に実行
+    - cron: '0 21 * * 1'
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: 'リサーチプロバイダー (claude / gemini / openai / mock)'
+        required: false
+        default: 'claude'
+        type: choice
+        options:
+          - claude
+          - gemini
+          - openai
+          - mock
+      model:
+        description: 'モデル上書き（空欄でデフォルト）'
+        required: false
+        default: ''
+      draft_mode:
+        description: 'Draft モード（生成記事に draft: true を付与）'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'ドライラン（push・デプロイトリガーをスキップ）'
+        required: false
+        type: boolean
+        default: false
+      slug_suffix:
+        description: 'slug サフィックス（プロバイダー比較用。例: gemini → slug-gemini）'
+        required: false
+        default: ''
+        type: string
+      target_date:
+        description: '記事の日付を上書き（YYYY-MM-DD 形式。空欄で当日）'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      ARTICLE_TYPE: weekly
+      RESEARCH_PROVIDER: ${{ inputs.provider || '' }}
+      RESEARCH_MODEL: ${{ inputs.model || '' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SLUG_SUFFIX: ${{ inputs.slug_suffix || '' }}
+      TARGET_DATE: ${{ inputs.target_date || '' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine research provider
+        run: |
+          if [ -n "$RESEARCH_PROVIDER" ]; then
+            echo "::notice::Provider from input: $RESEARCH_PROVIDER"
+          else
+            # ISO 週番号の偶奇判定
+            ISO_WEEK=$(TZ=Asia/Tokyo date +%V)
+            if [ $(( 10#$ISO_WEEK % 2 )) -eq 0 ]; then
+              echo "RESEARCH_PROVIDER=openai" >> $GITHUB_ENV
+              echo "::notice::Auto-selected provider: openai (even week ISO: $ISO_WEEK)"
+            else
+              echo "RESEARCH_PROVIDER=gemini" >> $GITHUB_ENV
+              echo "::notice::Auto-selected provider: gemini (odd week ISO: $ISO_WEEK)"
+            fi
+          fi
+
+      - name: Pull latest articles
+        run: git pull origin main
+
+      - name: Run research
+        run: npx tsx src/scripts/research.ts
+
+      - name: Generate articles
+        run: npx tsx src/scripts/generate.ts
+        env:
+          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
+
+      - name: Generate thumbnails
+        run: npx tsx src/scripts/thumbnail.ts
+
+      - name: Validate articles
+        run: npx tsx src/scripts/validate.ts
+
+      - name: Publish articles (remove draft flag from newly generated only)
+        if: ${{ !inputs.draft_mode }}
+        run: |
+          TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
+          for file in articles/${TODAY}-*.md; do
+            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
+              sed -i '/^draft: true$/d' "$file"
+              echo "Published: $file"
+            fi
+          done
+
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/ images/
+          if git diff --staged --quiet; then
+            echo "No new articles generated"
+            exit 0
+          fi
+          git commit -m "chore: auto-generate weekly articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git push origin main
+
+      - name: Trigger deploy
+        if: ${{ !inputs.dry_run }}
+        run: npx tsx src/scripts/trigger-deploy.ts
+        env:
+          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}

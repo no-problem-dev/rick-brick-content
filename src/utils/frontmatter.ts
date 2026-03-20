@@ -14,6 +14,8 @@ export interface FrontmatterDefaults {
   date: string;
   automated: boolean;
   provider?: string;
+  /** 検索ツールのAPIレスポンスから構造的に抽出したURL一覧 */
+  searchUrls?: string[];
 }
 
 /**
@@ -203,10 +205,8 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.slug = String(frontmatter.slug).replace(/[^a-z0-9-]/gi, '-').toLowerCase();
   }
 
-  // date: TARGET_DATE 設定時は常に defaults.date（= TARGET_DATE）を使用
-  if (process.env.TARGET_DATE || !frontmatter.date || !/^\d{4}-\d{2}-\d{2}$/.test(String(frontmatter.date))) {
-    frontmatter.date = defaults.date;
-  }
+  // date: LLM 出力の日付は信頼せず、常に defaults.date（= getTodayDate()）で上書き
+  frontmatter.date = defaults.date;
 
   // category
   if (!frontmatter.category) {
@@ -257,26 +257,33 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   summaryStr = summaryStr.replace(/\s{2,}/g, ' ').trim();
   frontmatter.summary = summaryStr;
 
-  // sources: URL でない項目を除去 + トラッキングパラメータ除去
-  if (!Array.isArray(frontmatter.sources)) {
-    frontmatter.sources = [];
-  } else {
-    frontmatter.sources = (frontmatter.sources as string[]).filter((s) => {
+  // sources: searchUrls（APIレスポンスから構造的に抽出したURL）を優先し、
+  // LLM生成の sources で補完する
+  const searchUrls = (defaults.searchUrls ?? [])
+    .filter((s) => { try { new URL(String(s)); return true; } catch { return false; } })
+    .map(s => cleanTrackingParams(String(s)));
+
+  // LLM生成の sources をクリーニング
+  let llmSources: string[] = [];
+  if (Array.isArray(frontmatter.sources)) {
+    llmSources = (frontmatter.sources as string[]).filter((s) => {
       try { new URL(String(s)); return true; } catch { return false; }
     }).map(s => cleanTrackingParams(String(s)));
   }
 
-  // sources が空の場合、body 内の Markdown リンクから URL を抽出
-  if ((frontmatter.sources as string[]).length === 0) {
+  // sources が両方空の場合、body 内の Markdown リンクから URL を抽出
+  if (searchUrls.length === 0 && llmSources.length === 0) {
     const urlPattern = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
     const extractedUrls: string[] = [];
     let match;
     while ((match = urlPattern.exec(body)) !== null) {
       extractedUrls.push(cleanTrackingParams(match[2]!));
     }
-    // 重複排除、最大10件
-    frontmatter.sources = [...new Set(extractedUrls)].slice(0, 10);
+    llmSources = extractedUrls;
   }
+
+  // searchUrls を優先し、LLM生成分で補完（重複排除、最大20件）
+  frontmatter.sources = [...new Set([...searchUrls, ...llmSources])].slice(0, 20);
 
   // ホワイトリスト方式: FIELD_ORDER に含まれるフィールドのみ、指定順序で出力
   const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources'];

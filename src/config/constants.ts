@@ -1,7 +1,11 @@
 /** 記事カテゴリ一覧 */
-export const DAILY_CATEGORIES = ['paper-review', 'ai-news-digest'] as const;
-export const WEEKLY_CATEGORIES = ['weekly-summary'] as const;
-export const CATEGORIES = [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES] as const;
+export const DAILY_CATEGORIES = ['ai-tech-daily', 'extended-daily'] as const;
+export const WEEKLY_CATEGORIES = ['paper-review', 'extended-paper-review', 'community-trends'] as const;
+export const RECAP_CATEGORIES = ['ai-weekly-recap', 'extended-weekly-recap', 'monthly-paper-recap'] as const;
+export const CATEGORIES = [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES, ...RECAP_CATEGORIES] as const;
+export type DailyCategory = (typeof DAILY_CATEGORIES)[number];
+export type WeeklyCategory = (typeof WEEKLY_CATEGORIES)[number];
+export type RecapCategory = (typeof RECAP_CATEGORIES)[number];
 export type Category = (typeof CATEGORIES)[number];
 
 /** ディレクトリパス */

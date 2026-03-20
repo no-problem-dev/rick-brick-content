@@ -1,18 +1,18 @@
+import type { Category } from '../config/constants.js';
 import type { ResearchProviderName } from './research.js';
 
 export interface PipelineResult {
   executedAt: string;
   provider: ResearchProviderName;
-  paperReview: ArticlePipelineResult;
-  aiNewsDigest: ArticlePipelineResult;
+  results: ArticlePipelineResult[];
   pushed: boolean;
   pushedFiles: string[];
   deployTriggered: boolean;
 }
 
 export interface ArticlePipelineResult {
-  category: 'paper-review' | 'ai-news-digest';
-  articleStatus: 'success' | 'error';
+  category: Category;
+  articleStatus: 'success' | 'error' | 'skipped';
   articleError?: string;
   slug?: string;
   thumbnailStatus?: 'success' | 'fallback';

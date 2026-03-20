@@ -1,4 +1,4 @@
-name: Generate Articles
+name: Generate Daily Articles
 
 on:
   schedule:
@@ -40,10 +40,6 @@ on:
         required: false
         default: ''
         type: string
-      generate_summary:
-        description: 'Generate weekly summary (regardless of day)'
-        type: boolean
-        default: false
 
 jobs:
   generate:
@@ -51,6 +47,7 @@ jobs:
     timeout-minutes: 30
 
     env:
+      ARTICLE_TYPE: daily
       RESEARCH_PROVIDER: ${{ inputs.provider || '' }}
       RESEARCH_MODEL: ${{ inputs.model || '' }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -78,13 +75,14 @@ jobs:
           if [ -n "$RESEARCH_PROVIDER" ]; then
             echo "::notice::Provider from input: $RESEARCH_PROVIDER"
           else
-            DAYS_SINCE_EPOCH=$(( $(date -u +%s) / 86400 ))
-            if [ $(( DAYS_SINCE_EPOCH % 2 )) -eq 0 ]; then
+            # JST基準の日付で偶奇判定（cron は UTC 20:00 = JST 翌05:00 に実行）
+            JST_DAY=$(TZ=Asia/Tokyo date +%-d)
+            if [ $(( JST_DAY % 2 )) -eq 0 ]; then
               echo "RESEARCH_PROVIDER=openai" >> $GITHUB_ENV
-              echo "::notice::Auto-selected provider: openai (even day)"
+              echo "::notice::Auto-selected provider: openai (even day JST: $JST_DAY)"
             else
               echo "RESEARCH_PROVIDER=gemini" >> $GITHUB_ENV
-              echo "::notice::Auto-selected provider: gemini (odd day)"
+              echo "::notice::Auto-selected provider: gemini (odd day JST: $JST_DAY)"
             fi
           fi
 
@@ -123,103 +121,11 @@ jobs:
             echo "No new articles generated"
             exit 0
           fi
-          git commit -m "chore: auto-generate articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git commit -m "chore: auto-generate daily articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push origin main
 
       - name: Trigger deploy
         if: ${{ !inputs.dry_run }}
-        run: npx tsx src/scripts/trigger-deploy.ts
-        env:
-          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}
-
-  generate-weekly-summary:
-    needs: generate
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-    if: >-
-      (github.event_name == 'schedule') ||
-      (github.event_name == 'workflow_dispatch' && inputs.generate_summary == true)
-    env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
-
-    steps:
-      - name: Check if Monday (skip on non-Monday for schedule)
-        id: check-day
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "run_summary=true" >> $GITHUB_OUTPUT
-          else
-            DOW=$(TZ=Asia/Tokyo date +%u)
-            if [ "$DOW" -eq 1 ]; then
-              echo "run_summary=true" >> $GITHUB_OUTPUT
-            else
-              echo "run_summary=false" >> $GITHUB_OUTPUT
-            fi
-          fi
-
-      - name: Checkout
-        if: steps.check-day.outputs.run_summary == 'true'
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.DEPLOY_TRIGGER_PAT || github.token }}
-
-      - name: Setup Node.js
-        if: steps.check-day.outputs.run_summary == 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.node-version'
-
-      - name: Install dependencies
-        if: steps.check-day.outputs.run_summary == 'true'
-        run: npm ci
-
-      - name: Pull latest articles
-        if: steps.check-day.outputs.run_summary == 'true'
-        run: git pull origin main
-
-      - name: Generate weekly summary
-        if: steps.check-day.outputs.run_summary == 'true'
-        run: npx tsx src/scripts/weekly-summary.ts
-        env:
-          DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
-
-      - name: Generate thumbnail
-        if: steps.check-day.outputs.run_summary == 'true'
-        run: npx tsx src/scripts/thumbnail.ts
-
-      - name: Validate
-        if: steps.check-day.outputs.run_summary == 'true'
-        run: npx tsx src/scripts/validate.ts
-        continue-on-error: true
-
-      - name: Publish articles
-        if: steps.check-day.outputs.run_summary == 'true' && !inputs.draft_mode
-        run: |
-          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
-          for file in articles/${TODAY}-*.md; do
-            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
-              sed -i '/^draft: true$/d' "$file"
-              echo "Published: $file"
-            fi
-          done
-
-      - name: Commit and push
-        if: steps.check-day.outputs.run_summary == 'true' && !inputs.dry_run
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles/ images/
-          if git diff --staged --quiet; then
-            echo "No weekly summary generated"
-            exit 0
-          fi
-          git commit -m "docs: add weekly summary $(TZ=Asia/Tokyo date +%Y-%m-%d)"
-          git push origin main
-
-      - name: Trigger deploy
-        if: steps.check-day.outputs.run_summary == 'true' && !inputs.dry_run
         run: npx tsx src/scripts/trigger-deploy.ts
         env:
           DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}
