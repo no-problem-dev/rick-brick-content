@@ -27,7 +27,13 @@ export class ClaudeProvider extends BaseResearchProvider {
       return this.buildError(request.category, `Claude API error ${response.status}: ${errorText}`);
     }
 
-    const data = await response.json() as { content: Array<{ type: string; text?: string }> };
+    const data = await response.json() as {
+      content: Array<{
+        type: string;
+        text?: string;
+        content?: Array<{ type: string; url?: string }> | { type: string };
+      }>;
+    };
     const textBlocks = data.content.filter((c) => c.type === 'text' && c.text);
 
     if (textBlocks.length === 0) {
@@ -35,6 +41,18 @@ export class ClaudeProvider extends BaseResearchProvider {
     }
 
     console.log(`Claude response: ${data.content.length} content blocks, types: [${data.content.map((c) => c.type).join(', ')}]`);
+
+    // web_search_tool_result ブロックから検索結果URLを構造的に抽出
+    const searchUrls: string[] = [];
+    for (const block of data.content) {
+      if (block.type === 'web_search_tool_result' && Array.isArray(block.content)) {
+        for (const result of block.content) {
+          if (result.type === 'web_search_result' && result.url) {
+            searchUrls.push(result.url);
+          }
+        }
+      }
+    }
 
     // web_search 使用時、text ブロックが多数に分割される:
     // [text(前置き), server_tool_use, ..., web_search_tool_result, text(記事1), text(記事2), ...]
@@ -53,6 +71,7 @@ export class ClaudeProvider extends BaseResearchProvider {
       ? articleTexts.join('\n\n')
       : textBlocks[textBlocks.length - 1]!.text!;
 
-    return this.buildResult(request.category, articleText);
+    console.log(`Claude search URLs extracted: ${searchUrls.length} URLs`);
+    return this.buildResult(request.category, articleText, searchUrls);
   }
 }

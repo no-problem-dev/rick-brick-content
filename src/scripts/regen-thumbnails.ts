@@ -18,7 +18,7 @@ const IMAGES_DIR = 'images';
 const PUBLIC_IMAGES_DIR = '../public/images'; // rick-brick 側
 
 const THUMBNAIL_COMMON_CONSTRAINTS = `This must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. The cat should be naturally posed. All props and environment must also look photographically real — no CGI, no digital art, no illustration style.
-STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style — this must be indistinguishable from a real photograph.`;
+STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style — this must be indistinguishable from a real photograph. No server rooms, no circuit boards, no outer space, no cyberspace, no holograms, no glowing neon UIs, no sci-fi aesthetics.`;
 
 // ---- 対象記事のスラッグとファイル名のマッピング ----
 const TARGETS: Array<{ slug: string; filename: string }> = [

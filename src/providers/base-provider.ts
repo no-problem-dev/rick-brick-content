@@ -21,6 +21,7 @@ export abstract class BaseResearchProvider implements ResearchProvider {
   protected buildResult(
     category: ResearchRequest['category'],
     markdown: string,
+    searchUrls?: string[],
   ): ResearchResult {
     const { frontmatter } = parseFrontmatter(markdown);
     return {
@@ -34,6 +35,7 @@ export abstract class BaseResearchProvider implements ResearchProvider {
         date: String(frontmatter.date ?? ''),
         slug: String(frontmatter.slug ?? ''),
       },
+      searchUrls,
     };
   }
 

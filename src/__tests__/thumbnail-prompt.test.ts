@@ -55,7 +55,7 @@ describe('generateThumbnailPrompt', () => {
     expect(result.prompt).toContain('real fur texture');
     expect(result.prompt).toContain('STRICTLY PROHIBITED');
     expect(result.prompt).toContain('Do NOT include any text');
-    expect(result.prompt).toContain('no CGI, no digital art, no illustration');
+    expect(result.prompt).toContain('No cartoon or illustrated style for the cat');
   });
 
   it('TC-03: API エラー時にフォールバックプロンプトを返す（例外を投げない）', async () => {

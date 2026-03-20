@@ -1,7 +1,11 @@
 /** 記事カテゴリ一覧 */
-export const DAILY_CATEGORIES = ['paper-review', 'ai-news-digest'] as const;
-export const WEEKLY_CATEGORIES = ['weekly-summary'] as const;
-export const CATEGORIES = [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES] as const;
+export const DAILY_CATEGORIES = ['ai-tech-daily', 'extended-daily'] as const;
+export const WEEKLY_CATEGORIES = ['paper-review', 'extended-paper-review', 'community-trends'] as const;
+export const RECAP_CATEGORIES = ['ai-weekly-recap', 'extended-weekly-recap', 'monthly-paper-recap'] as const;
+export const CATEGORIES = [...DAILY_CATEGORIES, ...WEEKLY_CATEGORIES, ...RECAP_CATEGORIES] as const;
+export type DailyCategory = (typeof DAILY_CATEGORIES)[number];
+export type WeeklyCategory = (typeof WEEKLY_CATEGORIES)[number];
+export type RecapCategory = (typeof RECAP_CATEGORIES)[number];
 export type Category = (typeof CATEGORIES)[number];
 
 /** ディレクトリパス */
@@ -14,8 +18,8 @@ export const IMAGEN_MODEL = 'imagen-4.0-generate-001';
 
 /** Thumbnail prompt generation */
 export const THUMBNAIL_PROMPT_MODEL = 'claude-haiku-4-5-20251001';
-export const THUMBNAIL_COMMON_CONSTRAINTS = `The cat itself must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. However, the SITUATION must be completely impossible and surreal — a real cat placed in an absurd, fantastical, or physically impossible scenario. The contrast between "photorealistic cat" and "impossible situation" is the core aesthetic. Think: a real cat confidently operating a spaceship control panel, a real cat presiding over a boardroom of mice, a real cat surfing on a giant circuit board through cyberspace. The more impossible and absurd the scenario, the better — as long as the cat looks 100% real.
-STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style for the cat — the cat must be photorealistic even when the situation is insane.`;
+export const THUMBNAIL_COMMON_CONSTRAINTS = `The cat itself must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. However, the SITUATION must be completely impossible and surreal — a real cat placed in an absurd, fantastical, or physically impossible scenario. The contrast between "photorealistic cat" and "impossible situation" is the core aesthetic. Think: a real cat presiding as judge in a grand courtroom wearing a tiny powdered wig, a real cat conducting a full orchestra of kittens in a concert hall, a real cat standing at a podium giving a graduation speech to an audience of cats. The more impossible and absurd the scenario, the better — as long as the cat looks 100% real.
+STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style for the cat — the cat must be photorealistic even when the situation is insane. No server rooms, no circuit boards, no outer space, no cyberspace, no holograms, no glowing neon UIs, no sci-fi aesthetics.`;
 
 /** デフォルト画像 */
 export const DEFAULT_IMAGE_PATH = 'images/defaults/default.png';

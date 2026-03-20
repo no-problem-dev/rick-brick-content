@@ -4,7 +4,7 @@ import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
 import { getTodayDate } from '../utils/date.js';
 import { upsertFrontmatterField, normalizeFrontmatter } from '../utils/frontmatter.js';
-import { DAILY_CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
+import { DAILY_CATEGORIES, WEEKLY_CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
 export interface ProcessedArticle {
   slug: string;
@@ -32,9 +32,10 @@ export function processResearchResult(
     date: today,
     automated: true,
     provider,
+    searchUrls: result.searchUrls,
   });
   // 自動生成注意文を末尾に追加
-  markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
+  markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。参考文献には AI が記事を生成するためにリサーチした URL を含んでいます。\n';
 
   const slug = resolveSlug(result, category, today);
   if (!validateSlug(slug)) {
@@ -52,7 +53,15 @@ function main() {
   const today = getTodayDate();
   const provider = process.env.RESEARCH_PROVIDER || undefined;
 
-  for (const category of DAILY_CATEGORIES) {
+  const articleType = process.env.ARTICLE_TYPE || 'daily';
+  let categoriesToProcess: readonly string[];
+  switch (articleType) {
+    case 'daily':  categoriesToProcess = DAILY_CATEGORIES; break;
+    case 'weekly': categoriesToProcess = WEEKLY_CATEGORIES; break;
+    default:       categoriesToProcess = DAILY_CATEGORIES;
+  }
+
+  for (const category of categoriesToProcess) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(inputPath)) {
       console.log(`${category}: research file not found, skipping`);
@@ -60,6 +69,10 @@ function main() {
     }
 
     const result: ResearchResult = JSON.parse(readFileSync(inputPath, 'utf-8'));
+    if (result.status === 'skipped') {
+      console.log(`${category}: skipped (NO_NEWS_FOUND), no article generated`);
+      continue;
+    }
     const processed = processResearchResult(result, category, today, provider);
     if (!processed) {
       console.log(`${category}: research failed or invalid slug, skipping`);
