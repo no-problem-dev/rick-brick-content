@@ -9,6 +9,7 @@
     "thumbnail": "tsx src/scripts/thumbnail.ts",
     "validate": "tsx src/scripts/validate.ts",
     "trigger-deploy": "tsx src/scripts/trigger-deploy.ts",
+    "post-to-x": "tsx src/scripts/post-to-x.ts",
     "test": "vitest run"
   },
   "devDependencies": {
