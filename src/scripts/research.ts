@@ -16,6 +16,15 @@ async function main() {
     default:       categoriesToProcess = DAILY_CATEGORIES;
   }
 
+  // CATEGORY 環境変数で単一カテゴリに絞り込み
+  const singleCategory = process.env.CATEGORY;
+  if (singleCategory && categoriesToProcess.includes(singleCategory)) {
+    categoriesToProcess = [singleCategory];
+  } else if (singleCategory) {
+    console.error(`Unknown category: ${singleCategory}`);
+    process.exit(1);
+  }
+
   const categories = categoriesToProcess as readonly Category[];
 
   // 順次実行（web_search レート制限を回避するため並列にしない）

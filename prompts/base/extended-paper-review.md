@@ -36,7 +36,7 @@
 出力の最初の文字は `---` であること。
 
 ---
-title: "拡張論文レビュー YYYY年MM月DD日 - [全体テーマを一言で]"
+title: "拡張論文レビュー - [全体テーマを一言で]"
 slug: "extended-paper-review-YYYY-MM-DD"
 summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"

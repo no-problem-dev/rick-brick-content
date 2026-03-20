@@ -61,6 +61,15 @@ function main() {
     default:       categoriesToProcess = DAILY_CATEGORIES;
   }
 
+  // CATEGORY 環境変数で単一カテゴリに絞り込み
+  const singleCategory = process.env.CATEGORY;
+  if (singleCategory && categoriesToProcess.includes(singleCategory)) {
+    categoriesToProcess = [singleCategory];
+  } else if (singleCategory) {
+    console.error(`Unknown category: ${singleCategory}`);
+    process.exit(1);
+  }
+
   for (const category of categoriesToProcess) {
     const inputPath = join(TMP_DIR, `research-${category}.json`);
     if (!existsSync(inputPath)) {

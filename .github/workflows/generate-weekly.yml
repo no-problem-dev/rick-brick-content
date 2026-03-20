@@ -2,10 +2,24 @@ name: Generate Weekly Articles
 
 on:
   schedule:
-    # 毎週月曜 UTC 21:00 (JST 火曜 06:00) に実行
-    - cron: '0 21 * * 1'
+    # 月曜 JST 18:00 (UTC 09:00) → paper-review
+    - cron: '0 9 * * 1'
+    # 水曜 JST 18:00 (UTC 09:00) → extended-paper-review
+    - cron: '0 9 * * 3'
+    # 金曜 JST 18:00 (UTC 09:00) → community-trends
+    - cron: '0 9 * * 5'
   workflow_dispatch:
     inputs:
+      category:
+        description: '生成するカテゴリ（空欄で全カテゴリ）'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - paper-review
+          - extended-paper-review
+          - community-trends
       provider:
         description: 'リサーチプロバイダー (claude / gemini / openai / mock)'
         required: false
@@ -69,6 +83,22 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Determine category from schedule
+        run: |
+          if [ -n "${{ inputs.category }}" ]; then
+            echo "CATEGORY=${{ inputs.category }}" >> $GITHUB_ENV
+            echo "::notice::Category from input: ${{ inputs.category }}"
+          elif [ "${{ github.event.schedule }}" = "0 9 * * 1" ]; then
+            echo "CATEGORY=paper-review" >> $GITHUB_ENV
+            echo "::notice::Schedule: Monday → paper-review"
+          elif [ "${{ github.event.schedule }}" = "0 9 * * 3" ]; then
+            echo "CATEGORY=extended-paper-review" >> $GITHUB_ENV
+            echo "::notice::Schedule: Wednesday → extended-paper-review"
+          elif [ "${{ github.event.schedule }}" = "0 9 * * 5" ]; then
+            echo "CATEGORY=community-trends" >> $GITHUB_ENV
+            echo "::notice::Schedule: Friday → community-trends"
+          fi
 
       - name: Determine research provider
         run: |

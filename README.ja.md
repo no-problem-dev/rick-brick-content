@@ -23,15 +23,29 @@ rick-brick-content/
 │   ├── base/              ← 記事生成ベースプロンプト
 │   └── providers/         ← プロバイダー固有補足プロンプト
 └── .github/workflows/
-    └── generate-articles.yml  ← 日次自動記事生成ワークフロー
+    ├── generate-daily.yml    ← 日次記事生成（毎日 JST 05:00）
+    ├── generate-weekly.yml   ← 週次記事生成（月水金 JST 18:00）
+    └── generate-recap.yml    ← まとめ記事生成（火木 + 月末 JST 18:00）
 ```
 
 ## 自動記事生成
 
-GitHub Actions の cron（UTC 20:00 / JST 05:00）で毎日自動実行される。
+GitHub Actions の cron で3つのワークフローが異なるスケジュールで実行される。
+
+| ワークフロー | スケジュール (JST) | カテゴリ |
+|------------|-------------------|---------|
+| `generate-daily.yml` | 毎日 05:00 | `ai-tech-daily`, `extended-daily` |
+| `generate-weekly.yml` | 月曜 18:00 | `paper-review` |
+| `generate-weekly.yml` | 水曜 18:00 | `extended-paper-review` |
+| `generate-weekly.yml` | 金曜 18:00 | `community-trends` |
+| `generate-recap.yml` | 火曜 18:00 | `ai-weekly-recap` |
+| `generate-recap.yml` | 木曜 18:00 | `extended-weekly-recap` |
+| `generate-recap.yml` | 月末 18:00 | `monthly-paper-recap` |
+
+各ワークフロー共通のパイプライン:
 
 1. LLM API（Claude / Gemini / OpenAI）で最新 AI 論文・ニュースをリサーチ
-2. リサーチ結果をもとに Markdown 記事を生成（paper-review + ai-news-digest）
+2. リサーチ結果をもとに Markdown 記事を生成
 3. Gemini Imagen API でサムネイル画像を生成
 4. 品質チェック（frontmatter 検証等）
 5. 成功分を main に push

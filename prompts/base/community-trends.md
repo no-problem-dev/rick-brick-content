@@ -25,7 +25,7 @@
 出力の最初の文字は `---` であること。
 
 ---
-title: "コミュニティトレンド YYYY年MM月DD日 - [全体テーマを一言で]"
+title: "コミュニティトレンド - [全体テーマを一言で]"
 slug: "community-trends-YYYY-MM-DD"
 summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"

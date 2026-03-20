@@ -39,7 +39,7 @@
 出力の最初の文字は `---` であること。
 
 ---
-title: "拡張週間まとめ YYYY年MM月DD日週 - [全体テーマを一言で]"
+title: "拡張週間まとめ - [全体テーマを一言で]"
 slug: "extended-weekly-recap-YYYY-MM-DD"
 summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"

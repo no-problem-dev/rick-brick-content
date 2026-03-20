@@ -2,10 +2,13 @@ name: Generate Recap Articles
 
 on:
   schedule:
-    # 週次 recap: 毎週月曜 UTC 22:00 (JST 火曜 07:00)
-    - cron: '0 22 * * 1'
-    # 月次 recap: 毎月1日 UTC 23:00 (JST 2日 08:00)
-    - cron: '0 23 1 * *'
+    # 火曜 JST 18:00 (UTC 09:00) → ai-weekly-recap
+    - cron: '0 9 * * 2'
+    # 木曜 JST 18:00 (UTC 09:00) → extended-weekly-recap
+    - cron: '0 9 * * 4'
+    # 月末 JST 18:00 (UTC 09:00) → monthly-paper-recap
+    # cron では月末を直接指定できないため 28-31日に実行し、ステップ内で月末判定
+    - cron: '0 9 28-31 * *'
   workflow_dispatch:
     inputs:
       recap_type:
@@ -47,27 +50,52 @@ jobs:
       TARGET_DATE: ${{ inputs.target_date || '' }}
 
     steps:
+      - name: Check if today is the last day of the month
+        id: last-day-check
+        run: |
+          TOMORROW=$(TZ=Asia/Tokyo date -d "+1 day" +%d)
+          if [ "$TOMORROW" = "01" ]; then
+            echo "is_last_day=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_last_day=false" >> $GITHUB_OUTPUT
+          fi
+          echo "::notice::Tomorrow is day $TOMORROW, is_last_day=$([ "$TOMORROW" = "01" ] && echo true || echo false)"
+
+      - name: Skip if 28-31 schedule but not last day
+        if: >-
+          github.event.schedule == '0 9 28-31 * *' &&
+          steps.last-day-check.outputs.is_last_day != 'true'
+        run: |
+          echo "::notice::Not the last day of the month. Skipping monthly recap."
+          echo "SKIP_RUN=true" >> $GITHUB_ENV
+
       - name: Checkout repository
+        if: env.SKIP_RUN != 'true'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DEPLOY_TRIGGER_PAT || github.token }}
 
       - name: Setup Node.js
+        if: env.SKIP_RUN != 'true'
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
           cache: 'npm'
 
       - name: Install dependencies
+        if: env.SKIP_RUN != 'true'
         run: npm ci
 
       - name: Pull latest articles
+        if: env.SKIP_RUN != 'true'
         run: git pull origin main
 
       - name: Generate ai-weekly-recap
         if: >-
-          github.event.schedule == '0 22 * * 1' ||
-          (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'ai-weekly-recap' || inputs.recap_type == 'all-weekly'))
+          env.SKIP_RUN != 'true' && (
+            github.event.schedule == '0 9 * * 2' ||
+            (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'ai-weekly-recap' || inputs.recap_type == 'all-weekly'))
+          )
         run: npx tsx src/scripts/recap.ts
         env:
           RECAP_TYPE: ai-weekly-recap
@@ -75,8 +103,10 @@ jobs:
 
       - name: Generate extended-weekly-recap
         if: >-
-          github.event.schedule == '0 22 * * 1' ||
-          (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'extended-weekly-recap' || inputs.recap_type == 'all-weekly'))
+          env.SKIP_RUN != 'true' && (
+            github.event.schedule == '0 9 * * 4' ||
+            (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'extended-weekly-recap' || inputs.recap_type == 'all-weekly'))
+          )
         run: npx tsx src/scripts/recap.ts
         env:
           RECAP_TYPE: extended-weekly-recap
@@ -84,22 +114,26 @@ jobs:
 
       - name: Generate monthly-paper-recap
         if: >-
-          github.event.schedule == '0 23 1 * *' ||
-          (github.event_name == 'workflow_dispatch' && inputs.recap_type == 'monthly-paper-recap')
+          env.SKIP_RUN != 'true' && (
+            (github.event.schedule == '0 9 28-31 * *' && steps.last-day-check.outputs.is_last_day == 'true') ||
+            (github.event_name == 'workflow_dispatch' && inputs.recap_type == 'monthly-paper-recap')
+          )
         run: npx tsx src/scripts/recap.ts
         env:
           RECAP_TYPE: monthly-paper-recap
           DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
 
       - name: Generate thumbnails
+        if: env.SKIP_RUN != 'true'
         run: npx tsx src/scripts/thumbnail.ts
 
       - name: Validate articles
+        if: env.SKIP_RUN != 'true'
         run: npx tsx src/scripts/validate.ts
         continue-on-error: true
 
       - name: Publish articles (remove draft flag from newly generated only)
-        if: ${{ !inputs.draft_mode }}
+        if: env.SKIP_RUN != 'true' && !inputs.draft_mode
         run: |
           TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
           for file in articles/${TODAY}-*.md; do
@@ -110,7 +144,7 @@ jobs:
           done
 
       - name: Commit and push
-        if: ${{ !inputs.dry_run }}
+        if: env.SKIP_RUN != 'true' && !inputs.dry_run
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -123,7 +157,7 @@ jobs:
           git push origin main
 
       - name: Trigger deploy
-        if: ${{ !inputs.dry_run }}
+        if: env.SKIP_RUN != 'true' && !inputs.dry_run
         run: npx tsx src/scripts/trigger-deploy.ts
         env:
           DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}

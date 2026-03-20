@@ -23,15 +23,29 @@ rick-brick-content/
 │   ├── base/              # Base prompts for article generation
 │   └── providers/         # Provider-specific supplementary prompts
 └── .github/workflows/
-    └── generate-articles.yml  # Daily auto-generation workflow
+    ├── generate-daily.yml    # Daily auto-generation (JST 05:00)
+    ├── generate-weekly.yml   # Weekly articles (Mon/Wed/Fri JST 18:00)
+    └── generate-recap.yml    # Recap articles (Tue/Thu + last day of month JST 18:00)
 ```
 
 ## Automated Article Generation
 
-Runs daily via GitHub Actions cron (UTC 20:00 / JST 05:00).
+Three workflows run on different schedules via GitHub Actions cron:
+
+| Workflow | Schedule (JST) | Categories |
+|----------|---------------|------------|
+| `generate-daily.yml` | Every day 05:00 | `ai-tech-daily`, `extended-daily` |
+| `generate-weekly.yml` | Mon 18:00 | `paper-review` |
+| `generate-weekly.yml` | Wed 18:00 | `extended-paper-review` |
+| `generate-weekly.yml` | Fri 18:00 | `community-trends` |
+| `generate-recap.yml` | Tue 18:00 | `ai-weekly-recap` |
+| `generate-recap.yml` | Thu 18:00 | `extended-weekly-recap` |
+| `generate-recap.yml` | Last day of month 18:00 | `monthly-paper-recap` |
+
+Each workflow follows the same pipeline:
 
 1. Research latest AI papers and news using LLM API (Claude / Gemini / OpenAI)
-2. Generate Markdown articles from research results (paper-review + ai-news-digest)
+2. Generate Markdown articles from research results
 3. Generate thumbnail images via Gemini Imagen API
 4. Run quality checks (frontmatter validation, etc.)
 5. Push successful articles to main
