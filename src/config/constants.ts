@@ -9,9 +9,14 @@ export type RecapCategory = (typeof RECAP_CATEGORIES)[number];
 export type Category = (typeof CATEGORIES)[number];
 
 /** ディレクトリパス */
-export const ARTICLES_DIR = 'articles';
+export const ARTICLES_DIR = 'articles/ja';
+export const ARTICLES_BASE_DIR = 'articles';
 export const IMAGES_DIR = 'images';
 export const TMP_DIR = '.tmp';
+
+/** i18n */
+export const SUPPORTED_LOCALES = ['ja', 'en', 'zh', 'es', 'pt', 'fr'] as const;
+export const DEFAULT_LOCALE = 'ja';
 
 /** Imagen API */
 export const IMAGEN_MODEL = 'imagen-4.0-generate-001';

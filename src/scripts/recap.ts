@@ -226,6 +226,7 @@ async function main() {
   }
 
   // 6. ファイル書き出し
+  mkdirSync(ARTICLES_DIR, { recursive: true });
   const filename = buildArticleFilename(slug, today);
   const outputPath = join(ARTICLES_DIR, filename);
   writeFileSync(outputPath, markdown);
