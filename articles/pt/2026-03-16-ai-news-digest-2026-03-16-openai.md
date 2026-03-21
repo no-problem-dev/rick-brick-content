@@ -3,7 +3,7 @@ title: "Notícias de IA em Destaque - 16 de Março de 2026"
 slug: "ai-news-digest-2026-03-16-openai"
 summary: "OpenAI fortalece \"IA para Todos\" com mega investimento. Anthropic expande na Austrália/NZ, NVIDIA anuncia Vera Rubin e Nemotron 3 Super. Comunidade debate integração de agentes."
 date: "2026-03-16"
-tags: ["生成AI","エージェント","AIインフラ","企業動向","政策・規制/安全性"]
+tags: ["IA Generativa","Agentes","Infraestrutura de IA","Tendências Corporativas","Política/Regulamentação/Segurança"]
 category: "ai-news-digest"
 automated: true
 provider: "openai"

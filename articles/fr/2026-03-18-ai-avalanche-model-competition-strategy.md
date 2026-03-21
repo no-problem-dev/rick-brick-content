@@ -3,7 +3,7 @@ title: "Stratégies de compétition à l'ère de l'Avalanche IA — Comment surv
 slug: "ai-avalanche-model-competition-strategy"
 summary: "En mars 2026, l'« Avalanche IA », où plus de 12 modèles majeurs ont été lancés en 7 jours, symbolise une accélération sans précédent de la compétition. Analyse de sa structure et stratégies pour le..."
 date: "2026-03-18"
-tags: ["AI競争","モデルリリース","戦略","GPT-5.4","Gemini","LLM"]
+tags: ["Concurrence IA","Sortie de modèles","Stratégie","GPT-5.4","Gemini","LLM"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/ai-avalanche-competition.png"

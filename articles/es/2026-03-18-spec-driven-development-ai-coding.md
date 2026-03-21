@@ -3,7 +3,7 @@ title: "Introducción al Desarrollo Dirigido por Especificaciones (Spec-Driven D
 slug: "spec-driven-development-ai-coding"
 summary: "A medida que las limitaciones del \"Vibe Coding\" se vuelven evidentes, el Desarrollo Dirigido por Especificaciones (SDD), que trata las especificaciones como \"contratos\" para la IA, está emergiendo ..."
 date: "2026-03-18"
-tags: ["AI開発","仕様書","SDD","コンテキストエンジニアリング","LLM","Claude Code"]
+tags: ["Desarrollo de IA","Especificaciones","SDD","Ingeniería de Contexto","LLM","Claude Code"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/spec-driven-development.png"
