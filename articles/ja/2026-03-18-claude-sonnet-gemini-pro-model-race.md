@@ -1,6 +1,7 @@
 ---
 title: "Claude Sonnet 4.6 と Gemini 3.1 Pro — LLMモデル競争の最前線"
 summary: "2026年2月にほぼ同時リリースされたClaude Sonnet 4.6とGemini 3.1 Pro。GPQA Diamond 94.3%などのベンチマーク比較から実用的な使い分け指針まで、開発者視点で徹底解説する。"
+slug: "claude-sonnet-gemini-pro-model-race"
 date: "2026-03-18"
 tags: ["Claude", "Gemini", "LLM", "ベンチマーク", "AI比較", "Anthropic", "Google DeepMind"]
 category: "tech-article"

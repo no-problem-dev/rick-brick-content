@@ -1,6 +1,7 @@
 ---
 title: "Spec-Driven Development 入門 — AI駆動開発で仕様書が最重要になった理由"
 summary: "Vibe Codingの限界が明らかになるなか、仕様書をAIへの「契約」として扱うSpec-Driven Development（SDD）が2025〜2026年のAI駆動開発における主流パラダイムへと台頭している。その背景・原則・実践方法を論文・企業事例とともに解説する。"
+slug: "spec-driven-development-ai-coding"
 date: "2026-03-18"
 tags: ["AI開発", "仕様書", "SDD", "コンテキストエンジニアリング", "LLM", "Claude Code"]
 category: "tech-article"

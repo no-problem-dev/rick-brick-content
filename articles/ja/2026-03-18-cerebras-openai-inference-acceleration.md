@@ -1,6 +1,7 @@
 ---
 title: "Cerebras×OpenAI: GPU独占からの脱却とAIインフラ多様化の現実"
 summary: "OpenAIがCerebrasのWSE-3ウェーハスケールチップを採用し、毎秒1,000トークン超えの超高速推論を実現。100億ドル規模の契約はNVIDIA独占体制への挑戦であり、AIインフラの競争地図を塗り替える歴史的転換点となっている。"
+slug: "cerebras-openai-inference-acceleration"
 date: "2026-03-18"
 tags: ["Cerebras", "OpenAI", "AI推論", "AIインフラ", "NVIDIA", "GPUアーキテクチャ", "ウェーハスケール"]
 category: "tech-article"

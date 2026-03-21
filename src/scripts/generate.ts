@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
@@ -88,6 +88,7 @@ function main() {
       continue;
     }
 
+    mkdirSync(ARTICLES_DIR, { recursive: true });
     const outputPath = join(ARTICLES_DIR, processed.filename);
     let markdown = processed.markdown;
     if (process.env.DRAFT_MODE === 'true') {

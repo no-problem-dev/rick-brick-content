@@ -1,6 +1,7 @@
 ---
 title: LLMを自律AIエージェントへ再定義する4つの軸 — エージェント型推論フレームワークの体系
 summary: 「Large Language Model Agent」サーベイ論文（arXiv:2503.21460）を起点に、計画・ツール利用・記憶・自己改善という4軸でエージェント型推論を体系化。Silo-Bench、MC-SearchなどLLMエージェント研究の最前線を解説する。
+slug: "agentic-reasoning-framework-llm"
 date: "2026-03-18"
 tags: ["AIエージェント", "推論", "LLM", "マルチエージェント", "MCP"]
 category: "tech-article"

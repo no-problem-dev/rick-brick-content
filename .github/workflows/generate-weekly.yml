@@ -130,6 +130,12 @@ jobs:
       - name: Generate thumbnails
         run: npx tsx src/scripts/thumbnail.ts
 
+      - name: Translate articles
+        if: ${{ env.SKIP_TRANSLATE != 'true' }}
+        run: npx tsx src/scripts/translate.ts
+        env:
+          RESEARCH_PROVIDER: ${{ env.RESEARCH_PROVIDER }}
+
       - name: Validate articles
         run: npx tsx src/scripts/validate.ts
 
@@ -137,11 +143,19 @@ jobs:
         if: ${{ !inputs.draft_mode }}
         run: |
           TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
-          for file in articles/${TODAY}-*.md; do
+          for file in articles/ja/${TODAY}-*.md; do
             if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
               sed -i '/^draft: true$/d' "$file"
               echo "Published: $file"
             fi
+          done
+          for lang in en zh es pt fr; do
+            for file in articles/${lang}/${TODAY}-*.md; do
+              if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
+                sed -i '/^draft: true$/d' "$file"
+                echo "Published: $file"
+              fi
+            done
           done
 
       - name: Commit and push

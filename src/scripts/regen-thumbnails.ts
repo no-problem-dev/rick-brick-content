@@ -7,14 +7,13 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { ARTICLES_DIR, IMAGES_DIR } from '../config/constants.js';
 
 // ---- 設定 ----
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const GEMINI_IMAGE_API_KEY = process.env.GEMINI_IMAGE_API_KEY;
 const CLAUDE_MODEL = 'claude-haiku-4-5-20251001';
 const IMAGEN_MODEL = 'imagen-4.0-ultra-generate-001';
-const ARTICLES_DIR = 'articles';
-const IMAGES_DIR = 'images';
 const PUBLIC_IMAGES_DIR = '../public/images'; // rick-brick 側
 
 const THUMBNAIL_COMMON_CONSTRAINTS = `This must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. The cat should be naturally posed. All props and environment must also look photographically real — no CGI, no digital art, no illustration style.

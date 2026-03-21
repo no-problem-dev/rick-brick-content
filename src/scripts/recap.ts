@@ -5,6 +5,7 @@ import { buildArticleFilename } from '../utils/slug.js';
 import { getTodayDate, daysAgoJST } from '../utils/date.js';
 import { ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 import type { RecapCategory } from '../config/constants.js';
+import { callClaude } from '../utils/llm-client.js';
 
 const RECAP_MODEL = 'claude-haiku-4-5-20251001';
 
@@ -89,66 +90,6 @@ function buildArticlesXml(articles: ArticleData[]): string {
     .join('\n\n');
 }
 
-/**
- * Claude Haiku API を呼び出してまとめ記事を生成する（最大3回試行）
- */
-async function callClaudeApi(prompt: string): Promise<string> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    throw new Error('ANTHROPIC_API_KEY is not set');
-  }
-
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    try {
-      const response = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: {
-          'x-api-key': apiKey,
-          'anthropic-version': '2023-06-01',
-          'content-type': 'application/json',
-        },
-        body: JSON.stringify({
-          model: RECAP_MODEL,
-          max_tokens: 16384,
-          messages: [{ role: 'user', content: prompt }],
-        }),
-      });
-
-      if (!response.ok) {
-        const errorText = await response.text();
-        const isRateLimit = response.status === 429;
-        if (attempt < 3) {
-          const waitMs = isRateLimit ? 60000 : 60000;
-          console.log(`Claude API error ${response.status}, retrying in ${waitMs / 1000}s... (attempt ${attempt}/3)`);
-          await new Promise((resolve) => setTimeout(resolve, waitMs));
-          continue;
-        }
-        throw new Error(`Claude API error ${response.status}: ${errorText}`);
-      }
-
-      const data = (await response.json()) as {
-        content: Array<{ type: string; text?: string }>;
-      };
-
-      const textBlock = data.content.find((c) => c.type === 'text' && c.text);
-      if (!textBlock?.text) {
-        throw new Error('No text content in Claude response');
-      }
-
-      return textBlock.text;
-    } catch (error) {
-      if (attempt < 3) {
-        console.log(`Error on attempt ${attempt}: ${error instanceof Error ? error.message : String(error)}, retrying in 60s...`);
-        await new Promise((resolve) => setTimeout(resolve, 60000));
-      } else {
-        throw error;
-      }
-    }
-  }
-
-  throw new Error('Claude API call failed after 3 attempts');
-}
-
 async function main() {
   const today = getTodayDate();
   const recapType = (process.env.RECAP_TYPE || 'ai-weekly-recap') as RecapCategory;
@@ -194,7 +135,7 @@ async function main() {
   console.log(`Calling Claude API for ${recapType}...`);
   let rawMarkdown: string;
   try {
-    rawMarkdown = await callClaudeApi(fullPrompt);
+    rawMarkdown = await callClaude(fullPrompt, { model: RECAP_MODEL, errorWaitMs: 60000 });
   } catch (error) {
     console.error(`Failed to generate ${recapType}: ${error instanceof Error ? error.message : String(error)}`);
     process.exit(1);
@@ -226,6 +167,7 @@ async function main() {
   }
 
   // 6. ファイル書き出し
+  mkdirSync(ARTICLES_DIR, { recursive: true });
   const filename = buildArticleFilename(slug, today);
   const outputPath = join(ARTICLES_DIR, filename);
   writeFileSync(outputPath, markdown);
