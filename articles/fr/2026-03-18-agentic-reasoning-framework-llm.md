@@ -3,7 +3,7 @@ title: "Redéfinir les LLM en agents autonomes : quatre axes – systématisatio
 slug: "agentic-reasoning-framework-llm"
 summary: "Partant de l'article de synthèse \"Large Language Model Agent\" (arXiv:2503.21460), ce texte systématise le raisonnement basé sur les agents selon quatre axes : planification, utilisation d'outils, m..."
 date: "2026-03-18"
-tags: ["AIエージェント","推論","LLM","マルチエージェント","MCP"]
+tags: ["Agents IA","Raisonnement","LLM","Multi-agents","MCP"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/agentic-reasoning-framework.png"
