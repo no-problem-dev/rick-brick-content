@@ -13,6 +13,7 @@ type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
 interface TranslationResult {
   title: string;
   summary: string;
+  tags: string[];
   body: string;
 }
 
@@ -275,13 +276,14 @@ function parseTranslationResponse(rawText: string): TranslationResult {
   }
   const title = typeof parsed.title === 'string' ? parsed.title : '';
   const summary = typeof parsed.summary === 'string' ? parsed.summary : '';
+  const tags = Array.isArray(parsed.tags) ? (parsed.tags as unknown[]).map(String) : [];
   const body = typeof parsed.body === 'string' ? parsed.body : '';
 
   if (!title || !body) {
     throw new Error('Translation response missing required fields (title, body)');
   }
 
-  return { title, summary, body };
+  return { title, summary, tags, body };
 }
 
 /**
@@ -323,6 +325,7 @@ function buildTranslatedFrontmatter(
   originalFrontmatter: Record<string, unknown>,
   translatedTitle: string,
   translatedSummary: string,
+  translatedTags?: string[],
 ): string {
   const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'thumbnail'];
 
@@ -330,6 +333,7 @@ function buildTranslatedFrontmatter(
     ...originalFrontmatter,
     title: translatedTitle,
     summary: translatedSummary,
+    ...(translatedTags && translatedTags.length > 0 ? { tags: translatedTags } : {}),
   };
 
   const fmLines: string[] = [];
@@ -358,6 +362,7 @@ function buildTranslatePrompt(
   targetLocale: SupportedLocale,
   title: string,
   summary: string,
+  tags: string[],
   body: string,
 ): string {
   const promptPath = 'prompts/translate/base.md';
@@ -372,6 +377,7 @@ function buildTranslatePrompt(
     .replace(/\{\{TARGET_LANGUAGE\}\}/g, targetLanguage)
     .replace('{{TITLE}}', title)
     .replace('{{SUMMARY}}', summary)
+    .replace('{{TAGS}}', JSON.stringify(tags))
     .replace('{{BODY}}', body);
 }
 
@@ -420,8 +426,11 @@ async function translateArticle(
   // 本文から自動生成注意文を除去（翻訳対象から外す）
   const bodyWithoutDisclaimer = removeDisclaimerFromBody(fullBody);
 
+  // タグを取得
+  const tags = Array.isArray(frontmatter.tags) ? (frontmatter.tags as unknown[]).map(String) : [];
+
   // 翻訳プロンプト構築
-  const prompt = buildTranslatePrompt(targetLocale, title, summary, bodyWithoutDisclaimer);
+  const prompt = buildTranslatePrompt(targetLocale, title, summary, tags, bodyWithoutDisclaimer);
 
   // LLM API 呼び出し
   console.log(`  [${targetLocale}] Translating via ${provider}...`);
@@ -436,8 +445,9 @@ async function translateArticle(
     translatedSummary = translatedSummary.slice(0, 197) + '...';
   }
 
-  // frontmatter 再構築
-  const newFrontmatter = buildTranslatedFrontmatter(frontmatter, translation.title, translatedSummary);
+  // frontmatter 再構築（翻訳されたタグがあればそれを使用、なければ原文タグ）
+  const translatedTags = translation.tags.length > 0 ? translation.tags : tags;
+  const newFrontmatter = buildTranslatedFrontmatter(frontmatter, translation.title, translatedSummary, translatedTags);
 
   // 本文 + 対象言語の注意文を組み立て
   const disclaimer = DISCLAIMER_BY_LOCALE[targetLocale];

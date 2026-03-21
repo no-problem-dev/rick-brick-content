@@ -21,17 +21,21 @@ Translate the following Japanese technical article into {{TARGET_LANGUAGE}}.
 ### Summary
 {{SUMMARY}}
 
+### Tags
+{{TAGS}}
+
 ### Body
 {{BODY}}
 
 ## Output Format
 
-Respond with a JSON object containing exactly these three keys:
+Respond with a JSON object containing exactly these four keys:
 - `"title"`: translated title in {{TARGET_LANGUAGE}}
 - `"summary"`: translated summary in {{TARGET_LANGUAGE}} (keep under 200 characters)
+- `"tags"`: array of translated tags in {{TARGET_LANGUAGE}}. Translate each tag naturally (e.g., "AI安全" → "AI Safety", "テクノロジー" → "Technology"). Keep tags that are already in English as-is.
 - `"body"`: translated body in Markdown format
 
 Output ONLY the JSON object with no additional text, explanation, or code fences surrounding it.
 
 Example output structure:
-{"title": "...", "summary": "...", "body": "..."}
+{"title": "...", "summary": "...", "tags": ["...", "..."], "body": "..."}
