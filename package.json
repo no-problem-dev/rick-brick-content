@@ -10,9 +10,12 @@
     "validate": "tsx src/scripts/validate.ts",
     "trigger-deploy": "tsx src/scripts/trigger-deploy.ts",
     "post-to-x": "tsx src/scripts/post-to-x.ts",
+    "post-to-bluesky": "tsx src/scripts/post-to-bluesky.ts",
+    "post-to-mastodon": "tsx src/scripts/post-to-mastodon.ts",
     "test": "vitest run"
   },
   "devDependencies": {
+    "@atproto/api": "^0.19.4",
     "sharp": "^0.33.0",
     "tsx": "^4.0.0",
     "typescript": "~5.9.0",
