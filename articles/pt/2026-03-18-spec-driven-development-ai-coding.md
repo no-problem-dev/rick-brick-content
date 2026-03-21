@@ -1,255 +1,255 @@
 ---
-title: "Introdução ao Spec-Driven Development — Por que a documentação de especificações se tornou crucial no desenvolvimento impulsionado por IA"
+title: "Introdução ao Desenvolvimento Orientado por Especificações (Spec-Driven Development) — Por que o Documento de Especificações se Tornou o Mais Importante no Desenvolvimento Orientado por IA"
 slug: "spec-driven-development-ai-coding"
-summary: "À medida que as limitações do 'Vibe Coding' se tornam aparentes, o Spec-Driven Development (SDD), que trata as especificações como 'contratos' para IA, está emergindo como o principal paradigma de ..."
+summary: "Com os limites do Vibe Coding se tornando claros, o Spec-Driven Development (SDD), que trata especificações como 'contratos' para IA, está emergindo como o principal paradigma de desenvolvimento or..."
 date: "2026-03-18"
-tags: ["AI開発","仕様書","SDD","コンテキストエンジニアリング","LLM","Claude Code"]
+tags: ["Desenvolvimento de IA","Especificações","SDD","Engenharia de Contexto","LLM","Claude Code"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/spec-driven-development.png"
 draft: false
 ---
-## Introdução — O fim do idílio do "Vibe Coding"
+## Introdução — O Fim do Idílio do "Vibe Coding"
 
-No início de 2025, Andrej Karpathy, cofundador da OpenAI, propôs o conceito de "Vibe Coding": um estilo de desenvolvimento que envolve lançar prompts sutis para a IA e aceitar o código gerado quase sem modificações. Embora inicialmente aclamado como uma revolução na produtividade, o otimismo não durou.
+No início de 2025, Andrej Karpathy, co-fundador da OpenAI, propôs o conceito de "Vibe Coding": um estilo de desenvolvimento que envolve o lançamento de prompts intuitivos para a IA e a aceitação do código gerado quase sem modificações. Embora inicialmente saudado como uma revolução na produtividade, o otimismo não durou muito.
 
-A realidade revelada pelos dados de pesquisa é dura. Uma pesquisa da Veracode em 2025 descobriu que **45% do código gerado por IA continha vulnerabilidades de segurança**. Uma análise de 470 Pull Requests de código aberto pelo CodeRabbit revelou que o código coescrito por IA tinha **1,7 vezes mais "problemas importantes"** do que o código escrito por humanos, além de 75% mais configurações incorretas e 2,74 vezes mais vulnerabilidades de segurança. Paradoxalmente, uma pesquisa descobriu que desenvolvedores experientes experimentaram uma **diminuição de 19% na produtividade** ao usar ferramentas de codificação de IA (apesar de preverem um aumento de 24%).
+A realidade mostrada pelos dados de pesquisa é dura. Uma pesquisa de 2025 da Veracode descobriu que **45% do código gerado por IA continha vulnerabilidades de segurança**. Uma análise de 470 Pull Requests de código aberto pela CodeRabbit mostrou que o código coescrito por IA tinha **1,7 vezes mais "problemas principais"** do que o código escrito por humanos, 75% mais configurações incorretas e 2,74 vezes mais vulnerabilidades de segurança. Paradoxalmente, uma pesquisa também revelou que desenvolvedores experientes tiveram uma **redução de 19% na produtividade** ao usar ferramentas de codificação com IA (apesar de eles próprios preverem um aumento de 24%).
 
-Quais são as causas fundamentais dessa situação, apelidada de "ressaca do Vibe Coding"? E qual é o paradigma emergente como solução: **Spec-Driven Development (SDD)**? Este artigo explicará detalhadamente, combinando artigos, estudos de caso corporativos e conhecimento prático.
+Qual é a causa raiz dessa situação, às vezes chamada de "ressaca do Vibe Coding"? E qual é o paradigma emergente como solução: **Spec-Driven Development (SDD)**? Este artigo explicará em detalhes, misturando artigos, estudos de caso de empresas e conhecimento prático.
 
 ---
 
 ## Razões Estruturais para o Fracasso do Vibe Coding
 
-### O Problema da "IA que não lê mentes"
+### O Problema da "IA que Não Lê Mentes"
 
-Um post de blog do GitHub expressa concisamente esse problema: "**LLMs são ótimos em completar padrões, mas não conseguem ler mentes**".
+O blog do GitHub expressa sucintamente este problema: "**LLMs são ótimos em completar padrões, mas não são bons em ler mentes**".
 
-Se você pedir a um assistente de codificação de IA para "criar uma função de login", ele gerará alguma forma de função de login. Mas ela usará OAuth 2.0, como será o gerenciamento de sessão, ela se adequa ao esquema de banco de dados existente, quais são os requisitos de segurança — sem especificar isso, a IA apenas completará o "código que parece certo".
+Se você pedir a um assistente de codificação de IA para "criar uma função de login", algum código de login será gerado. No entanto, se ele usará OAuth 2.0, como o gerenciamento de sessão será tratado, se ele se alinha com o esquema de banco de dados existente, como os requisitos de segurança serão atendidos — sem clareza sobre esses pontos, a IA apenas completará o código "que parece certo".
 
-### Problemas de Shadow Bug e Loops de Alucinação
+### Problema de "Shadow Bug" e Loop de Alucinação
 
-Os problemas gerados pelo Vibe Coding podem ser amplamente divididos em duas categorias:
+Os problemas criados pelo Vibe Coding podem ser amplamente divididos em duas categorias.
 
-Uma é o **Shadow Bug** (código que parece correto, mas contém vulnerabilidades graves). O código funciona e os testes passam. No entanto, em certas condições, injeções de SQL podem ocorrer ou a autenticação pode ser contornada. Nesses casos, o problema muitas vezes só se manifesta após entrar em produção.
+Uma é o **Shadow Bug** (código que parece correto, mas contém vulnerabilidades graves). O código funciona e passa nos testes. No entanto, sob certas condições, pode ocorrer injeção de SQL ou ser possível contornar a autenticação. Muitos casos surgem apenas após a implantação em produção.
 
-Outro é o **loop de alucinação**. Em sistemas multiagentes onde vários agentes de IA colaboram, um ciclo vicioso pode surgir onde um agente considera a saída incorreta de outro agente como correta, reforçando os erros um do outro. Sem um "ponto de referência correto" como a documentação de especificações, essa cadeia não pode ser quebrada.
+O outro é o **Loop de Alucinação**. Em sistemas multiagentes onde vários agentes de IA colaboram, um agente pode julgar a saída incorreta de outro agente como correta, criando um ciclo vicioso que reforça os erros um do outro. Sem um "ponto de referência para a verdade" na forma de um documento de especificação, essa cadeia não pode ser quebrada.
 
 ```mermaid
 graph LR
     A[Agente A: Implementação incorreta] --> B[Agente B: Revisão]
     B --> C[Aprovado como sem problemas]
     C --> D[Implementação incorreta vai para produção]
-    D --> E[É tarde demais quando o bug é encontrado]
+    D --> E[Tarde demais quando o bug é descoberto]
 ```
 
-### Perda de Contexto e Inconsistência Arquitetural
+### Perda de Contexto e Inconsistência Arquitetônica
 
-O contexto é redefinido a cada sessão na conversa com a IA. A IA na próxima sessão não saberá que na conversa anterior foi decidido "implementar a autenticação usando JWT". Ao lidar com várias conversas ou vários agentes de IA, o projeto arquitetural geral se fragmenta, resultando em um sistema inconsistente onde uma parte usa REST e outra usa GraphQL.
+O contexto em conversas com IA é redefinido a cada sessão. A IA na próxima sessão não saberá que decidimos "implementar autenticação com JWT" na sessão anterior. Quando várias conversas ou vários agentes de IA estão envolvidos, o design da arquitetura geral se espalha, resultando em um sistema inconsistente onde uma parte usa REST e outra usa GraphQL.
 
 ---
 
-## O que é Spec-Driven Development?
+## O Que é Spec-Driven Development (SDD)
 
 ### Definição e Princípios Fundamentais
 
-Spec-Driven Development (SDD) é um paradigma de desenvolvimento que **define especificações claras (Specs) como "contratos" para a IA, e gera código com base nesses contratos**.
+Spec-Driven Development (SDD) é um paradigma de desenvolvimento que **define um documento de especificação claro (Spec) como um "contrato" para a IA, e gera código com base nesse contrato**.
 
-Thoughtworks descreve isso da seguinte forma: "SDD usa especificações de requisitos explícitas como prompts para que os agentes de IA gerem código executável. As especificações definem explicitamente comportamentos externos (mapeamento de entrada/saída, pré-condições/pós-condições, invariantes, restrições, tipos de interface)".
+Thoughtworks descreve isso da seguinte forma: "SDD utiliza especificações de requisitos claras como prompts para que agentes de IA gerem código executável. As especificações definem explicitamente o comportamento externo (mapeamento de entrada/saída, pré-condições/pós-condições, invariantes, restrições, tipos de interface)".
 
-O princípio de "**Investir uma hora em planejamento pode economizar dez horas de refatoração depois**" (Thoughtworks) é mais aplicável do que nunca no desenvolvimento impulsionado por IA.
+O princípio de "**Investir uma hora em planejamento para economizar dez horas em retrabalho**" (Thoughtworks) é mais aplicável do que nunca no desenvolvimento orientado por IA.
 
-### Comparação: Vibe Coding vs SDD
+### Comparação Vibe Coding vs SDD
 
 | Aspecto | Vibe Coding | Spec-Driven Development |
 |:-----|:------------|:------------------------|
-| Principal portador de informação | Conversa/Prompt | Arquivo de especificação |
-| Persistência de contexto | Apenas dentro da sessão | Persistente (salvo como arquivo) |
-| Registro de decisões de design | Nenhum (implícito) | Explicitamente documentado |
-| Instrução para a IA | Prompt a cada vez | Referenciar a especificação |
-| Objeto de revisão | Código | Especificação (primeiro) -> Código (depois) |
+| Principal portador de informação | Conversa/Prompt | Arquivo de Especificação |
+| Persistência do contexto | Apenas dentro da sessão | Persistente (salvo como arquivo) |
+| Registro de decisões de design | Nenhum (implícito) | Documentado explicitamente |
+| Instrução para IA | Prompt a cada vez | Referenciar documento de especificação |
+| Alvo da revisão | Código | Documento de especificação (primeiro) → Código (depois) |
 | Escala | Individual/Pequena escala | Equipe/Sistema de produção |
 
 ### Processo de 4 Fases do SDD
 
-O **Spec Kit** (Licença MIT), lançado pelo GitHub em setembro de 2025, é um kit de ferramentas de código aberto para praticar SDD. Seu design define 4 fases:
+O **Spec Kit** (MIT License), lançado pelo GitHub em setembro de 2025, é um kit de ferramentas de código aberto para praticar SDD. Seu design define 4 fases:
 
-**Specify (Definição de Especificações)**: Define jornadas do usuário e critérios de sucesso. A IA gera um rascunho de `requirements.md`, mas os humanos revisam e confirmam.
+**Specify (Definição de Especificação)**: Defina as jornadas do usuário e os critérios de sucesso. A IA gera um rascunho do requirements.md, mas os humanos o revisam e o finalizam.
 
-**Plan (Planejamento Técnico)**: Declara arquitetura, pilha tecnológica e restrições. A IA propõe `design.md`, e os humanos tomam as decisões.
+**Plan (Planejamento Técnico)**: Declare a arquitetura, a pilha tecnológica e as restrições. A IA propõe o design.md, e os humanos decidem.
 
-**Tasks (Desagregação de Tarefas)**: Divide em unidades de trabalho pequenas e revisáveis. A IA gera `tasks.md`.
+**Tasks (Decomposição de Tarefas)**: Divida em unidades de trabalho pequenas e revisáveis. A IA gera o tasks.md.
 
-**Implement (Implementação)**: Os agentes de IA implementam as tarefas enquanto os humanos verificam em cada ponto de controle.
+**Implement (Implementação)**: Agentes de IA implementam as tarefas enquanto os humanos verificam em cada ponto de verificação.
 
-O ponto crucial deste processo é que cada fase tem um **ponto de controle explícito**. É uma transição do fluxo de trabalho "Prompt and Pray" para "Specify and Verify".
+O ponto chave deste processo são os **pontos de verificação explícitos** em cada fase. É uma mudança de fluxo de trabalho de "Prompt and Pray" para "Specify and Verify".
 
 ---
 
-## O que os Artigos Revelaram
+## O Que os Artigos Revelaram
 
 ### Estudo Empírico de "Beyond the Prompt: Cursor Rules" (arXiv:2512.18925)
 
-Um estudo conduzido por Shaokang Jiang e Daye Nam, pesquisadores da Microsoft e GitHub, é o primeiro estudo empírico em larga escala a analisar arquivos `.cursorrules` em 401 repositórios de código aberto (apresentado no MSR 2026).
+Um estudo conduzido por Shaokang Jiang e Daye Nam, pesquisadores da Microsoft e do GitHub, é o primeiro estudo empírico em larga escala a analisar arquivos `.cursorrules` em 401 repositórios de código aberto (a ser apresentado no MSR 2026).
 
-A taxonomia estabelecida por este estudo classifica a provisão de contexto para assistentes de codificação de IA em 5 temas:
+A taxonomia estabelecida por este estudo classifica a forma como o contexto é fornecido aos assistentes de codificação de IA em 5 temas:
 
 | Tema | Conteúdo |
-|:-------|-----|
-| Convenções | Estilo de código, regras de nomenclatura, formatação |
-| Diretrizes | Padrões arquiteturais, melhores práticas |
-| Informações do Projeto | Pilha tecnológica, dependências, estrutura de diretórios |
-| Diretivas de LLM | Instruções de ação diretas para a IA (o que fazer/não fazer) |
-| Exemplos | Exemplos concretos de padrões de código esperados |
+|:-------|:-----|
+| Conventions | Estilo de código, regras de nomenclatura, formatação |
+| Guidelines | Padrões arquitetônicos, melhores práticas |
+| Project Information | Pilha tecnológica, dependências, estrutura de diretórios |
+| LLM Directives | Instruções de ação diretas para a IA (o que fazer/não fazer) |
+| Examples | Exemplos concretos de padrões de código esperados |
 
-A descoberta importante é que "**não apenas os prompts, mas também as diretivas persistentes legíveis por máquina determinam a eficácia da IA**". Arquivos de contexto persistentes como `.cursorrules` ou `CLAUDE.md`, em vez de prompts temporários, são o que ditam a qualidade dos assistentes de codificação de IA.
+A descoberta importante é que "**não são apenas os prompts, mas diretivas persistentes legíveis por máquina que determinam a eficácia da IA**". Arquivos de contexto persistentes, como `.cursorrules` ou `CLAUDE.md`, em vez de prompts temporários, são o que definem a qualidade dos assistentes de codificação de IA.
 
-### "Promptware Engineering": Gerenciamento do Ciclo de Vida das Especificações (arXiv:2503.02400)
+### Promptware Engineering: Gerenciamento do Ciclo de Vida de Especificações (arXiv:2503.02400)
 
-O artigo "Promptware Engineering" aponta que o desenvolvimento de prompts atual está em uma "crise de promptware dependente de tentativa e erro" (aceito no ACM TOSEM).
+O artigo "Promptware Engineering" aponta que o desenvolvimento atual de prompts está em "crise de promptware dependente de tentativa e erro" (aceito no ACM TOSEM).
 
-A solução proposta é tratar prompts (especificações) como "artefatos de software" e gerenciá-los ao longo do seguinte ciclo de vida:
+A solução proposta é tratar prompts (documentos de especificação) como "artefatos de software" e gerenciá-los através do seguinte ciclo de vida:
 
 ```
-Definição de requisitos → Design → Implementação → Teste → Debug → Evolução → Implantação → Monitoramento
+Definição de Requisitos → Design → Implementação → Teste → Debugging → Evolução → Deploy → Monitoramento
 ```
 
-As especificações devem ser tratadas de forma semelhante ao código, sujeitas a "controle de versão, testes e melhoria contínua".
+Documentos de especificação devem ser tratados da mesma forma que o código em termos de "controle de versão, teste e melhoria contínua".
 
 ### 10 Diretrizes para Prompts de Geração de Código (arXiv:2601.13118)
 
-Identificada por meio de uma pesquisa com 50 profissionais, a descoberta mais interessante deste estudo é que "**a utilidade percebida e a frequência de uso real não coincidem**".
+A descoberta mais interessante deste estudo, identificado por meio de uma pesquisa com 50 profissionais, é que "**utilidade percebida e frequência de uso real não coincidem**".
 
-Os profissionais sabem que "especificar entradas e saídas" e "definir pré/pós-condições" são úteis, mas na prática não os utilizam. O SDD tenta resolver essa lacuna de "saber, mas não fazer" incorporando-a como um fluxo de trabalho.
+Embora os profissionais saibam que "esclarecer as especificações de entrada/saída" e "definir pré/pós-condições" são úteis, eles na verdade não os usam. O SDD tenta resolver essa lacuna de "sabe, mas não faz" integrando-a ao fluxo de trabalho.
 
-### Desagregação de Tarefas Multiagentes e Proteção de Consistência (arXiv:2511.01149)
+### Decomposição de Tarefas Multiagente e Proteção de Consistência (arXiv:2511.01149)
 
-O artigo "Modular Task Decomposition and Dynamic Collaboration in Multi-Agent Systems" propõe um método para incorporar **análise de restrições e mecanismos de proteção de consistência** durante a agregação de tarefas.
+O artigo "Modular Task Decomposition and Dynamic Collaboration in Multi-Agent Systems" propõe um método para incorporar **análise de restrições e mecanismos de proteção de consistência** durante a decomposição de tarefas.
 
-Ele detecta conflitos entre subtarefas antecipadamente e evita "loops de alucinação" em ambientes multiagentes. Isso corresponde diretamente à abordagem defendida pelo SDD de "tornar as especificações a linguagem comum entre os agentes".
+Ele detecta conflitos entre subtarefas antecipadamente e evita "loops de alucinação" em ambientes multiagentes. Isso se alinha diretamente com a abordagem do SDD de "tornar o documento de especificação a linguagem comum entre agentes".
 
 ---
 
-## Engenharia de Contexto: Além das Especificações
+## Engenharia de Contexto: Além do Documento de Especificações
 
-### De "Prompt Engineering" para "Context Engineering"
+### De Engenharia de Prompt para "Engenharia de Contexto"
 
-Em setembro de 2025, a Anthropic definiu a evolução desse conceito em um artigo chamado "Effective Context Engineering for AI Agents".
+Em setembro de 2025, a Anthropic definiu a evolução deste conceito em seu artigo "Effective Context Engineering for AI Agents".
 
-**Context Engineering** é "maximizar a probabilidade de um resultado desejado com um conjunto mínimo de tokens de alto sinal". Se o Prompt Engineering é a tecnologia para "otimizar interações pontuais entre humanos e LLMs", o Context Engineering é a tecnologia para "**projetar o fluxo de informações entre agentes e o ambiente como um todo**".
+**Engenharia de Contexto** é "maximizar a probabilidade de resultados desejáveis com um conjunto mínimo de tokens de alto sinal". Se a engenharia de prompt é uma técnica para "otimizar o diálogo único entre humanos e LLMs", a engenharia de contexto é a técnica para "**projetar o fluxo de informações entre agentes e o ambiente como um todo**".
 
-A Anthropic alerta para o fenômeno de "**corrupção de contexto**" à medida que as janelas de contexto se expandem. Quanto mais longo o contexto, maior o risco de o LLM não conseguir recordar com precisão as informações posteriores. Simplesmente passar "leia todas as especificações" para a IA não é suficiente; é necessário um projeto que **forneça as informações necessárias no momento necessário**.
+A Anthropic adverte sobre o fenômeno da "**corrupção de contexto**" associado à expansão da janela de contexto. Quanto mais longo o contexto, maior o risco de o LLM não conseguir recordar com precisão as informações posteriores. Simplesmente entregar "leia todo o documento de especificação" para a IA é insuficiente; projetar para **fornecer a informação necessária no momento necessário** é crucial.
 
-### 4 Tecnologias Recomendadas
+### 4 Técnicas Recomendadas
 
-As 4 tecnologias de gerenciamento de contexto recomendadas pela Anthropic são:
+As 4 técnicas de gerenciamento de contexto recomendadas pela Anthropic são:
 
-**Recuperação Just-in-Time**: Em vez de passar todas as especificações de uma vez, injetar dinamicamente apenas as informações necessárias para a tarefa.
+**Recuperação Just-in-Time**: Em vez de fornecer todo o documento de especificação de uma vez, injete dinamicamente apenas as informações necessárias para a tarefa.
 
-**Compactação do Histórico de Conversa**: Resumir e comprimir conversas longas para manter a qualidade do contexto.
+**Compactação do Histórico de Conversa**: Resuma e comprima conversas longas para manter a qualidade do contexto.
 
-**Tomada de Notas Estruturada**: Registrar decisões e descobertas importantes de forma estruturada para que possam ser referenciadas em chamadas posteriores de IA.
+**Tomada de Notas Estruturada**: Registre decisões e descobertas importantes de forma estruturada para que possam ser referenciadas em chamadas futuras de IA.
 
-**Arquitetura de Subagentes**: Dividir em agentes especializados e minimizar o contexto de cada agente.
+**Arquitetura de Subagentes**: Divida em agentes especializados para minimizar o contexto de cada agente.
 
 ### Princípios de Design para AGENTS.md / CLAUDE.md
 
-"How to Write a Great agents.md" do GitHub (baseado em mais de 2.500 análises de repositórios) define 6 áreas principais para arquivos de contexto eficazes:
+"How to Write a Great agents.md" do GitHub (uma análise de mais de 2.500 repositórios) define 6 áreas centrais para arquivos de contexto eficazes:
 
 ```
-1. Comandos — Comandos para executar build, teste, lint
-2. Testes — Como executar testes e saídas esperadas
-3. Estrutura do Projeto — Estrutura de diretórios e papéis de cada arquivo
+1. Comandos — Comandos para executar builds, testes, linting
+2. Testes — Como executar testes e a saída esperada
+3. Estrutura do Projeto — Organização de diretórios e papel de cada arquivo
 4. Estilo de Código — Convenções de formatação, regras de nomenclatura
-5. Fluxo de Trabalho Git — Estratégia de branch, convenções de mensagens de commit
-6. Limites — Sempre executar / Pré-verificar / Proibir
+5. Fluxo de Trabalho Git — Estratégia de branch, convenções de mensagem de commit
+6. Limites — Sempre executar / Verificação prévia / Proibido
 ```
 
-No entanto, é importante notar que um estudo de 2026 da ETH Zurich apontou que "arquivos de contexto gerados por LLM têm um efeito marginalmente negativo na taxa de sucesso da tarefa". A melhor prática atual é considerar que os arquivos de contexto devem ser "limitados a informações que não podem ser inferidas por ferramentas ou código existente".
+No entanto, é importante notar que um estudo de 2026 da ETH Zurich apontou que "arquivos de contexto gerados por LLM têm um efeito marginalmente negativo na taxa de sucesso de tarefas". Atualmente, a melhor prática é **limitar o que é escrito em arquivos de contexto apenas a informações que não podem ser inferidas de ferramentas ou código existente**.
 
 ---
 
-## Prática: 6 Elementos Essenciais nas Especificações do SDD
+## Prática: 6 Elementos a Incluir em um Documento de Especificação SDD
 
-As especificações criadas no SDD devem incluir os seguintes 6 elementos:
+Os documentos de especificação criados no SDD devem incluir os seguintes 6 elementos como obrigatórios:
 
 **1. Histórias de Usuário e Stakeholders**
-Descrever claramente "quem", "para que finalidade" e "o quê" é necessário.
+Descreva claramente "quem" precisa de "o quê" e "por quê".
 
 **2. Critérios de Sucesso Mensuráveis**
-Definir quantitativamente, em vez de "melhorar o desempenho", como "LCP abaixo de 2,5 segundos".
+Defina quantitativamente, em vez de "melhorar o desempenho", use "LCP inferior a 2,5 segundos".
 
 **3. Requisitos Funcionais e Não Funcionais**
-Descrever "o que fazer" e também "o que não fazer" (restrições explícitas).
+Descreva "o que fazer" e também "o que não fazer" (restrições explícitas).
 
 **4. Contexto Técnico e Pontos de Integração**
-Especificar interfaces com sistemas existentes, APIs e bibliotecas a serem usadas.
+Especifique as interfaces com sistemas existentes e as APIs/bibliotecas a serem usadas.
 
 **5. Pré-condições, Pós-condições e Invariantes**
-Definir formalmente as restrições lógicas que funções, módulos e sistemas devem satisfazer.
+Defina formalmente as restrições lógicas que a função, módulo ou sistema deve satisfazer.
 
 ```markdown
 ## API de Registro de Usuário (POST /api/users)
 
 ### Pré-condições
-- O endereço de e-mail não está registrado
-- A senha tem pelo menos 8 caracteres
+- O endereço de e-mail não deve estar registrado
+- A senha deve ter pelo menos 8 caracteres
 
 ### Pós-condições
-- O usuário é salvo no banco de dados
-- Um e-mail de confirmação é enviado
-- O JWT está incluído na resposta
+- O usuário deve ser salvo no banco de dados
+- Um e-mail de confirmação deve ser enviado
+- O token JWT deve estar incluído na resposta
 
 ### Invariantes
-- A senha deve ser salva com hash (não texto plano)
+- A senha deve ser salva após hash (não em texto plano)
 - O endereço de e-mail deve ser normalizado para minúsculas
 ```
 
 **6. Testes de Aceitação**
-Descrever "quando está completo" de forma verificável. A IA usará isso como ponto de referência para o código de teste.
+Descreva "quando está completo" de forma verificável. A IA usará isso como ponto de referência para o código de teste.
 
-### A Importância de Especificar "Proibições"
+### Importância de Esclarecer "Proibições"
 
-Como aponta antirez, autor do Redis, é importante incluir "dicas sobre soluções ruins que parecem boas" nas especificações.
+Como destacado por antirez, autor do Redis, é importante incluir "dicas sobre soluções ruins que parecem boas" no documento de especificação.
 
 ```markdown
 ## Padrões Proibidos
-- Uso de variáveis globais (usar injeção de dependência em vez disso)
-- Controle assíncrono com setTimeout (usar Promises)
-- Casting para o tipo any (usar inferência de tipo ou union)
-- Acesso direto ao banco de dados (sempre passar pela camada de repositório)
+- Uso de variáveis globais (use injeção de dependência em vez disso)
+- Controle assíncrono com setTimeout (use Promises)
+- Casting para tipo any (use inferência de tipo ou union)
+- Acesso direto ao banco de dados (sempre passe pela camada de repositório)
 ```
 
-### Mudança de Paradigma de Debugging
+### Mudança no Paradigma de Depuração
 
-Em SDD, depurar significa **modificar as especificações**, em vez de corrigir o código. Bugs no código são sintomas de lacunas nas especificações; modificar as especificações propagará uma correção consistente para todo o código gerado.
+Depuração no SDD significa **modificar o documento de especificação**, em vez de corrigir o código. Bugs no código são sintomas de lacunas nas especificações, e a modificação da especificação será propagada para todo o código gerado para correções consistentes.
 
 ---
 
-## O Futuro Apontado pelo Relatório de Tendências de 2026 da Anthropic
+## O Futuro Indicado pelo Relatório de Tendências de 2026 da Anthropic
 
 O "2026 Agentic Coding Trends Report" da Anthropic, publicado em janeiro de 2026, relata que o desenvolvimento de software está passando pela "**maior transformação desde a GUI**".
 
-O papel do engenheiro está mudando de "quem escreve código" para "coordenador de agentes de IA". No entanto, o relatório também apresenta um aviso importante: **tarefas totalmente delegáveis representam apenas cerca de 0 a 20% do total**, e o restante requer supervisão ativa, verificação e julgamento humano.
+O papel do engenheiro está mudando de "quem escreve código" para "coordenador de agentes de IA". No entanto, o relatório também faz uma observação importante: **tarefas totalmente delegáveis representam apenas cerca de 0-20% do total**, e o restante requer supervisão ativa, verificação e julgamento humano.
 
-As prioridades estratégicas listadas para 2026 incluem:
+As prioridades estratégicas listadas para 2026 são:
 - Domínio da coordenação multiagente
-- Escalada da supervisão humano-agente
+- Escalando a supervisão humano-agente
 - Incorporação de arquitetura de segurança
 
-O que este relatório demonstra é que SDD não é apenas "como escrever especificações", mas sim **a infraestrutura organizacional e técnica para a colaboração segura entre agentes de IA e humanos**.
+O que este relatório indica é que o SDD não é apenas "como escrever um documento de especificação", mas sim uma **infraestrutura organizacional e técnica para que agentes de IA e humanos colaborem com segurança**.
 
 ---
 
-## Conclusão: As Especificações São Mais Importantes Que o Código?
+## Resumo: O Documento de Especificações é Mais Importante que o Código?
 
-A proposição apresentada pelo SDD é provocadora: **as especificações são o artefato de engenharia mais importante**.
+A proposição apresentada pelo SDD é provocativa: **o documento de especificação é o artefato de engenharia mais importante**.
 
-Tradicionalmente, "escrever código" era o principal trabalho do engenheiro. Em um mundo onde a IA pode escrever código, "definir o que deve ser escrito" se torna o valor central do engenheiro.
+Tradicionalmente, "escrever código" era a principal tarefa dos engenheiros. Em um mundo onde a IA pode escrever código, "definir o que escrever" se torna o valor central do engenheiro.
 
-"A IA pode escrever código. No entanto, definir 'o que deve ser construído' ainda é trabalho humano" - essa mudança de percepção é o primeiro passo para o sucesso no desenvolvimento impulsionado por IA.
+"A IA pode escrever código. No entanto, definir "o que deve ser construído" ainda é trabalho humano." — Essa mudança de percepção é o primeiro passo para o sucesso no desenvolvimento orientado por IA.
 
-O princípio de "Investir uma hora em planejamento pode economizar dez horas de refatoração" é um dos investimentos com maior retorno em 2026. A diversão intuitiva do Vibe Coding pode ter desaparecido. No entanto, com SDD, podemos recuperar a **confiabilidade e a previsibilidade** do código gerado pela IA.
+O princípio "Investir uma hora em planejamento para economizar dez horas em retrabalho" se tornou um dos investimentos com maior retorno em 2026. A diversão intuitiva do Vibe Coding pode se perder. No entanto, com o SDD, podemos recuperar a **confiabilidade e a previsibilidade** do código gerado por IA.
 
 ---
 

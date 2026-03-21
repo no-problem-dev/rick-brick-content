@@ -1,63 +1,63 @@
 ---
-title: "NVIDIA Vera Rubin — Next-Generation AI Infrastructure Dramatically Reducing Inference Costs"
+title: "NVIDIA Vera Rubin — The Next-Generation AI Infrastructure Dramatically Lowering Inference Costs"
 slug: "nvidia-vera-rubin-inference-infrastructure"
-summary: "A technical explanation of NVIDIA's next-generation AI platform, Vera Rubin, announced at CES 2026 and GTC 2026. It's an innovative infrastructure that enables large-scale deployment of agent AI by..."
+summary: "A technical explanation of NVIDIA's next-gen AI platform \"Vera Rubin,\" announced at CES 2026 & GTC 2026. It enables agent AI deployment with up to 10x lower per-token cost than Blackwell."
 date: "2026-03-18"
-tags: ["NVIDIA","Vera Rubin","推論","ハードウェア","AIインフラ","GTC 2026"]
+tags: ["NVIDIA","Vera Rubin","Inference","Hardware","AI Infrastructure","GTC 2026"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/nvidia-vera-rubin-platform.png"
 draft: false
 ---
-### Introduction: Why is Inference Cost an Issue Now?
+## Introduction: Why Inference Cost is a Problem Now
 
-In 2026, the discussion around AI is rapidly shifting from "model performance" to "inference cost economics." While the capabilities of Large Language Models (LLMs) are no longer in doubt, the "inference cost per token" is becoming a bottleneck for actual business deployment.
+As 2026 begins, the discussion surrounding AI is rapidly shifting from "model performance" to "the economics of inference cost." The capabilities of Large Language Models (LLMs) are no longer in doubt, but the primary barrier to actual business deployment is the "inference cost per token."
 
-Especially for agent AI, which performs hundreds to thousands of LLM calls to complete a single task, the cost is orders of magnitude higher than simple queries, making scaling difficult.
+Agent AI, in particular, requires hundreds to thousands of LLM calls to complete a single task. This incurs costs orders of magnitude higher than simple queries, making scaling difficult.
 
-NVIDIA CEO Jensen Huang succinctly captured this situation in his GTC 2026 keynote in March 2026: "If they had more capacity, they could generate more tokens and make more money. As agentic applications start generating other agents and doing task after task, the number of tokens generated is exploding." He emphasized the importance of fast, low-cost inference infrastructure.
+At GTC 2026 in March 2026, NVIDIA CEO Jensen Huang succinctly described this situation: "If they have more capacity, they can generate more tokens, and they make more revenue. As agentic applications begin to generate other agents, and then go off and do tasks, the number of tokens generated is exploding," he stated, emphasizing the importance of high-speed, low-cost inference infrastructure.
 
-NVIDIA's answer to this situation is the **Vera Rubin** platform. First unveiled at CES 2026 (January 2026) and detailed at GTC 2026 (March 2026), this next-generation AI infrastructure boasts up to a 10x reduction in inference costs compared to the previous Blackwell generation, attracting significant industry attention.
+NVIDIA's answer to this challenge is the **Vera Rubin** platform. First unveiled at CES 2026 (January 2026) and detailed at GTC 2026 (March 2026), this next-generation AI infrastructure promises to reduce inference costs by up to 10x compared to the previous Blackwell generation, capturing industry attention.
 
-This article delves into the architecture of Vera Rubin, examining how such cost reductions are achieved and its potential impact on the future of agent AI.
+This article will delve technically into Vera Rubin's architecture, exploring why such cost reductions are achievable and its potential impact on the future of agent AI.
 
 ---
 
-## What is Vera Rubin: A "AI Supercomputer" with 7 Integrated Chips
+## What is Vera Rubin: A "Supercomputer for AI" Integrating 7 Chips
 
-Vera Rubin is not a single GPU chip, but an **integrated AI platform with extreme co-design of seven specialized chips**. NVIDIA calls this "Extreme Co-Design." At GTC 2026, NVIDIA officially confirmed its acquisition of Groq in December 2025 for approximately $20 billion, with the Groq 3 LPU becoming the seventh chip added to the platform.
+Vera Rubin is not a single GPU chip, but rather an **integrated AI platform with 7 specialized chips designed with extreme co-design**. NVIDIA calls this "Extreme Co-Design." At GTC 2026, NVIDIA officially confirmed its acquisition of Groq in December 2025 for approximately $20 billion, with Groq's 3 LPU becoming the seventh chip integrated into the platform.
 
-The seven integrated chips are as follows:
+The 7 integrated chips are as follows:
 
 | Chip | Role |
-|---|---|
-| **Vera CPU** | Custom AI-specific CPU (88 Olympus cores) |
-| **Rubin GPU** | Core AI compute engine (50 PFLOPS NVFP4) |
+|--------|------|
+| **Vera CPU** | Custom CPU for AI (88 Olympus cores) |
+| **Rubin GPU** | Core of AI computation (50 PFLOPS NVFP4) |
 | **NVLink 6 Switch** | High-speed GPU-to-GPU communication (3.6 TB/s) |
 | **ConnectX-9 SuperNIC** | Network processing |
-| **BlueField-4 DPU** | Data processing & inference context memory |
+| **BlueField-4 DPU** | Data processing / Inference context memory |
 | **Spectrum-6 Ethernet Switch** | Ethernet communication |
-| **Groq 3 LPU** | Low-latency inference accelerator (new addition) |
+| **Groq 3 LPU** | Low-latency inference accelerator (newly added) |
 
-This entire system is integrated on a rack scale, provided in the **Vera Rubin NVL72** form factor. This configuration integrates 72 Rubin GPUs and 36 Vera CPUs per rack. For even larger deployments, a **Vera Rubin POD** configuration of 40 racks is available, offering 60 exaFLOPS of compute power.
+This entire system is integrated on a rack-level basis, provided in the **Vera Rubin NVL72** form factor. This configuration integrates 72 Rubin GPUs and 36 Vera CPUs into a single rack. For even larger-scale deployments, a **Vera Rubin POD** configuration of 40 racks is also available, offering 60 exaFLOPS of compute power.
 
 ---
 
-## Vera CPU: A Custom Processor Designed for AI
+## Vera CPU: A Proprietary Processor Designed for AI
 
-One of the key differences between Vera Rubin and previous platforms is the adoption of **NVIDIA's custom-designed "Vera" CPU**. 
+One of the most significant departures of Vera Rubin from previous platforms is the adoption of **NVIDIA's custom-designed "Vera" CPU**. 
 
-Vera is equipped with **88 Olympus cores**. Olympus is NVIDIA's proprietary core based on the ARMv9.2 instruction set, optimized specifically for AI data center workloads. Each core uses "Spatial Multithreading" technology to process two threads in parallel, providing a total processing capacity of **176 threads**. The L3 cache has been increased by 40% to 162MB, and the transistor count reaches 227 billion, a 2.2x increase over the previous generation.
+The Vera CPU features **88 Olympus cores**. Olympus is a proprietary NVIDIA core based on the ARMv9.2 instruction set, specifically optimized for AI data center workloads. Each core can process 2 threads in parallel using "Spatial Multithreading" technology, providing a total processing capacity of **176 threads**. The L3 cache has been increased by 40% to 162MB, and the transistor count reaches 227 billion, a 2.2x increase over the previous generation.
 
-Notably, it supports FP8 precision. Vera CPU is the industry's first CPU to natively support FP8, enabling unified processing of the entire AI workload using low-precision numerical formats.
+A notable feature is its FP8 support. The Vera CPU is the industry's first CPU to natively support FP8, enabling the processing of entire AI workloads using low-precision numerical formats uniformly.
 
-In terms of memory, it supports up to **1.5TB of SOCAMM LPDDR5X** memory, providing **1.2 TB/s** of memory bandwidth. By expanding the memory bus width to 1024 bits and increasing the speed to 9600MT/s, it achieves 2.5x the bandwidth of the previous generation. Even more critical is its connection to the Rubin GPU. The **2nd Generation NVLink-C2C (Chip-to-Chip)** provides a coherent bandwidth of **1.8 TB/s** between the CPU and GPU. This is 7 times faster than PCIe Gen 6.
+On the memory side, it supports up to **1.5TB of SOCAMM LPDDR5X** memory, offering a memory bandwidth of **1.2 TB/s**. By widening the memory bus to 1024 bits and increasing the speed to 9600MT/s, it achieves 2.5x the bandwidth of the previous generation. Even more critical is its connection to the Rubin GPU. The **2nd-generation NVLink-C2C (Chip-to-Chip)** provides a coherent bandwidth of **1.8 TB/s** between the CPU and GPU. This is 7x faster than PCIe Gen 6.
 
-### Why is a Custom CPU Necessary?
+### Why a Custom CPU is Necessary
 
-Traditional AI servers have used general-purpose CPUs, but these can easily become a bottleneck for LLM inference. The host CPU's memory bandwidth and connection speed cannot keep up with the GPU's processing power.
+Traditional AI servers have used general-purpose CPUs, but these often become bottlenecks in LLM inference. The host CPU's memory bandwidth and connection speed cannot keep up with the GPU's processing power.
 
-NVIDIA recognized that LLM inference is constrained by memory bandwidth and interconnectivity, and optimized the entire system by designing the CPU side as well. The high-speed coherent link between CPU and GPU minimizes data transfer overhead, improving GPU utilization.
+NVIDIA recognized that LLM inference is constrained by memory bandwidth and interconnects, and optimized the entire system by designing its own CPU. The high-speed coherent link between CPU and GPU minimizes data transfer overhead, improving GPU utilization.
 
 ---
 
@@ -68,35 +68,35 @@ The Rubin GPU incorporates numerous innovations specifically for AI inference.
 ### Key Specifications
 
 | Item | Value |
-|---|---|
+|------|-----|
 | NVFP4 Inference Performance | **50 PFLOPS** (5x Blackwell) |
 | NVFP4 Training Performance | **35 PFLOPS** (3.5x Blackwell) |
-| HBM4 Memory | **288GB** (per chip) |
+| HBM4 Memory | **288GB** (per GPU) |
 | HBM4 Memory Bandwidth | **22 TB/s** |
 | NVLink 6 Bandwidth | **3.6 TB/s** (per GPU) |
 | Transistor Count | **336 billion** |
 
-Particularly noteworthy is the adoption of **HBM4**. Compared to the previous generation HBM3, memory bandwidth is improved by approximately 2.8x, directly addressing the problem of LLM inference being limited by memory bandwidth.
+Particularly noteworthy is the adoption of **HBM4**. Compared to the previous generation HBM3, memory bandwidth is improved by approximately 2.8x, directly addressing the issue of LLM inference being constrained by memory bandwidth.
 
-### NVFP4 and 3rd Generation Transformer Engine
+### NVFP4 and 3rd-Generation Transformer Engine
 
-The Rubin GPU features the **3rd Generation Transformer Engine**, which utilizes a new low-precision numerical format called NVFP4. NVFP4 offers even higher arithmetic density than NVFP8 used in Blackwell, achieving significant throughput improvements while maintaining accuracy. By deeply integrating this low-precision execution into both the architecture and software stack, NVIDIA has achieved a real-world throughput increase beyond mere FLOPS augmentation.
+The Rubin GPU features the **3rd-generation Transformer Engine**, which utilizes a new low-precision numerical format called NVFP4. NVFP4 offers even higher arithmetic density than NVFP8 used in Blackwell, achieving significant throughput improvements while maintaining precision. NVIDIA has achieved a real-world throughput increase beyond mere FLOPS gains by deeply integrating this low-precision execution into both the architecture and the software stack.
 
 ---
 
-## NVLink 6: Communication Infrastructure Breaking Bandwidth Walls
+## NVLink 6: Communication Infrastructure Breaking the Bandwidth Barrier
 
-In LLM inference, especially with Mixture-of-Experts (MoE) models or multi-GPU environments, **GPU-to-GPU communication bandwidth** is a critical performance factor.
+In LLM inference, especially with Mixture-of-Experts (MoE) models or in multi-GPU environments, **GPU-to-GPU communication bandwidth** is a key performance determinant.
 
-NVLink 6 doubles the bandwidth compared to the previous generation (NVLink 5).
+NVLink 6 doubles the **bandwidth** compared to the previous generation (NVLink 5).
 
 | Metric | NVLink 5 | NVLink 6 |
-|---|---|---|
+|----------|----------|----------|
 | Bandwidth per Switch | 1,800 GB/s | **3,600 GB/s** |
 | Bandwidth per GPU | Approx. 1.8 TB/s | **3.6 TB/s** |
-| NVL72 Rack Total | — | **260 TB/s** |
+| Total NVL72 Rack | — | **260 TB/s** |
 
-The 260 TB/s internal bandwidth provided by the NVL72 rack is sufficient for efficient inference of large MoE models.
+The 260 TB/s internal bandwidth provided by the NVL72 rack enables efficient inference for large-scale MoE models.
 
 ---
 
@@ -104,9 +104,9 @@ The 260 TB/s internal bandwidth provided by the NVL72 rack is sufficient for eff
 
 One of the biggest surprises at GTC 2026 was the integration of Groq's LPU (Language Processing Unit) technology into the Vera Rubin platform. NVIDIA acquired Groq on December 24, 2025, for approximately $20 billion, securing key personnel and a non-exclusive license for Groq's LPU technology.
 
-### Role Separation Between GPUs and LPUs
+### Role Division Between GPU and LPU
 
-In the Vera Rubin system, Rubin and Groq share inference processing.
+In the Vera Rubin system, Rubin and Groq share the inference process.
 
 ```mermaid
 graph LR
@@ -117,47 +117,47 @@ graph LR
 ```
 
 - **Rubin GPU**: Handles prefill processing and decode attention.
-- **Groq 3 LPU**: Handles Feed-Forward Network (FFN) execution.
+- **Groq 3 LPU**: Executes the Feed-Forward Network (FFN).
 
-This division of labor allows each chip to focus on the tasks it excels at.
+This division of labor allows each chip to concentrate on its most proficient tasks.
 
 ### Groq 3 LPX Rack Specifications
 
-The **Groq 3 LPX rack**, announced at GTC 2026, is equipped with 256 LPUs.
+The **Groq 3 LPX Rack**, announced at GTC 2026, features 256 LPUs.
 
 | Item | Value |
-|---|---|
+|------|-----|
 | SRAM Capacity (per chip) | **500MB** |
 | SRAM Bandwidth (per chip) | **150 TB/s** |
 | Scale-up Bandwidth (per chip) | **2.5 TB/s** |
-| Total On-Chip SRAM Capacity (rack) | **128GB** |
-| Scale-up Bandwidth (rack) | **640 TB/s** |
+| Total On-Chip SRAM Capacity (Rack) | **128GB** |
+| Scale-up Bandwidth (Rack) | **640 TB/s** |
 
-Groq 3 is designed with a focus on bandwidth rather than just capacity, offering approximately 80 TB/s of bandwidth per chip. This SRAM-centric, high-bandwidth design is key to achieving low latency in FFN processing.
+Groq 3 is designed with an emphasis on bandwidth over capacity, offering approximately 80 TB/s bandwidth per chip. This SRAM-centric, high-bandwidth design enables low latency in FFN processing.
 
 ### Integration Benefits
 
-The combination of Vera Rubin and Groq LPX achieves up to **35x higher inference throughput for trillion-parameter models** and a **35x increase in throughput per megawatt** compared to Rubin GPU alone. This is achieved without significant modifications to the CUDA platform, by leveraging LPUs as highly specialized decode accelerators.
+The combination of Vera Rubin and Groq LPX results in **up to 35x higher inference throughput for trillion-parameter models** and a **35x increase in throughput per megawatt** compared to Rubin GPU alone. This is achieved without significant changes to the CUDA platform, by leveraging the LPUs as highly specialized decode accelerators.
 
 ---
 
 ## Inference Context Memory List Storage: Specialization for Agent AI
 
-A crucial feature demonstrating Vera Rubin's design as a "foundation for agent AI" is the **inference context memory list storage platform**.
+A crucial feature indicating Vera Rubin's design as a "foundation for agent AI" is its **Inference Context Memory List Storage Platform**.
 
 ### New Memory Hierarchy
 
-NVIDIA utilizes the BlueField-4 DPU to create a new memory tier between GPUs and traditional storage.
+NVIDIA utilizes the BlueField-4 DPU to build a new memory tier between the GPU and traditional storage.
 
 ```mermaid
 graph TD
-    A[Rubin GPU HBM4<br/>22 TB/s] -->|High-Speed Access| B[Inference Context Memory<br/>BlueField-4 STX]
+    A[Rubin GPU HBM4<br/>22 TB/s] -->|High-speed Access| B[Inference Context Memory<br/>BlueField-4 STX]
     B -->|Efficient Sharing| C[KV Cache Data]
     B --> D[Traditional Storage]
     C -->|Reuse| A
 ```
 
-The BlueField-4 STX storage rack functions as "dedicated context memory" to maintain context consistency for AI agents handling large, multi-turn conversations. By offloading KV cache data to the BlueField-4 chip, cache data can be shared and reused across the entire AI inference infrastructure, improving inference throughput by **up to 5x**.
+The BlueField-4 STX storage rack functions as "dedicated context memory" to maintain context consistency for AI agents handling large multi-turn conversations. By offloading KV cache data to the BlueField-4 chip, the sharing and reuse of cache data across the entire AI inference infrastructure become possible, improving inference throughput by **up to 5x**.
 
 ### Impact on Agent AI
 
@@ -167,41 +167,41 @@ Agent AI exhibits computational patterns fundamentally different from simple que
 graph TD
     A[User Instruction] --> B[Agent: Task Decomposition]
     B --> C[LLM Call ①: Planning]
-    B --> D[LLM Call ②: Tool Usage]
+    B --> D[LLM Call ②: Tool Use]
     B --> E[LLM Call ③: Result Evaluation]
     C --> F[LLM Call ④: Re-planning]
     D --> G[LLM Call ⑤: Execution]
-    E --> H[LLM Calls ⑥-N: Iteration]
+    E --> H[LLM Calls ⑥ to N: Iteration]
     F --> I[Final Answer]
     G --> I
     H --> I
 ```
 
-Dozens to hundreds of LLM calls can occur per instruction, each with a long context. Inference context memory list storage improves the overall throughput and cost-efficiency of agent AI by efficiently managing these KV caches.
+Dozens to hundreds of LLM calls occur for a single instruction, each with a long context. Inference Context Memory List Storage improves the overall throughput and cost-efficiency of agent AI by efficiently managing this KV cache.
 
 ---
 
 ## The Mechanism for 10x Cost Reduction: Understanding the Numbers Accurately
 
-It is crucial to accurately understand the conditions under which NVIDIA's claimed "10x inference cost reduction" is achieved.
+It is crucial to accurately understand the conditions under which NVIDIA's claim of "10x inference cost reduction" is achieved.
 
 ### Key Improvement Factors
 
-The 10x cost reduction is realized as a composite effect of multiple technological innovations.
+The 10x cost reduction is realized through the combined effect of multiple technological innovations.
 
 ```
-Improved HBM4 memory bandwidth: Approx. 2.8x
-NVLink 6 throughput improvement: Approx. 2x
-NVFP4 Tensor Core performance improvement: Approx. 5x
-FFN processing efficiency through Groq LPU integration: Additional factor
+Improved HBM4 Memory Bandwidth: Approx. 2.8x
+Improved NVLink 6 Throughput: Approx. 2x
+NVFP4 Tensor Core Performance Improvement: Approx. 5x
+FNN Processing Efficiency from Groq LPU Integration: Additional Factor
 ```
 
 ### Dramatic Improvement in Power Efficiency
 
-Jensen Huang presented impressive figures in his keynote: "With the Blackwell generation, we could generate 22 million tokens per second from a 1GW data center. With Vera Rubin, we can generate 700 million tokens per second from the same power. That's a 350x improvement in two years."
+Jensen Huang presented striking figures in his keynote address: "With the Blackwell generation, we could generate 22 million tokens per second from a 1GW data center. With Vera Rubin, we can generate 700 million tokens per second from the same power. That's a 350x improvement in two years."
 
 | Metric | Blackwell | Vera Rubin | Improvement Factor |
-|---|---|---|---|
+|----------|-----------|------------|---------|
 | Tokens/sec per 1GW | 22 million | **700 million** | **Approx. 32x** |
 | Token Cost (Long Context) | Baseline | Up to 1/10 | **Up to 10x** |
 | Inference Throughput/Watt | Baseline | 10x | **10x** |
@@ -209,7 +209,7 @@ Jensen Huang presented impressive figures in his keynote: "With the Blackwell ge
 
 ### Realistic Expectations
 
-On the other hand, a realistic assessment is important. The 10x cost reduction is a benchmark result under specific "long context, long output" conditions. For dense model inference with short contexts, a **2-3x improvement** is a more realistic expectation.
+On the other hand, realistic evaluation is also important. The 10x cost reduction is a benchmark result under specific conditions of "long context, long output." For dense model inference with shorter contexts, a **2-3x improvement** is a more realistic expectation.
 
 ---
 
@@ -220,39 +220,39 @@ The Vera Rubin NVL72 is a rack-scale system integrating all components.
 ### NVL72 Specification Summary
 
 | Item | Specification |
-|---|---|
-| GPU Configuration | Rubin GPU x 72 units |
-| CPU Configuration | Vera CPU x 36 units |
+|------|------|
+| GPU Configuration | 72 x Rubin GPUs |
+| CPU Configuration | 36 x Vera CPUs |
 | Total NVFP4 Inference Performance | **3.6 ExaFLOPS** |
 | Total HBM4 Capacity | **20.7 TB** |
 | Total HBM4 Bandwidth | **1.6 PB/s** (Petabytes per second) |
-| NVLink 6 Total Bandwidth | **260 TB/s** |
+| Total NVLink 6 Bandwidth | **260 TB/s** |
 
 ### Vera Rubin POD: Data Center Scale Deployment
 
-For even larger configurations, the **Vera Rubin POD** is available, composed of 40 racks.
+For even larger configurations, the **Vera Rubin POD** is available, comprising 40 racks.
 
 | Item | Specification |
-|---|---|
-| Total GPU Count | 2,880 units |
+|------|------|
+| Total GPUs | 2,880 |
 | Total Compute Performance | **60 ExaFLOPS** |
 | Configuration Components | Over 1,300,000 |
 
-The POD is the fundamental unit of NVIDIA's next-generation data centers, which they refer to as "AI Factories."
+The POD serves as the fundamental unit for NVIDIA's next-generation data centers, which they refer to as "AI Factories."
 
 ---
 
-## Comparison with Blackwell: Generational Evolution
+## Comparison with Blackwell: Evolution Between Generations
 
-Vera Rubin succeeds NVIDIA's Blackwell. Let's summarize the key improvements of each generation.
+Vera Rubin is positioned as NVIDIA's successor to Blackwell. Let's summarize the key improvements of each generation.
 
 | Item | Blackwell | Vera Rubin | Improvement Factor |
-|---|---|---|---|
+|----------|-----------|------------|---------|
 | GPU Inference Performance (NVFP4) | 10 PFLOPS | **50 PFLOPS** | **5x** |
 | GPU Training Performance | 10 PFLOPS | **35 PFLOPS** | **3.5x** |
 | GPU-to-GPU Bandwidth | 1,800 GB/s | **3,600 GB/s** | **2x** |
 | HBM Generation | HBM3 | **HBM4** | **Approx. 2.8x** |
-| CPU | General Purpose/Grace | **Vera (88-core Olympus)** | — |
+| CPU | General Purpose/Grace | **Vera (88 Olympus Cores)** | — |
 | Low-Latency Inference | — | **Groq 3 LPU Integration** | — |
 | MoE Training GPU Count | Baseline | **Reduced to 1/4** | **4x** |
 | Token Cost | Baseline | **Up to 1/10** | **Up to 10x** |
@@ -263,16 +263,16 @@ Vera Rubin succeeds NVIDIA's Blackwell. Let's summarize the key improvements of 
 
 ### Availability Schedule
 
-NVIDIA plans to **start mass production and shipment of Vera Rubin in the second half of 2026**. As of GTC 2026 (March 16-19, 2026), Vera Rubin has been confirmed to be in "full production."
+NVIDIA plans to begin **mass production and shipment of Vera Rubin in the second half of 2026**. At GTC 2026 (March 16-19, 2026), Vera Rubin was confirmed to be in "full production status."
 
-### Early Adopters and Cloud Partners
+### Initial Deployment Partners
 
-The following partners have been announced to offer cloud services based on Vera Rubin:
+The following companies have been announced as initial partners offering cloud services based on Vera Rubin:
 
 - **Hyperscalers**: AWS, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure (OCI)
 - **Specialized Clouds**: CoreWeave, Lambda, Nebius, Nscale
 
-Jensen Huang stated, "By the end of 2027, cumulative orders for Blackwell and Rubin will exceed $1 trillion," indicating Vera Rubin's central role in data center investment.
+Jensen Huang stated, "Cumulative orders for Blackwell and Rubin will exceed $1 trillion by the end of 2027," indicating Vera Rubin's central role in data center investment.
 
 ---
 
@@ -280,25 +280,25 @@ Jensen Huang stated, "By the end of 2027, cumulative orders for Blackwell and Ru
 
 ### Power Consumption and Data Center Investment
 
-While the NVL72 rack offers immense computational power, its power consumption is also substantial. In 2026, hyperscaler data center capital expenditures are projected to exceed $65 billion, necessitating massive investments in power and cooling infrastructure for Vera Rubin adoption.
+While the NVL72 rack offers immense computational power, its power consumption is also substantial. In 2026, data center capital expenditures by hyperscalers are projected to exceed $65 billion in total, necessitating significant investment in power and cooling infrastructure for Vera Rubin deployment.
 
 ### Software Ecosystem Development
 
-Although NVIDIA states that the integration of Groq 3 LPU does not require significant changes to the CUDA platform, optimization of the software stack (CUDA libraries, inference frameworks) is also important. NVIDIA is addressing this through initiatives like NIM (NVIDIA Inference Microservices).
+Although NVIDIA states that Groq 3 LPU integration does not require significant changes to the CUDA platform, optimization of the software stack (CUDA libraries, inference frameworks) is also crucial. NVIDIA is addressing this through initiatives like NIM (NVIDIA Inference Microservices).
 
 ### Next-Generation "Vera Rubin Ultra"
 
-At GTC 2026, the next-generation **Vera Rubin Ultra** was also previewed, suggesting NVIDIA's commitment to an annual platform evolution cycle.
+At GTC 2026, a further next-generation platform, **Vera Rubin Ultra**, was previewed, suggesting NVIDIA's commitment to annual platform evolution.
 
 ---
 
 ## Conclusion: Towards the Next Stage of AI Infrastructure
 
-NVIDIA Vera Rubin is not just "a faster GPU." It is an integrated AI platform with extreme co-design of seven chips and related systems: the custom Vera CPU, significant memory bandwidth improvement with HBM4, 2x GPU-to-GPU communication with NVLink 6, low-latency inference integration with Groq 3 LPU, and KV cache management via inference context memory list storage.
+NVIDIA Vera Rubin is more than just a "faster GPU." It is an integrated AI platform where 7 chips and related systems are extremely co-designed: the proprietary Vera CPU, significantly improved memory bandwidth with HBM4, doubled GPU-to-GPU communication with NVLink 6, low-latency inference integration with Groq 3 LPU, and KV cache management through Inference Context Memory List Storage.
 
-The up to 10x inference cost reduction (under long context conditions), 4x reduction in GPU count for MoE model training, and a 350x increase in token generation capacity for the same power fundamentally alter the economic feasibility of agent AI.
+Up to 10x inference cost reduction (under long context conditions), a 4x reduction in GPU count for MoE model training, and 350x token generation capability for the same power fundamentally alter the economic viability of agent AI.
 
-In 2026, as agent AI begins to be seriously deployed for enterprise automation, inference cost is a critical factor for business profitability. With Vera Rubin starting mass production in the second half of 2026, this cost equation will be rewritten. The practicality of AI hinges not only on the intelligence of models but also on the economics of the infrastructure that runs them. In this context, Vera Rubin represents a significant infrastructure innovation defining 2026.
+In 2026, as agent AI begins to be deployed for corporate automation, inference cost is a direct factor in business profitability. With Vera Rubin entering mass production in the second half of 2026, this cost equation will be rewritten. The practical realization of AI hinges not only on model intelligence but also on the economics of the infrastructure that powers it. In this context, Vera Rubin represents a significant infrastructure innovation defining 2026.
 
 ---
 
