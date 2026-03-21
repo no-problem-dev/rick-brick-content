@@ -1,7 +1,30 @@
 /**
  * frontmatter 操作ユーティリティ
- * validate.ts / thumbnail.ts / generate.ts で共通利用する
+ * validate.ts / thumbnail.ts / generate.ts / translate.ts で共通利用する
  */
+
+/**
+ * YAML 文字列値を安全にダブルクォートで囲む。
+ * 値中のバックスラッシュ・ダブルクォートをエスケープする。
+ */
+export function yamlQuote(val: string): string {
+  const escaped = val.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  return `"${escaped}"`;
+}
+
+/**
+ * frontmatter の1フィールドを YAML 行（`key: value`）に変換する。
+ * boolean はそのまま、配列は JSON.stringify、文字列は yamlQuote で安全化。
+ */
+export function formatFrontmatterField(key: string, val: unknown): string {
+  if (typeof val === 'boolean') {
+    return `${key}: ${val}`;
+  }
+  if (Array.isArray(val)) {
+    return `${key}: ${JSON.stringify(val)}`;
+  }
+  return `${key}: ${yamlQuote(String(val))}`;
+}
 
 export interface ParsedArticle {
   frontmatter: Record<string, unknown>;
