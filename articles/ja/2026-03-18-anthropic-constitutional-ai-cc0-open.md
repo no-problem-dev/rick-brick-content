@@ -1,6 +1,7 @@
 ---
 title: "Constitutional AI CC0公開 — AI安全性のオープン化が業界に問いかけるもの"
 summary: "AnthropicがClaudeの行動指針「憲法」をCreative Commons CC0ライセンスで公開した。ルールリストから原則ベースの推論フレームワークへの移行が持つ技術的意義と、AI安全性のオープン化が業界にもたらす問いを考察する。"
+slug: "anthropic-constitutional-ai-cc0-open"
 date: "2026-03-18"
 tags: ["Anthropic", "Constitutional AI", "AI安全性", "RLAIF", "オープンソース"]
 category: "tech-article"

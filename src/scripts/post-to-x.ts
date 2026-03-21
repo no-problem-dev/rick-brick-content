@@ -17,6 +17,7 @@ import path from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { formatTweet } from '../utils/tweet-formatter.js';
 import { postTweet, type XApiCredentials } from '../utils/x-api.js';
+import { ARTICLES_DIR } from '../config/constants.js';
 
 function getTodayJST(): string {
   return new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' });
@@ -43,7 +44,7 @@ async function main() {
   }
 
   // 対象日付の記事を検索
-  const articlesDir = path.resolve('articles');
+  const articlesDir = path.resolve(ARTICLES_DIR);
   const files = fs.readdirSync(articlesDir)
     .filter((f) => f.startsWith(`${targetDate}-`) && f.endsWith('.md'))
     .sort();

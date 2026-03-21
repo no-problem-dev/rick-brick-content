@@ -1,6 +1,7 @@
 ---
 title: "MCP（Model Context Protocol）完全解説 — AIエージェント連携の新標準プロトコル"
 summary: "Anthropicが2024年11月に発表したMCPは、AIエージェントと外部ツール・データソースを繋ぐオープン標準として急速に普及し、2025年末にはLinux Foundation傘下でOpenAI・Google・Microsoftも参加するエコシステムへと発展した。本記事ではMCPの技術仕様、採用状況、セキュリティ課題、今後の展望を詳解する。"
+slug: "mcp-standardization-agent-protocol"
 date: "2026-03-18"
 tags: ["MCP", "AIエージェント", "プロトコル", "Anthropic", "Linux Foundation", "OpenAI"]
 category: "tech-article"

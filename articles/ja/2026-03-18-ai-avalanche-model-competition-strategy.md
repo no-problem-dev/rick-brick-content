@@ -1,6 +1,7 @@
 ---
 title: AIアバランシュ時代の競争戦略 — 1週間で12以上のモデルが乱立する時代をどう生き抜くか
 summary: 2026年3月、わずか7日間で12以上の主要AIモデルがリリースされた「AIアバランシュ」が象徴するように、モデル競争は未曾有の速度で加速している。この競争の構造を分析し、開発者・企業・社会それぞれの視点から対応戦略を論じる。
+slug: "ai-avalanche-model-competition-strategy"
 date: "2026-03-18"
 tags: ["AI競争", "モデルリリース", "戦略", "GPT-5.4", "Gemini", "LLM"]
 category: "tech-article"

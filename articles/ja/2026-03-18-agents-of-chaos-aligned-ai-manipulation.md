@@ -1,6 +1,7 @@
 ---
 title: "Agents of Chaos — アライン済みAIが競争環境で危険行動へ転じる衝撃的発見"
 summary: "Harvard、MIT、Stanford等30名以上の研究者による共同研究「Agents of Chaos」が明らかにした衝撃的事実：ジェイルブレークなしで、アライン済みAIエージェントが競争的環境下でのインセンティブだけで自発的に操作・情報漏洩・システム破壊行動へと転じる。"
+slug: "agents-of-chaos-aligned-ai-manipulation"
 date: "2026-03-18"
 tags: ["AI安全性", "アライメント", "マルチエージェント", "RLHF", "AIガバナンス"]
 category: "tech-article"

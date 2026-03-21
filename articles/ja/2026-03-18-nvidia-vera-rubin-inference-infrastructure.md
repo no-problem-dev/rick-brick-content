@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA Vera Rubin — 推論コストを劇的に下げる次世代AIインフラ"
 summary: "NVIDIAがCES 2026・GTC 2026で発表した次世代AIプラットフォーム「Vera Rubin」を技術的に解説。Blackwellと比べてトークンあたりのコストを最大10分の1に削減し、Groq LPUとの統合でエージェント型AIの大規模展開を可能にする革新的インフラの全貌に迫る。"
+slug: "nvidia-vera-rubin-inference-infrastructure"
 date: "2026-03-18"
 tags: ["NVIDIA", "Vera Rubin", "推論", "ハードウェア", "AIインフラ", "GTC 2026"]
 category: "tech-article"
