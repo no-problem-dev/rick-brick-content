@@ -138,6 +138,16 @@ jobs:
         run: npx tsx src/scripts/validate.ts
         continue-on-error: true
 
+      - name: Upload artifacts (dry_run)
+        if: env.SKIP_RUN != 'true' && inputs.dry_run
+        uses: actions/upload-artifact@v4
+        with:
+          name: recap-articles-${{ env.TARGET_DATE || 'today' }}
+          path: |
+            articles/
+            images/
+          retention-days: 7
+
       - name: Publish articles (remove draft flag from newly generated only)
         if: env.SKIP_RUN != 'true' && !inputs.draft_mode
         run: |
