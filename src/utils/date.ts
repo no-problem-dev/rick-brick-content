@@ -2,6 +2,19 @@ import { CATEGORY_PUBLISH_TIME } from '../config/constants.js';
 
 const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
+/** YYYY-MM-DD 形式の正規表現 */
+export const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+
+/** YYYY-MM-DD または YYYY-MM-DDTHH:MM 形式の正規表現 */
+export const DATE_OR_DATETIME_PATTERN = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2})?$/;
+
+/**
+ * 日付文字列が YYYY-MM-DD または YYYY-MM-DDTHH:MM 形式かを検証する。
+ */
+export function isValidDateFormat(value: unknown): value is string {
+  return typeof value === 'string' && DATE_OR_DATETIME_PATTERN.test(value);
+}
+
 /**
  * Date オブジェクトを JST として YYYY-MM-DD 形式に変換する。
  */
