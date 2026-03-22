@@ -18,9 +18,11 @@ export function getTodayDate(): string {
 
 /**
  * 基準日から N 日前の日付を YYYY-MM-DD 形式（JST）で返す。
+ * baseDate は YYYY-MM-DD 形式の JST 日付文字列を想定。
  */
 export function daysAgoJST(baseDate: string, days: number): string {
-  const date = new Date(baseDate);
+  // baseDate を JST 正午として解釈し、日付境界のズレを防止
+  const date = new Date(`${baseDate}T12:00:00+09:00`);
   date.setDate(date.getDate() - days);
-  return date.toISOString().split('T')[0]!;
+  return formatDateJST(date);
 }
