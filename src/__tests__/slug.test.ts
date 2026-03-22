@@ -176,13 +176,24 @@ describe('resolveSlug with TARGET_DATE', () => {
     expect(resolveSlug(result, 'paper-review', '2026-03-17')).toBe('paper-review-2026-03-17');
   });
 
-  it('target-date-2: TARGET_DATE 未設定時は LLM slug をそのまま使用', () => {
+  it('target-date-2: TARGET_DATE 未設定時でも slug 内の日付は date 引数に正規化される', () => {
     const result: ResearchResult = {
       category: 'paper-review',
       status: 'success',
       frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-18', slug: 'paper-review-2026-03-18' },
     };
+    // date 引数と slug 内の日付が同じ場合は結果も同じ
     expect(resolveSlug(result, 'paper-review', '2026-03-18')).toBe('paper-review-2026-03-18');
+  });
+
+  it('target-date-2b: LLM が UTC 日付を slug に埋め込んだ場合、JST の date に正規化される', () => {
+    const result: ResearchResult = {
+      category: 'ai-tech-daily',
+      status: 'success',
+      frontmatter: { title: 'Test', summary: 'S', tags: ['ai'], date: '2026-03-21', slug: 'ai-tech-daily-2026-03-21' },
+    };
+    // date 引数（JST）が 2026-03-22 なら、slug 内の 03-21 も 03-22 に置換される
+    expect(resolveSlug(result, 'ai-tech-daily', '2026-03-22')).toBe('ai-tech-daily-2026-03-22');
   });
 
   it('target-date-3: TARGET_DATE + SLUG_SUFFIX の併用', () => {

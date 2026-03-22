@@ -231,6 +231,14 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   // date: LLM 出力の日付は信頼せず、常に defaults.date（= getTodayDate()）で上書き
   frontmatter.date = defaults.date;
 
+  // title 内の日付も正規化（LLM が UTC ベースの日付をタイトルに埋め込むケースを防ぐ）
+  // "2026年03月21日" → "2026年03月22日", "2026-03-21" → "2026-03-22" 等
+  const titleStr = String(frontmatter.title);
+  const [y, m, d] = defaults.date.split('-');
+  frontmatter.title = titleStr
+    .replace(/\d{4}年\d{2}月\d{2}日/, `${y}年${m}月${d}日`)
+    .replace(/\d{4}-\d{2}-\d{2}/, defaults.date);
+
   // category
   if (!frontmatter.category) {
     frontmatter.category = defaults.category;

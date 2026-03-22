@@ -1,6 +1,7 @@
 import type { ResearchProvider, ResearchRequest, ResearchResult, ResearchProviderName, ProviderConfig } from '../types/research.js';
 import { readFileSync } from 'node:fs';
 import { parseFrontmatter } from '../utils/frontmatter.js';
+import { getTodayDate } from '../utils/date.js';
 
 export abstract class BaseResearchProvider implements ResearchProvider {
   abstract readonly name: ResearchProviderName;
@@ -14,7 +15,9 @@ export abstract class BaseResearchProvider implements ResearchProvider {
   protected loadPrompts(request: ResearchRequest): string {
     const base = readFileSync(request.basePromptPath, 'utf-8');
     const provider = readFileSync(request.providerPromptPath, 'utf-8');
-    return `${base}\n\n${provider}`;
+    const today = getTodayDate();
+    const dateDirective = `【重要】本日の日付（JST）: ${today}\nこの日付を記事タイトル・frontmatter・本文中の日付として使用してください。LLM自身の日付推測は使わないでください。\n`;
+    return `${dateDirective}\n${base}\n\n${provider}`;
   }
 
   /** API レスポンスのテキストから ResearchResult を構築（共通） */

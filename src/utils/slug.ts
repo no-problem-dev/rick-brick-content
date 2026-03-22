@@ -12,11 +12,9 @@ export function resolveSlug(
   const slug = result.frontmatter?.slug;
   let base = slug && slug.trim() !== '' ? slug.trim() : `${category}-${date}`;
 
-  // TARGET_DATE が設定されている場合、slug 内の日付部分を date（= TARGET_DATE）に置換
-  const targetDate = process.env.TARGET_DATE;
-  if (targetDate) {
-    base = replaceDateInSlug(base, date);
-  }
+  // slug 内の日付部分を date（JST の今日の日付）に常に置換
+  // LLM が UTC ベースの日付を slug に埋め込むケースを防ぐ
+  base = replaceDateInSlug(base, date);
 
   const suffix = process.env.SLUG_SUFFIX;
   return suffix ? `${base}-${suffix}` : base;
