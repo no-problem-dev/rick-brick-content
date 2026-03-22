@@ -24,10 +24,8 @@ export function formatPost(
   const hashtagText = hashtags.join(' ');
 
   const separator = '\n\n';
-  // URL は各プラットフォームの短縮 URL として 23 文字でカウント
-  const urlLength = 23;
   const fixedLength =
-    urlLength +
+    url.length +
     separator.length + // タイトル後の改行
     separator.length + // URL 前の改行
     (hashtagText ? separator.length + hashtagText.length : 0);
