@@ -208,6 +208,9 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   const extracted = extractMarkdownFromLLMResponse(markdown);
   const { frontmatter, body } = parseFrontmatter(extracted);
 
+  // defaults.date は YYYY-MM-DD または YYYY-MM-DDTHH:MM 形式。日付のみの部分を抽出
+  const dateOnly = defaults.date.slice(0, 10);
+
   // title: 空文字の場合は body の最初の見出しから取得を試みる。見出しもなければフォールバック
   if (!frontmatter.title || String(frontmatter.title).trim() === '') {
     let titleFromBody: string | undefined;
@@ -218,26 +221,26 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
         titleFromBody = headingMatch[1]!.trim();
       }
     }
-    frontmatter.title = titleFromBody ?? `[${defaults.category}] ${defaults.date}`;
+    frontmatter.title = titleFromBody ?? `[${defaults.category}] ${dateOnly}`;
   }
 
   // slug: 不正文字を除去
   if (!frontmatter.slug || String(frontmatter.slug).trim() === '') {
-    frontmatter.slug = `${defaults.category}-${defaults.date}`;
+    frontmatter.slug = `${defaults.category}-${dateOnly}`;
   } else {
     frontmatter.slug = String(frontmatter.slug).replace(/[^a-z0-9-]/gi, '-').toLowerCase();
   }
 
-  // date: LLM 出力の日付は信頼せず、常に defaults.date（= getTodayDate()）で上書き
+  // date: LLM 出力の日付は信頼せず、常に defaults.date で上書き（時刻付きの場合はそのまま保持）
   frontmatter.date = defaults.date;
 
   // title 内の日付も正規化（LLM が UTC ベースの日付をタイトルに埋め込むケースを防ぐ）
   // "2026年03月21日" → "2026年03月22日", "2026-03-21" → "2026-03-22" 等
   const titleStr = String(frontmatter.title);
-  const [y, m, d] = defaults.date.split('-');
+  const [y, m, d] = dateOnly.split('-');
   frontmatter.title = titleStr
     .replace(/\d{4}年\d{2}月\d{2}日/, `${y}年${m}月${d}日`)
-    .replace(/\d{4}-\d{2}-\d{2}/, defaults.date);
+    .replace(/\d{4}-\d{2}-\d{2}/, dateOnly);
 
   // category
   if (!frontmatter.category) {

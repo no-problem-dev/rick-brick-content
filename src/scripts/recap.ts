@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 
 import { join } from 'node:path';
 import { parseFrontmatter, normalizeFrontmatter, upsertFrontmatterField, extractMarkdownFromLLMResponse } from '../utils/frontmatter.js';
 import { buildArticleFilename } from '../utils/slug.js';
-import { getTodayDate, daysAgoJST } from '../utils/date.js';
+import { getTodayDate, daysAgoJST, getPublishDateTime } from '../utils/date.js';
 import { ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 import type { RecapCategory } from '../config/constants.js';
 import { callClaude } from '../utils/llm-client.js';
@@ -143,9 +143,10 @@ async function main() {
 
   // 5. frontmatter 正規化 + フィールド注入
   const cleanedMarkdown = extractMarkdownFromLLMResponse(rawMarkdown);
+  const dateTime = getPublishDateTime(today, recapType);
   let markdown = normalizeFrontmatter(cleanedMarkdown, {
     category: recapType,
-    date: today,
+    date: dateTime,
     automated: true,
     provider: 'claude',
   });
