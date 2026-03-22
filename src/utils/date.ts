@@ -1,3 +1,5 @@
+import { CATEGORY_PUBLISH_TIME } from '../config/constants.js';
+
 const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
 /**
@@ -14,6 +16,15 @@ export function formatDateJST(date: Date): string {
 export function getTodayDate(): string {
   if (process.env.TARGET_DATE) return process.env.TARGET_DATE;
   return formatDateJST(new Date());
+}
+
+/**
+ * YYYY-MM-DD 形式の日付にカテゴリ別の公開時刻を付与し、YYYY-MM-DDTHH:MM 形式で返す。
+ * CATEGORY_PUBLISH_TIME に定義がないカテゴリは 00:00 をフォールバックとする。
+ */
+export function getPublishDateTime(date: string, category: string): string {
+  const time = CATEGORY_PUBLISH_TIME[category] ?? '00:00';
+  return `${date}T${time}`;
 }
 
 /**

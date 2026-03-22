@@ -47,5 +47,24 @@ export const THUMBNAIL_PROMPT_MODEL = 'claude-haiku-4-5-20251001';
 export const THUMBNAIL_COMMON_CONSTRAINTS = `The cat itself must look like an actual photograph — real fur texture with individual hair strands visible, natural eye reflections and catchlights, realistic ambient lighting with natural shadows. However, the SITUATION must be completely impossible and surreal — a real cat placed in an absurd, fantastical, or physically impossible scenario. The contrast between "photorealistic cat" and "impossible situation" is the core aesthetic. Think: a real cat presiding as judge in a grand courtroom wearing a tiny powdered wig, a real cat conducting a full orchestra of kittens in a concert hall, a real cat standing at a podium giving a graduation speech to an audience of cats. The more impossible and absurd the scenario, the better — as long as the cat looks 100% real.
 STRICTLY PROHIBITED: Do NOT include any text, letters, words, numbers, watermarks, logos, or captions anywhere in the image. The image must contain absolutely zero text or writing of any kind. No cartoon or illustrated style for the cat — the cat must be photorealistic even when the situation is insane. No server rooms, no circuit boards, no outer space, no cyberspace, no holograms, no glowing neon UIs, no sci-fi aesthetics.`;
 
+/**
+ * カテゴリ別の公開時刻（HH:MM）。
+ * 同一日の記事を安定してソートするために使用する。
+ * 降順ソート（新しい順）のため、先に表示したいカテゴリほど大きい値を設定。
+ */
+export const CATEGORY_PUBLISH_TIME: Record<string, string> = {
+  // Daily（JST 05:00 生成）
+  'ai-tech-daily': '05:30',
+  'extended-daily': '05:00',
+  // Weekly（JST 18:00 生成）
+  'paper-review': '19:00',
+  'extended-paper-review': '18:30',
+  'community-trends': '18:00',
+  // Recap
+  'ai-weekly-recap': '13:00',
+  'extended-weekly-recap': '12:30',
+  'monthly-paper-recap': '12:00',
+};
+
 /** デフォルト画像 */
 export const DEFAULT_IMAGE_PATH = 'images/defaults/default.png';

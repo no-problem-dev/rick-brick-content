@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
-import { getTodayDate } from '../utils/date.js';
+import { getTodayDate, getPublishDateTime } from '../utils/date.js';
 import { upsertFrontmatterField, normalizeFrontmatter } from '../utils/frontmatter.js';
 import { DAILY_CATEGORIES, WEEKLY_CATEGORIES, ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 
@@ -26,10 +26,13 @@ export function processResearchResult(
     return null;
   }
 
+  // frontmatter の date にはカテゴリ別の公開時刻を付与（同一日の安定ソート用）
+  const dateTime = getPublishDateTime(today, category);
+
   // LLM 出力の frontmatter を正規化（不足フィールドの補完、不正値の修復）
   let markdown = normalizeFrontmatter(result.markdown, {
     category,
-    date: today,
+    date: dateTime,
     automated: true,
     provider,
     searchUrls: result.searchUrls,
