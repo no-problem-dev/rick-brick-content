@@ -2,7 +2,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
-import { getTodayDate } from '../utils/date.js';
+import { getTodayDate, isValidDateFormat } from '../utils/date.js';
 import type { ResearchResult } from '../types/research.js';
 import { DAILY_CATEGORIES, WEEKLY_CATEGORIES, RECAP_CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR } from '../config/constants.js';
 
@@ -66,10 +66,10 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
     },
     {
       checkId: 2,
-      description: 'date の YYYY-MM-DD フォーマット',
+      description: 'date の YYYY-MM-DD(THH:MM) フォーマット',
       severity: 'error',
-      passed: typeof fm.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(fm.date),
-      message: 'date が YYYY-MM-DD 形式ではありません',
+      passed: isValidDateFormat(fm.date),
+      message: 'date が YYYY-MM-DD または YYYY-MM-DDTHH:MM 形式ではありません',
     },
     {
       checkId: 3,
