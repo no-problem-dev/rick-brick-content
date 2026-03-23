@@ -327,14 +327,7 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     if (frontmatter[key] === undefined) continue;
     // provider が空文字やfalsyの場合はスキップ（provider 未指定時）
     if (key === 'provider' && !frontmatter[key]) continue;
-    const val = frontmatter[key];
-    if (typeof val === 'boolean') {
-      fmLines.push(`${key}: ${val}`);
-    } else if (Array.isArray(val)) {
-      fmLines.push(`${key}: ${JSON.stringify(val)}`);
-    } else {
-      fmLines.push(`${key}: "${String(val)}"`);
-    }
+    fmLines.push(formatFrontmatterField(key, frontmatter[key]));
   }
 
   return `---\n${fmLines.join('\n')}\n---\n${body}`;
