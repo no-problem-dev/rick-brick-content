@@ -186,3 +186,21 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
+      - name: Post to Bluesky
+        if: ${{ !inputs.dry_run }}
+        continue-on-error: true
+        run: npx tsx src/scripts/post-to-bluesky.ts
+        env:
+          TARGET_DATE: ${{ env.TARGET_DATE }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+
+      - name: Post to Mastodon
+        if: ${{ !inputs.dry_run }}
+        continue-on-error: true
+        run: npx tsx src/scripts/post-to-mastodon.ts
+        env:
+          TARGET_DATE: ${{ env.TARGET_DATE }}
+          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
