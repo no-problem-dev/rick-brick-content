@@ -128,8 +128,8 @@ jobs:
       - name: Validate articles
         run: npx tsx src/scripts/validate.ts
 
-      - name: Upload artifacts (dry_run)
-        if: ${{ inputs.dry_run }}
+      - name: Upload artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: weekly-articles-${{ env.TARGET_DATE || 'today' }}
@@ -168,7 +168,17 @@ jobs:
             exit 0
           fi
           git commit -m "chore: auto-generate weekly articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
-          git push origin main
+          for i in 1 2 3; do
+            if git push origin main; then
+              echo "Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "Push failed (attempt $i/3), retrying in 10s..."
+            sleep 10
+            git pull --rebase origin main
+          done
+          echo "Push failed after 3 attempts"
+          exit 1
 
       - name: Trigger deploy
         if: ${{ !inputs.dry_run }}
