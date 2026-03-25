@@ -1,5 +1,6 @@
 import type { ResearchProvider, ResearchRequest, ResearchResult, ResearchProviderName, ProviderConfig } from '../types/research.js';
 import { readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { getTodayDate } from '../utils/date.js';
 
@@ -13,7 +14,12 @@ export abstract class BaseResearchProvider implements ResearchProvider {
 
   /** プロンプト読み込み（共通） */
   protected loadPrompts(request: ResearchRequest): string {
-    const base = readFileSync(request.basePromptPath, 'utf-8');
+    const baseDir = dirname(request.basePromptPath);
+    let base = readFileSync(request.basePromptPath, 'utf-8');
+    // {{include:filename}} ディレクティブを解決
+    base = base.replace(/\{\{include:([^}]+)\}\}/g, (_match, filename: string) => {
+      return readFileSync(join(baseDir, filename.trim()), 'utf-8');
+    });
     const provider = readFileSync(request.providerPromptPath, 'utf-8');
     const today = getTodayDate();
     const dateDirective = `【重要】本日の日付（JST）: ${today}\nこの日付を記事タイトル・frontmatter・本文中の日付として使用してください。LLM自身の日付推測は使わないでください。\n`;
