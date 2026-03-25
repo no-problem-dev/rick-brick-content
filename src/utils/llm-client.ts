@@ -15,7 +15,7 @@ export interface LlmCallOptions {
 }
 
 const DEFAULT_MAX_TOKENS = 16384;
-const DEFAULT_MAX_RETRIES = 3;
+const DEFAULT_MAX_RETRIES = 1;
 const DEFAULT_RATE_LIMIT_WAIT_MS = 60000;
 const DEFAULT_ERROR_WAIT_MS = 5000;
 

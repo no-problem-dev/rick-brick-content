@@ -121,30 +121,33 @@ jobs:
           RECAP_TYPE: monthly-paper-recap
           DRAFT_MODE: ${{ inputs.draft_mode || 'false' }}
 
-      - name: Generate thumbnails
-        if: env.SKIP_RUN != 'true'
-        run: npx tsx src/scripts/thumbnail.ts
-
-      - name: Translate articles
-        if: env.SKIP_RUN != 'true' && env.SKIP_TRANSLATE != 'true'
-        run: npx tsx src/scripts/translate.ts
-        env:
-          RESEARCH_PROVIDER: ${{ env.RESEARCH_PROVIDER || 'claude' }}
-
-      - name: Validate articles
-        if: env.SKIP_RUN != 'true'
-        run: npx tsx src/scripts/validate.ts
-        continue-on-error: true
-
       - name: Upload artifacts
         if: env.SKIP_RUN != 'true' && always()
         uses: actions/upload-artifact@v4
         with:
           name: recap-articles-${{ env.TARGET_DATE || 'today' }}
           path: |
+            .tmp/research-*.json
             articles/
             images/
           retention-days: 7
+
+      - name: Generate thumbnails
+        if: env.SKIP_RUN != 'true'
+        continue-on-error: true
+        run: npx tsx src/scripts/thumbnail.ts
+
+      - name: Translate articles
+        if: env.SKIP_RUN != 'true' && env.SKIP_TRANSLATE != 'true'
+        continue-on-error: true
+        run: npx tsx src/scripts/translate.ts
+        env:
+          RESEARCH_PROVIDER: ${{ env.RESEARCH_PROVIDER || 'claude' }}
+
+      - name: Validate articles
+        if: env.SKIP_RUN != 'true'
+        continue-on-error: true
+        run: npx tsx src/scripts/validate.ts
 
       - name: Publish articles (remove draft flag from newly generated only)
         if: env.SKIP_RUN != 'true' && !inputs.draft_mode
