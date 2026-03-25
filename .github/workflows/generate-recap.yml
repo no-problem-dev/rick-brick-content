@@ -37,6 +37,10 @@ on:
         default: ''
         type: string
 
+concurrency:
+  group: recap-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate-recap:
     runs-on: ubuntu-latest
@@ -50,24 +54,32 @@ jobs:
       TARGET_DATE: ${{ inputs.target_date || '' }}
 
     steps:
-      - name: Check if today is the last day of the month
-        id: last-day-check
+      - name: Determine recap types to generate
+        id: recap-routing
+        if: env.SKIP_RUN != 'true' && github.event_name != 'workflow_dispatch'
         run: |
+          DOW=$(TZ=Asia/Tokyo date +%u)  # 1=Mon, 2=Tue, ..., 7=Sun
           TOMORROW=$(TZ=Asia/Tokyo date -d "+1 day" +%d)
-          if [ "$TOMORROW" = "01" ]; then
-            echo "is_last_day=true" >> $GITHUB_OUTPUT
-          else
-            echo "is_last_day=false" >> $GITHUB_OUTPUT
-          fi
-          echo "::notice::Tomorrow is day $TOMORROW, is_last_day=$([ "$TOMORROW" = "01" ] && echo true || echo false)"
+          IS_LAST_DAY=$( [ "$TOMORROW" = "01" ] && echo true || echo false )
 
-      - name: Skip if 28-31 schedule but not last day
-        if: >-
-          github.event.schedule == '0 9 28-31 * *' &&
-          steps.last-day-check.outputs.is_last_day != 'true'
-        run: |
-          echo "::notice::Not the last day of the month. Skipping monthly recap."
-          echo "SKIP_RUN=true" >> $GITHUB_ENV
+          # 火曜 → ai-weekly-recap
+          if [ "$DOW" = "2" ]; then
+            echo "GEN_AI_WEEKLY=true" >> $GITHUB_ENV
+          fi
+          # 木曜 → extended-weekly-recap
+          if [ "$DOW" = "4" ]; then
+            echo "GEN_EXT_WEEKLY=true" >> $GITHUB_ENV
+          fi
+          # 月末（曜日問わず） → monthly-paper-recap
+          if [ "$IS_LAST_DAY" = "true" ]; then
+            echo "GEN_MONTHLY=true" >> $GITHUB_ENV
+          fi
+
+          # いずれにも該当しない（28-31日の月末以外）→ スキップ
+          if [ "${GEN_AI_WEEKLY:-}" != "true" ] && [ "${GEN_EXT_WEEKLY:-}" != "true" ] && [ "${GEN_MONTHLY:-}" != "true" ]; then
+            echo "SKIP_RUN=true" >> $GITHUB_ENV
+            echo "::notice::Not a recap day (DOW=$DOW, IS_LAST_DAY=$IS_LAST_DAY). Skipping."
+          fi
 
       - name: Checkout repository
         if: env.SKIP_RUN != 'true'
@@ -91,7 +103,7 @@ jobs:
       - name: Generate ai-weekly-recap
         if: >-
           env.SKIP_RUN != 'true' && (
-            github.event.schedule == '0 9 * * 2' ||
+            env.GEN_AI_WEEKLY == 'true' ||
             (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'ai-weekly-recap' || inputs.recap_type == 'all-weekly'))
           )
         run: npx tsx src/scripts/recap.ts
@@ -102,7 +114,7 @@ jobs:
       - name: Generate extended-weekly-recap
         if: >-
           env.SKIP_RUN != 'true' && (
-            github.event.schedule == '0 9 * * 4' ||
+            env.GEN_EXT_WEEKLY == 'true' ||
             (github.event_name == 'workflow_dispatch' && (inputs.recap_type == 'extended-weekly-recap' || inputs.recap_type == 'all-weekly'))
           )
         run: npx tsx src/scripts/recap.ts
@@ -113,7 +125,7 @@ jobs:
       - name: Generate monthly-paper-recap
         if: >-
           env.SKIP_RUN != 'true' && (
-            (github.event.schedule == '0 9 28-31 * *' && steps.last-day-check.outputs.is_last_day == 'true') ||
+            env.GEN_MONTHLY == 'true' ||
             (github.event_name == 'workflow_dispatch' && inputs.recap_type == 'monthly-paper-recap')
           )
         run: npx tsx src/scripts/recap.ts
@@ -132,96 +144,23 @@ jobs:
             images/
           retention-days: 7
 
-      - name: Generate thumbnails
+      - name: Post-generate pipeline
         if: env.SKIP_RUN != 'true'
-        continue-on-error: true
-        run: npx tsx src/scripts/thumbnail.ts
-
-      - name: Translate articles
-        if: env.SKIP_RUN != 'true' && env.SKIP_TRANSLATE != 'true'
-        continue-on-error: true
-        run: npx tsx src/scripts/translate.ts
-        env:
-          RESEARCH_PROVIDER: ${{ env.RESEARCH_PROVIDER || 'claude' }}
-
-      - name: Validate articles
-        if: env.SKIP_RUN != 'true'
-        continue-on-error: true
-        run: npx tsx src/scripts/validate.ts
-
-      - name: Publish articles (remove draft flag from newly generated only)
-        if: env.SKIP_RUN != 'true' && !inputs.draft_mode
-        run: |
-          TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
-          for file in articles/ja/${TODAY}-*.md; do
-            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
-              sed -i '/^draft: true$/d' "$file"
-              echo "Published: $file"
-            fi
-          done
-          for lang in en zh es pt fr; do
-            for file in articles/${lang}/${TODAY}-*.md; do
-              if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
-                sed -i '/^draft: true$/d' "$file"
-                echo "Published: $file"
-              fi
-            done
-          done
-
-      - name: Commit and push
-        if: env.SKIP_RUN != 'true' && !inputs.dry_run
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles/ images/
-          if git diff --staged --quiet; then
-            echo "No recap articles generated"
-            exit 0
-          fi
-          git commit -m "chore: auto-generate recap articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
-          for i in 1 2 3; do
-            if git push origin main; then
-              echo "Push succeeded on attempt $i"
-              exit 0
-            fi
-            echo "Push failed (attempt $i/3), retrying in 10s..."
-            sleep 10
-            git pull --rebase origin main
-          done
-          echo "Push failed after 3 attempts"
-          exit 1
-
-      - name: Trigger deploy
-        if: env.SKIP_RUN != 'true' && !inputs.dry_run
-        run: npx tsx src/scripts/trigger-deploy.ts
-        env:
-          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}
-
-      - name: Post to X
-        if: env.SKIP_RUN != 'true' && !inputs.dry_run
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-x.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-
-      - name: Post to Bluesky
-        if: env.SKIP_RUN != 'true' && !inputs.dry_run
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-bluesky.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
-          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
-
-      - name: Post to Mastodon
-        if: env.SKIP_RUN != 'true' && !inputs.dry_run
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-mastodon.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
-          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        uses: ./.github/actions/post-generate
+        with:
+          draft_mode: ${{ inputs.draft_mode || 'false' }}
+          dry_run: ${{ inputs.dry_run || 'false' }}
+          target_date: ${{ env.TARGET_DATE }}
+          commit_message: 'chore: auto-generate recap articles $(TZ=Asia/Tokyo date +%Y-%m-%d)'
+          research_provider: ${{ env.RESEARCH_PROVIDER || 'claude' }}
+          skip_translate: ${{ env.SKIP_TRANSLATE || 'false' }}
+          deploy_trigger_pat: ${{ secrets.DEPLOY_TRIGGER_PAT }}
+          git_push_token: ${{ secrets.DEPLOY_TRIGGER_PAT }}
+          x_api_key: ${{ secrets.X_API_KEY }}
+          x_api_secret: ${{ secrets.X_API_SECRET }}
+          x_access_token: ${{ secrets.X_ACCESS_TOKEN }}
+          x_access_token_secret: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          bsky_handle: ${{ secrets.BSKY_HANDLE }}
+          bsky_app_password: ${{ secrets.BSKY_APP_PASSWORD }}
+          mastodon_instance_url: ${{ secrets.MASTODON_INSTANCE_URL }}
+          mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}

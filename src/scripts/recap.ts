@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { parseFrontmatter, normalizeFrontmatter, upsertFrontmatterField, extractMarkdownFromLLMResponse } from '../utils/frontmatter.js';
+import { parseFrontmatter, normalizeFrontmatter, extractMarkdownFromLLMResponse } from '../utils/frontmatter.js';
 import { buildArticleFilename } from '../utils/slug.js';
 import { getTodayDate, daysAgoJST, getPublishDateTime } from '../utils/date.js';
 import { ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
@@ -144,43 +144,35 @@ async function main() {
   // 5. frontmatter 正規化 + フィールド注入
   const cleanedMarkdown = extractMarkdownFromLLMResponse(rawMarkdown);
   const dateTime = getPublishDateTime(today, recapType);
-  let markdown = normalizeFrontmatter(cleanedMarkdown, {
+  const slug = `${recapType}-${today}`;
+  const markdown = normalizeFrontmatter(cleanedMarkdown, {
     category: recapType,
     date: dateTime,
     automated: true,
     provider: 'claude',
+    slug,
+    recap_period: recapPeriod,
+    tags: aggregatedTags,
+    draft: process.env.DRAFT_MODE === 'true' ? true : undefined,
   });
 
-  const slug = `${recapType}-${today}`;
-  markdown = upsertFrontmatterField(markdown, 'slug', slug);
-  markdown = upsertFrontmatterField(markdown, 'category', recapType);
-  markdown = upsertFrontmatterField(markdown, 'automated', 'true');
-  markdown = upsertFrontmatterField(markdown, 'provider', 'claude');
-  markdown = upsertFrontmatterField(markdown, 'recap_period', recapPeriod);
-  markdown = upsertFrontmatterField(markdown, 'tags', JSON.stringify(aggregatedTags));
-
   // 自動生成注意文を末尾に追加
-  markdown += '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
-
-  // DRAFT_MODE 対応
-  if (process.env.DRAFT_MODE === 'true') {
-    markdown = upsertFrontmatterField(markdown, 'draft', 'true');
-  }
+  const markdownWithNote = markdown + '\n\n---\n\n> 本記事は LLM により自動生成されたものです。内容に誤りが含まれる可能性があります。\n';
 
   // 6. ファイル書き出し
   mkdirSync(ARTICLES_DIR, { recursive: true });
   const filename = buildArticleFilename(slug, today);
   const outputPath = join(ARTICLES_DIR, filename);
-  writeFileSync(outputPath, markdown);
+  writeFileSync(outputPath, markdownWithNote);
   console.log(`${recapType}: generated ${filename}`);
 
   // 7. サムネイル生成用 .tmp/research-{recapType}.json を出力
   mkdirSync(TMP_DIR, { recursive: true });
-  const { frontmatter } = parseFrontmatter(markdown);
+  const { frontmatter } = parseFrontmatter(markdownWithNote);
   const researchResult = {
     status: 'success' as const,
     category: recapType,
-    markdown,
+    markdown: markdownWithNote,
     frontmatter: {
       title: String(frontmatter.title ?? ''),
       summary: String(frontmatter.summary ?? ''),

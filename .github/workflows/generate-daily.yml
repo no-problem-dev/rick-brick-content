@@ -86,6 +86,9 @@ jobs:
             fi
           fi
 
+      - name: Pull latest articles
+        run: git pull origin main
+
       - name: Run research
         run: npx tsx src/scripts/research.ts
 
@@ -105,94 +108,22 @@ jobs:
             images/
           retention-days: 7
 
-      - name: Generate thumbnails
-        continue-on-error: true
-        run: npx tsx src/scripts/thumbnail.ts
-
-      - name: Translate articles
-        if: ${{ env.SKIP_TRANSLATE != 'true' }}
-        continue-on-error: true
-        run: npx tsx src/scripts/translate.ts
-        env:
-          RESEARCH_PROVIDER: ${{ env.RESEARCH_PROVIDER }}
-
-      - name: Validate articles
-        continue-on-error: true
-        run: npx tsx src/scripts/validate.ts
-
-      - name: Publish articles (remove draft flag from newly generated only)
-        if: ${{ !inputs.draft_mode }}
-        run: |
-          TODAY="${TARGET_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
-          for file in articles/ja/${TODAY}-*.md; do
-            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
-              sed -i '/^draft: true$/d' "$file"
-              echo "Published: $file"
-            fi
-          done
-          for lang in en zh es pt fr; do
-            for file in articles/${lang}/${TODAY}-*.md; do
-              if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
-                sed -i '/^draft: true$/d' "$file"
-                echo "Published: $file"
-              fi
-            done
-          done
-
-      - name: Commit and push
-        if: ${{ !inputs.dry_run }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles/ images/
-          if git diff --staged --quiet; then
-            echo "No new articles generated"
-            exit 0
-          fi
-          git commit -m "chore: auto-generate daily articles $(TZ=Asia/Tokyo date +%Y-%m-%d)"
-          for i in 1 2 3; do
-            if git push origin main; then
-              echo "Push succeeded on attempt $i"
-              exit 0
-            fi
-            echo "Push failed (attempt $i/3), retrying in 10s..."
-            sleep 10
-            git pull --rebase origin main
-          done
-          echo "Push failed after 3 attempts"
-          exit 1
-
-      - name: Trigger deploy
-        if: ${{ !inputs.dry_run }}
-        run: npx tsx src/scripts/trigger-deploy.ts
-        env:
-          DEPLOY_TRIGGER_PAT: ${{ secrets.DEPLOY_TRIGGER_PAT }}
-
-      - name: Post to X
-        if: ${{ !inputs.dry_run }}
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-x.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-
-      - name: Post to Bluesky
-        if: ${{ !inputs.dry_run }}
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-bluesky.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
-          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
-
-      - name: Post to Mastodon
-        if: ${{ !inputs.dry_run }}
-        continue-on-error: true
-        run: npx tsx src/scripts/post-to-mastodon.ts
-        env:
-          TARGET_DATE: ${{ env.TARGET_DATE }}
-          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
-          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+      - name: Post-generate pipeline
+        uses: ./.github/actions/post-generate
+        with:
+          draft_mode: ${{ inputs.draft_mode || 'false' }}
+          dry_run: ${{ inputs.dry_run || 'false' }}
+          target_date: ${{ env.TARGET_DATE }}
+          commit_message: 'chore: auto-generate daily articles $(TZ=Asia/Tokyo date +%Y-%m-%d)'
+          research_provider: ${{ env.RESEARCH_PROVIDER }}
+          skip_translate: ${{ env.SKIP_TRANSLATE || 'false' }}
+          deploy_trigger_pat: ${{ secrets.DEPLOY_TRIGGER_PAT }}
+          git_push_token: ${{ secrets.DEPLOY_TRIGGER_PAT }}
+          x_api_key: ${{ secrets.X_API_KEY }}
+          x_api_secret: ${{ secrets.X_API_SECRET }}
+          x_access_token: ${{ secrets.X_ACCESS_TOKEN }}
+          x_access_token_secret: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          bsky_handle: ${{ secrets.BSKY_HANDLE }}
+          bsky_app_password: ${{ secrets.BSKY_APP_PASSWORD }}
+          mastodon_instance_url: ${{ secrets.MASTODON_INSTANCE_URL }}
+          mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}

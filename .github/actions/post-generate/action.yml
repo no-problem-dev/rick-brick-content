@@ -1,0 +1,161 @@
+name: Post-Generate Pipeline
+description: >
+  Composite action for post-generate steps shared across daily, weekly, and recap workflows.
+  Handles thumbnail generation, translation, validation, draft publishing, commit/push,
+  deploy trigger, and SNS posting.
+
+inputs:
+  draft_mode:
+    description: 'Skip publishing (keep draft: true) if true'
+    required: false
+    default: 'false'
+  dry_run:
+    description: 'Skip commit, push, deploy trigger, and SNS posting if true'
+    required: false
+    default: 'false'
+  target_date:
+    description: 'Target date in YYYY-MM-DD format (JST). Defaults to today in JST if empty.'
+    required: false
+    default: ''
+  commit_message:
+    description: 'Git commit message passed to git-push-with-retry.sh'
+    required: false
+    default: 'chore: auto-generate articles'
+  research_provider:
+    description: 'Research provider name (claude/gemini/openai) passed to translate script'
+    required: false
+    default: ''
+  skip_translate:
+    description: 'Skip translation step if true'
+    required: false
+    default: 'false'
+  deploy_trigger_pat:
+    description: 'Personal access token for triggering rick-brick deploy workflow'
+    required: false
+    default: ''
+  git_push_token:
+    description: 'Token used for git push (pass DEPLOY_TRIGGER_PAT)'
+    required: false
+    default: ''
+  x_api_key:
+    description: 'X (Twitter) API key'
+    required: false
+    default: ''
+  x_api_secret:
+    description: 'X (Twitter) API secret'
+    required: false
+    default: ''
+  x_access_token:
+    description: 'X (Twitter) access token'
+    required: false
+    default: ''
+  x_access_token_secret:
+    description: 'X (Twitter) access token secret'
+    required: false
+    default: ''
+  bsky_handle:
+    description: 'Bluesky handle'
+    required: false
+    default: ''
+  bsky_app_password:
+    description: 'Bluesky app password'
+    required: false
+    default: ''
+  mastodon_instance_url:
+    description: 'Mastodon instance URL'
+    required: false
+    default: ''
+  mastodon_access_token:
+    description: 'Mastodon access token'
+    required: false
+    default: ''
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Generate thumbnails
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/thumbnail.ts
+
+    - name: Translate articles
+      if: ${{ inputs.skip_translate != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/translate.ts
+      env:
+        RESEARCH_PROVIDER: ${{ inputs.research_provider }}
+
+    - name: Validate articles
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/validate.ts
+
+    - name: Publish articles (remove draft flag from newly generated only)
+      if: ${{ inputs.draft_mode != 'true' }}
+      shell: bash
+      run: |
+        TODAY="${{ inputs.target_date }}"
+        if [ -z "$TODAY" ]; then
+          TODAY="$(TZ=Asia/Tokyo date +%Y-%m-%d)"
+        fi
+        for file in articles/ja/${TODAY}-*.md; do
+          if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
+            sed -i '/^draft: true$/d' "$file"
+            echo "Published: $file"
+          fi
+        done
+        for lang in en zh es pt fr; do
+          for file in articles/${lang}/${TODAY}-*.md; do
+            if [ -f "$file" ] && grep -q "^draft: true$" "$file" 2>/dev/null; then
+              sed -i '/^draft: true$/d' "$file"
+              echo "Published: $file"
+            fi
+          done
+        done
+
+    - name: Commit and push
+      if: ${{ inputs.dry_run != 'true' }}
+      shell: bash
+      run: bash scripts/git-push-with-retry.sh "${{ inputs.commit_message }}"
+      env:
+        GIT_PUSH_TOKEN: ${{ inputs.git_push_token }}
+
+    - name: Trigger deploy
+      if: ${{ inputs.dry_run != 'true' }}
+      shell: bash
+      run: npx tsx src/scripts/trigger-deploy.ts
+      env:
+        DEPLOY_TRIGGER_PAT: ${{ inputs.deploy_trigger_pat }}
+
+    - name: Post to X
+      if: ${{ inputs.dry_run != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/post-to-x.ts
+      env:
+        TARGET_DATE: ${{ inputs.target_date }}
+        X_API_KEY: ${{ inputs.x_api_key }}
+        X_API_SECRET: ${{ inputs.x_api_secret }}
+        X_ACCESS_TOKEN: ${{ inputs.x_access_token }}
+        X_ACCESS_TOKEN_SECRET: ${{ inputs.x_access_token_secret }}
+
+    - name: Post to Bluesky
+      if: ${{ inputs.dry_run != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/post-to-bluesky.ts
+      env:
+        TARGET_DATE: ${{ inputs.target_date }}
+        BSKY_HANDLE: ${{ inputs.bsky_handle }}
+        BSKY_APP_PASSWORD: ${{ inputs.bsky_app_password }}
+
+    - name: Post to Mastodon
+      if: ${{ inputs.dry_run != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/post-to-mastodon.ts
+      env:
+        TARGET_DATE: ${{ inputs.target_date }}
+        MASTODON_INSTANCE_URL: ${{ inputs.mastodon_instance_url }}
+        MASTODON_ACCESS_TOKEN: ${{ inputs.mastodon_access_token }}
