@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync, copyFileSync, mkdirSync, readd
 import { join, dirname } from 'node:path';
 import type { ResearchResult } from '../types/research.js';
 import { upsertFrontmatterField } from '../utils/frontmatter.js';
-import { resolveSlug, validateSlug } from '../utils/slug.js';
+import { resolveSlug, buildArticleFilename, validateSlug } from '../utils/slug.js';
 import { getTodayDate } from '../utils/date.js';
 import { CATEGORIES, ARTICLES_DIR, IMAGES_DIR, TMP_DIR, IMAGEN_MODEL, DEFAULT_IMAGE_PATH, THUMBNAIL_COMMON_CONSTRAINTS } from '../config/constants.js';
 import { resolvePromptGeneratorConfig, generatePromptByProvider } from '../thumbnail/prompt-factory.js';
@@ -111,24 +111,18 @@ export async function generateThumbnail(
 /**
  * 記事ファイルの frontmatter に thumbnail パスを追記する
  */
-function updateArticleThumbnail(slug: string, thumbnailPath: string): void {
+function updateArticleThumbnail(slug: string, date: string, thumbnailPath: string): void {
   const articlesDir = ARTICLES_DIR;
 
-  // articles/ から {date}-{slug}.md にマッチするファイルを探す
-  if (!existsSync(articlesDir)) {
-    console.log(`Articles directory not found, skipping frontmatter update`);
+  // buildArticleFilename で正確なファイル名を生成してマッチ
+  const expectedFilename = buildArticleFilename(slug, date);
+  const articlePath = join(articlesDir, expectedFilename);
+
+  if (!existsSync(articlePath)) {
+    console.log(`Article file "${expectedFilename}" not found, skipping frontmatter update`);
     return;
   }
 
-  const files = readdirSync(articlesDir);
-  const articleFile = files.find((f) => f.endsWith(`-${slug}.md`));
-
-  if (!articleFile) {
-    console.log(`Article file for slug "${slug}" not found, skipping frontmatter update`);
-    return;
-  }
-
-  const articlePath = join(articlesDir, articleFile);
   const content = readFileSync(articlePath, 'utf-8');
   const updated = upsertFrontmatterField(content, 'thumbnail', thumbnailPath);
   writeFileSync(articlePath, updated);
@@ -168,7 +162,7 @@ async function main() {
     const imagePath = join(IMAGES_DIR, `${slug}.png`);
     if (process.env.TARGET_DATE && existsSync(imagePath)) {
       console.log(`${category}: thumbnail already exists (${slug}.png), skipping (TARGET_DATE mode)`);
-      updateArticleThumbnail(slug, `/images/${slug}.png`);
+      updateArticleThumbnail(slug, today, `/images/${slug}.png`);
       continue;
     }
 
@@ -180,7 +174,7 @@ async function main() {
         copyFileSync(mockSrc, outputPath);
         console.log(`${category}: mock thumbnail copied → ${outputPath}`);
       }
-      updateArticleThumbnail(slug, `/images/${slug}.png`);
+      updateArticleThumbnail(slug, today, `/images/${slug}.png`);
       continue;
     }
 
@@ -193,7 +187,7 @@ async function main() {
     const thumbnailPublicPath = thumbnailResult.status === 'success'
       ? `/images/${slug}.png`
       : '/images/defaults/default.png';
-    updateArticleThumbnail(slug, thumbnailPublicPath);
+    updateArticleThumbnail(slug, today, thumbnailPublicPath);
   }
 }
 
