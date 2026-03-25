@@ -281,15 +281,10 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.tags = ['AI'];
   }
 
-  // summary: 50-200文字にトリム、不足なら本文先頭150文字
+  // summary: 不足なら本文先頭150文字で補完（トリミングはフロントエンド側の CSS line-clamp で制御）
   if (!frontmatter.summary || String(frontmatter.summary).trim() === '') {
     const plainBody = body.replace(/^#+\s.*$/gm, '').replace(/\n+/g, ' ').trim();
     frontmatter.summary = plainBody.slice(0, 150);
-  } else {
-    const summary = String(frontmatter.summary);
-    if (summary.length > 200) {
-      frontmatter.summary = summary.slice(0, 197) + '...';
-    }
   }
   // summary サニタイズ
   let summaryStr = String(frontmatter.summary);
@@ -302,6 +297,23 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   // 連続スペースを単一スペースに正規化
   summaryStr = summaryStr.replace(/\s{2,}/g, ' ').trim();
   frontmatter.summary = summaryStr;
+
+  // sns_topics: 配列であることを検証、不正な場合は除去
+  if (frontmatter.sns_topics) {
+    if (Array.isArray(frontmatter.sns_topics)) {
+      frontmatter.sns_topics = (frontmatter.sns_topics as Array<Record<string, unknown>>)
+        .filter((item) => item && typeof item.topic === 'string' && typeof item.summary === 'string')
+        .map((item) => ({
+          topic: String(item.topic).trim(),
+          summary: String(item.summary).trim(),
+        }));
+      if ((frontmatter.sns_topics as unknown[]).length === 0) {
+        delete frontmatter.sns_topics;
+      }
+    } else {
+      delete frontmatter.sns_topics;
+    }
+  }
 
   // sources: searchUrls（APIレスポンスから構造的に抽出したURL）を優先し、
   // LLM生成の sources で補完する
@@ -342,7 +354,7 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   }
 
   // ホワイトリスト方式: FIELD_ORDER に含まれるフィールドのみ、指定順序で出力
-  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'recap_period', 'draft'];
+  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'sns_topics', 'recap_period', 'draft'];
 
   const fmLines: string[] = [];
   for (const key of FIELD_ORDER) {

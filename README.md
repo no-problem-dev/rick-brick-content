@@ -16,16 +16,21 @@ rick-brick-content/
 ├── drafts/                # Drafts
 ├── ideas/                 # Article ideas
 ├── src/
-│   ├── scripts/           # Auto-generation pipeline scripts
+│   ├── scripts/           # Auto-generation & SNS posting scripts
+│   ├── utils/             # Shared utilities (SNS, formatting, frontmatter)
 │   ├── providers/         # LLM providers (Claude / Gemini / OpenAI)
 │   └── types/             # TypeScript type definitions
 ├── prompts/
 │   ├── base/              # Base prompts for article generation
 │   └── providers/         # Provider-specific supplementary prompts
-└── .github/workflows/
-    ├── generate-daily.yml    # Daily auto-generation (JST 05:00)
-    ├── generate-weekly.yml   # Weekly articles (Mon/Wed/Fri JST 18:00)
-    └── generate-recap.yml    # Recap articles (Tue/Thu + last day of month JST 18:00)
+└── .github/
+    ├── actions/
+    │   └── post-generate/    # Composite action: thumbnail, translate, validate, SNS post
+    └── workflows/
+        ├── generate-daily.yml       # Daily auto-generation (JST 05:00)
+        ├── generate-weekly.yml      # Weekly articles (Mon/Wed/Fri JST 18:00)
+        ├── generate-recap.yml       # Recap articles (Tue/Thu + last day JST 18:00)
+        └── post-sns-scheduled.yml   # Scheduled SNS posts (7x daily)
 ```
 
 ## Automated Article Generation
@@ -45,11 +50,13 @@ Three workflows run on different schedules via GitHub Actions cron:
 Each workflow follows the same pipeline:
 
 1. Research latest AI papers and news using LLM API (Claude / Gemini / OpenAI)
-2. Generate Markdown articles from research results
+2. Generate Markdown articles from research results (including `sns_topics` for SNS posting)
 3. Generate thumbnail images via Gemini Imagen API
-4. Run quality checks (frontmatter validation, etc.)
-5. Push successful articles to main
-6. Trigger deployment on rick-brick via `repository_dispatch`
+4. Translate articles to multiple languages
+5. Run quality checks (frontmatter validation, etc.)
+6. Push successful articles to main
+7. Trigger deployment on rick-brick via `repository_dispatch`
+8. Post to SNS (X, Bluesky, Mastodon) with OpenAI-generated human-like comments
 
 ### Provider Switching
 
@@ -65,6 +72,34 @@ Select the LLM provider with the `RESEARCH_PROVIDER` environment variable.
 
 Can be triggered manually from GitHub Actions "Run workflow". Supports provider/model override and dry run options.
 
+## SNS Posting
+
+### Post-Generate Notification (after article generation)
+
+After each article generation workflow, OpenAI API (`gpt-4.1-nano`) generates a human-like one-sentence comment about the article, then posts to:
+
+- **X (Twitter)**: Japanese articles with title + comment + URL
+- **Bluesky**: English articles with embed external card (OGP thumbnail)
+- **Mastodon**: English articles with title + comment + URL
+
+### Scheduled Topic Posts (7x daily)
+
+`post-sns-scheduled.yml` runs at JST 8, 10, 12, 14, 18, 20, 22. Picks one topic from the 2 most recent articles' `sns_topics` field, generates a comment with insights via OpenAI API, and posts to all three platforms.
+
+### sns_topics Field
+
+Auto-generated articles include an `sns_topics` frontmatter field with 3-5 key topics extracted by the LLM:
+
+```yaml
+sns_topics:
+  - topic: "Topic name"
+    summary: "~100 char summary of the topic"
+  - topic: "Another topic"
+    summary: "..."
+```
+
+Articles without `sns_topics` (older articles) fall back to using `summary`.
+
 ## GitHub Actions Secrets
 
 | Secret | Purpose |
@@ -72,8 +107,16 @@ Can be triggered manually from GitHub Actions "Run workflow". Supports provider/
 | `ANTHROPIC_API_KEY` | Claude API |
 | `GEMINI_API_KEY` | Gemini API (research) |
 | `GEMINI_IMAGE_API_KEY` | Gemini Imagen API (thumbnails) |
-| `OPENAI_API_KEY` | OpenAI API |
+| `OPENAI_API_KEY` | OpenAI API (SNS comment generation) |
 | `DEPLOY_TRIGGER_PAT` | Deploy trigger to rick-brick (Fine-grained PAT) |
+| `X_API_KEY` | X (Twitter) API Consumer Key |
+| `X_API_SECRET` | X (Twitter) API Consumer Secret |
+| `X_ACCESS_TOKEN` | X (Twitter) Access Token |
+| `X_ACCESS_TOKEN_SECRET` | X (Twitter) Access Token Secret |
+| `BSKY_HANDLE` | Bluesky handle |
+| `BSKY_APP_PASSWORD` | Bluesky app password |
+| `MASTODON_INSTANCE_URL` | Mastodon instance URL |
+| `MASTODON_ACCESS_TOKEN` | Mastodon access token |
 
 ## Local Development
 

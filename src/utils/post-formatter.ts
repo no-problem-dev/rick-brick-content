@@ -6,6 +6,7 @@
 export interface PostInput {
   title: string;
   summary: string;
+  comment: string;
   tags: string[];
   articleId: string;
 }
@@ -20,31 +21,33 @@ export function formatPost(
   maxLength: number,
 ): string {
   const url = `${siteUrl}/en/articles/${input.articleId}/`;
-  const hashtags = tagsToHashtags(input.tags, 4);
-  const hashtagText = hashtags.join(' ');
+  const header = '\u{1F4DD} New article posted';
 
   const separator = '\n\n';
   const fixedLength =
     url.length +
-    separator.length + // タイトル後の改行
+    separator.length + // header 後の改行
     separator.length + // URL 前の改行
-    (hashtagText ? separator.length + hashtagText.length : 0);
+    header.length;
 
   const titleLength = input.title.length;
-  const availableForSummary = maxLength - fixedLength - titleLength;
+  const availableForComment = maxLength - fixedLength - titleLength;
 
-  let summaryText = '';
-  if (availableForSummary > 10) {
-    summaryText = trimToLength(
-      input.summary,
-      availableForSummary - separator.length,
+  let commentText = '';
+  if (input.comment && availableForComment > 10) {
+    commentText = trimToLength(
+      input.comment,
+      availableForComment - 1, // '\n' between title and comment
     );
   }
 
-  const parts = [input.title];
-  if (summaryText) parts.push(summaryText);
+  const parts = [header];
+  if (commentText) {
+    parts.push(`${input.title}\n${commentText}`);
+  } else {
+    parts.push(input.title);
+  }
   parts.push(url);
-  if (hashtagText) parts.push(hashtagText);
 
   return parts.join(separator);
 }
