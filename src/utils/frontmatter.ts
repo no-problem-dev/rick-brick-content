@@ -39,6 +39,14 @@ export interface FrontmatterDefaults {
   provider?: string;
   /** 検索ツールのAPIレスポンスから構造的に抽出したURL一覧 */
   searchUrls?: string[];
+  /** slug を明示的に指定する場合。指定時は LLM 出力の slug を上書き */
+  slug?: string;
+  /** recap_period フィールド（まとめ記事用）*/
+  recap_period?: string;
+  /** tags を明示的に指定する場合。指定時は LLM 出力の tags を上書き */
+  tags?: string[];
+  /** draft フラグ（true の場合は draft: true を frontmatter に追加）*/
+  draft?: boolean;
 }
 
 /**
@@ -224,8 +232,10 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.title = titleFromBody ?? `[${defaults.category}] ${dateOnly}`;
   }
 
-  // slug: 不正文字を除去
-  if (!frontmatter.slug || String(frontmatter.slug).trim() === '') {
+  // slug: defaults.slug が指定されている場合は上書き。なければ LLM 出力を正規化
+  if (defaults.slug) {
+    frontmatter.slug = defaults.slug;
+  } else if (!frontmatter.slug || String(frontmatter.slug).trim() === '') {
     frontmatter.slug = `${defaults.category}-${dateOnly}`;
   } else {
     frontmatter.slug = String(frontmatter.slug).replace(/[^a-z0-9-]/gi, '-').toLowerCase();
@@ -257,8 +267,10 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.provider = defaults.provider;
   }
 
-  // tags: 配列でなければ配列化
-  if (!Array.isArray(frontmatter.tags)) {
+  // tags: defaults.tags が指定されている場合は上書き。なければ LLM 出力を正規化
+  if (defaults.tags !== undefined) {
+    frontmatter.tags = defaults.tags.length > 0 ? defaults.tags : ['AI'];
+  } else if (!Array.isArray(frontmatter.tags)) {
     if (typeof frontmatter.tags === 'string' && frontmatter.tags.trim()) {
       frontmatter.tags = [frontmatter.tags.trim()];
     } else {
@@ -319,14 +331,26 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   // searchUrls を優先し、LLM生成分で補完（重複排除、最大20件）
   frontmatter.sources = [...new Set([...searchUrls, ...llmSources])].slice(0, 20);
 
+  // recap_period: defaults.recap_period が指定されている場合は設定
+  if (defaults.recap_period) {
+    frontmatter.recap_period = defaults.recap_period;
+  }
+
+  // draft: defaults.draft が true の場合は設定
+  if (defaults.draft === true) {
+    frontmatter.draft = true;
+  }
+
   // ホワイトリスト方式: FIELD_ORDER に含まれるフィールドのみ、指定順序で出力
-  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources'];
+  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'recap_period', 'draft'];
 
   const fmLines: string[] = [];
   for (const key of FIELD_ORDER) {
     if (frontmatter[key] === undefined) continue;
     // provider が空文字やfalsyの場合はスキップ（provider 未指定時）
     if (key === 'provider' && !frontmatter[key]) continue;
+    // draft が false の場合はスキップ（draft: true のときのみ出力）
+    if (key === 'draft' && !frontmatter[key]) continue;
     fmLines.push(formatFrontmatterField(key, frontmatter[key]));
   }
 

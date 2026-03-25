@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, appendFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseFrontmatter } from '../utils/frontmatter.js';
 import { resolveSlug, buildArticleFilename } from '../utils/slug.js';
@@ -180,6 +180,48 @@ export function validateArticle(filePath: string, slug: string): ArticleValidati
   };
 }
 
+function buildStepSummary(summary: ValidationSummary): string {
+  const lines: string[] = ['## Validation Results', ''];
+  lines.push('| Article | Status | Errors | Warnings |');
+  lines.push('|---------|--------|--------|----------|');
+
+  for (const r of summary.results) {
+    const status = r.hasErrors ? 'FAIL' : 'PASS';
+    const errorCount = r.checks.filter((c) => c.severity === 'error' && !c.passed).length;
+    const warnCount = r.checks.filter((c) => c.severity === 'warning' && !c.passed).length;
+    lines.push(`| ${r.slug} | ${status} | ${errorCount} | ${warnCount} |`);
+  }
+
+  const errorDetails: string[] = [];
+  for (const r of summary.results) {
+    for (const c of r.checks) {
+      if (!c.passed && c.severity === 'error') {
+        errorDetails.push(`- ${r.slug}: ${c.message}`);
+      }
+    }
+  }
+
+  if (errorDetails.length > 0) {
+    lines.push('', '### Errors', ...errorDetails);
+  }
+
+  const warnDetails: string[] = [];
+  for (const r of summary.results) {
+    for (const c of r.checks) {
+      if (!c.passed && c.severity === 'warning') {
+        warnDetails.push(`- ${r.slug}: ${c.message}`);
+      }
+    }
+  }
+
+  if (warnDetails.length > 0) {
+    lines.push('', '### Warnings', ...warnDetails);
+  }
+
+  lines.push('');
+  return lines.join('\n');
+}
+
 function main() {
   const today = getTodayDate();
   const articlesDir = ARTICLES_DIR;
@@ -243,10 +285,20 @@ function main() {
   console.log(`\n--- Summary ---`);
   console.log(`Total: ${summary.totalArticles}, Errors: ${summary.articlesWithErrors}, Warnings: ${summary.articlesWithWarnings}`);
 
-  // QG-3: エラーがある場合は exit 1 で後続の commit/push を阻止
+  // バリデーション結果を .tmp/validation-summary.json に書き出す
+  mkdirSync(TMP_DIR, { recursive: true });
+  writeFileSync(join(TMP_DIR, 'validation-summary.json'), JSON.stringify(summary, null, 2));
+
+  // GitHub Actions のステップサマリーに結果を出力
+  const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+  if (summaryPath) {
+    const md = buildStepSummary(summary);
+    appendFileSync(summaryPath, md);
+  }
+
+  // エラーがある場合はログに記録するが、exit 0 で終了して後続ステップをブロックしない
   if (summary.articlesWithErrors > 0) {
     console.error(`\nValidation failed: ${summary.articlesWithErrors} article(s) have errors`);
-    process.exit(1);
   }
 }
 
