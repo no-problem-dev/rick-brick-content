@@ -69,6 +69,10 @@ inputs:
     description: 'Mastodon access token'
     required: false
     default: ''
+  openai_api_key:
+    description: 'OpenAI API key for SNS comment generation'
+    required: false
+    default: ''
 
 runs:
   using: 'composite'
@@ -139,6 +143,7 @@ runs:
         X_API_SECRET: ${{ inputs.x_api_secret }}
         X_ACCESS_TOKEN: ${{ inputs.x_access_token }}
         X_ACCESS_TOKEN_SECRET: ${{ inputs.x_access_token_secret }}
+        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
 
     - name: Post to Bluesky
       if: ${{ inputs.dry_run != 'true' }}
@@ -149,6 +154,7 @@ runs:
         TARGET_DATE: ${{ inputs.target_date }}
         BSKY_HANDLE: ${{ inputs.bsky_handle }}
         BSKY_APP_PASSWORD: ${{ inputs.bsky_app_password }}
+        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
 
     - name: Post to Mastodon
       if: ${{ inputs.dry_run != 'true' }}
@@ -159,3 +165,4 @@ runs:
         TARGET_DATE: ${{ inputs.target_date }}
         MASTODON_INSTANCE_URL: ${{ inputs.mastodon_instance_url }}
         MASTODON_ACCESS_TOKEN: ${{ inputs.mastodon_access_token }}
+        OPENAI_API_KEY: ${{ inputs.openai_api_key }}

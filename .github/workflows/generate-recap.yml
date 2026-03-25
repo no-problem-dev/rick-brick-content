@@ -164,3 +164,4 @@ jobs:
           bsky_app_password: ${{ secrets.BSKY_APP_PASSWORD }}
           mastodon_instance_url: ${{ secrets.MASTODON_INSTANCE_URL }}
           mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}

@@ -35,6 +35,11 @@ provider: "claude"
 recap_period: "YYYY-MM-DD/YYYY-MM-DD"
 automated: true
 sources: ["論文URL1", "論文URL2", "論文URL3"]
+sns_topics:
+  - topic: "トピック名（具体的なニュース/論文/トレンド名）"
+    summary: "そのトピックの要点を100文字程度で説明"
+  - topic: "..."
+    summary: "..."
 ---
 
 ### frontmatter ルール
@@ -45,6 +50,7 @@ sources: ["論文URL1", "論文URL2", "論文URL3"]
 - **recap_period**: `"YYYY-MM-DD/YYYY-MM-DD"` 形式（月初/月末）
 - **sources**: 記事中で引用した全 URL を漏れなく含める（https:// で始まる有効な URL のみ。**最低10件以上**）
 - **automated**: 必ず `true`
+- **sns_topics**: 記事内の主要トピックを3〜5個抽出。各トピックに `topic`（トピック名）と `summary`（100文字程度の要点）を記載。SNS投稿の素材として使用される
 - ※ thumbnail フィールドは後処理で自動注入されるため、ここでは指定しない
 
 ### sources フィールドの厳守事項

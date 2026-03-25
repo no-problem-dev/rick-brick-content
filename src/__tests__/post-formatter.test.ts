@@ -56,19 +56,22 @@ describe('formatPost', () => {
   const baseInput = {
     title: 'AI News Digest',
     summary: 'Latest developments in AI research.',
+    comment: 'Fascinating progress in AI research this week',
     tags: ['AI', 'LLM'],
     articleId: '2026-03-22-ai-news',
   };
 
-  it('should generate a post with title, summary, URL, and hashtags', () => {
+  it('should generate a post with header, title, comment, and URL', () => {
     const result = formatPost(baseInput, siteUrl, 300);
+    expect(result).toContain('\u{1F4DD} New article posted');
     expect(result).toContain('AI News Digest');
-    expect(result).toContain('Latest developments');
+    expect(result).toContain('Fascinating progress in AI research this week');
     expect(result).toContain(
       'https://oct-rick-brick.com/en/articles/2026-03-22-ai-news/',
     );
-    expect(result).toContain('#AI');
-    expect(result).toContain('#LLM');
+    // No hashtags in new format
+    expect(result).not.toContain('#AI');
+    expect(result).not.toContain('#LLM');
   });
 
   it('should use /en/ prefix in URL', () => {
@@ -76,24 +79,26 @@ describe('formatPost', () => {
     expect(result).toMatch(/\/en\/articles\//);
   });
 
-  it('should include more summary for larger maxLength (Mastodon)', () => {
-    const longSummary = 'A '.repeat(200);
-    const input = { ...baseInput, summary: longSummary };
+  it('should include more comment for larger maxLength (Mastodon)', () => {
+    const longComment = 'A '.repeat(200);
+    const input = { ...baseInput, comment: longComment };
     const short = formatPost(input, siteUrl, 300);
     const long = formatPost(input, siteUrl, 500);
     expect(long.length).toBeGreaterThan(short.length);
   });
 
-  it('should omit summary if no room', () => {
+  it('should omit comment if no room', () => {
     const longTitle = 'A'.repeat(280);
     const input = { ...baseInput, title: longTitle };
     const result = formatPost(input, siteUrl, 300);
-    expect(result).not.toContain('Latest developments');
+    expect(result).not.toContain('Fascinating progress');
   });
 
-  it('should handle empty tags', () => {
-    const input = { ...baseInput, tags: [] };
+  it('should work without comment', () => {
+    const input = { ...baseInput, comment: '', tags: [] };
     const result = formatPost(input, siteUrl, 300);
+    expect(result).toContain('\u{1F4DD} New article posted');
+    expect(result).toContain('AI News Digest');
     expect(result).not.toContain('#');
   });
 

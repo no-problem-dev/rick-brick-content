@@ -10,11 +10,15 @@
  *   DRY_RUN          — "true" で投稿をスキップ（ログのみ）
  */
 
-import fs from 'node:fs';
 import path from 'node:path';
-import { parseFrontmatter } from '../utils/frontmatter.js';
-import { formatPost } from '../utils/post-formatter.js';
-import { postToBluesky, type BskyCredentials } from '../utils/bluesky-api.js';
+import {
+  getArticlesByDate,
+  buildEnArticleUrl,
+  buildEnPostText,
+  SITE_URL_DEFAULT,
+} from '../utils/sns-post-builder.js';
+import { generateSnsComment } from '../utils/sns-comment-generator.js';
+import { postToBluesky, type BskyCredentials, type LinkCard } from '../utils/bluesky-api.js';
 import { ARTICLES_BASE_DIR } from '../config/constants.js';
 
 function getTodayJST(): string {
@@ -23,7 +27,7 @@ function getTodayJST(): string {
 
 async function main() {
   const targetDate = process.env.TARGET_DATE || getTodayJST();
-  const siteUrl = process.env.SITE_URL || 'https://oct-rick-brick.com';
+  const siteUrl = process.env.SITE_URL || SITE_URL_DEFAULT;
   const dryRun = process.env.DRY_RUN === 'true';
 
   console.log(`Post to Bluesky: target_date=${targetDate}, dry_run=${dryRun}`);
@@ -40,50 +44,46 @@ async function main() {
   }
 
   // 対象日付の英語記事を検索
-  const articlesDir = path.resolve(path.join(ARTICLES_BASE_DIR, 'en'));
-  const files = fs
-    .readdirSync(articlesDir)
-    .filter((f) => f.startsWith(`${targetDate}-`) && f.endsWith('.md'))
-    .sort();
+  const articlesDir = path.join(ARTICLES_BASE_DIR, 'en');
+  const articles = getArticlesByDate(articlesDir, targetDate);
 
-  if (files.length === 0) {
+  if (articles.length === 0) {
     console.log(`No articles found for ${targetDate}`);
     process.exit(0);
   }
 
-  console.log(`Found ${files.length} article(s): ${files.join(', ')}`);
+  console.log(`Found ${articles.length} article(s): ${articles.map((a) => a.articleId).join(', ')}`);
 
   let posted = 0;
-  for (const file of files) {
-    const filePath = path.join(articlesDir, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const { frontmatter } = parseFrontmatter(content);
+  for (let i = 0; i < articles.length; i++) {
+    const article = articles[i]!;
 
-    // draft 記事はスキップ
-    if (frontmatter.draft === true) {
-      console.log(`Skipping draft: ${file}`);
-      continue;
+    // OpenAI API で人間っぽい一言コメントを生成
+    const comment = await generateSnsComment({ title: article.title, summary: article.summary, language: 'en' });
+
+    const header = '\u{1F4DD} New article posted';
+    const lines: string[] = [header];
+    if (comment) {
+      lines.push(`${article.title}\n${comment}`);
+    } else {
+      lines.push(article.title);
     }
 
-    const articleId = file.replace(/\.md$/, '');
-    const title = String(frontmatter.title || '');
-    const summary = String(frontmatter.summary || '');
-    const tags = Array.isArray(frontmatter.tags)
-      ? (frontmatter.tags as string[])
-      : [];
+    const url = buildEnArticleUrl(article.articleId, siteUrl);
+    const postText = buildEnPostText(lines, url, 300);
+    console.log(`\n--- Post for ${article.articleId} ---\n${postText}\n---`);
 
-    if (!title) {
-      console.log(`Skipping (no title): ${file}`);
-      continue;
-    }
-
-    const postText = formatPost({ title, summary, tags, articleId }, siteUrl, 300);
-    console.log(`\n--- Post for ${file} ---\n${postText}\n---`);
+    // リンクカード（OGP画像付きプレビュー）
+    const linkCard: LinkCard = {
+      url,
+      title: article.title,
+      description: article.summary,
+    };
 
     if (dryRun) {
       console.log('(dry run — skipped posting)');
     } else {
-      const result = await postToBluesky(postText, credentials);
+      const result = await postToBluesky(postText, credentials, linkCard);
       if (result.success) {
         console.log(`Posted successfully: uri=${result.uri}`);
         posted++;
@@ -92,13 +92,13 @@ async function main() {
       }
 
       // 複数記事がある場合はレートリミット回避のため待機
-      if (files.indexOf(file) < files.length - 1) {
+      if (i < articles.length - 1) {
         await new Promise((r) => setTimeout(r, 2000));
       }
     }
   }
 
-  console.log(`\nDone. Posted ${posted}/${files.length} article(s) to Bluesky.`);
+  console.log(`\nDone. Posted ${posted}/${articles.length} article(s) to Bluesky.`);
 }
 
 main().catch((error) => {

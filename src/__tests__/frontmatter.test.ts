@@ -246,12 +246,12 @@ describe('normalizeFrontmatter', () => {
     expect(frontmatter.tags).toEqual(['AI']);
   });
 
-  it('fm-12: summary が200文字超の場合はトリム', () => {
+  it('fm-12: summary が200文字超でもトリムせず全文保持', () => {
     const longSummary = 'あ'.repeat(300);
     const input = `---\ntitle: Test\nsummary: ${longSummary}\n---\n# Body`;
     const result = normalizeFrontmatter(input, defaults);
     const { frontmatter } = parseFrontmatter(result);
-    expect(String(frontmatter.summary).length).toBeLessThanOrEqual(200);
+    expect(String(frontmatter.summary).length).toBe(300);
   });
 
   it('fm-13: コードフェンスありの入力も正しく処理', () => {

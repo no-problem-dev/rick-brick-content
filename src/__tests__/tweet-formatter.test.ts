@@ -49,24 +49,43 @@ describe('tagsToHashtags', () => {
 describe('formatTweet', () => {
   const siteUrl = 'https://oct-rick-brick.com';
 
-  it('基本的なツイートを生成', () => {
+  it('基本的なツイートを生成（コメント付き）', () => {
     const result = formatTweet({
       title: 'AIニュースダイジェスト 2026年3月20日',
       summary: 'OpenAIによるAstral買収など',
+      comment: 'Astral買収の影響が気になりますね',
       tags: ['AI', 'OpenAI'],
       articleId: 'ai-news-digest-2026-03-20',
     }, siteUrl);
 
+    expect(result).toContain('\u{1F4DD} 新しい記事を投稿しました');
     expect(result).toContain('AIニュースダイジェスト 2026年3月20日');
+    expect(result).toContain('Astral買収の影響が気になりますね');
     expect(result).toContain('https://oct-rick-brick.com/articles/ai-news-digest-2026-03-20/');
-    expect(result).toContain('#AI');
-    expect(result).toContain('#OpenAI');
+    // ハッシュタグは含まれない
+    expect(result).not.toContain('#AI');
+    expect(result).not.toContain('#OpenAI');
+  });
+
+  it('コメントなしでも動作する', () => {
+    const result = formatTweet({
+      title: 'テスト記事',
+      summary: 'テストサマリー',
+      comment: '',
+      tags: [],
+      articleId: 'test-article',
+    }, siteUrl);
+
+    expect(result).toContain('\u{1F4DD} 新しい記事を投稿しました');
+    expect(result).toContain('テスト記事');
+    expect(result).toContain('https://oct-rick-brick.com/articles/test-article/');
   });
 
   it('280 ウェイトを超えない', () => {
     const result = formatTweet({
       title: 'とても長いタイトルのAI技術記事',
-      summary: 'あ'.repeat(200), // 非常に長い summary
+      summary: 'あ'.repeat(200),
+      comment: 'あ'.repeat(200), // 非常に長いコメント
       tags: ['AI', 'ML', 'NLP', 'LLM'],
       articleId: 'long-article-2026-03-20',
     }, siteUrl);
@@ -81,28 +100,27 @@ describe('formatTweet', () => {
     expect(urlMatch).not.toBeNull();
   });
 
-  it('summary が省略される場合は ... で終わる', () => {
+  it('コメントが長すぎる場合は ... で切られる', () => {
     const result = formatTweet({
       title: 'とても長いタイトルのAI技術記事です',
-      summary: 'あ'.repeat(200),
+      summary: '',
+      comment: 'あ'.repeat(200),
       tags: ['AI', 'ML', 'NLP'],
       articleId: 'test-2026-03-20',
     }, siteUrl);
 
-    // summary が含まれていて ... で切られている
     expect(result).toContain('...');
   });
 
-  it('タグが空でも動作する', () => {
+  it('ヘッダーが含まれる', () => {
     const result = formatTweet({
       title: 'テスト記事',
       summary: 'テストサマリー',
+      comment: 'いい記事ですね',
       tags: [],
       articleId: 'test-article',
     }, siteUrl);
 
-    expect(result).toContain('テスト記事');
-    expect(result).toContain('https://oct-rick-brick.com/articles/test-article/');
-    expect(result).not.toContain('#');
+    expect(result.startsWith('\u{1F4DD} 新しい記事を投稿しました')).toBe(true);
   });
 });

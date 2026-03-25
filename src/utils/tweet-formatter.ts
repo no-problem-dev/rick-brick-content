@@ -40,6 +40,7 @@ function isCJK(code: number): boolean {
 export interface TweetInput {
   title: string;
   summary: string;
+  comment: string;
   tags: string[];
   articleId: string;
 }
@@ -65,37 +66,36 @@ export function tagsToHashtags(tags: string[], maxCount = 4): string[] {
 
 /**
  * frontmatter からツイートテキストを生成する
- * 280 ウェイト以内に収まるよう summary を動的にトリムする
+ * 280 ウェイト以内に収まるよう comment を動的にトリムする
  */
 export function formatTweet(input: TweetInput, siteUrl: string): string {
   const url = `${siteUrl}/articles/${input.articleId}/`;
-  const hashtags = tagsToHashtags(input.tags);
-  const hashtagText = hashtags.join(' ');
+  const header = '\u{1F4DD} \u65B0\u3057\u3044\u8A18\u4E8B\u3092\u6295\u7A3F\u3057\u307E\u3057\u305F';
 
   // 固定部分のウェイトを計算（URL + 改行）
   const separator = '\n\n';
   const fixedWeight =
     X_URL_WEIGHT + // URL は 23 固定
+    weightedCharCount(separator) + // header 後の改行
     weightedCharCount(separator) + // URL 前の改行
-    weightedCharCount(separator) + // タイトル後の改行
-    (hashtagText ? weightedCharCount(separator) + weightedCharCount(hashtagText) : 0);
+    weightedCharCount(header);
 
   const titleWeight = weightedCharCount(input.title);
-  const availableForSummary = X_MAX_WEIGHT - fixedWeight - titleWeight;
+  const availableForComment = X_MAX_WEIGHT - fixedWeight - titleWeight;
 
-  let summaryText = '';
-  if (availableForSummary > 10) {
-    summaryText = trimToWeight(input.summary, availableForSummary - weightedCharCount(separator));
-    if (summaryText) {
-      // summary 前の改行分を加算
-    }
+  let commentText = '';
+  if (input.comment && availableForComment > 10) {
+    commentText = trimToWeight(input.comment, availableForComment - weightedCharCount('\n'));
   }
 
   // テキスト組み立て
-  const parts = [input.title];
-  if (summaryText) parts.push(summaryText);
+  const parts = [header];
+  if (commentText) {
+    parts.push(`${input.title}\n${commentText}`);
+  } else {
+    parts.push(input.title);
+  }
   parts.push(url);
-  if (hashtagText) parts.push(hashtagText);
 
   return parts.join(separator);
 }
