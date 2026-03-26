@@ -10,7 +10,7 @@ import { weightedCharCount } from './tweet-formatter.js';
 import { trimToLength } from './post-formatter.js';
 
 export const SITE_URL_DEFAULT = 'https://oct-rick-brick.com';
-export const SNS_COMMENT_MODEL = 'gpt-4.1-nano';
+export const SNS_COMMENT_MODEL = 'gpt-5.4-nano';
 
 const X_MAX_WEIGHT = 280;
 const X_URL_WEIGHT = 23; // t.co 短縮URL のウェイト固定値
