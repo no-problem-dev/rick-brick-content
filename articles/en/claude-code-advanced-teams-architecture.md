@@ -7,7 +7,7 @@ tags: ["Claude Code","AI","Multi-Agent","Anthropic","Teams"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-advanced-teams-architecture.png"
-draft: true
+draft: false
 ---
 # Claude Code Practical Architecture — Design Patterns to Accelerate Development with Teams/Subagents
 

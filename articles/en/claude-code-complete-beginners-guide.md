@@ -7,7 +7,7 @@ tags: ["Claude Code","AI","開発ツール","Anthropic","エージェント"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-complete-beginners-guide.png"
-draft: true
+draft: false
 ---
 ## Introduction — What is Claude Code
 
