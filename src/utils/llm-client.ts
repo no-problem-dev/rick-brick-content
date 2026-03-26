@@ -143,7 +143,7 @@ export async function callOpenAi(prompt: string, opts: LlmCallOptions): Promise<
       },
       body: JSON.stringify({
         model: o.model,
-        max_tokens: o.maxTokens,
+        max_completion_tokens: o.maxTokens,
         messages: [{ role: 'user', content: prompt }],
       }),
     });
