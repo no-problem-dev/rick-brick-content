@@ -54,52 +54,22 @@ jobs:
       TARGET_DATE: ${{ inputs.target_date || '' }}
 
     steps:
-      - name: Determine recap types to generate
-        id: recap-routing
-        if: env.SKIP_RUN != 'true' && github.event_name != 'workflow_dispatch'
-        run: |
-          DOW=$(TZ=Asia/Tokyo date +%u)  # 1=Mon, 2=Tue, ..., 7=Sun
-          TOMORROW=$(TZ=Asia/Tokyo date -d "+1 day" +%d)
-          IS_LAST_DAY=$( [ "$TOMORROW" = "01" ] && echo true || echo false )
-
-          SHOULD_RUN=false
-
-          # 火曜 → ai-weekly-recap
-          if [ "$DOW" = "2" ]; then
-            echo "GEN_AI_WEEKLY=true" >> $GITHUB_ENV
-            SHOULD_RUN=true
-          fi
-          # 木曜 → extended-weekly-recap
-          if [ "$DOW" = "4" ]; then
-            echo "GEN_EXT_WEEKLY=true" >> $GITHUB_ENV
-            SHOULD_RUN=true
-          fi
-          # 月末（曜日問わず） → monthly-paper-recap
-          if [ "$IS_LAST_DAY" = "true" ]; then
-            echo "GEN_MONTHLY=true" >> $GITHUB_ENV
-            SHOULD_RUN=true
-          fi
-
-          # いずれにも該当しない（28-31日の月末以外）→ スキップ
-          if [ "$SHOULD_RUN" != "true" ]; then
-            echo "SKIP_RUN=true" >> $GITHUB_ENV
-            echo "::notice::Not a recap day (DOW=$DOW, IS_LAST_DAY=$IS_LAST_DAY). Skipping."
-          fi
-
       - name: Checkout repository
-        if: env.SKIP_RUN != 'true'
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        if: env.SKIP_RUN != 'true'
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
           cache: 'npm'
 
       - name: Install dependencies
-        if: env.SKIP_RUN != 'true'
         run: npm ci
+
+      - name: Determine recap types to generate
+        id: recap-routing
+        if: github.event_name != 'workflow_dispatch'
+        run: npx tsx src/scripts/recap-routing.ts
 
       - name: Pull latest articles
         if: env.SKIP_RUN != 'true'
