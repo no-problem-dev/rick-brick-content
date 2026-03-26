@@ -5,9 +5,10 @@ import { buildArticleFilename } from '../utils/slug.js';
 import { getTodayDate, daysAgoJST, getPublishDateTime } from '../utils/date.js';
 import { ARTICLES_DIR, TMP_DIR } from '../config/constants.js';
 import type { RecapCategory } from '../config/constants.js';
-import { callClaude } from '../utils/llm-client.js';
+import { callOpenAi } from '../utils/llm-client.js';
 
-const RECAP_MODEL = 'claude-haiku-4-5-20251001';
+const RECAP_MODEL = 'gpt-5.4-nano';
+const RECAP_PROVIDER = 'openai';
 
 interface ArticleData {
   date: string;
@@ -125,17 +126,17 @@ async function main() {
   const articlesXml = `<articles>\n${buildArticlesXml(articles)}\n</articles>`;
   basePrompt = basePrompt.replace('{{ARTICLES}}', articlesXml);
 
-  const providerPromptPath = 'prompts/providers/claude.md';
+  const providerPromptPath = `prompts/providers/${RECAP_PROVIDER}.md`;
   const providerPrompt = existsSync(providerPromptPath)
     ? readFileSync(providerPromptPath, 'utf-8')
     : '';
   const fullPrompt = providerPrompt ? `${basePrompt}\n\n${providerPrompt}` : basePrompt;
 
-  // 4. Claude API 呼び出し
-  console.log(`Calling Claude API for ${recapType}...`);
+  // 4. OpenAI API 呼び出し
+  console.log(`Calling OpenAI API (${RECAP_MODEL}) for ${recapType}...`);
   let rawMarkdown: string;
   try {
-    rawMarkdown = await callClaude(fullPrompt, { model: RECAP_MODEL, errorWaitMs: 60000 });
+    rawMarkdown = await callOpenAi(fullPrompt, { model: RECAP_MODEL, errorWaitMs: 60000 });
   } catch (error) {
     console.error(`Failed to generate ${recapType}: ${error instanceof Error ? error.message : String(error)}`);
     process.exit(1);
@@ -149,7 +150,7 @@ async function main() {
     category: recapType,
     date: dateTime,
     automated: true,
-    provider: 'claude',
+    provider: RECAP_PROVIDER,
     slug,
     recap_period: recapPeriod,
     tags: aggregatedTags,
