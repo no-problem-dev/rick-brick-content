@@ -24,6 +24,11 @@ interface TranslationResult {
   body: string;
 }
 
+interface SnsTopicItem {
+  topic: string;
+  summary: string;
+}
+
 interface TranslateStats {
   total: number;
   translated: number;
@@ -103,6 +108,48 @@ function parseTranslationResponse(rawText: string): TranslationResult {
 }
 
 /**
+ * sns_topics を対象言語に翻訳する。
+ * OpenAI API を使い、topic と summary を一括翻訳して返す。
+ */
+async function translateSnsTopics(
+  snsTopics: SnsTopicItem[],
+  targetLocale: SupportedLocale,
+  provider: string,
+): Promise<SnsTopicItem[]> {
+  if (snsTopics.length === 0) return [];
+
+  const targetLanguage = LANGUAGE_NAME_BY_LOCALE[targetLocale];
+  const prompt = `Translate the following JSON array of SNS topics to ${targetLanguage}.
+Each item has "topic" and "summary" fields. Translate both fields naturally.
+Return ONLY a valid JSON array with the same structure. No explanation.
+
+${JSON.stringify(snsTopics)}`;
+
+  const rawResponse = await callLlm(prompt, provider, { model: getModelForProvider(provider) });
+
+  let text = rawResponse.trim();
+  const fenceMatch = text.match(/^```(?:json)?\s*\n([\s\S]*?)\n```\s*$/);
+  if (fenceMatch) text = fenceMatch[1]!.trim();
+
+  try {
+    const parsed = JSON.parse(text) as unknown[];
+    return parsed
+      .filter((item): item is Record<string, unknown> =>
+        typeof item === 'object' && item !== null &&
+        typeof (item as Record<string, unknown>).topic === 'string' &&
+        typeof (item as Record<string, unknown>).summary === 'string')
+      .map((item) => ({
+        topic: String(item.topic).trim(),
+        summary: String(item.summary).trim(),
+      }));
+  } catch {
+    // パース失敗時は原文をそのまま返す（ビルドは壊さない）
+    console.warn(`  [${targetLocale}] sns_topics translation parse failed, keeping original`);
+    return snsTopics;
+  }
+}
+
+/**
  * 記事本文から自動生成注意文（`---` 以降の最後のブロック）を除去する
  */
 function removeDisclaimerFromBody(body: string): string {
@@ -118,14 +165,16 @@ function buildTranslatedFrontmatter(
   translatedTitle: string,
   translatedSummary: string,
   translatedTags?: string[],
+  translatedSnsTopics?: SnsTopicItem[],
 ): string {
-  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'thumbnail'];
+  const FIELD_ORDER = ['title', 'slug', 'summary', 'date', 'tags', 'category', 'automated', 'provider', 'sources', 'sns_topics', 'thumbnail'];
 
   const merged: Record<string, unknown> = {
     ...originalFrontmatter,
     title: translatedTitle,
     summary: translatedSummary,
     ...(translatedTags && translatedTags.length > 0 ? { tags: translatedTags } : {}),
+    ...(translatedSnsTopics && translatedSnsTopics.length > 0 ? { sns_topics: translatedSnsTopics } : {}),
   };
 
   const fmLines: string[] = [];
@@ -236,7 +285,23 @@ async function translateArticle(
   const rawTranslatedTags = translation.tags.length > 0 ? translation.tags : tags;
   const translatedTags = sanitizeTagsForLocale(rawTranslatedTags, targetLocale);
 
-  const newFrontmatter = buildTranslatedFrontmatter(frontmatter, translation.title, translatedSummary, translatedTags);
+  // sns_topics: 配列が存在する場合は対象言語に翻訳
+  let translatedSnsTopics: SnsTopicItem[] | undefined;
+  if (Array.isArray(frontmatter.sns_topics) && frontmatter.sns_topics.length > 0) {
+    const originalTopics = (frontmatter.sns_topics as Array<Record<string, unknown>>)
+      .filter((item) => typeof item.topic === 'string' && typeof item.summary === 'string')
+      .map((item) => ({ topic: String(item.topic), summary: String(item.summary) }));
+    if (originalTopics.length > 0) {
+      try {
+        translatedSnsTopics = await translateSnsTopics(originalTopics, targetLocale, provider);
+      } catch (e) {
+        console.warn(`  [${targetLocale}] sns_topics translation failed, keeping original: ${e instanceof Error ? e.message : e}`);
+        translatedSnsTopics = originalTopics;
+      }
+    }
+  }
+
+  const newFrontmatter = buildTranslatedFrontmatter(frontmatter, translation.title, translatedSummary, translatedTags, translatedSnsTopics);
 
   // 本文 + 対象言語の注意文を組み立て
   const disclaimer = DISCLAIMER_BY_LOCALE[targetLocale];
