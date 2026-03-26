@@ -7,7 +7,7 @@ tags: ["Claude Code","IA","Outils de développement","Anthropic","Agents"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-complete-beginners-guide.png"
-draft: true
+draft: false
 ---
 ## Introduction — Qu'est-ce que Claude Code
 

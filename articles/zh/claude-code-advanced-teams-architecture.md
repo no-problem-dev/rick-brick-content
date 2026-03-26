@@ -7,7 +7,7 @@ tags: ["Claude Code","AI","Multi-agent","Anthropic","Teams"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-advanced-teams-architecture.png"
-draft: true
+draft: false
 ---
 # Claude Code 实践架构 — 通过 Teams/Subagents 加速开发的设计模式
 
