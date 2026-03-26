@@ -62,21 +62,26 @@ jobs:
           TOMORROW=$(TZ=Asia/Tokyo date -d "+1 day" +%d)
           IS_LAST_DAY=$( [ "$TOMORROW" = "01" ] && echo true || echo false )
 
+          SHOULD_RUN=false
+
           # 火曜 → ai-weekly-recap
           if [ "$DOW" = "2" ]; then
             echo "GEN_AI_WEEKLY=true" >> $GITHUB_ENV
+            SHOULD_RUN=true
           fi
           # 木曜 → extended-weekly-recap
           if [ "$DOW" = "4" ]; then
             echo "GEN_EXT_WEEKLY=true" >> $GITHUB_ENV
+            SHOULD_RUN=true
           fi
           # 月末（曜日問わず） → monthly-paper-recap
           if [ "$IS_LAST_DAY" = "true" ]; then
             echo "GEN_MONTHLY=true" >> $GITHUB_ENV
+            SHOULD_RUN=true
           fi
 
           # いずれにも該当しない（28-31日の月末以外）→ スキップ
-          if [ "${GEN_AI_WEEKLY:-}" != "true" ] && [ "${GEN_EXT_WEEKLY:-}" != "true" ] && [ "${GEN_MONTHLY:-}" != "true" ]; then
+          if [ "$SHOULD_RUN" != "true" ]; then
             echo "SKIP_RUN=true" >> $GITHUB_ENV
             echo "::notice::Not a recap day (DOW=$DOW, IS_LAST_DAY=$IS_LAST_DAY). Skipping."
           fi
