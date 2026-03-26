@@ -124,7 +124,16 @@ async function main() {
 
   let basePrompt = readFileSync(basePromptPath, 'utf-8');
   const articlesXml = `<articles>\n${buildArticlesXml(articles)}\n</articles>`;
+  if (!basePrompt.includes('{{ARTICLES}}')) {
+    console.error(`ERROR: {{ARTICLES}} placeholder not found in ${basePromptPath}`);
+    process.exit(1);
+  }
   basePrompt = basePrompt.replace('{{ARTICLES}}', articlesXml);
+
+  if (!basePrompt.includes('<articles>')) {
+    console.error('ERROR: Article data was not embedded in prompt');
+    process.exit(1);
+  }
 
   const providerPromptPath = `prompts/providers/${RECAP_PROVIDER}.md`;
   const providerPrompt = existsSync(providerPromptPath)
