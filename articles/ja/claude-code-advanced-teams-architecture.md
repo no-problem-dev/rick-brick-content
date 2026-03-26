@@ -2,12 +2,12 @@
 title: "Claude Code 実践アーキテクチャ — Teams/Subagents で開発を加速する設計パターン"
 summary: "Star Topology、DAG駆動タスク設計、コンテキスト80/20ルール、CLAUDE.md最適化、Hooks決定論的制御など、Claude Code上級者向けのマルチエージェント設計パターンを、Anthropicの公式事例データとともに解説する。"
 slug: "claude-code-advanced-teams-architecture"
-date: "2026-03-26"
+date: "2026-03-26T00:10"
 tags: ["Claude Code", "AI", "マルチエージェント", "Anthropic", "Teams"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-advanced-teams-architecture.png"
-draft: false
+draft: true
 ---
 
 # Claude Code 実践アーキテクチャ — Teams/Subagents で開発を加速する設計パターン
