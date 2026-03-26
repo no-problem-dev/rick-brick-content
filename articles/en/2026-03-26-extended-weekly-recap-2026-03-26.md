@@ -7,7 +7,7 @@ tags: ["extended-weekly-recap","AI","Robotics","Life Sciences","Energy","Space S
 category: "extended-weekly-recap"
 automated: true
 provider: "claude"
-sources: []
+sources: ["https://news.mit.edu/2026/generative-ai-improves-wireless-vision-system-0319","https://news.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots","https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots","https://arxiv.org/abs/2603.16916","https://arxiv.org/abs/2603.05621","https://www.prnewswire.com/news-releases/insilico-medicine-launches-pandaclaw-empowering-biologists-with-agentic-ai-for-therapeutic-discovery-302434685.html","https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/","https://www.weforum.org/stories/2026/03/advances-in-autonomous-robotics-what-comes-next/","https://nvidianews.nvidia.com/news/ai-agents","https://www.nasa.gov/news-release/nasa-astronauts-to-conduct-a-pair-of-spacewalks-to-install-new-solar-arrays/"]
 thumbnail: "/images/extended-weekly-recap-2026-03-26.png"
 recap_period: "2026-03-19/2026-03-25"
 ---
