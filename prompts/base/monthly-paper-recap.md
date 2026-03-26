@@ -35,7 +35,6 @@ summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"
 tags: ["論文", "研究トレンド", "その他関連タグ"]
 category: "monthly-paper-recap"
-provider: "claude"
 recap_period: "YYYY-MM-DD/YYYY-MM-DD"
 automated: true
 sources: ["論文URL1", "論文URL2", "論文URL3"]
@@ -50,7 +49,7 @@ sns_topics:
 - **slug**: `monthly-paper-recap-YYYY-MM` 形式を厳守（YYYY-MM は対象月）
 - **summary**: 50〜200文字の日本語要約（月の主要研究トレンドを含める）
 - **tags**: 3個以上
-- **provider**: 必ず `"claude"` を指定
+- **provider**: 出力不要（後処理で自動注入される）
 - **recap_period**: `"YYYY-MM-DD/YYYY-MM-DD"` 形式（月初/月末）
 - **sources**: 記事中で引用した全 URL を漏れなく含める（https:// で始まる有効な URL のみ。**最低10件以上**）
 - **automated**: 必ず `true`

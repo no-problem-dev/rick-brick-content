@@ -305,8 +305,8 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
     frontmatter.automated = defaults.automated;
   }
 
-  // provider: デフォルト値で補完（LLM 出力に含まれていない場合）
-  if (!frontmatter.provider && defaults.provider) {
+  // provider: defaults が指定されている場合は常に上書き（LLM がプロンプト例示の値をそのまま出力するため）
+  if (defaults.provider) {
     frontmatter.provider = defaults.provider;
   }
 
