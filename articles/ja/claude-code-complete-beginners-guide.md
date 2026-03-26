@@ -2,12 +2,12 @@
 title: "Claude Code 完全入門ガイド — AIコーディングエージェントの全機能を体系的に理解する"
 summary: "Claude Codeのインストールから、CLAUDE.md、Skills、Subagents、Agent Teams、Hooks、MCP、コンテキスト管理まで、全機能を体系的に解説する初心者向け完全ガイド。2026年3月時点の最新情報を網羅。"
 slug: "claude-code-complete-beginners-guide"
-date: "2026-03-26"
+date: "2026-03-26T00:10"
 tags: ["Claude Code", "AI", "開発ツール", "Anthropic", "エージェント"]
 category: "tech-article"
 automated: false
 thumbnail: "/images/claude-code-complete-beginners-guide.png"
-draft: false
+draft: true
 ---
 
 ## はじめに — Claude Code とは何か
