@@ -52,8 +52,12 @@ async function fetchOgImageUrl(url: string): Promise<string | null> {
   }
 }
 
+/** Bluesky の uploadBlob 上限 (1MB) */
+const BSKY_BLOB_MAX_SIZE = 1_000_000;
+
 /**
- * 画像 URL から画像データをダウンロードし Bluesky にアップロードする
+ * 画像 URL から画像データをダウンロードし Bluesky にアップロードする。
+ * 1MB 超の場合は sharp で JPEG 圧縮してからアップロードする。
  */
 async function uploadImageBlob(
   agent: AtpAgent,
@@ -63,14 +67,31 @@ async function uploadImageBlob(
     const response = await fetch(imageUrl);
     if (!response.ok) return null;
 
-    const contentType = response.headers.get('content-type') || 'image/png';
     const arrayBuffer = await response.arrayBuffer();
-    const uint8Array = new Uint8Array(arrayBuffer);
+    let buffer = new Uint8Array(arrayBuffer);
+    let encoding = response.headers.get('content-type') || 'image/png';
 
-    const uploadResult = await agent.uploadBlob(uint8Array, {
-      encoding: contentType,
-    });
+    if (buffer.length > BSKY_BLOB_MAX_SIZE) {
+      const sharp = (await import('sharp')).default;
+      const originalSize = buffer.length;
 
+      // 品質を段階的に下げて 1MB 未満に収める
+      for (const quality of [80, 60, 40, 20]) {
+        const compressed = await sharp(buffer)
+          .jpeg({ quality })
+          .toBuffer();
+        if (compressed.length < BSKY_BLOB_MAX_SIZE) {
+          console.log(
+            `Bluesky: compressed image ${originalSize} → ${compressed.length} bytes (quality=${quality})`,
+          );
+          buffer = new Uint8Array(compressed);
+          encoding = 'image/jpeg';
+          break;
+        }
+      }
+    }
+
+    const uploadResult = await agent.uploadBlob(buffer, { encoding });
     return uploadResult.data.blob;
   } catch (error) {
     console.warn(`Failed to upload image blob from ${imageUrl}:`, error);
