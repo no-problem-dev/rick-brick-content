@@ -49,7 +49,6 @@ summary: "100-150文字の要約（50文字以上200文字以内）"
 date: "YYYY-MM-DD"
 tags: ["科学技術", "週間まとめ", "その他関連タグ"]
 category: "extended-weekly-recap"
-provider: "claude"
 recap_period: "YYYY-MM-DD/YYYY-MM-DD"
 automated: true
 sources: ["ソースURL1", "ソースURL2", "ソースURL3"]
@@ -64,7 +63,7 @@ sns_topics:
 - **slug**: `extended-weekly-recap-YYYY-MM-DD` 形式を厳守（末尾の日付は週の最終日）
 - **summary**: 50〜200文字の日本語要約（週の主要トレンドと領域を含める）
 - **tags**: 3個以上
-- **provider**: 必ず `"claude"` を指定
+- **provider**: 出力不要（後処理で自動注入される）
 - **recap_period**: `"YYYY-MM-DD/YYYY-MM-DD"` 形式（開始日/終了日）
 - **sources**: 記事中で引用した全 URL を漏れなく含める（https:// で始まる有効な URL のみ。**最低5件以上**）
 - **automated**: 必ず `true`

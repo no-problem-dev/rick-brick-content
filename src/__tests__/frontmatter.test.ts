@@ -282,11 +282,11 @@ describe('normalizeFrontmatter', () => {
     expect(frontmatter.provider).toBeUndefined();
   });
 
-  it('fm-19: LLM 出力に provider が既にある場合は上書きしない', () => {
+  it('fm-19: LLM 出力に provider があっても defaults で上書きする', () => {
     const input = '---\ntitle: Test\nprovider: gemini\ntags: ["AI"]\n---\n# Body';
     const result = normalizeFrontmatter(input, { ...defaults, provider: 'claude' });
     const { frontmatter } = parseFrontmatter(result);
-    expect(frontmatter.provider).toBe('gemini');
+    expect(frontmatter.provider).toBe('claude');
   });
 
   it('fm-20: 各プロバイダー（claude/gemini/openai）が正しく設定される', () => {
