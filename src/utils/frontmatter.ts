@@ -59,7 +59,37 @@ export function parseFrontmatter(content: string): { frontmatter: Record<string,
 
   const fm: Record<string, unknown> = {};
   const lines = match[1]!.split('\n');
-  for (const line of lines) {
+  let currentKey: string | null = null;
+  let currentList: Record<string, string>[] | null = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]!;
+
+    // マルチライン YAML 配列の項目行（"  - key: value" or "    key: value"）
+    if (currentKey && currentList !== null && /^\s+/.test(line)) {
+      const itemMatch = line.match(/^\s+-\s+(\w+):\s*(.*)$/);
+      if (itemMatch) {
+        // 新しいリスト項目の開始
+        const val = itemMatch[2]!.replace(/^["']|["']$/g, '');
+        currentList.push({ [itemMatch[1]!]: val });
+      } else {
+        const propMatch = line.match(/^\s+(\w+):\s*(.*)$/);
+        if (propMatch && currentList.length > 0) {
+          // 既存リスト項目のプロパティ追加
+          const val = propMatch[2]!.replace(/^["']|["']$/g, '');
+          currentList[currentList.length - 1]![propMatch[1]!] = val;
+        }
+      }
+      continue;
+    }
+
+    // マルチライン配列の終了（新しいトップレベルキーに到達）
+    if (currentKey && currentList !== null) {
+      fm[currentKey] = currentList;
+      currentKey = null;
+      currentList = null;
+    }
+
     const kv = line.match(/^(\w+):\s*(.*)$/);
     if (kv) {
       const [, key, val] = kv;
@@ -69,10 +99,23 @@ export function parseFrontmatter(content: string): { frontmatter: Record<string,
         fm[key!] = true;
       } else if (val === 'false') {
         fm[key!] = false;
+      } else if (val!.trim() === '') {
+        // 値が空の場合、次行がインデントされていればマルチライン配列の開始
+        if (i + 1 < lines.length && /^\s+-\s/.test(lines[i + 1]!)) {
+          currentKey = key!;
+          currentList = [];
+        } else {
+          fm[key!] = '';
+        }
       } else {
         fm[key!] = val!.replace(/^["']|["']$/g, '');
       }
     }
+  }
+
+  // 最後のマルチライン配列を格納
+  if (currentKey && currentList !== null) {
+    fm[currentKey] = currentList;
   }
 
   return { frontmatter: fm, body: match[2]! };
@@ -299,7 +342,7 @@ export function normalizeFrontmatter(markdown: string, defaults: FrontmatterDefa
   frontmatter.summary = summaryStr;
 
   // sns_topics: 配列であることを検証、不正な場合は除去
-  if (frontmatter.sns_topics) {
+  if (frontmatter.sns_topics !== undefined) {
     if (Array.isArray(frontmatter.sns_topics)) {
       frontmatter.sns_topics = (frontmatter.sns_topics as Array<Record<string, unknown>>)
         .filter((item) => item && typeof item.topic === 'string' && typeof item.summary === 'string')

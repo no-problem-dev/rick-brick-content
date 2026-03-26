@@ -365,4 +365,90 @@ describe('normalizeFrontmatter - field ordering and sanitization', () => {
     const { frontmatter } = parseFrontmatter(result);
     expect(frontmatter.title).toBe('Amazing Paper Title');
   });
+
+  it('fm-sanitize-3: sns_topics が空文字列 → 除去される', () => {
+    const input = '---\ntitle: "Test"\ntags: ["AI"]\nsummary: "Summary"\nsns_topics: ""\n---\n# Body';
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(frontmatter.sns_topics).toBeUndefined();
+  });
+
+  it('fm-sanitize-4: sns_topics がマルチライン YAML 配列 → 正しくパース・保持される', () => {
+    const input = [
+      '---',
+      'title: "Test"',
+      'tags: ["AI"]',
+      'summary: "Summary"',
+      'sns_topics:',
+      '  - topic: "Topic One"',
+      '    summary: "Summary for topic one"',
+      '  - topic: "Topic Two"',
+      '    summary: "Summary for topic two"',
+      '---',
+      '# Body',
+    ].join('\n');
+    const result = normalizeFrontmatter(input, defaults);
+    const { frontmatter } = parseFrontmatter(result);
+    expect(Array.isArray(frontmatter.sns_topics)).toBe(true);
+    const topics = frontmatter.sns_topics as Array<{ topic: string; summary: string }>;
+    expect(topics).toHaveLength(2);
+    expect(topics[0]!.topic).toBe('Topic One');
+    expect(topics[0]!.summary).toBe('Summary for topic one');
+    expect(topics[1]!.topic).toBe('Topic Two');
+  });
+});
+
+describe('parseFrontmatter - multiline YAML arrays', () => {
+  it('fm-multiline-1: マルチライン配列をオブジェクト配列としてパースする', () => {
+    const content = [
+      '---',
+      'title: "Test"',
+      'sns_topics:',
+      '  - topic: "T1"',
+      '    summary: "S1"',
+      '  - topic: "T2"',
+      '    summary: "S2"',
+      'thumbnail: "/images/test.png"',
+      '---',
+      '# Body',
+    ].join('\n');
+    const { frontmatter } = parseFrontmatter(content);
+    expect(Array.isArray(frontmatter.sns_topics)).toBe(true);
+    const topics = frontmatter.sns_topics as Array<Record<string, string>>;
+    expect(topics).toHaveLength(2);
+    expect(topics[0]).toEqual({ topic: 'T1', summary: 'S1' });
+    expect(topics[1]).toEqual({ topic: 'T2', summary: 'S2' });
+    expect(frontmatter.thumbnail).toBe('/images/test.png');
+  });
+
+  it('fm-multiline-2: マルチライン配列が frontmatter の最後にある場合', () => {
+    const content = [
+      '---',
+      'title: "Test"',
+      'sns_topics:',
+      '  - topic: "T1"',
+      '    summary: "S1"',
+      '---',
+      '# Body',
+    ].join('\n');
+    const { frontmatter } = parseFrontmatter(content);
+    expect(Array.isArray(frontmatter.sns_topics)).toBe(true);
+    const topics = frontmatter.sns_topics as Array<Record<string, string>>;
+    expect(topics).toHaveLength(1);
+    expect(topics[0]).toEqual({ topic: 'T1', summary: 'S1' });
+  });
+
+  it('fm-multiline-3: 値が空で次行もインデントなし → 空文字列のまま', () => {
+    const content = [
+      '---',
+      'title: "Test"',
+      'provider: ',
+      'category: "ai-tech-daily"',
+      '---',
+      '# Body',
+    ].join('\n');
+    const { frontmatter } = parseFrontmatter(content);
+    expect(frontmatter.provider).toBe('');
+    expect(frontmatter.category).toBe('ai-tech-daily');
+  });
 });
