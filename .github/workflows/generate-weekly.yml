@@ -19,12 +19,12 @@ on:
       provider:
         description: 'リサーチプロバイダー (claude / gemini / openai / mock)'
         required: false
-        default: 'claude'
+        default: 'openai'
         type: choice
         options:
-          - claude
-          - gemini
           - openai
+          - gemini
+          - claude
           - mock
       model:
         description: 'モデル上書き（空欄でデフォルト）'
