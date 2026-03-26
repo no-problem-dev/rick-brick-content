@@ -71,20 +71,7 @@ jobs:
         run: npm ci
 
       - name: Determine research provider
-        run: |
-          if [ -n "$RESEARCH_PROVIDER" ]; then
-            echo "::notice::Provider from input: $RESEARCH_PROVIDER"
-          else
-            # JST基準の日付で偶奇判定（cron は UTC 20:00 = JST 翌05:00 に実行）
-            JST_DAY=$(TZ=Asia/Tokyo date +%-d)
-            if [ $(( JST_DAY % 2 )) -eq 0 ]; then
-              echo "RESEARCH_PROVIDER=openai" >> $GITHUB_ENV
-              echo "::notice::Auto-selected provider: openai (even day JST: $JST_DAY)"
-            else
-              echo "RESEARCH_PROVIDER=gemini" >> $GITHUB_ENV
-              echo "::notice::Auto-selected provider: gemini (odd day JST: $JST_DAY)"
-            fi
-          fi
+        run: npx tsx src/scripts/select-provider.ts
 
       - name: Pull latest articles
         run: git pull origin main
