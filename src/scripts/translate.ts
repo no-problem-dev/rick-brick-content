@@ -42,7 +42,7 @@ interface TranslateStats {
 
 const TRANSLATE_MODEL_CLAUDE = 'claude-haiku-4-5-20251001';
 const TRANSLATE_MODEL_GEMINI = 'gemini-2.5-flash-lite';
-const TRANSLATE_MODEL_OPENAI = 'gpt-4.1-nano';
+const TRANSLATE_MODEL_OPENAI = 'gpt-5.4-nano';
 
 /** プロバイダーごとのモデル名を返す */
 function getModelForProvider(provider: string): string {
