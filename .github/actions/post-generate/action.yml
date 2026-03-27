@@ -132,6 +132,13 @@ runs:
       env:
         DEPLOY_TRIGGER_PAT: ${{ inputs.deploy_trigger_pat }}
 
+    - name: Wait for deploy to complete (OGP readiness)
+      if: ${{ inputs.dry_run != 'true' }}
+      shell: bash
+      run: |
+        echo "Waiting 120 seconds for Cloudflare Pages deploy to complete..."
+        sleep 120
+
     - name: Post to X
       if: ${{ inputs.dry_run != 'true' }}
       continue-on-error: true
