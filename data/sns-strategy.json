@@ -1,0 +1,33 @@
+{
+  "platforms": [
+    {
+      "platform": "x",
+      "updatedAt": "",
+      "topPosts": [],
+      "guidelines": "",
+      "avgScore": 0,
+      "totalPosts": 0
+    },
+    {
+      "platform": "bluesky",
+      "updatedAt": "",
+      "topPosts": [],
+      "guidelines": "",
+      "avgScore": 0,
+      "totalPosts": 0
+    },
+    {
+      "platform": "mastodon",
+      "updatedAt": "",
+      "topPosts": [],
+      "guidelines": "",
+      "avgScore": 0,
+      "totalPosts": 0
+    }
+  ],
+  "crossPlatform": {
+    "updatedAt": "",
+    "topPosts": [],
+    "commonPatterns": ""
+  }
+}

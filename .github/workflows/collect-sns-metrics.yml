@@ -1,0 +1,43 @@
+name: Collect SNS Metrics
+
+on:
+  schedule:
+    - cron: '0 19 * * *'  # UTC 19:00 = JST 04:00（記事生成の1時間前）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Collect metrics from SNS APIs
+        run: npx tsx src/scripts/collect-sns-metrics.ts
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
+      - name: Commit and push metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/sns-metrics.json data/sns-strategy.json
+          if git diff --cached --quiet; then
+            echo "No metrics changes to commit."
+          else
+            git commit -m "chore: update SNS metrics $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+            git push
+          fi

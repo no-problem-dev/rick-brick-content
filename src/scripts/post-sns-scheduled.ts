@@ -1,10 +1,11 @@
 /**
  * 定時 SNS 投稿スクリプト
- * 直近2記事から1トピックをピックアップし、OpenAI API で
- * 人間らしい感想+知見・考察を生成して各 SNS に投稿する。
+ * 直近2記事から1トピックをピックアップし、プラットフォーム別に
+ * 最適化されたコメントを生成して各 SNS に投稿する。
  *
- * sns_topics フィールドを使用してトピック選定を行う。
- * sns_topics がない記事（既存記事）へのフォールバック: summary を使用。
+ * X: セルフリプライ戦略（本文にURLを含めず、120秒後にリプライでURL投稿）
+ * Bluesky: リンクカード付き投稿（ペナルティなし）
+ * Mastodon: ハッシュタグ付き投稿（Trending狙い）
  *
  * 環境変数:
  *   OPENAI_API_KEY           — OpenAI API キー
@@ -25,101 +26,80 @@ import {
   getRecentArticles,
   buildJaArticleUrl,
   buildEnArticleUrl,
-  buildXPostText,
   buildEnPostText,
   callOpenAI,
   SITE_URL_DEFAULT,
   type ArticleForSns,
 } from '../utils/sns-post-builder.js';
-import { postTweet, type XApiCredentials } from '../utils/x-api.js';
+import { postToXWithReply, type XApiCredentials } from '../utils/x-api.js';
 import { postToBluesky, type BskyCredentials, type LinkCard } from '../utils/bluesky-api.js';
 import { postToMastodon, type MastodonCredentials } from '../utils/mastodon-api.js';
+import { logPost } from '../utils/sns-post-log.js';
+import { readStrategy, getTopPostsForPlatform, getCrossPlatformTopPosts } from '../utils/sns-strategy.js';
+import { buildXScheduledPrompt } from '../prompts/sns-x.js';
+import { buildBlueskyScheduledPrompt } from '../prompts/sns-bluesky.js';
+import { buildMastodonScheduledPrompt } from '../prompts/sns-mastodon.js';
 import { ARTICLES_DIR, ARTICLES_BASE_DIR } from '../config/constants.js';
 
 const BSKY_MAX_LENGTH = 300;
 const MASTODON_MAX_LENGTH = 500;
 
 // ---------------------------------------------------------------------------
-// OpenAI API でトピック選定+感想生成
+// トピック選定+感想生成（プラットフォーム別プロンプト対応）
 // ---------------------------------------------------------------------------
 
 interface GeneratedComment {
   comment: string;
-  articleIndex: number; // 1-based
+  articleIndex: number;
   topic: string;
 }
 
-/**
- * sns_topics ベースのプロンプトでトピック選定+感想を生成する
- */
-function buildTopicPrompt(articles: ArticleForSns[], language: 'ja' | 'en'): string {
-  const articleTexts = articles
-    .map((a, i) => {
-      const topicLines =
-        a.snsTopics.length > 0
-          ? a.snsTopics.map((t) => `- ${t.topic}: ${t.summary}`).join('\n')
-          : `- ${a.summary}`;
-      return `${a.title}\u306E\u30C8\u30D4\u30C3\u30AF:\n${topicLines}`;
-    })
-    .join('\n\n');
-
-  if (language === 'ja') {
-    return `以下の記事のトピック一覧から、1つのトピックを選んでください。
-選んだトピックについて、テックブログ運営者が個人的に感じた自然な感想を述べ、
-そこから得られる知見や考察を加えてください。
-
-全体で100-200文字程度に収めてください。
-ハッシュタグや絵文字は使わないでください。
-「〜について書きました」のような自己言及はしないでください。
-
-${articleTexts}
-
-以下のJSON形式で返してください:
-{"comment": "感想と考察", "article_index": 1, "topic": "選んだトピック名"}`;
-  }
-
-  // English
-  const articleTextsEn = articles
-    .map((a) => {
-      const topicLines =
-        a.snsTopics.length > 0
-          ? a.snsTopics.map((t) => `- ${t.topic}: ${t.summary}`).join('\n')
-          : `- ${a.summary}`;
-      return `Topics from "${a.title}":\n${topicLines}`;
-    })
-    .join('\n\n');
-
-  return `From the following article topics, pick one topic.
-Write a natural, human-like comment about the chosen topic as if you're the tech blog owner,
-and add insight or observation.
-
-Keep the total around 100-200 characters.
-Do not use hashtags or emojis.
-Do not use self-referencing phrases like "I wrote about...".
-
-${articleTextsEn}
-
-Return in the following JSON format:
-{"comment": "your comment text", "article_index": 1, "topic": "chosen topic name"}`;
+function buildArticleTopics(articles: ArticleForSns[]) {
+  return articles.map((a) => ({
+    title: a.title,
+    topics: a.snsTopics.length > 0
+      ? a.snsTopics
+      : [{ topic: a.title, summary: a.summary }],
+  }));
 }
 
 async function generateScheduledComment(
   articles: ArticleForSns[],
-  language: 'ja' | 'en',
+  platform: 'x' | 'bluesky' | 'mastodon',
 ): Promise<GeneratedComment | null> {
-  const prompt = buildTopicPrompt(articles, language);
+  const strategy = readStrategy();
+  const topPosts = getTopPostsForPlatform(strategy, platform, 3);
+  const crossPlatformTopPosts = getCrossPlatformTopPosts(strategy, 3);
+  const platformStrategy = strategy?.platforms.find((p) => p.platform === platform);
+  const guidelines = platformStrategy?.guidelines || '';
+  const commonPatterns = strategy?.crossPlatform?.commonPatterns || '';
+
+  const articleTopics = buildArticleTopics(articles);
+
+  let prompt: string;
+  switch (platform) {
+    case 'x':
+      prompt = buildXScheduledPrompt(articleTopics, topPosts, crossPlatformTopPosts, guidelines, commonPatterns);
+      break;
+    case 'bluesky':
+      prompt = buildBlueskyScheduledPrompt(articleTopics, topPosts, crossPlatformTopPosts, guidelines, commonPatterns);
+      break;
+    case 'mastodon':
+      prompt = buildMastodonScheduledPrompt(articleTopics, topPosts, crossPlatformTopPosts, guidelines, commonPatterns);
+      break;
+  }
+
   const rawText = await callOpenAI(prompt);
 
   if (!rawText) {
-    console.warn('Comment generation returned empty text.');
+    console.warn(`Comment generation (${platform}) returned empty text.`);
     return null;
   }
 
   try {
-    // JSON をパース（```json``` ブロック内かもしれないので柔軟にパース）
     const jsonMatch = rawText.match(/\{[\s\S]*"comment"[\s\S]*\}/);
     if (!jsonMatch) {
-      console.warn(`Failed to extract JSON from response: ${rawText}`);
+      console.warn(`Failed to extract JSON from response (${platform}): ${rawText}`);
       return null;
     }
 
@@ -135,7 +115,7 @@ async function generateScheduledComment(
         : 1;
 
     console.log(
-      `Generated comment (${language}): ${parsed.comment} [article ${articleIndex}, topic: ${parsed.topic || 'N/A'}]`,
+      `Generated comment (${platform}): ${parsed.comment} [article ${articleIndex}, topic: ${parsed.topic || 'N/A'}]`,
     );
 
     return {
@@ -144,7 +124,7 @@ async function generateScheduledComment(
       topic: parsed.topic || '',
     };
   } catch (error) {
-    console.error('Comment generation parse error:', error);
+    console.error(`Comment generation parse error (${platform}):`, error);
     return null;
   }
 }
@@ -159,7 +139,6 @@ async function main() {
 
   console.log(`Scheduled SNS Post: dry_run=${dryRun}`);
 
-  // 直近2記事を取得（日本語・英語）
   const jaArticles = getRecentArticles(ARTICLES_DIR, 2);
   const enArticles = getRecentArticles(
     path.join(ARTICLES_BASE_DIR, 'en'),
@@ -171,30 +150,26 @@ async function main() {
     process.exit(0);
   }
 
-  console.log(
-    `Found JA articles: ${jaArticles.map((a) => a.articleId).join(', ')}`,
-  );
-  console.log(
-    `Found EN articles: ${enArticles.map((a) => a.articleId).join(', ')}`,
-  );
+  console.log(`Found JA articles: ${jaArticles.map((a) => a.articleId).join(', ')}`);
+  console.log(`Found EN articles: ${enArticles.map((a) => a.articleId).join(', ')}`);
 
-  // OpenAI API でコメント生成
   const articlesForJa = jaArticles.length > 0 ? jaArticles : enArticles;
   const articlesForEn = enArticles.length > 0 ? enArticles : jaArticles;
 
-  const [jaResult, enResult] = await Promise.all([
-    generateScheduledComment(articlesForJa, 'ja'),
-    generateScheduledComment(articlesForEn, 'en'),
+  // プラットフォーム別にコメントを生成
+  const [xResult, bskyResult, mastodonResult] = await Promise.all([
+    generateScheduledComment(articlesForJa, 'x'),
+    generateScheduledComment(articlesForEn, 'bluesky'),
+    generateScheduledComment(articlesForEn, 'mastodon'),
   ]);
 
-  // --- X (日本語) ---
-  if (jaResult) {
-    const selectedArticle = articlesForJa[jaResult.articleIndex - 1]!;
-    const clipEmoji = '\u{1F4CE}'; // 📎
-    const lines = [jaResult.comment, `${clipEmoji} ${selectedArticle.title}`];
+  // --- X (日本語) — セルフリプライ戦略 ---
+  if (xResult) {
+    const selectedArticle = articlesForJa[xResult.articleIndex - 1]!;
     const url = buildJaArticleUrl(selectedArticle.articleId, siteUrl);
-    const xPost = buildXPostText(lines, url);
-    console.log(`\n--- X Post ---\n${xPost}\n---`);
+
+    // 本文は感想・考察のみ（URL なし）
+    console.log(`\n--- X Post (main text, no URL) ---\n${xResult.comment}\n---`);
 
     if (dryRun) {
       console.log('(dry run - skipped X post)');
@@ -206,16 +181,17 @@ async function main() {
         accessTokenSecret: process.env.X_ACCESS_TOKEN_SECRET || '',
       };
 
-      if (
-        credentials.apiKey &&
-        credentials.apiSecret &&
-        credentials.accessToken &&
-        credentials.accessTokenSecret
-      ) {
+      if (credentials.apiKey && credentials.apiSecret && credentials.accessToken && credentials.accessTokenSecret) {
         try {
-          const result = await postTweet(xPost, credentials);
-          if (result.success) {
+          const result = await postToXWithReply(
+            xResult.comment,
+            selectedArticle.title,
+            url,
+            credentials,
+          );
+          if (result.success && result.tweetId) {
             console.log(`X: Posted successfully (tweet_id=${result.tweetId})`);
+            logPost('x', result.tweetId, xResult.comment, 'scheduled', selectedArticle.articleId);
           } else {
             console.error(`X: Failed to post: ${result.error}`);
           }
@@ -227,15 +203,14 @@ async function main() {
       }
     }
   } else {
-    console.log('Skipping X post (no JA comment generated).');
+    console.log('Skipping X post (no comment generated).');
   }
 
   // --- Bluesky (英語) ---
-  if (enResult) {
-    const selectedArticle = articlesForEn[enResult.articleIndex - 1]!;
-    const clipEmoji = '\u{1F4CE}'; // 📎
-    const lines = [enResult.comment, `${clipEmoji} ${selectedArticle.title}`];
+  if (bskyResult) {
+    const selectedArticle = articlesForEn[bskyResult.articleIndex - 1]!;
     const url = buildEnArticleUrl(selectedArticle.articleId, siteUrl);
+    const lines = [bskyResult.comment];
     const bskyPost = buildEnPostText(lines, url, BSKY_MAX_LENGTH);
     console.log(`\n--- Bluesky Post ---\n${bskyPost}\n---`);
 
@@ -255,8 +230,9 @@ async function main() {
         };
         try {
           const result = await postToBluesky(bskyPost, credentials, linkCard);
-          if (result.success) {
+          if (result.success && result.uri) {
             console.log(`Bluesky: Posted successfully (uri=${result.uri})`);
+            logPost('bluesky', result.uri, bskyPost, 'scheduled', selectedArticle.articleId);
           } else {
             console.error(`Bluesky: Failed to post: ${result.error}`);
           }
@@ -268,15 +244,14 @@ async function main() {
       }
     }
   } else {
-    console.log('Skipping Bluesky post (no EN comment generated).');
+    console.log('Skipping Bluesky post (no comment generated).');
   }
 
   // --- Mastodon (英語) ---
-  if (enResult) {
-    const selectedArticle = articlesForEn[enResult.articleIndex - 1]!;
-    const clipEmoji = '\u{1F4CE}'; // 📎
-    const lines = [enResult.comment, `${clipEmoji} ${selectedArticle.title}`];
+  if (mastodonResult) {
+    const selectedArticle = articlesForEn[mastodonResult.articleIndex - 1]!;
     const url = buildEnArticleUrl(selectedArticle.articleId, siteUrl);
+    const lines = [mastodonResult.comment];
     const mastodonPost = buildEnPostText(lines, url, MASTODON_MAX_LENGTH);
     console.log(`\n--- Mastodon Post ---\n${mastodonPost}\n---`);
 
@@ -291,8 +266,9 @@ async function main() {
       if (credentials.instanceUrl && credentials.accessToken) {
         try {
           const result = await postToMastodon(mastodonPost, credentials);
-          if (result.success) {
+          if (result.success && result.url) {
             console.log(`Mastodon: Posted successfully (url=${result.url})`);
+            logPost('mastodon', result.url, mastodonPost, 'scheduled', selectedArticle.articleId);
           } else {
             console.error(`Mastodon: Failed to post: ${result.error}`);
           }
@@ -304,7 +280,7 @@ async function main() {
       }
     }
   } else {
-    console.log('Skipping Mastodon post (no EN comment generated).');
+    console.log('Skipping Mastodon post (no comment generated).');
   }
 
   console.log('\nScheduled SNS post completed.');
@@ -312,5 +288,5 @@ async function main() {
 
 main().catch((error) => {
   console.error('Scheduled SNS post error:', error);
-  process.exit(0); // ワークフロー失敗にしない
+  process.exit(0);
 });
