@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "platform": "x",
+    "postId": "2037668874556957044",
+    "text": "Claude Codeの“体系的把握”は地味に効くと感じる。CLAUDE.mdやSkills、Subagents、Hooksが分かれるほど、失敗時の原因切り分けが速くなる。結局コンテキスト管理が勝負で、80/20設計が品質とコストを両立する知見になる。",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T08:13:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi3anax76d2x",
+    "text": "Multi-agent setups are powerful, but the real win is nailing CLAUDE.md plus the 80/20 context rule. Star/DAG patterns keep agents from thrashing. Helpful read: https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T08:13:34+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116303673097930074",
+    "text": "The best part of Claude Code’s architecture is the “small deterministic core, expandable around it” mindset. Star Topology and DAG tasks keep complex work from becoming a context swamp, and Hooks give you repeatability when you really need it. That’s a solid path for teams, not just solo coding. #AI #SoftwareEngineering #MultiAgent\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T08:13:35+09:00"
+  }
+]
