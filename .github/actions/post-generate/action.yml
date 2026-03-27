@@ -4,6 +4,13 @@ description: >
   Handles thumbnail generation, translation, validation, draft publishing, commit/push,
   deploy trigger, and SNS posting.
 
+  SNS 投稿順序の最適化:
+  1. X 本文投稿（URLなし） — deploy 前に即座に投稿（レコメンドに早く乗せる）
+  2. Bluesky 投稿（リンクカード付き） — deploy 待ち不要（embed 自前構築済み）
+  3. push → deploy trigger → 120秒待機
+  4. X セルフリプライ（URL付き） — OGP 準備完了後にリンク投稿
+  5. Mastodon 投稿（URL付き） — OGP unfurl のため deploy 完了後
+
 inputs:
   draft_mode:
     description: 'Skip publishing (keep draft: true) if true'
@@ -77,6 +84,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    # --- 記事処理 ---
     - name: Generate thumbnails
       continue-on-error: true
       shell: bash
@@ -118,6 +126,33 @@ runs:
           done
         done
 
+    # --- SNS 本文投稿（deploy 前、URLなし） ---
+    - name: Post to X (main text, no URL)
+      if: ${{ inputs.dry_run != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/post-to-x.ts
+      env:
+        TARGET_DATE: ${{ inputs.target_date }}
+        X_API_KEY: ${{ inputs.x_api_key }}
+        X_API_SECRET: ${{ inputs.x_api_secret }}
+        X_ACCESS_TOKEN: ${{ inputs.x_access_token }}
+        X_ACCESS_TOKEN_SECRET: ${{ inputs.x_access_token_secret }}
+        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
+        X_SELF_REPLY_DELAY: '0'
+
+    - name: Post to Bluesky
+      if: ${{ inputs.dry_run != 'true' }}
+      continue-on-error: true
+      shell: bash
+      run: npx tsx src/scripts/post-to-bluesky.ts
+      env:
+        TARGET_DATE: ${{ inputs.target_date }}
+        BSKY_HANDLE: ${{ inputs.bsky_handle }}
+        BSKY_APP_PASSWORD: ${{ inputs.bsky_app_password }}
+        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
+
+    # --- deploy ---
     - name: Commit and push
       if: ${{ inputs.dry_run != 'true' }}
       shell: bash
@@ -139,29 +174,25 @@ runs:
         echo "Waiting 120 seconds for Cloudflare Pages deploy to complete..."
         sleep 120
 
-    - name: Post to X
+    # --- URL 付き投稿（deploy 完了後） ---
+    - name: Post X self-reply with URL
       if: ${{ inputs.dry_run != 'true' }}
       continue-on-error: true
       shell: bash
-      run: npx tsx src/scripts/post-to-x.ts
+      run: |
+        if [ -f .tmp/x-tweet-id.txt ]; then
+          TWEET_ID=$(cat .tmp/x-tweet-id.txt)
+          echo "Posting self-reply to tweet ${TWEET_ID}..."
+          npx tsx src/scripts/post-x-self-reply.ts
+        else
+          echo "No tweet ID file found. Skipping self-reply."
+        fi
       env:
         TARGET_DATE: ${{ inputs.target_date }}
         X_API_KEY: ${{ inputs.x_api_key }}
         X_API_SECRET: ${{ inputs.x_api_secret }}
         X_ACCESS_TOKEN: ${{ inputs.x_access_token }}
         X_ACCESS_TOKEN_SECRET: ${{ inputs.x_access_token_secret }}
-        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
-
-    - name: Post to Bluesky
-      if: ${{ inputs.dry_run != 'true' }}
-      continue-on-error: true
-      shell: bash
-      run: npx tsx src/scripts/post-to-bluesky.ts
-      env:
-        TARGET_DATE: ${{ inputs.target_date }}
-        BSKY_HANDLE: ${{ inputs.bsky_handle }}
-        BSKY_APP_PASSWORD: ${{ inputs.bsky_app_password }}
-        OPENAI_API_KEY: ${{ inputs.openai_api_key }}
 
     - name: Post to Mastodon
       if: ${{ inputs.dry_run != 'true' }}

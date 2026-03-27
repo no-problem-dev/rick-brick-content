@@ -74,14 +74,24 @@ function generateOAuthHeader(
   return `OAuth ${headerString}`;
 }
 
+export interface PostTweetOptions {
+  reply?: { in_reply_to_tweet_id: string };
+}
+
 /**
  * POST /2/tweets でツイートを投稿する
  */
 export async function postTweet(
   text: string,
   credentials: XApiCredentials,
+  options?: PostTweetOptions,
 ): Promise<PostTweetResult> {
   const authHeader = generateOAuthHeader('POST', TWEETS_ENDPOINT, credentials);
+
+  const body: Record<string, unknown> = { text };
+  if (options?.reply) {
+    body.reply = options.reply;
+  }
 
   const response = await fetch(TWEETS_ENDPOINT, {
     method: 'POST',
@@ -89,7 +99,7 @@ export async function postTweet(
       'Authorization': authHeader,
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ text }),
+    body: JSON.stringify(body),
   });
 
   if (response.ok) {
@@ -105,4 +115,49 @@ export async function postTweet(
     success: false,
     error: `${response.status} ${errorText}`,
   };
+}
+
+/**
+ * X に2段階投稿する共通関数。全投稿パスから使用する。
+ * 本文には URL を絶対に含めない。リンクは必ずセルフリプライで投稿する。
+ *
+ * @param commentText 感想・考察のみの本文（URLなし）
+ * @param articleTitle 記事タイトル
+ * @param articleUrl 記事URL
+ * @param credentials X API 認証情報
+ * @param delayMs セルフリプライまでの待機時間（デフォルト120秒）
+ * @returns 本文ツイートの tweetId（ログ記録用）
+ */
+export async function postToXWithReply(
+  commentText: string,
+  articleTitle: string,
+  articleUrl: string,
+  credentials: XApiCredentials,
+  delayMs: number = 120_000,
+): Promise<PostTweetResult> {
+  // Step 1: 感想・考察のみの本文投稿（レコメンド対象になる）
+  const mainTweet = await postTweet(commentText, credentials);
+
+  if (!mainTweet.success || !mainTweet.tweetId) {
+    return mainTweet;
+  }
+
+  console.log(`X: Main tweet posted (id=${mainTweet.tweetId}). Waiting ${delayMs / 1000}s for self-reply...`);
+
+  // Step 2: 待機後、セルフリプライで記事タイトル+URL
+  await new Promise((r) => setTimeout(r, delayMs));
+
+  const replyText = `\u{1F4DD} ${articleTitle}\n${articleUrl}`;
+  const replyResult = await postTweet(replyText, credentials, {
+    reply: { in_reply_to_tweet_id: mainTweet.tweetId },
+  });
+
+  if (replyResult.success) {
+    console.log(`X: Self-reply posted (id=${replyResult.tweetId})`);
+  } else {
+    console.error(`X: Self-reply failed: ${replyResult.error}`);
+  }
+
+  // 本文ツイートの結果を返す（ログ記録は本文側の tweetId を使う）
+  return mainTweet;
 }

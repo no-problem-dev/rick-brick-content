@@ -1,6 +1,7 @@
 /**
  * Mastodon 自動投稿スクリプト
  * 生成された英語記事の frontmatter を読み取り、Mastodon に投稿する。
+ * プラットフォーム別に最適化されたコメント + ハッシュタグを生成。
  *
  * 環境変数:
  *   TARGET_DATE           — 対象日付 (YYYY-MM-DD)。空欄で JST 当日
@@ -8,6 +9,7 @@
  *   MASTODON_ACCESS_TOKEN — Mastodon アクセストークン
  *   SITE_URL              — サイト URL (デフォルト: https://oct-rick-brick.com)
  *   DRY_RUN               — "true" で投稿をスキップ（ログのみ）
+ *   OPENAI_API_KEY        — OpenAI API キー
  */
 
 import path from 'node:path';
@@ -17,8 +19,9 @@ import {
   buildEnPostText,
   SITE_URL_DEFAULT,
 } from '../utils/sns-post-builder.js';
-import { generateSnsComment } from '../utils/sns-comment-generator.js';
+import { generatePlatformComment } from '../utils/sns-comment-generator.js';
 import { postToMastodon, type MastodonCredentials } from '../utils/mastodon-api.js';
+import { logPost } from '../utils/sns-post-log.js';
 import { ARTICLES_BASE_DIR } from '../config/constants.js';
 
 function getTodayJST(): string {
@@ -32,7 +35,6 @@ async function main() {
 
   console.log(`Post to Mastodon: target_date=${targetDate}, dry_run=${dryRun}`);
 
-  // Mastodon 認証情報チェック
   const credentials: MastodonCredentials = {
     instanceUrl: process.env.MASTODON_INSTANCE_URL || '',
     accessToken: process.env.MASTODON_ACCESS_TOKEN || '',
@@ -43,7 +45,6 @@ async function main() {
     process.exit(0);
   }
 
-  // 対象日付の英語記事を検索
   const articlesDir = path.join(ARTICLES_BASE_DIR, 'en');
   const articles = getArticlesByDate(articlesDir, targetDate);
 
@@ -58,15 +59,14 @@ async function main() {
   for (let i = 0; i < articles.length; i++) {
     const article = articles[i]!;
 
-    // OpenAI API で人間っぽい一言コメントを生成
-    const comment = await generateSnsComment({ title: article.title, summary: article.summary, language: 'en' });
+    // プラットフォーム最適化されたコメントを生成（ハッシュタグ付き）
+    const comment = await generatePlatformComment('mastodon', article.title, article.summary);
 
-    const header = '\u{1F4DD} New article posted';
-    const lines: string[] = [header];
+    const lines: string[] = [];
     if (comment) {
-      lines.push(`${article.title}\n${comment}`);
+      lines.push(comment);
     } else {
-      lines.push(article.title);
+      lines.push(`\u{1F4DD} New article posted\n${article.title}`);
     }
 
     const url = buildEnArticleUrl(article.articleId, siteUrl);
@@ -77,14 +77,14 @@ async function main() {
       console.log('(dry run — skipped posting)');
     } else {
       const result = await postToMastodon(postText, credentials);
-      if (result.success) {
+      if (result.success && result.url) {
         console.log(`Posted successfully: url=${result.url}`);
+        logPost('mastodon', result.url, postText, 'notification', article.articleId);
         posted++;
       } else {
         console.error(`Failed to post: ${result.error}`);
       }
 
-      // 複数記事がある場合はレートリミット回避のため待機
       if (i < articles.length - 1) {
         await new Promise((r) => setTimeout(r, 2000));
       }
@@ -96,5 +96,5 @@ async function main() {
 
 main().catch((error) => {
   console.error('Post to Mastodon error:', error);
-  process.exit(0); // ワークフロー失敗にしない
+  process.exit(0);
 });

@@ -1,6 +1,9 @@
 /**
  * X (Twitter) 自動投稿スクリプト
- * 生成された記事の frontmatter を読み取り、X に投稿する。
+ * 記事生成直後に X に投稿する。セルフリプライ戦略を使用。
+ *
+ * 本文: 感想・考察のみ（URL なし） → レコメンドアルゴリズムに最適化
+ * セルフリプライ: 記事タイトル + URL（指定秒数後に自動投稿）
  *
  * 環境変数:
  *   TARGET_DATE          — 対象日付 (YYYY-MM-DD)。空欄で JST 当日
@@ -10,16 +13,18 @@
  *   X_ACCESS_TOKEN_SECRET — X Access Token Secret
  *   SITE_URL             — サイト URL (デフォルト: https://oct-rick-brick.com)
  *   DRY_RUN              — "true" で投稿をスキップ（ログのみ）
+ *   OPENAI_API_KEY       — OpenAI API キー
+ *   X_SELF_REPLY_DELAY   — セルフリプライまでの待機秒数（デフォルト: 0、post-generate側で制御）
  */
 
 import {
   getArticlesByDate,
   buildJaArticleUrl,
-  buildXPostText,
   SITE_URL_DEFAULT,
 } from '../utils/sns-post-builder.js';
-import { generateSnsComment } from '../utils/sns-comment-generator.js';
-import { postTweet, type XApiCredentials } from '../utils/x-api.js';
+import { generatePlatformComment } from '../utils/sns-comment-generator.js';
+import { postTweet, postToXWithReply, type XApiCredentials } from '../utils/x-api.js';
+import { logPost } from '../utils/sns-post-log.js';
 import { ARTICLES_DIR } from '../config/constants.js';
 
 function getTodayJST(): string {
@@ -30,10 +35,10 @@ async function main() {
   const targetDate = process.env.TARGET_DATE || getTodayJST();
   const siteUrl = process.env.SITE_URL || SITE_URL_DEFAULT;
   const dryRun = process.env.DRY_RUN === 'true';
+  const selfReplyDelay = parseInt(process.env.X_SELF_REPLY_DELAY || '0', 10) * 1000;
 
-  console.log(`Post to X: target_date=${targetDate}, dry_run=${dryRun}`);
+  console.log(`Post to X: target_date=${targetDate}, dry_run=${dryRun}, self_reply_delay=${selfReplyDelay / 1000}s`);
 
-  // X API 認証情報チェック
   const credentials: XApiCredentials = {
     apiKey: process.env.X_API_KEY || '',
     apiSecret: process.env.X_API_SECRET || '',
@@ -46,7 +51,6 @@ async function main() {
     process.exit(0);
   }
 
-  // 対象日付の記事を検索
   const articles = getArticlesByDate(ARTICLES_DIR, targetDate);
 
   if (articles.length === 0) {
@@ -59,34 +63,50 @@ async function main() {
   let posted = 0;
   for (let i = 0; i < articles.length; i++) {
     const article = articles[i]!;
+    const url = buildJaArticleUrl(article.articleId, siteUrl);
 
-    // OpenAI API で人間っぽい一言コメントを生成
-    const comment = await generateSnsComment({ title: article.title, summary: article.summary, language: 'ja' });
-
-    const header = '\u{1F4DD} \u65B0\u3057\u3044\u8A18\u4E8B\u3092\u6295\u7A3F\u3057\u307E\u3057\u305F';
-    const lines: string[] = [header];
-    if (comment) {
-      lines.push(`${article.title}\n${comment}`);
-    } else {
-      lines.push(article.title);
+    // プラットフォーム最適化されたコメントを生成（URL なし）
+    const comment = await generatePlatformComment('x', article.title, article.summary);
+    if (!comment) {
+      console.warn(`Skipping ${article.articleId}: comment generation failed`);
+      continue;
     }
 
-    const url = buildJaArticleUrl(article.articleId, siteUrl);
-    const tweetText = buildXPostText(lines, url);
-    console.log(`\n--- Tweet for ${article.articleId} ---\n${tweetText}\n---`);
+    console.log(`\n--- X Post for ${article.articleId} ---`);
+    console.log(`Main text (no URL): ${comment}`);
+    console.log(`Self-reply: 📝 ${article.title}\n${url}`);
+    console.log('---');
 
     if (dryRun) {
       console.log('(dry run — skipped posting)');
     } else {
-      const result = await postTweet(tweetText, credentials);
-      if (result.success) {
-        console.log(`Posted successfully: tweet_id=${result.tweetId}`);
-        posted++;
+      if (selfReplyDelay > 0) {
+        // セルフリプライ付き: 本文投稿 → 待機 → リプライでURL
+        const result = await postToXWithReply(comment, article.title, url, credentials, selfReplyDelay);
+        if (result.success && result.tweetId) {
+          console.log(`Posted with self-reply: tweet_id=${result.tweetId}`);
+          logPost('x', result.tweetId, comment, 'notification', article.articleId);
+          posted++;
+        } else {
+          console.error(`Failed to post: ${result.error}`);
+        }
       } else {
-        console.error(`Failed to post: ${result.error}`);
+        // セルフリプライなし（post-generate 側で別ステップとして制御）
+        // 本文のみ投稿し、tweetId を stdout に出力（action.yml で拾う）
+        const result = await postTweet(comment, credentials);
+        if (result.success && result.tweetId) {
+          console.log(`Posted main text: tweet_id=${result.tweetId}`);
+          // tweetId をファイルに書き出す（post-generate action で使用）
+          const fs = await import('node:fs');
+          fs.mkdirSync('.tmp', { recursive: true });
+          fs.writeFileSync('.tmp/x-tweet-id.txt', result.tweetId, 'utf-8');
+          logPost('x', result.tweetId, comment, 'notification', article.articleId);
+          posted++;
+        } else {
+          console.error(`Failed to post: ${result.error}`);
+        }
       }
 
-      // 複数記事がある場合はレートリミット回避のため待機
       if (i < articles.length - 1) {
         await new Promise((r) => setTimeout(r, 1000));
       }
@@ -98,5 +118,5 @@ async function main() {
 
 main().catch((error) => {
   console.error('Post to X error:', error);
-  process.exit(0); // ワークフロー失敗にしない
+  process.exit(0);
 });
