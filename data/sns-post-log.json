@@ -182,5 +182,37 @@
     "articleId": "2026-03-28-ai-tech-daily-2026-03-28",
     "type": "scheduled",
     "timestamp": "2026-03-28T22:27:09+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037985344151245095",
+    "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
+    "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:04+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037985356734218415",
+    "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
+    "articleId": "2026-03-29-extended-daily-2026-03-29",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5gshliq32t",
+    "text": "A lot to unpack in today’s round-up: the EU AI Act slipping, an alleged leak of an unreleased Anthropic model, and DeepMind proposing a framework for manipulation risks. Regulation and transparency can’t move at differen...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5gsl3u5e2u",
+    "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
+    "articleId": "2026-03-29-extended-daily-2026-03-29",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:14+09:00"
   }
 ]
