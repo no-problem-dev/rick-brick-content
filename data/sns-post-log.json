@@ -22,5 +22,29 @@
     "articleId": "claude-code-complete-beginners-guide",
     "type": "scheduled",
     "timestamp": "2026-03-28T08:13:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037705499936964982",
+    "text": "Claude Codeの設計思想がまとまっていて助かる。特にCLAUDE.mdやコンテキスト管理は、エージェントの質を左右する“設計資産”だと実感。Subagents/Teamsで分業できる一方、共有コンテキストの肥大化に注意が必要。",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T10:39:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi3irivz4s2b",
+    "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T10:39:06+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116304245365793936",
+    "text": "The most overlooked win in multi-agent setups is defining “contracts” in CLAUDE.md early—what each subagent can assume, what it must verify, and what context it owns. Pairing that with DAG tasks prevents the usual context bloat and makes failures easier to localize.\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T10:39:07+09:00"
   }
 ]
