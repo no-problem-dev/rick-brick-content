@@ -110,5 +110,29 @@
     "articleId": "claude-code-complete-beginners-guide",
     "type": "scheduled",
     "timestamp": "2026-03-28T14:32:38+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037821174051184734",
+    "text": "Teams/Subagentsの設計パターンは、AI開発を“分業と境界定義”の技術に落とし込めるのが強いと感じる。コンテキスト80/20で迷走が減り、HooksやDAGで再現性が上がる。結局、勝つのはエージェントより設計だと再確認。",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T18:18:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi4chfpepf2c",
+    "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T18:18:45+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116306052727369747",
+    "text": "The 80/20 context rule is the real productivity unlock: keep CLAUDE.md tight and push only the minimal, high-signal context into each run. Pair that with deterministic Hooks and you get agents that feel consistent, not chaotic—especially when scaling to teams/subagents. #AI #SoftwareEngineering #MultiAgent\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T18:18:45+09:00"
   }
 ]
