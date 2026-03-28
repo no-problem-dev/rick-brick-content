@@ -86,5 +86,29 @@
     "articleId": "claude-code-complete-beginners-guide",
     "type": "scheduled",
     "timestamp": "2026-03-28T12:50:57+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037764266602713276",
+    "text": "TeamsやSubagentsの設計パターンは、AIを“賢い人”ではなく“役割分担する組織”として扱う発想が肝だと感じた。DAGやコンテキスト80/20で局所最適に寄せつつ、Hooksで制御点を固定できる。運用設計が成否を分ける。",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T14:32:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi3vt2hjuz2x",
+    "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T14:32:37+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116305163578956369",
+    "text": "Multi-agent setups can feel magical until you hit context limits. The 80/20 context rule and deterministic control via Hooks are the real productivity unlocks. Also, treating CLAUDE.md as an interface contract keeps subagents aligned and reduces “creative drift” when tasks get complex. #AI #DevTools #MachineLearning\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T14:32:38+09:00"
   }
 ]
