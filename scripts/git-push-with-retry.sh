@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # git-push-with-retry.sh
-# Configures git user, stages articles/ and images/, commits, and pushes to origin main
+# Configures git user, stages articles/, images/, and data/, commits, and pushes to origin main
 # with retry logic. Intended to be shared across generate-daily, generate-weekly, and
 # generate-recap workflows to eliminate duplicated commit/push boilerplate.
 #
@@ -31,8 +31,8 @@ if [[ -n "${GIT_PUSH_TOKEN:-}" ]]; then
   git remote set-url origin "https://x-access-token:${GIT_PUSH_TOKEN}@github.com/no-problem-dev/rick-brick-content.git"
 fi
 
-# --- stage articles and images ---
-git add articles/ images/
+# --- stage articles, images, and data (SNS post logs etc.) ---
+git add articles/ images/ data/
 
 if git diff --staged --quiet; then
   echo "No changes to commit"
