@@ -62,5 +62,29 @@
     "articleId": "2026-03-28-ai-tech-daily-2026-03-28",
     "type": "notification",
     "timestamp": "2026-03-28T11:07:24+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037738673488449804",
+    "text": "Claude Codeは、単にAIに投げるより設計で成果が決まる感覚が強い。Teams/Subagentsでタスク分割すると品質と速度が両立しやすい一方、コンテキスト設計が崩れると破綻する。CLAUDE.mdの80/20と決定論的Hooksが要。",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T12:50:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi3q5a3te32h",
+    "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T12:50:56+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116304763744821709",
+    "text": "The most overlooked part of multi-agent setups is keeping context lean. The 80/20 rule plus tight CLAUDE.md structure usually beats “more prompts” every time. I like how the DAG/task flow encourages deterministic handoffs instead of agent sprawl. Great practical architecture for teams scaling beyond a single agent. #AI #SoftwareEngineering #MultiAgent\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T12:50:57+09:00"
   }
 ]
