@@ -95,8 +95,8 @@ and add insight or observation.
 
 Rules:
 - Write in English, conversational tone
-- Include the article link (no penalty on Bluesky)
-- Keep the total under 250 characters
+- The article link will be appended separately, so do not include a URL in the comment text
+- Keep the comment under 250 characters
 - No hashtags or emojis
 - Do not use self-referencing phrases like "I wrote about..."
 ${topPostsSection}${crossPlatformSection}${guidelinesSection}${commonPatternsSection}
