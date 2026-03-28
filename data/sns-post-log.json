@@ -134,5 +134,29 @@
     "articleId": "claude-code-complete-beginners-guide",
     "type": "scheduled",
     "timestamp": "2026-03-28T18:18:45+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037850253446324410",
+    "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T20:14:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi4ivzwonp2h",
+    "text": "Multi-agent setups get messy fast, but the 80/20 context rule is the real win. Keeps CLAUDE.md lean and tasks deterministic via Hooks. Helpful for anyone scaling beyond a single agent. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+    "articleId": "claude-code-advanced-teams-architecture",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T20:14:18+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116306507122934074",
+    "text": "The biggest win in multi-agent setups is being deliberate about context: treat CLAUDE.md as the source of truth, then pass only the minimum needed per task. Patterns like DAG tasking and deterministic Hooks cut “agent drift” and make results repeatable. Great guide for teams scaling beyond single-agent workflows. #AI #SoftwareEngineering #MultiAgent\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+    "articleId": "claude-code-complete-beginners-guide",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T20:14:19+09:00"
   }
 ]
