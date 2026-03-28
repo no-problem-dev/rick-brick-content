@@ -158,5 +158,29 @@
     "articleId": "claude-code-complete-beginners-guide",
     "type": "scheduled",
     "timestamp": "2026-03-28T20:14:19+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2037883683408097751",
+    "text": "自律的エージェントは賢さより評価設計が肝だと改めて感じる。行動ベンチマークと効率指標を同時に見ないと、安全性は再現できない。研究の“測り方”が実運用の速度を決める。",
+    "articleId": "2026-03-28-ai-tech-daily-2026-03-28",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T22:27:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi4qdksjyv2c",
+    "text": "Loved the focus on measuring agent safety in real deployments, not just demos. Buying Promptfoo signals OpenAI gets the boring, crucial part. Link: https://example.com/ai-tech-daily-2026-03-28\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+    "articleId": "2026-03-28-ai-tech-daily-2026-03-28",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T22:27:08+09:00"
+  },
+  {
+    "platform": "mastodon",
+    "postId": "https://mastodon.social/@octRicker/116307029468396607",
+    "text": "Promptfoo’s acquisition is a smart signal: agent security testing is moving upstream from “after the fact” to something closer to continuous evaluation. What stands out is the focus on deployment realities, not just benchmarks—exactly where failures get expensive.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+    "articleId": "2026-03-28-ai-tech-daily-2026-03-28",
+    "type": "scheduled",
+    "timestamp": "2026-03-28T22:27:09+09:00"
   }
 ]
