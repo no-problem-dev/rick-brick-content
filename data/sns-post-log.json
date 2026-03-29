@@ -310,5 +310,21 @@
     "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
     "type": "scheduled",
     "timestamp": "2026-03-29T20:14:45+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038246402501824612",
+    "text": "AI Actの延期は現実的だが、猶予が“先送りの常態化”にならないか不安。流出騒動や安全評価枠組みは、技術の進歩と同じ速度で監査手法も整える必要を再認識した。結局は検証可能性が鍵。",
+    "articleId": "2026-03-29-extended-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T22:28:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi7auwvqug2x",
+    "text": "The EU AI Act delay feels less like a setback and more like a reality check. The sooner enforcement details land, the faster companies can stop guessing and start building compliance into real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T22:28:31+09:00"
   }
 ]
