@@ -2,23 +2,193 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "",
-      "topPosts": [],
+      "updatedAt": "2026-03-30T04:12:00+09:00",
+      "topPosts": [
+        {
+          "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
+          "score": 20.5,
+          "metrics": {
+            "impressions": 25,
+            "likes": 2,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Claude Codeの設計思想がまとまっていて助かる。特にCLAUDE.mdやコンテキスト管理は、エージェントの質を左右する“設計資産”だと実感。Subagents/Teamsで分業できる一方、共有コンテキストの肥大化に注意が必要。",
+          "score": 16,
+          "metrics": {
+            "impressions": 28,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Claude Codeの“体系的把握”は地味に効くと感じる。CLAUDE.mdやSkills、Subagents、Hooksが分かれるほど、失敗時の原因切り分けが速くなる。結局コンテキスト管理が勝負で、80/20設計が品質とコストを両立する知見になる。",
+          "score": 13,
+          "metrics": {
+            "impressions": 22,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Promptfooの買収で、エージェントのセキュリティ評価を“実行前に潰す”方向がより強まったのが良い。GPT系もThinkingの安全設計に注力していて、モデル性能だけでなく運用リスクを減らす流れを感じる。NVIDIA側のクラウド/光学連携も現場目線で期待。",
+          "score": 13,
+          "metrics": {
+            "impressions": 22,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Claude Codeは、単にAIに投げるより設計で成果が決まる感覚が強い。Teams/Subagentsでタスク分割すると品質と速度が両立しやすい一方、コンテキスト設計が崩れると破綻する。CLAUDE.mdの80/20と決定論的Hooksが要。",
+          "score": 12.5,
+          "metrics": {
+            "impressions": 21,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "自律的エージェントは賢さより評価設計が肝だと改めて感じる。行動ベンチマークと効率指標を同時に見ないと、安全性は再現できない。研究の“測り方”が実運用の速度を決める。",
+          "score": 9.5,
+          "metrics": {
+            "impressions": 15,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Teams/Subagentsの設計パターンは、AI開発を“分業と境界定義”の技術に落とし込めるのが強いと感じる。コンテキスト80/20で迷走が減り、HooksやDAGで再現性が上がる。結局、勝つのはエージェントより設計だと再確認。",
+          "score": 6.5,
+          "metrics": {
+            "impressions": 9,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "TeamsやSubagentsの設計パターンは、AIを“賢い人”ではなく“役割分担する組織”として扱う発想が肝だと感じた。DAGやコンテキスト80/20で局所最適に寄せつつ、Hooksで制御点を固定できる。運用設計が成否を分ける。",
+          "score": 6,
+          "metrics": {
+            "impressions": 8,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        }
+      ],
       "guidelines": "",
-      "avgScore": 0,
-      "totalPosts": 0
+      "avgScore": 12.125,
+      "totalPosts": 8
     },
     {
       "platform": "bluesky",
-      "updatedAt": "",
-      "topPosts": [],
+      "updatedAt": "2026-03-30T04:12:00+09:00",
+      "topPosts": [
+        {
+          "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+          "score": 11,
+          "metrics": {
+            "likes": 3,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+          "score": 7,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 2,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+          "score": 5,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+          "score": 3,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Loved the focus on measuring agent safety in real deployments, not just demos. Buying Promptfoo signals OpenAI gets the boring, crucial part. Link: https://example.com/ai-tech-daily-2026-03-28\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+          "score": 2,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Multi-agent setups are powerful, but the real win is nailing CLAUDE.md plus the 80/20 context rule. Star/DAG patterns keep agents from thrashing. Helpful read: https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+          "score": 0,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Really like the direction here: instead of just measuring model quality in the lab, OpenAI’s Promptfoo acquisition points to stronger agent security evals against real misuse. The focus on deployment safety (and “thinkin...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+          "score": 0,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Multi-agent setups get messy fast, but the 80/20 context rule is the real win. Keeps CLAUDE.md lean and tasks deterministic via Hooks. Helpful for anyone scaling beyond a single agent. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+          "score": 0,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        }
+      ],
       "guidelines": "",
-      "avgScore": 0,
-      "totalPosts": 0
+      "avgScore": 3.5,
+      "totalPosts": 8
     },
     {
       "platform": "mastodon",
-      "updatedAt": "",
+      "updatedAt": "2026-03-30T04:12:00+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -26,8 +196,124 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "",
-    "topPosts": [],
+    "updatedAt": "2026-03-30T04:12:00+09:00",
+    "topPosts": [
+      {
+        "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 100,
+        "metrics": {
+          "likes": 3,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
+        "platform": "x",
+        "normalizedScore": 100,
+        "metrics": {
+          "impressions": 25,
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Claude Codeの設計思想がまとまっていて助かる。特にCLAUDE.mdやコンテキスト管理は、エージェントの質を左右する“設計資産”だと実感。Subagents/Teamsで分業できる一方、共有コンテキストの肥大化に注意が必要。",
+        "platform": "x",
+        "normalizedScore": 88,
+        "metrics": {
+          "impressions": 28,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 88,
+        "metrics": {
+          "likes": 1,
+          "reposts": 0,
+          "replies": 2,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Claude Codeの“体系的把握”は地味に効くと感じる。CLAUDE.mdやSkills、Subagents、Hooksが分かれるほど、失敗時の原因切り分けが速くなる。結局コンテキスト管理が勝負で、80/20設計が品質とコストを両立する知見になる。",
+        "platform": "x",
+        "normalizedScore": 75,
+        "metrics": {
+          "impressions": 22,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+        "platform": "bluesky",
+        "normalizedScore": 75,
+        "metrics": {
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Promptfooの買収で、エージェントのセキュリティ評価を“実行前に潰す”方向がより強まったのが良い。GPT系もThinkingの安全設計に注力していて、モデル性能だけでなく運用リスクを減らす流れを感じる。NVIDIA側のクラウド/光学連携も現場目線で期待。",
+        "platform": "x",
+        "normalizedScore": 75,
+        "metrics": {
+          "impressions": 22,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 63,
+        "metrics": {
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Claude Codeは、単にAIに投げるより設計で成果が決まる感覚が強い。Teams/Subagentsでタスク分割すると品質と速度が両立しやすい一方、コンテキスト設計が崩れると破綻する。CLAUDE.mdの80/20と決定論的Hooksが要。",
+        "platform": "x",
+        "normalizedScore": 50,
+        "metrics": {
+          "impressions": 21,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Loved the focus on measuring agent safety in real deployments, not just demos. Buying Promptfoo signals OpenAI gets the boring, crucial part. Link: https://example.com/ai-tech-daily-2026-03-28\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+        "platform": "bluesky",
+        "normalizedScore": 50,
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      }
+    ],
     "commonPatterns": ""
   }
 }
