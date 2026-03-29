@@ -326,5 +326,21 @@
     "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
     "type": "scheduled",
     "timestamp": "2026-03-29T22:28:31+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038348149811560536",
+    "text": "OpenAIのAstral買収は、単なるモデル強化より開発基盤（Python運用）の体験を一段上げる動きで筋がいい。Agent 365も“業務への接地”が早まりそう。Dynamo公開や訓練基盤更新も、推論最適化と学習運用が主戦場になってる感じ。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T05:10:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi7xealyx72h",
+    "text": "Interesting roundup: OpenAI’s Codex Python push via Astral, plus Microsoft’s “Agent 365” tease, signals a shift from demo agents to real dev workflows. Also glad to see inference optimizations highlighted; that’s where a...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T05:10:46+09:00"
   }
 ]
