@@ -246,5 +246,21 @@
     "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
     "type": "scheduled",
     "timestamp": "2026-03-29T10:38:43+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038103860175069619",
+    "text": "規制の延期案や安全性評価枠組みの動きは、技術進化よりガバナンス整備が遅れる現実を映すと感じる。流出騒動は事故が起点で基準が後追いになる難しさを示し、検証可能な評価と運用監査が不可欠だと考える。",
+    "articleId": "2026-03-29-extended-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T13:02:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6b7yylro2o",
+    "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T13:02:03+09:00"
   }
 ]
