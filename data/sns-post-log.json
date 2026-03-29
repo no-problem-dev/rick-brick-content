@@ -278,5 +278,21 @@
     "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
     "type": "scheduled",
     "timestamp": "2026-03-29T14:38:40+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038183698764292390",
+    "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
+    "articleId": "2026-03-29-extended-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T18:19:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6sxcrkjn2e",
+    "text": "The EU AI Act delay is a reminder that regulation moves slower than model releases. Hopefully, the time bought goes into practical enforcement and evaluation, not just more paperwork. Real-world accountability is the key.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "articleId": "2026-03-29-ai-tech-daily-2026-03-29",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T18:19:18+09:00"
   }
 ]
