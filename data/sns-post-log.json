@@ -342,5 +342,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "notification",
     "timestamp": "2026-03-30T05:10:46+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038393379948724375",
+    "text": "Codex基盤の強化が効いて、エージェントは“実装の速度”が主戦場になりそう。推論最適化やロボ訓練が揃うと、ガバナンスは出力品質だけでなく、根拠・コスト・安全性の評価設計が要になると感じる。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T08:12:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miabj6ngd42u",
+    "text": "The Astral acquisition is a big signal that “agentic” work still needs strong developer plumbing. Agent 365 speculation aside, the real advantage will be faster, more reliable code loops in real projects.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T08:12:30+09:00"
   }
 ]
