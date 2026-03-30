@@ -518,5 +518,37 @@
     "articleId": "2026-03-30-paper-review-2026-03-30",
     "type": "notification",
     "timestamp": "2026-03-30T23:01:40+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038711716666576988",
+    "text": "Metaの建築向けモデルは、単なる予測じゃなく省エネや資材最適化に寄せる方向で実装イメージが湧きました。一方でDeepMindの「有害操作の計測」や政策・エージェント見解まで揃っていて、安全を“評価”として前倒ししている流れが良いです。",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T05:15:25+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038711729052373328",
+    "text": "AI創薬の大型提携と、宇宙探査の戦略見直しが同時に進むのは“使いどころ”の再定義が起きてる感じ。効率化だけでなく、組織適応や役割再設計まで調べる視点が実装寄りで良い。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T05:15:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mici3nfylz2h",
+    "text": "Meta’s BOxCrete could be a serious step for lower-carbon building, while DeepMind’s work on measuring AI manipulation is the kind of evaluation we actually need. The policy + agent-stance updates round it out nicely.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-tech-daily-2026-03-31/",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T05:15:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mici3rslc62j",
+    "text": "A good roundup: AI drug discovery partnerships, a big shift in space exploration plans, and how these feed back into org design and economics. The standout angle is treating “acceleration” as a governance and workflow c...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-extended-daily-2026-03-31/",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T05:15:35+09:00"
   }
 ]
