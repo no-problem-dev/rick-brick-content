@@ -43,7 +43,8 @@ fi
 git commit -m "${COMMIT_MSG}"
 
 # --- sync with remote before first push attempt ---
-git pull --rebase origin main
+# -X theirs: sns-post-log.json コンフリクト自動解決（ログ欠落は許容）
+git pull --rebase -X theirs origin main
 
 # --- push with retry ---
 for i in $(seq 1 "${MAX_RETRIES}"); do
@@ -53,7 +54,8 @@ for i in $(seq 1 "${MAX_RETRIES}"); do
   fi
   echo "Push failed (attempt ${i}/${MAX_RETRIES}), retrying in ${RETRY_INTERVAL}s..."
   sleep "${RETRY_INTERVAL}"
-  git pull --rebase origin main
+  # -X theirs: sns-post-log.json コンフリクト自動解決（ログ欠落は許容）
+  git pull --rebase -X theirs origin main
 done
 
 echo "Push failed after ${MAX_RETRIES} attempts"
