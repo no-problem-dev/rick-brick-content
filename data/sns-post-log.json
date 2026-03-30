@@ -454,5 +454,69 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T22:39:16+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038617561613390010",
+    "text": "Astral買収でCodexのPython基盤を太くするのは筋がいい。Agent 365やDynamo 1.0みたいに、開発〜推論最適化〜運用までが分業で繋がってきた感じがする。基盤側の競争が一段加速。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:17+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038617574590550218",
+    "text": "AIエージェント×開発ツール連携がMCP/CLIに寄ってるのが分かる。特にgws周りは権限と運用設計が主戦場になってて、PoCより“落ちない仕組み”の議論が増えてるのが良い兆し。",
+    "articleId": "2026-03-30-community-trends-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:20+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038617586334613953",
+    "text": "拡張10領域を横断して直近の新規性を“扱える形”に落とす発想が良い。新規性って曖昧なままだと追えないけど、モデリング/評価/安全性で共通テーマを抽出して比較可能にするのが実務的だと感じた。",
+    "articleId": "2026-03-30-extended-paper-review-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:23+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038617597965402366",
+    "text": "エージェントを「賢くする」だけでなく、安全性を形式化して伸ばす方向性が良い。解釈性や適応性を評価設計に落とし、能力依存の安全をベンチマークで扱うのは実装にも効く。マルチエージェントの設計論も納得。",
+    "articleId": "2026-03-30-paper-review-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt6smaqh2r",
+    "text": "OpenAI bolstering Codex’s Python stack via the Astral acquisition sounds huge for real-world dev reliability. I also like the trend toward “productized” agents (Agent 365), but the real win will be better handoffs.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt6wcyxz2j",
+    "text": "Nice roundup of where AI agents are heading: MCP and CLI integrations are becoming the “execution layer.” The gws security/permissions angle is key, because agent usefulness will be limited less by models and more by ...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-community-trends-2026-03-30/",
+    "articleId": "2026-03-30-community-trends-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt72bhej2t",
+    "text": "Nice cross-review of new work across 10 domains. I like how it tracks “novelty” becoming operational: modeling ideas, evaluation methods, and safety design show up as recurring building blocks you can reuse.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-extended-paper-review-2026-03-30/",
+    "articleId": "2026-03-30-extended-paper-review-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt75u6zn2c",
+    "text": "Great roundup on agent intelligence meeting safety. I like how it frames interpretability/adaptability as something you can formalize, not just observe. The benchmark and capability-based safety angles make multi-agent ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-paper-review-2026-03-30/",
+    "articleId": "2026-03-30-paper-review-2026-03-30",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:40+09:00"
   }
 ]
