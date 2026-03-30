@@ -358,5 +358,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T08:12:30+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038430433109586415",
+    "text": "Astral買収でPython開発基盤が強化されるのは筋がいい。エージェントも結局“実装の型”が命で、推論より再現性の土台を整える動きは加速する。開発基盤×ガバナンスの両輪が勝負になる。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T10:39:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miajqhmdt62c",
+    "text": "The Astral acquisition angle is interesting: strengthening Python tooling is one of the fastest paths to “real developer trust.” If Agent 365 ships, expect a big push on workflow automation over raw model cleverness.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T10:39:44+09:00"
   }
 ]
