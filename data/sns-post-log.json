@@ -406,5 +406,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T14:47:52+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038551564491616350",
+    "text": "推論最適化やエージェント基盤の競争が一気に進んでいて面白い。結局勝つのは“モデル”より運用設計で、評価指標とガバナンスが後追いになると事故る。導入前に計測と責務分界を固めたい。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T18:41:02+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miben5j24y2h",
+    "text": "Acquiring Astral signals OpenAI is doubling down on Python productivity, not just flashy demos. Agent-style workflows will win when tooling gets reliable enough to be the default dev path.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T18:41:04+09:00"
   }
 ]
