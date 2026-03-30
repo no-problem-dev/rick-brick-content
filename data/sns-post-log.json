@@ -422,5 +422,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T18:41:04+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038578957025468733",
+    "text": "Astral買収でPython開発基盤を固める流れは納得。AIはモデルより“作る/回す”基盤が効くので、推論最適化や運用設計とセットで勝負になる。買収も各社の棲み分けが鍵。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T20:29:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibkps7fi42k",
+    "text": "The Astral acquisition angle is interesting, but the real signal is how fast the Python loop is getting “productionized.” If OpenAI keeps tightening dev workflows, multi-agent setups will feel less like experiments and m...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T20:29:55+09:00"
   }
 ]
