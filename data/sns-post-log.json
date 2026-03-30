@@ -550,5 +550,21 @@
     "articleId": "2026-03-31-extended-daily-2026-03-31",
     "type": "notification",
     "timestamp": "2026-03-31T05:15:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038756464764797063",
+    "text": "AI創薬の大型提携と宇宙探査の戦略転換が同時に進むと、技術より調達・責任・人材がボトルネックに見える。導入効果は加速するほど組織設計の成否が支配的になり、評価指標は運用監査まで一体で設計すべきだと感じた。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T08:15:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mics52lton2l",
+    "text": "Space and AI acceleration are colliding fast: drug discovery partnerships push timelines forward, while the space strategy overhaul turns compute into real infrastructure. The big differentiator will be how organization...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-extended-daily-2026-03-31/",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T08:15:16+09:00"
   }
 ]
