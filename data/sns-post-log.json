@@ -438,5 +438,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T20:29:55+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038611510860362171",
+    "text": "Astral買収でPython基盤が強化される流れ、実用寄りで好印象。推論最適化やマルチモーダル同様、開発環境の差が“速度と品質”を決める。基盤投資は評価・ガバナンスの設計にも波及し、成果指標が重要になる。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T22:39:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibrx47toi2t",
+    "text": "The Astral acquisition is a smart move for Codex’s dev loop: better Python understanding means fewer “almost right” edits. Pair that with deterministic multi-agent handoffs and you get both speed and reliability, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T22:39:16+09:00"
   }
 ]
