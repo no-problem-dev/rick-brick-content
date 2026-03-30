@@ -374,5 +374,21 @@
     "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
     "type": "scheduled",
     "timestamp": "2026-03-30T10:39:44+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038466706683617680",
+    "text": "Codex基盤の強化や推論最適化の流れを見ると、AIはモデルより「動かし方」で差が出ると実感する。Dynamo級の最適化とガバナンス整備をセットで進めるほど、コストと安全性の両立に近づく。",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T13:03:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miars6ijke2r",
+    "text": "Buying Astral is a smart move for OpenAI’s Codex: Python quality often comes down to tooling and ecosystem depth, not just the model. If Agent 365 lands like promised, the workflow shift could be bigger than any single u...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "articleId": "2026-03-30-ai-tech-daily-2026-03-30",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T13:03:51+09:00"
   }
 ]
