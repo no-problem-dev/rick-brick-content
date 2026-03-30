@@ -2,8 +2,85 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-03-30T04:12:00+09:00",
+      "updatedAt": "2026-03-31T04:21:53+09:00",
       "topPosts": [
+        {
+          "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
+          "score": 71.5,
+          "metrics": {
+            "impressions": 133,
+            "likes": 1,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
+          "score": 69,
+          "metrics": {
+            "impressions": 138,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
+          "score": 37,
+          "metrics": {
+            "impressions": 70,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
+          "score": 31,
+          "metrics": {
+            "impressions": 58,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "規制期限の延期案でも安全性議論は前進していて、現場の実装速度と政策の追随にはズレがあると再認識。流出や評価枠組みの話を並べると、技術だけでなく監査とインシデント対応設計が競争力になると感じた。",
+          "score": 30,
+          "metrics": {
+            "impressions": 56,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "AI Actの延期は現実的だが、猶予が“先送りの常態化”にならないか不安。流出騒動や安全評価枠組みは、技術の進歩と同じ速度で監査手法も整える必要を再認識した。結局は検証可能性が鍵。",
+          "score": 30,
+          "metrics": {
+            "impressions": 56,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "規制の延期案や安全性評価枠組みの動きは、技術進化よりガバナンス整備が遅れる現実を映すと感じる。流出騒動は事故が起点で基準が後追いになる難しさを示し、検証可能な評価と運用監査が不可欠だと考える。",
+          "score": 26.5,
+          "metrics": {
+            "impressions": 49,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
         {
           "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
           "score": 20.5,
@@ -16,10 +93,10 @@
           }
         },
         {
-          "text": "Claude Codeの設計思想がまとまっていて助かる。特にCLAUDE.mdやコンテキスト管理は、エージェントの質を左右する“設計資産”だと実感。Subagents/Teamsで分業できる一方、共有コンテキストの肥大化に注意が必要。",
-          "score": 16,
+          "text": "安全性議論が規制だけでなく評価枠組みに移ってきたのが印象的。流出騒動は“能力”より“統制”が競争軸になるサイン。ガバナンスは後追いでなく設計段階から、監査可能性と責任分界を固めたい。",
+          "score": 20.5,
           "metrics": {
-            "impressions": 28,
+            "impressions": 37,
             "likes": 0,
             "reposts": 0,
             "replies": 1,
@@ -27,65 +104,10 @@
           }
         },
         {
-          "text": "Claude Codeの“体系的把握”は地味に効くと感じる。CLAUDE.mdやSkills、Subagents、Hooksが分かれるほど、失敗時の原因切り分けが速くなる。結局コンテキスト管理が勝負で、80/20設計が品質とコストを両立する知見になる。",
-          "score": 13,
+          "text": "AI Actの期限延期は現実的で、産業の移行猶予になる一方、期待だけ膨らむリスクも感じる。流出騒動や操作リスク評価枠組みは、安全を仕様化する流れ。技術の進歩と監査可能性を同時に設計したい。",
+          "score": 20,
           "metrics": {
-            "impressions": 22,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Promptfooの買収で、エージェントのセキュリティ評価を“実行前に潰す”方向がより強まったのが良い。GPT系もThinkingの安全設計に注力していて、モデル性能だけでなく運用リスクを減らす流れを感じる。NVIDIA側のクラウド/光学連携も現場目線で期待。",
-          "score": 13,
-          "metrics": {
-            "impressions": 22,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Claude Codeは、単にAIに投げるより設計で成果が決まる感覚が強い。Teams/Subagentsでタスク分割すると品質と速度が両立しやすい一方、コンテキスト設計が崩れると破綻する。CLAUDE.mdの80/20と決定論的Hooksが要。",
-          "score": 12.5,
-          "metrics": {
-            "impressions": 21,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "自律的エージェントは賢さより評価設計が肝だと改めて感じる。行動ベンチマークと効率指標を同時に見ないと、安全性は再現できない。研究の“測り方”が実運用の速度を決める。",
-          "score": 9.5,
-          "metrics": {
-            "impressions": 15,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Teams/Subagentsの設計パターンは、AI開発を“分業と境界定義”の技術に落とし込めるのが強いと感じる。コンテキスト80/20で迷走が減り、HooksやDAGで再現性が上がる。結局、勝つのはエージェントより設計だと再確認。",
-          "score": 6.5,
-          "metrics": {
-            "impressions": 9,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "TeamsやSubagentsの設計パターンは、AIを“賢い人”ではなく“役割分担する組織”として扱う発想が肝だと感じた。DAGやコンテキスト80/20で局所最適に寄せつつ、Hooksで制御点を固定できる。運用設計が成否を分ける。",
-          "score": 6,
-          "metrics": {
-            "impressions": 8,
+            "impressions": 36,
             "likes": 0,
             "reposts": 0,
             "replies": 1,
@@ -94,12 +116,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 12.125,
-      "totalPosts": 8
+      "avgScore": 25.441176470588236,
+      "totalPosts": 17
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-03-30T04:12:00+09:00",
+      "updatedAt": "2026-03-31T04:21:53+09:00",
       "topPosts": [
         {
           "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -142,6 +164,36 @@
           }
         },
         {
+          "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
+          "score": 3,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+          "score": 3,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "The AI Act delay is a reminder that regulation moves at political speed, but deployment moves at startup speed. The real test will be whether enforcement and audits keep up with rapidly changing models.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+          "score": 3,
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
           "text": "Loved the focus on measuring agent safety in real deployments, not just demos. Buying Promptfoo signals OpenAI gets the boring, crucial part. Link: https://example.com/ai-tech-daily-2026-03-28\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
           "score": 2,
           "metrics": {
@@ -170,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "Multi-agent setups get messy fast, but the 80/20 context rule is the real win. Keeps CLAUDE.md lean and tasks deterministic via Hooks. Helpful for anyone scaling beyond a single agent. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
-          "score": 0,
-          "metrics": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 3.5,
-      "totalPosts": 8
+      "avgScore": 2.176470588235294,
+      "totalPosts": 17
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-03-30T04:12:00+09:00",
+      "updatedAt": "2026-03-31T04:21:53+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -196,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-03-30T04:12:00+09:00",
+    "updatedAt": "2026-03-31T04:21:53+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -210,24 +252,12 @@
         }
       },
       {
-        "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
+        "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
         "platform": "x",
         "normalizedScore": 100,
         "metrics": {
-          "impressions": 25,
-          "likes": 2,
-          "reposts": 0,
-          "replies": 1,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "Claude Codeの設計思想がまとまっていて助かる。特にCLAUDE.mdやコンテキスト管理は、エージェントの質を左右する“設計資産”だと実感。Subagents/Teamsで分業できる一方、共有コンテキストの肥大化に注意が必要。",
-        "platform": "x",
-        "normalizedScore": 88,
-        "metrics": {
-          "impressions": 28,
-          "likes": 0,
+          "impressions": 133,
+          "likes": 1,
           "reposts": 0,
           "replies": 1,
           "quotes": 0
@@ -236,7 +266,7 @@
       {
         "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 88,
+        "normalizedScore": 94,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -245,21 +275,21 @@
         }
       },
       {
-        "text": "Claude Codeの“体系的把握”は地味に効くと感じる。CLAUDE.mdやSkills、Subagents、Hooksが分かれるほど、失敗時の原因切り分けが速くなる。結局コンテキスト管理が勝負で、80/20設計が品質とコストを両立する知見になる。",
+        "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
         "platform": "x",
-        "normalizedScore": 75,
+        "normalizedScore": 94,
         "metrics": {
-          "impressions": 22,
+          "impressions": 138,
           "likes": 0,
           "reposts": 0,
-          "replies": 1,
+          "replies": 0,
           "quotes": 0
         }
       },
       {
         "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
         "platform": "bluesky",
-        "normalizedScore": 75,
+        "normalizedScore": 88,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -268,11 +298,11 @@
         }
       },
       {
-        "text": "Promptfooの買収で、エージェントのセキュリティ評価を“実行前に潰す”方向がより強まったのが良い。GPT系もThinkingの安全設計に注力していて、モデル性能だけでなく運用リスクを減らす流れを感じる。NVIDIA側のクラウド/光学連携も現場目線で期待。",
+        "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
         "platform": "x",
-        "normalizedScore": 75,
+        "normalizedScore": 88,
         "metrics": {
-          "impressions": 22,
+          "impressions": 70,
           "likes": 0,
           "reposts": 0,
           "replies": 1,
@@ -282,7 +312,7 @@
       {
         "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 63,
+        "normalizedScore": 82,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -291,22 +321,33 @@
         }
       },
       {
-        "text": "Claude Codeは、単にAIに投げるより設計で成果が決まる感覚が強い。Teams/Subagentsでタスク分割すると品質と速度が両立しやすい一方、コンテキスト設計が崩れると破綻する。CLAUDE.mdの80/20と決定論的Hooksが要。",
-        "platform": "x",
-        "normalizedScore": 50,
+        "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
+        "platform": "bluesky",
+        "normalizedScore": 82,
         "metrics": {
-          "impressions": 21,
-          "likes": 0,
+          "likes": 1,
           "reposts": 0,
-          "replies": 1,
+          "replies": 0,
           "quotes": 0
         }
       },
       {
-        "text": "Loved the focus on measuring agent safety in real deployments, not just demos. Buying Promptfoo signals OpenAI gets the boring, crucial part. Link: https://example.com/ai-tech-daily-2026-03-28\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+        "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
         "platform": "bluesky",
-        "normalizedScore": 50,
+        "normalizedScore": 82,
         "metrics": {
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
+        "platform": "x",
+        "normalizedScore": 82,
+        "metrics": {
+          "impressions": 58,
           "likes": 0,
           "reposts": 0,
           "replies": 1,

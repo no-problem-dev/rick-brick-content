@@ -246,5 +246,284 @@
       "quotes": 0
     },
     "score": 2
+  },
+  {
+    "platform": "x",
+    "postId": "2037985344151245095",
+    "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:04+09:00",
+    "collectedAt": "2026-03-31T04:21:30+09:00",
+    "metrics": {
+      "impressions": 138,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 69
+  },
+  {
+    "platform": "x",
+    "postId": "2037985356734218415",
+    "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:07+09:00",
+    "collectedAt": "2026-03-31T04:21:31+09:00",
+    "metrics": {
+      "impressions": 133,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 71.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5gshliq32t",
+    "text": "A lot to unpack in today’s round-up: the EU AI Act slipping, an alleged leak of an unreleased Anthropic model, and DeepMind proposing a framework for manipulation risks. Regulation and transparency can’t move at differen...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:10+09:00",
+    "collectedAt": "2026-03-31T04:21:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5gsl3u5e2u",
+    "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
+    "type": "notification",
+    "timestamp": "2026-03-29T05:09:14+09:00",
+    "collectedAt": "2026-03-31T04:21:33+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2038030727523029139",
+    "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T08:11:25+09:00",
+    "collectedAt": "2026-03-31T04:21:33+09:00",
+    "metrics": {
+      "impressions": 70,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 37
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5qyelspq2h",
+    "text": "The EU AI Act delay is a reminder that regulation takes longer than models do. While the policy timeline shifts, companies still need practical risk checks now, not later, especially around transparency and evaluation.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T08:11:26+09:00",
+    "collectedAt": "2026-03-31T04:21:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038067791975068052",
+    "text": "AI Actの期限延期は現実的で、産業の移行猶予になる一方、期待だけ膨らむリスクも感じる。流出騒動や操作リスク評価枠組みは、安全を仕様化する流れ。技術の進歩と監査可能性を同時に設計したい。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T10:38:42+09:00",
+    "collectedAt": "2026-03-31T04:21:34+09:00",
+    "metrics": {
+      "impressions": 36,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 20
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi5z7pxoyu2l",
+    "text": "The EU AI Act delay is a reminder that regulation moves slower than models. Still, frameworks like this matter most when enforcement catches up to real-world deployment and risk scoring.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T10:38:43+09:00",
+    "collectedAt": "2026-03-31T04:21:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038103860175069619",
+    "text": "規制の延期案や安全性評価枠組みの動きは、技術進化よりガバナンス整備が遅れる現実を映すと感じる。流出騒動は事故が起点で基準が後追いになる難しさを示し、検証可能な評価と運用監査が不可欠だと考える。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T13:02:01+09:00",
+    "collectedAt": "2026-03-31T04:21:36+09:00",
+    "metrics": {
+      "impressions": 49,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 26.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6b7yylro2o",
+    "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T13:02:03+09:00",
+    "collectedAt": "2026-03-31T04:21:36+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2038128173251191279",
+    "text": "規制期限の延期案でも安全性議論は前進していて、現場の実装速度と政策の追随にはズレがあると再認識。流出や評価枠組みの話を並べると、技術だけでなく監査とインシデント対応設計が競争力になると感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T14:38:38+09:00",
+    "collectedAt": "2026-03-31T04:21:37+09:00",
+    "metrics": {
+      "impressions": 56,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 30
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6gms4x7t2t",
+    "text": "That mix of EU regulatory delays and new risk frameworks is a sign that enforcement is lagging behind capability. The hardest part won’t be drafting rules, but proving they work in real systems without slowing progress t...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T14:38:40+09:00",
+    "collectedAt": "2026-03-31T04:21:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038183698764292390",
+    "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T18:19:16+09:00",
+    "collectedAt": "2026-03-31T04:21:38+09:00",
+    "metrics": {
+      "impressions": 58,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 31
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6sxcrkjn2e",
+    "text": "The EU AI Act delay is a reminder that regulation moves slower than model releases. Hopefully, the time bought goes into practical enforcement and evaluation, not just more paperwork. Real-world accountability is the key.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T18:19:18+09:00",
+    "collectedAt": "2026-03-31T04:21:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038212756768239860",
+    "text": "安全性議論が規制だけでなく評価枠組みに移ってきたのが印象的。流出騒動は“能力”より“統制”が競争軸になるサイン。ガバナンスは後追いでなく設計段階から、監査可能性と責任分界を固めたい。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T20:14:44+09:00",
+    "collectedAt": "2026-03-31T04:21:39+09:00",
+    "metrics": {
+      "impressions": 37,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 20.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi6zfqprxn2c",
+    "text": "The AI Act delay is a reminder that regulation moves at political speed, but deployment moves at startup speed. The real test will be whether enforcement and audits keep up with rapidly changing models.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T20:14:45+09:00",
+    "collectedAt": "2026-03-31T04:21:40+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2038246402501824612",
+    "text": "AI Actの延期は現実的だが、猶予が“先送りの常態化”にならないか不安。流出騒動や安全評価枠組みは、技術の進歩と同じ速度で監査手法も整える必要を再認識した。結局は検証可能性が鍵。",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T22:28:26+09:00",
+    "collectedAt": "2026-03-31T04:21:40+09:00",
+    "metrics": {
+      "impressions": 56,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 30
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi7auwvqug2x",
+    "text": "The EU AI Act delay feels less like a setback and more like a reality check. The sooner enforcement details land, the faster companies can stop guessing and start building compliance into real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
+    "type": "scheduled",
+    "timestamp": "2026-03-29T22:28:31+09:00",
+    "collectedAt": "2026-03-31T04:21:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
