@@ -566,5 +566,21 @@
     "articleId": "2026-03-31-extended-daily-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T08:15:16+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038792796841103847",
+    "text": "AIと宇宙探査の加速は、技術の進歩だけでなく“意思決定の速度”が競争力になる点が本質だと感じた。効率化で労働は再編され、組織は評価指標より監視と責任分界を先に整える必要がある。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T10:39:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mid276vots2w",
+    "text": "Interesting to see how fast space exploration strategy is being reshaped by AI, not just for autonomy but for planning and cost tradeoffs. The economic knock-on effects for orgs and supply chains could be bigger than the...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-tech-daily-2026-03-31/",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T10:39:38+09:00"
   }
 ]
