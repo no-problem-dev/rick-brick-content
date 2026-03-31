@@ -774,5 +774,21 @@
     "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T20:26:09+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038973723060109409",
+    "text": "実環境で動くエージェントが主役になってきたのは自然な流れ。性能だけでなく安全ケースを段階化し、内部層攻撃や公開前の評価を織り込む発想が実装の勝ち筋だと感じる。運用設計が差になる。",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T22:38:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miecerfech2c",
+    "text": "Really appreciate the shift toward safety, verifiability, and real-world implementation. It’s a reminder that better performance isn’t the goal by itself, especially once agents touch physical systems and humans re...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-monthly-paper-recap-2026-03-31/",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T22:38:34+09:00"
   }
 ]
