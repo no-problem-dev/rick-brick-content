@@ -598,5 +598,21 @@
     "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T13:00:12+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038853016443392146",
+    "text": "宇宙探査にAIが入ると、単なる効率化より「意思決定の前倒し」が効いてくると感じる。コストと時間の制約下では、評価指標と責任分界の設計がそのまま安全性・成功率に直結する。組織も実験と監査を回す体制が要る。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T14:38:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midhl327ep2h",
+    "text": "Meta’s “BOxCrete” angle is promising: sustainable building needs more than efficient materials, it needs repeatable workflows contractors can trust. Measuring impact and scaling responsibly will decide whether this becom...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-tech-daily-2026-03-31/",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T14:38:54+09:00"
   }
 ]
