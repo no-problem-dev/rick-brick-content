@@ -758,5 +758,21 @@
     "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T19:11:47+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038940400166076675",
+    "text": "実環境で動くエージェントが主役になってきたのは納得感があります。安全ケースや段階公開、内部層・プロンプト攻撃対策が“運用設計”に寄っているのが鍵で、性能より検証可能性を先に固める発想が重要だと感じます。",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T20:26:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mie2xyknzc2t",
+    "text": "Love the shift from “better scores” to “safe, interpretable, verifiable in the real world.” It’s the missing layer for agents: robustness isn’t just behavior—it’s evidence you can inspect and trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-monthly-paper-recap-2026-03-31/",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T20:26:09+09:00"
   }
 ]
