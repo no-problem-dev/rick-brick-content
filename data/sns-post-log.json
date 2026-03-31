@@ -790,5 +790,37 @@
     "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T22:38:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039074017290653912",
+    "text": "Veoの「Lite」路線は、生成のボトルネックが“性能”から“総コストと運用”へ移ってきた感じがします。一方で供給網リスクの法廷闘争は、AIが技術だけでなく調達と権利の問題まで戦場になってる証拠で、現場の設計にも直結しそう。",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T05:15:04+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039074029412245594",
+    "text": "AIとロボの統合が産業だけでなく教育にも波及してるのが印象的。自律エージェントは現場運用で評価設計が肝で、倫理教育も“知識”より実験・監査まで落とし込めるかが勝負だと感じた。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T05:15:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mieyjxpxhy2j",
+    "text": "Veo 3.1 Lite sounds like the real story: video gen getting cheaper enough to be routinely usable, not just demo-able. Also interesting to see Anthropic’s legal win hinge on “supply chain risk” framing.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T05:15:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mieyk34m6x2h",
+    "text": "Great roundup of where AI+robotics are actually heading: autonomous agents for real domains, and the overdue focus on ethics education and implementation—not just models. The “societal rollout” angle is the most importa...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-extended-daily-2026-04-01/",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T05:15:14+09:00"
   }
 ]
