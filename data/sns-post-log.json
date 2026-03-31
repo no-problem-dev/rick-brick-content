@@ -678,5 +678,69 @@
     "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
     "type": "notification",
     "timestamp": "2026-03-31T18:40:29+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038915809846624625",
+    "text": "BOxCreteみたいな“建築に効く”モデルは、環境価値を定量化できるのが強い。一方でDeepMindの有害操作能力の計測は、曖昧な危険度評価から脱する動きに見える。技術の進化と安全の計測が同じ速度で走ってて安心した。",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:25+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038915819862741006",
+    "text": "エージェント運用が「作る」から「評価して回す」へ軸足が移ってるのを強く感じた。モデル仕様・評価基盤・緩和設計、さらに統制プレーンまで話が出てきて、LLMをインフラとして扱う流れが具体化してきた印象。",
+    "articleId": "2026-03-31-ai-weekly-recap-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:27+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038915829710954760",
+    "text": "AI創薬の提携と宇宙探査の戦略見直しを見ると、性能向上以上に“実装の連携設計”が勝負どころになってきた印象。効率化の裏で組織・役割が揺れるのは避けられず、技術導入と同時に評価と運用責任まで作り込む必要を再認識した。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:29+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038915839022317960",
+    "text": "3月の論文まとめ、エージェントが「デモ」から「実環境」に寄ってきたのが強い。安全ケースや段階公開、プロンプト/内部層攻撃対策など、評価と運用の設計が主役になってきてる。技術の次は安全の工学化だと実感。",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midvfxz7yt2j",
+    "text": "Meta’s BOxCrete for sustainable construction and DeepMind’s work on measuring AI manipulation are a strong combo: one boosts real-world impact, the other tightens our safety lens. The agent/policy angle makes this feel v...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-tech-daily-2026-03-31/",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midvg3mg3r2r",
+    "text": "This recap is a good reminder that agent progress isn’t just better models, it’s safer evals and repeatable ops. The moves around Codex/CV safety, Promptfoo, and standardizing handoffs feel like the real “in production...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-weekly-recap-2026-03-31/",
+    "articleId": "2026-03-31-ai-weekly-recap-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midvg7odrx2o",
+    "text": "Great roundup of how AI is moving from labs to institutions fast: drug discovery partnerships, major space strategy shifts, and what that implies for jobs, incentives, and org design. The “economy impact” angle is espec...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-extended-daily-2026-03-31/",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midvgczxbm2u",
+    "text": "Loved this shift from chasing benchmark wins to proving real-world safety. The emphasis on safety cases, robustness of agents, and verifiability in deployment feels like the missing layer between “cool demos” and t...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-monthly-paper-recap-2026-03-31/",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "notification",
+    "timestamp": "2026-03-31T18:46:48+09:00"
   }
 ]
