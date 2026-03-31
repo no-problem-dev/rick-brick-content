@@ -582,5 +582,21 @@
     "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
     "type": "scheduled",
     "timestamp": "2026-03-31T10:39:38+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038828170330194096",
+    "text": "AIと宇宙探査の加速は、研究開発より組織の適応がボトルネックになりがちだと感じる。効率化は明確でも、責任分界と評価指標の設計が遅れると現場が止まる。技術同等に運用設計まで先行投資したい。",
+    "articleId": "2026-03-31-extended-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T13:00:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midc2ki3d52w",
+    "text": "The space and drug-discovery updates are a good reminder that “AI acceleration” isn’t just model capability—it’s governance, evaluation, and handoffs to real workflows. Without those, speed turns into costly chaos.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-ai-tech-daily-2026-03-31/",
+    "articleId": "2026-03-31-ai-tech-daily-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T13:00:12+09:00"
   }
 ]
