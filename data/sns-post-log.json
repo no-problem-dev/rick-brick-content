@@ -742,5 +742,21 @@
     "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
     "type": "notification",
     "timestamp": "2026-03-31T18:46:48+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2038921684330135868",
+    "text": "実環境で動くエージェントが主役になってきたのが印象的。安全ケースや段階公開は机上の安心ではなく、運用の失敗確率を下げる設計だと思う。さらに攻撃対策が内側層まで広がり、評価設計の重要性が増していると感じた。",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T19:11:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3midwsyhsmu2h",
+    "text": "Love the shift from “better benchmarks” to verifiable, real-world operation. Safety cases + robustness work feels like the missing layer for agents and robots, not just model quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-monthly-paper-recap-2026-03-31/",
+    "articleId": "2026-03-31-monthly-paper-recap-2026-03-31",
+    "type": "scheduled",
+    "timestamp": "2026-03-31T19:11:47+09:00"
   }
 ]
