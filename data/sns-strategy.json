@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-03-31T04:21:53+09:00",
+      "updatedAt": "2026-04-01T04:22:15+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -116,12 +116,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 25.441176470588236,
-      "totalPosts": 17
+      "avgScore": 17.70689655172414,
+      "totalPosts": 29
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-03-31T04:21:53+09:00",
+      "updatedAt": "2026-04-01T04:22:15+09:00",
       "topPosts": [
         {
           "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -204,17 +204,17 @@
           }
         },
         {
-          "text": "Multi-agent setups are powerful, but the real win is nailing CLAUDE.md plus the 80/20 context rule. Star/DAG patterns keep agents from thrashing. Helpful read: https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
-          "score": 0,
+          "text": "The Astral acquisition is a big signal that “agentic” work still needs strong developer plumbing. Agent 365 speculation aside, the real advantage will be faster, more reliable code loops in real projects.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+          "score": 2,
           "metrics": {
             "likes": 0,
             "reposts": 0,
-            "replies": 0,
+            "replies": 1,
             "quotes": 0
           }
         },
         {
-          "text": "Really like the direction here: instead of just measuring model quality in the lab, OpenAI’s Promptfoo acquisition points to stronger agent security evals against real misuse. The focus on deployment safety (and “thinkin...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-28-ai-tech-daily-2026-03-28/",
+          "text": "Multi-agent setups are powerful, but the real win is nailing CLAUDE.md plus the 80/20 context rule. Star/DAG patterns keep agents from thrashing. Helpful read: https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
           "score": 0,
           "metrics": {
             "likes": 0,
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 2.176470588235294,
-      "totalPosts": 17
+      "avgScore": 1.3448275862068966,
+      "totalPosts": 29
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-03-31T04:21:53+09:00",
+      "updatedAt": "2026-04-01T04:22:15+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-03-31T04:21:53+09:00",
+    "updatedAt": "2026-04-01T04:22:15+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -266,7 +266,7 @@
       {
         "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 94,
+        "normalizedScore": 97,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -277,7 +277,7 @@
       {
         "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
         "platform": "x",
-        "normalizedScore": 94,
+        "normalizedScore": 97,
         "metrics": {
           "impressions": 138,
           "likes": 0,
@@ -289,7 +289,7 @@
       {
         "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
         "platform": "bluesky",
-        "normalizedScore": 88,
+        "normalizedScore": 93,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -300,7 +300,7 @@
       {
         "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
         "platform": "x",
-        "normalizedScore": 88,
+        "normalizedScore": 93,
         "metrics": {
           "impressions": 70,
           "likes": 0,
@@ -312,7 +312,7 @@
       {
         "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 82,
+        "normalizedScore": 90,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -323,7 +323,7 @@
       {
         "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
         "platform": "bluesky",
-        "normalizedScore": 82,
+        "normalizedScore": 90,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -334,7 +334,7 @@
       {
         "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
         "platform": "bluesky",
-        "normalizedScore": 82,
+        "normalizedScore": 90,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -345,7 +345,7 @@
       {
         "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
         "platform": "x",
-        "normalizedScore": 82,
+        "normalizedScore": 90,
         "metrics": {
           "impressions": 58,
           "likes": 0,

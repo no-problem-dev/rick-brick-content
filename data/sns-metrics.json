@@ -525,5 +525,377 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038348149811560536",
+    "text": "OpenAIのAstral買収は、単なるモデル強化より開発基盤（Python運用）の体験を一段上げる動きで筋がいい。Agent 365も“業務への接地”が早まりそう。Dynamo公開や訓練基盤更新も、推論最適化と学習運用が主戦場になってる感じ。",
+    "type": "notification",
+    "timestamp": "2026-03-30T05:10:44+09:00",
+    "collectedAt": "2026-04-01T04:21:44+09:00",
+    "metrics": {
+      "impressions": 10,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mi7xealyx72h",
+    "text": "Interesting roundup: OpenAI’s Codex Python push via Astral, plus Microsoft’s “Agent 365” tease, signals a shift from demo agents to real dev workflows. Also glad to see inference optimizations highlighted; that’s where a...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "notification",
+    "timestamp": "2026-03-30T05:10:46+09:00",
+    "collectedAt": "2026-04-01T04:21:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038393379948724375",
+    "text": "Codex基盤の強化が効いて、エージェントは“実装の速度”が主戦場になりそう。推論最適化やロボ訓練が揃うと、ガバナンスは出力品質だけでなく、根拠・コスト・安全性の評価設計が要になると感じる。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T08:12:28+09:00",
+    "collectedAt": "2026-04-01T04:21:45+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 11
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miabj6ngd42u",
+    "text": "The Astral acquisition is a big signal that “agentic” work still needs strong developer plumbing. Agent 365 speculation aside, the real advantage will be faster, more reliable code loops in real projects.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T08:12:30+09:00",
+    "collectedAt": "2026-04-01T04:21:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "x",
+    "postId": "2038430433109586415",
+    "text": "Astral買収でPython開発基盤が強化されるのは筋がいい。エージェントも結局“実装の型”が命で、推論より再現性の土台を整える動きは加速する。開発基盤×ガバナンスの両輪が勝負になる。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T10:39:42+09:00",
+    "collectedAt": "2026-04-01T04:21:46+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miajqhmdt62c",
+    "text": "The Astral acquisition angle is interesting: strengthening Python tooling is one of the fastest paths to “real developer trust.” If Agent 365 ships, expect a big push on workflow automation over raw model cleverness.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T10:39:44+09:00",
+    "collectedAt": "2026-04-01T04:21:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038466706683617680",
+    "text": "Codex基盤の強化や推論最適化の流れを見ると、AIはモデルより「動かし方」で差が出ると実感する。Dynamo級の最適化とガバナンス整備をセットで進めるほど、コストと安全性の両立に近づく。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T13:03:50+09:00",
+    "collectedAt": "2026-04-01T04:21:47+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miars6ijke2r",
+    "text": "Buying Astral is a smart move for OpenAI’s Codex: Python quality often comes down to tooling and ecosystem depth, not just the model. If Agent 365 lands like promised, the workflow shift could be bigger than any single u...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T13:03:51+09:00",
+    "collectedAt": "2026-04-01T04:21:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038492882827374801",
+    "text": "Astral買収でCodexの開発基盤が強化される流れ、実装面の“地力”が上がりそうで期待。推論最適化やエージェント連携が進むほど、差はモデルではなく運用設計と検証速度に出ると感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T14:47:51+09:00",
+    "collectedAt": "2026-04-01T04:21:49+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 11
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miaxm6lman2b",
+    "text": "That “Agent 365” tease is the most interesting part for me: it suggests the next wave won’t be more agents, but better orchestration across existing workflows. If Microsoft nails handoffs, it’ll feel genuinely useful.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T14:47:52+09:00",
+    "collectedAt": "2026-04-01T04:21:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038551564491616350",
+    "text": "推論最適化やエージェント基盤の競争が一気に進んでいて面白い。結局勝つのは“モデル”より運用設計で、評価指標とガバナンスが後追いになると事故る。導入前に計測と責務分界を固めたい。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T18:41:02+09:00",
+    "collectedAt": "2026-04-01T04:21:50+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miben5j24y2h",
+    "text": "Acquiring Astral signals OpenAI is doubling down on Python productivity, not just flashy demos. Agent-style workflows will win when tooling gets reliable enough to be the default dev path.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T18:41:04+09:00",
+    "collectedAt": "2026-04-01T04:21:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038578957025468733",
+    "text": "Astral買収でPython開発基盤を固める流れは納得。AIはモデルより“作る/回す”基盤が効くので、推論最適化や運用設計とセットで勝負になる。買収も各社の棲み分けが鍵。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T20:29:53+09:00",
+    "collectedAt": "2026-04-01T04:21:51+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibkps7fi42k",
+    "text": "The Astral acquisition angle is interesting, but the real signal is how fast the Python loop is getting “productionized.” If OpenAI keeps tightening dev workflows, multi-agent setups will feel less like experiments and m...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T20:29:55+09:00",
+    "collectedAt": "2026-04-01T04:21:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038611510860362171",
+    "text": "Astral買収でPython基盤が強化される流れ、実用寄りで好印象。推論最適化やマルチモーダル同様、開発環境の差が“速度と品質”を決める。基盤投資は評価・ガバナンスの設計にも波及し、成果指標が重要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T22:39:14+09:00",
+    "collectedAt": "2026-04-01T04:21:52+09:00",
+    "metrics": {
+      "impressions": 11,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 7.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibrx47toi2t",
+    "text": "The Astral acquisition is a smart move for Codex’s dev loop: better Python understanding means fewer “almost right” edits. Pair that with deterministic multi-agent handoffs and you get both speed and reliability, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "scheduled",
+    "timestamp": "2026-03-30T22:39:16+09:00",
+    "collectedAt": "2026-04-01T04:21:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2038617561613390010",
+    "text": "Astral買収でCodexのPython基盤を太くするのは筋がいい。Agent 365やDynamo 1.0みたいに、開発〜推論最適化〜運用までが分業で繋がってきた感じがする。基盤側の競争が一段加速。",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:17+09:00",
+    "collectedAt": "2026-04-01T04:21:53+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "x",
+    "postId": "2038617574590550218",
+    "text": "AIエージェント×開発ツール連携がMCP/CLIに寄ってるのが分かる。特にgws周りは権限と運用設計が主戦場になってて、PoCより“落ちない仕組み”の議論が増えてるのが良い兆し。",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:20+09:00",
+    "collectedAt": "2026-04-01T04:21:54+09:00",
+    "metrics": {
+      "impressions": 15,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 7.5
+  },
+  {
+    "platform": "x",
+    "postId": "2038617586334613953",
+    "text": "拡張10領域を横断して直近の新規性を“扱える形”に落とす発想が良い。新規性って曖昧なままだと追えないけど、モデリング/評価/安全性で共通テーマを抽出して比較可能にするのが実務的だと感じた。",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:23+09:00",
+    "collectedAt": "2026-04-01T04:21:55+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "x",
+    "postId": "2038617597965402366",
+    "text": "エージェントを「賢くする」だけでなく、安全性を形式化して伸ばす方向性が良い。解釈性や適応性を評価設計に落とし、能力依存の安全をベンチマークで扱うのは実装にも効く。マルチエージェントの設計論も納得。",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:25+09:00",
+    "collectedAt": "2026-04-01T04:21:55+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt6smaqh2r",
+    "text": "OpenAI bolstering Codex’s Python stack via the Astral acquisition sounds huge for real-world dev reliability. I also like the trend toward “productized” agents (Agent 365), but the real win will be better handoffs.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-ai-tech-daily-2026-03-30/",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:28+09:00",
+    "collectedAt": "2026-04-01T04:21:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt6wcyxz2j",
+    "text": "Nice roundup of where AI agents are heading: MCP and CLI integrations are becoming the “execution layer.” The gws security/permissions angle is key, because agent usefulness will be limited less by models and more by ...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-community-trends-2026-03-30/",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:32+09:00",
+    "collectedAt": "2026-04-01T04:21:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt72bhej2t",
+    "text": "Nice cross-review of new work across 10 domains. I like how it tracks “novelty” becoming operational: modeling ideas, evaluation methods, and safety design show up as recurring building blocks you can reuse.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-extended-paper-review-2026-03-30/",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:36+09:00",
+    "collectedAt": "2026-04-01T04:21:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mibt75u6zn2c",
+    "text": "Great roundup on agent intelligence meeting safety. I like how it frames interpretability/adaptability as something you can formalize, not just observe. The benchmark and capability-based safety angles make multi-agent ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-30-paper-review-2026-03-30/",
+    "type": "notification",
+    "timestamp": "2026-03-30T23:01:40+09:00",
+    "collectedAt": "2026-04-01T04:21:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
