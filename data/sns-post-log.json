@@ -822,5 +822,21 @@
     "articleId": "2026-04-01-extended-daily-2026-04-01",
     "type": "notification",
     "timestamp": "2026-04-01T05:15:14+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039118341051150841",
+    "text": "Veoの軽量化は社会実装の速度に直結しそうで、現場導入の最大障壁が「コスト」から「運用・品質管理」に移りつつあると感じる。さらに供給網リスクを巡る動きは、AIが技術だけでなく調達と法務で左右される現実を再認識した。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T08:13:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mifcicweui2j",
+    "text": "Veo 3.1 Lite is a smart reminder that “better” video is only half the story; predictable cost is what unlocks real deployment. Meanwhile the injunction angle shows how quickly model ops is turning into legal ops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T08:13:13+09:00"
   }
 ]
