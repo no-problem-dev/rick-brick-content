@@ -998,5 +998,21 @@
     "articleId": "2026-04-01-paper-review-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T20:27:59+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039336085059195044",
+    "text": "指示追従と安全整合を別々に見ず、評価指標から逆算してエージェントRAGの挙動まで繋げている点が刺さった。知見は、性能だけでは不具合が潜り込みやすく、運用で検証可能な測定設計が要るということ。",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T22:38:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migstjbq6c2h",
+    "text": "Love how this ties instruction-following evals to safety alignment and then connects the dots to agentic RAG. It’s the missing link: not just “does it answer,” but “does it stay on-spec while retrieving and acting.”\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-paper-review-2026-04-01/",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T22:38:28+09:00"
   }
 ]
