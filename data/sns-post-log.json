@@ -1014,5 +1014,21 @@
     "articleId": "2026-04-01-paper-review-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T22:38:28+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039437306470228323",
+    "text": "Safety Bug Bountyの公開は、ホワイトハットが報酬込みで検証に参加できる設計で実務的だと感じた。ティーン向けポリシーも“利用者依存”のリスク管理の一歩。Claudeの脆弱性事例共有やエージェント運用研究も、評価→改善の回転を早めていて良い流れ。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T05:18:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mihj77d7552t",
+    "text": "Good roundup: the safety bug bounty + clearer teen policies show real emphasis on incentives and boundaries, not just evals. Also like how the article frames vulnerability discovery as ongoing ops for agents, not a one-o...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T05:18:43+09:00"
   }
 ]
