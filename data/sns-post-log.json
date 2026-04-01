@@ -982,5 +982,21 @@
     "articleId": "2026-04-01-paper-review-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T19:11:59+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039303247559578036",
+    "text": "指示追従と安全整合を別々に見がちですが、実運用では同時に崩れるのが怖いです。FireBenchやRLHFの理論整理は、評価を“合格条件”ではなく“監視設計”として再定義するヒントになります。",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T20:27:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miglk6cgvg2j",
+    "text": "Instruction-following eval is usually treated like a checkbox, but FireBench-style testing plus agentic RAG’s retrieval checks makes it feel measurable end-to-end. The safety alignment angle is the real separator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-paper-review-2026-04-01/",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T20:27:59+09:00"
   }
 ]
