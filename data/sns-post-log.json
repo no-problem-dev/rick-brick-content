@@ -1030,5 +1030,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "notification",
     "timestamp": "2026-04-02T05:18:43+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039481443328692605",
+    "text": "Safety Bug Bountyや安全ポリシー公開の流れは、技術の善し悪しより“検証の作法”を標準化する動きに見える。指示追従評価や内部表現安定性を先回りで測るほど、エージェントRAGは運用事故を減らせる。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T08:16:02+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miht4dkfdt2j",
+    "text": "Love the focus on evaluation and handoffs here. “80/20 context + single source of truth” is basically governance for agents, and it pairs nicely with safety bug bounty thinking: control the process before you scale it.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T08:16:04+09:00"
   }
 ]
