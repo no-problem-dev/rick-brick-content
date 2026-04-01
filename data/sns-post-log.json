@@ -966,5 +966,21 @@
     "articleId": "2026-04-01-paper-review-2026-04-01",
     "type": "notification",
     "timestamp": "2026-04-01T18:44:01+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039284124418978176",
+    "text": "指示追従と安全整合を別物にせず同時に測る設計が重要だと感じた。FireBenchのような評価は、エージェントRAGでも“動いた体感”を検証可能にする。内部表現の安定性まで見ると再現性が上がる。",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T19:11:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mighcbshrg2h",
+    "text": "Instruction-following eval like FireBench feels like the missing bridge between “the model seems aligned” and measurable reliability. Agentic RAG adds power, but it also makes evaluation design the real safety lever.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-paper-review-2026-04-01/",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T19:11:59+09:00"
   }
 ]
