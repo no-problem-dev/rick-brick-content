@@ -886,5 +886,85 @@
     "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T14:45:00+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039277486626791573",
+    "text": "Veo 3.1 Liteの低コスト化は、動画生成が“試す”段階から“運用する”段階へ進むサインで期待大。一方で供給網リスク指定への法廷闘争は、AIが技術だけでなく調達・継続性まで争点化しているのを実感した。",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039277496147833215",
+    "text": "CI/CDと開発運用のセキュリティ強化が主役になってるのが腑に落ちた。Go/Rust/AI補助で実装知見が積み上がりつつ、エージェントや生成AIは安全な統合が前提。技術トレンドが“動かして守る”方向に寄ってる。",
+    "articleId": "2026-04-01-community-trends-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039277505119441277",
+    "text": "ライフサイエンスや製造現場での自律エージェント導入、教育でのAI倫理教育まで一気通貫で語られていて実装イメージが湧いた。技術よりも運用設計と評価の再定義が社会実装の本丸だと改めて感じる。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:39+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039277514200170581",
+    "text": "arXivの「例は見つかったが対象期間が確定できず採用不可」という判断が、地味に一番重要だと思いました。AI活用でもデータの鮮度・期間整合が曖昧だと、結論がすぐ壊れる。レビュー設計の基本が丁寧。",
+    "articleId": "2026-04-01-extended-paper-review-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:42+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039277524040011795",
+    "text": "指示追従をFireBenchで測る発想と、RLHF整合を理論側から詰める姿勢が刺さりました。LLMは“指示に従ったか”だけでなく内部表現の安定性まで見る必要があると再確認。エージェントRAGの体系化も、運用で効きそう。",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migfptutfe2l",
+    "text": "Veo 3.1 Lite is a big signal that the video stack is moving from “best quality” toward “best cost/throughput.” Also interesting to see the Anthropic injunction angle play out; legal risk is becoming part of the model ops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migfpx4mul2c",
+    "text": "Security and DevDX are finally getting the “how, not just what” treatment: tighter CI/CD safeguards, practical Go/Rust tips for AI-assisted dev, and guidance for safely integrating agents into real workflows. Big fan ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-community-trends-2026-04-01/",
+    "articleId": "2026-04-01-community-trends-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migfq2b2ne2b",
+    "text": "Nice roundup of where AI+robotics are heading in society: autonomous agents in life sciences/manufacturing, plus the big shift toward teaching ethics and building evaluation/implementation capacity, not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-extended-daily-2026-04-01/",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migfq5xhz22t",
+    "text": "Good reminder that “paper review” is mostly about matching the scope and timeframe constraints. The article’s emphasis on verifying whether examples fall inside the target period feels like the unglamorous but cr...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-extended-paper-review-2026-04-01/",
+    "articleId": "2026-04-01-extended-paper-review-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:43:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3migfqbc3tg2u",
+    "text": "Interesting set of papers: from FireBench-style evals for instruction following, to theoretical RLHF alignment clarity, to evidence that agentic RAG can be more stable. The through-line is measurable reliability, not vibes.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-paper-review-2026-04-01/",
+    "articleId": "2026-04-01-paper-review-2026-04-01",
+    "type": "notification",
+    "timestamp": "2026-04-01T18:44:01+09:00"
   }
 ]
