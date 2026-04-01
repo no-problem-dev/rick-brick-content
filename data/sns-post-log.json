@@ -870,5 +870,21 @@
     "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T13:05:02+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039216934198137117",
+    "text": "Veo 3.1 Liteの低コスト化は、映像制作を「作るAI」から「運用して改善するAI」へ寄せる流れに見える。加えて供給網リスクの法廷闘争は、技術より契約と責任分界が競争力になる証拠。実装は評価と監査をセットで組む必要がある。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T14:44:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mifyev2gsa2o",
+    "text": "Veo 3.1 Lite is a real sign of where things are going: cheaper video means more iteration, not just flashy demos. The injunction news also hints legal risk is becoming part of the product stack.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T14:45:00+09:00"
   }
 ]
