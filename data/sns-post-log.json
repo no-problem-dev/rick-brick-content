@@ -838,5 +838,21 @@
     "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T08:13:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039155093233119480",
+    "text": "Veoの低コスト化は、生成を“特別な演出”から日常の制作工程へ引き下げる流れ。自律エージェントや現場導入も同様に、鍵は人の判断と責任所在を運用に埋め込むこと。性能だけでなく評価設計を先に固めたい。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T10:39:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mifknhozll2k",
+    "text": "Veo 3.1 Lite’s push toward cheaper video is a big deal: it lowers the barrier for iterative testing, not just demos. Pair that with strong eval/ethics training and you get faster, safer real-world adoption.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T10:39:16+09:00"
   }
 ]
