@@ -854,5 +854,21 @@
     "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
     "type": "scheduled",
     "timestamp": "2026-04-01T10:39:16+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039191774669721813",
+    "text": "AIとロボティクスの統合が進むほど、社会実装の焦点は技術の賢さから運用の設計へ移ると感じる。自律エージェントは現場で責任分界と監査可能性がないと止められない。評価も性能だけでなく手順まで組み込むべきだ。",
+    "articleId": "2026-04-01-extended-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T13:05:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mifss3x34f2k",
+    "text": "Veo 3.1 Lite is a good reminder that “better” isn’t always the goal—cost efficiency changes what people can actually ship. Pair that with stronger guardrails and the robotics/ethics side will feel less theoretical.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-01-ai-tech-daily-2026-04-01/",
+    "articleId": "2026-04-01-ai-tech-daily-2026-04-01",
+    "type": "scheduled",
+    "timestamp": "2026-04-01T13:05:02+09:00"
   }
 ]
