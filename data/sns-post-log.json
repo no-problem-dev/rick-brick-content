@@ -1062,5 +1062,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T10:39:22+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039552290055462931",
+    "text": "Safety Bug Bountyや脆弱性事例の共有が進むのは健全だと感じる。攻撃耐性はベンチではなく運用で磨かれるので、指示追従評価や内部表現の安定性を“監視可能な指標”に落とすのが重要だと思った。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T12:57:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miictptlpi2y",
+    "text": "The Safety Bug Bounty plus teen-focused policies is a strong signal: safety isn’t just “model training,” it’s how we structure incentives and guardrails. For agents, that kind of evaluation design will matter as much as ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T12:57:35+09:00"
   }
 ]
