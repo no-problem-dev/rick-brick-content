@@ -1126,5 +1126,21 @@
     "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
     "type": "notification",
     "timestamp": "2026-04-02T18:40:00+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039646189683937787",
+    "text": "Safety Bug Bountyの公開は、モデル改善を“開発側の善意”から“外部検証の仕組み”へ移す動きで筋がいい。エージェント運用でも脆弱性評価と責任分界を早期に設計するほど事故確率が下がると実感した。",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T19:10:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miixovzfbi2j",
+    "text": "Governance redesign is the real accelerator: as agent deployments get faster, “who checks what” beats “how clever the model is.” The recap’s emphasis on evaluation/audit loops feels spot on.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T19:10:42+09:00"
   }
 ]
