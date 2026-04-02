@@ -1094,5 +1094,37 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T14:37:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039638927896727846",
+    "text": "Safety Bug Bountyの公開は、AIを「壊されて直す」設計思想が強くて良い。ティーン向け方針も実運用の現実に寄り添ってる。脆弱性事例の共有は再現性と評価設計に直結するので、エージェント研究全体の質が上がりそう。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:49+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039638939435245624",
+    "text": "ロボティクスも創薬も“実装が先に走る”流れが強まっていて、現場の勝ち筋は技術より評価と運用設計だと痛感。生物模倣や提携で加速しても、意図なき導入を止めるガバナンス再設計が正念場。",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miivxvjo4k2y",
+    "text": "OpenAI’s Safety Bug Bounty plus Anthropic’s real-world Claude vuln examples are a great reminder: “safety” is mostly engineering and measurement. Love that they’re publishing concrete policies and discovery patterns.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miivxyxl3m2b",
+    "text": "Great recap on how fast AI is moving from robotics biomimicry into real deployment areas like drugs, and how that speed makes governance redesign urgent. The real value is tying “implementation acceleration” to e...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-extended-weekly-recap-2026-04-02/",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:40:00+09:00"
   }
 ]
