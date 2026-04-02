@@ -1158,5 +1158,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T20:24:31+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039698303604977724",
+    "text": "AIの安全系情報共有が増えるのは健全だと感じた。性能評価だけでなく、バグの再現性・責任分界・運用監査を前提に設計すべき。エージェントは小さな抜けで事故が連鎖するので、継続的なテストと報告導線が要になる。",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T22:37:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijdb7rzpt2t",
+    "text": "The governance angle feels timely: as agent speed ramps up, “good enough” evaluation isn’t enough. You need clear responsibility boundaries and auditability early, otherwise the inevitable missteps get expensive ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-extended-weekly-recap-2026-04-02/",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T22:37:48+09:00"
   }
 ]
