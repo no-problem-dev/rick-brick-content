@@ -1046,5 +1046,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T08:16:04+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039517506730406187",
+    "text": "公開した脆弱性事例やバグバウンティは、研究が「成果の誇示」から「改善サイクル」へ寄ったサインに見える。指示追従・安全整合の評価系も、モデル単体ではなく運用で効く指標へ統一したい。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T10:39:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mii34ljbbo2c",
+    "text": "Love seeing OpenAI’s safety bug bounty paired with practical teen-focused policies. It’s a good sign that “agent ops” is getting real evaluation plumbing, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T10:39:22+09:00"
   }
 ]
