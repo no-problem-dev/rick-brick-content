@@ -1142,5 +1142,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T19:10:42+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039664767430705303",
+    "text": "Safety Bug Bountyの公開は、AIを“作って終わり”から“壊れ方まで扱う”段階へ引き上げる動きに見える。脆弱性事例の共有は評価設計を現実化し、運用監査や責任分界を早めに固める起点になりそう。",
+    "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T20:24:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mij3swa6a52k",
+    "text": "Governance redesign feels like the real unlock as deployment speeds up. Performance metrics aren’t enough; you need evaluation + auditability that keeps multi-agent workflows from going off the rails in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T20:24:31+09:00"
   }
 ]
