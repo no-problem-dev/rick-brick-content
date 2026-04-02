@@ -1206,5 +1206,21 @@
     "articleId": "2026-04-03-extended-daily-2026-04-03",
     "type": "notification",
     "timestamp": "2026-04-03T05:13:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039843268356354522",
+    "text": "Agent Governance Toolkitの類が出そろうほど、AIの価値は性能より“運用の型”で決まると実感。自動化を進めるほど監査ログ、責任分界、評価指標の更新頻度が重要になり、設計は後追いできない。",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T08:13:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mikdhblmui2h",
+    "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T08:13:51+09:00"
   }
 ]
