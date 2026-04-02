@@ -1078,5 +1078,21 @@
     "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T12:57:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039577467413815660",
+    "text": "Safety Bug Bountyや脆弱性事例公開の流れは、LLMの“事故る前提”を前提にした実務的アプローチだと感じる。指示追従や安全整合も評価設計と一体で、学術の指標を運用監査に接続する視点が重要になる。",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T14:37:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miiiglzf7g2w",
+    "text": "The most interesting part is how “agent safety” is shifting from vibes to artifacts: bug bounties, teen-focused policies, and concrete vuln writeups. It’s a sign ops + evaluation design are becoming first-class features.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "articleId": "2026-04-02-ai-tech-daily-2026-04-02",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T14:37:37+09:00"
   }
 ]
