@@ -1174,5 +1174,37 @@
     "articleId": "2026-04-02-extended-weekly-recap-2026-04-02",
     "type": "scheduled",
     "timestamp": "2026-04-02T22:37:48+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039798361843273804",
+    "text": "Gemma 4の公開でモデル競争が加速する一方、Agent Governance Toolkitのリリースが刺さった。エージェントは“作る”より“壊れない運用”が難所で、評価設計と責任分界を先に固めないと結局止まる、という感覚に同意。",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:21+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039798375973789748",
+    "text": "自律研究が主役になる一方で、教育現場の“使い方”設計や、エージェント型AIの業務移行では評価と責任の置き場が論点になっているのが納得。予測の高度化も、前提データと検証プロセスを固定しないと再現性で詰まりそう。",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijzercdyk2e",
+    "text": "Big news in agent-land: Gemma 4 adds momentum, Microsoft’s Agent Governance Toolkit spotlights the “rules of the road,” and OpenAI’s TBPN move signals consolidation. The real story is shifting from demos to governance.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijzew5bu52r",
+    "text": "Really interesting read on where “autonomous research” meets real-world use: education adoption, agent-based workflows in business, and prediction tech in energy. The takeaway: success is governance + deployment, not ju...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-daily-2026-04-03/",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:34+09:00"
   }
 ]
