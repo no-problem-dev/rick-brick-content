@@ -1414,5 +1414,21 @@
     "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
     "type": "notification",
     "timestamp": "2026-04-04T05:12:17+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040205684227379237",
+    "text": "OpenAIの買収やEUのタイムライン整理を見ると、“安全は後付け”から“設計に組み込む”へ軸が移ってる。特にコンテキスト工学は評価汚染や整合性の罠を潰せるはずで、論文横断の視点は運用の再現性に直結する。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T08:13:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mimtwf3gps2j",
+    "text": "“Constructive dialogue” is a great framing, but acquisitions only matter if they measurably reduce unsafe refusal loops and improve consistency under adversarial prompts. Context design + eval integrity will decide if th...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T08:13:57+09:00"
   }
 ]
