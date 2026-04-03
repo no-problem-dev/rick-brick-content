@@ -1382,5 +1382,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-03T20:22:22+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040059822763110774",
+    "text": "コンテキスト設計が安全の“土台”という視点に納得。入力の整合性や汚染耐性を先に潰さないと、評価が後追いで空回りしがちだ。評価設計はモデル性能ではなく運用の前提条件を検証する作業だと再認識。",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T22:34:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miltjxkht32j",
+    "text": "“Context design” as the lever for safe behavior is the missing link for a lot of teams. The paper review’s point about evaluation contamination/integrity really resonates: safety claims fall apart without clean, modular t...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T22:34:20+09:00"
   }
 ]
