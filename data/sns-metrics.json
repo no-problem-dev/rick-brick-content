@@ -1858,5 +1858,315 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039437306470228323",
+    "text": "Safety Bug Bountyの公開は、ホワイトハットが報酬込みで検証に参加できる設計で実務的だと感じた。ティーン向けポリシーも“利用者依存”のリスク管理の一歩。Claudeの脆弱性事例共有やエージェント運用研究も、評価→改善の回転を早めていて良い流れ。",
+    "type": "notification",
+    "timestamp": "2026-04-02T05:18:39+09:00",
+    "collectedAt": "2026-04-04T04:14:30+09:00",
+    "metrics": {
+      "impressions": 20,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 12
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mihj77d7552t",
+    "text": "Good roundup: the safety bug bounty + clearer teen policies show real emphasis on incentives and boundaries, not just evals. Also like how the article frames vulnerability discovery as ongoing ops for agents, not a one-o...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "notification",
+    "timestamp": "2026-04-02T05:18:43+09:00",
+    "collectedAt": "2026-04-04T04:14:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "x",
+    "postId": "2039481443328692605",
+    "text": "Safety Bug Bountyや安全ポリシー公開の流れは、技術の善し悪しより“検証の作法”を標準化する動きに見える。指示追従評価や内部表現安定性を先回りで測るほど、エージェントRAGは運用事故を減らせる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T08:16:02+09:00",
+    "collectedAt": "2026-04-04T04:14:31+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miht4dkfdt2j",
+    "text": "Love the focus on evaluation and handoffs here. “80/20 context + single source of truth” is basically governance for agents, and it pairs nicely with safety bug bounty thinking: control the process before you scale it.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T08:16:04+09:00",
+    "collectedAt": "2026-04-04T04:14:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "x",
+    "postId": "2039517506730406187",
+    "text": "公開した脆弱性事例やバグバウンティは、研究が「成果の誇示」から「改善サイクル」へ寄ったサインに見える。指示追従・安全整合の評価系も、モデル単体ではなく運用で効く指標へ統一したい。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T10:39:21+09:00",
+    "collectedAt": "2026-04-04T04:14:32+09:00",
+    "metrics": {
+      "impressions": 12,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mii34ljbbo2c",
+    "text": "Love seeing OpenAI’s safety bug bounty paired with practical teen-focused policies. It’s a good sign that “agent ops” is getting real evaluation plumbing, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T10:39:22+09:00",
+    "collectedAt": "2026-04-04T04:14:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039552290055462931",
+    "text": "Safety Bug Bountyや脆弱性事例の共有が進むのは健全だと感じる。攻撃耐性はベンチではなく運用で磨かれるので、指示追従評価や内部表現の安定性を“監視可能な指標”に落とすのが重要だと思った。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T12:57:33+09:00",
+    "collectedAt": "2026-04-04T04:14:33+09:00",
+    "metrics": {
+      "impressions": 11,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 7.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miictptlpi2y",
+    "text": "The Safety Bug Bounty plus teen-focused policies is a strong signal: safety isn’t just “model training,” it’s how we structure incentives and guardrails. For agents, that kind of evaluation design will matter as much as ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T12:57:35+09:00",
+    "collectedAt": "2026-04-04T04:14:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039577467413815660",
+    "text": "Safety Bug Bountyや脆弱性事例公開の流れは、LLMの“事故る前提”を前提にした実務的アプローチだと感じる。指示追従や安全整合も評価設計と一体で、学術の指標を運用監査に接続する視点が重要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T14:37:36+09:00",
+    "collectedAt": "2026-04-04T04:14:34+09:00",
+    "metrics": {
+      "impressions": 22,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 13
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miiiglzf7g2w",
+    "text": "The most interesting part is how “agent safety” is shifting from vibes to artifacts: bug bounties, teen-focused policies, and concrete vuln writeups. It’s a sign ops + evaluation design are becoming first-class features.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T14:37:37+09:00",
+    "collectedAt": "2026-04-04T04:14:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039638927896727846",
+    "text": "Safety Bug Bountyの公開は、AIを「壊されて直す」設計思想が強くて良い。ティーン向け方針も実運用の現実に寄り添ってる。脆弱性事例の共有は再現性と評価設計に直結するので、エージェント研究全体の質が上がりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:49+09:00",
+    "collectedAt": "2026-04-04T04:14:35+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 9
+  },
+  {
+    "platform": "x",
+    "postId": "2039638939435245624",
+    "text": "ロボティクスも創薬も“実装が先に走る”流れが強まっていて、現場の勝ち筋は技術より評価と運用設計だと痛感。生物模倣や提携で加速しても、意図なき導入を止めるガバナンス再設計が正念場。",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:52+09:00",
+    "collectedAt": "2026-04-04T04:14:36+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miivxvjo4k2y",
+    "text": "OpenAI’s Safety Bug Bounty plus Anthropic’s real-world Claude vuln examples are a great reminder: “safety” is mostly engineering and measurement. Love that they’re publishing concrete policies and discovery patterns.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:39:56+09:00",
+    "collectedAt": "2026-04-04T04:14:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miivxyxl3m2b",
+    "text": "Great recap on how fast AI is moving from robotics biomimicry into real deployment areas like drugs, and how that speed makes governance redesign urgent. The real value is tying “implementation acceleration” to e...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-extended-weekly-recap-2026-04-02/",
+    "type": "notification",
+    "timestamp": "2026-04-02T18:40:00+09:00",
+    "collectedAt": "2026-04-04T04:14:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039646189683937787",
+    "text": "Safety Bug Bountyの公開は、モデル改善を“開発側の善意”から“外部検証の仕組み”へ移す動きで筋がいい。エージェント運用でも脆弱性評価と責任分界を早期に設計するほど事故確率が下がると実感した。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T19:10:41+09:00",
+    "collectedAt": "2026-04-04T04:14:38+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miixovzfbi2j",
+    "text": "Governance redesign is the real accelerator: as agent deployments get faster, “who checks what” beats “how clever the model is.” The recap’s emphasis on evaluation/audit loops feels spot on.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T19:10:42+09:00",
+    "collectedAt": "2026-04-04T04:14:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039664767430705303",
+    "text": "Safety Bug Bountyの公開は、AIを“作って終わり”から“壊れ方まで扱う”段階へ引き上げる動きに見える。脆弱性事例の共有は評価設計を現実化し、運用監査や責任分界を早めに固める起点になりそう。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T20:24:30+09:00",
+    "collectedAt": "2026-04-04T04:14:39+09:00",
+    "metrics": {
+      "impressions": 10,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mij3swa6a52k",
+    "text": "Governance redesign feels like the real unlock as deployment speeds up. Performance metrics aren’t enough; you need evaluation + auditability that keeps multi-agent workflows from going off the rails in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-ai-tech-daily-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T20:24:31+09:00",
+    "collectedAt": "2026-04-04T04:14:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039698303604977724",
+    "text": "AIの安全系情報共有が増えるのは健全だと感じた。性能評価だけでなく、バグの再現性・責任分界・運用監査を前提に設計すべき。エージェントは小さな抜けで事故が連鎖するので、継続的なテストと報告導線が要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T22:37:46+09:00",
+    "collectedAt": "2026-04-04T04:14:40+09:00",
+    "metrics": {
+      "impressions": 12,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijdb7rzpt2t",
+    "text": "The governance angle feels timely: as agent speed ramps up, “good enough” evaluation isn’t enough. You need clear responsibility boundaries and auditability early, otherwise the inevitable missteps get expensive ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-02-extended-weekly-recap-2026-04-02/",
+    "type": "scheduled",
+    "timestamp": "2026-04-02T22:37:48+09:00",
+    "collectedAt": "2026-04-04T04:14:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

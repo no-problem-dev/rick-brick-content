@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-03T04:19:46+09:00",
+      "updatedAt": "2026-04-04T04:14:55+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -116,12 +116,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 13.508333333333333,
-      "totalPosts": 60
+      "avgScore": 12.864285714285714,
+      "totalPosts": 70
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-03T04:19:46+09:00",
+      "updatedAt": "2026-04-04T04:14:55+09:00",
       "topPosts": [
         {
           "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.7,
-      "totalPosts": 60
+      "avgScore": 0.6571428571428571,
+      "totalPosts": 70
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-03T04:19:46+09:00",
+      "updatedAt": "2026-04-04T04:14:55+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-03T04:19:46+09:00",
+    "updatedAt": "2026-04-04T04:14:55+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -266,7 +266,7 @@
       {
         "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 98,
+        "normalizedScore": 99,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -277,7 +277,7 @@
       {
         "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
         "platform": "x",
-        "normalizedScore": 98,
+        "normalizedScore": 99,
         "metrics": {
           "impressions": 138,
           "likes": 0,
@@ -324,7 +324,7 @@
       {
         "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
-        "normalizedScore": 95,
+        "normalizedScore": 96,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -335,7 +335,7 @@
       {
         "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
         "platform": "bluesky",
-        "normalizedScore": 95,
+        "normalizedScore": 96,
         "metrics": {
           "likes": 1,
           "reposts": 0,
@@ -346,7 +346,7 @@
       {
         "text": "The EU AI Act delay is a reminder that regulation needs more than good intentions; it has to keep pace with fast model releases. Hopefully the delay leads to clearer enforcement and fewer loopholes.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
         "platform": "bluesky",
-        "normalizedScore": 95,
+        "normalizedScore": 96,
         "metrics": {
           "likes": 1,
           "reposts": 0,
