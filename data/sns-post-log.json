@@ -1366,5 +1366,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-03T19:05:29+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040026614377885956",
+    "text": "拡張論文レビューの切り口が刺さる。生成AIは“賢さ”より、研究工程の接続部（データ→評価→実験）をどこまで自動化できるかが勝負だと再確認。文脈設計と測定設計が進むほど、分野横断の再利用性が高まる。",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T20:22:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milm5yq2rx2r",
+    "text": "Context design is the unglamorous lever for safety: small mistakes in what models see (and how eval data is contaminated) can quietly erase “good behavior” during testing. Really liked the modular framing—it matches real ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T20:22:22+09:00"
   }
 ]
