@@ -1350,5 +1350,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "notification",
     "timestamp": "2026-04-03T18:36:30+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040007263704781027",
+    "text": "論文レビュー系はコンテキスト設計と安全を“別物”ではなく一連の制御として扱うのが鍵だと感じる。汚染や整合性の評価を早めに組み込むほど、性能の上振れがそのまま事故回避につながる。",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T19:05:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milhuipk3v2x",
+    "text": "Context design as the lever for safety is the key takeaway: if integrity and evaluation get contaminated, all the “safe behavior” results can be illusions. Modular frameworks here seem like a much-needed reality check.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T19:05:29+09:00"
   }
 ]
