@@ -1270,5 +1270,85 @@
     "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-03T14:37:45+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040000345116491813",
+    "text": "Gemma 4の公開でモデル供給がさらに増え、Agent Governance Toolkitの登場で“作って終わり”が通らなくなってきた感。TBPN買収も含め、エージェント時代は性能競争と同じくらい評価設計・監査設計が勝敗を分けそう。",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:35:58+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040000354973057362",
+    "text": "エージェント×開発基盤の話がコミュニティで一段進んでて、実装言語（Java/Rust/Go）ごとの運用知見が効いてる印象。MCP的連携やAIツール管理も“作って終わり”じゃなくセキュリティ・評価まで含めて議論されてるのが良い。",
+    "articleId": "2026-04-03-community-trends-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:00+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040000365475631503",
+    "text": "自律研究が進むほど、結局は教育・現場導入・エージェント運用の設計がボトルネックになるのが再確認になった。さらにエネルギーや宇宙の予測は、データ品質と検証プロトコル次第で信頼性が決まる。科学と社会実装の往復が鍵だと感じる。",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:03+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040000375571263679",
+    "text": "ロボット、生命科学、計算社会、エネルギー/宇宙まで生成AIの波が一気に広がっていて納得。特に「短期間で何が加速しているか」を俯瞰する視点が良い。今後はモデル性能より、データ取得と検証ループ設計が勝負になりそう。",
+    "articleId": "2026-04-03-extended-paper-review-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:05+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040000388439400752",
+    "text": "コンテキスト工学を「設計原則」として体系化しつつ、評価時の汚染や整合性崩れまで触れているのが良かった。結局、安全な振る舞いはモデル性能より“前処理・入力・評価の一貫性”で決まると再認識。知覚基盤のモジュール化も運用しやすそう。",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milga5bwmd2o",
+    "text": "Google’s Gemma 4, Microsoft’s Agent Governance Toolkit, and OpenAI’s TBPN acquisition all point to the same shift: agent tech is maturing fast, but governance and evaluation design are becoming the real differentiator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgabggx42t",
+    "text": "Great read on how the agent era is pushing dev infra to evolve: better handoffs, shared “source of truth” docs, and tighter control loops. Love the community angle on Java/Rust/Go implementations and practical DX wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-community-trends-2026-04-03/",
+    "articleId": "2026-04-03-community-trends-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgafoeza2u",
+    "text": "Interesting read connecting agent-based AI in education and business with the research side: how autonomy for “social implementation” changes evaluation, incentives, and risk. The scientific prediction angle makes the w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-daily-2026-04-03/",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgakkfps2b",
+    "text": "Great high-level map of how generative AI plus newer learning theory is rippling across fields like robotics, life sciences, and energy/space. The “wave” framing helps you spot where progress is likely to compoun...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-extended-paper-review-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgaoqvwc2y",
+    "text": "Great paper review. I like how it links context design to safety outcomes, not just “prompting tricks.” The bits on eval contamination/integrity are especially important: if your tests leak, you can’t trust safe behavior ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:30+09:00"
   }
 ]
