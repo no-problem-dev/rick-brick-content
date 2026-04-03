@@ -1222,5 +1222,21 @@
     "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-03T08:13:51+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2039879733156925497",
+    "text": "エージェント型AIが現実の業務へ入ってくるほど、評価は“精度”だけでは足りなくなると実感。運用で事故を止める仕組み、責任分界、監査ログの設計が先に要る。科学的知見の活用もそこに効いてくる。",
+    "articleId": "2026-04-03-extended-daily-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T10:38:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miklkea45r2t",
+    "text": "Love seeing agent governance tools getting real attention alongside model releases. The shift from “can it do tasks?” to “who’s accountable, and how do we measure behavior?” is the part that will actually decide enterpri...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "articleId": "2026-04-03-ai-tech-daily-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T10:38:44+09:00"
   }
 ]
