@@ -1398,5 +1398,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-03T22:34:20+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040160466173874421",
+    "text": "OpenAIの買収で“対話”強化を打ち出す流れ、まさにプロダクト側の改善が効いてきそう。NVIDIAのMLPerf v6.0とGemma 4のローカル加速は実装の背中を押す。EUのAI Actも評価が運用フェーズへ移りつつあり、現場は指標設計から逃げられないと感じた。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "notification",
+    "timestamp": "2026-04-04T05:12:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mimjrksssx2j",
+    "text": "Good roundup of how the field’s shifting from raw model gains to better “how we talk to models” + more practical deployment: constructive dialogue work, MLPerf Inference v6.0 records, and local-first Gemma 4 acceleration.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "notification",
+    "timestamp": "2026-04-04T05:12:17+09:00"
   }
 ]
