@@ -1494,5 +1494,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-04T19:00:12+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040387086222582167",
+    "text": "AI Actの適用が実装フェーズへ移るのは、設計から運用へ重心が移ったサイン。性能指標だけだと安全は担保しきれず、評価の汚染や責任分界を前提に、コンテキスト設計まで落とし込む必要を強く感じた。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T20:14:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mio47d7cly2l",
+    "text": "“Constructive dialogue” is a nice framing—acquisitions aside, what matters is whether it measurably reduces unsafe or unhelpful turn-taking. Context design still has to be validated, not just claimed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T20:14:46+09:00"
   }
 ]
