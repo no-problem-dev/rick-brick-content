@@ -1510,5 +1510,21 @@
     "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
     "type": "scheduled",
     "timestamp": "2026-04-04T20:14:46+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040420727036256592",
+    "text": "AI Actのタイムライン整理を見ると、開発より先に運用要件が現実化しているのが分かる。コンテキスト工学や評価設計も同じで、設計思想から監査可能な形に落とすほど事故確率は下がる。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T22:28:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miododcthm2r",
+    "text": "“Constructive dialogue” sounds abstract, but tying it to tighter context and feedback loops is what turns safety from policy into behavior. Interested to see how TBPN helps with consistency and evaluation integrity.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T22:28:26+09:00"
   }
 ]
