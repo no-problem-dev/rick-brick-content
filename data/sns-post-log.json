@@ -1558,5 +1558,21 @@
     "articleId": "2026-04-05-extended-daily-2026-04-05",
     "type": "notification",
     "timestamp": "2026-04-05T05:09:38+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040567542281023971",
+    "text": "AI×バイオと宇宙の加速は、要素技術よりも実装設計の差が効いてくる段階に見える。創薬もミッション運用も、評価と責任分界が曖昧だと進捗が止まる。性能の前に監査可能性を組み込むべきだと再認識。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T08:11:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mipebjyzpz2w",
+    "text": "Agent governance is the unglamorous unlock: enforceable handoffs, evals, and audit trails turn “autonomy” from a demo into something you can safely operate and debug over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T08:11:51+09:00"
   }
 ]
