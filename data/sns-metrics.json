@@ -2168,5 +2168,439 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039798361843273804",
+    "text": "Gemma 4の公開でモデル競争が加速する一方、Agent Governance Toolkitのリリースが刺さった。エージェントは“作る”より“壊れない運用”が難所で、評価設計と責任分界を先に固めないと結局止まる、という感覚に同意。",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:21+09:00",
+    "collectedAt": "2026-04-05T04:10:48+09:00",
+    "metrics": {
+      "impressions": 22,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 11
+  },
+  {
+    "platform": "x",
+    "postId": "2039798375973789748",
+    "text": "自律研究が主役になる一方で、教育現場の“使い方”設計や、エージェント型AIの業務移行では評価と責任の置き場が論点になっているのが納得。予測の高度化も、前提データと検証プロセスを固定しないと再現性で詰まりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:25+09:00",
+    "collectedAt": "2026-04-05T04:10:49+09:00",
+    "metrics": {
+      "impressions": 17,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 10.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijzercdyk2e",
+    "text": "Big news in agent-land: Gemma 4 adds momentum, Microsoft’s Agent Governance Toolkit spotlights the “rules of the road,” and OpenAI’s TBPN move signals consolidation. The real story is shifting from demos to governance.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:29+09:00",
+    "collectedAt": "2026-04-05T04:10:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mijzew5bu52r",
+    "text": "Really interesting read on where “autonomous research” meets real-world use: education adoption, agent-based workflows in business, and prediction tech in energy. The takeaway: success is governance + deployment, not ju...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-daily-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T05:13:34+09:00",
+    "collectedAt": "2026-04-05T04:10:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039843268356354522",
+    "text": "Agent Governance Toolkitの類が出そろうほど、AIの価値は性能より“運用の型”で決まると実感。自動化を進めるほど監査ログ、責任分界、評価指標の更新頻度が重要になり、設計は後追いできない。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T08:13:48+09:00",
+    "collectedAt": "2026-04-05T04:10:51+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mikdhblmui2h",
+    "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T08:13:51+09:00",
+    "collectedAt": "2026-04-05T04:10:52+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 12
+  },
+  {
+    "platform": "x",
+    "postId": "2039879733156925497",
+    "text": "エージェント型AIが現実の業務へ入ってくるほど、評価は“精度”だけでは足りなくなると実感。運用で事故を止める仕組み、責任分界、監査ログの設計が先に要る。科学的知見の活用もそこに効いてくる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T10:38:42+09:00",
+    "collectedAt": "2026-04-05T04:10:52+09:00",
+    "metrics": {
+      "impressions": 11,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 10.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miklkea45r2t",
+    "text": "Love seeing agent governance tools getting real attention alongside model releases. The shift from “can it do tasks?” to “who’s accountable, and how do we measure behavior?” is the part that will actually decide enterpri...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T10:38:44+09:00",
+    "collectedAt": "2026-04-05T04:10:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039914863061794923",
+    "text": "エージェント指向が進むほど、結局差が出るのは運用設計だと実感。権限分離と評価基準を先に固定しないと、性能が伸びても事故時の説明責任が崩れる。科学的検証を日々の監査に落とし込む発想が鍵。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T12:58:18+09:00",
+    "collectedAt": "2026-04-05T04:10:53+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miktdx25742r",
+    "text": "The real jump with agent governance tools is pushing teams to formalize handoffs, evals, and failure modes early. That’s what turns “autonomous” from a demo into something you can operate safely in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T12:58:18+09:00",
+    "collectedAt": "2026-04-05T04:10:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2039939886560506326",
+    "text": "エージェント指向の進化と同時に、ガバナンスや評価設計が“後付け”から“前提”へ移ってきたのが印象的。運用監査や責任分界まで決めないと、賢さが増えるほど事故の検知が遅れる。研究の自動化には、検証プロセスの設計が本体だと再認識。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T14:37:44+09:00",
+    "collectedAt": "2026-04-05T04:10:54+09:00",
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 10
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mikyvqsfl52u",
+    "text": "The agent governance toolkit angle is the part people gloss over: once you move from demos to real workflows, you need clear boundaries, evaluation, and auditable control loops or the autonomy debt catches up fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T14:37:45+09:00",
+    "collectedAt": "2026-04-05T04:10:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040000345116491813",
+    "text": "Gemma 4の公開でモデル供給がさらに増え、Agent Governance Toolkitの登場で“作って終わり”が通らなくなってきた感。TBPN買収も含め、エージェント時代は性能競争と同じくらい評価設計・監査設計が勝敗を分けそう。",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:35:58+09:00",
+    "collectedAt": "2026-04-05T04:10:56+09:00",
+    "metrics": {
+      "impressions": 19,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 9.5
+  },
+  {
+    "platform": "x",
+    "postId": "2040000354973057362",
+    "text": "エージェント×開発基盤の話がコミュニティで一段進んでて、実装言語（Java/Rust/Go）ごとの運用知見が効いてる印象。MCP的連携やAIツール管理も“作って終わり”じゃなくセキュリティ・評価まで含めて議論されてるのが良い。",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:00+09:00",
+    "collectedAt": "2026-04-05T04:10:56+09:00",
+    "metrics": {
+      "impressions": 29,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 14.5
+  },
+  {
+    "platform": "x",
+    "postId": "2040000365475631503",
+    "text": "自律研究が進むほど、結局は教育・現場導入・エージェント運用の設計がボトルネックになるのが再確認になった。さらにエネルギーや宇宙の予測は、データ品質と検証プロトコル次第で信頼性が決まる。科学と社会実装の往復が鍵だと感じる。",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:03+09:00",
+    "collectedAt": "2026-04-05T04:10:57+09:00",
+    "metrics": {
+      "impressions": 0,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040000375571263679",
+    "text": "ロボット、生命科学、計算社会、エネルギー/宇宙まで生成AIの波が一気に広がっていて納得。特に「短期間で何が加速しているか」を俯瞰する視点が良い。今後はモデル性能より、データ取得と検証ループ設計が勝負になりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:05+09:00",
+    "collectedAt": "2026-04-05T04:10:57+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "x",
+    "postId": "2040000388439400752",
+    "text": "コンテキスト工学を「設計原則」として体系化しつつ、評価時の汚染や整合性崩れまで触れているのが良かった。結局、安全な振る舞いはモデル性能より“前処理・入力・評価の一貫性”で決まると再認識。知覚基盤のモジュール化も運用しやすそう。",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:08+09:00",
+    "collectedAt": "2026-04-05T04:10:58+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milga5bwmd2o",
+    "text": "Google’s Gemma 4, Microsoft’s Agent Governance Toolkit, and OpenAI’s TBPN acquisition all point to the same shift: agent tech is maturing fast, but governance and evaluation design are becoming the real differentiator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:12+09:00",
+    "collectedAt": "2026-04-05T04:10:59+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgabggx42t",
+    "text": "Great read on how the agent era is pushing dev infra to evolve: better handoffs, shared “source of truth” docs, and tighter control loops. Love the community angle on Java/Rust/Go implementations and practical DX wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-community-trends-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:16+09:00",
+    "collectedAt": "2026-04-05T04:10:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgafoeza2u",
+    "text": "Interesting read connecting agent-based AI in education and business with the research side: how autonomy for “social implementation” changes evaluation, incentives, and risk. The scientific prediction angle makes the w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-daily-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:21+09:00",
+    "collectedAt": "2026-04-05T04:11:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgakkfps2b",
+    "text": "Great high-level map of how generative AI plus newer learning theory is rippling across fields like robotics, life sciences, and energy/space. The “wave” framing helps you spot where progress is likely to compoun...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-extended-paper-review-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:26+09:00",
+    "collectedAt": "2026-04-05T04:11:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milgaoqvwc2y",
+    "text": "Great paper review. I like how it links context design to safety outcomes, not just “prompting tricks.” The bits on eval contamination/integrity are especially important: if your tests leak, you can’t trust safe behavior ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "notification",
+    "timestamp": "2026-04-03T18:36:30+09:00",
+    "collectedAt": "2026-04-05T04:11:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040007263704781027",
+    "text": "論文レビュー系はコンテキスト設計と安全を“別物”ではなく一連の制御として扱うのが鍵だと感じる。汚染や整合性の評価を早めに組み込むほど、性能の上振れがそのまま事故回避につながる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T19:05:28+09:00",
+    "collectedAt": "2026-04-05T04:11:01+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milhuipk3v2x",
+    "text": "Context design as the lever for safety is the key takeaway: if integrity and evaluation get contaminated, all the “safe behavior” results can be illusions. Modular frameworks here seem like a much-needed reality check.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T19:05:29+09:00",
+    "collectedAt": "2026-04-05T04:11:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040026614377885956",
+    "text": "拡張論文レビューの切り口が刺さる。生成AIは“賢さ”より、研究工程の接続部（データ→評価→実験）をどこまで自動化できるかが勝負だと再確認。文脈設計と測定設計が進むほど、分野横断の再利用性が高まる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T20:22:21+09:00",
+    "collectedAt": "2026-04-05T04:11:03+09:00",
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3milm5yq2rx2r",
+    "text": "Context design is the unglamorous lever for safety: small mistakes in what models see (and how eval data is contaminated) can quietly erase “good behavior” during testing. Really liked the modular framing—it matches real ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T20:22:22+09:00",
+    "collectedAt": "2026-04-05T04:11:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040059822763110774",
+    "text": "コンテキスト設計が安全の“土台”という視点に納得。入力の整合性や汚染耐性を先に潰さないと、評価が後追いで空回りしがちだ。評価設計はモデル性能ではなく運用の前提条件を検証する作業だと再認識。",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T22:34:19+09:00",
+    "collectedAt": "2026-04-05T04:11:04+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miltjxkht32j",
+    "text": "“Context design” as the lever for safe behavior is the missing link for a lot of teams. The paper review’s point about evaluation contamination/integrity really resonates: safety claims fall apart without clean, modular t...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-03T22:34:20+09:00",
+    "collectedAt": "2026-04-05T04:11:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
