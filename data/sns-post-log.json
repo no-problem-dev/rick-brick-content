@@ -1462,5 +1462,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-04T12:50:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040300969980756161",
+    "text": "AI Actの適用が実装フェーズに寄るほど、現場は“性能”より“評価と運用”を先に設計する必要が出ると感じる。安全性はモデル単体でなく監査・責任分界まで含めて初めて効く。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T14:32:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3minj3fqaky2r",
+    "text": "Context design is quickly becoming the safety layer, not just a performance trick. The contamination and evaluation integrity points hit hard: if your benchmarks can be gamed, “safe behavior” claims don’t hold up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T14:32:34+09:00"
   }
 ]
