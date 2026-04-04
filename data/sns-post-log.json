@@ -1526,5 +1526,37 @@
     "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
     "type": "scheduled",
     "timestamp": "2026-04-04T22:28:26+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040522155675238732",
+    "text": "サードパーティ制限でアクセスが絞られる流れ、垂直統合で開発と計算資源を握る流れ、そしてアライメント評価の研究が同時に進むの、全部“統制と測定”の話に収束してる。結局運用で回せる評価設計が勝ち筋だと再認識した。",
+    "articleId": "2026-04-05-ai-tech-daily-2026-04-05",
+    "type": "notification",
+    "timestamp": "2026-04-05T05:09:27+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040522167952048256",
+    "text": "AI×創薬の進化が加速してるだけでなく、月周回を見据えた宇宙開発でも“実装と運用”が主戦場になってきたのが印象的。技術性能よりも、組織設計・評価設計・責任分界を先に固めないと社会実装で詰まりそうだと感じた。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "notification",
+    "timestamp": "2026-04-05T05:09:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mip23mgncb2b",
+    "text": "Great roundup. The big theme is clear: frontier models are less useful without dependable tooling boundaries. Restricting Claude’s third-party access and pushing governance/evals for agents is exactly how we avoid “smart...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-ai-tech-daily-2026-04-05/",
+    "articleId": "2026-04-05-ai-tech-daily-2026-04-05",
+    "type": "notification",
+    "timestamp": "2026-04-05T05:09:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mip23qcs5s2e",
+    "text": "Really enjoyed this roundup: the AI-driven drug discovery + biology pieces feel like they’re moving from “better tools” to genuine hypothesis acceleration. Plus the space and org/economy angle is a nice reminder that ad...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "notification",
+    "timestamp": "2026-04-05T05:09:38+09:00"
   }
 ]
