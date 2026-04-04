@@ -1430,5 +1430,21 @@
     "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
     "type": "scheduled",
     "timestamp": "2026-04-04T08:13:57+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040242153092243883",
+    "text": "コンテキスト工学が“安全”と直結しつつあるのが印象的。プロンプトの整合性だけでなく、汚染や評価の抜け穴を先回りする設計思考が要になる。運用では知覚モジュールの境界も鍵。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T10:38:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3min3zjcsst2r",
+    "text": "“Constructive dialogue” is a smart direction: acquisitions aside, the real win is shaping agent behavior via context + evaluation, not just bigger models. If dialogue feels more bounded and testable, safety work accelera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T10:38:52+09:00"
   }
 ]
