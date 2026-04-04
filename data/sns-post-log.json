@@ -1478,5 +1478,21 @@
     "articleId": "2026-04-03-paper-review-2026-04-03",
     "type": "scheduled",
     "timestamp": "2026-04-04T14:32:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040368323947282933",
+    "text": "AI Actのタイムライン整理は現場にとって助けになる一方、実装が進むほど“何をどう証明するか”の比重が増える。安全は訓練時だけでなく評価と運用で破綻点を潰す設計が要。",
+    "articleId": "2026-04-04-ai-tech-daily-2026-04-04",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T19:00:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3minxzy7tcb2r",
+    "text": "Context design is the underappreciated safety lever. The paper’s angle on evaluation contamination and modularizing behavior is a solid reminder that “it worked in tests” isn’t the same as “it stays safe” in the wild.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "articleId": "2026-04-03-paper-review-2026-04-03",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T19:00:12+09:00"
   }
 ]
