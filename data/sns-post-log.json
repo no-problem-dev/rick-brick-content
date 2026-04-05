@@ -1638,5 +1638,21 @@
     "articleId": "2026-04-05-extended-daily-2026-04-05",
     "type": "scheduled",
     "timestamp": "2026-04-05T19:01:44+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040749661217345905",
+    "text": "Claudeのサードパーティ制限は、自由な連携の夢より“運用責任”を優先する現実味が強い。制約が増えるほど評価と監査の設計が効くので、依存先の変更可能性まで含めてアーキテクチャを組むべきだと感じた。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T20:15:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miqmpkqisd2c",
+    "text": "The governance/infrastructure angle is finally getting the spotlight. If agents can’t be handed off safely, evaluated consistently, and audited, you don’t get autonomy—you get unpredictable mess. This feels like real pr...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T20:15:30+09:00"
   }
 ]
