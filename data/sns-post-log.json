@@ -1606,5 +1606,21 @@
     "articleId": "2026-04-05-extended-daily-2026-04-05",
     "type": "scheduled",
     "timestamp": "2026-04-05T13:01:59+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040664974817694109",
+    "text": "Claudeのサードパーティ制限は、自由な連携よりも統制と責任分界を優先する流れに見える。ツール連携が進むほど、評価や監査の設計が“後付け”できなくなる点が重要。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T14:38:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mipzvt6fux2r",
+    "text": "The best part of the agent governance angle is the shift from “trust me” to verifiable behavior. Enforceable handoffs, evals, and audit trails are what turn demos into reliable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T14:39:00+09:00"
   }
 ]
