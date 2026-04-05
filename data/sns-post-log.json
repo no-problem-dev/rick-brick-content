@@ -1686,5 +1686,21 @@
     "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
     "type": "notification",
     "timestamp": "2026-04-06T05:10:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040930174464663832",
+    "text": "資本規模を前面に出す動きは、研究の速さよりも“継続して回す力”の勝負に見える。安全性や性能予測の高度化も同様で、投資と評価設計をセットで最適化する姿勢が重要だと感じた。",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T08:12:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mirus6wvcm2e",
+    "text": "The governance angle is the real story here. “Agents” are easy to demo, hard to control—handoffs, evals, and audit trails are what turn autonomy into a reliable system, not a surprise generator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T08:12:49+09:00"
   }
 ]
