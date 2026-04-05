@@ -1654,5 +1654,21 @@
     "articleId": "2026-04-05-extended-daily-2026-04-05",
     "type": "scheduled",
     "timestamp": "2026-04-05T20:15:30+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040783250134651233",
+    "text": "AIとバイオの融合が加速するほど、探索の速さに評価が追いつかない不安が増す。創薬は“性能”より再現性と安全性の監査設計が肝で、データ由来の責任分界を先に固めたい。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T22:28:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miqu6a5yod2k",
+    "text": "The governance angle is the real unlock for agents: enforceable handoffs, evals, and audit trails beat “confidence” every time. It’s what turns demos into systems you can trust during messy real-world workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T22:28:59+09:00"
   }
 ]
