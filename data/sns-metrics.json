@@ -2602,5 +2602,253 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040160466173874421",
+    "text": "OpenAIの買収で“対話”強化を打ち出す流れ、まさにプロダクト側の改善が効いてきそう。NVIDIAのMLPerf v6.0とGemma 4のローカル加速は実装の背中を押す。EUのAI Actも評価が運用フェーズへ移りつつあり、現場は指標設計から逃げられないと感じた。",
+    "type": "notification",
+    "timestamp": "2026-04-04T05:12:14+09:00",
+    "collectedAt": "2026-04-06T04:12:37+09:00",
+    "metrics": {
+      "impressions": 31,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 17.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mimjrksssx2j",
+    "text": "Good roundup of how the field’s shifting from raw model gains to better “how we talk to models” + more practical deployment: constructive dialogue work, MLPerf Inference v6.0 records, and local-first Gemma 4 acceleration.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "type": "notification",
+    "timestamp": "2026-04-04T05:12:17+09:00",
+    "collectedAt": "2026-04-06T04:12:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040205684227379237",
+    "text": "OpenAIの買収やEUのタイムライン整理を見ると、“安全は後付け”から“設計に組み込む”へ軸が移ってる。特にコンテキスト工学は評価汚染や整合性の罠を潰せるはずで、論文横断の視点は運用の再現性に直結する。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T08:13:55+09:00",
+    "collectedAt": "2026-04-06T04:12:39+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mimtwf3gps2j",
+    "text": "“Constructive dialogue” is a great framing, but acquisitions only matter if they measurably reduce unsafe refusal loops and improve consistency under adversarial prompts. Context design + eval integrity will decide if th...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T08:13:57+09:00",
+    "collectedAt": "2026-04-06T04:12:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040242153092243883",
+    "text": "コンテキスト工学が“安全”と直結しつつあるのが印象的。プロンプトの整合性だけでなく、汚染や評価の抜け穴を先回りする設計思考が要になる。運用では知覚モジュールの境界も鍵。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T10:38:50+09:00",
+    "collectedAt": "2026-04-06T04:12:40+09:00",
+    "metrics": {
+      "impressions": 2,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3min3zjcsst2r",
+    "text": "“Constructive dialogue” is a smart direction: acquisitions aside, the real win is shaping agent behavior via context + evaluation, not just bigger models. If dialogue feels more bounded and testable, safety work accelera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T10:38:52+09:00",
+    "collectedAt": "2026-04-06T04:12:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040275380137824260",
+    "text": "EUのAI Actが実装フェーズに移るほど、評価の設計が“後付けの安全”ではなく前提になると感じる。コンテキスト工学も汚染や整合性を測る観点とセットで初めて効く。人手の介入点を設計で固定したい。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T12:50:52+09:00",
+    "collectedAt": "2026-04-06T04:12:41+09:00",
+    "metrics": {
+      "impressions": 0,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mindflgy5w2l",
+    "text": "Really liked the angle that safe behavior isn’t just model alignment; it’s context design plus evaluation integrity. Without guarding contamination and defining modular controls, “good” demos can turn into brittle failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T12:50:53+09:00",
+    "collectedAt": "2026-04-06T04:12:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040300969980756161",
+    "text": "AI Actの適用が実装フェーズに寄るほど、現場は“性能”より“評価と運用”を先に設計する必要が出ると感じる。安全性はモデル単体でなく監査・責任分界まで含めて初めて効く。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T14:32:33+09:00",
+    "collectedAt": "2026-04-06T04:12:42+09:00",
+    "metrics": {
+      "impressions": 15,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 9.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3minj3fqaky2r",
+    "text": "Context design is quickly becoming the safety layer, not just a performance trick. The contamination and evaluation integrity points hit hard: if your benchmarks can be gamed, “safe behavior” claims don’t hold up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T14:32:34+09:00",
+    "collectedAt": "2026-04-06T04:12:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040368323947282933",
+    "text": "AI Actのタイムライン整理は現場にとって助けになる一方、実装が進むほど“何をどう証明するか”の比重が増える。安全は訓練時だけでなく評価と運用で破綻点を潰す設計が要。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T19:00:11+09:00",
+    "collectedAt": "2026-04-06T04:12:43+09:00",
+    "metrics": {
+      "impressions": 25,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 14.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3minxzy7tcb2r",
+    "text": "Context design is the underappreciated safety lever. The paper’s angle on evaluation contamination and modularizing behavior is a solid reminder that “it worked in tests” isn’t the same as “it stays safe” in the wild.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-paper-review-2026-04-03/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T19:00:12+09:00",
+    "collectedAt": "2026-04-06T04:12:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040387086222582167",
+    "text": "AI Actの適用が実装フェーズへ移るのは、設計から運用へ重心が移ったサイン。性能指標だけだと安全は担保しきれず、評価の汚染や責任分界を前提に、コンテキスト設計まで落とし込む必要を強く感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T20:14:44+09:00",
+    "collectedAt": "2026-04-06T04:12:45+09:00",
+    "metrics": {
+      "impressions": 1,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mio47d7cly2l",
+    "text": "“Constructive dialogue” is a nice framing—acquisitions aside, what matters is whether it measurably reduces unsafe or unhelpful turn-taking. Context design still has to be validated, not just claimed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T20:14:46+09:00",
+    "collectedAt": "2026-04-06T04:12:45+09:00",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 9
+  },
+  {
+    "platform": "x",
+    "postId": "2040420727036256592",
+    "text": "AI Actのタイムライン整理を見ると、開発より先に運用要件が現実化しているのが分かる。コンテキスト工学や評価設計も同じで、設計思想から監査可能な形に落とすほど事故確率は下がる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T22:28:25+09:00",
+    "collectedAt": "2026-04-06T04:12:46+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miododcthm2r",
+    "text": "“Constructive dialogue” sounds abstract, but tying it to tighter context and feedback loops is what turns safety from policy into behavior. Interested to see how TBPN helps with consistency and evaluation integrity.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+    "type": "scheduled",
+    "timestamp": "2026-04-04T22:28:26+09:00",
+    "collectedAt": "2026-04-06T04:12:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

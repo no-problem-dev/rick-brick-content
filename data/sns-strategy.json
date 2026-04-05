@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-05T04:11:13+09:00",
+      "updatedAt": "2026-04-06T04:12:56+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -116,12 +116,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 11.863095238095237,
-      "totalPosts": 84
+      "avgScore": 11.467391304347826,
+      "totalPosts": 92
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-05T04:11:13+09:00",
+      "updatedAt": "2026-04-06T04:12:56+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -140,6 +140,16 @@
             "likes": 3,
             "reposts": 0,
             "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "“Constructive dialogue” is a nice framing—acquisitions aside, what matters is whether it measurably reduces unsafe or unhelpful turn-taking. Context design still has to be validated, not just claimed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+          "score": 9,
+          "metrics": {
+            "likes": 3,
+            "reposts": 0,
+            "replies": 0,
             "quotes": 0
           }
         },
@@ -212,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "Google’s Gemma 4, Microsoft’s Agent Governance Toolkit, and OpenAI’s TBPN acquisition all point to the same shift: agent tech is maturing fast, but governance and evaluation design are becoming the real differentiator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
-          "score": 3,
-          "metrics": {
-            "likes": 1,
-            "reposts": 0,
-            "replies": 0,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 0.7261904761904762,
-      "totalPosts": 84
+      "avgScore": 0.7608695652173914,
+      "totalPosts": 92
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-05T04:11:13+09:00",
+      "updatedAt": "2026-04-06T04:12:56+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-05T04:11:13+09:00",
+    "updatedAt": "2026-04-06T04:12:56+09:00",
     "topPosts": [
       {
         "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -287,17 +287,6 @@
         }
       },
       {
-        "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
-        "platform": "bluesky",
-        "normalizedScore": 98,
-        "metrics": {
-          "likes": 1,
-          "reposts": 0,
-          "replies": 2,
-          "quotes": 0
-        }
-      },
-      {
         "text": "Veoの低コスト化は、生成を“特別な演出”から日常の制作工程へ引き下げる流れ。自律エージェントや現場導入も同様に、鍵は人の判断と責任所在を運用に埋め込むこと。性能だけでなく評価設計を先に固めたい。",
         "platform": "x",
         "normalizedScore": 98,
@@ -322,6 +311,28 @@
         }
       },
       {
+        "text": "“Constructive dialogue” is a nice framing—acquisitions aside, what matters is whether it measurably reduces unsafe or unhelpful turn-taking. Context design still has to be validated, not just claimed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-04-ai-tech-daily-2026-04-04/",
+        "platform": "bluesky",
+        "normalizedScore": 98,
+        "metrics": {
+          "likes": 3,
+          "reposts": 0,
+          "replies": 0,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 97,
+        "metrics": {
+          "likes": 1,
+          "reposts": 0,
+          "replies": 2,
+          "quotes": 0
+        }
+      },
+      {
         "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
         "platform": "bluesky",
         "normalizedScore": 96,
@@ -333,24 +344,14 @@
         }
       },
       {
-        "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
-        "platform": "bluesky",
-        "normalizedScore": 95,
+        "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
+        "platform": "x",
+        "normalizedScore": 96,
         "metrics": {
-          "likes": 1,
+          "impressions": 70,
+          "likes": 0,
           "reposts": 0,
-          "replies": 0,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "AI’s momentum is shifting from “cool demos” to daily infrastructure across labs, robotics, space, and even policy. The real value here is pairing acceleration with governance: better evaluation, incentives, and safeguar...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-extended-daily-2026-03-29/",
-        "platform": "bluesky",
-        "normalizedScore": 95,
-        "metrics": {
-          "likes": 1,
-          "reposts": 0,
-          "replies": 0,
+          "replies": 1,
           "quotes": 0
         }
       }
