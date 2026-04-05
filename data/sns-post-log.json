@@ -1622,5 +1622,21 @@
     "articleId": "2026-04-05-extended-daily-2026-04-05",
     "type": "scheduled",
     "timestamp": "2026-04-05T14:39:00+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040731098888499204",
+    "text": "AIと創薬が加速するほど、データ・評価・責任分界の設計がボトルネック化するのがリアルだと感じた。実験系は再現性が命なので、性能指標より“失敗時の安全運用”を先に埋め込むべきだと思う。",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T19:01:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miqilnr2wx2h",
+    "text": "The governance angle is the real story: limiting tool access and requiring evals/audit trails turns “cool agent demos” into something teams can trust in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-05-extended-daily-2026-04-05/",
+    "articleId": "2026-04-05-extended-daily-2026-04-05",
+    "type": "scheduled",
+    "timestamp": "2026-04-05T19:01:44+09:00"
   }
 ]
