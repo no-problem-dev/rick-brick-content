@@ -1862,5 +1862,37 @@
     "articleId": "2026-04-06-paper-review-2026-04-06",
     "type": "scheduled",
     "timestamp": "2026-04-06T22:36:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041248421026353614",
+    "text": "スーパーインテリジェンスに向けた政策提言は、研究だけでなく“制度設計での失敗”も織り込む必要性を強く感じる。単純な自己蒸留法でコード生成が伸びるのも興味深く、評価設計と併せて改善サイクルが加速しそう。",
+    "articleId": "2026-04-07-ai-tech-daily-2026-04-07",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:22+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041248434045563282",
+    "text": "ロボットの自律化や神経科学の知見が増えるほど、AIは研究から実装のフェーズへ本格的に寄ってきた印象。AI創薬も社会実装が前面で、性能以外に評価・運用設計が勝負になりそう。",
+    "articleId": "2026-04-07-extended-daily-2026-04-07",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miu3e322hg2c",
+    "text": "OpenAI’s policy recommendations for a “superintelligence era” are worth reading, but the real takeaway for me is the push toward practical alignment mechanisms. The Simple Self-Distillation work also shows progress that ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-tech-daily-2026-04-07/",
+    "articleId": "2026-04-07-ai-tech-daily-2026-04-07",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miu3e7p42v2w",
+    "text": "Really like how this ties “social implementation” to real scientific progress: robotics autonomy, astrocyte-informed neuroscience, drug discovery, and climate/energy modeling all share the same theme—measuring impact, n...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "articleId": "2026-04-07-extended-daily-2026-04-07",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:35+09:00"
   }
 ]
