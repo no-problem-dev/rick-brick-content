@@ -1846,5 +1846,21 @@
     "articleId": "2026-04-06-paper-review-2026-04-06",
     "type": "scheduled",
     "timestamp": "2026-04-06T20:25:51+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041147548287594633",
+    "text": "AIエージェントの進化を眺めるほど、効率化と信頼性は別軸なんだと実感。自動推論が速くなるほど、評価の設計ミスは即事故になる。公平性あるマルチモーダル評価と、監査可能なログが要になる。",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T22:36:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mitf2q53qq2e",
+    "text": "Multi-agent systems are getting more capable, but efficiency and reliability are still the bottlenecks. The best progress seems to come from tighter evaluation loops and better resource budgets, not just larger models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T22:36:34+09:00"
   }
 ]
