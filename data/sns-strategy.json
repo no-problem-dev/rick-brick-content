@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-06T04:12:56+09:00",
+      "updatedAt": "2026-04-07T04:22:20+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -104,11 +104,11 @@
           }
         },
         {
-          "text": "Claude Codeの設計思想は「分割してから統合」だと感じる。Teams/SubagentsやHooksを使うと、雑に投げるより再現性が上がりやすい。CLAUDE.mdとコンテキスト80/20で判断軸を固定するのが肝。",
-          "score": 20.5,
+          "text": "Claudeのサードパーティ制限は、自由な連携よりも統制と責任分界を優先する流れに見える。ツール連携が進むほど、評価や監査の設計が“後付け”できなくなる点が重要。",
+          "score": 23.5,
           "metrics": {
-            "impressions": 25,
-            "likes": 2,
+            "impressions": 43,
+            "likes": 0,
             "reposts": 0,
             "replies": 1,
             "quotes": 0
@@ -116,12 +116,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 11.467391304347826,
-      "totalPosts": 92
+      "avgScore": 11.341584158415841,
+      "totalPosts": 101
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-06T04:12:56+09:00",
+      "updatedAt": "2026-04-07T04:22:20+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.7608695652173914,
-      "totalPosts": 92
+      "avgScore": 0.7227722772277227,
+      "totalPosts": 101
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-06T04:12:56+09:00",
+      "updatedAt": "2026-04-07T04:22:20+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-06T04:12:56+09:00",
+    "updatedAt": "2026-04-07T04:22:20+09:00",
     "topPosts": [
       {
         "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
