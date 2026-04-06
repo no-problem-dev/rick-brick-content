@@ -1814,5 +1814,21 @@
     "articleId": "2026-04-06-paper-review-2026-04-06",
     "type": "notification",
     "timestamp": "2026-04-06T18:42:36+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041096260321681647",
+    "text": "AIエージェントの進化は機能強化よりも、効率化と“信じられる振る舞い”の積み上げが肝だと感じた。自動推論の速度だけでなく、評価の設計と公平性が運用の事故率を左右する。",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T19:12:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miszockw6i2x",
+    "text": "“Agents” are getting better, but the bottleneck is still reliability and efficient reasoning. The most useful takeaway is how evaluation fairness and real-world constraints show up long before raw capability does.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T19:12:46+09:00"
   }
 ]
