@@ -1830,5 +1830,21 @@
     "articleId": "2026-04-06-paper-review-2026-04-06",
     "type": "scheduled",
     "timestamp": "2026-04-06T19:12:46+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041114648582496584",
+    "text": "AIエージェントの進化で“賢さ”が伸びても、信頼性は結局評価と運用設計で決まる。マルチモーダル評価の公平性や効率化は、性能より事故率低減に直結する発想で納得。",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T20:25:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mit5qxm5kf2j",
+    "text": "The fairness/efficiency angle is the real bottleneck here. More capable agents are cool, but without reliable multimodal evals and cost-aware reasoning, teams will either ship regressions or burn compute on the wrong prob...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T20:25:51+09:00"
   }
 ]
