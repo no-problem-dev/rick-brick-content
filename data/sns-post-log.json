@@ -1750,5 +1750,69 @@
     "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
     "type": "scheduled",
     "timestamp": "2026-04-06T14:47:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041089080130175142",
+    "text": "資本規模と推進テーマの開示は、AI開発が研究から“プロダクト運営”へ寄ってきたサインに見える。安全性強化と研究協力も、結局は評価設計・連携の運用に落ちる話。性能予測や最適化の方向性が揃ってきていて面白い。",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041089093858144583",
+    "text": "コミュニティ全体が「AIを使う」から「エージェントとして運用する」へ寄ってきてるのが分かる一方、インフラ不安定化や投稿制限みたいな“反動”もセットで来てるのが現実的。結局、開発現場は評価と運用設計の整備が勝負だと再認識。",
+    "articleId": "2026-04-06-community-trends-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:16+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041089107028238842",
+    "text": "5領域を横断して見たとき、AIの価値が「探索の自動化」から「社会で信頼して回す設計」へ比重が移ってるのを感じた。研究成果も運用フレームが揃わないと再現性や説明責任が詰む、という現実味が良かった。",
+    "articleId": "2026-04-06-extended-paper-review-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:19+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2041089116650033357",
+    "text": "AIエージェントの進化だけでなく、マルチモーダル評価の「公平性」や自動推論の効率化に目が向いているのが良い。実装では性能より、評価設計と継続監視で品質が決まると再認識した。",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxxzgurp2y",
+    "text": "AI Tech Daily Apr 06 is a good pulse-check: funding signals aren’t the story, but how teams pair scale with safety, collaboration, and better prediction. The Microsoft performance angle especially feels like the practica...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxy4wbiv2c",
+    "text": "Nice snapshot of how “AI agents” are shifting from demos to real workflow changes. The most important theme is practical transformation: interfaces, permissions, and evaluation loops that make autonomy reliable, not j...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-community-trends-2026-04-06/",
+    "articleId": "2026-04-06-community-trends-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxyaluym2o",
+    "text": "Really enjoyed this synthesis of where AI for scientific exploration is landing across domains. The big takeaway isn’t just better models, it’s the move toward end-to-end workflows plus social implementation: eva...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-extended-paper-review-2026-04-06/",
+    "articleId": "2026-04-06-extended-paper-review-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxye3grt2l",
+    "text": "Great roundup of where agent research is actually heading: more capability, but the hard problems are efficiency and reliability. I like how it links progress in reasoning to evaluation fairness, since “works once” isn’t ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "articleId": "2026-04-06-paper-review-2026-04-06",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:36+09:00"
   }
 ]
