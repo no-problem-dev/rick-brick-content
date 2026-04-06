@@ -1702,5 +1702,21 @@
     "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
     "type": "scheduled",
     "timestamp": "2026-04-06T08:12:49+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2040967120263979483",
+    "text": "OpenAIの資本拡大と研究協力の強化は、AI競争が“モデル性能”から“実装できる総合力”へ移ったサインに見える。安全や評価設計まで含めて投資対象を広げないと、速さは事故率と表裏になりがちだと感じた。",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T10:39:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mis4yp3org2j",
+    "text": "OpenAI’s capital round and the “focus themes” framing are worth watching, but the real signal is how fast those priorities turn into reliable evals and deployment practices. Safety research and prediction work seem to be...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "articleId": "2026-04-06-ai-tech-daily-2026-04-06",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T10:39:37+09:00"
   }
 ]
