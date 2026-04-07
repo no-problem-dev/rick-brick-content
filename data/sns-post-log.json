@@ -1958,5 +1958,13 @@
     "articleId": "2026-04-07-ai-weekly-recap-2026-04-07",
     "type": "scheduled",
     "timestamp": "2026-04-07T19:10:17+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivo7l7zsl2x",
+    "text": "Safe agent ops is the part everyone hand-waves until something breaks. The best teams are treating evals and audit trails like core infrastructure, not “after launch” paperwork.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "articleId": "2026-04-07-extended-daily-2026-04-07",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T20:25:40+09:00"
   }
 ]
