@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-07T04:22:20+09:00",
+      "updatedAt": "2026-04-08T04:23:54+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-07T04:22:20+09:00",
+      "updatedAt": "2026-04-08T04:23:54+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -174,6 +174,16 @@
           }
         },
         {
+          "text": "The governance angle is the real story here. “Agents” are easy to demo, hard to control—handoffs, evals, and audit trails are what turn autonomy into a reliable system, not a surprise generator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+          "score": 4,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 2,
+            "quotes": 0
+          }
+        },
+        {
           "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
           "score": 3,
           "metrics": {
@@ -212,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "Interesting read on how AI is accelerating beyond demos: drug discovery partnerships, a big shift in space exploration strategy, and the org/finance ripple effects. The key takeaway: the economy adapts when workflows, n...\n\nhttps://oct-rick-brick.com/en/articles/2026-03-31-extended-daily-2026-03-31/",
-          "score": 3,
-          "metrics": {
-            "likes": 1,
-            "reposts": 0,
-            "replies": 0,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 0.7227722772277227,
-      "totalPosts": 101
+      "avgScore": 0.7079646017699115,
+      "totalPosts": 113
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-07T04:22:20+09:00",
+      "updatedAt": "2026-04-08T04:23:54+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-07T04:22:20+09:00",
+    "updatedAt": "2026-04-08T04:23:54+09:00",
     "topPosts": [
       {
         "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",

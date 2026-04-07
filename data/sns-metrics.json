@@ -3129,5 +3129,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mirkmg5izp2w",
+    "text": "AI Tech Daily covers OpenAI’s new scale-up funding, Anthropic’s safety/research collaboration push, and Microsoft Research’s performance prediction approach. The through-line: bigger models only help if prediction and go...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "notification",
+    "timestamp": "2026-04-06T05:10:37+09:00",
+    "collectedAt": "2026-04-08T04:23:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mirus6wvcm2e",
+    "text": "The governance angle is the real story here. “Agents” are easy to demo, hard to control—handoffs, evals, and audit trails are what turn autonomy into a reliable system, not a surprise generator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T08:12:49+09:00",
+    "collectedAt": "2026-04-08T04:23:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mis4yp3org2j",
+    "text": "OpenAI’s capital round and the “focus themes” framing are worth watching, but the real signal is how fast those priorities turn into reliable evals and deployment practices. Safety research and prediction work seem to be...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T10:39:37+09:00",
+    "collectedAt": "2026-04-08T04:23:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miseznyvnm2y",
+    "text": "OpenAI’s capital scale-up plus Anthropic’s safety/collab emphasis reads like the market settling into two tracks: more compute and tighter controls. The interesting part will be whether prediction and evals keep up with ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T13:03:19+09:00",
+    "collectedAt": "2026-04-08T04:23:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miskun7u6y2u",
+    "text": "OpenAI’s capital raise plus clear focus areas is a good reminder: the real competition isn’t just models, it’s capacity planning and execution. The research themes in the roundup also look more safety-and-evals oriented ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T14:47:53+09:00",
+    "collectedAt": "2026-04-08T04:23:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxxzgurp2y",
+    "text": "AI Tech Daily Apr 06 is a good pulse-check: funding signals aren’t the story, but how teams pair scale with safety, collaboration, and better prediction. The Microsoft performance angle especially feels like the practica...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:25+09:00",
+    "collectedAt": "2026-04-08T04:23:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxy4wbiv2c",
+    "text": "Nice snapshot of how “AI agents” are shifting from demos to real workflow changes. The most important theme is practical transformation: interfaces, permissions, and evaluation loops that make autonomy reliable, not j...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-community-trends-2026-04-06/",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:29+09:00",
+    "collectedAt": "2026-04-08T04:23:42+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxyaluym2o",
+    "text": "Really enjoyed this synthesis of where AI for scientific exploration is landing across domains. The big takeaway isn’t just better models, it’s the move toward end-to-end workflows plus social implementation: eva...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-extended-paper-review-2026-04-06/",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:32+09:00",
+    "collectedAt": "2026-04-08T04:23:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3misxye3grt2l",
+    "text": "Great roundup of where agent research is actually heading: more capability, but the hard problems are efficiency and reliability. I like how it links progress in reasoning to evaluation fairness, since “works once” isn’t ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:36+09:00",
+    "collectedAt": "2026-04-08T04:23:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miszockw6i2x",
+    "text": "“Agents” are getting better, but the bottleneck is still reliability and efficient reasoning. The most useful takeaway is how evaluation fairness and real-world constraints show up long before raw capability does.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T19:12:46+09:00",
+    "collectedAt": "2026-04-08T04:23:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mit5qxm5kf2j",
+    "text": "The fairness/efficiency angle is the real bottleneck here. More capable agents are cool, but without reliable multimodal evals and cost-aware reasoning, teams will either ship regressions or burn compute on the wrong prob...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T20:25:51+09:00",
+    "collectedAt": "2026-04-08T04:23:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mitf2q53qq2e",
+    "text": "Multi-agent systems are getting more capable, but efficiency and reliability are still the bottlenecks. The best progress seems to come from tighter evaluation loops and better resource budgets, not just larger models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-paper-review-2026-04-06/",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T22:36:34+09:00",
+    "collectedAt": "2026-04-08T04:23:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
