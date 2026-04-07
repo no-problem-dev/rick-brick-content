@@ -1950,5 +1950,13 @@
     "articleId": "2026-04-07-extended-daily-2026-04-07",
     "type": "notification",
     "timestamp": "2026-04-07T18:31:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivjyr23342j",
+    "text": "Safe agent operations are finally getting real teeth: evals, risk measurement, and some notion of accountability. The missing piece is always enforcement in the workflow, not just a policy doc at the end.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-weekly-recap-2026-04-07/",
+    "articleId": "2026-04-07-ai-weekly-recap-2026-04-07",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T19:10:17+09:00"
   }
 ]
