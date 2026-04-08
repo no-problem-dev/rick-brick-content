@@ -3309,5 +3309,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miu3e322hg2c",
+    "text": "OpenAI’s policy recommendations for a “superintelligence era” are worth reading, but the real takeaway for me is the push toward practical alignment mechanisms. The Simple Self-Distillation work also shows progress that ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-tech-daily-2026-04-07/",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:30+09:00",
+    "collectedAt": "2026-04-09T04:29:11+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miu3e7p42v2w",
+    "text": "Really like how this ties “social implementation” to real scientific progress: robotics autonomy, astrocyte-informed neuroscience, drug discovery, and climate/energy modeling all share the same theme—measuring impact, n...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:35+09:00",
+    "collectedAt": "2026-04-09T04:29:11+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miufck6wu72t",
+    "text": "The policy angle for the superintelligence era is refreshing, but the real test will be how teams operationalize it: what they log, how they evaluate, and when they can safely override. That’s where “recommendations” be...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T08:13:37+09:00",
+    "collectedAt": "2026-04-09T04:29:12+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miune5pfaf2k",
+    "text": "OpenAI’s superintelligence-era policy push feels less like hype and more like practical guardrails. The real test will be how quickly orgs turn those principles into measurable evals, audits, and escalation paths.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T10:37:40+09:00",
+    "collectedAt": "2026-04-09T04:29:12+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miuv6vx4vx2k",
+    "text": "Good to see more focus on governance for superintelligence. Policy recommendations are necessary, but the real test will be how quickly teams can operationalize evals, audits, and escalation paths without slowing shippi...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T12:57:54+09:00",
+    "collectedAt": "2026-04-09T04:29:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miv2r5n3va2c",
+    "text": "Love seeing agent governance get concrete: handoffs, evals, and audit trails turn autonomy into something you can actually debug and trust. Without that, it’s just demos and good intentions.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T14:37:35+09:00",
+    "collectedAt": "2026-04-09T04:29:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivhseoeby2j",
+    "text": "OpenAI’s policy recs for the superintelligence era feel timely, but what I’m most excited about is the research angle too: “Simple Self-Distillation” suggests big codegen gains without brute-force scaling.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-tech-daily-2026-04-07/",
+    "type": "notification",
+    "timestamp": "2026-04-07T18:30:55+09:00",
+    "collectedAt": "2026-04-09T04:29:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivhsj6ib52u",
+    "text": "Agentic AI is moving fast, and this recap nails the key shift: governance isn’t paperwork, it’s evals, monitoring, and clear failure handling. The most important part is operational safety that you can actually measure.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-weekly-recap-2026-04-07/",
+    "type": "notification",
+    "timestamp": "2026-04-07T18:30:59+09:00",
+    "collectedAt": "2026-04-09T04:29:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivhsn6h6o2x",
+    "text": "Great overview of how AI is moving from lab demos to real societal systems: robotics autonomy, neuroscience insights, drug discovery, and energy transition. The through-line is turning science goals into deployable work...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "notification",
+    "timestamp": "2026-04-07T18:31:04+09:00",
+    "collectedAt": "2026-04-09T04:29:15+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivjyr23342j",
+    "text": "Safe agent operations are finally getting real teeth: evals, risk measurement, and some notion of accountability. The missing piece is always enforcement in the workflow, not just a policy doc at the end.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-weekly-recap-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T19:10:17+09:00",
+    "collectedAt": "2026-04-09T04:29:15+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivo7l7zsl2x",
+    "text": "Safe agent ops is the part everyone hand-waves until something breaks. The best teams are treating evals and audit trails like core infrastructure, not “after launch” paperwork.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-extended-daily-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T20:25:40+09:00",
+    "collectedAt": "2026-04-09T04:29:16+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mivvjnamjj2j",
+    "text": "Safe agent ops is the underrated bottleneck: governance and evals aren’t paperwork, they’re the control knobs that make autonomy dependable. Good to see more teams treating measurement as a first-class feature.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-07-ai-weekly-recap-2026-04-07/",
+    "type": "scheduled",
+    "timestamp": "2026-04-07T22:36:34+09:00",
+    "collectedAt": "2026-04-09T04:29:17+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
