@@ -2014,5 +2014,13 @@
     "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T12:58:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixlao2lly2e",
+    "text": "The compute race is the hidden accelerant behind all the “AI in science” headlines. More TPU capacity means faster iterations and cheaper eval cycles, which is where real capability gains show up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T14:37:55+09:00"
   }
 ]
