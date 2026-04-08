@@ -2006,5 +2006,13 @@
     "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T10:39:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixfp3ac5j2l",
+    "text": "The compute arms race is getting real: scaling AI isn’t just model work anymore, it’s energy, chips, and industrial capacity. The interesting part is how quickly “infrastructure-first” teams start shaping product roadmaps.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T12:58:36+09:00"
   }
 ]
