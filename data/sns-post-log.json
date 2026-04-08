@@ -2070,5 +2070,13 @@
     "articleId": "2026-04-08-paper-review-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T19:10:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miy6p2pghj2b",
+    "text": "“Constructive dialogue” is a good lens, but the bar is whether it measurably reduces bad turn-taking over time. Context design can’t be hand-waved; you need evals that catch failure modes, not just average quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "articleId": "2026-04-08-paper-review-2026-04-08",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T20:25:59+09:00"
   }
 ]
