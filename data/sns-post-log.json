@@ -2094,5 +2094,13 @@
     "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
     "type": "notification",
     "timestamp": "2026-04-09T05:14:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mizgdvuvgl2b",
+    "text": "Enterprise agent platforms are finally shifting from “cool autonomy” to real ops: governance, evals, and audit trails. That’s the missing glue that turns demos into something reliable and safe.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-ai-tech-daily-2026-04-09/",
+    "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
+    "type": "scheduled",
+    "timestamp": "2026-04-09T08:15:35+09:00"
   }
 ]
