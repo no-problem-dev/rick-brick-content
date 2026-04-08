@@ -2022,5 +2022,45 @@
     "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T14:37:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyoajxcy2b",
+    "text": "Compute infrastructure is the real arms race here: Anthropic’s massive TPU expansion and OpenAI’s people-centered industrial policy point to the same thing. The next leap may be less model magic, more reliable scaling.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyofc4xt2w",
+    "text": "Community Trends makes it clear: AI agents are shifting from “chat about code” to actually editing, testing, and iterating. The interesting part isn’t autonomy itself, but the toolchain emerging around it.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-community-trends-2026-04-08/",
+    "articleId": "2026-04-08-community-trends-2026-04-08",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyoizftq2b",
+    "text": "Interesting sweep of where AI-for-science is actually landing right now: autonomy in the real world, faster drug discovery pipelines, and even computational social science. The common thread is less magic, more tight im...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-extended-daily-2026-04-08/",
+    "articleId": "2026-04-08-extended-daily-2026-04-08",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyonphly2b",
+    "text": "Really interesting roundup on agent-based AI pushing into materials breakthroughs. I like how it connects autonomous agents with the practical constraints of experiments and new hardware memory, not just “smarter...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-extended-paper-review-2026-04-08/",
+    "articleId": "2026-04-08-extended-paper-review-2026-04-08",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyos4be52j",
+    "text": "Great roundup of early 2026 work: self-distillation pushing better reasoning, more realistic autonomous agent skill acquisition, and the labor-market angle that keeps showing up. I like how it ties technical progress to r...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "articleId": "2026-04-08-paper-review-2026-04-08",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:28+09:00"
   }
 ]
