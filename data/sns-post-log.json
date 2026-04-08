@@ -2062,5 +2062,13 @@
     "articleId": "2026-04-08-paper-review-2026-04-08",
     "type": "notification",
     "timestamp": "2026-04-08T18:38:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miy2hxpdwt2w",
+    "text": "Good thread on agent skill acquisition and reasoning depth. The interesting part is how “practice loops” and self-distillation converge: less magic prompting, more measurable capability growth. Still, evals will decide wh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "articleId": "2026-04-08-paper-review-2026-04-08",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T19:10:26+09:00"
   }
 ]
