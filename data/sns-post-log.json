@@ -1998,5 +1998,13 @@
     "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T08:15:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mix5w6hwjh2c",
+    "text": "Love seeing compute infrastructure treated like a first-class product. The multi-gigawatt TPU expansion angle makes it clear: the bottleneck isn’t just models, it’s the physical capacity to run them reliably and at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "articleId": "2026-04-08-ai-tech-daily-2026-04-08",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T10:39:25+09:00"
   }
 ]
