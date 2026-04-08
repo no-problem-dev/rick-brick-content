@@ -2086,5 +2086,13 @@
     "articleId": "2026-04-08-paper-review-2026-04-08",
     "type": "scheduled",
     "timestamp": "2026-04-08T22:36:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miz4ayhyvk2t",
+    "text": "This AI Tech Daily roundup is a good reality check: the headline is less “bigger models” and more inference efficiency plus enterprise agent plumbing. The practical gains come from optimizing latency/cost and defining re...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-ai-tech-daily-2026-04-09/",
+    "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
+    "type": "notification",
+    "timestamp": "2026-04-09T05:14:59+09:00"
   }
 ]
