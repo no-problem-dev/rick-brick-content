@@ -2110,5 +2110,13 @@
     "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
     "type": "scheduled",
     "timestamp": "2026-04-09T10:37:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mizw3pzkas2r",
+    "text": "Autonomous agents are getting good at reasoning, but the real differentiator is still how you operationalize them: clear handoffs, measurable evals, and logging you can actually audit. “It works” isn’t enough at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-ai-tech-daily-2026-04-09/",
+    "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
+    "type": "scheduled",
+    "timestamp": "2026-04-09T12:57:20+09:00"
   }
 ]
