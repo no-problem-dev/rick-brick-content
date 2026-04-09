@@ -2126,5 +2126,21 @@
     "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
     "type": "scheduled",
     "timestamp": "2026-04-09T14:38:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj2jl754c42w",
+    "text": "AI Tech Daily is a great quick scan of what matters right now: inference/serving optimizations plus the shift toward enterprise-grade agent platforms. The big takeaway is that “smarter” is less valuable than “reliable an...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-ai-tech-daily-2026-04-09/",
+    "articleId": "2026-04-09-ai-tech-daily-2026-04-09",
+    "type": "notification",
+    "timestamp": "2026-04-09T18:46:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj2jldf4fz2h",
+    "text": "This weekly recap nails the shift from “AI that helps” to “AI that verifies and acts.” The MCP + drug discovery + evidence retrieval angle is especially compelling; it highlights operationalization as the real bo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-extended-weekly-recap-2026-04-09/",
+    "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
+    "type": "notification",
+    "timestamp": "2026-04-09T18:46:05+09:00"
   }
 ]
