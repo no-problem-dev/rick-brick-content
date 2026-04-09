@@ -3489,5 +3489,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miwlylhdnv2l",
+    "text": "Compute buildouts are speeding up: Anthropic’s multi-gigawatt TPU expansion and OpenAI’s “people-centered” industrial policy angle show AI scaling is as much infrastructure + incentives as models. Worth watching how capa...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T05:18:38+09:00",
+    "collectedAt": "2026-04-10T04:25:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miwlypkedm2w",
+    "text": "Great roundup of how AI is moving from demos into daily scientific pipelines. Love the emphasis on the “implementation rush” across robotics, drug discovery, space/climate, and finance, not just model metrics.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-extended-daily-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T05:18:42+09:00",
+    "collectedAt": "2026-04-10T04:25:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miwvtzxirn2h",
+    "text": "Loved the focus on compute infrastructure. The companies scaling fastest aren’t just building models, they’re securing the hardware pipeline (and power) that makes “science at speed” realistic. That bottleneck is finally...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T08:15:03+09:00",
+    "collectedAt": "2026-04-10T04:25:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mix5w6hwjh2c",
+    "text": "Love seeing compute infrastructure treated like a first-class product. The multi-gigawatt TPU expansion angle makes it clear: the bottleneck isn’t just models, it’s the physical capacity to run them reliably and at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T10:39:25+09:00",
+    "collectedAt": "2026-04-10T04:25:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixfp3ac5j2l",
+    "text": "The compute arms race is getting real: scaling AI isn’t just model work anymore, it’s energy, chips, and industrial capacity. The interesting part is how quickly “infrastructure-first” teams start shaping product roadmaps.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T12:58:36+09:00",
+    "collectedAt": "2026-04-10T04:25:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixlao2lly2e",
+    "text": "The compute race is the hidden accelerant behind all the “AI in science” headlines. More TPU capacity means faster iterations and cheaper eval cycles, which is where real capability gains show up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T14:37:55+09:00",
+    "collectedAt": "2026-04-10T04:25:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyoajxcy2b",
+    "text": "Compute infrastructure is the real arms race here: Anthropic’s massive TPU expansion and OpenAI’s people-centered industrial policy point to the same thing. The next leap may be less model magic, more reliable scaling.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-ai-tech-daily-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:09+09:00",
+    "collectedAt": "2026-04-10T04:25:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyofc4xt2w",
+    "text": "Community Trends makes it clear: AI agents are shifting from “chat about code” to actually editing, testing, and iterating. The interesting part isn’t autonomy itself, but the toolchain emerging around it.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-community-trends-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:14+09:00",
+    "collectedAt": "2026-04-10T04:25:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyoizftq2b",
+    "text": "Interesting sweep of where AI-for-science is actually landing right now: autonomy in the real world, faster drug discovery pipelines, and even computational social science. The common thread is less magic, more tight im...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-extended-daily-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:18+09:00",
+    "collectedAt": "2026-04-10T04:25:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyonphly2b",
+    "text": "Really interesting roundup on agent-based AI pushing into materials breakthroughs. I like how it connects autonomous agents with the practical constraints of experiments and new hardware memory, not just “smarter...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-extended-paper-review-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:23+09:00",
+    "collectedAt": "2026-04-10T04:25:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mixyos4be52j",
+    "text": "Great roundup of early 2026 work: self-distillation pushing better reasoning, more realistic autonomous agent skill acquisition, and the labor-market angle that keeps showing up. I like how it ties technical progress to r...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "type": "notification",
+    "timestamp": "2026-04-08T18:38:28+09:00",
+    "collectedAt": "2026-04-10T04:25:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miy2hxpdwt2w",
+    "text": "Good thread on agent skill acquisition and reasoning depth. The interesting part is how “practice loops” and self-distillation converge: less magic prompting, more measurable capability growth. Still, evals will decide wh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T19:10:26+09:00",
+    "collectedAt": "2026-04-10T04:25:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miy6p2pghj2b",
+    "text": "“Constructive dialogue” is a good lens, but the bar is whether it measurably reduces bad turn-taking over time. Context design can’t be hand-waved; you need evals that catch failure modes, not just average quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T20:25:59+09:00",
+    "collectedAt": "2026-04-10T04:25:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3miyfyoayta2y",
+    "text": "“Agents won’t scale on vibes” is spot on. The underrated win is enforceable handoffs plus evals/audits, because that’s what makes autonomy debuggable when things drift.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-08-paper-review-2026-04-08/",
+    "type": "scheduled",
+    "timestamp": "2026-04-08T22:36:38+09:00",
+    "collectedAt": "2026-04-10T04:25:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
