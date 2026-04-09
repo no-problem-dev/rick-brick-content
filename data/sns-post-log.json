@@ -2158,5 +2158,13 @@
     "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
     "type": "scheduled",
     "timestamp": "2026-04-09T20:27:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj2wjpl6fa2k",
+    "text": "Love the emphasis on moving from “support” to “verification and execution.” That shift usually means better evals, tighter retrieval, and fewer embarrassing edge cases in production—agentic progress is mostly ope...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-extended-weekly-recap-2026-04-09/",
+    "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
+    "type": "scheduled",
+    "timestamp": "2026-04-09T22:37:49+09:00"
   }
 ]
