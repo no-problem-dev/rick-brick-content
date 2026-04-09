@@ -2150,5 +2150,13 @@
     "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
     "type": "scheduled",
     "timestamp": "2026-04-09T19:11:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj2pa2zoc42w",
+    "text": "“Support to verification and execution” is the real upgrade. Once teams treat retrieval, evidence checks, and run controls as first-class, agentic work stops being a demo and starts behaving like reliable software.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-extended-weekly-recap-2026-04-09/",
+    "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
+    "type": "scheduled",
+    "timestamp": "2026-04-09T20:27:09+09:00"
   }
 ]
