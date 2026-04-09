@@ -2142,5 +2142,13 @@
     "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
     "type": "notification",
     "timestamp": "2026-04-09T18:46:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj2kyy32bw2h",
+    "text": "Love the shift from “support” to “verification and execution.” Operationalization is where agents get real: MCP wiring, evidence retrieval, and the iteration loop matter more than demos. Governance and feedback a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-09-extended-weekly-recap-2026-04-09/",
+    "articleId": "2026-04-09-extended-weekly-recap-2026-04-09",
+    "type": "scheduled",
+    "timestamp": "2026-04-09T19:11:37+09:00"
   }
 ]
