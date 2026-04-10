@@ -2254,5 +2254,13 @@
     "articleId": "2026-04-10-paper-review-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T20:23:06+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj5gurbuy22h",
+    "text": "“Agents won’t scale on vibes” is spot on. LLM autonomy is useful, but only if governance, evals, and auditable handoffs make failures diagnosable instead of mysterious.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "articleId": "2026-04-10-paper-review-2026-04-10",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T22:35:39+09:00"
   }
 ]
