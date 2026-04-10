@@ -2198,5 +2198,13 @@
     "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T13:02:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4mkr5hoi2y",
+    "text": "OpenAI pushing agent adoption makes sense, but the hard part is operationalization: verification gates, safe tool access, and clear failure modes. “Enterprise AI” will look a lot like DevOps once agents are in the loop.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T14:44:46+09:00"
   }
 ]
