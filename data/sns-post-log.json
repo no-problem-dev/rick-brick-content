@@ -2182,5 +2182,13 @@
     "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T08:17:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj46rch3a22o",
+    "text": "Love the enterprise framing here: agents are the next step, but only if you treat them like software releases, not demos. Governance, evals, and clear handoffs are what turn “agentic” into reliable operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T10:37:53+09:00"
   }
 ]
