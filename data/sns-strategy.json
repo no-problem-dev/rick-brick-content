@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-10T04:25:54+09:00",
+      "updatedAt": "2026-04-11T04:17:38+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-10T04:25:54+09:00",
+      "updatedAt": "2026-04-11T04:17:38+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5971223021582733,
-      "totalPosts": 139
+      "avgScore": 0.5570469798657718,
+      "totalPosts": 149
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-10T04:25:54+09:00",
+      "updatedAt": "2026-04-11T04:17:38+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-10T04:25:54+09:00",
+    "updatedAt": "2026-04-11T04:17:38+09:00",
     "topPosts": [
       {
         "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -344,13 +344,13 @@
         }
       },
       {
-        "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "text": "The governance angle is the real story here. “Agents” are easy to demo, hard to control—handoffs, evals, and audit trails are what turn autonomy into a reliable system, not a surprise generator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
         "platform": "bluesky",
-        "normalizedScore": 96,
+        "normalizedScore": 97,
         "metrics": {
-          "likes": 1,
+          "likes": 0,
           "reposts": 0,
-          "replies": 0,
+          "replies": 2,
           "quotes": 0
         }
       }
