@@ -2262,5 +2262,21 @@
     "articleId": "2026-04-10-paper-review-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T22:35:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj654y7d5h2q",
+    "text": "Great roundup: Anthropic’s Claude Mythos Preview + Meta’s agent work for code comprehension. What I like most is the push toward models that can verify, not just generate. That’s where reliability starts to compound.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-ai-tech-daily-2026-04-11/",
+    "articleId": "2026-04-11-ai-tech-daily-2026-04-11",
+    "type": "notification",
+    "timestamp": "2026-04-11T05:13:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6553ohlz24",
+    "text": "Great roundup on how AI’s getting deployed in the real world, not just benchmarks. I liked the focus on workplace adoption psychology alongside advances like AI drug discovery and robotics. Makes the “social layer” feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "notification",
+    "timestamp": "2026-04-11T05:14:01+09:00"
   }
 ]
