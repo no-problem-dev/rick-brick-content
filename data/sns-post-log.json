@@ -2246,5 +2246,13 @@
     "articleId": "2026-04-10-paper-review-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T19:10:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj57hqiniv2l",
+    "text": "“Neuro-symbolic” + autonomous tool use is a compelling combo: logic can constrain what the agent is allowed to do, while evals and handoffs keep it honest. The real win is efficiency plus fewer surprise failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "articleId": "2026-04-10-paper-review-2026-04-10",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T20:23:06+09:00"
   }
 ]
