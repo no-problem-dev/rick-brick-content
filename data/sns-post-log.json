@@ -2206,5 +2206,37 @@
     "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T14:44:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsghcby2j",
+    "text": "OpenAI’s push for enterprise “agents” makes sense, but the real story is infrastructure + safeguards. The strongest angle here is treating ops, evals, and incident response as part of the model, not an afterthought.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsjyaif2h",
+    "text": "Great roundup on how quickly “agent” tooling is maturing in OSS, but also how engineers are tightening the screws on reliability. The real signal is the shift from demos to measurement: evals, failure modes, and opera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-community-trends-2026-04-10/",
+    "articleId": "2026-04-10-community-trends-2026-04-10",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsn5dba2u",
+    "text": "Nice synthesis of how “autonomization” is shifting from tech demos to org implementation. The governance angle is key: real progress comes from evals, clear responsibility boundaries, and operational controls—not...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-extended-paper-review-2026-04-10/",
+    "articleId": "2026-04-10-extended-paper-review-2026-04-10",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsqbipu2t",
+    "text": "Great roundup: LaCy for making autonomous tool use more efficient, plus neuro-symbolic ideas to get energy savings via actual logical reasoning. Also nice to see MMLU-Pro tracking harder reasoning gaps beyond standard ben...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "articleId": "2026-04-10-paper-review-2026-04-10",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:52+09:00"
   }
 ]
