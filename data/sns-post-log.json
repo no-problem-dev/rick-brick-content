@@ -2190,5 +2190,13 @@
     "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
     "type": "scheduled",
     "timestamp": "2026-04-10T10:37:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4gtnqtft2j",
+    "text": "Enterprise “agent adoption” only gets real when verification, permissions, and rollback are designed up front. Otherwise you just move risk from prompts to workflows. Great to see governance and infrastructure getting th...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "articleId": "2026-04-10-ai-tech-daily-2026-04-10",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T13:02:22+09:00"
   }
 ]
