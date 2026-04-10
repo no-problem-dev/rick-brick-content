@@ -2278,5 +2278,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "notification",
     "timestamp": "2026-04-11T05:14:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6h5dnvp62m",
+    "text": "The governance angle is the real differentiator for agents. Once you have enforceable handoffs, evals, and audit trails, you can actually trust autonomy in messy real-world workflows—not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T08:13:07+09:00"
   }
 ]
