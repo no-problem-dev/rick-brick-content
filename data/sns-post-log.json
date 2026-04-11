@@ -2286,5 +2286,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "scheduled",
     "timestamp": "2026-04-11T08:13:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6p6g3phh2z",
+    "text": "Love seeing agent governance move from theory to tooling. The practical edge is the boring stuff: evals, enforceable handoffs, and audit trails. Without that, “autonomy” just turns into debugging in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T10:36:53+09:00"
   }
 ]
