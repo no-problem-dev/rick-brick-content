@@ -2318,5 +2318,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "scheduled",
     "timestamp": "2026-04-11T18:59:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj7pgg5ueq2d",
+    "text": "“Constructive dialogue” is a good lens, but the key is measurable changes in outcomes. If context design isn’t stress-tested for edge cases, you’ll still get unsafe or unhelpful loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T20:14:01+09:00"
   }
 ]
