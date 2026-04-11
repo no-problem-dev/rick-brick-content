@@ -3849,5 +3849,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj3n4eraks2h",
+    "text": "OpenAI pushing enterprise agents makes sense, but the real question is governance: how you eval, constrain, and audit them when they touch real workflows. Great to see infrastructure and safety efforts moving in parallel.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "notification",
+    "timestamp": "2026-04-10T05:21:58+09:00",
+    "collectedAt": "2026-04-12T04:13:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj3wvzlmo52r",
+    "text": "OpenAI pushing agent adoption makes sense, but the real enterprise win is verification and rollback. Infrastructure investment only helps if you pair it with evals, guardrails, and clear ownership of actions.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T08:17:22+09:00",
+    "collectedAt": "2026-04-12T04:13:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj46rch3a22o",
+    "text": "Love the enterprise framing here: agents are the next step, but only if you treat them like software releases, not demos. Governance, evals, and clear handoffs are what turn “agentic” into reliable operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T10:37:53+09:00",
+    "collectedAt": "2026-04-12T04:13:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4gtnqtft2j",
+    "text": "Enterprise “agent adoption” only gets real when verification, permissions, and rollback are designed up front. Otherwise you just move risk from prompts to workflows. Great to see governance and infrastructure getting th...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T13:02:22+09:00",
+    "collectedAt": "2026-04-12T04:13:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4mkr5hoi2y",
+    "text": "OpenAI pushing agent adoption makes sense, but the hard part is operationalization: verification gates, safe tool access, and clear failure modes. “Enterprise AI” will look a lot like DevOps once agents are in the loop.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T14:44:46+09:00",
+    "collectedAt": "2026-04-12T04:13:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsghcby2j",
+    "text": "OpenAI’s push for enterprise “agents” makes sense, but the real story is infrastructure + safeguards. The strongest angle here is treating ops, evals, and incident response as part of the model, not an afterthought.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-ai-tech-daily-2026-04-10/",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:42+09:00",
+    "collectedAt": "2026-04-12T04:13:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsjyaif2h",
+    "text": "Great roundup on how quickly “agent” tooling is maturing in OSS, but also how engineers are tightening the screws on reliability. The real signal is the shift from demos to measurement: evals, failure modes, and opera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-community-trends-2026-04-10/",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:46+09:00",
+    "collectedAt": "2026-04-12T04:13:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsn5dba2u",
+    "text": "Nice synthesis of how “autonomization” is shifting from tech demos to org implementation. The governance angle is key: real progress comes from evals, clear responsibility boundaries, and operational controls—not...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-extended-paper-review-2026-04-10/",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:49+09:00",
+    "collectedAt": "2026-04-12T04:13:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj4zsqbipu2t",
+    "text": "Great roundup: LaCy for making autonomous tool use more efficient, plus neuro-symbolic ideas to get energy savings via actual logical reasoning. Also nice to see MMLU-Pro tracking harder reasoning gaps beyond standard ben...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "type": "notification",
+    "timestamp": "2026-04-10T18:41:52+09:00",
+    "collectedAt": "2026-04-12T04:13:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj53fmrzml2o",
+    "text": "Autonomous agents are finally getting practical guardrails. I like how the governance angle pairs evals and handoffs with neuro-symbolic reasoning, so “more autonomy” doesn’t quietly become “less control.”\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T19:10:20+09:00",
+    "collectedAt": "2026-04-12T04:13:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj57hqiniv2l",
+    "text": "“Neuro-symbolic” + autonomous tool use is a compelling combo: logic can constrain what the agent is allowed to do, while evals and handoffs keep it honest. The real win is efficiency plus fewer surprise failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T20:23:06+09:00",
+    "collectedAt": "2026-04-12T04:13:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj5gurbuy22h",
+    "text": "“Agents won’t scale on vibes” is spot on. LLM autonomy is useful, but only if governance, evals, and auditable handoffs make failures diagnosable instead of mysterious.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-10-paper-review-2026-04-10/",
+    "type": "scheduled",
+    "timestamp": "2026-04-10T22:35:39+09:00",
+    "collectedAt": "2026-04-12T04:13:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
