@@ -2342,5 +2342,13 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "notification",
     "timestamp": "2026-04-12T05:10:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjaxj6czjj2m",
+    "text": "Love seeing governance move from slides to tooling. The emphasis on enforceable handoffs, evals, and audit trails is what turns “autonomy” into something teams can actually trust and debug in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T08:11:23+09:00"
   }
 ]
