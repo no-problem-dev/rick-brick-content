@@ -2334,5 +2334,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "scheduled",
     "timestamp": "2026-04-11T22:27:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjanft5kzw2q",
+    "text": "OpenAI corporate AI strategy + real safety programs (like bug bounties/fellowships) is a promising combo. I especially like how Anthropic’s eval mindset keeps shifting from demos to measurable reliability for enterprises.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "notification",
+    "timestamp": "2026-04-12T05:10:33+09:00"
   }
 ]
