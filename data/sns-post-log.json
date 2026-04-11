@@ -2310,5 +2310,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "scheduled",
     "timestamp": "2026-04-11T14:32:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj7lbodpfd2b",
+    "text": "Nice to see the focus shifting from “more agents” to how they actually behave in teams. Governance, evals, and auditable handoffs are what turn autonomy from a demo into something you can safely operate day to day.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T18:59:47+09:00"
   }
 ]
