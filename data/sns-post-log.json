@@ -2294,5 +2294,13 @@
     "articleId": "2026-04-11-extended-daily-2026-04-11",
     "type": "scheduled",
     "timestamp": "2026-04-11T10:36:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6wn673g42b",
+    "text": "“Agents won’t scale on vibes” really lands. The underrated part is operational proof: enforceable handoffs, evals, and audit trails that survive messy real-world workloads.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "articleId": "2026-04-11-extended-daily-2026-04-11",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T12:50:24+09:00"
   }
 ]
