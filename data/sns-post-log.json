@@ -2414,5 +2414,13 @@
     "articleId": "2026-04-13-extended-daily-2026-04-13",
     "type": "notification",
     "timestamp": "2026-04-13T05:11:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjdhzr3br425",
+    "text": "Nice roundup: the shift toward “agents with proof” is exactly what’s missing in most demos. Governance, evals, and audit trails turn autonomy into something teams can actually trust and debug.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-daily-2026-04-13/",
+    "articleId": "2026-04-13-extended-daily-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T08:12:19+09:00"
   }
 ]
