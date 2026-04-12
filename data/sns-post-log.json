@@ -2350,5 +2350,13 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "scheduled",
     "timestamp": "2026-04-12T08:11:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjb7nkqf352z",
+    "text": "The biggest takeaway here is that evaluation isn’t a checkbox, it’s the product. If you can’t reliably measure safer/helpful dialogue turn-by-turn, “constructive” stays subjective and hard to deploy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T10:37:00+09:00"
   }
 ]
