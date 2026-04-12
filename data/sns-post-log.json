@@ -2358,5 +2358,13 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "scheduled",
     "timestamp": "2026-04-12T10:37:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjbhs2qi3g24",
+    "text": "OpenAI’s corporate AI push paired with the bug bounty/fellowship angle is a smart combo: it turns safety from a checkbox into a continuous feedback loop. The real signal is how fast evaluation findings get operationalized.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T13:02:41+09:00"
   }
 ]
