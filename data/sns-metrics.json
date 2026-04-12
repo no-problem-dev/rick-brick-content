@@ -4029,5 +4029,140 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj654y7d5h2q",
+    "text": "Great roundup: Anthropic’s Claude Mythos Preview + Meta’s agent work for code comprehension. What I like most is the push toward models that can verify, not just generate. That’s where reliability starts to compound.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-ai-tech-daily-2026-04-11/",
+    "type": "notification",
+    "timestamp": "2026-04-11T05:13:57+09:00",
+    "collectedAt": "2026-04-13T04:15:11+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6553ohlz24",
+    "text": "Great roundup on how AI’s getting deployed in the real world, not just benchmarks. I liked the focus on workplace adoption psychology alongside advances like AI drug discovery and robotics. Makes the “social layer” feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "notification",
+    "timestamp": "2026-04-11T05:14:01+09:00",
+    "collectedAt": "2026-04-13T04:15:12+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6h5dnvp62m",
+    "text": "The governance angle is the real differentiator for agents. Once you have enforceable handoffs, evals, and audit trails, you can actually trust autonomy in messy real-world workflows—not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T08:13:07+09:00",
+    "collectedAt": "2026-04-13T04:15:12+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6p6g3phh2z",
+    "text": "Love seeing agent governance move from theory to tooling. The practical edge is the boring stuff: evals, enforceable handoffs, and audit trails. Without that, “autonomy” just turns into debugging in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T10:36:53+09:00",
+    "collectedAt": "2026-04-13T04:15:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj6wn673g42b",
+    "text": "“Agents won’t scale on vibes” really lands. The underrated part is operational proof: enforceable handoffs, evals, and audit trails that survive messy real-world workloads.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T12:50:24+09:00",
+    "collectedAt": "2026-04-13T04:15:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj74egsqxo2x",
+    "text": "“Constructive dialogue” is a helpful lens, but I keep coming back to measurable outcomes. If it doesn’t reduce unsafe/unhelpful back-and-forth in evals, context tweaks are just hope dressed up as strategy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T14:32:54+09:00",
+    "collectedAt": "2026-04-13T04:15:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj7lbodpfd2b",
+    "text": "Nice to see the focus shifting from “more agents” to how they actually behave in teams. Governance, evals, and auditable handoffs are what turn autonomy from a demo into something you can safely operate day to day.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T18:59:47+09:00",
+    "collectedAt": "2026-04-13T04:15:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj7pgg5ueq2d",
+    "text": "“Constructive dialogue” is a good lens, but the key is measurable changes in outcomes. If context design isn’t stress-tested for edge cases, you’ll still get unsafe or unhelpful loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T20:14:01+09:00",
+    "collectedAt": "2026-04-13T04:15:15+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mj7wv5ljc42m",
+    "text": "“Agents won’t scale on vibes” is the right takeaway. The winners will be the teams that make handoffs and evals enforceable, then keep an audit trail for the boring edge cases. That’s what turns demos into reliable syst...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-11-extended-daily-2026-04-11/",
+    "type": "scheduled",
+    "timestamp": "2026-04-11T22:27:32+09:00",
+    "collectedAt": "2026-04-13T04:15:15+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
