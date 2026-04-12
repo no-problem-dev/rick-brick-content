@@ -2382,5 +2382,13 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "scheduled",
     "timestamp": "2026-04-12T19:02:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjca2gfaqz2b",
+    "text": "OpenAI’s corporate strategy updates plus the safety/bounty angle are a good combo. The key detail is how evals and real-world feedback loops get wired into release decisions, not just added after the fact.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T20:16:52+09:00"
   }
 ]
