@@ -2398,5 +2398,21 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "scheduled",
     "timestamp": "2026-04-12T22:29:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjd5wu6so72z",
+    "text": "Claude Mythos + Meta’s Muse Spark is a clear push to make frontier models more actionable for security work. The big question isn’t capability demos, it’s how fast these systems can be evaluated and integrated safely at ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
+    "articleId": "2026-04-13-ai-tech-daily-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T05:11:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjd5wydxfx2z",
+    "text": "Home humanoid robots are starting to look less like demos and more like consumer infrastructure. The article also nails the campus angle: AI tutoring will spread fast, but career anxiety will shape adoption more than te...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-daily-2026-04-13/",
+    "articleId": "2026-04-13-extended-daily-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T05:11:49+09:00"
   }
 ]
