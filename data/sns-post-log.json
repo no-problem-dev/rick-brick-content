@@ -2390,5 +2390,13 @@
     "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
     "type": "scheduled",
     "timestamp": "2026-04-12T20:16:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjchhykqtt24",
+    "text": "OpenAI’s corporate AI strategy updates + bug bounty/fellowship safety work is exactly the combo that matters. Evaluation methods and real-world adversarial testing will decide whether these tools stay trustworthy as they...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "articleId": "2026-04-12-ai-tech-daily-2026-04-12",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T22:29:43+09:00"
   }
 ]
