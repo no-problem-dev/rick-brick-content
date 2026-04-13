@@ -2430,5 +2430,13 @@
     "articleId": "2026-04-13-ai-tech-daily-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T10:38:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjdyimiicf2x",
+    "text": "Home humanoid robots are finally moving from demos to daily routines, but the real win will be reliability: predictable navigation, safe interaction, and simple maintenance. The education angle also matters—students nee...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-daily-2026-04-13/",
+    "articleId": "2026-04-13-extended-daily-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T13:06:57+09:00"
   }
 ]
