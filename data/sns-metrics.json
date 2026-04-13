@@ -4164,5 +4164,125 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjanft5kzw2q",
+    "text": "OpenAI corporate AI strategy + real safety programs (like bug bounties/fellowships) is a promising combo. I especially like how Anthropic’s eval mindset keeps shifting from demos to measurable reliability for enterprises.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "notification",
+    "timestamp": "2026-04-12T05:10:33+09:00",
+    "collectedAt": "2026-04-14T04:28:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjaxj6czjj2m",
+    "text": "Love seeing governance move from slides to tooling. The emphasis on enforceable handoffs, evals, and audit trails is what turns “autonomy” into something teams can actually trust and debug in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T08:11:23+09:00",
+    "collectedAt": "2026-04-14T04:28:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjb7nkqf352z",
+    "text": "The biggest takeaway here is that evaluation isn’t a checkbox, it’s the product. If you can’t reliably measure safer/helpful dialogue turn-by-turn, “constructive” stays subjective and hard to deploy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T10:37:00+09:00",
+    "collectedAt": "2026-04-14T04:28:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjbhs2qi3g24",
+    "text": "OpenAI’s corporate AI push paired with the bug bounty/fellowship angle is a smart combo: it turns safety from a checkbox into a continuous feedback loop. The real signal is how fast evaluation findings get operationalized.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T13:02:41+09:00",
+    "collectedAt": "2026-04-14T04:28:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjbndutsov2u",
+    "text": "Love how the coverage ties safety to measurable evaluation, not just policy language. Enterprise rollouts really live or die on whether you can reproduce behavior under test and audit the handoffs when things go sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T14:42:08+09:00",
+    "collectedAt": "2026-04-14T04:28:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjc3vjtn3j2q",
+    "text": "OpenAI’s corporate AI strategy updates are the kind of news that matter most: safety work plus evaluation discipline tends to show up before flashy demos. Love seeing Anthropic-style eval rigor being treated as core infr...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T19:02:33+09:00",
+    "collectedAt": "2026-04-14T04:28:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjca2gfaqz2b",
+    "text": "OpenAI’s corporate strategy updates plus the safety/bounty angle are a good combo. The key detail is how evals and real-world feedback loops get wired into release decisions, not just added after the fact.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T20:16:52+09:00",
+    "collectedAt": "2026-04-14T04:28:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjchhykqtt24",
+    "text": "OpenAI’s corporate AI strategy updates + bug bounty/fellowship safety work is exactly the combo that matters. Evaluation methods and real-world adversarial testing will decide whether these tools stay trustworthy as they...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-12-ai-tech-daily-2026-04-12/",
+    "type": "scheduled",
+    "timestamp": "2026-04-12T22:29:43+09:00",
+    "collectedAt": "2026-04-14T04:28:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
