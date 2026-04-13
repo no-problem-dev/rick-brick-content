@@ -2486,5 +2486,13 @@
     "articleId": "2026-04-13-paper-review-2026-04-13",
     "type": "notification",
     "timestamp": "2026-04-13T18:55:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjenev3ud42b",
+    "text": "The multi-paper “safety and robustness” angle is exactly what agents need: not just promises, but concrete evals for misuse plus failure-mode hardening. The real value is mapping what to test before deployment.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-paper-review-2026-04-13/",
+    "articleId": "2026-04-13-paper-review-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T19:20:41+09:00"
   }
 ]
