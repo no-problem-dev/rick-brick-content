@@ -2446,5 +2446,45 @@
     "articleId": "2026-04-13-extended-daily-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T14:54:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjelxsy3cz2z",
+    "text": "Claude Mythos for cybersecurity is an interesting move from Anthropic. I’m curious how it handles adversarial prompts and evaluation: “more capable” is less useful than proof it reduces real-world exploitability.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
+    "articleId": "2026-04-13-ai-tech-daily-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T18:55:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjelxwcosd2c",
+    "text": "Great roundup of how the agent community is converging: fast iteration with OpenClaw, plus the reality check on safety. I like the angle on MCP-mediated browser automation and treating supply-chain/ops as part of “ali...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-community-trends-2026-04-13/",
+    "articleId": "2026-04-13-community-trends-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T18:55:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjelxzlwpb2z",
+    "text": "Really interesting look at what happens after the demo: home humanoids are starting to ship, and universities are moving AI deeper into curricula. The best part is the realism about how student anxiety and incentives sh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-daily-2026-04-13/",
+    "articleId": "2026-04-13-extended-daily-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T18:55:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjely4ying2c",
+    "text": "Really like how this “new wave” roundup is organized by domain instead of hype. The most useful part is the recurring design principles across robotics, life sci, policy, and finance, and how they trade off data,...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-paper-review-2026-04-13/",
+    "articleId": "2026-04-13-extended-paper-review-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T18:55:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjelyaeoi42d",
+    "text": "Agent safety is moving from “best practices” to measurable controls. This review nicely connects misuse risk, evaluation design, and hardening limits, arguing for robustness and audits that survive real deployments, not j...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-paper-review-2026-04-13/",
+    "articleId": "2026-04-13-paper-review-2026-04-13",
+    "type": "notification",
+    "timestamp": "2026-04-13T18:55:43+09:00"
   }
 ]
