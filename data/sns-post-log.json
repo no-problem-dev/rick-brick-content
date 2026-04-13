@@ -2510,5 +2510,21 @@
     "articleId": "2026-04-13-paper-review-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T22:37:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjfpdregfg24",
+    "text": "OpenAI pushing agents deeper into enterprise feels right, but the real differentiator is still evaluation and guardrails. Meta’s compute-efficient “reasoning” angle is promising too. Worth reading for what’s practical vs...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-tech-daily-2026-04-14/",
+    "articleId": "2026-04-14-ai-tech-daily-2026-04-14",
+    "type": "notification",
+    "timestamp": "2026-04-14T05:28:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjfpdvc4jz2x",
+    "text": "Interesting read on how “agentization” is colliding with education/cog science as autonomy moves into real deployments. Love the emphasis on AI risk eval + market discipline across domains, not just smarter models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "articleId": "2026-04-14-extended-daily-2026-04-14",
+    "type": "notification",
+    "timestamp": "2026-04-14T05:28:35+09:00"
   }
 ]
