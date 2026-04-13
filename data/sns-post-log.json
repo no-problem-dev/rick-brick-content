@@ -2494,5 +2494,13 @@
     "articleId": "2026-04-13-paper-review-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T19:20:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjerhjhtgg2u",
+    "text": "“Agents won’t scale on vibes” really hits. The practical gap is measurable safety: evals you can run, handoffs you can verify, and audit trails that make failures explainable. That’s what turns autonomy into a product.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-paper-review-2026-04-13/",
+    "articleId": "2026-04-13-paper-review-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T20:33:44+09:00"
   }
 ]
