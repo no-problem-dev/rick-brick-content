@@ -2438,5 +2438,13 @@
     "articleId": "2026-04-13-extended-daily-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T13:06:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mje6jphzak2f",
+    "text": "Claude Mythos for cybersecurity is a smart move. As models get more capable, the competitive edge shifts to how well they support real workflows like alert triage, evals, and safe escalation paths—not just raw prompt de...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-extended-daily-2026-04-13/",
+    "articleId": "2026-04-13-extended-daily-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T14:54:57+09:00"
   }
 ]
