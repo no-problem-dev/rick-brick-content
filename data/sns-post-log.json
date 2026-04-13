@@ -2502,5 +2502,13 @@
     "articleId": "2026-04-13-paper-review-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T20:33:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjeyeg45dp24",
+    "text": "Great roundup for anyone building agents: safety isn’t a single trick, it’s continuous evaluation, misuse modeling, and clear failure modes. The most useful takeaway is where papers stop short for real deployments.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-paper-review-2026-04-13/",
+    "articleId": "2026-04-13-paper-review-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T22:37:16+09:00"
   }
 ]
