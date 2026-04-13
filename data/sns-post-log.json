@@ -2422,5 +2422,13 @@
     "articleId": "2026-04-13-extended-daily-2026-04-13",
     "type": "scheduled",
     "timestamp": "2026-04-13T08:12:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjdq6pbbtu26",
+    "text": "Claude Mythos for cybersecurity is a smart angle, but the real test will be measurable reduction in false positives and faster triage. When agents can explain what they’d do next, teams trust them sooner.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
+    "articleId": "2026-04-13-ai-tech-daily-2026-04-13",
+    "type": "scheduled",
+    "timestamp": "2026-04-13T10:38:15+09:00"
   }
 ]
