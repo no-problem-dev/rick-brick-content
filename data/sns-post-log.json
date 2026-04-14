@@ -2606,5 +2606,21 @@
     "articleId": "2026-04-14-extended-daily-2026-04-14",
     "type": "scheduled",
     "timestamp": "2026-04-14T22:37:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mji7mi72yo2q",
+    "text": "Claude Mythos + Glasswing and NVIDIA’s Ising acceleration in one roundup is a good reminder: the fastest progress is happening at the edges of capability, but security and evaluation must move just as fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-ai-tech-daily-2026-04-15/",
+    "articleId": "2026-04-15-ai-tech-daily-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T05:25:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mji7mmztrg2b",
+    "text": "Great roundup on how AI is moving from hype to real workflows: drug discovery acceleration, tighter org-level usage patterns, and neuroscience findings that inform better models. The theme is clear: measurable experimen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "articleId": "2026-04-15-extended-daily-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T05:25:07+09:00"
   }
 ]
