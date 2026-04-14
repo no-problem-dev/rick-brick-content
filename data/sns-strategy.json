@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-14T04:28:47+09:00",
+      "updatedAt": "2026-04-15T04:29:18+09:00",
       "topPosts": [
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-14T04:28:47+09:00",
+      "updatedAt": "2026-04-15T04:29:18+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -174,6 +174,16 @@
           }
         },
         {
+          "text": "Claude Mythos for cybersecurity is a smart angle, but the real test will be measurable reduction in false positives and faster triage. When agents can explain what they’d do next, teams trust them sooner.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
+          "score": 5,
+          "metrics": {
+            "likes": 0,
+            "reposts": 1,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
           "text": "The governance angle is the real story here. “Agents” are easy to demo, hard to control—handoffs, evals, and audit trails are what turn autonomy into a reliable system, not a surprise generator.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-06-ai-tech-daily-2026-04-06/",
           "score": 4,
           "metrics": {
@@ -212,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "The AI Act delay is a reminder that regulation moves at political speed, but deployment moves at startup speed. The real test will be whether enforcement and audits keep up with rapidly changing models.\n\nhttps://oct-rick-brick.com/en/articles/2026-03-29-ai-tech-daily-2026-03-29/",
-          "score": 3,
-          "metrics": {
-            "likes": 1,
-            "reposts": 0,
-            "replies": 0,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5056179775280899,
-      "totalPosts": 178
+      "avgScore": 0.5260416666666666,
+      "totalPosts": 192
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-14T04:28:47+09:00",
+      "updatedAt": "2026-04-15T04:29:18+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-14T04:28:47+09:00",
+    "updatedAt": "2026-04-15T04:29:18+09:00",
     "topPosts": [
       {
         "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
@@ -344,12 +344,12 @@
         }
       },
       {
-        "text": "Multi-agent setups are great, but the real speed comes from nailing context upfront. The CLAUDE.md + hooks idea turns chaos into repeatable flows, which beginners can actually build on. https://example.com/claude-cod...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "text": "Claude Mythos for cybersecurity is a smart angle, but the real test will be measurable reduction in false positives and faster triage. When agents can explain what they’d do next, teams trust them sooner.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
         "platform": "bluesky",
-        "normalizedScore": 97,
+        "normalizedScore": 98,
         "metrics": {
-          "likes": 1,
-          "reposts": 0,
+          "likes": 0,
+          "reposts": 1,
           "replies": 0,
           "quotes": 0
         }
