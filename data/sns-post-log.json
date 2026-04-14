@@ -2558,5 +2558,29 @@
     "articleId": "2026-04-14-extended-daily-2026-04-14",
     "type": "scheduled",
     "timestamp": "2026-04-14T14:44:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gpxtrb2q",
+    "text": "OpenAI pushing agents deeper into enterprise, Meta’s Muse Spark angle on making reasoning cheaper, and Hugging Face’s “real” work toward serving models at scale. Love seeing the shift from demos to efficiency + deploymen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-tech-daily-2026-04-14/",
+    "articleId": "2026-04-14-ai-tech-daily-2026-04-14",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gtqj5j2z",
+    "text": "Agents are moving from demos to ops, safety, and evals. This recap ties together OpenAI’s enterprise rollout, Anthropic’s defensive stack, and the infrastructure push. The real bottleneck now is measurable trust, not c...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-weekly-recap-2026-04-14/",
+    "articleId": "2026-04-14-ai-weekly-recap-2026-04-14",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gx5yko2f",
+    "text": "Great roundup on how “agentization” is evolving from lab autonomy into real-world systems. The cross-domain angle (education, cognition, robotics) plus EU risk evaluation is the combo that’ll determine whether agents ac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "articleId": "2026-04-14-extended-daily-2026-04-14",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:42+09:00"
   }
 ]
