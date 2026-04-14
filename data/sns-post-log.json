@@ -2622,5 +2622,13 @@
     "articleId": "2026-04-15-extended-daily-2026-04-15",
     "type": "notification",
     "timestamp": "2026-04-15T05:25:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjijcl3trz2f",
+    "text": "Love seeing governance move from “best practices” to concrete tooling. Evals and audit trails are the boring bits that make agent autonomy survivable when things get messy in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "articleId": "2026-04-15-extended-daily-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T08:18:27+09:00"
   }
 ]
