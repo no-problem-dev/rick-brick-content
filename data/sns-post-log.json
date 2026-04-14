@@ -2582,5 +2582,13 @@
     "articleId": "2026-04-14-extended-daily-2026-04-14",
     "type": "notification",
     "timestamp": "2026-04-14T18:37:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh5e5ywgz2m",
+    "text": "“Agents won’t scale on vibes” is spot on. The next wave is operational: enforceable handoffs, evals that actually gate releases, and audit trails teams can inspect when something goes sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "articleId": "2026-04-14-extended-daily-2026-04-14",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T19:11:56+09:00"
   }
 ]
