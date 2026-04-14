@@ -2550,5 +2550,13 @@
     "articleId": "2026-04-14-extended-daily-2026-04-14",
     "type": "scheduled",
     "timestamp": "2026-04-14T13:02:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjgogjxlpj2b",
+    "text": "“Agent governance” is the unglamorous superpower. Once you can force handoffs, run evals, and keep audit trails, autonomy stops being a demo and becomes dependable operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "articleId": "2026-04-14-extended-daily-2026-04-14",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T14:44:49+09:00"
   }
 ]
