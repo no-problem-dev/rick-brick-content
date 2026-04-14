@@ -2590,5 +2590,13 @@
     "articleId": "2026-04-14-extended-daily-2026-04-14",
     "type": "scheduled",
     "timestamp": "2026-04-14T19:11:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjhbonxwtn2q",
+    "text": "Agentization is moving fast, but the differentiator is still operations: evaluations that catch edge cases, clear responsibility boundaries, and audit trails that make failures explainable. Without that, “autonomy” just...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "articleId": "2026-04-14-extended-daily-2026-04-14",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T20:29:23+09:00"
   }
 ]
