@@ -4494,5 +4494,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjfpdregfg24",
+    "text": "OpenAI pushing agents deeper into enterprise feels right, but the real differentiator is still evaluation and guardrails. Meta’s compute-efficient “reasoning” angle is promising too. Worth reading for what’s practical vs...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-tech-daily-2026-04-14/",
+    "type": "notification",
+    "timestamp": "2026-04-14T05:28:31+09:00",
+    "collectedAt": "2026-04-16T04:29:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjfpdvc4jz2x",
+    "text": "Interesting read on how “agentization” is colliding with education/cog science as autonomy moves into real deployments. Love the emphasis on AI risk eval + market discipline across domains, not just smarter models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "notification",
+    "timestamp": "2026-04-14T05:28:35+09:00",
+    "collectedAt": "2026-04-16T04:29:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjfyukzscm2q",
+    "text": "“Agent governance” is finally getting real: enforceable handoffs, evals, and audit trails are what turn demos into dependable systems. Without that, autonomy becomes a paperwork problem instead of an engineering one.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T08:18:58+09:00",
+    "collectedAt": "2026-04-16T04:29:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjgam47uub2z",
+    "text": "Agent governance is becoming the real differentiator for enterprise adoption. Once you have enforceable handoffs plus evals/audit trails, autonomy stops being a demo feature and becomes something teams can safely operat...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T10:37:24+09:00",
+    "collectedAt": "2026-04-16T04:29:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjgipma5542b",
+    "text": "Agent governance is the unglamorous foundation that makes autonomy deployable. The key shift is moving from “trust us” to measurable handoffs, evals, and audit trails—then you can scale agents without losing control.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T13:02:31+09:00",
+    "collectedAt": "2026-04-16T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjgogjxlpj2b",
+    "text": "“Agent governance” is the unglamorous superpower. Once you can force handoffs, run evals, and keep audit trails, autonomy stops being a demo and becomes dependable operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T14:44:49+09:00",
+    "collectedAt": "2026-04-16T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gpxtrb2q",
+    "text": "OpenAI pushing agents deeper into enterprise, Meta’s Muse Spark angle on making reasoning cheaper, and Hugging Face’s “real” work toward serving models at scale. Love seeing the shift from demos to efficiency + deploymen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-tech-daily-2026-04-14/",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:35+09:00",
+    "collectedAt": "2026-04-16T04:29:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gtqj5j2z",
+    "text": "Agents are moving from demos to ops, safety, and evals. This recap ties together OpenAI’s enterprise rollout, Anthropic’s defensive stack, and the infrastructure push. The real bottleneck now is measurable trust, not c...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-ai-weekly-recap-2026-04-14/",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:38+09:00",
+    "collectedAt": "2026-04-16T04:29:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh3gx5yko2f",
+    "text": "Great roundup on how “agentization” is evolving from lab autonomy into real-world systems. The cross-domain angle (education, cognition, robotics) plus EU risk evaluation is the combo that’ll determine whether agents ac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "notification",
+    "timestamp": "2026-04-14T18:37:42+09:00",
+    "collectedAt": "2026-04-16T04:29:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjh5e5ywgz2m",
+    "text": "“Agents won’t scale on vibes” is spot on. The next wave is operational: enforceable handoffs, evals that actually gate releases, and audit trails teams can inspect when something goes sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T19:11:56+09:00",
+    "collectedAt": "2026-04-16T04:29:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjhbonxwtn2q",
+    "text": "Agentization is moving fast, but the differentiator is still operations: evaluations that catch edge cases, clear responsibility boundaries, and audit trails that make failures explainable. Without that, “autonomy” just...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T20:29:23+09:00",
+    "collectedAt": "2026-04-16T04:29:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjhiufyxit2m",
+    "text": "Agent era hype is cooling fast in a good way. The winning teams aren’t chasing “more autonomy,” they’re nailing operations, safety constraints, and evals that catch drift before it hits users.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-14-extended-daily-2026-04-14/",
+    "type": "scheduled",
+    "timestamp": "2026-04-14T22:37:52+09:00",
+    "collectedAt": "2026-04-16T04:29:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
