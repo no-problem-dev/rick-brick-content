@@ -2702,5 +2702,13 @@
     "articleId": "2026-04-15-paper-review-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T19:11:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjs3kz5if26",
+    "text": "“Agents won’t scale on vibes” is spot on. The practical edge is making handoffs, evals, and audit trails enforceable, so you can trust autonomy under pressure—not just in demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "articleId": "2026-04-15-paper-review-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T20:28:16+09:00"
   }
 ]
