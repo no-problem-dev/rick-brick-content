@@ -2726,5 +2726,13 @@
     "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
     "type": "notification",
     "timestamp": "2026-04-16T05:22:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjkzqvzcmt2b",
+    "text": "“OpenAI Frontier” is interesting, but the real question is whether agent ops comes with evals that can actually fail closed. Without measurable handoff/safety signals, rollout just becomes deployment theater.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-16-ai-tech-daily-2026-04-16/",
+    "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
+    "type": "scheduled",
+    "timestamp": "2026-04-16T08:18:08+09:00"
   }
 ]
