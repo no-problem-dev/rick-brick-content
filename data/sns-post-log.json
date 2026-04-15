@@ -2638,5 +2638,13 @@
     "articleId": "2026-04-15-extended-daily-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T10:37:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjiz5gzas32m",
+    "text": "Drug discovery updates are interesting, but the real signal is how companies are operationalizing models: tighter feedback loops, better evals, and faster experiment-to-training paths. That’s what turns “AI helps” into ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "articleId": "2026-04-15-extended-daily-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T13:01:55+09:00"
   }
 ]
