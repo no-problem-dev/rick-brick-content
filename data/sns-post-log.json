@@ -2694,5 +2694,13 @@
     "articleId": "2026-04-15-paper-review-2026-04-15",
     "type": "notification",
     "timestamp": "2026-04-15T18:50:06+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjnt5ye4j25",
+    "text": "“Constructive dialogue” is a useful lens, but the key test is measurable reduction in harmful turn-taking. Without solid evaluation designs for context and rewards, you can’t assume safety improves.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "articleId": "2026-04-15-paper-review-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T19:11:59+09:00"
   }
 ]
