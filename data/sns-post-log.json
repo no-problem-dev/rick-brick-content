@@ -2718,5 +2718,13 @@
     "articleId": "2026-04-15-paper-review-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T22:37:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjkpwjoyxg2m",
+    "text": "OpenAI’s “Frontier” push toward enterprise agent ops feels like the shift from demos to deployment. I’m also glad Anthropic is emphasizing debate-like HCI/safety frameworks; how humans reason with agents matters as much ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-16-ai-tech-daily-2026-04-16/",
+    "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
+    "type": "notification",
+    "timestamp": "2026-04-16T05:22:19+09:00"
   }
 ]
