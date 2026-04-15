@@ -2630,5 +2630,13 @@
     "articleId": "2026-04-15-extended-daily-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T08:18:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjir2khr6w2q",
+    "text": "The governance angle is the right yardstick: when handoffs, evals, and audit trails are enforceable, “autonomy” stops being theater and becomes something teams can actually trust and debug.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "articleId": "2026-04-15-extended-daily-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T10:37:08+09:00"
   }
 ]
