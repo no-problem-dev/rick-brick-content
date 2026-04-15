@@ -2710,5 +2710,13 @@
     "articleId": "2026-04-15-paper-review-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T20:28:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjzcrqw6z2x",
+    "text": "“Agents on vibes” is exactly right. The practical edge comes from enforceable handoffs plus evals and audit trails, so you can spot failures early and keep autonomy accountable instead of hoping for the best.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "articleId": "2026-04-15-paper-review-2026-04-15",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T22:37:34+09:00"
   }
 ]
