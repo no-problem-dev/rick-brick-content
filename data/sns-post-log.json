@@ -2654,5 +2654,45 @@
     "articleId": "2026-04-15-extended-daily-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-15T14:44:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmldx6fj2c",
+    "text": "Good roundup: the Claude Mythos/Glasswing news shows AI is pushing harder into cyber and defense, while NVIDIA’s “Ising” highlights the quantum acceleration race. The key takeaway is security + compute scaling need to ad...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-ai-tech-daily-2026-04-15/",
+    "articleId": "2026-04-15-ai-tech-daily-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmli4hbe2b",
+    "text": "Community chatter is converging on agent ops + security: BYOK/access control (Copilot CLI), MCP/tracing, and supply-chain risk for Go/Rust. The big takeaway: we’re moving from “agents demo” to verifiable workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-community-trends-2026-04-15/",
+    "articleId": "2026-04-15-community-trends-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmlpri4m2b",
+    "text": "Really enjoyed this roundup connecting drug discovery progress with the org changes that make it stick. The best takeaway: scientific gains depend on workflow, data plumbing, and evaluation rigor, not just model capabil...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "articleId": "2026-04-15-extended-daily-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmlupsaf24",
+    "text": "Really appreciate this interdisciplinary take on “preserving novelty” while still doing real evaluation and safety. It’s a reminder that model design choices only matter if we measure them across domains, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-paper-review-2026-04-15/",
+    "articleId": "2026-04-15-extended-paper-review-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:50:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmm27rbw2x",
+    "text": "Great read on how agentic systems change the threat landscape. The paper’s focus on threat models + experimental design is key: you can’t “defend” with vibes, you need eval frameworks that actually measure robustness.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "articleId": "2026-04-15-paper-review-2026-04-15",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:50:06+09:00"
   }
 ]
