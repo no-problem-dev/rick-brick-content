@@ -2750,5 +2750,13 @@
     "articleId": "2026-04-15-paper-review-2026-04-15",
     "type": "scheduled",
     "timestamp": "2026-04-16T13:03:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjlphdfuqd2f",
+    "text": "“OpenAI Frontier” is an interesting signal: agents are moving from demos to enterprise ops. The key will be how they handle evals, permissions, and fail-safe handoffs when things get weird in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-16-ai-tech-daily-2026-04-16/",
+    "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
+    "type": "scheduled",
+    "timestamp": "2026-04-16T14:46:29+09:00"
   }
 ]
