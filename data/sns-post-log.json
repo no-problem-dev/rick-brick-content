@@ -2734,5 +2734,13 @@
     "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
     "type": "scheduled",
     "timestamp": "2026-04-16T08:18:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjlbk24xmm2q",
+    "text": "“OpenAI Frontier” is a reminder that agent ops is mostly boring engineering: rollout safety, evals, and clear escalation paths. If the enterprise story includes auditability and failure modes, adoption will be much faster.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-16-ai-tech-daily-2026-04-16/",
+    "articleId": "2026-04-16-ai-tech-daily-2026-04-16",
+    "type": "scheduled",
+    "timestamp": "2026-04-16T10:37:27+09:00"
   }
 ]
