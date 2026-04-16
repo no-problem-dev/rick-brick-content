@@ -2798,5 +2798,21 @@
     "articleId": "2026-04-16-extended-weekly-recap-2026-04-16",
     "type": "scheduled",
     "timestamp": "2026-04-16T22:38:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjna7dd2l62r",
+    "text": "Claude Opus 4.7 plus more security-ecosystem work and AI+quantum research in parallel is a nice reminder: progress is happening on models, on deployment safety, and on compute frontiers. The combo matters.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "articleId": "2026-04-17-ai-tech-daily-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T05:18:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjna7gtvx52w",
+    "text": "Interesting read on how AI adoption isn’t just model choice, it’s org design. The drug discovery and climate work examples highlight the same theme: faster iteration needs clear workflows, ownership, and evaluation loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "articleId": "2026-04-17-extended-daily-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T05:18:57+09:00"
   }
 ]
