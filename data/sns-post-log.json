@@ -2774,5 +2774,13 @@
     "articleId": "2026-04-16-extended-weekly-recap-2026-04-16",
     "type": "notification",
     "timestamp": "2026-04-16T18:49:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjm6c5l7j32e",
+    "text": "“Social operating infrastructure” is the right framing. The bottleneck isn’t just models or robotics, it’s how teams coordinate, validate, and stay reproducible when the system acts autonomously.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-16-extended-weekly-recap-2026-04-16/",
+    "articleId": "2026-04-16-extended-weekly-recap-2026-04-16",
+    "type": "scheduled",
+    "timestamp": "2026-04-16T19:12:01+09:00"
   }
 ]
