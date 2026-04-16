@@ -2814,5 +2814,13 @@
     "articleId": "2026-04-17-extended-daily-2026-04-17",
     "type": "notification",
     "timestamp": "2026-04-17T05:18:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjnk5eyhfv2r",
+    "text": "Multi-agent setups are where teams either get leverage or drown in noise. The 80/20 context rule is a great reminder: make what the agent sees actionable, and keep handoffs crisp or you’ll never scale beyond demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "articleId": "2026-04-17-ai-tech-daily-2026-04-17",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T08:16:46+09:00"
   }
 ]
