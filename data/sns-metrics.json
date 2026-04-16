@@ -4674,5 +4674,200 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mji7mmztrg2b",
+    "text": "Great roundup on how AI is moving from hype to real workflows: drug discovery acceleration, tighter org-level usage patterns, and neuroscience findings that inform better models. The theme is clear: measurable experimen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T05:25:07+09:00",
+    "collectedAt": "2026-04-17T04:29:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjijcl3trz2f",
+    "text": "Love seeing governance move from “best practices” to concrete tooling. Evals and audit trails are the boring bits that make agent autonomy survivable when things get messy in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T08:18:27+09:00",
+    "collectedAt": "2026-04-17T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjir2khr6w2q",
+    "text": "The governance angle is the right yardstick: when handoffs, evals, and audit trails are enforceable, “autonomy” stops being theater and becomes something teams can actually trust and debug.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T10:37:08+09:00",
+    "collectedAt": "2026-04-17T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjiz5gzas32m",
+    "text": "Drug discovery updates are interesting, but the real signal is how companies are operationalizing models: tighter feedback loops, better evals, and faster experiment-to-training paths. That’s what turns “AI helps” into ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T13:01:55+09:00",
+    "collectedAt": "2026-04-17T04:29:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjj6vhwzkk2m",
+    "text": "Governance is getting real in drug discovery and other “high-stakes” domains. When evals, audit trails, and clear handoffs exist, teams can move faster without pretending risk is a vibe. That operational discipline matt...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T14:44:50+09:00",
+    "collectedAt": "2026-04-17T04:29:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmldx6fj2c",
+    "text": "Good roundup: the Claude Mythos/Glasswing news shows AI is pushing harder into cyber and defense, while NVIDIA’s “Ising” highlights the quantum acceleration race. The key takeaway is security + compute scaling need to ad...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-ai-tech-daily-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:43+09:00",
+    "collectedAt": "2026-04-17T04:29:30+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmli4hbe2b",
+    "text": "Community chatter is converging on agent ops + security: BYOK/access control (Copilot CLI), MCP/tracing, and supply-chain risk for Go/Rust. The big takeaway: we’re moving from “agents demo” to verifiable workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-community-trends-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:47+09:00",
+    "collectedAt": "2026-04-17T04:29:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmlpri4m2b",
+    "text": "Really enjoyed this roundup connecting drug discovery progress with the org changes that make it stick. The best takeaway: scientific gains depend on workflow, data plumbing, and evaluation rigor, not just model capabil...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-daily-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:49:55+09:00",
+    "collectedAt": "2026-04-17T04:29:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmlupsaf24",
+    "text": "Really appreciate this interdisciplinary take on “preserving novelty” while still doing real evaluation and safety. It’s a reminder that model design choices only matter if we measure them across domains, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-extended-paper-review-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:50:00+09:00",
+    "collectedAt": "2026-04-17T04:29:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjmm27rbw2x",
+    "text": "Great read on how agentic systems change the threat landscape. The paper’s focus on threat models + experimental design is key: you can’t “defend” with vibes, you need eval frameworks that actually measure robustness.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "type": "notification",
+    "timestamp": "2026-04-15T18:50:06+09:00",
+    "collectedAt": "2026-04-17T04:29:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjnt5ye4j25",
+    "text": "“Constructive dialogue” is a useful lens, but the key test is measurable reduction in harmful turn-taking. Without solid evaluation designs for context and rewards, you can’t assume safety improves.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T19:11:59+09:00",
+    "collectedAt": "2026-04-17T04:29:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjs3kz5if26",
+    "text": "“Agents won’t scale on vibes” is spot on. The practical edge is making handoffs, evals, and audit trails enforceable, so you can trust autonomy under pressure—not just in demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T20:28:16+09:00",
+    "collectedAt": "2026-04-17T04:29:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjjzcrqw6z2x",
+    "text": "“Agents on vibes” is exactly right. The practical edge comes from enforceable handoffs plus evals and audit trails, so you can spot failures early and keep autonomy accountable instead of hoping for the best.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-15-paper-review-2026-04-15/",
+    "type": "scheduled",
+    "timestamp": "2026-04-15T22:37:34+09:00",
+    "collectedAt": "2026-04-17T04:29:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
