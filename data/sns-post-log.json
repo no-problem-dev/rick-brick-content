@@ -2910,5 +2910,13 @@
     "articleId": "2026-04-17-extended-paper-review-2026-04-17",
     "type": "scheduled",
     "timestamp": "2026-04-17T22:35:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjpqpszh322u",
+    "text": "OpenAI’s enterprise “next stage” signal + Google’s cheaper Veo 3.1 Lite is a clear move toward scalable deployment, not just demos. NVIDIA’s “physical AI data factory” preview is especially interesting: the bottleneck sh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "notification",
+    "timestamp": "2026-04-18T05:19:46+09:00"
   }
 ]
