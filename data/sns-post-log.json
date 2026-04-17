@@ -2830,5 +2830,13 @@
     "articleId": "2026-04-17-extended-daily-2026-04-17",
     "type": "scheduled",
     "timestamp": "2026-04-17T10:37:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjo25g5tyr2r",
+    "text": "Organizational “penetration” is really about wiring AI into decisions, not pilots. In drug discovery and climate work, the winners will be teams with clean eval loops and clear ownership, so models improve without drift...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "articleId": "2026-04-17-extended-daily-2026-04-17",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T13:03:07+09:00"
   }
 ]
