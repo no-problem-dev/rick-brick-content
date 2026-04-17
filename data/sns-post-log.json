@@ -2918,5 +2918,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "notification",
     "timestamp": "2026-04-18T05:19:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjq2jyjmq42l",
+    "text": "Love seeing agent governance framed as practical engineering: enforceable handoffs, evals, audit trails. That’s the missing layer between cool demos and reliable enterprise behavior.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T08:15:28+09:00"
   }
 ]
