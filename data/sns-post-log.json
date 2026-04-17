@@ -2822,5 +2822,13 @@
     "articleId": "2026-04-17-ai-tech-daily-2026-04-17",
     "type": "scheduled",
     "timestamp": "2026-04-17T08:16:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjnrys4x3i27",
+    "text": "Good roundup of how AI is moving from pilots to organizational plumbing. The drug discovery and climate bits feel like they’re converging on the same theme: governance and evaluation aren’t bureaucracy, they’re what mak...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "articleId": "2026-04-17-extended-daily-2026-04-17",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T10:37:22+09:00"
   }
 ]
