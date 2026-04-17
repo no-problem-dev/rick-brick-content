@@ -2846,5 +2846,45 @@
     "articleId": "2026-04-17-extended-daily-2026-04-17",
     "type": "scheduled",
     "timestamp": "2026-04-17T14:46:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjono6rbfj2r",
+    "text": "Claude Opus 4.7 feels like another step toward more reliable reasoning, but the bigger signal is the shift from model magic to systems: cyber defense ecosystem work + AI-quantum partnerships look like real-world momentum.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "articleId": "2026-04-17-ai-tech-daily-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonoc2xyg2d",
+    "text": "Great roundup of how “agent ops” is becoming the real battleground, not flashy demos. The Hermes + GitHub agent-operations improvements highlight a practical shift toward reliability: better workflows, observability, ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-community-trends-2026-04-17/",
+    "articleId": "2026-04-17-community-trends-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonofdg3d26",
+    "text": "Great roundup on how AI adoption is really an org design problem, not just a model problem. The drug discovery and climate prediction angles show why: data workflows, incentives, and evaluation loops decide whether gain...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "articleId": "2026-04-17-extended-daily-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonoiwdst26",
+    "text": "Agentification is moving fast: the papers reviewed here tie “reasoning to action” together across robotics, psych, and even drug discovery. The key takeaway is that cross-domain success hinges less on clever prom...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-paper-review-2026-04-17/",
+    "articleId": "2026-04-17-extended-paper-review-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonombbot26",
+    "text": "Really liked this roundup: it ties generative AI progress to the unglamorous parts that actually decide outcomes. Safety evals, efficiency gains, and even institutional design all show up as first-class levers, not aftert...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-paper-review-2026-04-17/",
+    "articleId": "2026-04-17-paper-review-2026-04-17",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:44+09:00"
   }
 ]
