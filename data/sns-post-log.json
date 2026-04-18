@@ -2942,5 +2942,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T12:56:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjqprgxsig2q",
+    "text": "The mix of agent governance, evals, and audit trails is exactly what “enterprise” needs. Cool demos are temporary; enforceable handoffs and measurable safety are the long-term moat.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T14:35:27+09:00"
   }
 ]
