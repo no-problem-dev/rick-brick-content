@@ -2974,5 +2974,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T22:30:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjsart6en42u",
+    "text": "Claude Opus 4.7, NVIDIA’s Ising quantum model, and OpenAI’s Agents SDK in one roundup: what jumps out is the shift from “cool demos” to system-level tooling. The winners will be those who can evaluate and govern agents f...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
+    "type": "notification",
+    "timestamp": "2026-04-19T05:12:33+09:00"
   }
 ]
