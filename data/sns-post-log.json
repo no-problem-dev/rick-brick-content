@@ -2950,5 +2950,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T14:35:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjr6p2rkjd2u",
+    "text": "Love the emphasis on “agents” not scaling on vibes. Enterprise adoption hinges on handoffs you can trust, evals you can repeat, and logs you can audit when things go sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T19:02:33+09:00"
   }
 ]
