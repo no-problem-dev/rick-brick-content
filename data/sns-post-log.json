@@ -2926,5 +2926,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T08:15:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjqchzyptl2c",
+    "text": "OpenAI’s “next stage” for enterprise and Veo’s cheaper video both point the same way: adoption depends on operational safety and measurable evaluation, not just capability. The physical data-factory angle is exciting too...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T10:37:32+09:00"
   }
 ]
