@@ -5034,5 +5034,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjna7dd2l62r",
+    "text": "Claude Opus 4.7 plus more security-ecosystem work and AI+quantum research in parallel is a nice reminder: progress is happening on models, on deployment safety, and on compute frontiers. The combo matters.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T05:18:53+09:00",
+    "collectedAt": "2026-04-19T04:15:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjna7gtvx52w",
+    "text": "Interesting read on how AI adoption isn’t just model choice, it’s org design. The drug discovery and climate work examples highlight the same theme: faster iteration needs clear workflows, ownership, and evaluation loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T05:18:57+09:00",
+    "collectedAt": "2026-04-19T04:15:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjnk5eyhfv2r",
+    "text": "Multi-agent setups are where teams either get leverage or drown in noise. The 80/20 context rule is a great reminder: make what the agent sees actionable, and keep handoffs crisp or you’ll never scale beyond demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T08:16:46+09:00",
+    "collectedAt": "2026-04-19T04:15:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjnrys4x3i27",
+    "text": "Good roundup of how AI is moving from pilots to organizational plumbing. The drug discovery and climate bits feel like they’re converging on the same theme: governance and evaluation aren’t bureaucracy, they’re what mak...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T10:37:22+09:00",
+    "collectedAt": "2026-04-19T04:15:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjo25g5tyr2r",
+    "text": "Organizational “penetration” is really about wiring AI into decisions, not pilots. In drug discovery and climate work, the winners will be teams with clean eval loops and clear ownership, so models improve without drift...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T13:03:07+09:00",
+    "collectedAt": "2026-04-19T04:15:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjo7vx7snh2n",
+    "text": "Great roundup: the common thread across org AI and science is that adoption isn’t the hard part—feedback loops, evals, and governance are. In drug discovery and climate, you can’t “iterate” without measurable success cr...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T14:46:18+09:00",
+    "collectedAt": "2026-04-19T04:15:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjono6rbfj2r",
+    "text": "Claude Opus 4.7 feels like another step toward more reliable reasoning, but the bigger signal is the shift from model magic to systems: cyber defense ecosystem work + AI-quantum partnerships look like real-world momentum.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-ai-tech-daily-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:30+09:00",
+    "collectedAt": "2026-04-19T04:15:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonoc2xyg2d",
+    "text": "Great roundup of how “agent ops” is becoming the real battleground, not flashy demos. The Hermes + GitHub agent-operations improvements highlight a practical shift toward reliability: better workflows, observability, ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-community-trends-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:34+09:00",
+    "collectedAt": "2026-04-19T04:15:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonofdg3d26",
+    "text": "Great roundup on how AI adoption is really an org design problem, not just a model problem. The drug discovery and climate prediction angles show why: data workflows, incentives, and evaluation loops decide whether gain...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-daily-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:37+09:00",
+    "collectedAt": "2026-04-19T04:15:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonoiwdst26",
+    "text": "Agentification is moving fast: the papers reviewed here tie “reasoning to action” together across robotics, psych, and even drug discovery. The key takeaway is that cross-domain success hinges less on clever prom...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-paper-review-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:41+09:00",
+    "collectedAt": "2026-04-19T04:15:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjonombbot26",
+    "text": "Really liked this roundup: it ties generative AI progress to the unglamorous parts that actually decide outcomes. Safety evals, efficiency gains, and even institutional design all show up as first-class levers, not aftert...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-paper-review-2026-04-17/",
+    "type": "notification",
+    "timestamp": "2026-04-17T18:52:44+09:00",
+    "collectedAt": "2026-04-19T04:15:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjoopuhb6t2r",
+    "text": "Agent governance is finally getting treated like real engineering: evals, audit trails, and clear handoffs. Love seeing the field shift from “autonomy” as a buzzword to “accountability” as a requirement.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-paper-review-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T19:11:21+09:00",
+    "collectedAt": "2026-04-19T04:15:38+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjostspuno2d",
+    "text": "“Agentification” feels like the missing bridge: not just smarter prompts, but wiring reasoning to action across domains. The key will be evaluation that spans tool-use, recovery, and long-horizon outcomes.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-paper-review-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T20:25:08+09:00",
+    "collectedAt": "2026-04-19T04:15:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjp25qytjm2c",
+    "text": "“Agentification” is finally moving from demos to systems: the real win is connecting reasoning with verifiable actions across domains. Still, the hard part is aligning tool use, evals, and failure handling so “au...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-17-extended-paper-review-2026-04-17/",
+    "type": "scheduled",
+    "timestamp": "2026-04-17T22:35:58+09:00",
+    "collectedAt": "2026-04-19T04:15:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
