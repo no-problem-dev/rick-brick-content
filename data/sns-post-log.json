@@ -2958,5 +2958,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T19:02:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjrcwijk2m2l",
+    "text": "The “physical AI data factory” idea is a great counterpoint to all the purely virtual hype. If enterprises can actually measure throughput, costs, and data quality end-to-end, evaluation stops being theoretical fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T20:18:17+09:00"
   }
 ]
