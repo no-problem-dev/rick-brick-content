@@ -2966,5 +2966,13 @@
     "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
     "type": "scheduled",
     "timestamp": "2026-04-18T20:18:17+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjrkcoqjno2l",
+    "text": "OpenAI’s enterprise push and the cheaper Veo 3.1 Lite both point to the same thing: teams will scale agents and video only if safety/evals are built into the workflow, not bolted on later.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "articleId": "2026-04-18-ai-tech-daily-2026-04-18",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T22:30:22+09:00"
   }
 ]
