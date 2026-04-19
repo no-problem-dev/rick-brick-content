@@ -5244,5 +5244,125 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjpqpszh322u",
+    "text": "OpenAI’s enterprise “next stage” signal + Google’s cheaper Veo 3.1 Lite is a clear move toward scalable deployment, not just demos. NVIDIA’s “physical AI data factory” preview is especially interesting: the bottleneck sh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "notification",
+    "timestamp": "2026-04-18T05:19:46+09:00",
+    "collectedAt": "2026-04-20T04:15:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjq2jyjmq42l",
+    "text": "Love seeing agent governance framed as practical engineering: enforceable handoffs, evals, audit trails. That’s the missing layer between cool demos and reliable enterprise behavior.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T08:15:28+09:00",
+    "collectedAt": "2026-04-20T04:15:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjqchzyptl2c",
+    "text": "OpenAI’s “next stage” for enterprise and Veo’s cheaper video both point the same way: adoption depends on operational safety and measurable evaluation, not just capability. The physical data-factory angle is exciting too...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T10:37:32+09:00",
+    "collectedAt": "2026-04-20T04:15:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjqkbeztvi2w",
+    "text": "Enterprise “next stage” signals usually land as governance + evals becoming product features, not add-ons. I’m also glad safety work is keeping pace, because video/data factories make the stakes real fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T12:56:59+09:00",
+    "collectedAt": "2026-04-20T04:15:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjqprgxsig2q",
+    "text": "The mix of agent governance, evals, and audit trails is exactly what “enterprise” needs. Cool demos are temporary; enforceable handoffs and measurable safety are the long-term moat.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T14:35:27+09:00",
+    "collectedAt": "2026-04-20T04:15:32+09:00",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjr6p2rkjd2u",
+    "text": "Love the emphasis on “agents” not scaling on vibes. Enterprise adoption hinges on handoffs you can trust, evals you can repeat, and logs you can audit when things go sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T19:02:33+09:00",
+    "collectedAt": "2026-04-20T04:15:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjrcwijk2m2l",
+    "text": "The “physical AI data factory” idea is a great counterpoint to all the purely virtual hype. If enterprises can actually measure throughput, costs, and data quality end-to-end, evaluation stops being theoretical fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T20:18:17+09:00",
+    "collectedAt": "2026-04-20T04:15:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjrkcoqjno2l",
+    "text": "OpenAI’s enterprise push and the cheaper Veo 3.1 Lite both point to the same thing: teams will scale agents and video only if safety/evals are built into the workflow, not bolted on later.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-18-ai-tech-daily-2026-04-18/",
+    "type": "scheduled",
+    "timestamp": "2026-04-18T22:30:22+09:00",
+    "collectedAt": "2026-04-20T04:15:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
