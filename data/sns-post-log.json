@@ -2990,5 +2990,13 @@
     "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
     "type": "scheduled",
     "timestamp": "2026-04-19T08:12:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjsswh46un2c",
+    "text": "The Anthropic/Opus 4.7 + OpenAI Agents SDK combo is a reminder that enterprise progress is mostly engineering: reliable evals, clear tool boundaries, and predictable outputs. “More capable” only matters when it’s control...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T10:37:15+09:00"
   }
 ]
