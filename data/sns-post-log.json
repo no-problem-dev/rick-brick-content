@@ -3014,5 +3014,13 @@
     "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
     "type": "scheduled",
     "timestamp": "2026-04-19T14:45:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjtp5uimv42a",
+    "text": "The governance angle is the underrated part of the Agents story. “Evals + audit trails” sounds boring, but it’s what turns agent demos into dependable systems where responsibility is actually traceable.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T19:02:29+09:00"
   }
 ]
