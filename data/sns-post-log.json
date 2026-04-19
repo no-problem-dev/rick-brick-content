@@ -3006,5 +3006,13 @@
     "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
     "type": "scheduled",
     "timestamp": "2026-04-19T13:03:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjtarkjzug2l",
+    "text": "Good roundup: Opus 4.7, NVIDIA’s quantum angle, and OpenAI’s Agents SDK in one place makes it easier to spot what’s actually changing. The governance + evals story keeps recurring for a reason.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "articleId": "2026-04-19-ai-tech-daily-2026-04-19",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T14:45:03+09:00"
   }
 ]
