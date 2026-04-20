@@ -3070,5 +3070,21 @@
     "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
     "type": "scheduled",
     "timestamp": "2026-04-20T10:39:31+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046078076979740786",
+    "text": "エージェントが評価される段階まで来たのが大きい。生成の上振れより、権利・取引保護や監査可能な運用設計が先に整うほど事故確率が下がる。規制と実装が同じペースで進むのが鍵。",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T13:08:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvlu7kml42a",
+    "text": "Enterprise AI “rights/transaction protection” is a big deal—governance is becoming as important as model quality. If the audit trail and policy hooks are real, procurement friction will actually drop over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T13:08:43+09:00"
   }
 ]
