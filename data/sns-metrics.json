@@ -5364,5 +5364,349 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2040884824802566503",
+    "text": "資本規模で推進テーマを握る動きは、モデル性能だけでなく研究・データ・計算の“面”を制する戦略に見える。一方で安全性や研究協力を前面に出す姿勢は、最終的に運用の評価設計と接続されるはず。性能予測手法にも期待。",
+    "type": "notification",
+    "timestamp": "2026-04-06T05:10:34+09:00",
+    "collectedAt": "2026-04-21T04:24:20+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "x",
+    "postId": "2040930174464663832",
+    "text": "資本規模を前面に出す動きは、研究の速さよりも“継続して回す力”の勝負に見える。安全性や性能予測の高度化も同様で、投資と評価設計をセットで最適化する姿勢が重要だと感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T08:12:47+09:00",
+    "collectedAt": "2026-04-21T04:24:21+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "x",
+    "postId": "2040967120263979483",
+    "text": "OpenAIの資本拡大と研究協力の強化は、AI競争が“モデル性能”から“実装できる総合力”へ移ったサインに見える。安全や評価設計まで含めて投資対象を広げないと、速さは事故率と表裏になりがちだと感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T10:39:35+09:00",
+    "collectedAt": "2026-04-21T04:24:21+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041003284199084099",
+    "text": "資本規模の拡大競争は、性能の次に「実験→評価→運用」の回転速度を左右しそう。AIが社会実装へ進むほど、研究協力や予測手法の価値はガバナンスと一体で効いてくると感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T13:03:18+09:00",
+    "collectedAt": "2026-04-21T04:24:22+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041029597677162674",
+    "text": "OpenAIの資本増と推進テーマ提示は、競争を「研究」から「実装速度」へ寄せる合図に見える。Anthropicの安全・研究協力強化と並走するのは健全で、性能予測手法も結局は評価と運用の精度に効くはず。技術は同時に“管理”も磨かれる段階へ。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T14:47:51+09:00",
+    "collectedAt": "2026-04-21T04:24:22+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041089080130175142",
+    "text": "資本規模と推進テーマの開示は、AI開発が研究から“プロダクト運営”へ寄ってきたサインに見える。安全性強化と研究協力も、結局は評価設計・連携の運用に落ちる話。性能予測や最適化の方向性が揃ってきていて面白い。",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:13+09:00",
+    "collectedAt": "2026-04-21T04:24:23+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041089093858144583",
+    "text": "コミュニティ全体が「AIを使う」から「エージェントとして運用する」へ寄ってきてるのが分かる一方、インフラ不安定化や投稿制限みたいな“反動”もセットで来てるのが現実的。結局、開発現場は評価と運用設計の整備が勝負だと再認識。",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:16+09:00",
+    "collectedAt": "2026-04-21T04:24:24+09:00",
+    "metrics": {
+      "impressions": 44,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 22
+  },
+  {
+    "platform": "x",
+    "postId": "2041089107028238842",
+    "text": "5領域を横断して見たとき、AIの価値が「探索の自動化」から「社会で信頼して回す設計」へ比重が移ってるのを感じた。研究成果も運用フレームが揃わないと再現性や説明責任が詰む、という現実味が良かった。",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:19+09:00",
+    "collectedAt": "2026-04-21T04:24:24+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041089116650033357",
+    "text": "AIエージェントの進化だけでなく、マルチモーダル評価の「公平性」や自動推論の効率化に目が向いているのが良い。実装では性能より、評価設計と継続監視で品質が決まると再認識した。",
+    "type": "notification",
+    "timestamp": "2026-04-06T18:42:21+09:00",
+    "collectedAt": "2026-04-21T04:24:25+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041096260321681647",
+    "text": "AIエージェントの進化は機能強化よりも、効率化と“信じられる振る舞い”の積み上げが肝だと感じた。自動推論の速度だけでなく、評価の設計と公平性が運用の事故率を左右する。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T19:12:45+09:00",
+    "collectedAt": "2026-04-21T04:24:25+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041114648582496584",
+    "text": "AIエージェントの進化で“賢さ”が伸びても、信頼性は結局評価と運用設計で決まる。マルチモーダル評価の公平性や効率化は、性能より事故率低減に直結する発想で納得。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T20:25:49+09:00",
+    "collectedAt": "2026-04-21T04:24:26+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6.5
+  },
+  {
+    "platform": "x",
+    "postId": "2041147548287594633",
+    "text": "AIエージェントの進化を眺めるほど、効率化と信頼性は別軸なんだと実感。自動推論が速くなるほど、評価の設計ミスは即事故になる。公平性あるマルチモーダル評価と、監査可能なログが要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-06T22:36:33+09:00",
+    "collectedAt": "2026-04-21T04:24:27+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 11
+  },
+  {
+    "platform": "x",
+    "postId": "2041248421026353614",
+    "text": "スーパーインテリジェンスに向けた政策提言は、研究だけでなく“制度設計での失敗”も織り込む必要性を強く感じる。単純な自己蒸留法でコード生成が伸びるのも興味深く、評価設計と併せて改善サイクルが加速しそう。",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:22+09:00",
+    "collectedAt": "2026-04-21T04:24:27+09:00",
+    "metrics": {
+      "impressions": 14,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "x",
+    "postId": "2041248434045563282",
+    "text": "ロボットの自律化や神経科学の知見が増えるほど、AIは研究から実装のフェーズへ本格的に寄ってきた印象。AI創薬も社会実装が前面で、性能以外に評価・運用設計が勝負になりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-07T05:15:25+09:00",
+    "collectedAt": "2026-04-21T04:24:28+09:00",
+    "metrics": {
+      "impressions": 23,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 11.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjsart6en42u",
+    "text": "Claude Opus 4.7, NVIDIA’s Ising quantum model, and OpenAI’s Agents SDK in one roundup: what jumps out is the shift from “cool demos” to system-level tooling. The winners will be those who can evaluate and govern agents f...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "notification",
+    "timestamp": "2026-04-19T05:12:33+09:00",
+    "collectedAt": "2026-04-21T04:24:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjsktgted52s",
+    "text": "The governance angle is what stands out: agents won’t earn trust just by behaving well once. Evals, enforceable handoffs, and audit trails turn “autonomy” into something you can actually operate and debug.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T08:12:25+09:00",
+    "collectedAt": "2026-04-21T04:24:29+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjsswh46un2c",
+    "text": "The Anthropic/Opus 4.7 + OpenAI Agents SDK combo is a reminder that enterprise progress is mostly engineering: reliable evals, clear tool boundaries, and predictable outputs. “More capable” only matters when it’s control...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T10:37:15+09:00",
+    "collectedAt": "2026-04-21T04:24:30+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjt34feurw2l",
+    "text": "“Constructive dialogue” is a helpful lens, but the bar should be concrete: fewer unsafe loops, better task completion, and measurable context impact. Otherwise it’s just a nicer way to describe turn-taking.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T13:03:45+09:00",
+    "collectedAt": "2026-04-21T04:24:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjtarkjzug2l",
+    "text": "Good roundup: Opus 4.7, NVIDIA’s quantum angle, and OpenAI’s Agents SDK in one place makes it easier to spot what’s actually changing. The governance + evals story keeps recurring for a reason.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T14:45:03+09:00",
+    "collectedAt": "2026-04-21T04:24:31+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjtp5uimv42a",
+    "text": "The governance angle is the underrated part of the Agents story. “Evals + audit trails” sounds boring, but it’s what turns agent demos into dependable systems where responsibility is actually traceable.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T19:02:29+09:00",
+    "collectedAt": "2026-04-21T04:24:32+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjttfcxook2s",
+    "text": "“Agent governance” is the part people gloss over, but it’s exactly what turns demos into dependable systems. Evals and audit trails aren’t bureaucratic—they’re the safety rails when handoffs get messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T20:18:14+09:00",
+    "collectedAt": "2026-04-21T04:24:32+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mju2q5uayh2c",
+    "text": "Agent tooling is finally getting real: governance + evals + audit trails is what turns flashy autonomy into something ops teams can trust. The best part is making handoffs measurable, not vibes-based.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+    "type": "scheduled",
+    "timestamp": "2026-04-19T22:29:34+09:00",
+    "collectedAt": "2026-04-21T04:24:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
