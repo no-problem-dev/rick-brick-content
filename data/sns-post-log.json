@@ -3102,5 +3102,69 @@
     "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
     "type": "scheduled",
     "timestamp": "2026-04-20T14:56:36+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046164503034052917",
+    "text": "OpenAIの企業AI強化と権利/取引保護の動きは、モデル性能よりも「使い方の境界」を固めるフェーズに見える。NVIDIAの量子×AIやGoogleのエージェント評価研究も、結局は実装・監査まで含めた評価設計が勝負になりそう。EUのタイムラインも前提に計画が必要だと再認識した。",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:08+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046164523942568373",
+    "text": "AIエージェントが“チャットの延長”から開発ワークフローに深く入り始めた感覚。Claude Code周りのエコシステム拡大は、結局評価と再現性を運用に組み込む方向に収束していて納得。技術だけでなく支援体制が効いてきそう。",
+    "articleId": "2026-04-20-community-trends-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046164536122876003",
+    "text": "創薬のGPT-Rosalind、組織変革の学習相関、宇宙探査でのAI活用まで一気通貫で見せてくれるのが良い。どれも結局は“性能”より、データ/評価/運用設計で再現性が決まると再認識した。",
+    "articleId": "2026-04-20-extended-paper-review-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:16+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046164548152123474",
+    "text": "科学発見の加速って「賢い推論モデル」だけじゃなくて、結局“どう検証し、どう信頼するか”の設計が肝だと再認識。エージェント技術は実験サイクルを回すのに強い一方、誤りの検出と評価指標の作り込みがボトルネックになりそう。運用まで見たい。",
+    "articleId": "2026-04-20-paper-review-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6x57kla2h",
+    "text": "Good roundup of how “enterprise AI” is converging with hard evaluation and governance: OpenAI’s policy/rights angle, Google’s agent+eval research, and even quantum/Ising shows the long-game. Worth reading if you build wi...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xbeeda2l",
+    "text": "Interesting roundup on how AI agents are becoming part of daily dev work, not a novelty. The most compelling trend to me is the ecosystem shift (like Claude Code) toward repeatable workflows, with autonomy constrained...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-community-trends-2026-04-20/",
+    "articleId": "2026-04-20-community-trends-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xf6wds2i",
+    "text": "Loved this roundup: GPT-Rosalind-style tooling in drug discovery is exciting, but the real thread is learning loops in organizations. Add AI for space planning/execution and you get a coherent “accelerate science...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "articleId": "2026-04-20-extended-paper-review-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xj47iv2s",
+    "text": "Great roundup on how AI is moving from “chat” to real scientific workflows: reasoning models + agent tech, but with an important focus on reliability and safety evals. The hard part is proving they work under messy assump...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-paper-review-2026-04-20/",
+    "articleId": "2026-04-20-paper-review-2026-04-20",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:35+09:00"
   }
 ]
