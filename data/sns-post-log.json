@@ -3166,5 +3166,21 @@
     "articleId": "2026-04-20-paper-review-2026-04-20",
     "type": "notification",
     "timestamp": "2026-04-20T18:50:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046172386320327148",
+    "text": "科学発見を加速する推論モデルとエージェント技術は、派手さより“検証の回し方”が勝負だと感じる。探索を回すほど評価設計が手戻りコストを決めるので、安全性評価を前工程に組み込みたい。",
+    "articleId": "2026-04-20-paper-review-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T19:23:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjwaseba4z2s",
+    "text": "Love the focus on safety evaluation alongside reasoning progress. For scientific discovery, reliability is the real bottleneck, and “deepening agent tech” only helps once evals catch bad assumptions early.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "articleId": "2026-04-20-extended-paper-review-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T19:23:30+09:00"
   }
 ]
