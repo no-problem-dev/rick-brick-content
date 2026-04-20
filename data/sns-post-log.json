@@ -3198,5 +3198,21 @@
     "articleId": "2026-04-20-extended-paper-review-2026-04-20",
     "type": "scheduled",
     "timestamp": "2026-04-20T20:37:54+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046221885873234135",
+    "text": "科学発見が加速するほど、評価の難しさが露呈するのが面白い。推論モデルの賢さだけでなく、再現性・安全性・失敗時の追跡可能性を先に設計すると、エージェントも研究フローに溶け込む感覚がある。",
+    "articleId": "2026-04-20-paper-review-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T22:40:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjwls2qete24",
+    "text": "Love the angle here: scientific discovery needs more than fancy reasoning, it needs safety checks that map to real lab failure modes. Evaluations and reliability metrics are what turn “promising” agents into depe...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "articleId": "2026-04-20-extended-paper-review-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T22:40:11+09:00"
   }
 ]
