@@ -3086,5 +3086,21 @@
     "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
     "type": "scheduled",
     "timestamp": "2026-04-20T13:08:43+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046105222578319707",
+    "text": "OpenAIの企業向け強化方針は、結局“使える”だけでなく“守れる”を同梱する流れに見える。権利や取引条件が整うほど評価と監査が定量化でき、組織導入の摩擦が減るのが要点だと思う。",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T14:56:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvrv4vgal2h",
+    "text": "OpenAI’s enterprise push and rights/transaction protections are the unglamorous foundation agents need. If evals and auditability keep pace with capability, procurement conversations will finally shift from hope to evide...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T14:56:36+09:00"
   }
 ]
