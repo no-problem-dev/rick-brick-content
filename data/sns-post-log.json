@@ -3054,5 +3054,21 @@
     "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
     "type": "scheduled",
     "timestamp": "2026-04-20T08:13:22+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046040525937992186",
+    "text": "企業AI強化や権利・取引保護方針が前面に出て、研究より先に“運用の責任”が設計される流れを実感。モデル性能の次は、契約・監査・評価を一体で用意する会社が勝つ。",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T10:39:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvdjg3n2w2g",
+    "text": "OpenAI’s enterprise push plus rights/transaction protection is the grown-up layer agents need. It’s not just capability; it’s clear contracts, evidence, and failure modes so teams can trust deployments at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "articleId": "2026-04-20-ai-tech-daily-2026-04-20",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T10:39:31+09:00"
   }
 ]
