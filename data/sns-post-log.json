@@ -3230,5 +3230,21 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "notification",
     "timestamp": "2026-04-21T05:18:15+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046367598216900665",
+    "text": "創薬AIやロボット制御が同時に前進するほど、「賢さ」より「運用」が勝負に見える。評価指標は入口で、責任分界・監査・ロールバックまで設計して初めて安全に回る。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T08:19:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjxm5fthfg2s",
+    "text": "The best part of the “acceleration” theme is it’s not just faster models, it’s better integration: evals, handoffs, and real operational loops. That’s what turns pilots into dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T08:19:12+09:00"
   }
 ]
