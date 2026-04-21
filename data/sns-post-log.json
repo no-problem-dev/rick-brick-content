@@ -3278,5 +3278,21 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T13:04:59+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046465472275624322",
+    "text": "創薬AIや自律ロボが一気に進むほど、肝は性能より評価と責任の設計だと実感。特に量子やエージェントは不確実性が残るので、運用監査・手戻り手順まで含めた枠組みが要になる。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T14:48:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjybutawb42c",
+    "text": "The push from agent tooling to real governance is the key shift. It’s not just about smarter autonomy, but about reliable handoffs, evals, and audit trails so multi-agent systems stay controllable when things get messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T14:48:06+09:00"
   }
 ]
