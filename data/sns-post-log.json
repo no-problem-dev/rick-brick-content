@@ -3390,5 +3390,21 @@
     "articleId": "2026-04-21-ai-weekly-recap-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T22:39:56+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046686204490297502",
+    "text": "Safety Fellowshipみたいに外部研究者を巻き込む動きは、評価の質と監査可能性を底上げしそう。RSP運用更新やGemini Robotics-ERの公開も「作って終わり」ではなく、ロボや現場向けに安全を継続設計してるのが良いと感じた。",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T05:23:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjzsrpkzmd2c",
+    "text": "OpenAI’s Safety Fellowship is a smart move: external researchers can pressure-test real-world assumptions. I also like that the post covers operational updates (Anthropic RSP v3.1) and concrete robotics progress, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T05:23:14+09:00"
   }
 ]
