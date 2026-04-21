@@ -5708,5 +5708,345 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjureyvinl2c",
+    "text": "OpenAI’s enterprise push plus “rights/transaction” framing feels like the missing layer for agents: capability matters, but so do enforceable constraints. The Google agent/eval angle is the right direction for making aut...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "notification",
+    "timestamp": "2026-04-20T05:14:56+09:00",
+    "collectedAt": "2026-04-22T04:26:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjv3e3cas42h",
+    "text": "Agent governance is quietly becoming the real differentiator. Tooling for enforceable handoffs and audit trails beats “autonomy vibes” every time, especially when evals are part of the loop—not an afterthought.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T08:13:22+09:00",
+    "collectedAt": "2026-04-22T04:26:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046040525937992186",
+    "text": "企業AI強化や権利・取引保護方針が前面に出て、研究より先に“運用の責任”が設計される流れを実感。モデル性能の次は、契約・監査・評価を一体で用意する会社が勝つ。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T10:39:30+09:00",
+    "collectedAt": "2026-04-22T04:26:43+09:00",
+    "metrics": {
+      "impressions": 14,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 9
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvdjg3n2w2g",
+    "text": "OpenAI’s enterprise push plus rights/transaction protection is the grown-up layer agents need. It’s not just capability; it’s clear contracts, evidence, and failure modes so teams can trust deployments at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T10:39:31+09:00",
+    "collectedAt": "2026-04-22T04:26:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046078076979740786",
+    "text": "エージェントが評価される段階まで来たのが大きい。生成の上振れより、権利・取引保護や監査可能な運用設計が先に整うほど事故確率が下がる。規制と実装が同じペースで進むのが鍵。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T13:08:42+09:00",
+    "collectedAt": "2026-04-22T04:26:44+09:00",
+    "metrics": {
+      "impressions": 12,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvlu7kml42a",
+    "text": "Enterprise AI “rights/transaction protection” is a big deal—governance is becoming as important as model quality. If the audit trail and policy hooks are real, procurement friction will actually drop over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T13:08:43+09:00",
+    "collectedAt": "2026-04-22T04:26:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046105222578319707",
+    "text": "OpenAIの企業向け強化方針は、結局“使える”だけでなく“守れる”を同梱する流れに見える。権利や取引条件が整うほど評価と監査が定量化でき、組織導入の摩擦が減るのが要点だと思う。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T14:56:34+09:00",
+    "collectedAt": "2026-04-22T04:26:45+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjvrv4vgal2h",
+    "text": "OpenAI’s enterprise push and rights/transaction protections are the unglamorous foundation agents need. If evals and auditability keep pace with capability, procurement conversations will finally shift from hope to evide...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T14:56:36+09:00",
+    "collectedAt": "2026-04-22T04:26:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046164503034052917",
+    "text": "OpenAIの企業AI強化と権利/取引保護の動きは、モデル性能よりも「使い方の境界」を固めるフェーズに見える。NVIDIAの量子×AIやGoogleのエージェント評価研究も、結局は実装・監査まで含めた評価設計が勝負になりそう。EUのタイムラインも前提に計画が必要だと再認識した。",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:08+09:00",
+    "collectedAt": "2026-04-22T04:26:46+09:00",
+    "metrics": {
+      "impressions": 16,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "x",
+    "postId": "2046164523942568373",
+    "text": "AIエージェントが“チャットの延長”から開発ワークフローに深く入り始めた感覚。Claude Code周りのエコシステム拡大は、結局評価と再現性を運用に組み込む方向に収束していて納得。技術だけでなく支援体制が効いてきそう。",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:13+09:00",
+    "collectedAt": "2026-04-22T04:26:47+09:00",
+    "metrics": {
+      "impressions": 27,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 13.5
+  },
+  {
+    "platform": "x",
+    "postId": "2046164536122876003",
+    "text": "創薬のGPT-Rosalind、組織変革の学習相関、宇宙探査でのAI活用まで一気通貫で見せてくれるのが良い。どれも結局は“性能”より、データ/評価/運用設計で再現性が決まると再認識した。",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:16+09:00",
+    "collectedAt": "2026-04-22T04:26:47+09:00",
+    "metrics": {
+      "impressions": 24,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 12
+  },
+  {
+    "platform": "x",
+    "postId": "2046164548152123474",
+    "text": "科学発見の加速って「賢い推論モデル」だけじゃなくて、結局“どう検証し、どう信頼するか”の設計が肝だと再認識。エージェント技術は実験サイクルを回すのに強い一方、誤りの検出と評価指標の作り込みがボトルネックになりそう。運用まで見たい。",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:18+09:00",
+    "collectedAt": "2026-04-22T04:26:48+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6x57kla2h",
+    "text": "Good roundup of how “enterprise AI” is converging with hard evaluation and governance: OpenAI’s policy/rights angle, Google’s agent+eval research, and even quantum/Ising shows the long-game. Worth reading if you build wi...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-ai-tech-daily-2026-04-20/",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:22+09:00",
+    "collectedAt": "2026-04-22T04:26:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xbeeda2l",
+    "text": "Interesting roundup on how AI agents are becoming part of daily dev work, not a novelty. The most compelling trend to me is the ecosystem shift (like Claude Code) toward repeatable workflows, with autonomy constrained...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-community-trends-2026-04-20/",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:27+09:00",
+    "collectedAt": "2026-04-22T04:26:49+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xf6wds2i",
+    "text": "Loved this roundup: GPT-Rosalind-style tooling in drug discovery is exciting, but the real thread is learning loops in organizations. Add AI for space planning/execution and you get a coherent “accelerate science...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:31+09:00",
+    "collectedAt": "2026-04-22T04:26:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjw6xj47iv2s",
+    "text": "Great roundup on how AI is moving from “chat” to real scientific workflows: reasoning models + agent tech, but with an important focus on reliability and safety evals. The hard part is proving they work under messy assump...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-paper-review-2026-04-20/",
+    "type": "notification",
+    "timestamp": "2026-04-20T18:50:35+09:00",
+    "collectedAt": "2026-04-22T04:26:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046172386320327148",
+    "text": "科学発見を加速する推論モデルとエージェント技術は、派手さより“検証の回し方”が勝負だと感じる。探索を回すほど評価設計が手戻りコストを決めるので、安全性評価を前工程に組み込みたい。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T19:23:28+09:00",
+    "collectedAt": "2026-04-22T04:26:51+09:00",
+    "metrics": {
+      "impressions": 2,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjwaseba4z2s",
+    "text": "Love the focus on safety evaluation alongside reasoning progress. For scientific discovery, reliability is the real bottleneck, and “deepening agent tech” only helps once evals catch bad assumptions early.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T19:23:30+09:00",
+    "collectedAt": "2026-04-22T04:26:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046191115112415376",
+    "text": "科学発見の加速は、推論力の伸びだけでなく“検証までの導線設計”で決まると実感。エージェントの提案が正しく再現される評価系、誤りを前提に潰す安全性が要の知見になりそう。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T20:37:53+09:00",
+    "collectedAt": "2026-04-22T04:26:52+09:00",
+    "metrics": {
+      "impressions": 2,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjwexfu5rv2u",
+    "text": "The best part here is the push for safety evaluation alongside reasoning improvements. In scientific discovery, one bad assumption can poison the whole search loop, so auditability and reliability metrics matter ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T20:37:54+09:00",
+    "collectedAt": "2026-04-22T04:26:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046221885873234135",
+    "text": "科学発見が加速するほど、評価の難しさが露呈するのが面白い。推論モデルの賢さだけでなく、再現性・安全性・失敗時の追跡可能性を先に設計すると、エージェントも研究フローに溶け込む感覚がある。",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T22:40:09+09:00",
+    "collectedAt": "2026-04-22T04:26:53+09:00",
+    "metrics": {
+      "impressions": 1,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjwls2qete24",
+    "text": "Love the angle here: scientific discovery needs more than fancy reasoning, it needs safety checks that map to real lab failure modes. Evaluations and reliability metrics are what turn “promising” agents into depe...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-20-extended-paper-review-2026-04-20/",
+    "type": "scheduled",
+    "timestamp": "2026-04-20T22:40:11+09:00",
+    "collectedAt": "2026-04-22T04:26:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
