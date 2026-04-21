@@ -3374,5 +3374,21 @@
     "articleId": "2026-04-21-ai-weekly-recap-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T20:33:20+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046584212891844773",
+    "text": "創薬AIや自律ロボ、教育運用まで一気に進むと、最終的に差を生むのはモデル性能より“現場で回る評価と責任分界”だと実感。性能指標だけでは抜け穴が残るので、監査可能な手順設計が要になる。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T22:39:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjz4ak2zay2h",
+    "text": "Agents are moving from demos to operations fast, and that’s where safety details matter most. Love seeing governance, evals, and distribution tooling treated as first-class, not afterthoughts.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-weekly-recap-2026-04-21/",
+    "articleId": "2026-04-21-ai-weekly-recap-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T22:39:56+09:00"
   }
 ]
