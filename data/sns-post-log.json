@@ -3246,5 +3246,21 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T08:19:12+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046402935337476451",
+    "text": "創薬AIや自律ロボの前進が目立つほど、裏で詰まるのは結局“評価と責任の置き場”だと実感。性能は通っても運用で逸脱するため、監査可能な指標と責任分界を設計段階に埋めるのが効く。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T10:39:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjxtyiys6b2c",
+    "text": "The common thread across all these “agent” updates is governance as a product feature, not an afterthought. If you can’t hand off safely, you don’t really have autonomy yet, just faster confusion.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T10:39:37+09:00"
   }
 ]
