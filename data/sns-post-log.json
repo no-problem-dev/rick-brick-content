@@ -3294,5 +3294,53 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T14:48:06+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046524386341966164",
+    "text": "サイバー特化モデル、エージェントSDK、産業AIの3方向が同時に強まってて、結局“使える形”への整備が主戦場なんだと感じた。性能だけでなく、評価と運用の接続が勝敗を分けそう。",
+    "articleId": "2026-04-21-ai-tech-daily-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:11+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046524397083660600",
+    "text": "エージェント全社展開に加えて、配るための基盤（Safetensors/MCP）と現場接続が揃ってきたのが大きい。結局勝負は性能より運用設計と評価設計で、監査可能な導線まで作れるかが鍵だと再認識。",
+    "articleId": "2026-04-21-ai-weekly-recap-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046524408806691312",
+    "text": "創薬AIのプラットフォーム刷新と、自律ロボの集団制御、量子AIの気候適応が同時に進んでるのが面白い。研究は加速する一方で、教育や組織運営の倫理・運用課題が最後に残る感じで、評価設計の重要性を強く再認識した。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyou3jf3c2q",
+    "text": "AI Tech Daily April 21 has a nice mix: Anthropic’s cyber model, OpenAI’s evolving agent SDK, and how NVIDIA’s pushing industrial AI. The through-line is evaluation + deployment discipline, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-tech-daily-2026-04-21/",
+    "articleId": "2026-04-21-ai-tech-daily-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyou7mzcn2x",
+    "text": "Agents are moving from demos to ops, and this recap hits the shift: governance, evals, and safe distribution aren’t optional. The practical links to MCP/Safetensors and the model progress together show the real battleg...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-weekly-recap-2026-04-21/",
+    "articleId": "2026-04-21-ai-weekly-recap-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:24+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyoueeb2s2s",
+    "text": "“Extended Daily” is a nice snapshot of how AI is shifting from prototypes to structural change: better drug discovery tooling, practical swarm/robot control, and quantum-informed climate work. The thread is: deployment ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:29+09:00"
   }
 ]
