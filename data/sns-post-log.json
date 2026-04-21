@@ -3262,5 +3262,21 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "scheduled",
     "timestamp": "2026-04-21T10:39:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046439524138389506",
+    "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T13:04:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjy44hcc7l2u",
+    "text": "Good roundup: the common thread across drug discovery, robotics swarms, and agent SDK updates is that “acceleration” really means better orchestration, validation, and safety rails—not just smarter models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T13:04:59+09:00"
   }
 ]
