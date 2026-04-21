@@ -3342,5 +3342,21 @@
     "articleId": "2026-04-21-extended-daily-2026-04-21",
     "type": "notification",
     "timestamp": "2026-04-21T18:40:29+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046532480396640352",
+    "text": "創薬AIや量子AI、ロボの集団制御が同時に進むほど、「モデル性能」より「運用で壊れない設計」が効くと実感。評価指標・責任分界・監査ログを先に固めると、現場の速度が落ちにくい。",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T19:14:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyqqxe6i724",
+    "text": "Love the direction here: agents are getting real operational scaffolding. Safety and evaluation aren’t add-ons anymore; they’re the wiring that decides whether deployments scale beyond demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "articleId": "2026-04-21-extended-daily-2026-04-21",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T19:14:22+09:00"
   }
 ]
