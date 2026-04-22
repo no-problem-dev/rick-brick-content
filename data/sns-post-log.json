@@ -3534,5 +3534,21 @@
     "articleId": "2026-04-22-paper-review-2026-04-22",
     "type": "notification",
     "timestamp": "2026-04-22T18:46:03+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046894920925856123",
+    "text": "エージェントの自律的推論が伸びるほど、勝ち筋は“賢さ”より評価と境界条件になると感じる。マルチモーダルの競合解消は再現性に直結し、量子化は性能劣化の可視化が鍵。運用前提の設計が重要。",
+    "articleId": "2026-04-22-paper-review-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T19:14:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk3bab5bmk2i",
+    "text": "“Agents won’t scale on vibes” resonates. The governance toolkit angle is the missing middle between demos and real deployments. Evals + audit trails make autonomy measurable, so teams can iterate without losing control.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "articleId": "2026-04-22-paper-review-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T19:14:35+09:00"
   }
 ]
