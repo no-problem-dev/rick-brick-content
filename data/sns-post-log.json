@@ -3454,5 +3454,21 @@
     "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
     "type": "scheduled",
     "timestamp": "2026-04-22T13:03:57+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046827805363577214",
+    "text": "Safety Fellowshipのような外部連携は、安全を“社内ノウハウ”から“研究コミュニティ標準”へ寄せる動きに見える。評価や運用更新（RSP）が回るほど、事故より先に前提不備を潰せる。人材と手順の両輪が重要だと感じた。",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T14:47:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk2sde7g6s2x",
+    "text": "Love seeing the Safety Fellowship framed for external researchers. That kind of “independent pressure” plus clearer operational updates (like RSP v3.1) is what turns safety from a PR line into real engineering reality.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T14:47:52+09:00"
   }
 ]
