@@ -3438,5 +3438,21 @@
     "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
     "type": "scheduled",
     "timestamp": "2026-04-22T10:39:32+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046801650874986865",
+    "text": "外部研究者向けSafety Fellowshipは、安全を“閉じた内輪”から“研究コミュニティの検証”へ移す動きに見える。RSPの運用更新やロボティクス向け情報公開と合わせ、鍵は学術知を評価・監査の実装へ落とし込むことだと感じた。",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T13:03:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk2mjjfp442u",
+    "text": "The Safety Fellowship angle is promising: opening the door to external scrutiny should make safety work less insular. Still, the real win is whether the fellowship produces repeatable evals others can run, not just papers.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T13:03:57+09:00"
   }
 ]
