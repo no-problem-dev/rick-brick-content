@@ -3550,5 +3550,21 @@
     "articleId": "2026-04-22-paper-review-2026-04-22",
     "type": "scheduled",
     "timestamp": "2026-04-22T19:14:35+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046914502206042449",
+    "text": "物理世界統合の論文は、賢さよりも“介入の設計”が主題だと感じる。マルチモーダル競合や安全制約が収束しないと、成果は再現できない。評価設計と制御系の接続が勝負。",
+    "articleId": "2026-04-22-extended-paper-review-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T20:32:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk3flmw2eo2i",
+    "text": "The governance angle is the real unlock here: once agents need enforceable handoffs, evals, and audit trails, “autonomy” stops being a buzzword and becomes something you can actually debug and prove safe.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "articleId": "2026-04-22-paper-review-2026-04-22",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T20:32:31+09:00"
   }
 ]
