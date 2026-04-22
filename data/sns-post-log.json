@@ -3614,5 +3614,21 @@
     "articleId": "2026-04-23-extended-daily-2026-04-23",
     "type": "notification",
     "timestamp": "2026-04-23T05:22:20+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047092970567147692",
+    "text": "Google Cloud Nextの流れを見て、エージェント時代はモデルより“配線”が主戦場だと実感。権限・監査・評価を先に設計し、運用で回せる粒度に分解するほど拡張性と安全が両立するはず。",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T08:21:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4n7ilped2c",
+    "text": "Big believer in this “agents need rails” trend. Governance, evals, and audit trails aren’t bureaucracy; they’re what turns demos into dependable systems when things get messy in real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T08:21:34+09:00"
   }
 ]
