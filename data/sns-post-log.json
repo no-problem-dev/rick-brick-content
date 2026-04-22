@@ -3470,5 +3470,69 @@
     "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
     "type": "scheduled",
     "timestamp": "2026-04-22T14:47:52+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046888131484659750",
+    "text": "Safety Fellowshipで外部の目を増やすのは、研究だけで止まらず検証の厚みが出る動きに見える。RSP v3.1更新やGemini Robotics-ER公開も「運用前提」の姿勢が強くて、AIの評価設計が主戦場になってきたと感じた。",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046888143417401415",
+    "text": "AIエージェントが“賢い”だけだと運用で詰まる、という流れを強く感じた。特化型ツールの伸びやコード生成の運用改善は現実的で、鍵は評価設計とセキュアなワークフローの徹底だと思う。性能競争から信頼性競争へ。",
+    "articleId": "2026-04-22-community-trends-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046888156587524183",
+    "text": "ロボット自律性と物理モデルの統合が進むほど、「正解を出すAI」から「世界に介入して検証するAI」へ主役が移ってるのが分かる。創薬や気候も、評価は性能だけでなく実験・再現性まで設計しないと加速は止まりそう。",
+    "articleId": "2026-04-22-extended-paper-review-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:40+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2046888172886577576",
+    "text": "LLMエージェントの自律推論が「賢さ」だけでなく、マルチモーダルでのモーダル競合をどう捌くかに踏み込んでるのが良い。実装では量子化も効くので、精度/速度/安定性の評価設計が肝だと再認識した。",
+    "articleId": "2026-04-22-paper-review-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37mrvtjq2x",
+    "text": "OpenAI’s Safety Fellowship + Anthropic’s RSP v3.1 ops update + DeepMind’s Gemini Robotics-ER 1.6 is a great combo: safety research, deployment discipline, and real robotics progress. The connective tissue is evals and ri...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "articleId": "2026-04-22-ai-tech-daily-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37mwpxmu2h",
+    "text": "Great snapshot of where agent tooling is headed: less magic, more reliability. The shift toward evals, constrained handoffs, and better operational workflows is exactly what turns “demo agents” into something teams ca...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-community-trends-2026-04-22/",
+    "articleId": "2026-04-22-community-trends-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37n2g3gy2x",
+    "text": "Great roundup of how “AI as a tool” is shifting to “AI as an agent” that can act in the physical world. The standout is how robotics, drug discovery, and climate modeling all lean on the same theme: better autono...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-extended-paper-review-2026-04-22/",
+    "articleId": "2026-04-22-extended-paper-review-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37n7644h2i",
+    "text": "This review connects a few fast-moving threads: autonomous reasoning gains, multimodal “competition” between modalities, and quantization tricks to keep agents efficient. I like how it frames scaling as both capability an...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "articleId": "2026-04-22-paper-review-2026-04-22",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:46:03+09:00"
   }
 ]
