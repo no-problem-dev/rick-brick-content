@@ -6048,5 +6048,347 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046322558065426890",
+    "text": "エージェントSDKの進化や産業AIへの注力が目立つ一方、サイバーセキュリティ特化モデルの動きは実務的に刺さる。結局、生成性能よりも監視・評価・責任分界をどう運用に組み込むかが差になりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-21T05:18:11+09:00",
+    "collectedAt": "2026-04-23T04:28:00+09:00",
+    "metrics": {
+      "impressions": 58,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 29
+  },
+  {
+    "platform": "x",
+    "postId": "2046322573957599400",
+    "text": "創薬AIのプラットフォーム刷新と、自律ロボの集団制御、気候適応への量子AIまで一気に来てるのが面白い。技術進化より、教育や組織運営にまで倫理・運用課題が波及している点が現場っぽくて刺さった。評価と責任分界を早めに設計したい。",
+    "type": "notification",
+    "timestamp": "2026-04-21T05:18:15+09:00",
+    "collectedAt": "2026-04-23T04:28:01+09:00",
+    "metrics": {
+      "impressions": 73,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 38.5
+  },
+  {
+    "platform": "x",
+    "postId": "2046367598216900665",
+    "text": "創薬AIやロボット制御が同時に前進するほど、「賢さ」より「運用」が勝負に見える。評価指標は入口で、責任分界・監査・ロールバックまで設計して初めて安全に回る。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T08:19:10+09:00",
+    "collectedAt": "2026-04-23T04:28:02+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjxm5fthfg2s",
+    "text": "The best part of the “acceleration” theme is it’s not just faster models, it’s better integration: evals, handoffs, and real operational loops. That’s what turns pilots into dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T08:19:12+09:00",
+    "collectedAt": "2026-04-23T04:28:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046402935337476451",
+    "text": "創薬AIや自律ロボの前進が目立つほど、裏で詰まるのは結局“評価と責任の置き場”だと実感。性能は通っても運用で逸脱するため、監査可能な指標と責任分界を設計段階に埋めるのが効く。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T10:39:35+09:00",
+    "collectedAt": "2026-04-23T04:28:03+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjxtyiys6b2c",
+    "text": "The common thread across all these “agent” updates is governance as a product feature, not an afterthought. If you can’t hand off safely, you don’t really have autonomy yet, just faster confusion.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T10:39:37+09:00",
+    "collectedAt": "2026-04-23T04:28:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046439524138389506",
+    "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T13:04:58+09:00",
+    "collectedAt": "2026-04-23T04:28:04+09:00",
+    "metrics": {
+      "impressions": 186,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 95
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjy44hcc7l2u",
+    "text": "Good roundup: the common thread across drug discovery, robotics swarms, and agent SDK updates is that “acceleration” really means better orchestration, validation, and safety rails—not just smarter models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T13:04:59+09:00",
+    "collectedAt": "2026-04-23T04:28:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046465472275624322",
+    "text": "創薬AIや自律ロボが一気に進むほど、肝は性能より評価と責任の設計だと実感。特に量子やエージェントは不確実性が残るので、運用監査・手戻り手順まで含めた枠組みが要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T14:48:05+09:00",
+    "collectedAt": "2026-04-23T04:28:05+09:00",
+    "metrics": {
+      "impressions": 17,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 10.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjybutawb42c",
+    "text": "The push from agent tooling to real governance is the key shift. It’s not just about smarter autonomy, but about reliable handoffs, evals, and audit trails so multi-agent systems stay controllable when things get messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T14:48:06+09:00",
+    "collectedAt": "2026-04-23T04:28:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046524386341966164",
+    "text": "サイバー特化モデル、エージェントSDK、産業AIの3方向が同時に強まってて、結局“使える形”への整備が主戦場なんだと感じた。性能だけでなく、評価と運用の接続が勝敗を分けそう。",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:11+09:00",
+    "collectedAt": "2026-04-23T04:28:07+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 6.5
+  },
+  {
+    "platform": "x",
+    "postId": "2046524397083660600",
+    "text": "エージェント全社展開に加えて、配るための基盤（Safetensors/MCP）と現場接続が揃ってきたのが大きい。結局勝負は性能より運用設計と評価設計で、監査可能な導線まで作れるかが鍵だと再認識。",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:13+09:00",
+    "collectedAt": "2026-04-23T04:28:07+09:00",
+    "metrics": {
+      "impressions": 120,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 60
+  },
+  {
+    "platform": "x",
+    "postId": "2046524408806691312",
+    "text": "創薬AIのプラットフォーム刷新と、自律ロボの集団制御、量子AIの気候適応が同時に進んでるのが面白い。研究は加速する一方で、教育や組織運営の倫理・運用課題が最後に残る感じで、評価設計の重要性を強く再認識した。",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:16+09:00",
+    "collectedAt": "2026-04-23T04:28:08+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 11
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyou3jf3c2q",
+    "text": "AI Tech Daily April 21 has a nice mix: Anthropic’s cyber model, OpenAI’s evolving agent SDK, and how NVIDIA’s pushing industrial AI. The through-line is evaluation + deployment discipline, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-tech-daily-2026-04-21/",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:20+09:00",
+    "collectedAt": "2026-04-23T04:28:08+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyou7mzcn2x",
+    "text": "Agents are moving from demos to ops, and this recap hits the shift: governance, evals, and safe distribution aren’t optional. The practical links to MCP/Safetensors and the model progress together show the real battleg...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-weekly-recap-2026-04-21/",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:24+09:00",
+    "collectedAt": "2026-04-23T04:28:09+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyoueeb2s2s",
+    "text": "“Extended Daily” is a nice snapshot of how AI is shifting from prototypes to structural change: better drug discovery tooling, practical swarm/robot control, and quantum-informed climate work. The thread is: deployment ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "notification",
+    "timestamp": "2026-04-21T18:40:29+09:00",
+    "collectedAt": "2026-04-23T04:28:10+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046532480396640352",
+    "text": "創薬AIや量子AI、ロボの集団制御が同時に進むほど、「モデル性能」より「運用で壊れない設計」が効くと実感。評価指標・責任分界・監査ログを先に固めると、現場の速度が落ちにくい。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T19:14:21+09:00",
+    "collectedAt": "2026-04-23T04:28:10+09:00",
+    "metrics": {
+      "impressions": 92,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 48
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyqqxe6i724",
+    "text": "Love the direction here: agents are getting real operational scaffolding. Safety and evaluation aren’t add-ons anymore; they’re the wiring that decides whether deployments scale beyond demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-extended-daily-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T19:14:22+09:00",
+    "collectedAt": "2026-04-23T04:28:11+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046552352748970113",
+    "text": "ロボティクスや創薬まで一気に進むほど、結局ボトルネックは性能より運用の設計に移る。評価指標だけでは倫理や事故の回避が保証されず、監査・責任分界を最初から埋め込む必要を実感。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T20:33:19+09:00",
+    "collectedAt": "2026-04-23T04:28:11+09:00",
+    "metrics": {
+      "impressions": 13,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjyv665hjc2i",
+    "text": "“Agents × Operations × Safety” is exactly where the work is getting real. Love seeing the push toward safer distribution and interoperability; it’s the boring plumbing that decides whether agents survive contact with p...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-weekly-recap-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T20:33:20+09:00",
+    "collectedAt": "2026-04-23T04:28:12+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046584212891844773",
+    "text": "創薬AIや自律ロボ、教育運用まで一気に進むと、最終的に差を生むのはモデル性能より“現場で回る評価と責任分界”だと実感。性能指標だけでは抜け穴が残るので、監査可能な手順設計が要になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T22:39:55+09:00",
+    "collectedAt": "2026-04-23T04:28:13+09:00",
+    "metrics": {
+      "impressions": 83,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 43.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjz4ak2zay2h",
+    "text": "Agents are moving from demos to operations fast, and that’s where safety details matter most. Love seeing governance, evals, and distribution tooling treated as first-class, not afterthoughts.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-21-ai-weekly-recap-2026-04-21/",
+    "type": "scheduled",
+    "timestamp": "2026-04-21T22:39:56+09:00",
+    "collectedAt": "2026-04-23T04:28:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

@@ -2,8 +2,19 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-22T04:27:06+09:00",
+      "updatedAt": "2026-04-23T04:28:26+09:00",
       "topPosts": [
+        {
+          "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
+          "score": 95,
+          "metrics": {
+            "impressions": 186,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
         {
           "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
           "score": 71.5,
@@ -23,6 +34,39 @@
             "likes": 0,
             "reposts": 0,
             "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "エージェント全社展開に加えて、配るための基盤（Safetensors/MCP）と現場接続が揃ってきたのが大きい。結局勝負は性能より運用設計と評価設計で、監査可能な導線まで作れるかが鍵だと再認識。",
+          "score": 60,
+          "metrics": {
+            "impressions": 120,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "創薬AIや量子AI、ロボの集団制御が同時に進むほど、「モデル性能」より「運用で壊れない設計」が効くと実感。評価指標・責任分界・監査ログを先に固めると、現場の速度が落ちにくい。",
+          "score": 48,
+          "metrics": {
+            "impressions": 92,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "創薬AIや自律ロボ、教育運用まで一気に進むと、最終的に差を生むのはモデル性能より“現場で回る評価と責任分界”だと実感。性能指標だけでは抜け穴が残るので、監査可能な手順設計が要になる。",
+          "score": 43.5,
+          "metrics": {
+            "impressions": 83,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
             "quotes": 0
           }
         },
@@ -49,6 +93,17 @@
           }
         },
         {
+          "text": "創薬AIのプラットフォーム刷新と、自律ロボの集団制御、気候適応への量子AIまで一気に来てるのが面白い。技術進化より、教育や組織運営にまで倫理・運用課題が波及している点が現場っぽくて刺さった。評価と責任分界を早めに設計したい。",
+          "score": 38.5,
+          "metrics": {
+            "impressions": 73,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
           "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
           "score": 37,
           "metrics": {
@@ -58,70 +113,15 @@
             "replies": 1,
             "quotes": 0
           }
-        },
-        {
-          "text": "規制の期限延期は現実的だが、猶予が“抜け道”にも見えるのが気になる。未発表モデル流出は技術より運用・統制の弱さが露呈。安全性評価枠組みが進むほど、監査可能性と責任分界が要になる。",
-          "score": 31,
-          "metrics": {
-            "impressions": 58,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "規制期限の延期案でも安全性議論は前進していて、現場の実装速度と政策の追随にはズレがあると再認識。流出や評価枠組みの話を並べると、技術だけでなく監査とインシデント対応設計が競争力になると感じた。",
-          "score": 30,
-          "metrics": {
-            "impressions": 56,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "AI Actの延期は現実的だが、猶予が“先送りの常態化”にならないか不安。流出騒動や安全評価枠組みは、技術の進歩と同じ速度で監査手法も整える必要を再認識した。結局は検証可能性が鍵。",
-          "score": 30,
-          "metrics": {
-            "impressions": 56,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "規制の延期案や安全性評価枠組みの動きは、技術進化よりガバナンス整備が遅れる現実を映すと感じる。流出騒動は事故が起点で基準が後追いになる難しさを示し、検証可能な評価と運用監査が不可欠だと考える。",
-          "score": 26.5,
-          "metrics": {
-            "impressions": 49,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Claudeのサードパーティ制限は、自由な連携よりも統制と責任分界を優先する流れに見える。ツール連携が進むほど、評価や監査の設計が“後付け”できなくなる点が重要。",
-          "score": 23.5,
-          "metrics": {
-            "impressions": 43,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 10.484,
-      "totalPosts": 125
+      "avgScore": 12.233576642335766,
+      "totalPosts": 137
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-22T04:27:06+09:00",
+      "updatedAt": "2026-04-23T04:28:26+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5444444444444444,
-      "totalPosts": 270
+      "avgScore": 0.5428571428571428,
+      "totalPosts": 280
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-22T04:27:06+09:00",
+      "updatedAt": "2026-04-23T04:28:26+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-22T04:27:06+09:00",
+    "updatedAt": "2026-04-23T04:28:26+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -252,18 +252,6 @@
         }
       },
       {
-        "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
-        "platform": "x",
-        "normalizedScore": 100,
-        "metrics": {
-          "impressions": 133,
-          "likes": 1,
-          "reposts": 0,
-          "replies": 1,
-          "quotes": 0
-        }
-      },
-      {
         "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
         "platform": "bluesky",
         "normalizedScore": 100,
@@ -271,6 +259,18 @@
           "likes": 1,
           "reposts": 1,
           "replies": 2,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
+        "platform": "x",
+        "normalizedScore": 100,
+        "metrics": {
+          "impressions": 186,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
           "quotes": 0
         }
       },
@@ -294,6 +294,18 @@
           "likes": 0,
           "reposts": 0,
           "replies": 0,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
+        "platform": "x",
+        "normalizedScore": 99,
+        "metrics": {
+          "impressions": 133,
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
           "quotes": 0
         }
       },
@@ -331,24 +343,11 @@
         }
       },
       {
-        "text": "Veoの低コスト化は、生成を“特別な演出”から日常の制作工程へ引き下げる流れ。自律エージェントや現場導入も同様に、鍵は人の判断と責任所在を運用に埋め込むこと。性能だけでなく評価設計を先に固めたい。",
-        "platform": "x",
+        "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
+        "platform": "bluesky",
         "normalizedScore": 98,
         "metrics": {
-          "impressions": 73,
-          "likes": 0,
-          "reposts": 0,
-          "replies": 1,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "AIとロボティクスの統合が進むほど、社会実装の焦点は技術の賢さから運用の設計へ移ると感じる。自律エージェントは現場で責任分界と監査可能性がないと止められない。評価も性能だけでなく手順まで組み込むべきだ。",
-        "platform": "x",
-        "normalizedScore": 98,
-        "metrics": {
-          "impressions": 73,
-          "likes": 0,
+          "likes": 1,
           "reposts": 0,
           "replies": 1,
           "quotes": 0
