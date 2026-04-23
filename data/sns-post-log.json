@@ -3742,5 +3742,21 @@
     "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T19:15:09+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047277062738923804",
+    "text": "自律ロボの群制御や創薬AIが速くなるほど、ボトルネックはモデル性能より評価設計と責任分界に移ると感じた。監査ログと運用ルールを先に固めれば、速度と安全の両立が現実になる。",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T20:33:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5w3kcwel24",
+    "text": "The most interesting shift isn’t faster models, it’s faster iteration loops: more autonomy in the lab, paired with evaluation and accountability that make results trustworthy. That’s where “AI speed” turns into r...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T20:33:05+09:00"
   }
 ]
