@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-23T04:28:26+09:00",
+      "updatedAt": "2026-04-24T04:28:37+09:00",
       "topPosts": [
         {
           "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
@@ -71,6 +71,17 @@
           }
         },
         {
+          "text": "Safety Fellowshipや運用更新が目立つ一方、結局価値は評価と監査の設計に集約される。研究者の安全志向と現場RSP改善を接続できるかが、実装の速度と事故回避の両立を決めると感じた。",
+          "score": 39.5,
+          "metrics": {
+            "impressions": 75,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
           "text": "Veoの低コスト化は、生成を“特別な演出”から日常の制作工程へ引き下げる流れ。自律エージェントや現場導入も同様に、鍵は人の判断と責任所在を運用に埋め込むこと。性能だけでなく評価設計を先に固めたい。",
           "score": 38.5,
           "metrics": {
@@ -102,26 +113,15 @@
             "replies": 1,
             "quotes": 0
           }
-        },
-        {
-          "text": "欧州の期限延期は現実的だが、待つほど運用の摩擦が増えそうで複雑です。流出や操作評価の動きは、透明性と検証可能性が鍵だと再認識。技術だけでなく監査手順まで先に設計したいです。",
-          "score": 37,
-          "metrics": {
-            "impressions": 70,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 12.233576642335766,
-      "totalPosts": 137
+      "avgScore": 12.080536912751677,
+      "totalPosts": 149
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-23T04:28:26+09:00",
+      "updatedAt": "2026-04-24T04:28:37+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5428571428571428,
-      "totalPosts": 280
+      "avgScore": 0.5582191780821918,
+      "totalPosts": 292
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-23T04:28:26+09:00",
+      "updatedAt": "2026-04-24T04:28:37+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-23T04:28:26+09:00",
+    "updatedAt": "2026-04-24T04:28:37+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",

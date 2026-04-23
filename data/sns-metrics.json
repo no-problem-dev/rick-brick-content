@@ -6390,5 +6390,377 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046686204490297502",
+    "text": "Safety Fellowshipみたいに外部研究者を巻き込む動きは、評価の質と監査可能性を底上げしそう。RSP運用更新やGemini Robotics-ERの公開も「作って終わり」ではなく、ロボや現場向けに安全を継続設計してるのが良いと感じた。",
+    "type": "notification",
+    "timestamp": "2026-04-22T05:23:11+09:00",
+    "collectedAt": "2026-04-24T04:28:10+09:00",
+    "metrics": {
+      "impressions": 41,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 22.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mjzsrpkzmd2c",
+    "text": "OpenAI’s Safety Fellowship is a smart move: external researchers can pressure-test real-world assumptions. I also like that the post covers operational updates (Anthropic RSP v3.1) and concrete robotics progress, not jus...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "notification",
+    "timestamp": "2026-04-22T05:23:14+09:00",
+    "collectedAt": "2026-04-24T04:28:11+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2046729511165935644",
+    "text": "Safety FellowshipやRSP更新、ロボティクス向け情報公開が同時に進むのを見ると、安全が研究者の特権から実運用の標準へ移っているのが大きい。評価と監査を早期に型化すれば、導入の速度も上げられると感じる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T08:17:16+09:00",
+    "collectedAt": "2026-04-24T04:28:12+09:00",
+    "metrics": {
+      "impressions": 1,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk24ixbpfh2h",
+    "text": "Love the Safety Fellowship angle. Bringing external researchers into the safety loop can sharpen evaluations faster than closed-door work, especially when paired with clear operational guidance like RSP-style procedures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T08:17:18+09:00",
+    "collectedAt": "2026-04-24T04:28:12+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046765302923628963",
+    "text": "Safety Fellowshipや運用更新が目立つ一方、結局価値は評価と監査の設計に集約される。研究者の安全志向と現場RSP改善を接続できるかが、実装の速度と事故回避の両立を決めると感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T10:39:30+09:00",
+    "collectedAt": "2026-04-24T04:28:13+09:00",
+    "metrics": {
+      "impressions": 75,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 39.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk2ehblyjz2s",
+    "text": "Love seeing more formal safety pathways, like a Safety Fellowship for external researchers. The best signal will be reproducible evaluation work that feeds into governance and real-world deployment, not just announcements.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T10:39:32+09:00",
+    "collectedAt": "2026-04-24T04:28:13+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046801650874986865",
+    "text": "外部研究者向けSafety Fellowshipは、安全を“閉じた内輪”から“研究コミュニティの検証”へ移す動きに見える。RSPの運用更新やロボティクス向け情報公開と合わせ、鍵は学術知を評価・監査の実装へ落とし込むことだと感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T13:03:56+09:00",
+    "collectedAt": "2026-04-24T04:28:14+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk2mjjfp442u",
+    "text": "The Safety Fellowship angle is promising: opening the door to external scrutiny should make safety work less insular. Still, the real win is whether the fellowship produces repeatable evals others can run, not just papers.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T13:03:57+09:00",
+    "collectedAt": "2026-04-24T04:28:15+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046827805363577214",
+    "text": "Safety Fellowshipのような外部連携は、安全を“社内ノウハウ”から“研究コミュニティ標準”へ寄せる動きに見える。評価や運用更新（RSP）が回るほど、事故より先に前提不備を潰せる。人材と手順の両輪が重要だと感じた。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T14:47:52+09:00",
+    "collectedAt": "2026-04-24T04:28:15+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk2sde7g6s2x",
+    "text": "Love seeing the Safety Fellowship framed for external researchers. That kind of “independent pressure” plus clearer operational updates (like RSP v3.1) is what turns safety from a PR line into real engineering reality.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T14:47:52+09:00",
+    "collectedAt": "2026-04-24T04:28:16+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046888131484659750",
+    "text": "Safety Fellowshipで外部の目を増やすのは、研究だけで止まらず検証の厚みが出る動きに見える。RSP v3.1更新やGemini Robotics-ER公開も「運用前提」の姿勢が強くて、AIの評価設計が主戦場になってきたと感じた。",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:34+09:00",
+    "collectedAt": "2026-04-24T04:28:16+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2046888143417401415",
+    "text": "AIエージェントが“賢い”だけだと運用で詰まる、という流れを強く感じた。特化型ツールの伸びやコード生成の運用改善は現実的で、鍵は評価設計とセキュアなワークフローの徹底だと思う。性能競争から信頼性競争へ。",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:37+09:00",
+    "collectedAt": "2026-04-24T04:28:17+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "x",
+    "postId": "2046888156587524183",
+    "text": "ロボット自律性と物理モデルの統合が進むほど、「正解を出すAI」から「世界に介入して検証するAI」へ主役が移ってるのが分かる。創薬や気候も、評価は性能だけでなく実験・再現性まで設計しないと加速は止まりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:40+09:00",
+    "collectedAt": "2026-04-24T04:28:18+09:00",
+    "metrics": {
+      "impressions": 10,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "x",
+    "postId": "2046888172886577576",
+    "text": "LLMエージェントの自律推論が「賢さ」だけでなく、マルチモーダルでのモーダル競合をどう捌くかに踏み込んでるのが良い。実装では量子化も効くので、精度/速度/安定性の評価設計が肝だと再認識した。",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:44+09:00",
+    "collectedAt": "2026-04-24T04:28:18+09:00",
+    "metrics": {
+      "impressions": 5,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37mrvtjq2x",
+    "text": "OpenAI’s Safety Fellowship + Anthropic’s RSP v3.1 ops update + DeepMind’s Gemini Robotics-ER 1.6 is a great combo: safety research, deployment discipline, and real robotics progress. The connective tissue is evals and ri...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-ai-tech-daily-2026-04-22/",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:47+09:00",
+    "collectedAt": "2026-04-24T04:28:19+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37mwpxmu2h",
+    "text": "Great snapshot of where agent tooling is headed: less magic, more reliability. The shift toward evals, constrained handoffs, and better operational workflows is exactly what turns “demo agents” into something teams ca...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-community-trends-2026-04-22/",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:53+09:00",
+    "collectedAt": "2026-04-24T04:28:19+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37n2g3gy2x",
+    "text": "Great roundup of how “AI as a tool” is shifting to “AI as an agent” that can act in the physical world. The standout is how robotics, drug discovery, and climate modeling all lean on the same theme: better autono...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-extended-paper-review-2026-04-22/",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:45:56+09:00",
+    "collectedAt": "2026-04-24T04:28:20+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk37n7644h2i",
+    "text": "This review connects a few fast-moving threads: autonomous reasoning gains, multimodal “competition” between modalities, and quantization tricks to keep agents efficient. I like how it frames scaling as both capability an...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "type": "notification",
+    "timestamp": "2026-04-22T18:46:03+09:00",
+    "collectedAt": "2026-04-24T04:28:21+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046894920925856123",
+    "text": "エージェントの自律的推論が伸びるほど、勝ち筋は“賢さ”より評価と境界条件になると感じる。マルチモーダルの競合解消は再現性に直結し、量子化は性能劣化の可視化が鍵。運用前提の設計が重要。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T19:14:33+09:00",
+    "collectedAt": "2026-04-24T04:28:21+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk3bab5bmk2i",
+    "text": "“Agents won’t scale on vibes” resonates. The governance toolkit angle is the missing middle between demos and real deployments. Evals + audit trails make autonomy measurable, so teams can iterate without losing control.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T19:14:35+09:00",
+    "collectedAt": "2026-04-24T04:28:22+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046914502206042449",
+    "text": "物理世界統合の論文は、賢さよりも“介入の設計”が主題だと感じる。マルチモーダル競合や安全制約が収束しないと、成果は再現できない。評価設計と制御系の接続が勝負。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T20:32:22+09:00",
+    "collectedAt": "2026-04-24T04:28:22+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk3flmw2eo2i",
+    "text": "The governance angle is the real unlock here: once agents need enforceable handoffs, evals, and audit trails, “autonomy” stops being a buzzword and becomes something you can actually debug and prove safe.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T20:32:31+09:00",
+    "collectedAt": "2026-04-24T04:28:23+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2046946441793286195",
+    "text": "自律的推論の進化は、賢さよりも「失敗しても前に進む手順」が洗練されてきた点が刺さる。マルチモーダル競合は、評価設計と計測の難しさを突きつけるので、現場では成功条件を具体化するのが鍵だと思う。",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T22:39:17+09:00",
+    "collectedAt": "2026-04-24T04:28:24+09:00",
+    "metrics": {
+      "impressions": 47,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 25.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk3modikfg2h",
+    "text": "“Agents” will keep looking smart until you need proof they did the right thing. Governance tooling, evals, and audit trails are the boring parts that actually make autonomy usable in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-22-paper-review-2026-04-22/",
+    "type": "scheduled",
+    "timestamp": "2026-04-22T22:39:18+09:00",
+    "collectedAt": "2026-04-24T04:28:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
