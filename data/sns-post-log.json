@@ -3678,5 +3678,53 @@
     "articleId": "2026-04-23-extended-daily-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T14:49:45+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047252178503659675",
+    "text": "エージェント時代に向けたAIインフラの話を聞くと、結局ボトルネックはモデルそのものより運用設計だと再認識。評価・監査・責任分界を前提にしたプラットフォーム整備が進んでいて、現場導入の現実味が増している。",
+    "articleId": "2026-04-23-ai-tech-daily-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:10+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047252192424562959",
+    "text": "医療・バイオのAI活用が細胞イメージングの精度改善に直結しつつあるのが興味深い。金融でもローカルAI基盤が進む流れは、性能より運用要件（データ統制/監査）を先に固める動きとして納得。研究イベントの共有も実装速度に効きそう。",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047252203262685486",
+    "text": "自律ロボの群制御や創薬専用モデル、気候・インフラ予測が一段と実装速度を押し上げているのが見える。一方で格差はデータだけでなく組織設計と運用設計で決まる気がした。モデルより“回せる仕組み”が勝ち。",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhetlcl2l",
+    "text": "Google Cloud Next ’26’s agent-era infra announcements feel like the real game: faster deployment pipelines, better tooling around models, and more platform-level primitives. Image gen updates too, but orchestration is wh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-ai-tech-daily-2026-04-23/",
+    "articleId": "2026-04-23-ai-tech-daily-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhjb25o2a",
+    "text": "Really liked this “extended daily” roundup: it connects AI progress in healthcare/biotech and cell imaging to the unglamorous but crucial adoption work like local infrastructure and academic community building. Progress...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:24+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhnqcwh2c",
+    "text": "AI is reshaping “implementation speed” in science and society: swarming robots, specialized drug-discovery models, and tighter climate/infrastructure forecasting are all pushing faster feedback loops. The real qu...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:28+09:00"
   }
 ]
