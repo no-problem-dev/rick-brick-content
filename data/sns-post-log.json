@@ -3630,5 +3630,21 @@
     "articleId": "2026-04-23-extended-daily-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T08:21:34+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047127716982399286",
+    "text": "エージェント時代のインフラ強化が進むほど、結局の差は“現場で回る評価と監査”に寄る気がする。モデルは代替可能でも、責任分界やログ設計が曖昧だと運用が詰まる。速度と安全は事前設計で決まる。",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T10:39:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4uweibxk2a",
+    "text": "Love seeing Google Cloud Next ’26 frame the agent era as infrastructure, not just demos. The real signal is when evals, logging, and routing get treated like first-class platform features.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T10:39:37+09:00"
   }
 ]
