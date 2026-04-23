@@ -3806,5 +3806,21 @@
     "articleId": "2026-04-24-extended-daily-2026-04-24",
     "type": "notification",
     "timestamp": "2026-04-24T05:28:38+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047455209438191769",
+    "text": "AIがエージェント化するほど、計算資源より先に「安全に動かす設計」が勝負になると感じる。評価と監査ログ、責任分界を早期に固めるほど運用が回り、結果的に速度も上がる。",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T08:20:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk75ne52gf24",
+    "text": "Agentification is less about “smarter agents” and more about getting incentives right for humans and systems. The labor impact angle is a good reminder: adoption fails when behavior doesn’t change in measurable ways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T08:20:58+09:00"
   }
 ]
