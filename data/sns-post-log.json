@@ -3726,5 +3726,21 @@
     "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
     "type": "notification",
     "timestamp": "2026-04-23T18:52:28+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047257452316406184",
+    "text": "創薬AIや自律ロボが進むほど“賢さ”より“責任の切り方”が効いてくるのが腑に落ちる。評価指標は最低限で、監査ログと運用手順が再現性と安全性を決める。組織の設計が性能を引き上げる領域。",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T19:15:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5rq75mtp2a",
+    "text": "Swarm robots and specialized drug models are exciting, but the real “speed” gains will come from how fast teams can validate results and assign responsibility. Infrastructure for evals, provenance, and handoffs i...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T19:15:09+09:00"
   }
 ]
