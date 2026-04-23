@@ -3758,5 +3758,21 @@
     "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T20:33:05+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047308916246147433",
+    "text": "自律ロボや創薬AIの前進で、結局ボトルネックは性能より評価設計と責任分界だと感じる。監査ログと運用ルールを先に固めるほど、失敗の学習速度が上がり安全も担保できる。",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T22:39:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk655v5fth2h",
+    "text": "The governance and eval pieces are what make “agent speed” real in science. Swarms and specialized models help, but without clear handoffs and measurable safety, the bottleneck just moves to coordination and vali...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "articleId": "2026-04-23-extended-weekly-recap-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T22:39:39+09:00"
   }
 ]
