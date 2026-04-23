@@ -3662,5 +3662,21 @@
     "articleId": "2026-04-23-extended-daily-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T13:05:20+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047190665210077655",
+    "text": "エージェント時代のインフラ発表を見て、結局“賢さ”より運用の設計が効くと実感。評価・監査ログ・権限分離を先に決めないと、性能が上がるほど責任の所在が曖昧になる。",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T14:49:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5cvndz6q2h",
+    "text": "The best part of today’s agent-era push is that it’s moving from demos to the boring stuff: evals, governance, and auditability. That’s what’ll keep multi-agent systems dependable when they’re actually deployed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T14:49:45+09:00"
   }
 ]
