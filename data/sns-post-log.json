@@ -3646,5 +3646,21 @@
     "articleId": "2026-04-23-extended-daily-2026-04-23",
     "type": "scheduled",
     "timestamp": "2026-04-23T10:39:37+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047164386775585029",
+    "text": "エージェント時代のAIインフラが進むほど、結局最後に効くのは評価と責任分界だと痛感。モデル性能より運用設計・監査ログ・権限設計が再現性を決める。スケールの前提はガバナンスを先に固めること。",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T13:05:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk552vy65u2u",
+    "text": "Love seeing “agents” treated like an engineering system, not a magic vibe. Governance, evals, and audit trails are what make handoffs reliable when things get messy in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "articleId": "2026-04-23-extended-daily-2026-04-23",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T13:05:20+09:00"
   }
 ]
