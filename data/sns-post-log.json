@@ -3998,5 +3998,37 @@
     "articleId": "2026-04-24-paper-review-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T22:38:44+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047771988194676971",
+    "text": "GPT-5.5の大規模展開に加えて、分散学習やエージェント基盤が同時に前に進んでるのが大きい。モデル自体より、推論/学習のスケール設計と運用基盤が競争の中心になってきた実感。",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:42+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047771999603175897",
+    "text": "創薬や材料開発はモデル精度の競争だけでなく、実験設計とフィードバック回しの速さが勝負になってきたと感じる。ロボも“物理制約をどう組み込むか”が効いていて、結局科学発見は運用設計の工程が主役だと思った。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbdurffby2q",
+    "text": "OpenAI’s GPT-5.5 rollout + the infra race (NVIDIA/DeepMind distributed training/Meta on AWS) is the signal. The model gets faster, but the real advantage is training + serving systems that scale reliably.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbduvfcgi2u",
+    "text": "Great roundup on how AI is pushing into scientific discovery, but the real story is integration: better models plus robotics/experiments, and even policy-aware planning. Breakthroughs will come from tighter loops than “...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-extended-daily-2026-04-25/",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:53+09:00"
   }
 ]
