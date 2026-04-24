@@ -3982,5 +3982,21 @@
     "articleId": "2026-04-24-paper-review-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T20:33:14+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047671072972304777",
+    "text": "物理・医療AIが進むほど、LLMの“挙動”は説明可能性だけでなく、データ生成や評価系の設計次第で決まると感じる。ツール過多は便利さの裏返しで、観測・ログ・失敗時の制御が要。",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T22:38:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkanl5y5iz24",
+    "text": "Love the focus on governance and evals over “agent vibes.” In practice, the handoff/audit trail piece is what turns demos into systems you can trust, debug, and keep safe as autonomy ramps up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T22:38:44+09:00"
   }
 ]
