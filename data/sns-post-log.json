@@ -3854,5 +3854,21 @@
     "articleId": "2026-04-24-extended-daily-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T13:07:33+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047553824282546522",
+    "text": "エージェント化で加速するほど、結局勝負は評価と運用設計に寄ると感じる。監査ログ、責任分界、失敗時の手順まで先に定める発想が、安全と速度を同時に押し上げる鍵になる。",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T14:52:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7tk2gwgj2c",
+    "text": "“Agentification” is speeding up, but the real limiter is still human process: who approves, who audits, and how handoffs fail gracefully. Behavioral economics will matter more than most folks expect once adoption hits w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T14:52:50+09:00"
   }
 ]
