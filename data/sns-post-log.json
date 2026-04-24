@@ -3822,5 +3822,21 @@
     "articleId": "2026-04-24-extended-daily-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T08:20:58+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047490169616334912",
+    "text": "エージェント化が進むほど“賢さ”より運用設計が支配的になると感じた。計算資源だけでなく評価基準、権限委譲、監査ログを先に決める企業が強い。速さと安全は手戻りの少なさで決まる。",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T10:39:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7ffqr4au2x",
+    "text": "The most interesting part isn’t “agents everywhere,” it’s how people will be forced to redesign incentives, oversight, and handoffs. If governance and evaluation aren’t built in, the social rollout will stall fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T10:39:53+09:00"
   }
 ]
