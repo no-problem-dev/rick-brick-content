@@ -6762,5 +6762,377 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047048332892094926",
+    "text": "エージェント時代のAIインフラが主役になってきた印象。画像生成の更新よりも、評価・監査・運用まで含めた“実装の型”をクラウド側が揃えに来てるのが大きいと感じた。現場はモデルより接続とガバナンス勝負。",
+    "type": "notification",
+    "timestamp": "2026-04-23T05:22:09+09:00",
+    "collectedAt": "2026-04-25T04:17:43+09:00",
+    "metrics": {
+      "impressions": 93,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 46.5
+  },
+  {
+    "platform": "x",
+    "postId": "2047048343700799936",
+    "text": "医療・バイオのAI活用が細胞イメージングの精度向上に繋がる流れ、地味に効いてますね。ローカルAIインフラ構築や教育・研究の場での共有が進むほど、実装の再現性が上がり社会実装が早くなると感じました。",
+    "type": "notification",
+    "timestamp": "2026-04-23T05:22:12+09:00",
+    "collectedAt": "2026-04-25T04:17:44+09:00",
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4d6um4fq2s",
+    "text": "Google Cloud Next ’26 feels like a real “agent era” infrastructure checklist: safer orchestration, better tooling, and less duct-tape glue. The OpenAI/Anthropic/Amazon updates are great, but evals and workflow integratio...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-ai-tech-daily-2026-04-23/",
+    "type": "notification",
+    "timestamp": "2026-04-23T05:22:15+09:00",
+    "collectedAt": "2026-04-25T04:17:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4d6yvzii2s",
+    "text": "Nice roundup of how AI research turns into real-world healthcare/biotech workflows, from better cell imaging to local finance infrastructure. I like the emphasis on “social implementation” and academics keeping momentum...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "notification",
+    "timestamp": "2026-04-23T05:22:20+09:00",
+    "collectedAt": "2026-04-25T04:17:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047092970567147692",
+    "text": "Google Cloud Nextの流れを見て、エージェント時代はモデルより“配線”が主戦場だと実感。権限・監査・評価を先に設計し、運用で回せる粒度に分解するほど拡張性と安全が両立するはず。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T08:21:32+09:00",
+    "collectedAt": "2026-04-25T04:17:45+09:00",
+    "metrics": {
+      "impressions": 23,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 13.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4n7ilped2c",
+    "text": "Big believer in this “agents need rails” trend. Governance, evals, and audit trails aren’t bureaucracy; they’re what turns demos into dependable systems when things get messy in real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T08:21:34+09:00",
+    "collectedAt": "2026-04-25T04:17:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047127716982399286",
+    "text": "エージェント時代のインフラ強化が進むほど、結局の差は“現場で回る評価と監査”に寄る気がする。モデルは代替可能でも、責任分界やログ設計が曖昧だと運用が詰まる。速度と安全は事前設計で決まる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T10:39:36+09:00",
+    "collectedAt": "2026-04-25T04:17:46+09:00",
+    "metrics": {
+      "impressions": 43,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 23.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk4uweibxk2a",
+    "text": "Love seeing Google Cloud Next ’26 frame the agent era as infrastructure, not just demos. The real signal is when evals, logging, and routing get treated like first-class platform features.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T10:39:37+09:00",
+    "collectedAt": "2026-04-25T04:17:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047164386775585029",
+    "text": "エージェント時代のAIインフラが進むほど、結局最後に効くのは評価と責任分界だと痛感。モデル性能より運用設計・監査ログ・権限設計が再現性を決める。スケールの前提はガバナンスを先に固めること。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T13:05:19+09:00",
+    "collectedAt": "2026-04-25T04:17:47+09:00",
+    "metrics": {
+      "impressions": 12,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk552vy65u2u",
+    "text": "Love seeing “agents” treated like an engineering system, not a magic vibe. Governance, evals, and audit trails are what make handoffs reliable when things get messy in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T13:05:20+09:00",
+    "collectedAt": "2026-04-25T04:17:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047190665210077655",
+    "text": "エージェント時代のインフラ発表を見て、結局“賢さ”より運用の設計が効くと実感。評価・監査ログ・権限分離を先に決めないと、性能が上がるほど責任の所在が曖昧になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T14:49:44+09:00",
+    "collectedAt": "2026-04-25T04:17:49+09:00",
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5cvndz6q2h",
+    "text": "The best part of today’s agent-era push is that it’s moving from demos to the boring stuff: evals, governance, and auditability. That’s what’ll keep multi-agent systems dependable when they’re actually deployed.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T14:49:45+09:00",
+    "collectedAt": "2026-04-25T04:17:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047252178503659675",
+    "text": "エージェント時代に向けたAIインフラの話を聞くと、結局ボトルネックはモデルそのものより運用設計だと再認識。評価・監査・責任分界を前提にしたプラットフォーム整備が進んでいて、現場導入の現実味が増している。",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:10+09:00",
+    "collectedAt": "2026-04-25T04:17:50+09:00",
+    "metrics": {
+      "impressions": 33,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 16.5
+  },
+  {
+    "platform": "x",
+    "postId": "2047252192424562959",
+    "text": "医療・バイオのAI活用が細胞イメージングの精度改善に直結しつつあるのが興味深い。金融でもローカルAI基盤が進む流れは、性能より運用要件（データ統制/監査）を先に固める動きとして納得。研究イベントの共有も実装速度に効きそう。",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:13+09:00",
+    "collectedAt": "2026-04-25T04:17:50+09:00",
+    "metrics": {
+      "impressions": 10,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "x",
+    "postId": "2047252203262685486",
+    "text": "自律ロボの群制御や創薬専用モデル、気候・インフラ予測が一段と実装速度を押し上げているのが見える。一方で格差はデータだけでなく組織設計と運用設計で決まる気がした。モデルより“回せる仕組み”が勝ち。",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:16+09:00",
+    "collectedAt": "2026-04-25T04:17:51+09:00",
+    "metrics": {
+      "impressions": 9,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhetlcl2l",
+    "text": "Google Cloud Next ’26’s agent-era infra announcements feel like the real game: faster deployment pipelines, better tooling around models, and more platform-level primitives. Image gen updates too, but orchestration is wh...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-ai-tech-daily-2026-04-23/",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:19+09:00",
+    "collectedAt": "2026-04-25T04:17:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhjb25o2a",
+    "text": "Really liked this “extended daily” roundup: it connects AI progress in healthcare/biotech and cell imaging to the unglamorous but crucial adoption work like local infrastructure and academic community building. Progress...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-daily-2026-04-23/",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:24+09:00",
+    "collectedAt": "2026-04-25T04:17:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5qhnqcwh2c",
+    "text": "AI is reshaping “implementation speed” in science and society: swarming robots, specialized drug-discovery models, and tighter climate/infrastructure forecasting are all pushing faster feedback loops. The real qu...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "type": "notification",
+    "timestamp": "2026-04-23T18:52:28+09:00",
+    "collectedAt": "2026-04-25T04:17:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047257452316406184",
+    "text": "創薬AIや自律ロボが進むほど“賢さ”より“責任の切り方”が効いてくるのが腑に落ちる。評価指標は最低限で、監査ログと運用手順が再現性と安全性を決める。組織の設計が性能を引き上げる領域。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T19:15:07+09:00",
+    "collectedAt": "2026-04-25T04:17:53+09:00",
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5rq75mtp2a",
+    "text": "Swarm robots and specialized drug models are exciting, but the real “speed” gains will come from how fast teams can validate results and assign responsibility. Infrastructure for evals, provenance, and handoffs i...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T19:15:09+09:00",
+    "collectedAt": "2026-04-25T04:17:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047277062738923804",
+    "text": "自律ロボの群制御や創薬AIが速くなるほど、ボトルネックはモデル性能より評価設計と責任分界に移ると感じた。監査ログと運用ルールを先に固めれば、速度と安全の両立が現実になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T20:33:03+09:00",
+    "collectedAt": "2026-04-25T04:17:54+09:00",
+    "metrics": {
+      "impressions": 2,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk5w3kcwel24",
+    "text": "The most interesting shift isn’t faster models, it’s faster iteration loops: more autonomy in the lab, paired with evaluation and accountability that make results trustworthy. That’s where “AI speed” turns into r...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T20:33:05+09:00",
+    "collectedAt": "2026-04-25T04:17:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047308916246147433",
+    "text": "自律ロボや創薬AIの前進で、結局ボトルネックは性能より評価設計と責任分界だと感じる。監査ログと運用ルールを先に固めるほど、失敗の学習速度が上がり安全も担保できる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T22:39:37+09:00",
+    "collectedAt": "2026-04-25T04:17:55+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk655v5fth2h",
+    "text": "The governance and eval pieces are what make “agent speed” real in science. Swarms and specialized models help, but without clear handoffs and measurable safety, the bottleneck just moves to coordination and vali...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-23-extended-weekly-recap-2026-04-23/",
+    "type": "scheduled",
+    "timestamp": "2026-04-23T22:39:39+09:00",
+    "collectedAt": "2026-04-25T04:17:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
