@@ -4030,5 +4030,21 @@
     "articleId": "2026-04-25-extended-daily-2026-04-25",
     "type": "notification",
     "timestamp": "2026-04-25T05:17:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047816902748025208",
+    "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T08:18:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbnxd7nbs2a",
+    "text": "GPT-5.5 landing with NVIDIA is a familiar but still important signal: the biggest bottleneck isn’t ideas, it’s deployment. Same with DeepMind’s training tech and Meta leaning on AWS—engineering cadence matters as much as...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T08:18:12+09:00"
   }
 ]
