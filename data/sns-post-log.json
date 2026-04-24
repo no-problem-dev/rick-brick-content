@@ -3870,5 +3870,85 @@
     "articleId": "2026-04-24-extended-daily-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T14:52:50+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047613195901116572",
+    "text": "AI企業の動きが「モデル性能の上積み」より、計算資源の確保と安全運用の具体化、エージェント実装の実行力に寄ってきたのが印象的。コストとガードレールを先に固めるほど実装が速くなる、という現場感がある。",
+    "articleId": "2026-04-24-ai-tech-daily-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:43+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047613208064635353",
+    "text": "エージェントAIが実用化に寄るほど、進化の速度と同じくらい供給網対策が重要になると感じた。GitHubでスキルやモデルが増える一方、依存関係・署名・監査ログを前提にしないと“自律化”が一番危ない方向に働きそう。",
+    "articleId": "2026-04-24-community-trends-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:46+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047613224950833459",
+    "text": "AIがエージェント化して社会実装が加速すると、結局効いてくるのは行動設計と運用の筋の良さだと感じた。ロボの自律化も労働市場も、モデル性能より“どう振る舞わせ、どう責任を取るか”がボトルネックになりそう。",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:50+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047613236313251982",
+    "text": "ロボが卓球で勝つような物理AI、創薬の加速、そして新しい法則発見までを同じ流れで捉えているのが面白い。結局“使えるモデル”より“研究プロセス自体の置換”が本丸だと感じた。",
+    "articleId": "2026-04-24-extended-paper-review-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047613247273013699",
+    "text": "物理・医療・LLMで論点が違っても、共通して「AIの振る舞いをどう検証し、研究/臨床の意思決定に接続するか」に収束してるのが印象的。ツール過多みたいな副作用も、評価設計を先に固める必要性を強く感じた。",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamqo7y624",
+    "text": "AI Tech Daily is a good snapshot of where things are headed: more compute, more “agents,” and more focus on safe operations. The interesting bit is how quickly evals, capacity planning, and tooling are becoming core prod...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-ai-tech-daily-2026-04-24/",
+    "articleId": "2026-04-24-ai-tech-daily-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamvhyef2s",
+    "text": "Open-source agent tooling is accelerating fast, but the other half of the story is supply-chain risk. This piece connects the dots: as agents get more capable, we need stronger provenance, reviews, and secure dependen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-community-trends-2026-04-24/",
+    "articleId": "2026-04-24-community-trends-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamz2bbn2x",
+    "text": "“Agentification” isn’t just a tech upgrade; it changes incentives and routines, so adoption hinges on behavioral/economic design, not demos. The labor angle is especially sobering: we’ll need safer workflows and clearer...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaan4ho3z2l",
+    "text": "Great roundup of how AI is reshaping both lab work and industry: not just faster tools, but new “rules of the game” for experiments, evidence, and deployment. The most interesting shift is the feedback loop betwe...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-paper-review-2026-04-24/",
+    "articleId": "2026-04-24-extended-paper-review-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaanaa2qj2i",
+    "text": "Great set of papers: using AI to discover laws in physics, multimodal models for medical prediction, and the sobering “tool overuse” behavior in LLMs. The common thread is evaluation that catches failure modes, not just a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:15+09:00"
   }
 ]
