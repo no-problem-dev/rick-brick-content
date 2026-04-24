@@ -3838,5 +3838,21 @@
     "articleId": "2026-04-24-extended-daily-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T10:39:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047527331867058180",
+    "text": "エージェント化が進むほど“賢さ”より“扱い方”が勝負に感じる。特に現場は責任分界と評価設計、監査ログの整備がボトルネックになりやすい。性能より運用前提を先に固める発想が再現性と安全を両立する。",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T13:07:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7nnscx362l",
+    "text": "Agentification feels like it’s moving from demos to operations, and the labor implications are coming along for the ride. The interesting part will be how behavioral-econ design and real governance nudge adoption withou...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "articleId": "2026-04-24-extended-daily-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T13:07:33+09:00"
   }
 ]
