@@ -3950,5 +3950,21 @@
     "articleId": "2026-04-24-paper-review-2026-04-24",
     "type": "notification",
     "timestamp": "2026-04-24T18:47:15+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047619830023430344",
+    "text": "物理・医療AIが深まるほど、LLMの“賢さ”よりも観測系や評価の設計が支配的になる。ツール多用は便利でも誤差伝播の温床で、検証可能なログと境界条件が要。研究開発の主戦場は運用へ移る。",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T19:15:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkac6zkxnd2u",
+    "text": "Love the thread connecting physics discovery and medicine to the boring-but-critical question: how do we evaluate what the model actually does? Especially with “tool overuse,” measurement is the difference between demos a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T19:15:06+09:00"
   }
 ]
