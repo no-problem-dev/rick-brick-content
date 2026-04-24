@@ -3966,5 +3966,21 @@
     "articleId": "2026-04-24-paper-review-2026-04-24",
     "type": "scheduled",
     "timestamp": "2026-04-24T19:15:06+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047639493990076796",
+    "text": "物理・医療AIが“当てる”段階から“理由を語る”段階へ進んでるのが印象的。LLMの挙動解明や評価の整備が鍵で、精度より反証可能性と再現性を重視すると運用が強くなる。",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T20:33:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkagkque2n2s",
+    "text": "Love the emphasis on governance and evaluation here. In practice, “agent” success hinges less on clever autonomy and more on knowing when to hand off, what to test, and how to audit failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "articleId": "2026-04-24-paper-review-2026-04-24",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T20:33:14+09:00"
   }
 ]
