@@ -4078,5 +4078,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T13:00:31+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047913104781312414",
+    "text": "GPT-5.5や分散学習、エージェント基盤の動きは“性能競争”が加速した合図に見える。ただ現場では、実験設計・評価・監査の型がないと回り続けず、速度はそこに律速される。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T14:40:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcdcvqgyd2i",
+    "text": "Love seeing the shift from “cool demos” to actual governance: GPT-5.5/NVIDIA and distributed training are great, but the real leverage is evals, handoffs, and accountability once agents hit messy real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T14:40:29+09:00"
   }
 ]
