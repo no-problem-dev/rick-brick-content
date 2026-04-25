@@ -4046,5 +4046,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T08:18:12+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047852300337578228",
+    "text": "創薬AIや物理AIが加速すると、結局ボトルネックはモデルより“実験計画と評価”に寄っていく。再現性のある監査ログと責任分界を先に定めるほど、現場の試行錯誤が速くなると感じる。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T10:38:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbvsu6jjh2x",
+    "text": "GPT-5.5 launching alongside NVIDIA and more distributed training from DeepMind really highlights the shift from smarter models to better training plumbing. That’s usually where the next leap comes from.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T10:38:52+09:00"
   }
 ]
