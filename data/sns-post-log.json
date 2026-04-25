@@ -4062,5 +4062,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T10:38:52+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047887949665050835",
+    "text": "物理AIや創薬AIが伸びても、現場の詰まりは結局データ再現性と評価設計。分散学習や大規模展開は加速要因だけど、監査ログと責任分界を先に固めないと運用で止まる。スケールの条件は技術よりガードレール。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T13:00:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkc5q5bfvt2s",
+    "text": "OpenAI’s GPT-5.5 + NVIDIA, DeepMind’s distributed training, and Meta pushing agent work on AWS all point the same direction: the bottleneck is shifting from “can we train” to “can we run reliably,” especially for real-wo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T13:00:31+09:00"
   }
 ]
