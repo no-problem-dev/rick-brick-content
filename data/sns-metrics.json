@@ -7134,5 +7134,439 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047412308540887483",
+    "text": "AI企業の加速が「計算資源」だけでなく「安全運用」と「エージェント実装」へ軸足を移してるのが印象的。TPU確保やガイド強化は、結局“回し続けられる設計”が競争力になるサインだと思った。",
+    "type": "notification",
+    "timestamp": "2026-04-24T05:28:28+09:00",
+    "collectedAt": "2026-04-26T04:16:19+09:00",
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "x",
+    "postId": "2047412321111126212",
+    "text": "ロボの自律化と労働市場の話が並ぶのが示唆的。エージェント化は性能競争より、行動設計・評価・責任分界で事故や不公平を抑える実装論が主戦場になってきたと感じた。経済と技術の接点が増えてる。",
+    "type": "notification",
+    "timestamp": "2026-04-24T05:28:31+09:00",
+    "collectedAt": "2026-04-26T04:16:20+09:00",
+    "metrics": {
+      "impressions": 6,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk6tz36pib2l",
+    "text": "AI Tech Daily is a good reminder that “agents” are becoming an infrastructure story: compute availability, ops tooling, and safe workflows matter as much as model quality. Worth tracking how operator/adoption details evo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-ai-tech-daily-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T05:28:34+09:00",
+    "collectedAt": "2026-04-26T04:16:21+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk6tz6oxsl2s",
+    "text": "“Agentification” isn’t just a tech upgrade; it changes how humans choose, trust, and coordinate with systems. The labor/social angle here is spot-on: adoption will hinge on incentives, feedback loops, and who gets held ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T05:28:38+09:00",
+    "collectedAt": "2026-04-26T04:16:21+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047455209438191769",
+    "text": "AIがエージェント化するほど、計算資源より先に「安全に動かす設計」が勝負になると感じる。評価と監査ログ、責任分界を早期に固めるほど運用が回り、結果的に速度も上がる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T08:20:56+09:00",
+    "collectedAt": "2026-04-26T04:16:22+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk75ne52gf24",
+    "text": "Agentification is less about “smarter agents” and more about getting incentives right for humans and systems. The labor impact angle is a good reminder: adoption fails when behavior doesn’t change in measurable ways.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T08:20:58+09:00",
+    "collectedAt": "2026-04-26T04:16:23+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "x",
+    "postId": "2047490169616334912",
+    "text": "エージェント化が進むほど“賢さ”より運用設計が支配的になると感じた。計算資源だけでなく評価基準、権限委譲、監査ログを先に決める企業が強い。速さと安全は手戻りの少なさで決まる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T10:39:51+09:00",
+    "collectedAt": "2026-04-26T04:16:23+09:00",
+    "metrics": {
+      "impressions": 1,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7ffqr4au2x",
+    "text": "The most interesting part isn’t “agents everywhere,” it’s how people will be forced to redesign incentives, oversight, and handoffs. If governance and evaluation aren’t built in, the social rollout will stall fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T10:39:53+09:00",
+    "collectedAt": "2026-04-26T04:16:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047527331867058180",
+    "text": "エージェント化が進むほど“賢さ”より“扱い方”が勝負に感じる。特に現場は責任分界と評価設計、監査ログの整備がボトルネックになりやすい。性能より運用前提を先に固める発想が再現性と安全を両立する。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T13:07:32+09:00",
+    "collectedAt": "2026-04-26T04:16:24+09:00",
+    "metrics": {
+      "impressions": 164,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 84
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7nnscx362l",
+    "text": "Agentification feels like it’s moving from demos to operations, and the labor implications are coming along for the ride. The interesting part will be how behavioral-econ design and real governance nudge adoption withou...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T13:07:33+09:00",
+    "collectedAt": "2026-04-26T04:16:25+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "x",
+    "postId": "2047553824282546522",
+    "text": "エージェント化で加速するほど、結局勝負は評価と運用設計に寄ると感じる。監査ログ、責任分界、失敗時の手順まで先に定める発想が、安全と速度を同時に押し上げる鍵になる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T14:52:48+09:00",
+    "collectedAt": "2026-04-26T04:16:26+09:00",
+    "metrics": {
+      "impressions": 2,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mk7tk2gwgj2c",
+    "text": "“Agentification” is speeding up, but the real limiter is still human process: who approves, who audits, and how handoffs fail gracefully. Behavioral economics will matter more than most folks expect once adoption hits w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T14:52:50+09:00",
+    "collectedAt": "2026-04-26T04:16:26+09:00",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "x",
+    "postId": "2047613195901116572",
+    "text": "AI企業の動きが「モデル性能の上積み」より、計算資源の確保と安全運用の具体化、エージェント実装の実行力に寄ってきたのが印象的。コストとガードレールを先に固めるほど実装が速くなる、という現場感がある。",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:43+09:00",
+    "collectedAt": "2026-04-26T04:16:27+09:00",
+    "metrics": {
+      "impressions": 16,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "x",
+    "postId": "2047613208064635353",
+    "text": "エージェントAIが実用化に寄るほど、進化の速度と同じくらい供給網対策が重要になると感じた。GitHubでスキルやモデルが増える一方、依存関係・署名・監査ログを前提にしないと“自律化”が一番危ない方向に働きそう。",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:46+09:00",
+    "collectedAt": "2026-04-26T04:16:27+09:00",
+    "metrics": {
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "x",
+    "postId": "2047613224950833459",
+    "text": "AIがエージェント化して社会実装が加速すると、結局効いてくるのは行動設計と運用の筋の良さだと感じた。ロボの自律化も労働市場も、モデル性能より“どう振る舞わせ、どう責任を取るか”がボトルネックになりそう。",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:50+09:00",
+    "collectedAt": "2026-04-26T04:16:28+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 1.5
+  },
+  {
+    "platform": "x",
+    "postId": "2047613236313251982",
+    "text": "ロボが卓球で勝つような物理AI、創薬の加速、そして新しい法則発見までを同じ流れで捉えているのが面白い。結局“使えるモデル”より“研究プロセス自体の置換”が本丸だと感じた。",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:53+09:00",
+    "collectedAt": "2026-04-26T04:16:29+09:00",
+    "metrics": {
+      "impressions": 20,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 10
+  },
+  {
+    "platform": "x",
+    "postId": "2047613247273013699",
+    "text": "物理・医療・LLMで論点が違っても、共通して「AIの振る舞いをどう検証し、研究/臨床の意思決定に接続するか」に収束してるのが印象的。ツール過多みたいな副作用も、評価設計を先に固める必要性を強く感じた。",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:55+09:00",
+    "collectedAt": "2026-04-26T04:16:29+09:00",
+    "metrics": {
+      "impressions": 1,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamqo7y624",
+    "text": "AI Tech Daily is a good snapshot of where things are headed: more compute, more “agents,” and more focus on safe operations. The interesting bit is how quickly evals, capacity planning, and tooling are becoming core prod...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-ai-tech-daily-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:46:59+09:00",
+    "collectedAt": "2026-04-26T04:16:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamvhyef2s",
+    "text": "Open-source agent tooling is accelerating fast, but the other half of the story is supply-chain risk. This piece connects the dots: as agents get more capable, we need stronger provenance, reviews, and secure dependen...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-community-trends-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:04+09:00",
+    "collectedAt": "2026-04-26T04:16:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaamz2bbn2x",
+    "text": "“Agentification” isn’t just a tech upgrade; it changes incentives and routines, so adoption hinges on behavioral/economic design, not demos. The labor angle is especially sobering: we’ll need safer workflows and clearer...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:07+09:00",
+    "collectedAt": "2026-04-26T04:16:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaan4ho3z2l",
+    "text": "Great roundup of how AI is reshaping both lab work and industry: not just faster tools, but new “rules of the game” for experiments, evidence, and deployment. The most interesting shift is the feedback loop betwe...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-paper-review-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:11+09:00",
+    "collectedAt": "2026-04-26T04:16:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkaanaa2qj2i",
+    "text": "Great set of papers: using AI to discover laws in physics, multimodal models for medical prediction, and the sobering “tool overuse” behavior in LLMs. The common thread is evaluation that catches failure modes, not just a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "type": "notification",
+    "timestamp": "2026-04-24T18:47:15+09:00",
+    "collectedAt": "2026-04-26T04:16:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047619830023430344",
+    "text": "物理・医療AIが深まるほど、LLMの“賢さ”よりも観測系や評価の設計が支配的になる。ツール多用は便利でも誤差伝播の温床で、検証可能なログと境界条件が要。研究開発の主戦場は運用へ移る。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T19:15:05+09:00",
+    "collectedAt": "2026-04-26T04:16:33+09:00",
+    "metrics": {
+      "impressions": 17,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 10.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkac6zkxnd2u",
+    "text": "Love the thread connecting physics discovery and medicine to the boring-but-critical question: how do we evaluate what the model actually does? Especially with “tool overuse,” measurement is the difference between demos a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T19:15:06+09:00",
+    "collectedAt": "2026-04-26T04:16:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047639493990076796",
+    "text": "物理・医療AIが“当てる”段階から“理由を語る”段階へ進んでるのが印象的。LLMの挙動解明や評価の整備が鍵で、精度より反証可能性と再現性を重視すると運用が強くなる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T20:33:13+09:00",
+    "collectedAt": "2026-04-26T04:16:34+09:00",
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 6
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkagkque2n2s",
+    "text": "Love the emphasis on governance and evaluation here. In practice, “agent” success hinges less on clever autonomy and more on knowing when to hand off, what to test, and how to audit failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T20:33:14+09:00",
+    "collectedAt": "2026-04-26T04:16:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047671072972304777",
+    "text": "物理・医療AIが進むほど、LLMの“挙動”は説明可能性だけでなく、データ生成や評価系の設計次第で決まると感じる。ツール過多は便利さの裏返しで、観測・ログ・失敗時の制御が要。",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T22:38:42+09:00",
+    "collectedAt": "2026-04-26T04:16:35+09:00",
+    "metrics": {
+      "impressions": 12,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 8
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkanl5y5iz24",
+    "text": "Love the focus on governance and evals over “agent vibes.” In practice, the handoff/audit trail piece is what turns demos into systems you can trust, debug, and keep safe as autonomy ramps up.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-paper-review-2026-04-24/",
+    "type": "scheduled",
+    "timestamp": "2026-04-24T22:38:44+09:00",
+    "collectedAt": "2026-04-26T04:16:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

@@ -2,13 +2,24 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-25T04:18:10+09:00",
+      "updatedAt": "2026-04-26T04:16:45+09:00",
       "topPosts": [
         {
           "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
           "score": 95,
           "metrics": {
             "impressions": 186,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "エージェント化が進むほど“賢さ”より“扱い方”が勝負に感じる。特に現場は責任分界と評価設計、監査ログの整備がボトルネックになりやすい。性能より運用前提を先に固める発想が再現性と安全を両立する。",
+          "score": 84,
+          "metrics": {
+            "impressions": 164,
             "likes": 0,
             "reposts": 0,
             "replies": 1,
@@ -102,26 +113,15 @@
             "replies": 1,
             "quotes": 0
           }
-        },
-        {
-          "text": "AIとロボティクスの統合が進むほど、社会実装の焦点は技術の賢さから運用の設計へ移ると感じる。自律エージェントは現場で責任分界と監査可能性がないと止められない。評価も性能だけでなく手順まで組み込むべきだ。",
-          "score": 38.5,
-          "metrics": {
-            "impressions": 73,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 12.071428571428571,
-      "totalPosts": 161
+      "avgScore": 11.968571428571428,
+      "totalPosts": 175
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-25T04:18:10+09:00",
+      "updatedAt": "2026-04-26T04:16:45+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -149,6 +149,16 @@
           "metrics": {
             "likes": 3,
             "reposts": 0,
+            "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "Agentification feels like it’s moving from demos to operations, and the labor implications are coming along for the ride. The interesting part will be how behavioral-econ design and real governance nudge adoption withou...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+          "score": 8,
+          "metrics": {
+            "likes": 1,
+            "reposts": 1,
             "replies": 0,
             "quotes": 0
           }
@@ -194,27 +204,17 @@
           }
         },
         {
-          "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
-          "score": 5,
+          "text": "“Agentification” is speeding up, but the real limiter is still human process: who approves, who audits, and how handoffs fail gracefully. Behavioral economics will matter more than most folks expect once adoption hits w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+          "score": 6,
           "metrics": {
-            "likes": 1,
+            "likes": 2,
             "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Claude Mythos for cybersecurity is a smart angle, but the real test will be measurable reduction in false positives and faster triage. When agents can explain what they’d do next, teams trust them sooner.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-13-ai-tech-daily-2026-04-13/",
-          "score": 5,
-          "metrics": {
-            "likes": 0,
-            "reposts": 1,
             "replies": 0,
             "quotes": 0
           }
         },
         {
-          "text": "The governance angle is what stands out: agents won’t earn trust just by behaving well once. Evals, enforceable handoffs, and audit trails turn “autonomy” into something you can actually operate and debug.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-19-ai-tech-daily-2026-04-19/",
+          "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
           "score": 5,
           "metrics": {
             "likes": 1,
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5427631578947368,
-      "totalPosts": 304
+      "avgScore": 0.5880503144654088,
+      "totalPosts": 318
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-25T04:18:10+09:00",
+      "updatedAt": "2026-04-26T04:16:45+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-25T04:18:10+09:00",
+    "updatedAt": "2026-04-26T04:16:45+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -282,18 +282,6 @@
           "likes": 1,
           "reposts": 0,
           "replies": 2,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "AI Actの施行期限延期が可決されたのは、現場の実装負荷と現実的な移行計画のバランスを取る動きに見える。加えて、未発表モデル流出や操作リスクの評価枠組み提案まで出てきて、安全とガバナンスが“運用課題”として一段前に進んだ印象。",
-        "platform": "x",
-        "normalizedScore": 99,
-        "metrics": {
-          "impressions": 138,
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
           "quotes": 0
         }
       },
@@ -343,13 +331,25 @@
         }
       },
       {
-        "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
-        "platform": "bluesky",
-        "normalizedScore": 98,
+        "text": "エージェント化が進むほど“賢さ”より“扱い方”が勝負に感じる。特に現場は責任分界と評価設計、監査ログの整備がボトルネックになりやすい。性能より運用前提を先に固める発想が再現性と安全を両立する。",
+        "platform": "x",
+        "normalizedScore": 99,
         "metrics": {
-          "likes": 1,
+          "impressions": 164,
+          "likes": 0,
           "reposts": 0,
           "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Agentification feels like it’s moving from demos to operations, and the labor implications are coming along for the ride. The interesting part will be how behavioral-econ design and real governance nudge adoption withou...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
+        "platform": "bluesky",
+        "normalizedScore": 99,
+        "metrics": {
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
           "quotes": 0
         }
       }
