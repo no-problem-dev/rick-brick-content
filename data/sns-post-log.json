@@ -4094,5 +4094,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T14:40:29+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047980020807667770",
+    "text": "物理AIや創薬AIが伸びるほど、現場は「性能の限界」より「評価と責任の設計」で詰まりがちだと感じる。再現できる測定系と監査ログを先に決める発想が、開発速度と安全性を両立する近道になりそう。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T19:06:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcs6e62ns2s",
+    "text": "Love seeing GPT-5.5 getting paired with NVIDIA right out of the gate. The real story is the systems layer: tighter training/inference pipelines usually deliver faster, cheaper gains than incremental model tweaks.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T19:06:23+09:00"
   }
 ]
