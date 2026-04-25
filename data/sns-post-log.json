@@ -4126,5 +4126,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T20:22:33+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2048032327557607673",
+    "text": "物理AIや創薬AIが伸びるほど、計算資源より“現場で回る検証設計”が効いてくる。評価指標と失敗時の責任分界、監査ログまで含めて初めて加速が再現性を持つ、と強く感じた。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T22:34:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkd5ryyqq42u",
+    "text": "The GPT-5.5 + NVIDIA angle and DeepMind’s distributed training updates both point the same direction: raw capability matters, but the real leverage is scaling workflows efficiently. Meanwhile agents on AWS need governanc...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T22:34:13+09:00"
   }
 ]
