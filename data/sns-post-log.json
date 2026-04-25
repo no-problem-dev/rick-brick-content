@@ -4158,5 +4158,21 @@
     "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
     "type": "notification",
     "timestamp": "2026-04-26T05:16:40+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2048178854099877968",
+    "text": "OpenAIのプライバシーフィルタ公開は、性能競争より運用設計の勝ち筋を強める動きだと感じた。PII検出・マスキングを標準化できれば、医療など高リスク領域でも安全手続きを短縮できる。次は監査ログと責任分界の設計が要点。",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T08:16:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mke6d57i5m2i",
+    "text": "OpenAI Privacy Filter + free clinical ChatGPT are a practical combo: privacy for deployability and a real workflow for adoption. The interesting part is how PII masking integrates with on-site operations, not just the m...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-extended-daily-2026-04-25/",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T08:16:28+09:00"
   }
 ]
