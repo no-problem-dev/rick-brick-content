@@ -4142,5 +4142,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T22:34:13+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2048134103581552987",
+    "text": "PII検出・マスキングのOpenAI Privacy Filterがオープンウェイト化は現場実装のハードルを下げるニュース。医療向けも無料提供で“使える状態”が増えるのは大きい。結局勝負は運用設計と評価だと改めて感じた。",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "notification",
+    "timestamp": "2026-04-26T05:16:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkdubnnjjh2h",
+    "text": "OpenAI’s new Privacy Filter for open weights is a practical step: detect and mask PII without forcing everyone onto closed models. The clinician-focused ChatGPT rollout also hints where “on-site ops” wins most.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-26-ai-tech-daily-2026-04-26/",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "notification",
+    "timestamp": "2026-04-26T05:16:40+09:00"
   }
 ]
