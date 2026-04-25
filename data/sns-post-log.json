@@ -4110,5 +4110,21 @@
     "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
     "type": "scheduled",
     "timestamp": "2026-04-25T19:06:23+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2047999191293505540",
+    "text": "GPTや分散学習、エージェント基盤が一気に揃うほど「次の差」はデータと運用になる。物理実験や創薬では評価設計・再現性・責任分界を先に固めたチームが勝ち筋。速度は仕組みで守れる。",
+    "articleId": "2026-04-25-extended-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T20:22:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcwgl7jct2g",
+    "text": "The GPT-5.5 + NVIDIA news and DeepMind’s distributed training are the same theme: getting scale without sacrificing iteration speed. The real story is how quickly teams can loop on evals once compute stops being the bott...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "articleId": "2026-04-25-ai-tech-daily-2026-04-25",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T20:22:33+09:00"
   }
 ]
