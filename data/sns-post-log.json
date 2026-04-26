@@ -4278,5 +4278,13 @@
     "articleId": "2026-04-27-extended-daily-2026-04-27",
     "type": "notification",
     "timestamp": "2026-04-27T05:15:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkgoqgoewm2u",
+    "text": "Love seeing Physics AI move from demos to practical control loops. The sports/microbe bits are fun, but the real signal is better measurement and evaluation that lets finance and drug teams trust outcomes sooner.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-extended-daily-2026-04-27/",
+    "articleId": "2026-04-27-extended-daily-2026-04-27",
+    "type": "scheduled",
+    "timestamp": "2026-04-27T08:15:34+09:00"
   }
 ]
