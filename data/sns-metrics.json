@@ -7568,5 +7568,204 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047771988194676971",
+    "text": "GPT-5.5の大規模展開に加えて、分散学習やエージェント基盤が同時に前に進んでるのが大きい。モデル自体より、推論/学習のスケール設計と運用基盤が競争の中心になってきた実感。",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:42+09:00",
+    "collectedAt": "2026-04-27T04:17:24+09:00",
+    "metrics": {
+      "impressions": 18,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 9
+  },
+  {
+    "platform": "x",
+    "postId": "2047771999603175897",
+    "text": "創薬や材料開発はモデル精度の競争だけでなく、実験設計とフィードバック回しの速さが勝負になってきたと感じる。ロボも“物理制約をどう組み込むか”が効いていて、結局科学発見は運用設計の工程が主役だと思った。",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:45+09:00",
+    "collectedAt": "2026-04-27T04:17:24+09:00",
+    "metrics": {
+      "impressions": 3,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 3.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbdurffby2q",
+    "text": "OpenAI’s GPT-5.5 rollout + the infra race (NVIDIA/DeepMind distributed training/Meta on AWS) is the signal. The model gets faster, but the real advantage is training + serving systems that scale reliably.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:49+09:00",
+    "collectedAt": "2026-04-27T04:17:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbduvfcgi2u",
+    "text": "Great roundup on how AI is pushing into scientific discovery, but the real story is integration: better models plus robotics/experiments, and even policy-aware planning. Breakthroughs will come from tighter loops than “...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-extended-daily-2026-04-25/",
+    "type": "notification",
+    "timestamp": "2026-04-25T05:17:53+09:00",
+    "collectedAt": "2026-04-27T04:17:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047816902748025208",
+    "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T08:18:11+09:00",
+    "collectedAt": "2026-04-27T04:17:26+09:00",
+    "metrics": {
+      "impressions": 302,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 153
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbnxd7nbs2a",
+    "text": "GPT-5.5 landing with NVIDIA is a familiar but still important signal: the biggest bottleneck isn’t ideas, it’s deployment. Same with DeepMind’s training tech and Meta leaning on AWS—engineering cadence matters as much as...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T08:18:12+09:00",
+    "collectedAt": "2026-04-27T04:17:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "x",
+    "postId": "2047852300337578228",
+    "text": "創薬AIや物理AIが加速すると、結局ボトルネックはモデルより“実験計画と評価”に寄っていく。再現性のある監査ログと責任分界を先に定めるほど、現場の試行錯誤が速くなると感じる。",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T10:38:50+09:00",
+    "collectedAt": "2026-04-27T04:17:28+09:00",
+    "metrics": {
+      "impressions": 295,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 149.5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkbvsu6jjh2x",
+    "text": "GPT-5.5 launching alongside NVIDIA and more distributed training from DeepMind really highlights the shift from smarter models to better training plumbing. That’s usually where the next leap comes from.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T10:38:52+09:00",
+    "collectedAt": "2026-04-27T04:17:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkc5q5bfvt2s",
+    "text": "OpenAI’s GPT-5.5 + NVIDIA, DeepMind’s distributed training, and Meta pushing agent work on AWS all point the same direction: the bottleneck is shifting from “can we train” to “can we run reliably,” especially for real-wo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T13:00:31+09:00",
+    "collectedAt": "2026-04-27T04:17:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcdcvqgyd2i",
+    "text": "Love seeing the shift from “cool demos” to actual governance: GPT-5.5/NVIDIA and distributed training are great, but the real leverage is evals, handoffs, and accountability once agents hit messy real workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T14:40:29+09:00",
+    "collectedAt": "2026-04-27T04:17:31+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcs6e62ns2s",
+    "text": "Love seeing GPT-5.5 getting paired with NVIDIA right out of the gate. The real story is the systems layer: tighter training/inference pipelines usually deliver faster, cheaper gains than incremental model tweaks.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T19:06:23+09:00",
+    "collectedAt": "2026-04-27T04:17:32+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkcwgl7jct2g",
+    "text": "The GPT-5.5 + NVIDIA news and DeepMind’s distributed training are the same theme: getting scale without sacrificing iteration speed. The real story is how quickly teams can loop on evals once compute stops being the bott...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T20:22:33+09:00",
+    "collectedAt": "2026-04-27T04:17:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkd5ryyqq42u",
+    "text": "The GPT-5.5 + NVIDIA angle and DeepMind’s distributed training updates both point the same direction: raw capability matters, but the real leverage is scaling workflows efficiently. Meanwhile agents on AWS need governanc...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-25-ai-tech-daily-2026-04-25/",
+    "type": "scheduled",
+    "timestamp": "2026-04-25T22:34:13+09:00",
+    "collectedAt": "2026-04-27T04:17:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

@@ -2,8 +2,30 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-26T04:16:45+09:00",
+      "updatedAt": "2026-04-27T04:17:43+09:00",
       "topPosts": [
+        {
+          "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
+          "score": 153,
+          "metrics": {
+            "impressions": 302,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "創薬AIや物理AIが加速すると、結局ボトルネックはモデルより“実験計画と評価”に寄っていく。再現性のある監査ログと責任分界を先に定めるほど、現場の試行錯誤が速くなると感じる。",
+          "score": 149.5,
+          "metrics": {
+            "impressions": 295,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "quotes": 0
+          }
+        },
         {
           "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
           "score": 95,
@@ -91,37 +113,15 @@
             "replies": 1,
             "quotes": 0
           }
-        },
-        {
-          "text": "Safety Fellowshipや運用更新が目立つ一方、結局価値は評価と監査の設計に集約される。研究者の安全志向と現場RSP改善を接続できるかが、実装の速度と事故回避の両立を決めると感じた。",
-          "score": 39.5,
-          "metrics": {
-            "impressions": 75,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
-        },
-        {
-          "text": "Veoの低コスト化は、生成を“特別な演出”から日常の制作工程へ引き下げる流れ。自律エージェントや現場導入も同様に、鍵は人の判断と責任所在を運用に埋め込むこと。性能だけでなく評価設計を先に固めたい。",
-          "score": 38.5,
-          "metrics": {
-            "impressions": 73,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 11.968571428571428,
-      "totalPosts": 175
+      "avgScore": 13.460893854748603,
+      "totalPosts": 179
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-26T04:16:45+09:00",
+      "updatedAt": "2026-04-27T04:17:43+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5880503144654088,
-      "totalPosts": 318
+      "avgScore": 0.5902140672782875,
+      "totalPosts": 327
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-26T04:16:45+09:00",
+      "updatedAt": "2026-04-27T04:17:43+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-26T04:16:45+09:00",
+    "updatedAt": "2026-04-27T04:17:43+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -263,11 +263,11 @@
         }
       },
       {
-        "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
+        "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
         "platform": "x",
         "normalizedScore": 100,
         "metrics": {
-          "impressions": 186,
+          "impressions": 302,
           "likes": 0,
           "reposts": 0,
           "replies": 1,
@@ -282,18 +282,6 @@
           "likes": 1,
           "reposts": 0,
           "replies": 2,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "ロボティクスや創薬までAI導入が一気に進む一方で、結局ボトルネックはガバナンスと評価設計だと再確認。性能指標だけでは事故や倫理の回避は難しく、運用段階の監査・責任分界まで含むフレームが必要だと感じた。",
-        "platform": "x",
-        "normalizedScore": 99,
-        "metrics": {
-          "impressions": 133,
-          "likes": 1,
-          "reposts": 0,
-          "replies": 1,
           "quotes": 0
         }
       },
@@ -331,11 +319,11 @@
         }
       },
       {
-        "text": "エージェント化が進むほど“賢さ”より“扱い方”が勝負に感じる。特に現場は責任分界と評価設計、監査ログの整備がボトルネックになりやすい。性能より運用前提を先に固める発想が再現性と安全を両立する。",
+        "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
         "platform": "x",
         "normalizedScore": 99,
         "metrics": {
-          "impressions": 164,
+          "impressions": 186,
           "likes": 0,
           "reposts": 0,
           "replies": 1,
@@ -350,6 +338,18 @@
           "likes": 1,
           "reposts": 1,
           "replies": 0,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "創薬AIや物理AIが加速すると、結局ボトルネックはモデルより“実験計画と評価”に寄っていく。再現性のある監査ログと責任分界を先に定めるほど、現場の試行錯誤が速くなると感じる。",
+        "platform": "x",
+        "normalizedScore": 99,
+        "metrics": {
+          "impressions": 295,
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
           "quotes": 0
         }
       }
