@@ -4198,5 +4198,21 @@
     "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
     "type": "scheduled",
     "timestamp": "2026-04-26T13:09:47+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2048278925646631307",
+    "text": "OpenAIのプライバシーフィルタ公開で、PII対策が“研究”から“運用”へ一段進んだと感じる。創薬や医療でも結局は評価・監査・責任分界が速度を左右するので、早期に基盤化して現場の手戻りを減らすのが肝だと思う。",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T14:54:06+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkeuk6rvuw24",
+    "text": "OpenAI Privacy Filter for open weights is a practical step toward safer “on-site” deployments, especially in clinical workflows. Masking PII is only half the battle though, the real win is making evaluation repeatable ac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-26-ai-tech-daily-2026-04-26/",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T14:54:06+09:00"
   }
 ]
