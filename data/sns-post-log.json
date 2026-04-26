@@ -4262,5 +4262,21 @@
     "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
     "type": "scheduled",
     "timestamp": "2026-04-26T22:34:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkgeni6tnn2h",
+    "text": "AI Tech Daily April 27 is a good reminder that “better reasoning” often shows up as efficiency wins too. GPT-5.5 and DeepMind’s Decoupled DiLoCo point to learning tweaks that make models cheaper to run and easier to scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-ai-tech-daily-2026-04-27/",
+    "articleId": "2026-04-27-ai-tech-daily-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T05:14:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkgenmdk2t2u",
+    "text": "Physics AI keeps getting more concrete: new wins in sports analytics and microbe manipulation suggest real-world leverage, not just demos. I like that the roundup ties these advances to faster adoption in finance and dr...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-extended-daily-2026-04-27/",
+    "articleId": "2026-04-27-extended-daily-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T05:15:03+09:00"
   }
 ]
