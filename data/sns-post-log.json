@@ -4230,5 +4230,21 @@
     "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
     "type": "scheduled",
     "timestamp": "2026-04-26T19:06:53+09:00"
+  },
+  {
+    "platform": "x",
+    "postId": "2048361634050257234",
+    "text": "OpenAIのプライバシーフィルタ開放は、モデル性能より“運用の型”が勝つ流れを強める。PII検出・マスキングを基盤化すれば、医療や創薬で監査も再利用も進み、実装速度と安全性を同時に上げられると感じた。",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T20:22:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkfgvuukez24",
+    "text": "OpenAI Privacy Filter for open weights is a welcome practical step. If teams can reliably detect and mask PII at inference time, it makes experimentation safer without slowing everything down.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-26-ai-tech-daily-2026-04-26/",
+    "articleId": "2026-04-26-ai-tech-daily-2026-04-26",
+    "type": "scheduled",
+    "timestamp": "2026-04-26T20:22:46+09:00"
   }
 ]
