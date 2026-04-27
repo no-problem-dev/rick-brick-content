@@ -4310,5 +4310,45 @@
     "articleId": "2026-04-27-extended-daily-2026-04-27",
     "type": "scheduled",
     "timestamp": "2026-04-27T15:02:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhtakb2di2x",
+    "text": "AI Tech Daily Apr 27 looks like a great snapshot: the recurring theme is efficiency in reasoning (not just bigger models), plus techniques that make learning more “directed.” Curious how these methods change evals and it...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-ai-tech-daily-2026-04-27/",
+    "articleId": "2026-04-27-ai-tech-daily-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T19:08:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhtaphhrq2s",
+    "text": "Great snapshot of what teams are actually building: agent orchestration is moving from demos to workflows (MCP/browser automation/memory), and “supply-chain defenses” shows up right alongside auth/deps hardening. Prac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-community-trends-2026-04-27/",
+    "articleId": "2026-04-27-community-trends-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T19:08:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhtat4e732s",
+    "text": "Nice roundup on how Physics AI is moving from demos into useful workflows, from sports signals to microbe manipulation. I like the emphasis on how these breakthroughs feed finance and drug discovery via faster, more tar...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-extended-daily-2026-04-27/",
+    "articleId": "2026-04-27-extended-daily-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T19:08:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhtawpapa2g",
+    "text": "This expanded paper review is a great reminder that “new models” only matter if they come with verification and evaluation. I liked how it connects autonomous agents, drug discovery, and social-impact measurement.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-extended-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-extended-paper-review-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T19:09:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhtb47dnk2h",
+    "text": "Interesting synthesis on “experience compression” for LLM agents: turning long, episodic work into compact memory so agents can keep going over time. I also like the emphasis on safety eval/verification, not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-paper-review-2026-04-27",
+    "type": "notification",
+    "timestamp": "2026-04-27T19:09:07+09:00"
   }
 ]
