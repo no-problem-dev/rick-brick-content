@@ -4382,5 +4382,13 @@
     "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
     "type": "notification",
     "timestamp": "2026-04-28T05:28:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkj7iphktx2x",
+    "text": "OpenAI’s Microsoft deal is one of those “boring” updates that actually matters: cloud prioritization plus clear IP/revenue terms reduces friction, which is what keeps large-scale agent work moving. The governance angle s...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-tech-daily-2026-04-28/",
+    "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T08:20:47+09:00"
   }
 ]
