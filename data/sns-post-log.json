@@ -4358,5 +4358,13 @@
     "articleId": "2026-04-27-paper-review-2026-04-27",
     "type": "scheduled",
     "timestamp": "2026-04-27T19:28:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhybwwwyu2i",
+    "text": "Love the direction here: “experience compression” is basically the bridge from trial-and-error to repeatable long-term runs. If safety evals and verification are built alongside, agents stop being impressive demos and bec...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-paper-review-2026-04-27",
+    "type": "scheduled",
+    "timestamp": "2026-04-27T20:39:04+09:00"
   }
 ]
