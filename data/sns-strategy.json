@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-27T04:17:43+09:00",
+      "updatedAt": "2026-04-28T04:30:38+09:00",
       "topPosts": [
         {
           "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-27T04:17:43+09:00",
+      "updatedAt": "2026-04-28T04:30:38+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -130,6 +130,16 @@
             "likes": 1,
             "reposts": 1,
             "replies": 2,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "OpenAI Privacy Filter for open weights is a practical step toward safer “on-site” deployments, especially in clinical workflows. Masking PII is only half the battle though, the real win is making evaluation repeatable ac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-26-ai-tech-daily-2026-04-26/",
+          "score": 12,
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 6,
             "quotes": 0
           }
         },
@@ -212,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "Multi-agent setups are only as good as the handoffs. The context 80/20 rule and Hooks for deterministic control are the real wins; otherwise you get “smart but random” behavior. https://example.com\n\nhttps://oct-rick-brick.com/en/articles/claude-code-complete-beginners-guide/",
-          "score": 5,
-          "metrics": {
-            "likes": 1,
-            "reposts": 0,
-            "replies": 1,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5902140672782875,
-      "totalPosts": 327
+      "avgScore": 0.6298507462686567,
+      "totalPosts": 335
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-27T04:17:43+09:00",
+      "updatedAt": "2026-04-28T04:30:38+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,19 +238,8 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-27T04:17:43+09:00",
+    "updatedAt": "2026-04-28T04:30:38+09:00",
     "topPosts": [
-      {
-        "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
-        "platform": "bluesky",
-        "normalizedScore": 100,
-        "metrics": {
-          "likes": 3,
-          "reposts": 0,
-          "replies": 1,
-          "quotes": 0
-        }
-      },
       {
         "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
         "platform": "bluesky",
@@ -269,6 +258,28 @@
         "metrics": {
           "impressions": 302,
           "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "OpenAI Privacy Filter for open weights is a practical step toward safer “on-site” deployments, especially in clinical workflows. Masking PII is only half the battle though, the real win is making evaluation repeatable ac...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-26-ai-tech-daily-2026-04-26/",
+        "platform": "bluesky",
+        "normalizedScore": 100,
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 6,
+          "quotes": 0
+        }
+      },
+      {
+        "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 99,
+        "metrics": {
+          "likes": 3,
           "reposts": 0,
           "replies": 1,
           "quotes": 0
@@ -338,18 +349,6 @@
           "likes": 1,
           "reposts": 1,
           "replies": 0,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "創薬AIや物理AIが加速すると、結局ボトルネックはモデルより“実験計画と評価”に寄っていく。再現性のある監査ログと責任分界を先に定めるほど、現場の試行錯誤が速くなると感じる。",
-        "platform": "x",
-        "normalizedScore": 99,
-        "metrics": {
-          "impressions": 295,
-          "likes": 0,
-          "reposts": 0,
-          "replies": 1,
           "quotes": 0
         }
       }
