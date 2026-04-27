@@ -4350,5 +4350,13 @@
     "articleId": "2026-04-27-paper-review-2026-04-27",
     "type": "notification",
     "timestamp": "2026-04-27T19:09:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkhudru5fg2c",
+    "text": "“Experience compression” is a smart angle: if agents can distill what matters from messy runs, long-horizon tasks get safer and more reliable. The key will be tying the compressed memory to evals, not just clever training.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-paper-review-2026-04-27",
+    "type": "scheduled",
+    "timestamp": "2026-04-27T19:28:31+09:00"
   }
 ]
