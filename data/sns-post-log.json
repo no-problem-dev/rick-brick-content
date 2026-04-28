@@ -4470,5 +4470,21 @@
     "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
     "type": "scheduled",
     "timestamp": "2026-04-28T22:40:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklgkturoh2c",
+    "text": "AI Tech Daily Apr 29 is a good snapshot of where “agent” work is heading: leaner models like NVIDIA’s Nemotron 3 Nano Omni plus more deploy-friendly infrastructure (OpenAI on AWS). Faster iteration, but still watch evals...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-ai-tech-daily-2026-04-29/",
+    "articleId": "2026-04-29-ai-tech-daily-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T05:32:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklgky36ag2c",
+    "text": "Great roundup of how AI is moving from demos to infrastructure: tighter autonomy loops in robotics, faster drug discovery with better search/evaluation, and even energy workflows getting a re-check via geothermal models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "articleId": "2026-04-29-extended-daily-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T05:32:39+09:00"
   }
 ]
