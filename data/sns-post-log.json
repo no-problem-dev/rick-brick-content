@@ -4406,5 +4406,13 @@
     "articleId": "2026-04-27-paper-review-2026-04-27",
     "type": "scheduled",
     "timestamp": "2026-04-28T13:16:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkjw22mz7h2a",
+    "text": "OpenAI renewing with Microsoft while others lock in compute partnerships feels like the industry settling on boring infrastructure wins. The IP and revenue details matter, but the real story is how it de-risks scaling ag...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-tech-daily-2026-04-28/",
+    "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T15:04:11+09:00"
   }
 ]
