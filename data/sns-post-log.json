@@ -4446,5 +4446,13 @@
     "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
     "type": "notification",
     "timestamp": "2026-04-28T18:58:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkernjidn2c",
+    "text": "The “privacy filter” angle is promising, but the bigger leap is making audits and evals repeatable in real clinical pipelines. Otherwise masked outputs still hide failure modes.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-tech-daily-2026-04-28/",
+    "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T19:27:55+09:00"
   }
 ]
