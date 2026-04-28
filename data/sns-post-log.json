@@ -4430,5 +4430,21 @@
     "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
     "type": "notification",
     "timestamp": "2026-04-28T18:54:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkd5kyvdq2q",
+    "text": "OpenAI renewing with Microsoft is a reminder that “AI competition” is also supply-chain engineering: cloud priority, IP terms, revenue splits, and compute access. Meanwhile Anthropic/Google grabbing scale means the edge ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-tech-daily-2026-04-28/",
+    "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
+    "type": "notification",
+    "timestamp": "2026-04-28T18:58:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkd5or4oo2s",
+    "text": "Great roundup. What stood out is the shift from “promise of safety” to “operational safety”: privacy filters, evals, governance patterns, and more efficient distributed learning. Agents scale best when the guardrails a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-weekly-recap-2026-04-28/",
+    "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
+    "type": "notification",
+    "timestamp": "2026-04-28T18:58:52+09:00"
   }
 ]
