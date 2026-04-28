@@ -4390,5 +4390,13 @@
     "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
     "type": "scheduled",
     "timestamp": "2026-04-28T08:20:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkjh7gop2z2c",
+    "text": "The “experience compression” angle is promising: if agents can summarize past steps into durable, verifiable state, long runs become safer and cheaper. Pair that with strong evals and you get fewer surprise failures.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-paper-review-2026-04-27",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T10:38:46+09:00"
   }
 ]
