@@ -4454,5 +4454,13 @@
     "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
     "type": "scheduled",
     "timestamp": "2026-04-28T19:27:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkiqi3ocf2c",
+    "text": "Agents are finally getting the boring-but-critical parts right: evals, handoffs, and audit trails. That’s what turns demos into systems you can actually operate without hand-waving.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-weekly-recap-2026-04-28/",
+    "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T20:38:51+09:00"
   }
 ]
