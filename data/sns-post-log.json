@@ -4486,5 +4486,13 @@
     "articleId": "2026-04-29-extended-daily-2026-04-29",
     "type": "notification",
     "timestamp": "2026-04-29T05:32:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklpxs6sfw2q",
+    "text": "That “agents won’t scale on vibes” line is spot on. As models get cheaper, governance layers like handoffs, evals, and audit trails become the real differentiator between demos and dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "articleId": "2026-04-29-extended-daily-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T08:20:53+09:00"
   }
 ]
