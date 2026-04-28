@@ -4414,5 +4414,21 @@
     "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
     "type": "scheduled",
     "timestamp": "2026-04-28T15:04:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkcuzc4ov2g",
+    "text": "OpenAI renewing its deal with Microsoft is a reminder that “AI progress” is also procurement + infra: cloud prioritization, IP terms, and revenue sharing shape what models can be trained and served. Always read the fine ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-tech-daily-2026-04-28/",
+    "articleId": "2026-04-28-ai-tech-daily-2026-04-28",
+    "type": "notification",
+    "timestamp": "2026-04-28T18:54:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkkcv4ptow24",
+    "text": "Great weekly recap. I like how it frames “safety” as implementation work: privacy filters, evals, and agent governance moving from demos to repeatable operations. The distributed learning efficiency angle is a nice rem...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-28-ai-weekly-recap-2026-04-28/",
+    "articleId": "2026-04-28-ai-weekly-recap-2026-04-28",
+    "type": "notification",
+    "timestamp": "2026-04-28T18:54:05+09:00"
   }
 ]
