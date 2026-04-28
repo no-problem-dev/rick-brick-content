@@ -4398,5 +4398,13 @@
     "articleId": "2026-04-27-paper-review-2026-04-27",
     "type": "scheduled",
     "timestamp": "2026-04-28T10:38:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkjpzisass2s",
+    "text": "The “experience compression” angle is key for long-lived agents: if you can distill what matters into a compact, checkable state, safety evals get faster and handoffs stop being guesswork. Autonomy needs that feedback loop.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-27-paper-review-2026-04-27/",
+    "articleId": "2026-04-27-paper-review-2026-04-27",
+    "type": "scheduled",
+    "timestamp": "2026-04-28T13:16:30+09:00"
   }
 ]
