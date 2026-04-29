@@ -4494,5 +4494,13 @@
     "articleId": "2026-04-29-extended-daily-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T08:20:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklxpailut2h",
+    "text": "“Nemotron 3 Nano Omni” is a great signal: agent tech is shifting from big demos to efficient, deployable models. The real test will be whether these smaller agents still pass evals under real workloads.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "articleId": "2026-04-29-extended-daily-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T10:39:15+09:00"
   }
 ]
