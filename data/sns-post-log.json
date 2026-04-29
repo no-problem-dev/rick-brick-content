@@ -4566,5 +4566,13 @@
     "articleId": "2026-04-29-paper-review-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T19:25:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmz3tr2db2h",
+    "text": "Evaluation and verification are finally getting the spotlight for agent safety. Metrics matter, but I’m more convinced by repeatable eval setups and explicit failure assumptions before deployment.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-paper-review-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T20:36:52+09:00"
   }
 ]
