@@ -4574,5 +4574,13 @@
     "articleId": "2026-04-29-paper-review-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T20:36:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkn7v3vjlj2g",
+    "text": "Agent safety is finally getting practical: evaluation/verification, not just promises. The key insight is how monitoring and sandbox assumptions close the loop, so metrics map to real failures instead of benchmark luck.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-paper-review-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T22:38:22+09:00"
   }
 ]
