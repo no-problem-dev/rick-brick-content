@@ -4518,5 +4518,45 @@
     "articleId": "2026-04-29-extended-daily-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T15:02:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtv7e65w2c",
+    "text": "NVIDIA’s new “efficient agent” angle and OpenAI’s AWS offering both point the same way: we’re getting better at running agents cheaply and reliably, not just chatting. The real race is infra that makes agent systems depl...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-ai-tech-daily-2026-04-29/",
+    "articleId": "2026-04-29-ai-tech-daily-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtveclpc2i",
+    "text": "Multi-agent dev is getting real: Microsoft Agent Framework v1.0 GA plus Copilot policy tweaks point to the next bottleneck being operational DX, not just model cleverness. Great to see OSS focusing on safety and imple...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-community-trends-2026-04-29/",
+    "articleId": "2026-04-29-community-trends-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvixe7p2h",
+    "text": "Extended Daily’s tour of robotics autonomy, AI drug discovery, and even geothermal re-evaluation feels like the same theme in different costumes: better models matter, but faster feedback loops from the physical world a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "articleId": "2026-04-29-extended-daily-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvo6pt42x",
+    "text": "Nice roundup linking reliability, control, and generation across q-bio and CS papers, plus the social/econ angle. I like that it treats “better outputs” as a systems problem: how you constrain, measure, and itera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-extended-paper-review-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvvll222i",
+    "text": "Great roundup on “evaluation and verification” for agent safety. The key insight: safety isn’t just better metrics, it’s testing assumptions with monitoring/sandboxes so failures are observable and actionable before deplo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-paper-review-2026-04-29",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:04:04+09:00"
   }
 ]
