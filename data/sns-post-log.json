@@ -4582,5 +4582,13 @@
     "articleId": "2026-04-29-paper-review-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T22:38:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mknwu7kzfr2s",
+    "text": "OpenAI’s GPT-5.5 rollout plus real-world momentum for ChatGPT in healthcare/FedRAMP is the interesting combo: capability plus compliance. Meanwhile Anthropic securing major compute is a reminder that scaling AI is as muc...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T05:29:28+09:00"
   }
 ]
