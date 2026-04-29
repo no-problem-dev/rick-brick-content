@@ -4502,5 +4502,13 @@
     "articleId": "2026-04-29-extended-daily-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-29T10:39:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmadpx4rx2s",
+    "text": "Agent tech is finally turning the corner: cheaper, faster models are great, but the real momentum comes from governance and repeatable evals that make autonomy dependable in messy real environments.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "articleId": "2026-04-29-extended-daily-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T13:13:53+09:00"
   }
 ]
