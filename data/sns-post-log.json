@@ -4558,5 +4558,13 @@
     "articleId": "2026-04-29-paper-review-2026-04-29",
     "type": "notification",
     "timestamp": "2026-04-29T19:04:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmv444hzk2c",
+    "text": "Love seeing agent safety shift from vibes to proof. The evaluation/verification gap is where deployments usually get hurt, so sandbox assumptions and repeatable audits are the unglamorous but decisive piece.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-paper-review-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T19:25:26+09:00"
   }
 ]
