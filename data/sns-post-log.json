@@ -4590,5 +4590,13 @@
     "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
     "type": "notification",
     "timestamp": "2026-04-30T05:29:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkoahetf6y2c",
+    "text": "GPT-5.5 expansion plus faster healthcare/FedRAMP paths is the practical combo: models are only half the story, the other half is getting them deployable under real governance and evidence.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T08:21:15+09:00"
   }
 ]
