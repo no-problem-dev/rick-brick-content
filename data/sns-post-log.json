@@ -4670,5 +4670,13 @@
     "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
     "type": "notification",
     "timestamp": "2026-04-30T19:13:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpfkofu562l",
+    "text": "Love the shift toward “auditable” agents. When teams can sandbox, monitor novel deviations, and produce safety cases, autonomy stops being a demo and becomes an operational capability.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T19:25:14+09:00"
   }
 ]
