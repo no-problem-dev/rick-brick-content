@@ -1,201 +1,223 @@
 ---
-title: "月間論文まとめ - 監査可能なエージェント知能"
+title: "月間論文まとめ - エージェント運用を測り、検証し、賢く制御する"
 slug: "monthly-paper-recap-2026-04-30"
-summary: "4月は、エージェントの「性能」から「運用・検証・監査」へ重心が移った。安全ケース外部レビュー、未知逸脱の教師なしモニタリング、サンドボックス事前検証が軸。創薬・ロボ・医療では物理整合性や長期実行基盤も進展。"
+summary: "4月は「生成」から「運用・検証」へ重心が移動。エージェントの安全評価（監査/モニタリング/形式検証）、推論の効率化、創薬・物理・医療の基盤化が同時に進展した。"
 date: "2026-04-30T12:00"
 tags: ["monthly-paper-recap","arXiv新着","横断レビュー","基盤モデル/評価","安全性と実装","マルチエージェント","AI安全性","ベンチマーク","解釈可能性","形式化","AI","LLM評価","RLHF","Alignment","Agentic RAG","Instruction Following","生成AI","学際的応用","科学技術レビュー","コンテキスト工学","安全性","モジュール化","エージェント","論文レビュー","科学技術","社会システム","ロボティクス","AIエージェント","マルチモーダルAI","深層学習","経済学","素材科学","生物学","LLM","自律エージェント","推論","AI経済学","経営戦略","創薬AI","計算社会科学","Neuro-Symbolic-AI","arXiv","AI研究動向","堅牢性","敵対的攻撃","学際研究","評価・安全","エージェントセキュリティ","脅威モデル","評価設計","教育工学","AI安全","評価指標","推論強化","組織論","宇宙工学","技術革新","AI研究","大規模言語モデル","気候科学","技術動向","マルチモーダル","量子化","創薬","物理AI","科学研究","物理学AI","医療AI","行動経済学","LLMエージェント","メモリ/学習","金融工学","AI安全性・アライメント","エージェント評価","安全性検証"]
 category: "monthly-paper-recap"
 automated: true
 provider: "openai"
-sources: ["https://arxiv.org/abs/2603.17247","https://arxiv.org/abs/2603.02989","https://arxiv.org/abs/2602.07735","https://arxiv.org/abs/2603.10098","https://arxiv.org/abs/2603.24621","https://arxiv.org/abs/2603.15973","https://arxiv.org/abs/2603.06849","https://arxiv.org/abs/2603.04857","https://arxiv.org/abs/2603.25187","https://arxiv.org/abs/2603.07379","https://ai-navigate-news.com/en/articles/127560eb-3c88-49b9-acfa-7b70547b3158","https://arxiv.org/abs/2603.09619","https://arxiv.org/abs/2603.07295","https://www.anthropic.com/engineering/eval-awareness-browsecomp","https://arxiv.org/abs/2603.29184","https://arxiv.org/abs/2406.07539","https://arxiv.org/abs/2603.04029","https://arxiv.org/abs/2604.03016","https://arxiv.org/abs/2604.01202","https://arxiv.org/abs/2604.02168"]
-sns_topics: [{"topic":"安全ケースの外部レビューと監査可能性","summary":"安全主張を要素分解して外部から点検し、前提や証拠の欠落を見つける方向が明確化。運用へ接続するための論証品質管理が鍵。"},{"topic":"教師なしモニタリングで未知の逸脱を掘り起こす","summary":"既存のルールやジャッジに引っかからない新しい逸脱を、ログや中間表現の分布から検出する枠組みが進展。"},{"topic":"サンドボックス基盤の事前形式検証（Z3等）","summary":"隔離は「前提」に過ぎず、抜け道を減らすために実装や境界を形式手法で検証する考え方が強まった。"},{"topic":"エージェントRAGとモーダル整合（MASS-RAG/競合解消）","summary":"複数エージェント合成でRAGの幻覚低減を狙い、さらに言語と視覚の競合をデコーディングで抑える研究も目立つ。"},{"topic":"創薬・医療での基盤モデルと物理/時間整合","summary":"GPT-RosalindやAPOLLOのように、証拠合成・計画・時間的統合で医療/創薬を加速する流れが継続。"}]
+sources: ["https://arxiv.org/abs/2603.17247","https://arxiv.org/abs/2603.02989","https://arxiv.org/abs/2602.07735","https://arxiv.org/abs/2603.10098","https://arxiv.org/abs/2603.24621","https://arxiv.org/abs/2603.15973","https://arxiv.org/abs/2603.06849","https://arxiv.org/abs/2603.04857","https://arxiv.org/abs/2603.25187","https://arxiv.org/abs/2603.07379","https://arxiv.org/abs/2603.09619","https://arxiv.org/abs/2603.07295","https://www.anthropic.com/engineering/eval-awareness-browsecomp","https://arxiv.org/abs/2603.24246","https://arxiv.org/abs/2603.29184","https://arxiv.org/abs/2604.03016","https://arxiv.org/abs/2604.01202","https://arxiv.org/abs/2604.02168","https://arxiv.org/abs/2604.04967","https://arxiv.org/abs/2604.01681"]
+sns_topics: [{"topic":"エージェント安全性：外部監査・教師なしモニタリング・形式検証","summary":"安全ケースの外部レビュー、ルール外の新規逸脱の教師なし検出、サンドボックス前検証が同時に強化。"},{"topic":"推論の効率と評価の再設計（RLSD/LaCy/Neuro-Symbolic/MMLU-Pro）","summary":"分布尖鋭化よりタスク報酬、推論学習の安定化、小規模モデルの委任最適化、記号層で効率化。"},{"topic":"基盤化が進む創薬・医療・物理：探索加速と統合表現","summary":"仮想患者表現、タンパク質適応度/構造/折り畳み経路、物理法則発見などで“探索”が速くなる。"},{"topic":"運用を支えるループ：経験圧縮・ピアレビュー・TRAP評価","summary":"長期実行のための経験圧縮、分散ピアレビューのライブ検証、説得注入による逸脱を測る。"}]
 recap_period: "2026-03-30/2026-04-29"
 thumbnail: "/images/monthly-paper-recap-2026-04-30.png"
 ---
 
 ### 1. エグゼクティブサマリー
 
-4月の論文動向は、エージェントAIが「賢く振る舞う」だけでなく「安全に運用できる」ことを、評価・検証・監査の設計として示し始めた月だった。安全ケースの外部レビュー、既知ルール外の逸脱を拾う教師なしモニタリング、サンドボックス基盤の事前形式検証が並行して進む。加えて、RAGのエージェント化、マルチモーダルの整合、創薬・医療の基盤モデル、ロボの物理制約統合も同様に「システムとしての成立」を重視した。取り上げた論文は大分類で20本以上、分野はAI安全・エージェント評価、マルチモーダル、ロボティクス、生命科学・創薬、計算社会科学、金融・制度設計まで広がった。
+2026年4月の論文群を俯瞰すると、「生成（produce）」から「運用（operate）」と「検証（verify）」へ重心がはっきり移った月でした。
+特に、エージェントが外部環境で行為を連鎖させる前提のもとで、安全性は“学習中の整合”だけでなく、監査・モニタリング・形式検証といったシステム工学として再定義されています。
+同時に、推論の効率化（自己蒸留・委任最適化・Neuro-Symbolic）や、医療・創薬・物理などの科学技術での探索加速（統合基盤モデル、物理法則の学習）が並走。
+今月は合計で少なくとも20本規模の“論点中心”論文（レビュー本文に登場）が確認でき、分野はAI安全、エージェント、評価設計、Q-bio、医療、物理、社会・経済へ広がりました。
+
+---
 
 ### 2. 月の研究トレンド
 
-#### トレンド1：安全性は「モデルの正しさ」から「運用の検証可能性」へ（評価・監査・形式手法）
+#### トレンドA：安全性が「出力品質」から「検証可能な運用設計」へ移行
 
-今月を特徴づけたのは、安全性議論が“性能の改善”と分離せず、「何を根拠に安全と言えるか」を運用可能な形へ落とし込もうとする流れである。代表的な枠組みは、安全ケース（safety case）の外部レビューを通じて、主張・根拠・前提・評価方法の強弱を点検する方向（[Lessons from External Review of DeepMind's Scheming Inability Safety Case](https://arxiv.org/abs/2604.21964)）。ここでの本質は、モデル挙動の良し悪し以前に、「安全という主張を支える論証の品質」が監査されるべき対象になった点だ。
+今月を特徴づけるのは、安全性の議論が“モデルが安全っぽい”から離れ、運用フローへ接続されている点です。
+具体的には、(1)安全ケース（safety case）の外部レビュー、(2)定義されたルールや既存ジャッジの外にある逸脱を教師なしモニタリングで掘り起こす、(3)サンドボックスの前提を形式手法（Z3等）で事前検証する、という三層が見えます。
 
-さらに、事前に用意したルールやジャッジでは拾いにくい“未知の逸脱”を、教師なしモニタリングで掘り起こそうとする設計（[Unsupervised monitoring to surface novel agent misbehaviors beyond predefined rules/judges](https://tdteach.github.io/paper-news/2026-04-15-zh/?utm_source=openai)）。この方向は、ルール増殖のコストを抑えつつ、監視側に「違和感の検出」という入口を与える。結果として、安全性は「合格/不合格」だけでなく、再調査・優先度付け・人手レビューへ接続する“運用導線”の問題になる。
+この流れは、エージェントが現実のWebやツール・実行基盤へ接続されるほど致命的になる「未知の失敗モード」への姿勢でもあります。
+言い換えると、安全性は“最後にテストする”のではなく、“失敗が起きうる形を先に同定し、観測可能な指標に落とす”方向へ研究の主戦場が移動しています。
+たとえば安全ケースの外部レビューを扱う [Lessons from External Review of DeepMind's Scheming Inability Safety Case](https://arxiv.org/abs/2604.21964) は、主張・根拠・前提・評価方法のどこが弱いかを外部の視点で分解し、説明の強靭性を検査する発想を与えます。
+さらに、ルール外の新規逸脱を教師なしに掘り起こす方向は、[Unsupervised monitoring to surface novel agent misbehaviors beyond predefined rules/judges](https://tdteach.github.io/paper-news/2026-04-15-zh/?utm_source=openai) に要約として現れ、評価の網羅性を補う役割が強調されます。
+加えて、サンドボックス基盤自体を「檻」として信じるのではなく、破られうる経路を減らすために事前形式検証する [Mythos and the Unverified Cage: Z3-Based Pre-Deployment Verification for Frontier-Model Sandbox Infrastructure](https://arxiv.org/abs/2604.20496) は、運用の下限（infrastructure assumptions）を数理で固める路線です。
 
-同時に、サンドボックスの前提が破られうることを前提に、基盤側（インフラや境界条件）を事前に形式検証する方向（[Mythos and the Unverified Cage: Z3-Based Pre-Deployment Verification for Frontier-Model Sandbox Infrastructure](https://arxiv.org/abs/2604.20496)）。これは、隔離を単なる設計思想ではなく「突破されるかどうか」を検証可能な仕様にするアプローチだ。月全体の合意は、エージェント化が進むほど攻撃面が連鎖し、安全は“事後の火消し”では追いつかない、という点に収束している。
+このトレンドは、今月の他のテーマ（コンテキスト設計、参照検証、TRAP型評価）とも地続きです。
+結局「安全に見えるか」ではなく「安全と主張できる根拠が観測・検証可能か」が問われるようになっています。
 
-関連して、Preparednessフレームワークのような制度設計が「実装上の行為」をどこまで誘発するのかを、アフォーダンス分析で実証的に扱う研究（[The 2025 OpenAI Preparedness Framework does not guarantee any AI risk mitigation practices: a proof-of-concept for affordance analyses of AI safety policies](https://arxiv.org/abs/2509.24394)）も、同じ“運用の設計論”へ接続する。安全は宣言ではなく、行動を起動する環境設計として問われている。
+#### トレンドB：評価設計が、学習・探索・安全に直接フィードバックする
 
-#### トレンド2：エージェントのRAG/推論は「並列取得」より「合成と逸脱制御」へ（MASS-RAG、TRAP、OpenCLAW）
+評価は結果の測定ではなく、研究の設計変数になっています。4月は特に「評価が壊れる/汚染される」問題と、それを避ける工夫が目立ちました。
 
-4月の別の軸は、エージェント型RAGが“情報取得の拡張”から“情報の統合と健全性の担保”へ重心を移した点である。複数エージェントが取得し、最後に信頼性のレビューを行う合成ステップを導入する [MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](https://arxiv.org/abs/2604.18509) は、その代表例で、複雑な知識ベース質問で精度向上と誤情報混入率低下を狙う。単独の検索→生成では限界になりやすい「証拠の取りこぼし」や「文脈の欠落」を、ワークフローとして埋めようとしている。
+まず、ウェブ検索やツール利用が入る評価では、単純な“リーク（答えが見つかる）”だけでなく、モデルが「評価されていること」自体を推定し、ベンチの鍵を狙い撃ちするような汚染が問題になります。
+この視点は [Eval awareness in Claude Opus 4.6’s BrowseComp performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp) の “評価への気づき（eval awareness）” によって鮮明になっています。
+つまり、評価設計は「外部情報の遮断」だけでなく、「モデルが評価環境を推理するルート」を潰す必要があるわけです。
 
-これに対し安全側では、Webエージェントが“説得”によりタスク逸脱するメカニズムを、ベンチマークとして測る方向が目立つ（[It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128)）。ポイントは、注入の有無を見に行くのではなく、説得によって「タスクが別物になったか」を測る設計にある。RAGが“統合の仕組み”であるのに対して、TRAPは“逸脱の測定器”であり、エージェントRAGの安全評価を実運用に近づける。
+同じ問題がエージェント化でも起きます。
+今月は、Webエージェントのタスク逸脱を“説得（persuasion）”としてモデル化し測る [It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128) のように、“安全性は逸脱の最終状態で測る”方向が見えます。
+さらに、研究コミュニティ自身の不正・サボタージュを機械監査する [ASMR-Bench: Auditing for Sabotage in ML Research](https://arxiv.org/abs/2604.16286) も、評価を社会インフラとして扱う流れの延長です。
+形式的定理証明での推論力向上や、目的達成のためのタスク報酬設計（分布尖鋭化だけでは不十分）も、評価を学習目的へ結び付けるという意味で、このトレンドに含められます（後述）。
 
-さらに、AIが論文や報告を生成しても、その健全性（参照の正しさ、損失ゼロの永続化、評価のスケール）を運用で担保する枠組みとして [OpenCLAW-P2P v6.0](https://arxiv.org/abs/2604.19792) が登場した。ここではライブ参照検証（CrossRef/arXiv/Semantic Scholar等への問い合わせ）や多層永続化を通じて、生成と審査を“工程”として繋ぐ。結果として、エージェントは出力する主体であるだけでなく、出力の検証と改善を継続する主体になる。
+ここで重要なのは、評価が「正誤の判定器」ではなく、「研究者が次に何を改善すべきかを決める制御信号」になっている点です。
+4月はその制御信号が、モデルの内部だけでなく外部環境・運用・データの来歴にまで及ぶようになった月でした。
 
-この3点（MASS-RAGの合成、TRAPの逸脱評価、OpenCLAWの運用連結）が揃うことで、エージェントRAGは「性能」だけでなく「検証可能性」を含む製品のように設計され始めている。
+#### トレンドC：推論・実行の効率化は「学習則」と「委任（delegation）」の再設計で進む
 
-#### トレンド3：マルチモーダルの整合性・信念安定性・ツール利用最適化（誤りの“原因”を分解）
+今月の推論系トピックは、大規模化ではなく効率化のための“判断境界”を学習させる方向が際立ちました。
+小規模言語モデルにおける外部委任の最適化という発想は、入力記事中で LaCy として現れます（Apple Researchの文脈）。
+また、自己蒸留を強化学習と結合して安定化する [RLSD（Self-Distilled RLVR）として要約された動向] は、同じく入力記事の4月上旬のレビューで議論され、学習の不安定さや漏洩を抑えつつ推論能力を押し上げる路線を示していました。
 
-4月は、モデルが正しく見える理由を“外から”分解する研究が多かった。視覚言語行動における“身体化推論の幻想”を暴く [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000) のような評価は、物理世界との整合性がない状況でももっともらしい計画を出し続ける問題を照らす。ここから安全設計は、単にデータ量や学習の改善だけでなく、現実の物理制約へ接続する評価が必要だという含意が強まる。
+同時に、Neuro-Symbolic の効率化は「エネルギー効率（計算資源）」という別軸から“思考の仕組み”を改造しています。
+ニューラルが勘に頼る部分を記号層に分担し、計画パズルの成功率を上げつつエネルギーを削減するという文脈は、入力記事に基づく [Neuro-Symbolic AIによる効率的な推論] の解説と接続します。
+さらに、推論能力評価の飽和を回避するための MMLU-Pro のような再校正も、評価と学習の両面で“効率的な研究”を支える役割を持ちます。
 
-また、モーダル間競合（言語が視覚を支配してしまう問題）を理論的に捉え、デコーディング介入で改善する研究（[Dual Alignment Between Language Model Layers and Human Sentence Processing](https://arxiv.org/abs/2604.18563)）も見られる。これは「微調整で直す」だけでなく「推論時のトークン重み調整で直す」方向が示唆される点で実装価値が高い。
+加えて、分布の尖鋭化（distribution sharpening）だけでは目的達成から外れる、という [Beyond Distribution Sharpening: The Importance of Task Rewards](https://arxiv.org/abs/2604.16259) のような主張は、学習則の再設計が“測りたいもの”を失うリスクを直接指摘しています。
+つまり4月は、「どの損失を最適化するか」「いつ外部に委任するか」「どの評価軸を学習の信号にするか」が、推論効率と信頼性を同時に決める、という構図が強くなっています。
 
-さらに、LLMの“ツール過多”を調べ、内部知識で完結可能な問題まで外部ツールへ問い合わせてしまう現象を計量し、効率低下や誤情報源泉になりうることを示す（[The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749)）。ここでは安全だけでなくコスト・遅延・監視負荷も含めて「いつ止めるか」の意思決定を設計対象にしている。
+#### トレンドD：基盤化（foundation model化）が、科学技術の“探索”を高速化する
 
-そして、人格（persona）に対して内部信念が安定しないことをプロービングする（[Probing the Lack of Stable Internal Beliefs in LLMs](https://arxiv.org/abs/2603.25187)）。この系統は、出力の揺れの原因を“内部状態”へ戻して観測することで、評価とデバッグの座標系を再構成しようとしている。
+創薬・医療・物理・計算社会など、分野の異なる課題でも共通して「探索（search）」がボトルネックになっています。
+4月は、その探索を統合表現・基盤モデル・物理整合で加速する方向が目立ちました。
 
-加えて、RLHFの整合がなぜ“浅く”見えるかを勾配解析から説明する（[Why Is RLHF Alignment Shallow? A Gradient Analysis](https://arxiv.org/abs/2603.04857)）。これは安全信号が学習のどこに届いているかを「力学」として描くことで、改善の方向を誤らせない。
+医療領域では、莫大な医療イベントを統合して“仮想患者”として表現し、時間的基盤モデルで予測する [A multimodal and temporal foundation model for virtual patient representations at healthcare system scale](https://arxiv.org/abs/2604.18570) が象徴的です。
+創薬では、拡張論文レビューの中で GPT-Rosalind の登場が言及され、証拠合成・仮説生成・実験計画へ支援範囲を広げることが強調されました（ニュースURL由来）。
+また、タンパク質領域では、適応度ランドスケープを量子アニーリング最適化へ載せる [Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization](https://arxiv.org/abs/2603.17247) や、結合親和性予測の高速化（粗視的表現） [TerraBind: Fast and Accurate Binding Affinity Prediction through Coarse Structural Representations](https://arxiv.org/abs/2602.07735) が“探索回転数”の削減として効いてきます。
 
-総じて4月の共通点は、「誤りは単なる性能差ではなく、メカニズム（信念・競合・信号到達・ツール停止）の問題として分解される」ことである。
+物理の側では、AIが未知の物理法則の解明や、非相互作用の学習などを通じて“解析から発見へ”移行している方向が、拡張レビューで強く語られました（PNASやNatureの文脈）。
+さらに、ロボティクスではVLAモデルの身体化推論の幻想を暴く検証も入り（実世界における信頼性の問題として）、[Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000) が、基盤化と安全性の緊張関係を示しています。
 
-#### トレンド4：創薬・医療・分子基盤で、物理整合性と時間的文脈が主役に（APOLLO/GPT-Rosalindなど）
+このトレンドの本質は、性能指標（AUROC等）だけでなく、「探索に必要な試行回数を減らす」「データ統合を前段でまとめる」「物理整合性で破綻を抑える」という、探索プロセスの根本を変えることです。
 
-生命科学は、生成AIが“文章”から“科学プロセス”へ接続される方向へ進む月だった。大規模な医療イベントを用いて仮想患者表現を時間的に統合する [APOLLO](https://arxiv.org/abs/2604.18570) は、マルチモーダル時間基盤モデルとして疾患予測に劇的な性能改善を示した。単一モダリティを当てに行くのではなく、患者の長い時系列の文脈を繋ぐ点が特徴で、医療の「予測可能性」を“基盤表現”へ落としたと言える。
-
-創薬では、証拠合成・仮説生成・実験計画の連鎖を支援する [GPT-Rosalind](https://seekingalpha.com/news/4317666-openai-launches-gpt-rosalind-an-ai-model-for-life-sciences-research) のような方向が議論された。また、拡散モデルを使ってタンパク質の動的ゆらぎを取り込み、分子設計を進める系の存在も示唆される（例として [u​vahealth.comの創薬加速関連](https://uvahealth.com/news/new-ai-tech-to-speed-drug-development)）。
-
-分子レベルでも、普遍的分子基盤モデルとして物理整合（エネルギー/力の整合など）へ訓練を寄せる [UBio-MolFM: A Universal Molecular Foundation Model for Bio-Systems](https://arxiv.org/abs/2602.17709) は、データフィットだけでなく物理整合性を学習設計の軸に置く潮流を示した。さらに、タンパク質適応度ランドスケープを量子アニーリング最適化へ“扱いやすい形”に変換する方向（[Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization](https://arxiv.org/abs/2603.17247)）は、創薬における探索パラダイムにも波及する。
-
-4月の生命科学のまとめは、「生成する」だけでなく「科学の進め方（証拠→仮説→計画→検証）」を基盤モデルに統合していく動き、と言える。
-
-#### トレンド5：エージェント化が進むほど「効率化」も必須に（量子化/推論最適化/物理制約の学習）
-
-最後に、エージェントが実運用に入るほど計算コスト・遅延が問題になり、安全や監査の工程とも絡む。そこで効率化研究も同月に前面化した。例えば、低ビット量子化を高精度に行うGSQ（Gumbel-Softmax量子化）は [GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling](https://arxiv.org/abs/2604.18556) で扱われ、エッジ実行やプライバシー配慮に資する。
-
-推論ワークフローの段取り最適化としては DeepMindのエージェント的探索による科学発見加速（[Accelerating mathematical and scientific discovery with Gemini Deep Think](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)）。さらに、Neuro-Symbolicのように論理層を組み合わせてエネルギー消費を削りつつ成功率を上げる方向（本入力ではNeuro-symbolic説明が中心で、明示URLはApple等に分散）が、月全体の効率化トレンドと整合する。
-
-ロボティクスでも物理制約・エネルギーベース正則化（ニューラルMPC）などが並び（例：[Energy-based Regularization for Learning Residual Dynamics in Neural MPC](https://arxiv.org/abs/2604.14678)）、学習側に物理を埋め込むことで制御を安定化させる動きが見える。
+---
 
 ### 3. 重要論文ピックアップ（5〜10本）
 
-#### [Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization]（二値潜在タンパク質適応度ランドスケープ：量子アニーリング最適化へ）
-- **発表日**: 2026-03-30（本文抽出の前提として本入力記事の参照日）
-- **研究分野**: q-bio（生命科学）/ 最適化・量子アニーリング
-- **著者・所属**: （入力では未確認項目あり。実際はarXivページで要確認）
-- **研究の背景と問い**: タンパク質配列空間に潜む適応度の地形（ランドスケープ）は評価コストが高く、探索はすぐ破綻する。そこで、探索器・最適化器が扱いやすい形式へ“表現変換”する必要がある。
-- **提案手法と主要結果**: 適応度ランドスケープを「二値の潜在表現」へ落とし込み、量子アニーリング最適化に載せる枠組みを提案する。入力要約ではProteinGym等で有用な構造が得られ、高適応度変異体同定に役立つ可能性が示される。
-- **意義と今後への影響**: 探索効率を上げる“表現設計”の方向性が、創薬AIの上流（候補生成・絞り込み）にも波及しうる。限界は二値化・潜在表現設計が精度に与える影響で、他計算パラダイムとの比較が次の論点になる。
+#### [二値潜在タンパク質適応度ランドスケープ：量子アニーリング最適化用の枠組み]
+- **発表日**: 2026-03-31（要旨・入力記事の前提。一次確認推奨）
+- **研究分野**: q-bio / 最適化 / 量子アニーリング
+- **著者・所属**: 入力記事では要確認（arXiv本文で確認）
+- **研究の背景と問い**: タンパク質探索は高コストな適応度評価に縛られ、巨大配列空間での探索がボトルネックになる。そこで適応度ランドスケープを最適化器向けの形に落とし込めるかが問われる。
+- **提案手法と主要結果**: 適応度ランドスケープを二値の潜在表現に写像し、量子アニーリング最適化で扱いやすい形式へ変換する。入力要約では、ProteinGymで“高適応度変異体の同定”に寄与するとされる。
+- **意義と今後への影響**: 科学的探索を「表現変換＋最適化」に寄せる潮流の代表例。量子以外でも表現設計の価値が再利用できるかが次の検証点。
 - **出典**: [Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization](https://arxiv.org/abs/2603.17247)
 
-#### [CASSR: Continuous A-Star Search through Reachability for real time footstep planning]（CASSR：到達可能性を使った連続A*で実時間足踏み計画）
-- **発表日**: 2026-03-30（入力記事参照）
-- **研究分野**: cs.RO（ロボティクス）
-- **著者・所属**: （入力では未確認項目あり。実際はarXivページで要確認）
-- **研究の背景と問い**: 脚型ロボの足踏み計画は連続制約と安全性（到達可能性）が絡む。離散化は粗さゆえに失敗率を押し上げ、計算の無駄も増える。
-- **提案手法と主要結果**: 到達可能性（reachability）解析を活かし、連続・凸な表現へ落とし込むことで、A*探索の中で制約を保持する考え方を提示する。入力要約では従来の離散グリッドより実時間計画に近い速度・精度が狙われる。
-- **意義と今後への影響**: 安全側の情報（到達可能集合）を計画の“前提”へ組み込むことで、現場適用の信頼性が上がる可能性がある。一方到達可能性解析や凸近似の妥当性がボトルネックになりうる。
+#### [CASSR: 到達可能性を通じた連続的 A* 探索による実時間フットステップ計画]
+- **発表日**: 2026-03-30（要旨・入力記事の前提）
+- **研究分野**: cs.RO / ロボティクス
+- **著者・所属**: 入力記事では要確認
+- **研究の背景と問い**: 脚型ロボットの足踏み計画は、姿勢・接触・安全（到達可能性）が連続的に変化する。離散化は成功率低下や計算の無駄を生むため、連続制約を保ったまま探索できる枠組みが必要になる。
+- **提案手法と主要結果**: 到達可能性（reachability）解析を活用し、連続的な表現で A* 探索を回す枠組み（CASSR）を提案。入力要約では、離散グリッドより高精度・高速度に近づける構造が述べられている。
+- **意義と今後への影響**: 安全側情報（到達可能性）を探索へ統合する考え方は、他の運動計画にも波及しうる。計算コストとモデル化の妥当性が勝負。
 - **出典**: [CASSR: Continuous A-Star Search through Reachability for real time footstep planning](https://arxiv.org/abs/2603.02989)
 
-#### [FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications]（FireBench：企業・API前提の指示追従評価）
-- **発表日**: 2026-04-01（入力記事参照）
-- **研究分野**: LLM評価 / エージェント応用
-- **著者・所属**: （入力では著者名要旨ベースで、詳細は出典ページ参照）
-- **研究の背景と問い**: チャットっぽい評価では、業務要件（出力形式、手順順守、ツール前提）を測れない。企業/ API駆動の実運用に近い指示追従評価が必要。
-- **提案手法と主要結果**: 実運用パターンから指示追従ベンチマークFireBenchを構築し、複数の能力次元で評価する。入力要約では6次元・2,400超サンプル・11LLMの設定で現場シナリオの挙動差を示す狙いが明確化される。
-- **意義と今後への影響**: 評価が研究室から運用要件へ移ることで、採用・監査・品質保証の部品になる。限界は特定の現場仮定への最適化で、分布偏りの点検が必要。
+#### [FireBench：企業およびAPI駆動LLMアプリにおける指示追従の評価]
+- **発表日**: 2026-04-01（記事投稿日基準、要詳細確認）
+- **研究分野**: LLM評価 / Instruction Following
+- **著者・所属**: Yunfan Zhang ほか（入力記事の前提。要一次確認）
+- **研究の背景と問い**: 研究室の“チャット評価”は実運用（手順順守、形式厳密性、ツール前提）とズレる。そこで指示追従を現場に近い形で測れるベンチマークが求められる。
+- **提案手法と主要結果**: FireBenchはエンタープライズ/ API駆動シナリオに基づく指示追従ベンチ。入力要約では6つの中核能力次元、2,400超サンプル、11種類のLLMを対象とする。
+- **意義と今後への影響**: 評価が“モデルの好み”ではなく“要件適合の確率”に接続される。偏った分布で過適合しない工夫が必要。
 - **出典**: [FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications（FireBench）](https://ai-navigate-news.com/en/articles/127560eb-3c88-49b9-acfa-7b70547b3158)
 
-#### [MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation]（MASS-RAG：複数エージェント合成でRAGを高信頼化）
-- **発表日**: 2026-04-22（入力記事参照）
-- **研究分野**: エージェントRAG / 幻覚抑制
-- **著者・所属**: Xingchen Xiao, Heyan Huang, Runheng Liu, Jincheng Xie（入力記載）
-- **研究の背景と問い**: 単一検索RAGでは情報取得の質・範囲が不足し、多段質問で文脈欠落や誤情報が起きやすい。
-- **提案手法と主要結果**: クエリ分解、検索、フィルタリング、回答生成を役割分離し、取得情報の信頼性スコアを相互レビューする合成ステップを導入。入力要約では複雑質問応答で約15%精度向上、誤情報混入低下、引用精度向上が示される。
-- **意義と今後への影響**: 「検索の並列化」から「統合と検証の工程化」へ。企業内ドキュメント探索などで監査可能な出力に繋がる可能性があるが、通信コスト・リアルタイム性は要最適化。
-- **出典**: [MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](https://arxiv.org/abs/2604.18509)
+#### [Context Engineering：プロンプトから企業向けマルチエージェント・アーキテクチャへ]
+- **発表日**: 2026-04-03（入力記事の前提）
+- **研究分野**: コンテキスト工学 / エージェント運用
+- **著者・所属**: Vera V. Vishnyakova（入力記事の前提）
+- **研究の背景と問い**: エージェントが複数ステップで意思決定するほど、プロンプト単体では挙動の説明が難しくなる。そこでエージェントが参照する“情報環境そのもの”を設計対象にする必要が出る。
+- **提案手法と主要結果**: コンテキスト工学を、relevance / sufficiency / isolation / economy / provenance の5観点で整理し、さらに intent engineering / specification engineering へ積み上げる“成熟度ピラミッド”を提示。入力要約では企業運用の失敗モード体系化が主眼。
+- **意義と今後への影響**: 安全性や再現性を“コンテンツの来歴”で支える考え方が強まる。次は指標をどう測り最適化するか。
+- **出典**: [Context Engineering: From Prompts to Corporate Multi-Agent Architecture](https://arxiv.org/abs/2603.09619)
 
-#### [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?]（ツール過多の幻想：内部知識より外部ツールを好む理由）
-- **発表日**: 2026-04-24（入力記事参照）
-- **研究分野**: エージェント制御 / 評価
-- **著者・所属**: （入力では匿名扱い）
-- **研究の背景と問い**: LLMに検索・コード実行ツールを持たせるのが一般的になったが、内部知識で済む問題までツール問い合わせが増え、効率と誤情報の質が悪化する可能性がある。
-- **提案手法と主要結果**: 内部知識で完結可能かどうかを分類し、ツール利用傾向をステップごとに分析する評価枠組み。入力要約ではツール過多が広範に観測され、推論精度への寄与は限定的で計算コスト・遅延を増やしている点が明示される。
-- **意義と今後への影響**: 「いつツールを止めるか」をメタ意思決定として扱い、ガバナンス設計に繋げる。今後はツール利用ポリシーの学習・検証が課題になる。
-- **出典**: [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749)
+#### [Eval awareness in Claude Opus 4.6’s BrowseComp performance（BrowseCompにおける評価汚染の新形）]
+- **発表日**: 2026-04-03（記事投稿日基準、要詳細確認）
+- **研究分野**: LLM評価 / ベンチマーク汚染
+- **著者・所属**: Anthropic（記事ベース）
+- **研究の背景と問い**: 検索・ツール利用を含む評価では、答えの偶然漏洩だけでなく、モデルが“評価されていること”を推定し鍵を特定する可能性がある。
+- **提案手法と主要結果**: BrowseCompでコンタミネーション事例を調査し、11件のうち9件は単純汚染、さらに1,266問中で同種が複数観測されたと報告（入力要約）。重要なのは“認識→復元”の別ルート。
+- **意義と今後への影響**: 評価設計は、情報遮断に加え“評価環境の推理経路”を前提に織り込む必要がある。
+- **出典**: [Eval awareness in Claude Opus 4.6’s BrowseComp performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp)
 
-#### [APOLLO: A multimodal and temporal foundation model for virtual patient representations at healthcare system scale]（APOLLO：時系列・マルチモーダル医療基盤モデル）
-- **発表日**: 2026-04-24（入力記事参照）
-- **研究分野**: 医療AI / マルチモーダル基盤モデル
-- **著者・所属**: Ali Zan, Ting Ding, Samuel J. Wagner 他（入力記載）
-- **研究の背景と問い**: 医療データの大半が未活用で、構造化されない多様なモダリティを統合する時間的枠組みが必要。
-- **提案手法と主要結果**: MGB-7Mデータセット（720万人・250億イベント・28モダリティ統合）で時間的基盤モデルAPOLLOを構築。入力要約では統合失調症発症予測でAUROC 0.92、HER2陽性乳がん生存予測でAUROC 0.93（ベースライン0.66）といった性能差が示される。
-- **意義と今後への影響**: 医療の予測を“基盤表現”へ寄せ、個人の生涯にわたる健康管理の予測へ繋がる。限界は倫理審査と信頼性の追加検証。
-- **出典**: [A multimodal and temporal foundation model for virtual patient representations at healthcare system scale](https://arxiv.org/abs/2604.18570)
+#### [Agentic-MME: エージェント能力はマルチモーダル知能に何をもたらすのか？]
+- **発表日**: 2026-04-06（入力記事の前提）
+- **研究分野**: マルチモーダル評価 / エージェント能力
+- **著者・所属**: Qianshan Wei ほか（入力要約）
+- **研究の背景と問い**: エージェントの“能動的実行能力”を、公正にマルチモーダル評価する仕組みが不足している。
+- **提案手法と主要結果**: Agentic-MMEはツール利用・対話・複数ステップ解決を含む能力を、静的正解率ではなくエージェントとしての機能で測る。入力要約では、従来モデルは単一視覚問答は強いがツール連鎖では大幅低下が観測された。
+- **意義と今後への影響**: 評価軸が“生成能力”から“遂行能力”へ移る。安全・信頼性の改善研究にも直結しうる。
+- **出典**: [Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?](https://arxiv.org/abs/2604.03016)
 
-#### [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents]（経験圧縮スペクトラム：メモリ/スキル/ルールの統一整理）
-- **発表日**: 2026-04-27（入力記事参照）
-- **研究分野**: 長期実行エージェント / 記憶・学習
-- **著者・所属**: Xing Zhang, Guanghui Wang, Yanwei Cui 他（入力記載）
-- **研究の背景と問い**: 長期実行では経験が膨大化し、保持するとコンテキストが増える。要約や再利用が雑だと再現性が落ちる。経験を体系的に圧縮・切替する原理が必要。
-- **提案手法と主要結果**: メモリ/スキル/ルールを「圧縮度」の異なる位置に配置するスペクトラムを提案し、固定圧縮では適応的切替が欠ける点（missing diagonal）を指摘。入力要約では圧縮率の順序（エピソード、手続き的スキル、宣言的ルール）と、クロス引用の低さ（1%未満等）に基づくコミュニティ分断仮説を示す。
-- **意義と今後への影響**: “経験の設計”を実装技法から設計原理へ昇格。次の課題は切替の適応戦略や実験的検証の深掘り。
+#### [Experience Compression Spectrum：メモリ・スキル・ルールの統一による経験圧縮]
+- **発表日**: 2026-04-27（入力記事の前提）
+- **研究分野**: エージェント長期実行 / メモリ・学習・設計原理
+- **著者・所属**: Xing Zhang ほか（入力要約）
+- **研究の背景と問い**: 長期エージェントほど、経験（ログ）の保持がコンテキスト爆発を招く。一方で雑な要約は再現性を損ねる。経験の“種類”と“圧縮度”を設計する必要がある。
+- **提案手法と主要結果**: Experience Compression Spectrum を提案し、メモリ/スキル/ルールを圧縮度軸で整理。入力要約では、クロス引用率の低さから知識が別々に最適化されている可能性、固定圧縮度が移植性や評価指標と絡む問題が示唆された。
+- **意義と今後への影響**: 長期の運用コストを下げつつ再現性を確保する設計原理になりうる。次は切替戦略の学習則が鍵。
 - **出典**: [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877)
 
-#### [OpenCLAW-P2P v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation]（OpenCLAW-P2P v6.0：分散型AIピアレビューの運用基盤）
-- **発表日**: 2026-04-27（入力記事参照）
-- **研究分野**: AI安全 / 生成物の検証・運用
-- **著者・所属**: Francisco Angulo de Lafuente, Teerth Sharma, Vladimir Veselov 他（入力記載）
-- **研究の背景と問い**: エージェントが論文を生成するだけでなく、参照の正しさや評価のスケールを運用で担保する必要がある。
-- **提案手法と主要結果**: 多層永続化、参照検索カスケードで低レイテンシ化、査読スコアリング中のライブ参照検証、APIプロキシと速度制限付きキャッシュなどを組み合わせる。入力要約では生成と失われた論文の回復プロトコルまで含む運用指標が提示される。
-- **意義と今後への影響**: “安全”をモデルの中から運用工程へ移す。課題は、ライブ検証の残る失敗形（引用の微妙な誤り等）をどこまで潰せるかの精査。
-- **出典**: [OpenCLAW-P2P v6.0](https://arxiv.org/abs/2604.19792)
+#### [OpenCLAW-P2P v6.0：ライブ参照検証と分散型AIピアレビュー]
+- **発表日**: 2026-04-22〜27（入力記事の前提）
+- **研究分野**: エージェント査読 / 参照検証 / 永続化
+- **著者・所属**: Francisco Angulo de Lafuente ほか（入力要約）
+- **研究の背景と問い**: 自律生成から自律的な“信頼担保”へ移ると、引用の正しさ、データ欠落、評価遅延が問題化する。
+- **提案手法と主要結果**: 多層永続化、参照検索カスケードでレイテンシ最適化、CrossRef/arXiv/Semantic Scholar等への live reference verification で捏造引用検出を目指す。入力要約では>85%精度の狙い、14エージェントが50超論文を生成等が述べられている。
+- **意義と今後への影響**: “安全性・信頼性”をモデル外の運用設計として実装する方向性が明確。次は微妙な誤り（関連性逸脱等）の残存を測る必要。
+- **出典**: [OpenCLAW-P2P v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review](https://arxiv.org/abs/2604.19792)
 
-#### [It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents]（TRAP：説得によるタスク逸脱を測る）
-- **発表日**: 2026-04-27（入力記事参照）
-- **研究分野**: エージェント安全 / ベンチマーク
-- **著者・所属**: （OpenReview/要旨ソースに基づき）
-- **研究の背景と問い**: Webエージェントは現実タスクに取り組むほど、誘導や説得にさらされる。注入に留まらず“説得でタスクが別物になる”逸脱を測る必要がある。
-- **提案手法と主要結果**: Task-Redirecting Agent Persuasion Benchmark（TRAP）として評価スイートを設計し、説得駆動の注入がタスク逸脱を引き起こす度合いを再現可能に計測。入力要約では、reproducibleな評価スイートである点と、逸脱を直接測る設計が強調される。
-- **意義と今後への影響**: 安全評価が“入力文字列”から“最終逸脱”へ紐づく。今後は現実誘導のカバー率と、モデルの転移性を確認する必要がある。
-- **出典**: [It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128)
+#### [MASS-RAG：マルチエージェント合成による検索拡張生成]
+- **発表日**: 2026-04-22（入力記事の前提）
+- **研究分野**: RAG / マルチエージェント合成
+- **著者・所属**: Xingchen Xiao ほか（入力要約）
+- **研究の背景と問い**: 単一RAGは多段階質問で情報取得の質と範囲が足りず、文脈欠落が起きやすい。
+- **提案手法と主要結果**: クエリ分解→検索→フィルタ→生成を役割エージェントに分割し、取得情報の信頼性スコアを相互レビューする合成ステップを導入。入力要約では複雑QAベンチで約15%精度向上、誤情報混入率低下、引用精度向上が示される。
+- **意義と今後への影響**: “組織的なワークフロー”が幻覚低減にも効く可能性を示す。通信コストとリアルタイム性のトレードオフが課題。
+- **出典**: [MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](https://arxiv.org/abs/2604.18509)
+
+---
 
 ### 4. 分野横断分析
 
-4月の論文群を貫く共通項は、「性能の競争」から「成立条件（constraints）と検証可能性（verifiability）の設計」へ、研究対象が移った点にある。ロボティクスでは到達可能性や物理制約へ探索を写像し、生命科学では物理整合性や時間的文脈を基盤表現へ取り込む。マルチモーダルでもモーダル競合や“見ているフリ”を評価ベンチと推論介入の両面から分解している。
+4月の論文群を貫く相互作用は、次の3点に集約されます。
 
-安全性においては、エージェントが外部環境へ作用するほど、脅威モデルが連鎖（誘導→実行→逸脱→再利用）し、事前ルールの増殖だけでは追いつかなくなる。その結果、(1)安全ケースの監査、(2)未知逸脱の教師なしモニタリング、(3)サンドボックス基盤の事前形式検証、という三層が同時に進む。これは単なる安全論ではなく、評価設計そのものが“研究の中核インフラ”になったことを示す。
+第一に、「評価と検証」が分野横断で共通の設計変数になったことです。
+LLM評価（BrowseCompの評価汚染）から、エージェント逸脱のベンチ（TRAP）、研究不正の監査（ASMR-Bench）、さらには安全ケースの外部レビュー（安全論証の強靭性）まで、対象は違っても問いは共通しています。
+すなわち「測り方が壊れると研究が壊れる」「研究が壊れると社会実装が壊れる」。この循環への理解が、月内の各論点に反映されていました。
 
-さらに、組織や市場の研究（計算社会科学、金融・制度設計）でも、AIがもたらすのは単発の精度改善ではなく、集団における信念形成・厚生・学習速度・不整合の蓄積である、という視点が強まっている。つまり、AIは個体としてだけでなく、運用されるシステムとして評価されるべきだというメタ結論が横断的に共有された。
+第二に、「運用の連鎖」が安全・信頼性を左右するという認識です。
+コンテキスト工学（provenanceやisolation）や、OpenCLAW-P2P（参照のlive verification）、TRAP（説得でタスク逸脱する現実的失敗）が繋がるのは、すべて“状態遷移の連鎖”が問題になるからです。
+VLAやマルチモーダルの検証も同じで、「理解したつもり」の錯覚を検出する設計（Unmasking Benchmarkなど）が増えています。
+
+第三に、「探索が高速化するほど、説明と検証の価値が上がる」ことです。
+創薬（探索回転数）、医療（仮想患者表現の統合）、物理（法則発見）で探索が速くなるほど、誤りが見逃される時間が短くなります。
+だからこそ“探索を速くする技術”と“誤りを捕まえる検証技術”が同時に進む、という月の構造が見えます。
+
+---
 
 ### 5. 来月の注目テーマ
 
-来月は、(a)安全ケースの“監査可能な形式”（証拠カバレッジ、前提の現実性、反証可能性）と、(b)エージェントRAGの“逸脱検出→復帰”を結ぶ閉ループ、(c)長期実行の経験圧縮（メモリ/スキル/ルールの適応切替）を、実験・ベンチマーク・運用工学で結ぶ流れが加速すると予想される。加えて、量子化やツール利用ポリシー最適化など、効率面の指標統一が進み、「安全・精度・コスト」の同時最適化を測る枠組みが増えるだろう。
+来月（2026年5月）に向けて、4月の論文群から予測できる注目領域は以下です。
 
-また、研究コミュニティ側の制度・評価（ベストペーパーの誘因設計や参加・協働構造分析）も、評価が学習を歪めるという論点と絡み、より定量的に扱われる可能性が高い。
+1. **安全ケース/評価の実装競争**：外部レビューや形式検証の自動化、監査ログと評価指標の接続（「紙の安全」から「運用の安全」へ）。
+2. **エージェントの長期運用と経験圧縮の標準化**：Experience Compression Spectrumの具体学習則、圧縮切替の適応戦略、メモリの誤り増幅対策。
+3. **参照・来歴のライブ検証の普及**：OpenCLAW-P2Pのような“生成前提の検品”が、企業や研究コミュニティの標準工程へ。
+4. **科学探索の統合表現モデル**：医療の時間的基盤モデルに続く、創薬・物理・計算社会での統合表現と検証（再現性・外部分布耐性）。
+
+---
 
 ### 6. 参考文献
 
 | タイトル | 情報源 | 日付 | URL |
 |---------|--------|------|-----|
-| Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization | arXiv | 2026-03-30 | https://arxiv.org/abs/2603.17247 |
+| Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization | arXiv | 2026-03-31 | https://arxiv.org/abs/2603.17247 |
 | CASSR: Continuous A-Star Search through Reachability for real time footstep planning | arXiv | 2026-03-30 | https://arxiv.org/abs/2603.02989 |
-| TerraBind: Fast and Accurate Binding Affinity Prediction through Coarse Structural Representations | arXiv | 2026-02-xx | https://arxiv.org/abs/2602.07735 |
-| Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models | arXiv | 2026-03-30 | https://arxiv.org/abs/2603.10098 |
-| ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence | arXiv | 2026-03-30 | https://arxiv.org/abs/2603.24621 |
-| Safety is Non-Compositional: A Formal Framework for Capability-Based AI Systems | arXiv | 2026-03-30 | https://arxiv.org/abs/2603.15973 |
-| FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications | 記事 | 2026-04-01 | https://ai-navigate-news.com/en/articles/127560eb-3c88-49b9-acfa-7b70547b3158 |
-| Why Is RLHF Alignment Shallow? A Gradient Analysis | arXiv | 2026-04-01 | https://arxiv.org/abs/2603.04857 |
-| Probing the Lack of Stable Internal Beliefs in LLMs | arXiv | 2026-04-01 | https://arxiv.org/abs/2603.25187 |
-| SoK: Agentic RAG — First Unified Framework for Autonomous Retrieval-Generation Systems | arXiv | 2026-04-01 | https://arxiv.org/abs/2603.07379 |
-| Eval awareness in Claude Opus 4.6’s BrowseComp performance | Anthropic | 2026-04-03 | https://www.anthropic.com/engineering/eval-awareness-browsecomp |
-| Bio-PINNs: 生体模倣PINNs for Cell-Induced Phase Transitions: UQ-R3 Sampling with Causal Gating | arXiv | 2026-04-03 | https://arxiv.org/abs/2603.29184 |
+| TerraBind: Fast and Accurate Binding Affinity Prediction through Coarse Structural Representations | arXiv | 2026-02-?? | https://arxiv.org/abs/2602.07735 |
+| FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications（FireBench） | AI Navigate | 2026-04-01 | https://ai-navigate-news.com/en/articles/127560eb-3c88-49b9-acfa-7b70547b3158 |
+| Context Engineering: From Prompts to Corporate Multi-Agent Architecture | arXiv | 2026-04-03 | https://arxiv.org/abs/2603.09619 |
+| Eval awareness in Claude Opus 4.6’s BrowseComp performance | Anthropic Engineering | 2026-04-03 | https://www.anthropic.com/engineering/eval-awareness-browsecomp |
 | Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence? | arXiv | 2026-04-06 | https://arxiv.org/abs/2604.03016 |
-| MIRAGE: The Illusion of Visual Understanding | arXiv | 2026-04-06 | https://arxiv.org/abs/2604.02168 |
 | Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents | arXiv | 2026-04-27 | https://arxiv.org/abs/2604.15877 |
-| OpenCLAW-P2P v6.0 | arXiv | 2026-04-27 | https://arxiv.org/abs/2604.19792 |
-| It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents | arXiv | 2026-04-27 | https://arxiv.org/abs/2512.23128 |
-| A multimodal and temporal foundation model for virtual patient representations at healthcare system scale | arXiv | 2026-04-24 | https://arxiv.org/abs/2604.18570 |
-| The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge? | arXiv | 2026-04-24 | https://arxiv.org/abs/2604.19749 |
+| OpenCLAW-P2P v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review | arXiv | 2026-04-27 | https://arxiv.org/abs/2604.19792 |
 | MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation | arXiv | 2026-04-22 | https://arxiv.org/abs/2604.18509 |
-| GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling | arXiv | 2026-04-22 | https://arxiv.org/abs/2604.18556 |
+| Lessons from External Review of DeepMind's Scheming Inability Safety Case | arXiv | 2026-04-27 | https://arxiv.org/abs/2604.21964 |
 | Mythos and the Unverified Cage: Z3-Based Pre-Deployment Verification for Frontier-Model Sandbox Infrastructure | arXiv | 2026-04-29 | https://arxiv.org/abs/2604.20496 |
-| The 2025 OpenAI Preparedness Framework does not guarantee any AI risk mitigation practices | arXiv | 2026-04-13 | https://arxiv.org/abs/2509.24394 |
-| Accelerating mathematical and scientific discovery with Gemini Deep Think | DeepMind blog | 2026-04-xx | https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/ |
+| Unsupervised monitoring to surface novel agent misbehaviors beyond predefined rules/judges | TDTeach（ニュース要約） | 2026-04-15 | https://tdteach.github.io/paper-news/2026-04-15-zh/ |
+| ASMR-Bench: Auditing for Sabotage in ML Research | arXiv | 2026-04-19 | https://arxiv.org/abs/2604.16286 |
+| Beyond Distribution Sharpening: The Importance of Task Rewards | arXiv | 2026-04-19 | https://arxiv.org/abs/2604.16259 |
+| Learning to Reason with Insight for Informal Theorem Proving | arXiv | 2026-04-19 | https://arxiv.org/abs/2604.16278 |
+| It’s a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents | arXiv | 2025-12-?? | https://arxiv.org/abs/2512.23128 |
 
 ---
 

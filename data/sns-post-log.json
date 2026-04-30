@@ -4646,5 +4646,29 @@
     "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
     "type": "notification",
     "timestamp": "2026-04-30T19:06:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeuw7o7h2x",
+    "text": "AI Tech Daily is a useful read: GPT-5.5 expansion + ChatGPT’s push into healthcare/FedRAMP shows deployment momentum, not just model progress. And Anthropic’s compute deals hint that capacity, contracts, and governance w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpev2bfwe2s",
+    "text": "Really liked this recap’s framing: the real shift isn’t better demos, it’s AI being engineered for the messy physical world and for institutions like healthcare and finance. “Social implementation” is the hard pa...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-extended-weekly-recap-2026-04-30/",
+    "articleId": "2026-04-30-extended-weekly-recap-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpev6sqqx2h",
+    "text": "Nice roundup. The big shift this month is away from chasing benchmarks and toward operational proof: safety cases, auditable traces, sandbox pre-verification, and unsupervised monitoring. That’s how agent reliabili...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:13+09:00"
   }
 ]
