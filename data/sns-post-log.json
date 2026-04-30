@@ -4686,5 +4686,13 @@
     "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
     "type": "scheduled",
     "timestamp": "2026-04-30T20:36:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpqehjjyk2s",
+    "text": "Love that April’s focus moved from “can it do it?” to “can we prove it?” Auditable agent intelligence feels like the missing layer for field deployment: monitoring, sandbox checks, and safety cases that survive bey...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T22:38:36+09:00"
   }
 ]
