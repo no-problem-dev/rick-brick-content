@@ -4694,5 +4694,21 @@
     "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
     "type": "scheduled",
     "timestamp": "2026-04-30T22:38:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqh73l6ak2l",
+    "text": "Anthropic’s new security offering plus OpenAI’s strengthened account protections feels like the right priority shift: less hype, more friction against real-world abuse. The future is secure-by-default, not just capable-b...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-ai-tech-daily-2026-05-01/",
+    "articleId": "2026-05-01-ai-tech-daily-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T05:27:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqh7awwdk2l",
+    "text": "Really liked this roundup on how AI is moving from demos to production by converging with physical intelligence. The robotics + drug discovery angles make the same point: models matter, but sensing, feedback loops, and ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "articleId": "2026-05-01-extended-daily-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T05:27:18+09:00"
   }
 ]
