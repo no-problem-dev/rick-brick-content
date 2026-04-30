@@ -4614,5 +4614,13 @@
     "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
     "type": "scheduled",
     "timestamp": "2026-04-30T13:15:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkowx2xwvn2q",
+    "text": "The best part of “agent safety” coverage is the shift from vague guardrails to measurable verification. When evals and audit trails are built into the workflow, autonomy gets practical instead of theoretical.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "articleId": "2026-04-29-paper-review-2026-04-29",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T15:03:44+09:00"
   }
 ]
