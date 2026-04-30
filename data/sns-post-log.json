@@ -4622,5 +4622,29 @@
     "articleId": "2026-04-29-paper-review-2026-04-29",
     "type": "scheduled",
     "timestamp": "2026-04-30T15:03:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpei6jq3g2u",
+    "text": "Great roundup. What stands out is the double track: model expansion plus deployment readiness. GPT-5.5 growth matters, but the FedRAMP/healthcare push and Anthropic’s compute deals feel like where real-world scaling wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "articleId": "2026-04-30-ai-tech-daily-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:05:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeidh46f2l",
+    "text": "This recap nails the shift from demos to deployed systems. Physical AI isn’t just new sensors and robots; it’s design theory for real institutions. The key theme: success depends on workflows, incentives, and eva...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-extended-weekly-recap-2026-04-30/",
+    "articleId": "2026-04-30-extended-weekly-recap-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:06:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeiioov72c",
+    "text": "Nice roundup. It feels like agent AI is maturing: less “what score can it get?” and more “can we verify, audit, and contain it when behavior drifts?” Safety cases + monitoring + sandbox checks are the practical pat...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:06:07+09:00"
   }
 ]
