@@ -8277,5 +8277,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklgkturoh2c",
+    "text": "AI Tech Daily Apr 29 is a good snapshot of where “agent” work is heading: leaner models like NVIDIA’s Nemotron 3 Nano Omni plus more deploy-friendly infrastructure (OpenAI on AWS). Faster iteration, but still watch evals...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-ai-tech-daily-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T05:32:34+09:00",
+    "collectedAt": "2026-05-01T04:30:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklgky36ag2c",
+    "text": "Great roundup of how AI is moving from demos to infrastructure: tighter autonomy loops in robotics, faster drug discovery with better search/evaluation, and even energy workflows getting a re-check via geothermal models.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T05:32:39+09:00",
+    "collectedAt": "2026-05-01T04:30:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklpxs6sfw2q",
+    "text": "That “agents won’t scale on vibes” line is spot on. As models get cheaper, governance layers like handoffs, evals, and audit trails become the real differentiator between demos and dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T08:20:53+09:00",
+    "collectedAt": "2026-05-01T04:30:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mklxpailut2h",
+    "text": "“Nemotron 3 Nano Omni” is a great signal: agent tech is shifting from big demos to efficient, deployable models. The real test will be whether these smaller agents still pass evals under real workloads.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T10:39:15+09:00",
+    "collectedAt": "2026-05-01T04:30:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmadpx4rx2s",
+    "text": "Agent tech is finally turning the corner: cheaper, faster models are great, but the real momentum comes from governance and repeatable evals that make autonomy dependable in messy real environments.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T13:13:53+09:00",
+    "collectedAt": "2026-05-01T04:30:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmggb2kmh2l",
+    "text": "That “agents won’t scale on vibes” point is spot on. As soon as autonomy touches real workflows, enforceable handoffs, evals, and audit trails become the product, not the paperwork.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T15:02:40+09:00",
+    "collectedAt": "2026-05-01T04:30:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtv7e65w2c",
+    "text": "NVIDIA’s new “efficient agent” angle and OpenAI’s AWS offering both point the same way: we’re getting better at running agents cheaply and reliably, not just chatting. The real race is infra that makes agent systems depl...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-ai-tech-daily-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:40+09:00",
+    "collectedAt": "2026-05-01T04:30:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtveclpc2i",
+    "text": "Multi-agent dev is getting real: Microsoft Agent Framework v1.0 GA plus Copilot policy tweaks point to the next bottleneck being operational DX, not just model cleverness. Great to see OSS focusing on safety and imple...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-community-trends-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:46+09:00",
+    "collectedAt": "2026-05-01T04:30:05+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvixe7p2h",
+    "text": "Extended Daily’s tour of robotics autonomy, AI drug discovery, and even geothermal re-evaluation feels like the same theme in different costumes: better models matter, but faster feedback loops from the physical world a...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-daily-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:50+09:00",
+    "collectedAt": "2026-05-01T04:30:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvo6pt42x",
+    "text": "Nice roundup linking reliability, control, and generation across q-bio and CS papers, plus the social/econ angle. I like that it treats “better outputs” as a systems problem: how you constrain, measure, and itera...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-extended-paper-review-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:03:56+09:00",
+    "collectedAt": "2026-05-01T04:30:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmtvvll222i",
+    "text": "Great roundup on “evaluation and verification” for agent safety. The key insight: safety isn’t just better metrics, it’s testing assumptions with monitoring/sandboxes so failures are observable and actionable before deplo...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "type": "notification",
+    "timestamp": "2026-04-29T19:04:04+09:00",
+    "collectedAt": "2026-05-01T04:30:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmv444hzk2c",
+    "text": "Love seeing agent safety shift from vibes to proof. The evaluation/verification gap is where deployments usually get hurt, so sandbox assumptions and repeatable audits are the unglamorous but decisive piece.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T19:25:26+09:00",
+    "collectedAt": "2026-05-01T04:30:07+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkmz3tr2db2h",
+    "text": "Evaluation and verification are finally getting the spotlight for agent safety. Metrics matter, but I’m more convinced by repeatable eval setups and explicit failure assumptions before deployment.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T20:36:52+09:00",
+    "collectedAt": "2026-05-01T04:30:07+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkn7v3vjlj2g",
+    "text": "Agent safety is finally getting practical: evaluation/verification, not just promises. The key insight is how monitoring and sandbox assumptions close the loop, so metrics map to real failures instead of benchmark luck.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-29T22:38:22+09:00",
+    "collectedAt": "2026-05-01T04:30:08+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

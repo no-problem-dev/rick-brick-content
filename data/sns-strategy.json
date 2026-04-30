@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-04-30T04:30:47+09:00",
+      "updatedAt": "2026-05-01T04:30:16+09:00",
       "topPosts": [
         {
           "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-04-30T04:30:47+09:00",
+      "updatedAt": "2026-05-01T04:30:16+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.6066481994459834,
-      "totalPosts": 361
+      "avgScore": 0.6053333333333333,
+      "totalPosts": 375
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-04-30T04:30:47+09:00",
+      "updatedAt": "2026-05-01T04:30:16+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-04-30T04:30:47+09:00",
+    "updatedAt": "2026-05-01T04:30:16+09:00",
     "topPosts": [
       {
         "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
