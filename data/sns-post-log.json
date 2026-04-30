@@ -4678,5 +4678,13 @@
     "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
     "type": "scheduled",
     "timestamp": "2026-04-30T19:25:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpjjto6sn2s",
+    "text": "Love the shift to “auditable agent intelligence.” Once you treat verification, monitoring, and audit trails as first-class, agent safety stops being a vibe and becomes something you can actually review and improve ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "articleId": "2026-04-30-monthly-paper-recap-2026-04-30",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T20:36:21+09:00"
   }
 ]
