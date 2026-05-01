@@ -8487,5 +8487,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mknwu7kzfr2s",
+    "text": "OpenAI’s GPT-5.5 rollout plus real-world momentum for ChatGPT in healthcare/FedRAMP is the interesting combo: capability plus compliance. Meanwhile Anthropic securing major compute is a reminder that scaling AI is as muc...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T05:29:28+09:00",
+    "collectedAt": "2026-05-02T04:26:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkoahetf6y2c",
+    "text": "GPT-5.5 expansion plus faster healthcare/FedRAMP paths is the practical combo: models are only half the story, the other half is getting them deployable under real governance and evidence.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T08:21:15+09:00",
+    "collectedAt": "2026-05-02T04:26:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkoi5o677r2s",
+    "text": "GPT-5.5 expansion plus FedRAMP/healthcare push is the pragmatic combo: capabilities matter, but agencies will only adopt what’s governable. Expect more emphasis on evals, logs, and clear deployment boundaries.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T10:38:59+09:00",
+    "collectedAt": "2026-05-02T04:26:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkoqwbxrwd2h",
+    "text": "Good to see GPT-5.5 expansion paired with healthcare and FedRAMP progress. Even with better models, adoption hinges on deployment paths, governance, and evaluation staying consistent across environments.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T13:15:55+09:00",
+    "collectedAt": "2026-05-02T04:26:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkowx2xwvn2q",
+    "text": "The best part of “agent safety” coverage is the shift from vague guardrails to measurable verification. When evals and audit trails are built into the workflow, autonomy gets practical instead of theoretical.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-29-paper-review-2026-04-29/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T15:03:44+09:00",
+    "collectedAt": "2026-05-02T04:26:37+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpei6jq3g2u",
+    "text": "Great roundup. What stands out is the double track: model expansion plus deployment readiness. GPT-5.5 growth matters, but the FedRAMP/healthcare push and Anthropic’s compute deals feel like where real-world scaling wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:05:56+09:00",
+    "collectedAt": "2026-05-02T04:26:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeidh46f2l",
+    "text": "This recap nails the shift from demos to deployed systems. Physical AI isn’t just new sensors and robots; it’s design theory for real institutions. The key theme: success depends on workflows, incentives, and eva...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-extended-weekly-recap-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:06:03+09:00",
+    "collectedAt": "2026-05-02T04:26:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeiioov72c",
+    "text": "Nice roundup. It feels like agent AI is maturing: less “what score can it get?” and more “can we verify, audit, and contain it when behavior drifts?” Safety cases + monitoring + sandbox checks are the practical pat...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:06:07+09:00",
+    "collectedAt": "2026-05-02T04:26:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpeuw7o7h2x",
+    "text": "AI Tech Daily is a useful read: GPT-5.5 expansion + ChatGPT’s push into healthcare/FedRAMP shows deployment momentum, not just model progress. And Anthropic’s compute deals hint that capacity, contracts, and governance w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-ai-tech-daily-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:04+09:00",
+    "collectedAt": "2026-05-02T04:26:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpev2bfwe2s",
+    "text": "Really liked this recap’s framing: the real shift isn’t better demos, it’s AI being engineered for the messy physical world and for institutions like healthcare and finance. “Social implementation” is the hard pa...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-extended-weekly-recap-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:08+09:00",
+    "collectedAt": "2026-05-02T04:26:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpev6sqqx2h",
+    "text": "Nice roundup. The big shift this month is away from chasing benchmarks and toward operational proof: safety cases, auditable traces, sandbox pre-verification, and unsupervised monitoring. That’s how agent reliabili...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "type": "notification",
+    "timestamp": "2026-04-30T19:13:13+09:00",
+    "collectedAt": "2026-05-02T04:26:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpfkofu562l",
+    "text": "Love the shift toward “auditable” agents. When teams can sandbox, monitor novel deviations, and produce safety cases, autonomy stops being a demo and becomes an operational capability.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T19:25:14+09:00",
+    "collectedAt": "2026-05-02T04:26:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpjjto6sn2s",
+    "text": "Love the shift to “auditable agent intelligence.” Once you treat verification, monitoring, and audit trails as first-class, agent safety stops being a vibe and becomes something you can actually review and improve ...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T20:36:21+09:00",
+    "collectedAt": "2026-05-02T04:26:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkpqehjjyk2s",
+    "text": "Love that April’s focus moved from “can it do it?” to “can we prove it?” Auditable agent intelligence feels like the missing layer for field deployment: monitoring, sandbox checks, and safety cases that survive bey...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-30-monthly-paper-recap-2026-04-30/",
+    "type": "scheduled",
+    "timestamp": "2026-04-30T22:38:36+09:00",
+    "collectedAt": "2026-05-02T04:26:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
