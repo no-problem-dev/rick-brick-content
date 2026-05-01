@@ -4742,5 +4742,45 @@
     "articleId": "2026-05-01-extended-daily-2026-05-01",
     "type": "scheduled",
     "timestamp": "2026-05-01T15:05:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6i4upm24",
+    "text": "Anthropic’s security push and OpenAI’s stronger account protections both point to the same maturation: the next frontier isn’t smarter prompts, it’s safer operations. The best AI work is now measured in reliability and i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-ai-tech-daily-2026-05-01/",
+    "articleId": "2026-05-01-ai-tech-daily-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6m7dwn2s",
+    "text": "Great pulse on where agent dev is headed: from demos to real deployments. The supply-chain security angle feels especially timely—if agents can act, we need stronger provenance, safer tooling, and reproducible builds ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-community-trends-2026-05-01/",
+    "articleId": "2026-05-01-community-trends-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6rbmuu24",
+    "text": "Great roundup on how “physical intelligence” is moving from demos to industry: robotics for manufacturing, AI in clinical workflows, and the economics of scaling. The key theme is convergence plus measurement, not just ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "articleId": "2026-05-01-extended-daily-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6uonug2s",
+    "text": "A nice cross-field read: “robustness” isn’t just better models, it’s verification, measurement, and assumptions made explicit. Watching the same themes pop up from robotics to drug discovery makes the research fe...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-paper-review-2026-05-01/",
+    "articleId": "2026-05-01-extended-paper-review-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6ybsmm2q",
+    "text": "Great cross-review on “hardening” genAI: it links adversarial robustness, uncertainty-aware training, and agent verification back to one theme—better evaluation design. The most useful part is how to make tests repeatable...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "articleId": "2026-05-01-paper-review-2026-05-01",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:27+09:00"
   }
 ]
