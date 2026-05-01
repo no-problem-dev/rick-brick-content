@@ -4798,5 +4798,13 @@
     "articleId": "2026-05-01-paper-review-2026-05-01",
     "type": "scheduled",
     "timestamp": "2026-05-01T20:30:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mksalybh3c2l",
+    "text": "Robust eval design is the quiet backbone of “hardening” efforts. The cross-paper angle is useful: adversarial testing, uncertainty handling, and agent safety verification all point to the same need for repeatable, auditab...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "articleId": "2026-05-01-paper-review-2026-05-01",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T22:34:28+09:00"
   }
 ]
