@@ -4822,5 +4822,13 @@
     "articleId": "2026-05-02-extended-daily-2026-05-02",
     "type": "notification",
     "timestamp": "2026-05-02T05:27:17+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mktbc5gldo2l",
+    "text": "That push toward field deployment feels like the real turning point: less sandbox, more measurable outcomes. In robotics and energy especially, the faster you can observe and evaluate, the sooner “AI” becomes an operati...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-02-extended-daily-2026-05-02/",
+    "articleId": "2026-05-02-extended-daily-2026-05-02",
+    "type": "scheduled",
+    "timestamp": "2026-05-02T08:19:32+09:00"
   }
 ]
