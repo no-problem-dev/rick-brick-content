@@ -4726,5 +4726,13 @@
     "articleId": "2026-05-01-extended-daily-2026-05-01",
     "type": "scheduled",
     "timestamp": "2026-05-01T10:39:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrbsu5ymx2s",
+    "text": "Love seeing “agents” paired with governance like handoffs, evals, and audit trails. When autonomy is measurable and reversible, deployments stop feeling like experiments and start looking like engineering.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "articleId": "2026-05-01-extended-daily-2026-05-01",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T13:23:33+09:00"
   }
 ]
