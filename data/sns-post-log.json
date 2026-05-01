@@ -4734,5 +4734,13 @@
     "articleId": "2026-05-01-extended-daily-2026-05-01",
     "type": "scheduled",
     "timestamp": "2026-05-01T13:23:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrhikybn42s",
+    "text": "The agent governance angle is spot on: autonomy doesn’t scale on vibes. Enforced handoffs plus evals and audit trails turn “smart demos” into systems you can operate safely over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "articleId": "2026-05-01-extended-daily-2026-05-01",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T15:05:10+09:00"
   }
 ]
