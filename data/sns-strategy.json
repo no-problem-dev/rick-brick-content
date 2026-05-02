@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-05-02T04:26:50+09:00",
+      "updatedAt": "2026-05-03T04:21:15+09:00",
       "topPosts": [
         {
           "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-05-02T04:26:50+09:00",
+      "updatedAt": "2026-05-03T04:21:15+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -225,12 +225,12 @@
         }
       ],
       "guidelines": "",
-      "avgScore": 0.5912596401028277,
-      "totalPosts": 389
+      "avgScore": 0.5856079404466501,
+      "totalPosts": 403
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-05-02T04:26:50+09:00",
+      "updatedAt": "2026-05-03T04:21:15+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,8 +238,19 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-05-02T04:26:50+09:00",
+    "updatedAt": "2026-05-03T04:21:15+09:00",
     "topPosts": [
+      {
+        "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
+        "platform": "bluesky",
+        "normalizedScore": 100,
+        "metrics": {
+          "likes": 3,
+          "reposts": 0,
+          "replies": 1,
+          "quotes": 0
+        }
+      },
       {
         "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
         "platform": "bluesky",
@@ -271,17 +282,6 @@
           "likes": 0,
           "reposts": 0,
           "replies": 6,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
-        "platform": "bluesky",
-        "normalizedScore": 99,
-        "metrics": {
-          "likes": 3,
-          "reposts": 0,
-          "replies": 1,
           "quotes": 0
         }
       },

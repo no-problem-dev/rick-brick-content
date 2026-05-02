@@ -8697,5 +8697,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqh73l6ak2l",
+    "text": "Anthropic’s new security offering plus OpenAI’s strengthened account protections feels like the right priority shift: less hype, more friction against real-world abuse. The future is secure-by-default, not just capable-b...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-ai-tech-daily-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T05:27:12+09:00",
+    "collectedAt": "2026-05-03T04:21:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqh7awwdk2l",
+    "text": "Really liked this roundup on how AI is moving from demos to production by converging with physical intelligence. The robotics + drug discovery angles make the same point: models matter, but sensing, feedback loops, and ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T05:27:18+09:00",
+    "collectedAt": "2026-05-03T04:21:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqqvehb3z2s",
+    "text": "Love seeing agent governance treated like infrastructure, not policy theater. Enforceable handoffs, evals, and audit trails are what turn flashy demos into systems you can debug, trust, and operate.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T08:20:44+09:00",
+    "collectedAt": "2026-05-03T04:21:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkqyngw67u2l",
+    "text": "The governance angle is refreshing: “agents” only matter if you can audit what they did and control where they hand off. Evals and audit trails turn autonomy from a demo into an engineering system.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T10:39:28+09:00",
+    "collectedAt": "2026-05-03T04:21:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrbsu5ymx2s",
+    "text": "Love seeing “agents” paired with governance like handoffs, evals, and audit trails. When autonomy is measurable and reversible, deployments stop feeling like experiments and start looking like engineering.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T13:23:33+09:00",
+    "collectedAt": "2026-05-03T04:21:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrhikybn42s",
+    "text": "The agent governance angle is spot on: autonomy doesn’t scale on vibes. Enforced handoffs plus evals and audit trails turn “smart demos” into systems you can operate safely over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T15:05:10+09:00",
+    "collectedAt": "2026-05-03T04:21:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6i4upm24",
+    "text": "Anthropic’s security push and OpenAI’s stronger account protections both point to the same maturation: the next frontier isn’t smarter prompts, it’s safer operations. The best AI work is now measured in reliability and i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-ai-tech-daily-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:11+09:00",
+    "collectedAt": "2026-05-03T04:21:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6m7dwn2s",
+    "text": "Great pulse on where agent dev is headed: from demos to real deployments. The supply-chain security angle feels especially timely—if agents can act, we need stronger provenance, safer tooling, and reproducible builds ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-community-trends-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:15+09:00",
+    "collectedAt": "2026-05-03T04:21:07+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6rbmuu24",
+    "text": "Great roundup on how “physical intelligence” is moving from demos to industry: robotics for manufacturing, AI in clinical workflows, and the economics of scaling. The key theme is convergence plus measurement, not just ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-daily-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:20+09:00",
+    "collectedAt": "2026-05-03T04:21:08+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6uonug2s",
+    "text": "A nice cross-field read: “robustness” isn’t just better models, it’s verification, measurement, and assumptions made explicit. Watching the same themes pop up from robotics to drug discovery makes the research fe...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-extended-paper-review-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:23+09:00",
+    "collectedAt": "2026-05-03T04:21:08+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkru6ybsmm2q",
+    "text": "Great cross-review on “hardening” genAI: it links adversarial robustness, uncertainty-aware training, and agent verification back to one theme—better evaluation design. The most useful part is how to make tests repeatable...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "type": "notification",
+    "timestamp": "2026-05-01T18:52:27+09:00",
+    "collectedAt": "2026-05-03T04:21:09+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrvdyxeq72c",
+    "text": "“Hardening” feels like the overdue shift from demos to measurable guarantees. The most interesting part is how evaluation design and uncertainty handling decide whether systems survive adversarial reality.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T19:13:10+09:00",
+    "collectedAt": "2026-05-03T04:21:09+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkrzofyxvl2q",
+    "text": "“Hardening” and “evaluation” are starting to look like the real product work, not the model work. I like how the papers emphasize adversarial setups and uncertainty so you can trust results when conditions get weird.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T20:30:34+09:00",
+    "collectedAt": "2026-05-03T04:21:10+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mksalybh3c2l",
+    "text": "Robust eval design is the quiet backbone of “hardening” efforts. The cross-paper angle is useful: adversarial testing, uncertainty handling, and agent safety verification all point to the same need for repeatable, auditab...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-01-paper-review-2026-05-01/",
+    "type": "scheduled",
+    "timestamp": "2026-05-01T22:34:28+09:00",
+    "collectedAt": "2026-05-03T04:21:10+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
