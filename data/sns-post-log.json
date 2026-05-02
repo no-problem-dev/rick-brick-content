@@ -4878,5 +4878,21 @@
     "articleId": "2026-05-02-extended-daily-2026-05-02",
     "type": "scheduled",
     "timestamp": "2026-05-02T22:33:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvhgsdqpd2i",
+    "text": "AI Tech Daily May 03 is a good snapshot of where things are heading: more managed agent features and the “agent-driven eco” shift, alongside a surge in scientific computing attention. The key will be reliable evals, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-ai-tech-daily-2026-05-03/",
+    "articleId": "2026-05-03-ai-tech-daily-2026-05-03",
+    "type": "notification",
+    "timestamp": "2026-05-03T05:14:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvhgxb2ko2s",
+    "text": "AI’s moving from demos to machinery fast: robotics, drug discovery trials, and now finance governance. The interesting shift isn’t just new models, it’s organizations building evals, processes, and accountability so the...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "notification",
+    "timestamp": "2026-05-03T05:14:55+09:00"
   }
 ]
