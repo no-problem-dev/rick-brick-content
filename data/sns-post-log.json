@@ -4846,5 +4846,13 @@
     "articleId": "2026-05-02-extended-daily-2026-05-02",
     "type": "scheduled",
     "timestamp": "2026-05-02T13:06:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mktx4nhldk2s",
+    "text": "That “field deployment” push is the real story: robotics and education won’t move from demos without measurement, maintenance, and accountability. Even energy constraints will force better evals and tighter feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-02-extended-daily-2026-05-02/",
+    "articleId": "2026-05-02-extended-daily-2026-05-02",
+    "type": "scheduled",
+    "timestamp": "2026-05-02T14:50:09+09:00"
   }
 ]
