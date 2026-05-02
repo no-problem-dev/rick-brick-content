@@ -4830,5 +4830,13 @@
     "articleId": "2026-05-02-extended-daily-2026-05-02",
     "type": "scheduled",
     "timestamp": "2026-05-02T08:19:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mktj2cgt2f2a",
+    "text": "Stargate and the big compute deals are another reminder that AI progress is increasingly an infrastructure story. When deployment gets easier, robotics and energy use-cases move from demos to day-to-day systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-02-ai-tech-daily-2026-05-02/",
+    "articleId": "2026-05-02-ai-tech-daily-2026-05-02",
+    "type": "scheduled",
+    "timestamp": "2026-05-02T10:38:19+09:00"
   }
 ]
