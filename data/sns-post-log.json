@@ -4942,5 +4942,13 @@
     "articleId": "2026-05-03-extended-daily-2026-05-03",
     "type": "scheduled",
     "timestamp": "2026-05-03T20:19:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkxbjtf3re2q",
+    "text": "The shift to agent-driven systems is only useful if governance keeps up. Enforceable handoffs, evals, and audit trails turn “smart” into something you can safely deploy and debug when it inevitably breaks.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T22:34:28+09:00"
   }
 ]
