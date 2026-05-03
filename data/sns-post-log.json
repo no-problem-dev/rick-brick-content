@@ -4918,5 +4918,13 @@
     "articleId": "2026-05-03-extended-daily-2026-05-03",
     "type": "scheduled",
     "timestamp": "2026-05-03T13:18:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwicipy4p2l",
+    "text": "The shift to agent-driven systems is exciting, but governance is the real differentiator. Without evals, handoffs, and audit trails, “autonomy” just turns into chaos when it hits messy real-world workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T15:02:59+09:00"
   }
 ]
