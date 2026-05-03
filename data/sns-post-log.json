@@ -4926,5 +4926,13 @@
     "articleId": "2026-05-03-extended-daily-2026-05-03",
     "type": "scheduled",
     "timestamp": "2026-05-03T15:02:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkww3qtcld2h",
+    "text": "The shift from “cool agent demos” to deployable systems is really showing. Governance like enforceable handoffs plus evals/audit trails is the boring part, but it’s what turns agents into something orgs can trust and sc...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T19:09:45+09:00"
   }
 ]
