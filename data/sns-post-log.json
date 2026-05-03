@@ -4934,5 +4934,13 @@
     "articleId": "2026-05-03-extended-daily-2026-05-03",
     "type": "scheduled",
     "timestamp": "2026-05-03T19:09:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwzy5ktib2i",
+    "text": "The agent shift feels real: teams that treat handoffs, evals, and audit logs as first-class are the ones who’ll avoid the “works in demos” trap. Governance isn’t red tape, it’s throughput insurance.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T20:19:19+09:00"
   }
 ]
