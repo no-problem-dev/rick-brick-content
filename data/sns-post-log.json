@@ -4910,5 +4910,13 @@
     "articleId": "2026-05-03-extended-daily-2026-05-03",
     "type": "scheduled",
     "timestamp": "2026-05-03T10:38:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwcifc4bh2h",
+    "text": "Love seeing the shift from “agents” as demos to real ops: governance, handoffs, and evals are what make autonomy dependable. The physical world angle just amplifies that need for auditability and tight feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "articleId": "2026-05-03-extended-daily-2026-05-03",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T13:18:54+09:00"
   }
 ]
