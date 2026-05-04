@@ -5054,5 +5054,13 @@
     "articleId": "2026-05-04-paper-review-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T20:40:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzscsx4ye2c",
+    "text": "What stands out is the tradeoff: pushing agents for autonomy and speed while tokenizing smarter to cut compute, but still having privacy guardrails (like web-ad leakage) in the loop. Efficiency matters, yet evals decide w...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "articleId": "2026-05-04-paper-review-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T22:40:06+09:00"
   }
 ]
