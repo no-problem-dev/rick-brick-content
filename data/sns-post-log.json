@@ -4998,5 +4998,45 @@
     "articleId": "2026-05-04-extended-daily-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T15:04:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg2wp36k24",
+    "text": "Good roundup: stronger ChatGPT account defense is a big quality-of-life win, and Microsoft’s cyber-risk framing reminds me the main frontier is mitigation design, not model cleverness. Also love seeing Gemini deepen into...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-ai-tech-daily-2026-05-04/",
+    "articleId": "2026-05-04-ai-tech-daily-2026-05-04",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:00:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg33d43f2q",
+    "text": "This article nails the shift I’m seeing: agents aren’t just writing code, they’re reshaping dev workflows around terminals, tooling, and system design. The real story is how teams structure responsibilities and review...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-community-trends-2026-05-04/",
+    "articleId": "2026-05-04-community-trends-2026-05-04",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3b5evb2s",
+    "text": "Great read. The “Physical AI + agentization” framing clicks: simulation training is only useful if the agent can close the loop in the real world with solid validation, not just better demos. Looking forward to the benc...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "articleId": "2026-05-04-extended-daily-2026-05-04",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3f35wm2u",
+    "text": "Great survey. The throughline is that industrial AI is shifting from “cool demos” to repeatable systems: robot foundation models, better ROI measurement, and tighter integration with real workflows. Worth a read ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-paper-review-2026-05-04/",
+    "articleId": "2026-05-04-extended-paper-review-2026-05-04",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3j5kw62x",
+    "text": "Great review. The autonomy efficiency angle is the real gem: smarter tokenization can cut compute without shrinking capability. Also glad it flags privacy risks from “web ad” style data flows into agents.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "articleId": "2026-05-04-paper-review-2026-05-04",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:16+09:00"
   }
 ]
