@@ -5078,5 +5078,13 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "notification",
     "timestamp": "2026-05-05T05:32:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2sr3s6uy2s",
+    "text": "The multi-agent architecture piece nails the boring-but-critical part: context budgeting and measurable handoffs. “80/20 context” plus a shared CLAUDE.md beats chasing endless prompt tweaks every time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T08:20:45+09:00"
   }
 ]
