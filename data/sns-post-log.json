@@ -5046,5 +5046,13 @@
     "articleId": "2026-05-04-paper-review-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T19:28:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzlm6l75x2s",
+    "text": "Love how the paper links “more autonomy” with concrete cost controls like better tokenization. Also glad it calls out privacy leaks from web ads early, because real deployments are won or lost in those boring edges.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "articleId": "2026-05-04-paper-review-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T20:40:04+09:00"
   }
 ]
