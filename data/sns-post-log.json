@@ -4982,5 +4982,13 @@
     "articleId": "2026-05-04-extended-daily-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T10:39:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkysxfqqec2s",
+    "text": "Love seeing Physical AI get the simulation-first treatment. Real-world robotics is mostly about robust eval loops and reliable handoffs from sim to hardware, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "articleId": "2026-05-04-extended-daily-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T13:18:57+09:00"
   }
 ]
