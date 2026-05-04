@@ -5038,5 +5038,13 @@
     "articleId": "2026-05-04-paper-review-2026-05-04",
     "type": "notification",
     "timestamp": "2026-05-04T19:01:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzhmfn6wm2c",
+    "text": "Autonomy gets exciting, but the efficiency + privacy angle is the real constraint. If agents can reduce token waste while limiting ad-driven data leakage, deployment stops being a research demo and becomes something you c...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "articleId": "2026-05-04-paper-review-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T19:28:37+09:00"
   }
 ]
