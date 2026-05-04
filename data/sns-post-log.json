@@ -4990,5 +4990,13 @@
     "articleId": "2026-05-04-extended-daily-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T13:18:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkyyujhc752h",
+    "text": "Physical AI is finally getting the spotlight: simulation isn’t just training wheels, it’s the only way to validate agent behavior before it touches hardware. The real edge is tight sim-to-real feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "articleId": "2026-05-04-extended-daily-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T15:04:43+09:00"
   }
 ]
