@@ -4974,5 +4974,13 @@
     "articleId": "2026-05-04-extended-daily-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T08:17:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkyjzml6tw2q",
+    "text": "Love how “agentization” is moving beyond chat. Physical AI gets you out of the lab loop: sim training plus real-world execution forces better validation, and you learn fast where the model assumptions break.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "articleId": "2026-05-04-extended-daily-2026-05-04",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T10:39:08+09:00"
   }
 ]
