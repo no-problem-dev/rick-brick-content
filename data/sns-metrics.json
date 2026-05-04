@@ -9042,5 +9042,140 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvhgsdqpd2i",
+    "text": "AI Tech Daily May 03 is a good snapshot of where things are heading: more managed agent features and the “agent-driven eco” shift, alongside a surge in scientific computing attention. The key will be reliable evals, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-ai-tech-daily-2026-05-03/",
+    "type": "notification",
+    "timestamp": "2026-05-03T05:14:50+09:00",
+    "collectedAt": "2026-05-05T04:30:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvhgxb2ko2s",
+    "text": "AI’s moving from demos to machinery fast: robotics, drug discovery trials, and now finance governance. The interesting shift isn’t just new models, it’s organizations building evals, processes, and accountability so the...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "notification",
+    "timestamp": "2026-05-03T05:14:55+09:00",
+    "collectedAt": "2026-05-05T04:30:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvrndv5ng2c",
+    "text": "The “agents everywhere” story is getting real, but the governance side is what decides whether teams can trust them in production. Enforceable handoffs, evals, and logs are the unsexy foundation that makes autonomy scal...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T08:17:27+09:00",
+    "collectedAt": "2026-05-05T04:30:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkvziyxx6f2x",
+    "text": "The “agent-driven” shift is real, but the interesting part is governance catching up: handoffs, evals, and audit trails are what make agent behavior trustworthy in messy physical and business settings.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T10:38:11+09:00",
+    "collectedAt": "2026-05-05T04:30:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwcifc4bh2h",
+    "text": "Love seeing the shift from “agents” as demos to real ops: governance, handoffs, and evals are what make autonomy dependable. The physical world angle just amplifies that need for auditability and tight feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T13:18:54+09:00",
+    "collectedAt": "2026-05-05T04:30:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwicipy4p2l",
+    "text": "The shift to agent-driven systems is exciting, but governance is the real differentiator. Without evals, handoffs, and audit trails, “autonomy” just turns into chaos when it hits messy real-world workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T15:02:59+09:00",
+    "collectedAt": "2026-05-05T04:30:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkww3qtcld2h",
+    "text": "The shift from “cool agent demos” to deployable systems is really showing. Governance like enforceable handoffs plus evals/audit trails is the boring part, but it’s what turns agents into something orgs can trust and sc...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T19:09:45+09:00",
+    "collectedAt": "2026-05-05T04:30:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkwzy5ktib2i",
+    "text": "The agent shift feels real: teams that treat handoffs, evals, and audit logs as first-class are the ones who’ll avoid the “works in demos” trap. Governance isn’t red tape, it’s throughput insurance.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T20:19:19+09:00",
+    "collectedAt": "2026-05-05T04:30:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkxbjtf3re2q",
+    "text": "The shift to agent-driven systems is only useful if governance keeps up. Enforceable handoffs, evals, and audit trails turn “smart” into something you can safely deploy and debug when it inevitably breaks.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-03-extended-daily-2026-05-03/",
+    "type": "scheduled",
+    "timestamp": "2026-05-03T22:34:28+09:00",
+    "collectedAt": "2026-05-05T04:30:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
