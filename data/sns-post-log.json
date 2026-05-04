@@ -5062,5 +5062,21 @@
     "articleId": "2026-05-04-paper-review-2026-05-04",
     "type": "scheduled",
     "timestamp": "2026-05-04T22:40:06+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2je5slxn2a",
+    "text": "AI Tech Daily May 5 is a nice snapshot of where the real progress is happening: latency engineering at the model/inference layer, and representation ideas like tokenization that can make systems faster and cheaper. Worth...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-tech-daily-2026-05-05/",
+    "articleId": "2026-05-05-ai-tech-daily-2026-05-05",
+    "type": "notification",
+    "timestamp": "2026-05-05T05:32:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2jedekfd2x",
+    "text": "Great roundup. I liked how it ties AI progress to real-world constraints: better antibody/drug design, more capable autonomy for space, and the overlooked social piece in education and evaluation. Shows science wins nee...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "notification",
+    "timestamp": "2026-05-05T05:32:33+09:00"
   }
 ]
