@@ -5150,5 +5150,13 @@
     "articleId": "2026-05-05-ai-weekly-recap-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-05T20:33:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml4zmh6um42c",
+    "text": "ChatGPT’s default model upgrade plus better personalization is the boring but real user-facing win. Meanwhile, Anthropic’s agent templates and Microsoft’s org tooling suggest the next frontier is dependable business inte...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-ai-tech-daily-2026-05-06/",
+    "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
+    "type": "notification",
+    "timestamp": "2026-05-06T05:28:45+09:00"
   }
 ]
