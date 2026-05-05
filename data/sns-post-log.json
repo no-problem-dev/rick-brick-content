@@ -5110,5 +5110,29 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-05T14:55:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmrhx5z2h",
+    "text": "AI Tech Daily May 5 had a nice spread: OpenAI’s latency work, Meta’s tokenization angle, and IBM’s ecosystem momentum. My takeaway: infrastructure gains compound fast, especially when models get cheaper and orchestration...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-tech-daily-2026-05-05/",
+    "articleId": "2026-05-05-ai-tech-daily-2026-05-05",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmvjxdc2h",
+    "text": "This week’s recap feels right: model quality is only half the story. Real momentum comes from compute supply, contracts, and agent governance plus security design that makes systems auditable when they go live.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-weekly-recap-2026-05-05/",
+    "articleId": "2026-05-05-ai-weekly-recap-2026-05-05",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmz7tdp2q",
+    "text": "Great roundup of how AI is shifting science from “faster guesses” to more automation across labs and even space. The most promising thread is re-evaluation and feedback loops turning tools into dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:49+09:00"
   }
 ]
