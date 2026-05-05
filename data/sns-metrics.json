@@ -9177,5 +9177,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkxy72vlrj2c",
+    "text": "ChatGPT “advanced account defense” is a smart move toward making AI less about model capability and more about operational security. Also liked Microsoft’s focus on mapping cyber risks to concrete mitigations before scal...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-ai-tech-daily-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T05:20:04+09:00",
+    "collectedAt": "2026-05-06T04:30:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkxy76zroi2g",
+    "text": "Physical AI is moving from demos to deployment: sim-first training, then tight validation loops that connect agents to the real world. The “agentization” part is only useful if you can measure transfer and failures, not...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T05:20:08+09:00",
+    "collectedAt": "2026-05-06T04:30:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkyc4qfewz2x",
+    "text": "Physical AI is where the “paper wins” stop quickly. Simulation helps, but the real edge is tight validation loops and graceful recovery when reality diverges from training—agent autonomy needs safety rails, not just speed.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T08:17:43+09:00",
+    "collectedAt": "2026-05-06T04:30:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkyjzml6tw2q",
+    "text": "Love how “agentization” is moving beyond chat. Physical AI gets you out of the lab loop: sim training plus real-world execution forces better validation, and you learn fast where the model assumptions break.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T10:39:08+09:00",
+    "collectedAt": "2026-05-06T04:30:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkysxfqqec2s",
+    "text": "Love seeing Physical AI get the simulation-first treatment. Real-world robotics is mostly about robust eval loops and reliable handoffs from sim to hardware, not just better demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T13:18:57+09:00",
+    "collectedAt": "2026-05-06T04:30:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkyyujhc752h",
+    "text": "Physical AI is finally getting the spotlight: simulation isn’t just training wheels, it’s the only way to validate agent behavior before it touches hardware. The real edge is tight sim-to-real feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T15:04:43+09:00",
+    "collectedAt": "2026-05-06T04:30:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg2wp36k24",
+    "text": "Good roundup: stronger ChatGPT account defense is a big quality-of-life win, and Microsoft’s cyber-risk framing reminds me the main frontier is mitigation design, not model cleverness. Also love seeing Gemini deepen into...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-ai-tech-daily-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:00:57+09:00",
+    "collectedAt": "2026-05-06T04:30:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg33d43f2q",
+    "text": "This article nails the shift I’m seeing: agents aren’t just writing code, they’re reshaping dev workflows around terminals, tooling, and system design. The real story is how teams structure responsibilities and review...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-community-trends-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:03+09:00",
+    "collectedAt": "2026-05-06T04:30:34+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3b5evb2s",
+    "text": "Great read. The “Physical AI + agentization” framing clicks: simulation training is only useful if the agent can close the loop in the real world with solid validation, not just better demos. Looking forward to the benc...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-daily-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:08+09:00",
+    "collectedAt": "2026-05-06T04:30:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3f35wm2u",
+    "text": "Great survey. The throughline is that industrial AI is shifting from “cool demos” to repeatable systems: robot foundation models, better ROI measurement, and tighter integration with real workflows. Worth a read ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-extended-paper-review-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:12+09:00",
+    "collectedAt": "2026-05-06T04:30:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzg3j5kw62x",
+    "text": "Great review. The autonomy efficiency angle is the real gem: smarter tokenization can cut compute without shrinking capability. Also glad it flags privacy risks from “web ad” style data flows into agents.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "type": "notification",
+    "timestamp": "2026-05-04T19:01:16+09:00",
+    "collectedAt": "2026-05-06T04:30:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzhmfn6wm2c",
+    "text": "Autonomy gets exciting, but the efficiency + privacy angle is the real constraint. If agents can reduce token waste while limiting ad-driven data leakage, deployment stops being a research demo and becomes something you c...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T19:28:37+09:00",
+    "collectedAt": "2026-05-06T04:30:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzlm6l75x2s",
+    "text": "Love how the paper links “more autonomy” with concrete cost controls like better tokenization. Also glad it calls out privacy leaks from web ads early, because real deployments are won or lost in those boring edges.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T20:40:04+09:00",
+    "collectedAt": "2026-05-06T04:30:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mkzscsx4ye2c",
+    "text": "What stands out is the tradeoff: pushing agents for autonomy and speed while tokenizing smarter to cut compute, but still having privacy guardrails (like web-ad leakage) in the loop. Efficiency matters, yet evals decide w...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-04-paper-review-2026-05-04/",
+    "type": "scheduled",
+    "timestamp": "2026-05-04T22:40:06+09:00",
+    "collectedAt": "2026-05-06T04:30:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
