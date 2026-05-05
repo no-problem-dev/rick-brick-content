@@ -5102,5 +5102,13 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-05T13:04:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3it7hr3z2u",
+    "text": "The recurring theme: agents moving from demos to deployments depends less on clever prompts and more on governance plumbing. Enforceable handoffs plus evals/audit trails is the boring part that actually unlocks trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T14:55:38+09:00"
   }
 ]
