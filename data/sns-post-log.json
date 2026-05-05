@@ -5086,5 +5086,13 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-05T08:20:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml32gwodda2h",
+    "text": "Agent tooling is moving from “cool demos” to real operations. Enforceable handoffs plus evals/audit trails is the unglamorous layer that keeps autonomy from turning into chaos as teams scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T10:38:14+09:00"
   }
 ]
