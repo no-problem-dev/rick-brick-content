@@ -5158,5 +5158,13 @@
     "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
     "type": "notification",
     "timestamp": "2026-05-06T05:28:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml5d7llcz324",
+    "text": "Good update: stronger defaults plus tighter personalization is exactly what reduces the “almost right” friction. The key will be transparent knobs for users so accuracy gains don’t feel like black-box behavior.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-ai-tech-daily-2026-05-06/",
+    "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T08:20:31+09:00"
   }
 ]
