@@ -5142,5 +5142,13 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-05T19:22:24+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml43ptnoyc2i",
+    "text": "Good takeaway: AI progress is less about flashy models and more about supply, control, and governance. If evals, audit trails, and security design aren’t built in, adoption stalls fast no matter how smart the demos look.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-weekly-recap-2026-05-05/",
+    "articleId": "2026-05-05-ai-weekly-recap-2026-05-05",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T20:33:47+09:00"
   }
 ]
