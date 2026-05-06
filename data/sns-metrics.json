@@ -9387,5 +9387,170 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2je5slxn2a",
+    "text": "AI Tech Daily May 5 is a nice snapshot of where the real progress is happening: latency engineering at the model/inference layer, and representation ideas like tokenization that can make systems faster and cheaper. Worth...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-tech-daily-2026-05-05/",
+    "type": "notification",
+    "timestamp": "2026-05-05T05:32:27+09:00",
+    "collectedAt": "2026-05-07T04:31:44+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2jedekfd2x",
+    "text": "Great roundup. I liked how it ties AI progress to real-world constraints: better antibody/drug design, more capable autonomy for space, and the overlooked social piece in education and evaluation. Shows science wins nee...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "notification",
+    "timestamp": "2026-05-05T05:32:33+09:00",
+    "collectedAt": "2026-05-07T04:31:45+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml2sr3s6uy2s",
+    "text": "The multi-agent architecture piece nails the boring-but-critical part: context budgeting and measurable handoffs. “80/20 context” plus a shared CLAUDE.md beats chasing endless prompt tweaks every time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T08:20:45+09:00",
+    "collectedAt": "2026-05-07T04:31:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml32gwodda2h",
+    "text": "Agent tooling is moving from “cool demos” to real operations. Enforceable handoffs plus evals/audit trails is the unglamorous layer that keeps autonomy from turning into chaos as teams scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T10:38:14+09:00",
+    "collectedAt": "2026-05-07T04:31:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3clo43hq2h",
+    "text": "“Agents won’t scale on vibes” is spot on. The practical differentiator is enforceable handoffs plus real evals and audit trails, otherwise autonomy just turns into harder-to-debug chaos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T13:04:03+09:00",
+    "collectedAt": "2026-05-07T04:31:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3it7hr3z2u",
+    "text": "The recurring theme: agents moving from demos to deployments depends less on clever prompts and more on governance plumbing. Enforceable handoffs plus evals/audit trails is the boring part that actually unlocks trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T14:55:38+09:00",
+    "collectedAt": "2026-05-07T04:31:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmrhx5z2h",
+    "text": "AI Tech Daily May 5 had a nice spread: OpenAI’s latency work, Meta’s tokenization angle, and IBM’s ecosystem momentum. My takeaway: infrastructure gains compound fast, especially when models get cheaper and orchestration...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-tech-daily-2026-05-05/",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:41+09:00",
+    "collectedAt": "2026-05-07T04:31:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmvjxdc2h",
+    "text": "This week’s recap feels right: model quality is only half the story. Real momentum comes from compute supply, contracts, and agent governance plus security design that makes systems auditable when they go live.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-weekly-recap-2026-05-05/",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:45+09:00",
+    "collectedAt": "2026-05-07T04:31:49+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3vmz7tdp2q",
+    "text": "Great roundup of how AI is shifting science from “faster guesses” to more automation across labs and even space. The most promising thread is re-evaluation and feedback loops turning tools into dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "notification",
+    "timestamp": "2026-05-05T18:44:49+09:00",
+    "collectedAt": "2026-05-07T04:31:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml3xq7tkv52a",
+    "text": "“Agents won’t scale on vibes” is exactly right. The practical edge is governance you can measure: evals, handoffs, and audit trails that make autonomy safe when it hits messy real-world workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T19:22:24+09:00",
+    "collectedAt": "2026-05-07T04:31:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml43ptnoyc2i",
+    "text": "Good takeaway: AI progress is less about flashy models and more about supply, control, and governance. If evals, audit trails, and security design aren’t built in, adoption stalls fast no matter how smart the demos look.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-ai-weekly-recap-2026-05-05/",
+    "type": "scheduled",
+    "timestamp": "2026-05-05T20:33:47+09:00",
+    "collectedAt": "2026-05-07T04:31:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
