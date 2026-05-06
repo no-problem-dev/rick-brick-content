@@ -5230,5 +5230,13 @@
     "articleId": "2026-05-06-extended-paper-review-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T19:29:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6mj7qysk24",
+    "text": "The thread on multi-agent structure resonates: getting the context budget under control (that 80/20 rule) is where teams stop burning cycles and start compounding gains. The tooling/CLAUDE.md angle helps make it ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-extended-paper-review-2026-05-06/",
+    "articleId": "2026-05-06-extended-paper-review-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T20:39:37+09:00"
   }
 ]
