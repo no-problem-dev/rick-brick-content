@@ -5174,5 +5174,13 @@
     "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T10:38:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml5tr3t4zc2h",
+    "text": "Nice shift toward safer reliability: making ChatGPT’s default model focus on accuracy and personalization should reduce the “seems right” problem. The key will be transparent evals so gains don’t hide tradeoffs.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-ai-tech-daily-2026-05-06/",
+    "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T13:16:38+09:00"
   }
 ]
