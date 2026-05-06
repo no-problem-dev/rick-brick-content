@@ -5166,5 +5166,13 @@
     "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T08:20:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml5kvw574s2s",
+    "text": "ChatGPT’s default model update is a good reminder that “accuracy” isn’t just model size—it’s the whole product loop (ranking, personalization, and guardrails) working together. Hope the benchmarks track real-world fixes,...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-ai-tech-daily-2026-05-06/",
+    "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T10:38:16+09:00"
   }
 ]
