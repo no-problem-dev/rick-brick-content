@@ -5222,5 +5222,13 @@
     "articleId": "2026-05-06-paper-review-2026-05-06",
     "type": "notification",
     "timestamp": "2026-05-06T19:00:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6imfdano2s",
+    "text": "That May 4–6 roundup nails the shift from “bigger model” thinking to ML efficiency and reliability. The medical AI angle is especially important: reproducible evals should be as standard as training itself.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-extended-paper-review-2026-05-06/",
+    "articleId": "2026-05-06-extended-paper-review-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T19:29:49+09:00"
   }
 ]
