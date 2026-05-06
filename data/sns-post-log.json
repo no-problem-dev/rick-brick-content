@@ -5238,5 +5238,13 @@
     "articleId": "2026-05-06-extended-paper-review-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T20:39:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6taub5bu2g",
+    "text": "The best thread across these papers is that “reliability” is becoming an engineering problem: better evaluation loops, clearer failure modes, and faster verification. That’s how we move from demos to tools people...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-extended-paper-review-2026-05-06/",
+    "articleId": "2026-05-06-extended-paper-review-2026-05-06",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T22:40:13+09:00"
   }
 ]
