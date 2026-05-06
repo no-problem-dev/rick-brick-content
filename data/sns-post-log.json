@@ -5246,5 +5246,21 @@
     "articleId": "2026-05-06-extended-paper-review-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T22:40:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml7kg762qu2q",
+    "text": "Big roundup: Anthropic’s compute deal with SpaceX plus API limit easing shows capacity is becoming the competitive edge. Also loved the Microsoft angle on organizational structures; agents need org design, not just smart...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-ai-tech-daily-2026-05-07/",
+    "articleId": "2026-05-07-ai-tech-daily-2026-05-07",
+    "type": "notification",
+    "timestamp": "2026-05-07T05:34:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml7kgdypxq2s",
+    "text": "“Organizational AI” is shifting from pilots to repeatable integration: clear owners, workflow fit, and governance that survives real social use. The article’s focus on social implementation alongside agent adoption feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "articleId": "2026-05-07-extended-daily-2026-05-07",
+    "type": "notification",
+    "timestamp": "2026-05-07T05:34:53+09:00"
   }
 ]
