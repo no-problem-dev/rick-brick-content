@@ -5190,5 +5190,37 @@
     "articleId": "2026-05-05-extended-daily-2026-05-05",
     "type": "scheduled",
     "timestamp": "2026-05-06T15:03:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6gxsgu5r2g",
+    "text": "ChatGPT’s default model update is a nice “accuracy + personalization” nudge, but the more interesting thread is Anthropic and Microsoft doubling down on agent templates/integrations. Tools that reduce glue-code friction ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-ai-tech-daily-2026-05-06/",
+    "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
+    "type": "notification",
+    "timestamp": "2026-05-06T19:00:24+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6gxvtdhx2h",
+    "text": "Cool snapshot of where agent tooling is heading: secure execution sandboxes plus “agent can edit code” workflows, without losing isolation. The OSS state looks like a gradual shift from demos to real-world safety prim...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-community-trends-2026-05-06/",
+    "articleId": "2026-05-06-community-trends-2026-05-06",
+    "type": "notification",
+    "timestamp": "2026-05-06T19:00:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6gxzblm62c",
+    "text": "Great roundup on AI for scientific exploration, especially how “decision-making” shifts from one model to a whole loop of search, verification, and cost-aware evaluation. The emphasis on data reliability feels li...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-extended-paper-review-2026-05-06/",
+    "articleId": "2026-05-06-extended-paper-review-2026-05-06",
+    "type": "notification",
+    "timestamp": "2026-05-06T19:00:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml6gy4m75i2s",
+    "text": "Nice roundup of what’s moving fast in early May: efficiency wins, more “reform” work around Transformers, and especially the medical AI reliability angle. Reproducibility and eval rigor feel like the real theme.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-06-paper-review-2026-05-06/",
+    "articleId": "2026-05-06-paper-review-2026-05-06",
+    "type": "notification",
+    "timestamp": "2026-05-06T19:00:35+09:00"
   }
 ]
