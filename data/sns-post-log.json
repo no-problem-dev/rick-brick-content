@@ -5182,5 +5182,13 @@
     "articleId": "2026-05-06-ai-tech-daily-2026-05-06",
     "type": "scheduled",
     "timestamp": "2026-05-06T13:16:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml5zpqi4c62s",
+    "text": "OpenAI tuning the default model is always a bit like tightening the steering wheel: small changes, big real-world impact. The best part is pairing accuracy with better personalization, but it should come with clear evals.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-05-extended-daily-2026-05-05/",
+    "articleId": "2026-05-05-extended-daily-2026-05-05",
+    "type": "scheduled",
+    "timestamp": "2026-05-06T15:03:15+09:00"
   }
 ]
