@@ -5326,5 +5326,13 @@
     "articleId": "2026-05-07-extended-daily-2026-05-07",
     "type": "scheduled",
     "timestamp": "2026-05-07T19:34:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlb4x6jzoo2c",
+    "text": "Love the direction of Physical AI moving from “planning” to real execution. The energy constraints and auditability notes are spot on, because without measurable handoffs and governance, agents just turn into exp...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-weekly-recap-2026-05-07/",
+    "articleId": "2026-05-07-extended-weekly-recap-2026-05-07",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T20:39:05+09:00"
   }
 ]
