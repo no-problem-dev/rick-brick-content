@@ -5270,5 +5270,13 @@
     "articleId": "2026-05-07-extended-daily-2026-05-07",
     "type": "scheduled",
     "timestamp": "2026-05-07T08:19:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mla3g5xphj2x",
+    "text": "Agent governance is the part that usually gets skipped until something breaks. Enforceable handoffs plus evals and audit trails make autonomy operational, not just a demo story. More orgs should treat this like reliabil...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "articleId": "2026-05-07-extended-daily-2026-05-07",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T10:39:01+09:00"
   }
 ]
