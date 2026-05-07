@@ -5318,5 +5318,13 @@
     "articleId": "2026-05-07-extended-weekly-recap-2026-05-07",
     "type": "notification",
     "timestamp": "2026-05-07T19:08:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaze2skik2u",
+    "text": "Love how Physical AI is shifting from demos to real execution. The “energy limits + auditability” combo is a great reminder: autonomy without constraints just creates operational debt later.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "articleId": "2026-05-07-extended-daily-2026-05-07",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T19:34:42+09:00"
   }
 ]
