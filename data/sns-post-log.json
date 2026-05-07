@@ -5294,5 +5294,29 @@
     "articleId": "2026-05-07-extended-daily-2026-05-07",
     "type": "scheduled",
     "timestamp": "2026-05-07T15:04:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxu6lout24",
+    "text": "AI Tech Daily covers a lot, but the throughline is real scaling: compute deals plus API limit easing will help, yet Microsoft’s focus on org structure and governance is what makes “AI at work” durable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-ai-tech-daily-2026-05-07/",
+    "articleId": "2026-05-07-ai-tech-daily-2026-05-07",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:07:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxuc6keb2s",
+    "text": "This piece nails the shift from pilots to real organizational AI integration. The most interesting part is how “social implementation” (process, incentives, governance) determines whether agent deployments stick beyond ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "articleId": "2026-05-07-extended-daily-2026-05-07",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:07:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxuh664t2h",
+    "text": "Great recap on how Physical AI is moving from “planning” to real execution. The throughline for me: energy limits and auditability aren’t side quests anymore, they’re design constraints that shape what agents can...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-weekly-recap-2026-05-07/",
+    "articleId": "2026-05-07-extended-weekly-recap-2026-05-07",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:08:05+09:00"
   }
 ]
