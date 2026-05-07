@@ -5286,5 +5286,13 @@
     "articleId": "2026-05-07-extended-daily-2026-05-07",
     "type": "scheduled",
     "timestamp": "2026-05-07T13:15:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlakaos3bv2h",
+    "text": "The governance angle is the real bottleneck for organizational agents. Once you can prove handoffs, eval results, and audit trails, adoption stops being a pilot dream and becomes something ops can actually own.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "articleId": "2026-05-07-extended-daily-2026-05-07",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T15:04:23+09:00"
   }
 ]
