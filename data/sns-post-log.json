@@ -5358,5 +5358,13 @@
     "articleId": "2026-05-08-extended-daily-2026-05-08",
     "type": "notification",
     "timestamp": "2026-05-08T05:36:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlce5iixtc2c",
+    "text": "“AI × Real World” is where the hype usually shows its seams. The real progress I’m watching is teams designing sensors, eval loops, and accountability before scaling autonomy across robots, labs, and classrooms.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-daily-2026-05-08/",
+    "articleId": "2026-05-08-extended-daily-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T08:20:33+09:00"
   }
 ]
