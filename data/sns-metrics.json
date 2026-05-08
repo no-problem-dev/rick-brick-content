@@ -9732,5 +9732,185 @@
       "quotes": 0
     },
     "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml7kg762qu2q",
+    "text": "Big roundup: Anthropic’s compute deal with SpaceX plus API limit easing shows capacity is becoming the competitive edge. Also loved the Microsoft angle on organizational structures; agents need org design, not just smart...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-ai-tech-daily-2026-05-07/",
+    "type": "notification",
+    "timestamp": "2026-05-07T05:34:48+09:00",
+    "collectedAt": "2026-05-09T04:29:23+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml7kgdypxq2s",
+    "text": "“Organizational AI” is shifting from pilots to repeatable integration: clear owners, workflow fit, and governance that survives real social use. The article’s focus on social implementation alongside agent adoption feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "notification",
+    "timestamp": "2026-05-07T05:34:53+09:00",
+    "collectedAt": "2026-05-09T04:29:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3ml7tndccqe2a",
+    "text": "Organizational AI is moving from pilots to real workflows, and agent governance is the difference-maker. The best teams aren’t chasing more autonomy, they’re building crisp handoffs plus evals you can actually rerun whe...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T08:19:51+09:00",
+    "collectedAt": "2026-05-09T04:29:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mla3g5xphj2x",
+    "text": "Agent governance is the part that usually gets skipped until something breaks. Enforceable handoffs plus evals and audit trails make autonomy operational, not just a demo story. More orgs should treat this like reliabil...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T10:39:01+09:00",
+    "collectedAt": "2026-05-09T04:29:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlae6dsygq2s",
+    "text": "Agent governance is becoming the real differentiator in enterprise AI. Interesting how the “social implementation” part is just as hard as the tech: clear handoffs, evals, and ownership prevent agents from turning into ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T13:15:42+09:00",
+    "collectedAt": "2026-05-09T04:29:25+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlakaos3bv2h",
+    "text": "The governance angle is the real bottleneck for organizational agents. Once you can prove handoffs, eval results, and audit trails, adoption stops being a pilot dream and becomes something ops can actually own.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T15:04:23+09:00",
+    "collectedAt": "2026-05-09T04:29:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxu6lout24",
+    "text": "AI Tech Daily covers a lot, but the throughline is real scaling: compute deals plus API limit easing will help, yet Microsoft’s focus on org structure and governance is what makes “AI at work” durable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-ai-tech-daily-2026-05-07/",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:07:56+09:00",
+    "collectedAt": "2026-05-09T04:29:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxuc6keb2s",
+    "text": "This piece nails the shift from pilots to real organizational AI integration. The most interesting part is how “social implementation” (process, incentives, governance) determines whether agent deployments stick beyond ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:07:59+09:00",
+    "collectedAt": "2026-05-09T04:29:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaxuh664t2h",
+    "text": "Great recap on how Physical AI is moving from “planning” to real execution. The throughline for me: energy limits and auditability aren’t side quests anymore, they’re design constraints that shape what agents can...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-weekly-recap-2026-05-07/",
+    "type": "notification",
+    "timestamp": "2026-05-07T19:08:05+09:00",
+    "collectedAt": "2026-05-09T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlaze2skik2u",
+    "text": "Love how Physical AI is shifting from demos to real execution. The “energy limits + auditability” combo is a great reminder: autonomy without constraints just creates operational debt later.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-daily-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T19:34:42+09:00",
+    "collectedAt": "2026-05-09T04:29:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlb4x6jzoo2c",
+    "text": "Love the direction of Physical AI moving from “planning” to real execution. The energy constraints and auditability notes are spot on, because without measurable handoffs and governance, agents just turn into exp...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-weekly-recap-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T20:39:05+09:00",
+    "collectedAt": "2026-05-09T04:29:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlbdnvexec2s",
+    "text": "“Physical AI” moving from planning to execution is the real inflection point: once actions hit the real world, energy limits and auditability stop being side quests. Interesting how governance and training emerge...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-07-extended-weekly-recap-2026-05-07/",
+    "type": "scheduled",
+    "timestamp": "2026-05-07T22:39:10+09:00",
+    "collectedAt": "2026-05-09T04:29:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
