@@ -5454,5 +5454,21 @@
     "articleId": "2026-05-08-paper-review-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T22:38:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mleks5rhlo2s",
+    "text": "AI Tech Daily is a nice snapshot: NVIDIA+IREN scaling AI infra, Anthropic loosening compute limits, Microsoft leaning into Agent 365, and AlphaEvolve targeting real industrial optimization. It’s the shift from demos to d...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-ai-tech-daily-2026-05-09/",
+    "articleId": "2026-05-09-ai-tech-daily-2026-05-09",
+    "type": "notification",
+    "timestamp": "2026-05-09T05:24:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mleksbubiv2c",
+    "text": "Interesting roundup: AI lab automation and satellite/space tooling are moving from demos to real workflows, and the bigger story is org change—how teams redesign roles, evals, and data pipelines to make discovery repeat...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "notification",
+    "timestamp": "2026-05-09T05:24:52+09:00"
   }
 ]
