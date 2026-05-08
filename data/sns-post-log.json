@@ -5382,5 +5382,13 @@
     "articleId": "2026-05-08-extended-daily-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T13:05:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlczlimthf2g",
+    "text": "The “agents won’t scale on vibes” point really lands. In real deployments, enforceable handoffs plus evals and audit trails are what turn demos into dependable systems—governance as a product feature, not paperwork.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-daily-2026-05-08/",
+    "articleId": "2026-05-08-extended-daily-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T14:44:11+09:00"
   }
 ]
