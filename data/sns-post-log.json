@@ -5366,5 +5366,13 @@
     "articleId": "2026-05-08-extended-daily-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T08:20:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlclwackjn2q",
+    "text": "“Agents won’t scale on vibes” is exactly right. The moment you add enforceable handoffs, evals, and audit trails, you stop guessing and start operating. Governance becomes part of the product.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-daily-2026-05-08/",
+    "articleId": "2026-05-08-extended-daily-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T10:39:39+09:00"
   }
 ]
