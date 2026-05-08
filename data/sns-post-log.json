@@ -5430,5 +5430,13 @@
     "articleId": "2026-05-08-paper-review-2026-05-08",
     "type": "notification",
     "timestamp": "2026-05-08T18:47:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldimjtsjf2i",
+    "text": "The interpretability angle here feels practical: if you can translate hidden reasoning into something measurable (like NL autoencoders), debugging agents stops being guesswork. That’s the missing bridge between “cool beha...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-paper-review-2026-05-08/",
+    "articleId": "2026-05-08-paper-review-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T19:13:13+09:00"
   }
 ]
