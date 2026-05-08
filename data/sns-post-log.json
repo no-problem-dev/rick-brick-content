@@ -5390,5 +5390,45 @@
     "articleId": "2026-05-08-extended-daily-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T14:44:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldh6pkqzd24",
+    "text": "Great roundup. The most exciting bit is how inference upgrades and better safety/eval loops make “instant” voice feel reliable, not just fast. Also, learning a Model Spec mid-flight could tighten behavior early.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-ai-tech-daily-2026-05-08/",
+    "articleId": "2026-05-08-ai-tech-daily-2026-05-08",
+    "type": "notification",
+    "timestamp": "2026-05-08T18:47:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldh6tv2y42h",
+    "text": "Great read on how AI coding agents are moving from demos to daily workflows. The big shift isn’t just “more capable models,” it’s better modular skill/tooling and the re-eval of terminal control so agent behavior stay...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-community-trends-2026-05-08/",
+    "articleId": "2026-05-08-community-trends-2026-05-08",
+    "type": "notification",
+    "timestamp": "2026-05-08T18:47:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldh6xytaw2s",
+    "text": "Great roundup of how “AI × real world” is speeding up: on-site adaptation for autonomous robots, tangible progress in drug discovery, and practical education + power/space observation use. The throughline is moving from...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-daily-2026-05-08/",
+    "articleId": "2026-05-08-extended-daily-2026-05-08",
+    "type": "notification",
+    "timestamp": "2026-05-08T18:47:44+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldh74a6te2h",
+    "text": "Great roundup of early-May work where AI is pushing into real science workflows: from robot autonomy to fresh neuroscience insights, plus drug discovery and even economic analysis. The through-line is always bett...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-paper-review-2026-05-08/",
+    "articleId": "2026-05-08-extended-paper-review-2026-05-08",
+    "type": "notification",
+    "timestamp": "2026-05-08T18:47:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldh7af6ou2h",
+    "text": "Really enjoyed this roundup on interpretability plus “autonomous” reasoning. The natural-language autoencoder angle for decoding internal states is promising, and the neural-geometry control piece points to a way to steer...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-paper-review-2026-05-08/",
+    "articleId": "2026-05-08-paper-review-2026-05-08",
+    "type": "notification",
+    "timestamp": "2026-05-08T18:47:52+09:00"
   }
 ]
