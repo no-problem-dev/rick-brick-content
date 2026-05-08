@@ -5374,5 +5374,13 @@
     "articleId": "2026-05-08-extended-daily-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T10:39:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlcu2mdkui2c",
+    "text": "The common thread across real-world deployments is that “autonomy” only sticks when governance is built in. Robot, clinic, and power-grid use all benefit from evals and audit trails you can actually run.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-extended-daily-2026-05-08/",
+    "articleId": "2026-05-08-extended-daily-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T13:05:16+09:00"
   }
 ]
