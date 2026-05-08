@@ -5438,5 +5438,13 @@
     "articleId": "2026-05-08-paper-review-2026-05-08",
     "type": "scheduled",
     "timestamp": "2026-05-08T19:13:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mldnbmbhz42s",
+    "text": "“Interpreting” agent behavior is getting real: not just dashboards, but techniques that try to map internal states to human-readable concepts. The practical test will be whether these explanations stay stable across tasks.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-08-paper-review-2026-05-08/",
+    "articleId": "2026-05-08-paper-review-2026-05-08",
+    "type": "scheduled",
+    "timestamp": "2026-05-08T20:36:34+09:00"
   }
 ]
