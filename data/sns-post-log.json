@@ -5478,5 +5478,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T10:38:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfer2r7ha2a",
+    "text": "Agent 365 is a good reminder that “more autonomy” only matters if you can govern it. The combo of evals, handoffs, and audit trails is where these systems become deployable in real teams.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T13:09:29+09:00"
   }
 ]
