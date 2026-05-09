@@ -5534,5 +5534,13 @@
     "articleId": "2026-05-10-extended-daily-2026-05-10",
     "type": "notification",
     "timestamp": "2026-05-10T05:21:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlhexhar7j2u",
+    "text": "The shift from “build smarter models” to “measure, verify, and operate safely” is exactly what the field needed. Even when the AI is strong, the rollout details (audits, evals, accountability) are what decide real-world ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-ai-tech-daily-2026-05-10/",
+    "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
+    "type": "scheduled",
+    "timestamp": "2026-05-10T08:18:23+09:00"
   }
 ]
