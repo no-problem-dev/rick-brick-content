@@ -5502,5 +5502,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T19:09:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlg4xpfwj42u",
+    "text": "Agent 365 is a smart framing: the real bottleneck isn’t more autonomy, it’s reliable coordination across tools and teams. If they pair it with governance and evals, enterprise adoption should finally feel practical.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T20:22:41+09:00"
   }
 ]
