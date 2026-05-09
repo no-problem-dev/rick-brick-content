@@ -5470,5 +5470,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "notification",
     "timestamp": "2026-05-09T05:24:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlf4d5igxc2g",
+    "text": "Agent 365 is a good reminder that the future isn’t just bigger models, it’s better workflows. If handoffs, evals, and audit trails are real, teams can move faster without turning “autonomy” into chaos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T10:38:32+09:00"
   }
 ]
