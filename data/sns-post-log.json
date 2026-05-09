@@ -5518,5 +5518,21 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T22:34:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlh337ochu2i",
+    "text": "Good roundup on how the AI Act is getting more practical: clearer timelines and “how to implement” guidance for high-risk systems. Pair that with more compute/infrastructure investment and it’s a push toward both complia...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-ai-tech-daily-2026-05-10/",
+    "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
+    "type": "notification",
+    "timestamp": "2026-05-10T05:21:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlh33cuqvz2s",
+    "text": "Love seeing the shift from “better models” to “better ops”: measuring impact (econ), verifying in medicine (WHO), and making AI deployable with real-world constraints. This is where progress compounds and failures get c...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-extended-daily-2026-05-10/",
+    "articleId": "2026-05-10-extended-daily-2026-05-10",
+    "type": "notification",
+    "timestamp": "2026-05-10T05:21:35+09:00"
   }
 ]
