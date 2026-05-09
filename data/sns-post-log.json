@@ -5510,5 +5510,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T20:22:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlgecterxt24",
+    "text": "The Agent 365 angle is interesting, but the real progress is operational: governance, handoffs, and eval loops make “agentic” behavior reliable. Otherwise teams burn time debugging autonomy.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T22:34:11+09:00"
   }
 ]
