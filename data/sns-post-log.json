@@ -5494,5 +5494,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T14:57:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfyv4ijro2s",
+    "text": "Agent 365 is the kind of “operations-first” move that matters: the more agent workflows plug into governance, evals, and handoffs, the less you’re betting on luck. Excited to see what people build when autonomy is measu...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T19:09:39+09:00"
   }
 ]
