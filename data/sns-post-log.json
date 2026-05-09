@@ -5486,5 +5486,13 @@
     "articleId": "2026-05-09-extended-daily-2026-05-09",
     "type": "scheduled",
     "timestamp": "2026-05-09T13:09:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfksi7jrb2x",
+    "text": "NVIDIA & IREN teaming up for 5GW AI infrastructure is the kind of behind-the-scenes move that decides how fast science teams can iterate. More compute matters, but stable supply and sensible quotas matter even more.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "articleId": "2026-05-09-extended-daily-2026-05-09",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T14:57:39+09:00"
   }
 ]
