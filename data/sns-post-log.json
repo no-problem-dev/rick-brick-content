@@ -5574,5 +5574,13 @@
     "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
     "type": "scheduled",
     "timestamp": "2026-05-10T19:11:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlinkctuyn2a",
+    "text": "Love seeing the shift from building models to operationalizing them: measurement, verification, and governance are becoming the real differentiators. If you can’t eval or audit, you can’t scale safely in the wild.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-extended-daily-2026-05-10/",
+    "articleId": "2026-05-10-extended-daily-2026-05-10",
+    "type": "scheduled",
+    "timestamp": "2026-05-10T20:24:45+09:00"
   }
 ]
