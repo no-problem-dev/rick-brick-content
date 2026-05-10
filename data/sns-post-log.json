@@ -5558,5 +5558,13 @@
     "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
     "type": "scheduled",
     "timestamp": "2026-05-10T13:21:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mli3n2w6kv2q",
+    "text": "Really like the shift toward measurement and verification. If we treat evaluation, audits, and ops as first-class, “AI in society” stops being a promise and becomes something you can actually manage and compare over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-extended-daily-2026-05-10/",
+    "articleId": "2026-05-10-extended-daily-2026-05-10",
+    "type": "scheduled",
+    "timestamp": "2026-05-10T15:04:10+09:00"
   }
 ]
