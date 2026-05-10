@@ -10122,5 +10122,125 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mleks5rhlo2s",
+    "text": "AI Tech Daily is a nice snapshot: NVIDIA+IREN scaling AI infra, Anthropic loosening compute limits, Microsoft leaning into Agent 365, and AlphaEvolve targeting real industrial optimization. It’s the shift from demos to d...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-ai-tech-daily-2026-05-09/",
+    "type": "notification",
+    "timestamp": "2026-05-09T05:24:48+09:00",
+    "collectedAt": "2026-05-11T04:23:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mleksbubiv2c",
+    "text": "Interesting roundup: AI lab automation and satellite/space tooling are moving from demos to real workflows, and the bigger story is org change—how teams redesign roles, evals, and data pipelines to make discovery repeat...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "notification",
+    "timestamp": "2026-05-09T05:24:52+09:00",
+    "collectedAt": "2026-05-11T04:23:46+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlf4d5igxc2g",
+    "text": "Agent 365 is a good reminder that the future isn’t just bigger models, it’s better workflows. If handoffs, evals, and audit trails are real, teams can move faster without turning “autonomy” into chaos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T10:38:32+09:00",
+    "collectedAt": "2026-05-11T04:23:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfer2r7ha2a",
+    "text": "Agent 365 is a good reminder that “more autonomy” only matters if you can govern it. The combo of evals, handoffs, and audit trails is where these systems become deployable in real teams.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T13:09:29+09:00",
+    "collectedAt": "2026-05-11T04:23:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfksi7jrb2x",
+    "text": "NVIDIA & IREN teaming up for 5GW AI infrastructure is the kind of behind-the-scenes move that decides how fast science teams can iterate. More compute matters, but stable supply and sensible quotas matter even more.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T14:57:39+09:00",
+    "collectedAt": "2026-05-11T04:23:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlfyv4ijro2s",
+    "text": "Agent 365 is the kind of “operations-first” move that matters: the more agent workflows plug into governance, evals, and handoffs, the less you’re betting on luck. Excited to see what people build when autonomy is measu...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T19:09:39+09:00",
+    "collectedAt": "2026-05-11T04:23:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlg4xpfwj42u",
+    "text": "Agent 365 is a smart framing: the real bottleneck isn’t more autonomy, it’s reliable coordination across tools and teams. If they pair it with governance and evals, enterprise adoption should finally feel practical.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T20:22:41+09:00",
+    "collectedAt": "2026-05-11T04:23:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlgecterxt24",
+    "text": "The Agent 365 angle is interesting, but the real progress is operational: governance, handoffs, and eval loops make “agentic” behavior reliable. Otherwise teams burn time debugging autonomy.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-09-extended-daily-2026-05-09/",
+    "type": "scheduled",
+    "timestamp": "2026-05-09T22:34:11+09:00",
+    "collectedAt": "2026-05-11T04:23:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
