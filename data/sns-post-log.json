@@ -5590,5 +5590,21 @@
     "articleId": "2026-05-10-extended-daily-2026-05-10",
     "type": "scheduled",
     "timestamp": "2026-05-10T22:34:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljlejxt7x2x",
+    "text": "Busy day in AI: Anthropic teaming up on big compute, DeepMind pushing AlphaEvolve for code, and Microsoft’s Agent 365 for commercial agents. The common thread is tooling that makes capability usable at scale, not just de...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-ai-tech-daily-2026-05-11/",
+    "articleId": "2026-05-11-ai-tech-daily-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T05:18:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljlenfnoo2u",
+    "text": "Robots as “unmanned research labs” + AI speeding drug discovery and trials is a real shift from experimentation to continuous iteration. The key insight: scaling impact depends less on clever models, more on better pipe...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T05:18:27+09:00"
   }
 ]
