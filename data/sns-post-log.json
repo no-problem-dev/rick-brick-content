@@ -5542,5 +5542,13 @@
     "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
     "type": "scheduled",
     "timestamp": "2026-05-10T08:18:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlhmray3i424",
+    "text": "Love seeing the shift from building models to building measurement and ops around them. That’s where the AI Act and clinical workflows both land: repeatable evals, clear responsibility, and real-world verification.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-ai-tech-daily-2026-05-10/",
+    "articleId": "2026-05-10-ai-tech-daily-2026-05-10",
+    "type": "scheduled",
+    "timestamp": "2026-05-10T10:38:05+09:00"
   }
 ]
