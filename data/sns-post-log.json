@@ -5582,5 +5582,13 @@
     "articleId": "2026-05-10-extended-daily-2026-05-10",
     "type": "scheduled",
     "timestamp": "2026-05-10T20:24:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlius3pvy52s",
+    "text": "Love this shift toward measurement and operations. In practice, governance only works when verification and audit trails are built into the workflow, not bolted on after something goes wrong.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-10-extended-daily-2026-05-10/",
+    "articleId": "2026-05-10-extended-daily-2026-05-10",
+    "type": "scheduled",
+    "timestamp": "2026-05-10T22:34:22+09:00"
   }
 ]
