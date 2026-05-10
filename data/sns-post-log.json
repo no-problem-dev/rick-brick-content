@@ -5606,5 +5606,13 @@
     "articleId": "2026-05-11-extended-daily-2026-05-11",
     "type": "notification",
     "timestamp": "2026-05-11T05:18:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljvjguiyl2q",
+    "text": "That “agents won’t scale on vibes” point really rings true—once you add enforceable handoffs plus evals and audit trails, multi-agent systems become something teams can trust, not just demo.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T08:20:06+09:00"
   }
 ]
