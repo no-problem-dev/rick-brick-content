@@ -5622,5 +5622,13 @@
     "articleId": "2026-05-11-extended-daily-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T10:39:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlkgnaar4e2s",
+    "text": "The compute and agent “platform” news this week feels like the real unlock: once you can govern, evaluate, and log autonomy, robots/AI stop being experiments and start becoming infrastructure for research and trials.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T13:26:26+09:00"
   }
 ]
