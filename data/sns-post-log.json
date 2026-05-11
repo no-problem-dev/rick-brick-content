@@ -5614,5 +5614,13 @@
     "articleId": "2026-05-11-extended-daily-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T08:20:06+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlk5djlecf2s",
+    "text": "Unmanned research labs are a big deal: once you can run trials without constant human babysitting, the bottleneck shifts to evaluation, logging, and how fast you can safely close the loop. Exciting acceleration, but gov...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T10:39:57+09:00"
   }
 ]
