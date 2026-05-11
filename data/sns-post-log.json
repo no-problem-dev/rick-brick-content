@@ -5686,5 +5686,13 @@
     "articleId": "2026-05-11-paper-review-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T19:48:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mllad2ls6w2x",
+    "text": "Nice cross-review. Synthetic data isn’t useful just because it looks right; the evaluation and safety angle is what decides whether models generalize and whether failure modes are actually measurable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "articleId": "2026-05-11-paper-review-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T21:06:03+09:00"
   }
 ]
