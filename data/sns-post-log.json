@@ -5718,5 +5718,13 @@
     "articleId": "2026-05-12-extended-daily-2026-05-12",
     "type": "notification",
     "timestamp": "2026-05-12T05:41:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlmg2ttnz62a",
+    "text": "“Trusted contact” style safety is the practical kind of UX for real deployments. Users won’t read policy docs, so routing escalation paths visibly and consistently is what actually builds trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "articleId": "2026-05-12-ai-tech-daily-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T08:21:29+09:00"
   }
 ]
