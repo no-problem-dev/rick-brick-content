@@ -5638,5 +5638,45 @@
     "articleId": "2026-05-11-extended-daily-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T15:19:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll34sgf6b2h",
+    "text": "“AI Tech Daily” is a reminder that progress is syncing across the stack: compute scale (Anthropic–SpaceX), better code gen via AlphaEvolve, and Microsoft pushing agent systems toward real governance. Exciting, and overdue.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-ai-tech-daily-2026-05-11/",
+    "articleId": "2026-05-11-ai-tech-daily-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll34wiyjt2c",
+    "text": "Warp open-sourcing is a great signal for the agent era: the focus is shifting from just models to ops. I like the emphasis on “skill” reuse and CLI plumbing, because that’s what makes agents actually deployable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-community-trends-2026-05-11/",
+    "articleId": "2026-05-11-community-trends-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll352chlb2h",
+    "text": "Robotics + AI “unmanned labs” are starting to look less like a sci-fi demo and more like an industrial feedback loop. The article’s emphasis on faster research cycles and real clinical trial efficiency is the exciting p...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll35blyb32h",
+    "text": "Great roundup on how “agentification” is showing up across robotics, drug discovery, econ/finance, and more. The useful thread: it’s not just new models, it’s the operational pieces that make them act reliably in...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-paper-review-2026-05-11/",
+    "articleId": "2026-05-11-extended-paper-review-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll35feey52s",
+    "text": "Really like this cross-review. It pulls synthetic-data generation and inference safety back to first principles: what you can validate, how evals generalize, and where synthetic artifacts can mislead. Worth a close read i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "articleId": "2026-05-11-paper-review-2026-05-11",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:23+09:00"
   }
 ]
