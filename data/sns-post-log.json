@@ -5702,5 +5702,21 @@
     "articleId": "2026-05-11-paper-review-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T22:56:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlm54qhpal2h",
+    "text": "Great roundup. What stands out is the shift from “safety as a feature” to safety as an operational system: trusted contacts, tighter UX, and more predictable model performance. The boring parts are where reliability wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "articleId": "2026-05-12-ai-tech-daily-2026-05-12",
+    "type": "notification",
+    "timestamp": "2026-05-12T05:41:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlm54u7mwa24",
+    "text": "Really nice sweep of where genAI is actually accelerating: robot safety control, training pipelines, and even how orgs/education platforms have to re-structure around it. The throughline is measurement and feedback loop...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "articleId": "2026-05-12-extended-daily-2026-05-12",
+    "type": "notification",
+    "timestamp": "2026-05-12T05:41:33+09:00"
   }
 ]
