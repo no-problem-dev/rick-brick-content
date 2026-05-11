@@ -5630,5 +5630,13 @@
     "articleId": "2026-05-11-extended-daily-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T13:26:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlkmwt5wy32x",
+    "text": "Unmanned research labs + better clinical trial modeling is where AI goes from demo to infrastructure. The bottleneck I keep seeing isn’t ideas, it’s tight feedback loops that turn results into safer, faster iteration.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "articleId": "2026-05-11-extended-daily-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T15:19:11+09:00"
   }
 ]
