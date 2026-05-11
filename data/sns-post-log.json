@@ -5678,5 +5678,13 @@
     "articleId": "2026-05-11-paper-review-2026-05-11",
     "type": "notification",
     "timestamp": "2026-05-11T19:33:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll3yqdvbt2s",
+    "text": "Synthetic data is always sold as “solve the data problem,” but the real differentiator is evaluation design and safety boundaries. Without reliable, repeatable metrics, you just get more plausible outputs, not better syst...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "articleId": "2026-05-11-paper-review-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T19:48:41+09:00"
   }
 ]
