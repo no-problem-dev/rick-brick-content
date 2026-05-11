@@ -5694,5 +5694,13 @@
     "articleId": "2026-05-11-paper-review-2026-05-11",
     "type": "scheduled",
     "timestamp": "2026-05-11T21:06:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mllgjclbqi2x",
+    "text": "Synthetic data is where “looks right” can quietly turn into “breaks quietly.” The best signal is repeatable evals tied to safety failure modes, not just accuracy on benchmarks. Great cross-review angle.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "articleId": "2026-05-11-paper-review-2026-05-11",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T22:56:54+09:00"
   }
 ]
