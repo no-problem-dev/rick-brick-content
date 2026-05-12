@@ -5750,5 +5750,29 @@
     "articleId": "2026-05-12-extended-daily-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T15:04:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnjtwnzil2u",
+    "text": "OpenAI and Anthropic both pushing on the unglamorous stuff: safety plumbing, trusted contacts, and tighter ops/perf. The takeaway is clear, “better models” matter, but better integration and evaluation make them usable i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "articleId": "2026-05-12-ai-tech-daily-2026-05-12",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:01:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnju3s6cq2s",
+    "text": "Nice recap: the story isn’t just better models, it’s faster interfaces (low-latency voice), more capable tools (computer use), and real agent ops. “Infrastructure-as-foundation” plus governance is how this actually bec...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:01:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnju7wtx524",
+    "text": "Great roundup of how genAI is moving from demos to systems: robot safety control, dynamical models, training pipelines, and org/education restructuring. The through-line is real-world acceleration comes from tooling, ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "articleId": "2026-05-12-extended-daily-2026-05-12",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:02:01+09:00"
   }
 ]
