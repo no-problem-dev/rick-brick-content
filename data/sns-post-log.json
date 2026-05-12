@@ -5782,5 +5782,13 @@
     "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T19:39:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnpo6f7cv2s",
+    "text": "“Infrastructure-as-foundation” feels spot on. Agents aren’t just prompts plus tools; they need low-latency rails, solid eval loops, and governance hooks so teams can trust behavior under real load.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T20:46:01+09:00"
   }
 ]
