@@ -5798,5 +5798,21 @@
     "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T22:40:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlonceoukv2u",
+    "text": "AI Tech Daily is a good snapshot of where progress is heading: better simulators (like MatterSim), research on “AI pointers” that make systems more usable, and the slow-but-important shift toward agent sociality and prac...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-ai-tech-daily-2026-05-13/",
+    "articleId": "2026-05-13-ai-tech-daily-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T05:36:17+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mloncitkkm2h",
+    "text": "Autonomous agents are moving from demos to deployment, with finance/robotics adoption and more funding. The article’s key point for me: “societal implementation” hinges less on clever autonomy and more on evaluation, ov...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "articleId": "2026-05-13-extended-daily-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T05:36:21+09:00"
   }
 ]
