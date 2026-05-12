@@ -5734,5 +5734,13 @@
     "articleId": "2026-05-12-extended-daily-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T10:39:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlmwkwvouk2c",
+    "text": "Great roundup. The common thread is practical safety: better guardrails and auditability, plus models that stay usable and fast in real workflows. Acceleration is real only when it’s measurable and accountable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "articleId": "2026-05-12-ai-tech-daily-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T13:16:49+09:00"
   }
 ]
