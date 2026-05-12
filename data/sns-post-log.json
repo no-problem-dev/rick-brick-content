@@ -5774,5 +5774,13 @@
     "articleId": "2026-05-12-extended-daily-2026-05-12",
     "type": "notification",
     "timestamp": "2026-05-12T19:02:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnlwvt6rb2s",
+    "text": "Love the “infrastructure-as-foundation” framing. Real-world agent wins usually come from low-latency interfaces and tight governance loops, not just smarter models. Once evals + handoffs are reliable, teams move faster...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T19:39:19+09:00"
   }
 ]
