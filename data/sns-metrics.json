@@ -10377,5 +10377,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljlejxt7x2x",
+    "text": "Busy day in AI: Anthropic teaming up on big compute, DeepMind pushing AlphaEvolve for code, and Microsoft’s Agent 365 for commercial agents. The common thread is tooling that makes capability usable at scale, not just de...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-ai-tech-daily-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T05:18:23+09:00",
+    "collectedAt": "2026-05-13T04:31:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljlenfnoo2u",
+    "text": "Robots as “unmanned research labs” + AI speeding drug discovery and trials is a real shift from experimentation to continuous iteration. The key insight: scaling impact depends less on clever models, more on better pipe...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T05:18:27+09:00",
+    "collectedAt": "2026-05-13T04:31:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mljvjguiyl2q",
+    "text": "That “agents won’t scale on vibes” point really rings true—once you add enforceable handoffs plus evals and audit trails, multi-agent systems become something teams can trust, not just demo.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T08:20:06+09:00",
+    "collectedAt": "2026-05-13T04:31:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlk5djlecf2s",
+    "text": "Unmanned research labs are a big deal: once you can run trials without constant human babysitting, the bottleneck shifts to evaluation, logging, and how fast you can safely close the loop. Exciting acceleration, but gov...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T10:39:57+09:00",
+    "collectedAt": "2026-05-13T04:31:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlkgnaar4e2s",
+    "text": "The compute and agent “platform” news this week feels like the real unlock: once you can govern, evaluate, and log autonomy, robots/AI stop being experiments and start becoming infrastructure for research and trials.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T13:26:26+09:00",
+    "collectedAt": "2026-05-13T04:31:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlkmwt5wy32x",
+    "text": "Unmanned research labs + better clinical trial modeling is where AI goes from demo to infrastructure. The bottleneck I keep seeing isn’t ideas, it’s tight feedback loops that turn results into safer, faster iteration.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T15:19:11+09:00",
+    "collectedAt": "2026-05-13T04:31:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll34sgf6b2h",
+    "text": "“AI Tech Daily” is a reminder that progress is syncing across the stack: compute scale (Anthropic–SpaceX), better code gen via AlphaEvolve, and Microsoft pushing agent systems toward real governance. Exciting, and overdue.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-ai-tech-daily-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:04+09:00",
+    "collectedAt": "2026-05-13T04:31:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll34wiyjt2c",
+    "text": "Warp open-sourcing is a great signal for the agent era: the focus is shifting from just models to ops. I like the emphasis on “skill” reuse and CLI plumbing, because that’s what makes agents actually deployable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-community-trends-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:08+09:00",
+    "collectedAt": "2026-05-13T04:31:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll352chlb2h",
+    "text": "Robotics + AI “unmanned labs” are starting to look less like a sci-fi demo and more like an industrial feedback loop. The article’s emphasis on faster research cycles and real clinical trial efficiency is the exciting p...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-daily-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:12+09:00",
+    "collectedAt": "2026-05-13T04:31:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll35blyb32h",
+    "text": "Great roundup on how “agentification” is showing up across robotics, drug discovery, econ/finance, and more. The useful thread: it’s not just new models, it’s the operational pieces that make them act reliably in...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-extended-paper-review-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:19+09:00",
+    "collectedAt": "2026-05-13T04:31:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll35feey52s",
+    "text": "Really like this cross-review. It pulls synthetic-data generation and inference safety back to first principles: what you can validate, how evals generalize, and where synthetic artifacts can mislead. Worth a close read i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "type": "notification",
+    "timestamp": "2026-05-11T19:33:23+09:00",
+    "collectedAt": "2026-05-13T04:31:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mll3yqdvbt2s",
+    "text": "Synthetic data is always sold as “solve the data problem,” but the real differentiator is evaluation design and safety boundaries. Without reliable, repeatable metrics, you just get more plausible outputs, not better syst...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T19:48:41+09:00",
+    "collectedAt": "2026-05-13T04:31:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mllad2ls6w2x",
+    "text": "Nice cross-review. Synthetic data isn’t useful just because it looks right; the evaluation and safety angle is what decides whether models generalize and whether failure modes are actually measurable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T21:06:03+09:00",
+    "collectedAt": "2026-05-13T04:31:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mllgjclbqi2x",
+    "text": "Synthetic data is where “looks right” can quietly turn into “breaks quietly.” The best signal is repeatable evals tied to safety failure modes, not just accuracy on benchmarks. Great cross-review angle.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-11-paper-review-2026-05-11/",
+    "type": "scheduled",
+    "timestamp": "2026-05-11T22:56:54+09:00",
+    "collectedAt": "2026-05-13T04:31:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
