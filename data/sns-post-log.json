@@ -5742,5 +5742,13 @@
     "articleId": "2026-05-12-ai-tech-daily-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T13:16:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mln4m5apb32s",
+    "text": "“Acceleration in real-world apps” always comes down to workflow fit, not just model quality. The safety/control updates and eval rigor are what let teams scale experiments into actual operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "articleId": "2026-05-12-extended-daily-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T15:04:51+09:00"
   }
 ]
