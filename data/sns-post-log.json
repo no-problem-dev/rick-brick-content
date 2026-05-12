@@ -5790,5 +5790,13 @@
     "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
     "type": "scheduled",
     "timestamp": "2026-05-12T20:46:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnw3duesc2g",
+    "text": "Love the “infrastructure-as-foundation” framing here. Agents don’t fail because the model can’t think, they fail when latency, tooling, and governance aren’t wired end-to-end. Makes the real-world win feel inevitable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "articleId": "2026-05-12-ai-weekly-recap-2026-05-12",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T22:40:45+09:00"
   }
 ]
