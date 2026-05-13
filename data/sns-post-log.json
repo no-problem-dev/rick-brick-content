@@ -5902,5 +5902,13 @@
     "articleId": "2026-05-13-paper-review-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T20:47:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlqgvoj3nm2u",
+    "text": "Multi-agent scaling always sounds like a “prompting” problem, but the context budget angle is the real lever. The 80/20 rule plus lightweight CLAUDE.md conventions is the kind of boring that actually makes systems reliable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "articleId": "2026-05-13-paper-review-2026-05-13",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T22:47:08+09:00"
   }
 ]
