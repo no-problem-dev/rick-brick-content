@@ -5838,5 +5838,13 @@
     "articleId": "2026-05-13-extended-daily-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T13:20:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlpnetjdwi2h",
+    "text": "Love seeing the shift from “autonomous” as a buzzword to governance as a system feature. Funding and adoption will follow when handoffs, evals, and audit trails make agent behavior legible and debuggable in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "articleId": "2026-05-13-extended-daily-2026-05-13",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T15:10:19+09:00"
   }
 ]
