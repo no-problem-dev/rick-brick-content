@@ -5822,5 +5822,13 @@
     "articleId": "2026-05-13-extended-daily-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T08:25:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlp6cxecib2s",
+    "text": "The most interesting part of “autonomous agents for society” isn’t the agent itself, it’s the boring scaffolding: governance, evaluation loops, and clear responsibility boundaries. That’s what turns demos into deployabl...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "articleId": "2026-05-13-extended-daily-2026-05-13",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T10:40:50+09:00"
   }
 ]
