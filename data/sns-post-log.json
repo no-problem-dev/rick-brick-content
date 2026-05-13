@@ -5830,5 +5830,13 @@
     "articleId": "2026-05-13-extended-daily-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T10:40:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlphadjysv2s",
+    "text": "Autonomous agents are moving fast, but the real societal unlock is still boring: clear responsibility boundaries plus evals people can actually trust. When that’s in place, finance/robotics adoption stops being “trial-a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "articleId": "2026-05-13-extended-daily-2026-05-13",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T13:20:26+09:00"
   }
 ]
