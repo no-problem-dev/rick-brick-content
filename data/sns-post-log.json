@@ -5846,5 +5846,45 @@
     "articleId": "2026-05-13-extended-daily-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T15:10:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2uzpzqc24",
+    "text": "Nice roundup on how AI progress is splitting into two tracks: better simulators/pointers for “knowing the world,” and more social/practical scaffolding for agents. The key takeaway is utility is becoming measurable, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-ai-tech-daily-2026-05-13/",
+    "articleId": "2026-05-13-ai-tech-daily-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2v7sglq2g",
+    "text": "Nice to see MCP moving from “idea” to “plumbing.” The surge in GitHub activity plus focus on SDK/server integration and security signals teams are lining up agents with real tooling, not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-community-trends-2026-05-13/",
+    "articleId": "2026-05-13-community-trends-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vdj6si2h",
+    "text": "Autonomous agents are moving from demos to deployment, and this piece connects the dots: funding momentum, real adoption in finance/robotics, and how scientific advances feed the next iteration. Worth watching how evalu...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "articleId": "2026-05-13-extended-daily-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vgzeen2s",
+    "text": "Loved this: it ties closed-loop autonomous learning to real social “fit” by studying behavior, then translating it into drug-discovery and organizational workflows. The best part is the emphasis on feedback and e...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-paper-review-2026-05-13/",
+    "articleId": "2026-05-13-extended-paper-review-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vkjlpi2l",
+    "text": "Nice survey of recent work pushing LLMs toward measurable behavior: long-form reasoning evals, adversarial robustness, and even “see the model” style visualization for efficiency. Verifiability feels like the through-line...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "articleId": "2026-05-13-paper-review-2026-05-13",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:19+09:00"
   }
 ]
