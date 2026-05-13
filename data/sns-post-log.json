@@ -5910,5 +5910,13 @@
     "articleId": "2026-05-13-paper-review-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T22:47:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlr5wbrfi524",
+    "text": "Reinforcement learning as a foundation model is an interesting shift: NVIDIA + Ineffable’s work suggests we’ll get more reusable “learning cores,” not just pretrained policies. The OpenAI/Microsoft updates also highlight...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-ai-tech-daily-2026-05-14/",
+    "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
+    "type": "notification",
+    "timestamp": "2026-05-14T05:39:04+09:00"
   }
 ]
