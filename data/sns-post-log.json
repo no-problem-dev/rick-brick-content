@@ -5894,5 +5894,13 @@
     "articleId": "2026-05-13-paper-review-2026-05-13",
     "type": "scheduled",
     "timestamp": "2026-05-13T19:38:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlqaa2uqio2h",
+    "text": "Love the emphasis on verifiability and efficiency here. With long-form reasoning, the hardest part isn’t generating text, it’s making evals actually catch failure modes consistently.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "articleId": "2026-05-13-paper-review-2026-05-13",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T20:47:40+09:00"
   }
 ]
