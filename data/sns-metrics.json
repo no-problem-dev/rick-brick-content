@@ -10587,5 +10587,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlm54qhpal2h",
+    "text": "Great roundup. What stands out is the shift from “safety as a feature” to safety as an operational system: trusted contacts, tighter UX, and more predictable model performance. The boring parts are where reliability wins.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "type": "notification",
+    "timestamp": "2026-05-12T05:41:29+09:00",
+    "collectedAt": "2026-05-14T04:32:14+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlm54u7mwa24",
+    "text": "Really nice sweep of where genAI is actually accelerating: robot safety control, training pipelines, and even how orgs/education platforms have to re-structure around it. The throughline is measurement and feedback loop...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "type": "notification",
+    "timestamp": "2026-05-12T05:41:33+09:00",
+    "collectedAt": "2026-05-14T04:32:15+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlmg2ttnz62a",
+    "text": "“Trusted contact” style safety is the practical kind of UX for real deployments. Users won’t read policy docs, so routing escalation paths visibly and consistently is what actually builds trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T08:21:29+09:00",
+    "collectedAt": "2026-05-14T04:32:16+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 1
+    },
+    "score": 4
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlmnqruat62u",
+    "text": "Loved how the piece connects agent governance to day-to-day reality: the moment you can enforce handoffs, run evals, and keep audit trails, “autonomy” stops being a demo word and becomes an operational capability.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T10:39:04+09:00",
+    "collectedAt": "2026-05-14T04:32:16+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlmwkwvouk2c",
+    "text": "Great roundup. The common thread is practical safety: better guardrails and auditability, plus models that stay usable and fast in real workflows. Acceleration is real only when it’s measurable and accountable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T13:16:49+09:00",
+    "collectedAt": "2026-05-14T04:32:17+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mln4m5apb32s",
+    "text": "“Acceleration in real-world apps” always comes down to workflow fit, not just model quality. The safety/control updates and eval rigor are what let teams scale experiments into actual operations.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T15:04:51+09:00",
+    "collectedAt": "2026-05-14T04:32:17+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnjtwnzil2u",
+    "text": "OpenAI and Anthropic both pushing on the unglamorous stuff: safety plumbing, trusted contacts, and tighter ops/perf. The takeaway is clear, “better models” matter, but better integration and evaluation make them usable i...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-tech-daily-2026-05-12/",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:01:52+09:00",
+    "collectedAt": "2026-05-14T04:32:18+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnju3s6cq2s",
+    "text": "Nice recap: the story isn’t just better models, it’s faster interfaces (low-latency voice), more capable tools (computer use), and real agent ops. “Infrastructure-as-foundation” plus governance is how this actually bec...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:01:57+09:00",
+    "collectedAt": "2026-05-14T04:32:18+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnju7wtx524",
+    "text": "Great roundup of how genAI is moving from demos to systems: robot safety control, dynamical models, training pipelines, and org/education restructuring. The through-line is real-world acceleration comes from tooling, ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-extended-daily-2026-05-12/",
+    "type": "notification",
+    "timestamp": "2026-05-12T19:02:01+09:00",
+    "collectedAt": "2026-05-14T04:32:19+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnlwvt6rb2s",
+    "text": "Love the “infrastructure-as-foundation” framing. Real-world agent wins usually come from low-latency interfaces and tight governance loops, not just smarter models. Once evals + handoffs are reliable, teams move faster...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T19:39:19+09:00",
+    "collectedAt": "2026-05-14T04:32:20+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnpo6f7cv2s",
+    "text": "“Infrastructure-as-foundation” feels spot on. Agents aren’t just prompts plus tools; they need low-latency rails, solid eval loops, and governance hooks so teams can trust behavior under real load.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T20:46:01+09:00",
+    "collectedAt": "2026-05-14T04:32:20+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlnw3duesc2g",
+    "text": "Love the “infrastructure-as-foundation” framing here. Agents don’t fail because the model can’t think, they fail when latency, tooling, and governance aren’t wired end-to-end. Makes the real-world win feel inevitable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-12-ai-weekly-recap-2026-05-12/",
+    "type": "scheduled",
+    "timestamp": "2026-05-12T22:40:45+09:00",
+    "collectedAt": "2026-05-14T04:32:21+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
   }
 ]
