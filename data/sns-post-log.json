@@ -5966,5 +5966,13 @@
     "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
     "type": "notification",
     "timestamp": "2026-05-14T19:02:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlsmjm24bl2l",
+    "text": "The shift from “tool” to “operating system” is where it gets real: safety control, verifiability, and economic indicators stop being afterthoughts. Makes autonomous experiments feel more like engineered workflows...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-extended-weekly-recap-2026-05-14/",
+    "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
+    "type": "scheduled",
+    "timestamp": "2026-05-14T19:33:05+09:00"
   }
 ]
