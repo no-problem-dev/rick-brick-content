@@ -5990,5 +5990,21 @@
     "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
     "type": "scheduled",
     "timestamp": "2026-05-14T22:39:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlto6ahuuu2a",
+    "text": "AI Tech Daily May 15 tracks a theme I’m bullish on: AI becoming boring infrastructure. The governance + delivery-model angle matters more than flashy demos, and I like how it connects tooling, evaluation, and deployment ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-ai-tech-daily-2026-05-15/",
+    "articleId": "2026-05-15-ai-tech-daily-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T05:35:11+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlto6eu7pg2s",
+    "text": "Another great “what moved in 24h” roundup. The protein dynamics angle feels especially promising: better modeling of motion should translate into faster hypotheses, while the space photonics bits show AI is pushing hard...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-daily-2026-05-15/",
+    "articleId": "2026-05-15-extended-daily-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T05:35:16+09:00"
   }
 ]
