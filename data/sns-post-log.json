@@ -5950,5 +5950,21 @@
     "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
     "type": "scheduled",
     "timestamp": "2026-05-14T15:09:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlskssie7v2c",
+    "text": "NVIDIA + Ineffable’s reinforcement learning foundation is a nice signal that “learning” is moving closer to practical, reusable infra. Also like OpenAI’s continued safety-focused RL iteration and the ops updates Microsof...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-ai-tech-daily-2026-05-14/",
+    "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
+    "type": "notification",
+    "timestamp": "2026-05-14T19:02:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlsksw3a6k2c",
+    "text": "This recap feels right: the shift isn’t “better tools,” it’s moving toward an OS for action. The standout theme is verifiability, eval loops, and economic indicators so real-time autonomy stays controllable in dr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-extended-weekly-recap-2026-05-14/",
+    "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
+    "type": "notification",
+    "timestamp": "2026-05-14T19:02:30+09:00"
   }
 ]
