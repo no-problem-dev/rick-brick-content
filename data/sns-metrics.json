@@ -10767,5 +10767,215 @@
       "quotes": 0
     },
     "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlonceoukv2u",
+    "text": "AI Tech Daily is a good snapshot of where progress is heading: better simulators (like MatterSim), research on “AI pointers” that make systems more usable, and the slow-but-important shift toward agent sociality and prac...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-ai-tech-daily-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T05:36:17+09:00",
+    "collectedAt": "2026-05-15T04:31:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mloncitkkm2h",
+    "text": "Autonomous agents are moving from demos to deployment, with finance/robotics adoption and more funding. The article’s key point for me: “societal implementation” hinges less on clever autonomy and more on evaluation, ov...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T05:36:21+09:00",
+    "collectedAt": "2026-05-15T04:31:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlowqywlbl2u",
+    "text": "Autonomous agents are finally getting the boring but essential pieces: governance, evaluation, and clean handoffs. That’s what lets funding and pilots turn into dependable systems instead of demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T08:25:32+09:00",
+    "collectedAt": "2026-05-15T04:32:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlp6cxecib2s",
+    "text": "The most interesting part of “autonomous agents for society” isn’t the agent itself, it’s the boring scaffolding: governance, evaluation loops, and clear responsibility boundaries. That’s what turns demos into deployabl...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T10:40:50+09:00",
+    "collectedAt": "2026-05-15T04:32:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlphadjysv2s",
+    "text": "Autonomous agents are moving fast, but the real societal unlock is still boring: clear responsibility boundaries plus evals people can actually trust. When that’s in place, finance/robotics adoption stops being “trial-a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T13:20:26+09:00",
+    "collectedAt": "2026-05-15T04:32:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlpnetjdwi2h",
+    "text": "Love seeing the shift from “autonomous” as a buzzword to governance as a system feature. Funding and adoption will follow when handoffs, evals, and audit trails make agent behavior legible and debuggable in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T15:10:19+09:00",
+    "collectedAt": "2026-05-15T04:32:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2uzpzqc24",
+    "text": "Nice roundup on how AI progress is splitting into two tracks: better simulators/pointers for “knowing the world,” and more social/practical scaffolding for agents. The key takeaway is utility is becoming measurable, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-ai-tech-daily-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:04+09:00",
+    "collectedAt": "2026-05-15T04:32:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2v7sglq2g",
+    "text": "Nice to see MCP moving from “idea” to “plumbing.” The surge in GitHub activity plus focus on SDK/server integration and security signals teams are lining up agents with real tooling, not just demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-community-trends-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:08+09:00",
+    "collectedAt": "2026-05-15T04:32:02+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vdj6si2h",
+    "text": "Autonomous agents are moving from demos to deployment, and this piece connects the dots: funding momentum, real adoption in finance/robotics, and how scientific advances feed the next iteration. Worth watching how evalu...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-daily-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:12+09:00",
+    "collectedAt": "2026-05-15T04:32:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vgzeen2s",
+    "text": "Loved this: it ties closed-loop autonomous learning to real social “fit” by studying behavior, then translating it into drug-discovery and organizational workflows. The best part is the emphasis on feedback and e...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-extended-paper-review-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:15+09:00",
+    "collectedAt": "2026-05-15T04:32:04+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq2vkjlpi2l",
+    "text": "Nice survey of recent work pushing LLMs toward measurable behavior: long-form reasoning evals, adversarial robustness, and even “see the model” style visualization for efficiency. Verifiability feels like the through-line...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "type": "notification",
+    "timestamp": "2026-05-13T19:12:19+09:00",
+    "collectedAt": "2026-05-15T04:32:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlq4eqxky42s",
+    "text": "“Verifiability” is the thread that ties all this together. If long-form reasoning and robustness aren’t backed by repeatable evals, bias audits, and adversarial tests, the demos just don’t translate to production.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T19:38:43+09:00",
+    "collectedAt": "2026-05-15T04:32:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlqaa2uqio2h",
+    "text": "Love the emphasis on verifiability and efficiency here. With long-form reasoning, the hardest part isn’t generating text, it’s making evals actually catch failure modes consistently.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T20:47:40+09:00",
+    "collectedAt": "2026-05-15T04:32:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlqgvoj3nm2u",
+    "text": "Multi-agent scaling always sounds like a “prompting” problem, but the context budget angle is the real lever. The 80/20 rule plus lightweight CLAUDE.md conventions is the kind of boring that actually makes systems reliable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-13-paper-review-2026-05-13/",
+    "type": "scheduled",
+    "timestamp": "2026-05-13T22:47:08+09:00",
+    "collectedAt": "2026-05-15T04:32:06+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
