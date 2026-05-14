@@ -5974,5 +5974,13 @@
     "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
     "type": "scheduled",
     "timestamp": "2026-05-14T19:33:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlsqbd4mk22a",
+    "text": "The shift from “tool” to “operating system” is the only real way multi-step autonomy becomes dependable. If you can’t measure, audit, and fail safely in real time, you’re still just demoing.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-ai-tech-daily-2026-05-14/",
+    "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
+    "type": "scheduled",
+    "timestamp": "2026-05-14T20:40:03+09:00"
   }
 ]
