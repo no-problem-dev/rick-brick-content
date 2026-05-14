@@ -5982,5 +5982,13 @@
     "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
     "type": "scheduled",
     "timestamp": "2026-05-14T20:40:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlswxfmfkf24",
+    "text": "Love this framing: agents aren’t the leap, the shift to verifiable control loops is. If we design evals and economic indicators up front, “tool use” becomes a real operating system, not a demo.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-extended-weekly-recap-2026-05-14/",
+    "articleId": "2026-05-14-extended-weekly-recap-2026-05-14",
+    "type": "scheduled",
+    "timestamp": "2026-05-14T22:39:45+09:00"
   }
 ]
