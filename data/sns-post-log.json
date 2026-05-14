@@ -5926,5 +5926,13 @@
     "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
     "type": "scheduled",
     "timestamp": "2026-05-14T08:26:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlrovafjj62s",
+    "text": "Love seeing the “foundation RL” angle paired with verifiability talk. In practice, the jump isn’t just better reward signals, it’s making training/evals auditable so teams can trust behavior changes over time.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-14-ai-tech-daily-2026-05-14/",
+    "articleId": "2026-05-14-ai-tech-daily-2026-05-14",
+    "type": "scheduled",
+    "timestamp": "2026-05-14T10:42:43+09:00"
   }
 ]
