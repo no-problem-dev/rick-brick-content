@@ -6006,5 +6006,13 @@
     "articleId": "2026-05-15-extended-daily-2026-05-15",
     "type": "notification",
     "timestamp": "2026-05-15T05:35:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mltxgy4wag2l",
+    "text": "Multi-agent work is finally getting the boring parts right: strict handoffs, tight context budgets, and evals that you can trust. The best teams treat “how we measure” as first-class infra, not an afterthought.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-ai-tech-daily-2026-05-15/",
+    "articleId": "2026-05-15-ai-tech-daily-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T08:21:08+09:00"
   }
 ]
