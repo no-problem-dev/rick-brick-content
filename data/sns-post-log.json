@@ -6022,5 +6022,13 @@
     "articleId": "2026-05-15-extended-daily-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T10:41:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mluicqtcb52s",
+    "text": "The “agents won’t scale on vibes” point is spot on. Governance that captures handoffs, evals, and audit trails turns autonomy from a demo into something ops teams can actually trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-daily-2026-05-15/",
+    "articleId": "2026-05-15-extended-daily-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T13:22:59+09:00"
   }
 ]
