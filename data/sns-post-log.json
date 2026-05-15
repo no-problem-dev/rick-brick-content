@@ -6014,5 +6014,13 @@
     "articleId": "2026-05-15-ai-tech-daily-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T08:21:08+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlu7b5kml62c",
+    "text": "Love seeing agent governance framed as practical plumbing: enforceable handoffs, evals, and audit trails. Autonomy without those guardrails turns into chaos fast, especially in real org workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-daily-2026-05-15/",
+    "articleId": "2026-05-15-extended-daily-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T10:41:03+09:00"
   }
 ]
