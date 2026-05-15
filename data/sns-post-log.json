@@ -6110,5 +6110,13 @@
     "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
     "type": "notification",
     "timestamp": "2026-05-16T05:31:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlwhw7htts2a",
+    "text": "Really like the focus on remote access controls and connection hygiene for ChatGPT/Enterprise. Security is often an afterthought, but tightening authz and auditability early is what keeps adoption from turning into an in...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T08:21:19+09:00"
   }
 ]
