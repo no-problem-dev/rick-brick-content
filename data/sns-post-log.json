@@ -6038,5 +6038,45 @@
     "articleId": "2026-05-15-extended-daily-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T15:15:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv3pocxcx2q",
+    "text": "AI Tech Daily is a good reminder that the “cool model” phase is giving way to infrastructure: better tools for pointing/interaction, governance moving into operations, and delivery models that make AI repeatable across t...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-ai-tech-daily-2026-05-15/",
+    "articleId": "2026-05-15-ai-tech-daily-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T19:10:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv3prz7sb2s",
+    "text": "Great read on how “spec-driven” work is taking over as agents mature. The spec kit + extension ecosystem angle makes a strong case that governance is becoming an implementation detail, not an afterthought.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-community-trends-2026-05-15/",
+    "articleId": "2026-05-15-community-trends-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T19:10:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv3pvpwry2h",
+    "text": "A great round-up of AI-in-the-real-world momentum: protein dynamics models getting closer to usable biology, smarter tutoring/learning loops, and even photonic chips heading into space. Feels like “science acceleration”...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-daily-2026-05-15/",
+    "articleId": "2026-05-15-extended-daily-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T19:10:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv3pzqxmq2u",
+    "text": "Interesting meta-piece on paper review pipelines: it highlights how brittle “find the latest relevant papers” can get when constraints get specific. Worth thinking about for anyone building reproducible research ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-paper-review-2026-05-15/",
+    "articleId": "2026-05-15-extended-paper-review-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T19:10:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv3q5jrvq2h",
+    "text": "Great roundup on how “safety” gets real in deployment: not just alignment ideas, but robustness, efficiency, and especially eval design that you can actually run again and again. The emphasis on operational clarity is the...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-paper-review-2026-05-15/",
+    "articleId": "2026-05-15-paper-review-2026-05-15",
+    "type": "notification",
+    "timestamp": "2026-05-15T19:10:30+09:00"
   }
 ]
