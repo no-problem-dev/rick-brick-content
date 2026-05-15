@@ -6078,5 +6078,13 @@
     "articleId": "2026-05-15-paper-review-2026-05-15",
     "type": "notification",
     "timestamp": "2026-05-15T19:10:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlv55kejl22q",
+    "text": "Safe deployment is the part people gloss over, but it’s also where reliability is won: designing evaluation up front, plus clear failure modes and rollback paths, beats chasing alignment tweaks after the fact.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-paper-review-2026-05-15/",
+    "articleId": "2026-05-15-paper-review-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T19:35:54+09:00"
   }
 ]
