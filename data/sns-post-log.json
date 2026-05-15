@@ -6094,5 +6094,13 @@
     "articleId": "2026-05-15-paper-review-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T20:42:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlvhdbfhz724",
+    "text": "“Safe and efficient” feels right here: the most practical gains come from evaluation you can repeat and defenses that fail gracefully. Once measurement and rollback are built-in, deployments stop being guesswork.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-paper-review-2026-05-15/",
+    "articleId": "2026-05-15-paper-review-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T22:38:03+09:00"
   }
 ]
