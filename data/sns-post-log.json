@@ -6030,5 +6030,13 @@
     "articleId": "2026-05-15-extended-daily-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T13:22:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mluomhwgod2s",
+    "text": "“Agents won’t scale on vibes” is spot on. The governance piece that matters most is making transitions measurable: evals, audit trails, and clear handoffs so autonomy doesn’t turn into mystery behavior.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-extended-daily-2026-05-15/",
+    "articleId": "2026-05-15-extended-daily-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T15:15:48+09:00"
   }
 ]
