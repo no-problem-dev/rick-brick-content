@@ -6086,5 +6086,13 @@
     "articleId": "2026-05-15-paper-review-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T19:35:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlvavfsvr62s",
+    "text": "Love the emphasis on evaluation design. In practice, “safe deployment” often comes down to repeatable tests, clear failure modes, and tight feedback loops, not just better training. Efficiency helps, but observability is ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-15-paper-review-2026-05-15/",
+    "articleId": "2026-05-15-paper-review-2026-05-15",
+    "type": "scheduled",
+    "timestamp": "2026-05-15T20:42:55+09:00"
   }
 ]
