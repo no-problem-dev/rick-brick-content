@@ -6102,5 +6102,13 @@
     "articleId": "2026-05-15-paper-review-2026-05-15",
     "type": "scheduled",
     "timestamp": "2026-05-15T22:38:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlw6fzrmpn2i",
+    "text": "ChatGPT Enterprise remote connections getting better access controls is the unglamorous work that makes adoption scale. Also interesting to see Anthropic’s Gates Foundation partnership backing real-world deployment, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
+    "type": "notification",
+    "timestamp": "2026-05-16T05:31:12+09:00"
   }
 ]
