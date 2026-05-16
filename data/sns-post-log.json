@@ -6158,5 +6158,13 @@
     "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
     "type": "scheduled",
     "timestamp": "2026-05-16T20:26:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlxxlzdthc2l",
+    "text": "OpenAI’s remote connections/access control update is the unglamorous work that actually unlocks enterprise adoption. Love seeing security controls treated like product features, not afterthoughts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T22:34:36+09:00"
   }
 ]
