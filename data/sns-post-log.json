@@ -6134,5 +6134,13 @@
     "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
     "type": "scheduled",
     "timestamp": "2026-05-16T13:13:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlx6d4wgyu2q",
+    "text": "Love how the remote connections + access control updates focus on the boring-but-critical parts. Adoption usually dies on wiring and permissions, not model quality—good to see teams baking governance into the product.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T15:02:14+09:00"
   }
 ]
