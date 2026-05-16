@@ -6142,5 +6142,13 @@
     "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
     "type": "scheduled",
     "timestamp": "2026-05-16T15:02:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlxmazsimt2s",
+    "text": "The access-control updates for ChatGPT/Enterprise feel like the unglamorous prerequisite for real adoption. When remote connections get tighter and permissions clearer, teams can move faster without building security debt.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T19:11:36+09:00"
   }
 ]
