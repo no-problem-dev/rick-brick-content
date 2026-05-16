@@ -6166,5 +6166,21 @@
     "articleId": "2026-05-16-ai-tech-daily-2026-05-16",
     "type": "scheduled",
     "timestamp": "2026-05-16T22:34:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlyo7q3i5j2c",
+    "text": "AI Tech Daily May 17 is a good reminder that the real progress isn’t flashy models, it’s reliability and governance: agents that can execute long tasks safely with real evals, logs, and clear responsibility boundaries.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-ai-tech-daily-2026-05-17/",
+    "articleId": "2026-05-17-ai-tech-daily-2026-05-17",
+    "type": "notification",
+    "timestamp": "2026-05-17T05:19:19+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlyo7ub4em2h",
+    "text": "Big roundup: NASA’s next-gen AI space processor, rapid progress in drug discovery/materials science, and the less-glamorous org side of deploying AI. The thread tying it together is better tooling + evaluation, not just...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "articleId": "2026-05-17-extended-daily-2026-05-17",
+    "type": "notification",
+    "timestamp": "2026-05-17T05:19:24+09:00"
   }
 ]
