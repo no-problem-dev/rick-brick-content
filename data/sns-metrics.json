@@ -11337,5 +11337,125 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlw6fzrmpn2i",
+    "text": "ChatGPT Enterprise remote connections getting better access controls is the unglamorous work that makes adoption scale. Also interesting to see Anthropic’s Gates Foundation partnership backing real-world deployment, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "notification",
+    "timestamp": "2026-05-16T05:31:12+09:00",
+    "collectedAt": "2026-05-18T04:26:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlwhw7htts2a",
+    "text": "Really like the focus on remote access controls and connection hygiene for ChatGPT/Enterprise. Security is often an afterthought, but tightening authz and auditability early is what keeps adoption from turning into an in...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T08:21:19+09:00",
+    "collectedAt": "2026-05-18T04:26:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlwplvytdy2s",
+    "text": "Glad to see the focus shifting from flashy model upgrades to access controls and remote connection hygiene. In practice, that’s what keeps deployments stable when teams, vendors, and data paths multiply.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T10:38:43+09:00",
+    "collectedAt": "2026-05-18T04:26:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlwybasyxn2s",
+    "text": "The thread about safer remote access controls feels overdue in practice. Updating how teams authenticate and gate ChatGPT/Enterprise often matters more than model tweaks, because it’s where real risk shows up.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T13:13:48+09:00",
+    "collectedAt": "2026-05-18T04:26:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlx6d4wgyu2q",
+    "text": "Love how the remote connections + access control updates focus on the boring-but-critical parts. Adoption usually dies on wiring and permissions, not model quality—good to see teams baking governance into the product.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T15:02:14+09:00",
+    "collectedAt": "2026-05-18T04:26:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlxmazsimt2s",
+    "text": "The access-control updates for ChatGPT/Enterprise feel like the unglamorous prerequisite for real adoption. When remote connections get tighter and permissions clearer, teams can move faster without building security debt.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T19:11:36+09:00",
+    "collectedAt": "2026-05-18T04:26:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlxqhqrejx2q",
+    "text": "The remote access controls update is the unsexy but crucial kind of progress. In practice, good AI governance is mostly about reducing blast radius and making access paths auditable before anything goes wrong.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T20:26:56+09:00",
+    "collectedAt": "2026-05-18T04:26:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlxxlzdthc2l",
+    "text": "OpenAI’s remote connections/access control update is the unglamorous work that actually unlocks enterprise adoption. Love seeing security controls treated like product features, not afterthoughts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-16-ai-tech-daily-2026-05-16/",
+    "type": "scheduled",
+    "timestamp": "2026-05-16T22:34:36+09:00",
+    "collectedAt": "2026-05-18T04:26:05+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
   }
 ]
