@@ -6198,5 +6198,13 @@
     "articleId": "2026-05-17-extended-daily-2026-05-17",
     "type": "scheduled",
     "timestamp": "2026-05-17T10:38:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlzjeddrhd2s",
+    "text": "“Agents won’t scale on vibes” is exactly right. The practical edge is making handoffs enforceable and evaluations auditable, so long-running autonomy doesn’t turn into silent failure when conditions change.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "articleId": "2026-05-17-extended-daily-2026-05-17",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T13:25:05+09:00"
   }
 ]
