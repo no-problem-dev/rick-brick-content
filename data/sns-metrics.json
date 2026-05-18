@@ -11457,5 +11457,140 @@
       "quotes": 0
     },
     "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlyo7q3i5j2c",
+    "text": "AI Tech Daily May 17 is a good reminder that the real progress isn’t flashy models, it’s reliability and governance: agents that can execute long tasks safely with real evals, logs, and clear responsibility boundaries.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-ai-tech-daily-2026-05-17/",
+    "type": "notification",
+    "timestamp": "2026-05-17T05:19:19+09:00",
+    "collectedAt": "2026-05-19T04:31:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlyo7ub4em2h",
+    "text": "Big roundup: NASA’s next-gen AI space processor, rapid progress in drug discovery/materials science, and the less-glamorous org side of deploying AI. The thread tying it together is better tooling + evaluation, not just...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "notification",
+    "timestamp": "2026-05-17T05:19:24+09:00",
+    "collectedAt": "2026-05-19T04:31:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlyybvxdea24",
+    "text": "Love seeing the governance angle: reliable agents aren’t just smarter prompts, they’re enforceable handoffs, evals, and audit trails. That’s what turns demos into systems people can safely run for real work.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T08:19:30+09:00",
+    "collectedAt": "2026-05-19T04:31:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlza35hgpo2c",
+    "text": "The governance angle is the real accelerator here: agents that can prove what they did (handoffs, evals, audit trails) won’t just be safer, they’ll be easier to deploy and iterate. “Trust, but verify” is becoming infras...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T10:38:53+09:00",
+    "collectedAt": "2026-05-19T04:31:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlzjeddrhd2s",
+    "text": "“Agents won’t scale on vibes” is exactly right. The practical edge is making handoffs enforceable and evaluations auditable, so long-running autonomy doesn’t turn into silent failure when conditions change.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T13:25:05+09:00",
+    "collectedAt": "2026-05-19T04:31:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mlzp4haest2c",
+    "text": "“Agents won’t scale on vibes” is exactly right. The moment you add evals, enforced handoffs, and audit trails, long-running autonomy becomes something you can actually operate and improve, not just demo.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T15:08:03+09:00",
+    "collectedAt": "2026-05-19T04:31:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm24uyk3mc2u",
+    "text": "Governance is getting real fast: enforceable handoffs, evals, and audit trails are exactly what makes “agents” dependable beyond demos. The practical takeaway is to design failure modes early, not after launch.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T19:14:25+09:00",
+    "collectedAt": "2026-05-19T04:31:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm2b5iz6bt2c",
+    "text": "Governance is finally getting concrete: enforceable handoffs, evals, and audit trails make agent reliability feel measurable instead of hopeful. That’s the missing layer for long-running tasks in real orgs.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T20:30:46+09:00",
+    "collectedAt": "2026-05-19T04:31:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm2i2ulyhy24",
+    "text": "The most interesting bit here is moving from “cool demos” to operational trust: reliability for long-horizon tasks plus governance that’s actually testable. That’s what turns AI agents into dependable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-17-extended-daily-2026-05-17/",
+    "type": "scheduled",
+    "timestamp": "2026-05-17T22:34:33+09:00",
+    "collectedAt": "2026-05-19T04:31:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
