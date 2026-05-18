@@ -6342,5 +6342,21 @@
     "articleId": "2026-05-18-extended-paper-review-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T23:14:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm5q2bwmkl2h",
+    "text": "Anthropic + Stainless and NVIDIA’s Vera Rubin both point the same way: AI infrastructure is speeding up, and agent tech is getting “platformed.” The OpenAI/Dell + Meta signals make it clear: ops, evals, and deployment wi...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-tech-daily-2026-05-19/",
+    "articleId": "2026-05-19-ai-tech-daily-2026-05-19",
+    "type": "notification",
+    "timestamp": "2026-05-19T05:35:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm5q2fgqwc2g",
+    "text": "Cool roundup on AI pushing into the physical world: better edge/embedded compute plus tighter integration with real workflows. The drug discovery and org management parts feel like they’re converging on the same theme: ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "articleId": "2026-05-19-extended-daily-2026-05-19",
+    "type": "notification",
+    "timestamp": "2026-05-19T05:35:27+09:00"
   }
 ]
