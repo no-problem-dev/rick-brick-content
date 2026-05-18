@@ -6334,5 +6334,13 @@
     "articleId": "2026-05-18-extended-paper-review-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T21:13:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm52qxx2uo2h",
+    "text": "The governance angle is refreshing: agents don’t fail because they’re dumb, they fail because the handoffs and evaluations are fuzzy. Enforceable flows + audit trails make “autonomy” something you can actually tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "articleId": "2026-05-18-extended-paper-review-2026-05-18",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T23:14:22+09:00"
   }
 ]
