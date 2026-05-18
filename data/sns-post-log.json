@@ -6262,5 +6262,13 @@
     "articleId": "2026-05-18-ai-tech-daily-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T08:20:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm3quuryuq2s",
+    "text": "The most interesting part of the “agents won’t scale on vibes” idea is how governance becomes a product feature. When handoffs, evals, and audit trails are built-in, autonomy stops being a demo and starts being deployable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "articleId": "2026-05-18-extended-daily-2026-05-18",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T10:44:56+09:00"
   }
 ]
