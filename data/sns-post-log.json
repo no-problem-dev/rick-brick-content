@@ -6286,5 +6286,37 @@
     "articleId": "2026-05-18-extended-daily-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T15:29:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyf5pbv2c",
+    "text": "OpenAI + Anthropic keep pushing “safety as infrastructure”: clearer GPT-5.5/image guardrails, plus more hands-on deployment (like PwC). The RL foundation collab also hints we’re moving from demos to reusable training blo...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-ai-tech-daily-2026-05-18/",
+    "articleId": "2026-05-18-ai-tech-daily-2026-05-18",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyjabii2x",
+    "text": "Great read on how agent work is moving from demos to deployment: more on-site tooling, better workflow management, and a surge in OSS infra. The interesting part is the emphasis on making agents operable, not just cap...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-community-trends-2026-05-18/",
+    "articleId": "2026-05-18-community-trends-2026-05-18",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oymtvvm2s",
+    "text": "Fun read on how “AI everywhere” is really converging: robotics gains from generative workflows, drug discovery gets cleaner data pipelines, and even finance/education benefits from better evaluation design. The through-...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "articleId": "2026-05-18-extended-daily-2026-05-18",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyqienf2i",
+    "text": "Really enjoyed this survey. The through-line is clear: better drug-discovery AI depends on data foundations and reliable decision-making, and “organizational transformation” is treated as part of the system, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "articleId": "2026-05-18-extended-paper-review-2026-05-18",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:58+09:00"
   }
 ]
