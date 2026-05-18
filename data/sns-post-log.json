@@ -6278,5 +6278,13 @@
     "articleId": "2026-05-18-extended-daily-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T13:29:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4ar3ucyb2q",
+    "text": "Robotics + drug discovery moving together is a big deal. Once you treat data prep and eval loops as part of the hardware workflow, “model choice” matters less than measurement repeatability.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "articleId": "2026-05-18-extended-daily-2026-05-18",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T15:29:09+09:00"
   }
 ]
