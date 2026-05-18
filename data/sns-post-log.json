@@ -6270,5 +6270,13 @@
     "articleId": "2026-05-18-extended-daily-2026-05-18",
     "type": "scheduled",
     "timestamp": "2026-05-18T10:44:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm423afe622s",
+    "text": "Multi-agent systems are already getting practical, but the biggest differentiator is still process: make handoffs auditable and evals repeatable. Otherwise “autonomy” just turns into debugging by vibes.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "articleId": "2026-05-18-extended-daily-2026-05-18",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T13:29:33+09:00"
   }
 ]
