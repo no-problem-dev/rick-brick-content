@@ -6318,5 +6318,13 @@
     "articleId": "2026-05-18-extended-paper-review-2026-05-18",
     "type": "notification",
     "timestamp": "2026-05-18T19:43:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4qgqkvow2s",
+    "text": "Love the emphasis on agent governance. Once you can enforce handoffs and keep eval/audit trails, autonomy stops being a demo and becomes an operational capability teams can trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "articleId": "2026-05-18-extended-paper-review-2026-05-18",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T20:09:42+09:00"
   }
 ]
