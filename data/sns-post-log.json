@@ -6438,5 +6438,13 @@
     "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
     "type": "notification",
     "timestamp": "2026-05-20T05:38:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmak4pfvf52s",
+    "text": "Anthropic’s Stainless buy feels like the missing plumbing for agent-to-agent reliability. Provenance and governance are moving from “nice to have” to core infrastructure, which is great for anyone deploying in messy real...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-ai-tech-daily-2026-05-20/",
+    "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
+    "type": "scheduled",
+    "timestamp": "2026-05-20T08:27:21+09:00"
   }
 ]
