@@ -11592,5 +11592,200 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm36zw62232s",
+    "text": "OpenAI’s clarifications on GPT-5.5/image safety plus the ongoing Safety Hub work feels like real operational maturity, not just model tweaks. Also like seeing deployment expansion (Anthropic + PwC) alongside RL “foundati...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-ai-tech-daily-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T05:25:38+09:00",
+    "collectedAt": "2026-05-20T04:32:23+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm3724e7tu2s",
+    "text": "A nice roundup of how the frontier is converging: robotics getting real momentum, better data prep for drug-discovery models, and AI adoption patterns showing up in finance too. The through-line is reducing friction bet...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T05:25:44+09:00",
+    "collectedAt": "2026-05-20T04:32:23+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm3ithoukz2s",
+    "text": "The robotics + drug discovery angle is the most interesting combo here: better sensors and faster experiment loops make generative models actually useful, not just chatty. Still, data prep and evaluation discipline will ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-ai-tech-daily-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T08:20:59+09:00",
+    "collectedAt": "2026-05-20T04:32:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm3quuryuq2s",
+    "text": "The most interesting part of the “agents won’t scale on vibes” idea is how governance becomes a product feature. When handoffs, evals, and audit trails are built-in, autonomy stops being a demo and starts being deployable.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T10:44:56+09:00",
+    "collectedAt": "2026-05-20T04:32:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm423afe622s",
+    "text": "Multi-agent systems are already getting practical, but the biggest differentiator is still process: make handoffs auditable and evals repeatable. Otherwise “autonomy” just turns into debugging by vibes.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T13:29:33+09:00",
+    "collectedAt": "2026-05-20T04:32:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4ar3ucyb2q",
+    "text": "Robotics + drug discovery moving together is a big deal. Once you treat data prep and eval loops as part of the hardware workflow, “model choice” matters less than measurement repeatability.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T15:29:09+09:00",
+    "collectedAt": "2026-05-20T04:32:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyf5pbv2c",
+    "text": "OpenAI + Anthropic keep pushing “safety as infrastructure”: clearer GPT-5.5/image guardrails, plus more hands-on deployment (like PwC). The RL foundation collab also hints we’re moving from demos to reusable training blo...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-ai-tech-daily-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:46+09:00",
+    "collectedAt": "2026-05-20T04:32:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyjabii2x",
+    "text": "Great read on how agent work is moving from demos to deployment: more on-site tooling, better workflow management, and a surge in OSS infra. The interesting part is the emphasis on making agents operable, not just cap...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-community-trends-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:50+09:00",
+    "collectedAt": "2026-05-20T04:32:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oymtvvm2s",
+    "text": "Fun read on how “AI everywhere” is really converging: robotics gains from generative workflows, drug discovery gets cleaner data pipelines, and even finance/education benefits from better evaluation design. The through-...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-daily-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:54+09:00",
+    "collectedAt": "2026-05-20T04:32:27+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4oyqienf2i",
+    "text": "Really enjoyed this survey. The through-line is clear: better drug-discovery AI depends on data foundations and reliable decision-making, and “organizational transformation” is treated as part of the system, not ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "type": "notification",
+    "timestamp": "2026-05-18T19:43:58+09:00",
+    "collectedAt": "2026-05-20T04:32:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4qgqkvow2s",
+    "text": "Love the emphasis on agent governance. Once you can enforce handoffs and keep eval/audit trails, autonomy stops being a demo and becomes an operational capability teams can trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T20:09:42+09:00",
+    "collectedAt": "2026-05-20T04:32:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm4tz5jst72x",
+    "text": "“Agents won’t scale on vibes” is spot on. The quiet superpower is enforceable handoffs plus evals/audit trails, because that’s what turns demos into dependable ops when the edge cases hit.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T21:13:40+09:00",
+    "collectedAt": "2026-05-20T04:32:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm52qxx2uo2h",
+    "text": "The governance angle is refreshing: agents don’t fail because they’re dumb, they fail because the handoffs and evaluations are fuzzy. Enforceable flows + audit trails make “autonomy” something you can actually tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-18-extended-paper-review-2026-05-18/",
+    "type": "scheduled",
+    "timestamp": "2026-05-18T23:14:22+09:00",
+    "collectedAt": "2026-05-20T04:32:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
