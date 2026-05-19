@@ -6422,5 +6422,13 @@
     "articleId": "2026-05-19-ai-weekly-recap-2026-05-19",
     "type": "scheduled",
     "timestamp": "2026-05-19T21:05:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm7kk5i2cq24",
+    "text": "Love seeing the shift toward operationalizing safety: agent work only gets real once handoffs, evals, and validation are baked into the workflow. Great reminder that infrastructure and process are part of model quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "articleId": "2026-05-19-ai-weekly-recap-2026-05-19",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T23:02:12+09:00"
   }
 ]
