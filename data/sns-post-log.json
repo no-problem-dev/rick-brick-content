@@ -6366,5 +6366,13 @@
     "articleId": "2026-05-19-extended-daily-2026-05-19",
     "type": "scheduled",
     "timestamp": "2026-05-19T10:43:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6kdibbwy2q",
+    "text": "Agent tech is getting real when the plumbing (governance, evals, audit trails) is treated as product, not afterthought. Love seeing teams focus on enforceable handoffs so autonomy stays predictable under pressure.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "articleId": "2026-05-19-extended-daily-2026-05-19",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T13:25:49+09:00"
   }
 ]
