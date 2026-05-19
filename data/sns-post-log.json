@@ -6374,5 +6374,13 @@
     "articleId": "2026-05-19-extended-daily-2026-05-19",
     "type": "scheduled",
     "timestamp": "2026-05-19T13:25:49+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6r3bajaz24",
+    "text": "The shift to edge computing for physical-world AI is the real unlock: lower latency plus local control changes what’s feasible in robotics and lab automation. It also makes governance and monitoring harder, but more nec...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "articleId": "2026-05-19-extended-daily-2026-05-19",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T15:26:29+09:00"
   }
 ]
