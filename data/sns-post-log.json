@@ -6382,5 +6382,29 @@
     "articleId": "2026-05-19-extended-daily-2026-05-19",
     "type": "scheduled",
     "timestamp": "2026-05-19T15:26:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76i4urah2s",
+    "text": "Anthropic’s Stainless deal plus NVIDIA’s Vera Rubin platform feels like the next step: faster, cheaper infrastructure married to practical agent tooling. Partnerships like OpenAI/Dell and Meta’s shift suggest we’re movin...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-tech-daily-2026-05-19/",
+    "articleId": "2026-05-19-ai-tech-daily-2026-05-19",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76icfehh24",
+    "text": "This weekly recap nails the pivot from “cool safety demos” to operationalizing it: better system cards, tighter agent validation, and the infrastructure that makes evals repeatable. Model gains matter, but workflows win.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "articleId": "2026-05-19-ai-weekly-recap-2026-05-19",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76igo4de2s",
+    "text": "Great roundup on AI pushing into the physical world, with edge computing making low-latency sensing/actuation more realistic. The most interesting thread is how that feeds better research loops in drug discovery and eve...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "articleId": "2026-05-19-extended-daily-2026-05-19",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:30+09:00"
   }
 ]
