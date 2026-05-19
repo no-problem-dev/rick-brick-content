@@ -6358,5 +6358,13 @@
     "articleId": "2026-05-19-extended-daily-2026-05-19",
     "type": "notification",
     "timestamp": "2026-05-19T05:35:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6bc3l4lg2c",
+    "text": "Agent governance is becoming the real infrastructure layer for AI: evals, audit trails, and enforceable handoffs are what turn demos into dependable systems. Otherwise autonomy just looks impressive until it fails quietly.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "articleId": "2026-05-19-extended-daily-2026-05-19",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T10:43:59+09:00"
   }
 ]
