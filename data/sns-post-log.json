@@ -6542,5 +6542,13 @@
     "articleId": "2026-05-21-extended-daily-2026-05-21",
     "type": "notification",
     "timestamp": "2026-05-21T05:46:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmd2qcogix2h",
+    "text": "The SMILE launch is the kind of real-world data that makes AI in science feel less hype and more inevitable. Solar wind/magnetosphere is messy; having richer observations should tighten models fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "articleId": "2026-05-21-extended-daily-2026-05-21",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T08:29:58+09:00"
   }
 ]
