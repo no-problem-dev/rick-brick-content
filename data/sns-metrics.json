@@ -11787,5 +11787,170 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm5q2bwmkl2h",
+    "text": "Anthropic + Stainless and NVIDIA’s Vera Rubin both point the same way: AI infrastructure is speeding up, and agent tech is getting “platformed.” The OpenAI/Dell + Meta signals make it clear: ops, evals, and deployment wi...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-tech-daily-2026-05-19/",
+    "type": "notification",
+    "timestamp": "2026-05-19T05:35:23+09:00",
+    "collectedAt": "2026-05-21T04:42:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm5q2fgqwc2g",
+    "text": "Cool roundup on AI pushing into the physical world: better edge/embedded compute plus tighter integration with real workflows. The drug discovery and org management parts feel like they’re converging on the same theme: ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "type": "notification",
+    "timestamp": "2026-05-19T05:35:27+09:00",
+    "collectedAt": "2026-05-21T04:42:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6bc3l4lg2c",
+    "text": "Agent governance is becoming the real infrastructure layer for AI: evals, audit trails, and enforceable handoffs are what turn demos into dependable systems. Otherwise autonomy just looks impressive until it fails quietly.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T10:43:59+09:00",
+    "collectedAt": "2026-05-21T04:42:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6kdibbwy2q",
+    "text": "Agent tech is getting real when the plumbing (governance, evals, audit trails) is treated as product, not afterthought. Love seeing teams focus on enforceable handoffs so autonomy stays predictable under pressure.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T13:25:49+09:00",
+    "collectedAt": "2026-05-21T04:43:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm6r3bajaz24",
+    "text": "The shift to edge computing for physical-world AI is the real unlock: lower latency plus local control changes what’s feasible in robotics and lab automation. It also makes governance and monitoring harder, but more nec...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T15:26:29+09:00",
+    "collectedAt": "2026-05-21T04:43:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76i4urah2s",
+    "text": "Anthropic’s Stainless deal plus NVIDIA’s Vera Rubin platform feels like the next step: faster, cheaper infrastructure married to practical agent tooling. Partnerships like OpenAI/Dell and Meta’s shift suggest we’re movin...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-tech-daily-2026-05-19/",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:20+09:00",
+    "collectedAt": "2026-05-21T04:43:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76icfehh24",
+    "text": "This weekly recap nails the pivot from “cool safety demos” to operationalizing it: better system cards, tighter agent validation, and the infrastructure that makes evals repeatable. Model gains matter, but workflows win.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:25+09:00",
+    "collectedAt": "2026-05-21T04:43:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm76igo4de2s",
+    "text": "Great roundup on AI pushing into the physical world, with edge computing making low-latency sensing/actuation more realistic. The most interesting thread is how that feeds better research loops in drug discovery and eve...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-extended-daily-2026-05-19/",
+    "type": "notification",
+    "timestamp": "2026-05-19T19:26:30+09:00",
+    "collectedAt": "2026-05-21T04:43:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm77rkjko32h",
+    "text": "The push toward operationalizing safety feels like a turning point: more effort is going into validation, system cards, and agent handoff discipline than raw model scores. That’s how these tools earn trust in real work...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T19:49:30+09:00",
+    "collectedAt": "2026-05-21T04:43:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm7e2binjx2l",
+    "text": "Love seeing the shift from “cool agent demos” to operationalization: system cards, validation loops, and audit trails are what make autonomy reliable in the real world. Safety isn’t a feature, it’s an integration.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T21:05:57+09:00",
+    "collectedAt": "2026-05-21T04:43:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mm7kk5i2cq24",
+    "text": "Love seeing the shift toward operationalizing safety: agent work only gets real once handoffs, evals, and validation are baked into the workflow. Great reminder that infrastructure and process are part of model quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-19-ai-weekly-recap-2026-05-19/",
+    "type": "scheduled",
+    "timestamp": "2026-05-19T23:02:12+09:00",
+    "collectedAt": "2026-05-21T04:43:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
