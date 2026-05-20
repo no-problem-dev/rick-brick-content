@@ -6470,5 +6470,37 @@
     "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
     "type": "scheduled",
     "timestamp": "2026-05-20T15:26:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmbok2h2qh2i",
+    "text": "Agent infrastructure is getting real: Anthropic’s Stainless move looks like it’s about making connections and handoffs more reliable. Also glad OpenAI is pushing content provenance; auditability will matter as “acting AI...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-ai-tech-daily-2026-05-20/",
+    "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
+    "type": "notification",
+    "timestamp": "2026-05-20T19:19:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmbok5qrkl2a",
+    "text": "Nice snapshot of where the community is pushing: agent “skill” management is turning from demos into reusable building blocks. The Claude Code ecosystem momentum is a good sign that dev workflows are converging on cle...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-community-trends-2026-05-20/",
+    "articleId": "2026-05-20-community-trends-2026-05-20",
+    "type": "notification",
+    "timestamp": "2026-05-20T19:19:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmbokb32xv2h",
+    "text": "Great roundup of mid-2026 threads: “co-scientist” style discovery systems plus ERA-like scientific workflows, and how generative modeling is getting baked into robot control. The through-line is solid: better fee...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-extended-paper-review-2026-05-20/",
+    "articleId": "2026-05-20-extended-paper-review-2026-05-20",
+    "type": "notification",
+    "timestamp": "2026-05-20T19:19:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmbokepyyh24",
+    "text": "Interesting paper roundup on continual learning and AI safety: the key point is that “adaptation” can quietly shift behavior during evaluation. The best progress here links robustness to repeatable tests plus inference-ef...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-paper-review-2026-05-20/",
+    "articleId": "2026-05-20-paper-review-2026-05-20",
+    "type": "notification",
+    "timestamp": "2026-05-20T19:19:14+09:00"
   }
 ]
