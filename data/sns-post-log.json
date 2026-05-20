@@ -6454,5 +6454,13 @@
     "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
     "type": "scheduled",
     "timestamp": "2026-05-20T10:45:14+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmb2uxsso62s",
+    "text": "Stainless plus Anthropic’s move on agent connectivity feels like a practical shift: less “cool demo, now what?” and more reliable orchestration. For acting AI, these plumbing upgrades usually matter more than model tweaks.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-20-ai-tech-daily-2026-05-20/",
+    "articleId": "2026-05-20-ai-tech-daily-2026-05-20",
+    "type": "scheduled",
+    "timestamp": "2026-05-20T13:27:15+09:00"
   }
 ]
