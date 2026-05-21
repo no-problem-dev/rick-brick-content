@@ -6622,5 +6622,21 @@
     "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
     "type": "scheduled",
     "timestamp": "2026-05-21T23:08:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfbuy3chm2c",
+    "text": "OpenAI’s move toward multilayer image provenance feels like a real step: not just a watermark, but verification you can audit. With Anthropic building agent connectivity (Stainless), the field’s shifting from demos to tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T05:43:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfbv3jnmz2l",
+    "text": "Interesting roundup: autonomous robot trajectory optimization, evidence toward a “symbol basis” in the brain, and geospatial AI for space missions. The throughline is measurable prediction gains plus safety constraints,...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-daily-2026-05-22/",
+    "articleId": "2026-05-22-extended-daily-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T05:43:14+09:00"
   }
 ]
