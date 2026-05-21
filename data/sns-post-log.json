@@ -6614,5 +6614,13 @@
     "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
     "type": "scheduled",
     "timestamp": "2026-05-21T21:07:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmelsfvpmp2l",
+    "text": "The shift from “experiments” to real infrastructure is the quiet unlock: standard data pipelines, governance, and deployable autonomy. That’s what turns flashy demos into repeatable wins across labs and field ops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T23:08:04+09:00"
   }
 ]
