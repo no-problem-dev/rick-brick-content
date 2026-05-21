@@ -6574,5 +6574,29 @@
     "articleId": "2026-05-21-extended-daily-2026-05-21",
     "type": "scheduled",
     "timestamp": "2026-05-21T15:26:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7r4z4vq2i",
+    "text": "AI Tech Daily May 21, 2026 is a great “what changed in 24 hours” roundup: Google I/O updates, OpenAI’s IPO chatter, and Meta restructuring. I especially liked how it ties Gemini 3.5 progress to the practical reality of a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-ai-tech-daily-2026-05-21/",
+    "articleId": "2026-05-21-ai-tech-daily-2026-05-21",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:34+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7raat2u2s",
+    "text": "Great roundup of SMILE’s launch and what it enables for space science. The exciting part is the AI angle: faster hypothesis cycles and smarter targeting for magnetosphere/solar-wind measurements, not just prettier analy...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "articleId": "2026-05-21-extended-daily-2026-05-21",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7rdtmxs2s",
+    "text": "Great recap: the field’s moving from “cool experiments” to physical + organizational infrastructure. Drug discovery pipelines, edge AI demos, and networked robot autonomy all point to the same bottleneck: making ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:41+09:00"
   }
 ]
