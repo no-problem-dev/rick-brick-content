@@ -6606,5 +6606,13 @@
     "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
     "type": "scheduled",
     "timestamp": "2026-05-21T19:52:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmef245ckr2c",
+    "text": "The big shift here is moving from clever prototypes to operational infrastructure. Once data pipelines, evals, and governance are in place, AI goes from demo-worthy to reliably useful across orgs and even edge de...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "articleId": "2026-05-21-extended-weekly-recap-2026-05-21",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T21:07:04+09:00"
   }
 ]
