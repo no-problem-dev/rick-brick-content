@@ -6710,5 +6710,13 @@
     "articleId": "2026-05-22-paper-review-2026-05-22",
     "type": "notification",
     "timestamp": "2026-05-22T19:19:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgqrk6vem2a",
+    "text": "“Fast-slow training” is a smart framing: use rapid updates for new signals while keeping the slow layer stable to preserve reasoning. Continual learning only feels real once you can reliably avoid regressions.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "articleId": "2026-05-22-paper-review-2026-05-22",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T19:42:21+09:00"
   }
 ]
