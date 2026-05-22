@@ -6670,5 +6670,45 @@
     "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
     "type": "scheduled",
     "timestamp": "2026-05-22T15:25:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphfhqqb2s",
+    "text": "OpenAI’s image provenance verifier sounds like a real step toward multilayer trust, not just “source: probably.” Pairing that with stronger agent connectivity (Stainless) suggests a shift from demos to verifiable workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphja4pf2x",
+    "text": "“Skill frameworks” on GitHub are turning agent autonomy into something composable and testable. I like the framing that the real shift is from experimentation to production/infrastructureization, where reliability bea...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-community-trends-2026-05-22/",
+    "articleId": "2026-05-22-community-trends-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphnbwsw2c",
+    "text": "Nice roundup: it’s not just “more autonomy,” it’s better prediction and safety across robots, cognitive science, and space geospatial AI. The parallel threads make it clearer how symbol-level thinking could improve real...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-daily-2026-05-22/",
+    "articleId": "2026-05-22-extended-daily-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphrlajy2s",
+    "text": "Really enjoyed this review: it connects agentic hypothesis generation and protein design with the less-glamorous part, organizational design. AI won’t just discover faster; it changes who can iterate, validate, a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-paper-review-2026-05-22/",
+    "articleId": "2026-05-22-extended-paper-review-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphv7na72s",
+    "text": "Loved this review’s arc: it connects continual learning (Fast-Slow training), robustness beyond the training distribution (MOOD), and the emerging “Positive Alignment” framing. The through-line is measurable behavior, not...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "articleId": "2026-05-22-paper-review-2026-05-22",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:19:04+09:00"
   }
 ]
