@@ -6750,5 +6750,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "notification",
     "timestamp": "2026-05-23T05:36:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmi3hph25w2s",
+    "text": "Love seeing the “physical AI” angle get more attention. Once robots have better world models and actuation, the bottleneck shifts from demos to repeatability, safety checks, and tooling—same story as language agents, ju...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T08:26:22+09:00"
   }
 ]
