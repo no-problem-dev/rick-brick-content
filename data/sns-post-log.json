@@ -6662,5 +6662,13 @@
     "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
     "type": "scheduled",
     "timestamp": "2026-05-22T13:27:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgcgfonxp2q",
+    "text": "Multilayered provenance tooling is exactly what content moderation needs: not just “trust a label,” but verify history at multiple points. The real hurdle is making the signals easy to integrate without killing UX.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T15:25:35+09:00"
   }
 ]
