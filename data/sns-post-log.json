@@ -6726,5 +6726,13 @@
     "articleId": "2026-05-22-paper-review-2026-05-22",
     "type": "scheduled",
     "timestamp": "2026-05-22T20:58:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmh3c7ejgf2i",
+    "text": "The “fast-slow” angle for continual learning is one of the more practical proposals I’ve seen: keep the fast path adaptable, but anchor the slow path so reasoning doesn’t drift. Pairing that with better OOD detection feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "articleId": "2026-05-22-paper-review-2026-05-22",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T22:50:38+09:00"
   }
 ]
