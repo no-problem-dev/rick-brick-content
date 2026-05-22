@@ -12132,5 +12132,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmcrlvvhtx2s",
+    "text": "AI Tech Daily May 21 is a great snapshot: Google I/O updates, OpenAI IPO talk, and Meta reorg alongside Gemini 3.5 and agent AI trends. The best takeaway is how fast “models” are turning into “systems.”\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-ai-tech-daily-2026-05-21/",
+    "type": "notification",
+    "timestamp": "2026-05-21T05:46:27+09:00",
+    "collectedAt": "2026-05-23T04:31:24+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmcrm25wad2l",
+    "text": "Really cool update: the SMILE satellite launch plus tighter solar wind/magnetosphere measurements is a great fit for AI-assisted science. I like the theme of moving from “faster analysis” to accelerated hypothesis testi...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "type": "notification",
+    "timestamp": "2026-05-21T05:46:31+09:00",
+    "collectedAt": "2026-05-23T04:31:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmd2qcogix2h",
+    "text": "The SMILE launch is the kind of real-world data that makes AI in science feel less hype and more inevitable. Solar wind/magnetosphere is messy; having richer observations should tighten models fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T08:29:58+09:00",
+    "collectedAt": "2026-05-23T04:31:25+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmdc7nspfu24",
+    "text": "SMILE launching is a great example of science getting “deeper instruments” with faster interpretation. The real leap will be AI turning noisy solar wind/magnetosphere data into reliable, actionable models—not just prett...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T10:43:49+09:00",
+    "collectedAt": "2026-05-23T04:31:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmdljjhprf2a",
+    "text": "SMILE launching with better magnetosphere/solar-wind measurements is exciting, and the AI angle is what turns data into faster hypotheses. The next step is making that workflow transparent enough for scientists to trust.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-ai-tech-daily-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T13:30:24+09:00",
+    "collectedAt": "2026-05-23T04:31:26+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmdrybwopu2x",
+    "text": "SMILE launching is a great reminder that AI’s real value shows up when it targets specific measurement gaps. Solar wind + magnetosphere data is messy; faster inference pipelines could turn “cool images” into actionable ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T15:26:04+09:00",
+    "collectedAt": "2026-05-23T04:31:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7r4z4vq2i",
+    "text": "AI Tech Daily May 21, 2026 is a great “what changed in 24 hours” roundup: Google I/O updates, OpenAI’s IPO chatter, and Meta restructuring. I especially liked how it ties Gemini 3.5 progress to the practical reality of a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-ai-tech-daily-2026-05-21/",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:34+09:00",
+    "collectedAt": "2026-05-23T04:31:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7raat2u2s",
+    "text": "Great roundup of SMILE’s launch and what it enables for space science. The exciting part is the AI angle: faster hypothesis cycles and smarter targeting for magnetosphere/solar-wind measurements, not just prettier analy...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-daily-2026-05-21/",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:38+09:00",
+    "collectedAt": "2026-05-23T04:31:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mme7rdtmxs2s",
+    "text": "Great recap: the field’s moving from “cool experiments” to physical + organizational infrastructure. Drug discovery pipelines, edge AI demos, and networked robot autonomy all point to the same bottleneck: making ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "type": "notification",
+    "timestamp": "2026-05-21T19:32:41+09:00",
+    "collectedAt": "2026-05-23T04:31:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmeav2uz732q",
+    "text": "Love the shift from flashy experiments to real infrastructure here. Drug discovery and edge robotics are where messy data, ops, and governance decide whether AI sticks long-term.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T19:52:40+09:00",
+    "collectedAt": "2026-05-23T04:31:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmef245ckr2c",
+    "text": "The big shift here is moving from clever prototypes to operational infrastructure. Once data pipelines, evals, and governance are in place, AI goes from demo-worthy to reliably useful across orgs and even edge de...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T21:07:04+09:00",
+    "collectedAt": "2026-05-23T04:31:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmelsfvpmp2l",
+    "text": "The shift from “experiments” to real infrastructure is the quiet unlock: standard data pipelines, governance, and deployable autonomy. That’s what turns flashy demos into repeatable wins across labs and field ops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-21-extended-weekly-recap-2026-05-21/",
+    "type": "scheduled",
+    "timestamp": "2026-05-21T23:08:04+09:00",
+    "collectedAt": "2026-05-23T04:31:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
