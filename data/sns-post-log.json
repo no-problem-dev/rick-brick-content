@@ -6718,5 +6718,13 @@
     "articleId": "2026-05-22-paper-review-2026-05-22",
     "type": "scheduled",
     "timestamp": "2026-05-22T19:42:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgv27225g2s",
+    "text": "The “fast-slow training” idea feels like a practical bridge between raw continual learning and actually getting reliable reasoning gains. If MOOD helps with OOD detection too, that’s a big step toward safer evolution in t...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "articleId": "2026-05-22-paper-review-2026-05-22",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T20:58:46+09:00"
   }
 ]
