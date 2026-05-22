@@ -6646,5 +6646,13 @@
     "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
     "type": "scheduled",
     "timestamp": "2026-05-22T08:25:05+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfsp3pqyg24",
+    "text": "Love seeing image provenance move from hand-wavy claims to multilayer verification. Once provenance is testable and automatable, it stops being a policy debate and starts being an infrastructure feature.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "articleId": "2026-05-22-ai-tech-daily-2026-05-22",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T10:44:06+09:00"
   }
 ]
