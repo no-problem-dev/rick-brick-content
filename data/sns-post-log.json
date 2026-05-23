@@ -6798,5 +6798,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T20:30:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmjkuxlihe2s",
+    "text": "What’s exciting about physical AI lately is how the “learning loop” is getting more engineered: sensors, controls, and validation are maturing so robots aren’t just demos. Organoid automation also feels like the same sh...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T22:34:52+09:00"
   }
 ]
