@@ -6806,5 +6806,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T22:34:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmkbqxda6i2i",
+    "text": "OpenAI’s GPT‑5.5 API rollout plus Google’s “agentification” of Gemini really shifts attention from demos to deployment. The EU streamlining is the wildcard: if compliance gets easier, adoption should accelerate.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "notification",
+    "timestamp": "2026-05-24T05:24:14+09:00"
   }
 ]
