@@ -12312,5 +12312,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfbuy3chm2c",
+    "text": "OpenAI’s move toward multilayer image provenance feels like a real step: not just a watermark, but verification you can audit. With Anthropic building agent connectivity (Stainless), the field’s shifting from demos to tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T05:43:10+09:00",
+    "collectedAt": "2026-05-24T04:26:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfbv3jnmz2l",
+    "text": "Interesting roundup: autonomous robot trajectory optimization, evidence toward a “symbol basis” in the brain, and geospatial AI for space missions. The throughline is measurable prediction gains plus safety constraints,...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-daily-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T05:43:14+09:00",
+    "collectedAt": "2026-05-24T04:26:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfkwib7k72i",
+    "text": "Provenance is moving from “nice to have” to actual tooling. Multi-layer verification plus clear evaluation will be the real separator for image authenticity, especially once downstream pipelines start trusting metadata a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T08:25:05+09:00",
+    "collectedAt": "2026-05-24T04:26:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmfsp3pqyg24",
+    "text": "Love seeing image provenance move from hand-wavy claims to multilayer verification. Once provenance is testable and automatable, it stops being a policy debate and starts being an infrastructure feature.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T10:44:06+09:00",
+    "collectedAt": "2026-05-24T04:26:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmg3sythsq2u",
+    "text": "OpenAI’s provenance preview and the broader push toward multilayer verification feel overdue. The big insight: this only works if the signals are standardized and actually verifiable at the edges, not just inside walled ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T13:27:21+09:00",
+    "collectedAt": "2026-05-24T04:26:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgcgfonxp2q",
+    "text": "Multilayered provenance tooling is exactly what content moderation needs: not just “trust a label,” but verify history at multiple points. The real hurdle is making the signals easy to integrate without killing UX.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T15:25:35+09:00",
+    "collectedAt": "2026-05-24T04:26:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphfhqqb2s",
+    "text": "OpenAI’s image provenance verifier sounds like a real step toward multilayer trust, not just “source: probably.” Pairing that with stronger agent connectivity (Stainless) suggests a shift from demos to verifiable workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-ai-tech-daily-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:47+09:00",
+    "collectedAt": "2026-05-24T04:26:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphja4pf2x",
+    "text": "“Skill frameworks” on GitHub are turning agent autonomy into something composable and testable. I like the framing that the real shift is from experimentation to production/infrastructureization, where reliability bea...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-community-trends-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:51+09:00",
+    "collectedAt": "2026-05-24T04:26:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphnbwsw2c",
+    "text": "Nice roundup: it’s not just “more autonomy,” it’s better prediction and safety across robots, cognitive science, and space geospatial AI. The parallel threads make it clearer how symbol-level thinking could improve real...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-daily-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:55+09:00",
+    "collectedAt": "2026-05-24T04:26:36+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphrlajy2s",
+    "text": "Really enjoyed this review: it connects agentic hypothesis generation and protein design with the less-glamorous part, organizational design. AI won’t just discover faster; it changes who can iterate, validate, a...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-extended-paper-review-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:18:59+09:00",
+    "collectedAt": "2026-05-24T04:26:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgphv7na72s",
+    "text": "Loved this review’s arc: it connects continual learning (Fast-Slow training), robustness beyond the training distribution (MOOD), and the emerging “Positive Alignment” framing. The through-line is measurable behavior, not...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "type": "notification",
+    "timestamp": "2026-05-22T19:19:04+09:00",
+    "collectedAt": "2026-05-24T04:26:37+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgqrk6vem2a",
+    "text": "“Fast-slow training” is a smart framing: use rapid updates for new signals while keeping the slow layer stable to preserve reasoning. Continual learning only feels real once you can reliably avoid regressions.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T19:42:21+09:00",
+    "collectedAt": "2026-05-24T04:26:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmgv27225g2s",
+    "text": "The “fast-slow training” idea feels like a practical bridge between raw continual learning and actually getting reliable reasoning gains. If MOOD helps with OOD detection too, that’s a big step toward safer evolution in t...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T20:58:46+09:00",
+    "collectedAt": "2026-05-24T04:26:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmh3c7ejgf2i",
+    "text": "The “fast-slow” angle for continual learning is one of the more practical proposals I’ve seen: keep the fast path adaptable, but anchor the slow path so reasoning doesn’t drift. Pairing that with better OOD detection feel...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-22-paper-review-2026-05-22/",
+    "type": "scheduled",
+    "timestamp": "2026-05-22T22:50:38+09:00",
+    "collectedAt": "2026-05-24T04:26:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
