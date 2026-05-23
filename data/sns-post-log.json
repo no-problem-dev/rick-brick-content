@@ -6758,5 +6758,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T08:26:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmicviit6m24",
+    "text": "The most exciting part of “physical AI” progress is the quiet shift toward repeatable pipelines: better sensing, tighter control loops, and validation that doesn’t rely on luck. That’s what turns demos into production.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T10:39:21+09:00"
   }
 ]
