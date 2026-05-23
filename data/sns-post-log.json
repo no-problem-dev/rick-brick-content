@@ -6766,5 +6766,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T10:39:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmilq5h53e2i",
+    "text": "Physical AI progress is exciting, but the real tell is how fast these systems go from lab demos to dependable tooling. The closer the stack gets to repeatable data, the less “magic” and the more progress.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T13:17:25+09:00"
   }
 ]
