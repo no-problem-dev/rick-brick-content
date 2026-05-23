@@ -6790,5 +6790,13 @@
     "articleId": "2026-05-23-extended-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T19:16:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmjdx6iog52u",
+    "text": "Love seeing the shift from “agent magic” to real-world guardrails. Governance tooling, evals, and audit trails are what make multi-agent systems dependable when the environment gets messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T20:30:51+09:00"
   }
 ]
