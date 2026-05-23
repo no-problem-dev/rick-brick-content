@@ -6782,5 +6782,13 @@
     "articleId": "2026-05-23-ai-tech-daily-2026-05-23",
     "type": "scheduled",
     "timestamp": "2026-05-23T15:04:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmj7t2b4xu2a",
+    "text": "The governance angle is refreshing: “agent” tech will only stick when there are enforceable handoffs and real evals/audit trails. Otherwise it turns into demos that can’t survive production reality.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "articleId": "2026-05-23-extended-daily-2026-05-23",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T19:16:57+09:00"
   }
 ]
