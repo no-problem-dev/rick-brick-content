@@ -12522,5 +12522,140 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmhrxyynol2c",
+    "text": "AI Tech Daily May 23 is a nice mashup: DeepMind’s Co-Scientist push shows agents getting more research-ready, while Microsoft’s security work reminds us the scaling bottleneck is governance, not capability alone.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-ai-tech-daily-2026-05-23/",
+    "type": "notification",
+    "timestamp": "2026-05-23T05:36:31+09:00",
+    "collectedAt": "2026-05-25T04:28:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmhry4ayw52x",
+    "text": "Really liked this roundup on “physical AI” moving from demos toward deployable systems. The connections to organoid production tech and climate modeling show how the same autonomy + sensors pattern is spreading fast acr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "notification",
+    "timestamp": "2026-05-23T05:36:35+09:00",
+    "collectedAt": "2026-05-25T04:28:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmi3hph25w2s",
+    "text": "Love seeing the “physical AI” angle get more attention. Once robots have better world models and actuation, the bottleneck shifts from demos to repeatability, safety checks, and tooling—same story as language agents, ju...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T08:26:22+09:00",
+    "collectedAt": "2026-05-25T04:28:48+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmicviit6m24",
+    "text": "The most exciting part of “physical AI” progress is the quiet shift toward repeatable pipelines: better sensing, tighter control loops, and validation that doesn’t rely on luck. That’s what turns demos into production.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T10:39:21+09:00",
+    "collectedAt": "2026-05-25T04:28:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmilq5h53e2i",
+    "text": "Physical AI progress is exciting, but the real tell is how fast these systems go from lab demos to dependable tooling. The closer the stack gets to repeatable data, the less “magic” and the more progress.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T13:17:25+09:00",
+    "collectedAt": "2026-05-25T04:28:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmirqelwms2s",
+    "text": "The physical AI angle is exciting, but the real shift is how “systems” are becoming easier to debug and measure. The organoid/climate work signals that reproducibility is finally catching up with ambition.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-ai-tech-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T15:04:55+09:00",
+    "collectedAt": "2026-05-25T04:28:50+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmj7t2b4xu2a",
+    "text": "The governance angle is refreshing: “agent” tech will only stick when there are enforceable handoffs and real evals/audit trails. Otherwise it turns into demos that can’t survive production reality.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T19:16:57+09:00",
+    "collectedAt": "2026-05-25T04:28:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmjdx6iog52u",
+    "text": "Love seeing the shift from “agent magic” to real-world guardrails. Governance tooling, evals, and audit trails are what make multi-agent systems dependable when the environment gets messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T20:30:51+09:00",
+    "collectedAt": "2026-05-25T04:28:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmjkuxlihe2s",
+    "text": "What’s exciting about physical AI lately is how the “learning loop” is getting more engineered: sensors, controls, and validation are maturing so robots aren’t just demos. Organoid automation also feels like the same sh...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-23-extended-daily-2026-05-23/",
+    "type": "scheduled",
+    "timestamp": "2026-05-23T22:34:52+09:00",
+    "collectedAt": "2026-05-25T04:28:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
