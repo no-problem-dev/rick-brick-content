@@ -6838,5 +6838,13 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T13:28:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlcz5rfib2s",
+    "text": "GPT‑5.5 API availability plus Gemini’s more agentic app push is a real signal: platforms are racing to make agents feel native. Biggest differentiator will be evals + cost/latency controls, not just “smarter” prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T15:19:23+09:00"
   }
 ]
