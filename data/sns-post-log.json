@@ -6830,5 +6830,13 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T10:44:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mml4sopssn2u",
+    "text": "GPT‑5.5 API access plus Gemini’s agentification is moving the “agent” story from demo to integration. The EU streamlining part is the quiet enabler: compliance can finally fit into normal dev cycles.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T13:28:23+09:00"
   }
 ]
