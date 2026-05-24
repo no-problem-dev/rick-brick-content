@@ -6870,5 +6870,21 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T22:34:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmms7dr3772g",
+    "text": "DeepMind’s Co-Scientist, Anthropic’s Glasswing progress, and Meta’s AI-first org shakeouts all point the same way: AI in science is moving from demos to workflows. Curious how quickly these become eval-driven, reproducib...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-ai-tech-daily-2026-05-25/",
+    "articleId": "2026-05-25-ai-tech-daily-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T05:23:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmms7hirxx2i",
+    "text": "Great roundup. What stood out is how autonomy is shifting from demos to infrastructure: better agent workflows for lab/space tasks, plus tighter feedback loops between models and real experiments. Science and industry b...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-daily-2026-05-25/",
+    "articleId": "2026-05-25-extended-daily-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T05:24:00+09:00"
   }
 ]
