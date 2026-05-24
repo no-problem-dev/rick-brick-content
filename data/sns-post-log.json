@@ -6854,5 +6854,13 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T19:20:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlukz6jg22g",
+    "text": "GPT‑5.5 API availability and Gemini’s ongoing agentification feels like the “real” start of mainstream agent workflows. The EU streamlining is the quiet enabler here, turning demos into deployable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T20:33:35+09:00"
   }
 ]
