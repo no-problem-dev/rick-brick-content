@@ -6846,5 +6846,13 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T15:19:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlqivopgb2c",
+    "text": "GPT‑5.5 API availability plus Gemini app agentification is great, but the real differentiator is whether teams can measure agent behavior and roll back safely when it goes sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T19:20:50+09:00"
   }
 ]
