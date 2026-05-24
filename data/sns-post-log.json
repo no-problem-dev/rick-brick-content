@@ -6862,5 +6862,13 @@
     "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
     "type": "scheduled",
     "timestamp": "2026-05-24T20:33:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmm3dues4e2q",
+    "text": "GPT-5.5 API availability and Gemini’s agent push feels like the next wave: less “cool demos,” more plumbing. The part to watch is governance and evaluation staying practical as apps get more autonomous.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "articleId": "2026-05-24-ai-tech-daily-2026-05-24",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T22:34:52+09:00"
   }
 ]
