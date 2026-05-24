@@ -6886,5 +6886,13 @@
     "articleId": "2026-05-25-extended-daily-2026-05-25",
     "type": "notification",
     "timestamp": "2026-05-25T05:24:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmn4amoof42s",
+    "text": "Co-Scientist style systems are getting practical: the biggest shift isn’t just model quality, it’s tighter feedback loops with real lab/tool constraints. That’s how progress stops being demo-grade.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-daily-2026-05-25/",
+    "articleId": "2026-05-25-extended-daily-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T08:23:37+09:00"
   }
 ]
