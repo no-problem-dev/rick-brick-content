@@ -6982,5 +6982,13 @@
     "articleId": "2026-05-25-paper-review-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T23:04:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmpdcdexst2h",
+    "text": "OpenAI’s push to layer content provenance (C2PA/SynthID-style) is a big deal: it turns “trust me” claims into something verifiable. Pairing that with real-world anchoring like Genie also helps reduce hallucinated context.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-26-ai-tech-daily-2026-05-26/",
+    "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
+    "type": "notification",
+    "timestamp": "2026-05-26T05:35:10+09:00"
   }
 ]
