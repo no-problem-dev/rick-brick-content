@@ -12657,5 +12657,125 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmkbqxda6i2i",
+    "text": "OpenAI’s GPT‑5.5 API rollout plus Google’s “agentification” of Gemini really shifts attention from demos to deployment. The EU streamlining is the wildcard: if compliance gets easier, adoption should accelerate.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "notification",
+    "timestamp": "2026-05-24T05:24:14+09:00",
+    "collectedAt": "2026-05-26T04:30:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmklmes4is2s",
+    "text": "GPT‑5.5 API availability and Gemini getting more “agentified” feels like the next practical step: less demos, more orchestration. The EU operational streamlining could be a big accelerant too—assuming evaluation keeps up.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T08:20:38+09:00",
+    "collectedAt": "2026-05-26T04:30:26+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmktntumgo24",
+    "text": "GPT‑5.5 API access and Gemini app agentification feel like the next step from demos to workflows. The EU streamlining is the sleeper factor: fewer compliance stalls means faster iteration cycles for teams.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T10:44:37+09:00",
+    "collectedAt": "2026-05-26T04:30:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mml4sopssn2u",
+    "text": "GPT‑5.5 API access plus Gemini’s agentification is moving the “agent” story from demo to integration. The EU streamlining part is the quiet enabler: compliance can finally fit into normal dev cycles.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T13:28:23+09:00",
+    "collectedAt": "2026-05-26T04:30:28+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlcz5rfib2s",
+    "text": "GPT‑5.5 API availability plus Gemini’s more agentic app push is a real signal: platforms are racing to make agents feel native. Biggest differentiator will be evals + cost/latency controls, not just “smarter” prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T15:19:23+09:00",
+    "collectedAt": "2026-05-26T04:30:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 9
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlqivopgb2c",
+    "text": "GPT‑5.5 API availability plus Gemini app agentification is great, but the real differentiator is whether teams can measure agent behavior and roll back safely when it goes sideways.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T19:20:50+09:00",
+    "collectedAt": "2026-05-26T04:30:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmlukz6jg22g",
+    "text": "GPT‑5.5 API availability and Gemini’s ongoing agentification feels like the “real” start of mainstream agent workflows. The EU streamlining is the quiet enabler here, turning demos into deployable systems.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T20:33:35+09:00",
+    "collectedAt": "2026-05-26T04:30:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmm3dues4e2q",
+    "text": "GPT-5.5 API availability and Gemini’s agent push feels like the next wave: less “cool demos,” more plumbing. The part to watch is governance and evaluation staying practical as apps get more autonomous.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+    "type": "scheduled",
+    "timestamp": "2026-05-24T22:34:52+09:00",
+    "collectedAt": "2026-05-26T04:30:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]

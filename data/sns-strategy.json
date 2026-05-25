@@ -2,7 +2,7 @@
   "platforms": [
     {
       "platform": "x",
-      "updatedAt": "2026-05-25T04:28:56+09:00",
+      "updatedAt": "2026-05-26T04:30:38+09:00",
       "topPosts": [
         {
           "text": "物理AIや創薬AIが伸びるほど、現場の勝敗は“モデル”よりも観測・評価・責任分界に寄ると感じる。再現性ある計測と監査ログを先に設計すると、探索の速さを安全側に倒せる。",
@@ -121,7 +121,7 @@
     },
     {
       "platform": "bluesky",
-      "updatedAt": "2026-05-25T04:28:56+09:00",
+      "updatedAt": "2026-05-26T04:30:38+09:00",
       "topPosts": [
         {
           "text": "Microsoft’s Agent Governance Toolkit and similar work are a good sign: “agents” won’t scale on vibes. The real unlock is enforceable handoffs, evals, and audit trails so autonomy stays safe in practice.\n\nhttps://oct-rick-brick.com/en/articles/2026-04-03-ai-tech-daily-2026-04-03/",
@@ -160,6 +160,16 @@
             "likes": 3,
             "reposts": 0,
             "replies": 0,
+            "quotes": 0
+          }
+        },
+        {
+          "text": "GPT‑5.5 API availability plus Gemini’s more agentic app push is a real signal: platforms are racing to make agents feel native. Biggest differentiator will be evals + cost/latency controls, not just “smarter” prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+          "score": 9,
+          "metrics": {
+            "likes": 0,
+            "reposts": 1,
+            "replies": 2,
             "quotes": 0
           }
         },
@@ -212,25 +222,15 @@
             "replies": 0,
             "quotes": 0
           }
-        },
-        {
-          "text": "“Agentification” is speeding up, but the real limiter is still human process: who approves, who audits, and how handoffs fail gracefully. Behavioral economics will matter more than most folks expect once adoption hits w...\n\nhttps://oct-rick-brick.com/en/articles/2026-04-24-extended-daily-2026-04-24/",
-          "score": 6,
-          "metrics": {
-            "likes": 2,
-            "reposts": 0,
-            "replies": 0,
-            "quotes": 0
-          }
         }
       ],
       "guidelines": "",
-      "avgScore": 0.4992343032159265,
-      "totalPosts": 653
+      "avgScore": 0.5113464447806354,
+      "totalPosts": 661
     },
     {
       "platform": "mastodon",
-      "updatedAt": "2026-05-25T04:28:56+09:00",
+      "updatedAt": "2026-05-26T04:30:38+09:00",
       "topPosts": [],
       "guidelines": "",
       "avgScore": 0,
@@ -238,7 +238,7 @@
     }
   ],
   "crossPlatform": {
-    "updatedAt": "2026-05-25T04:28:56+09:00",
+    "updatedAt": "2026-05-26T04:30:38+09:00",
     "topPosts": [
       {
         "text": "Really solid breakdown on structuring multi-agent work. The 80/20 context rule + CLAUDE.md optimization feels like the difference between “it works” and “it scales.” Link: https://example.com/claude-code-practical-ar...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
@@ -297,6 +297,17 @@
         }
       },
       {
+        "text": "GPT‑5.5 API availability plus Gemini’s more agentic app push is a real signal: platforms are racing to make agents feel native. Biggest differentiator will be evals + cost/latency controls, not just “smarter” prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-24-ai-tech-daily-2026-05-24/",
+        "platform": "bluesky",
+        "normalizedScore": 100,
+        "metrics": {
+          "likes": 0,
+          "reposts": 1,
+          "replies": 2,
+          "quotes": 0
+        }
+      },
+      {
         "text": "Multi-agent setup gets way easier once you treat CLAUDE.md as the single source of truth and use an 80/20 context rule. The deterministic Hooks angle is especially useful to avoid “creative drift.” https://example.co...\n\nhttps://oct-rick-brick.com/en/articles/claude-code-advanced-teams-architecture/",
         "platform": "bluesky",
         "normalizedScore": 99,
@@ -337,18 +348,6 @@
           "likes": 1,
           "reposts": 0,
           "replies": 2,
-          "quotes": 0
-        }
-      },
-      {
-        "text": "創薬AIやロボの集団制御が進むほど、現場のボトルネックはモデル性能よりも評価設計と責任分界になる印象。再現性ある監査ログと運用ルールを先に作る発想が、速度と安全を両立させる鍵だと思う。",
-        "platform": "x",
-        "normalizedScore": 99,
-        "metrics": {
-          "impressions": 186,
-          "likes": 0,
-          "reposts": 0,
-          "replies": 1,
           "quotes": 0
         }
       }
