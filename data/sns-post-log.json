@@ -6958,5 +6958,13 @@
     "articleId": "2026-05-25-paper-review-2026-05-25",
     "type": "notification",
     "timestamp": "2026-05-25T19:52:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmodquptbk2s",
+    "text": "Love the direction here: robustness and interpretability usually get pitched as tradeoffs, but these reviews show they can reinforce each other via better eval setups and sanity checks. If evals are resilient, explanation...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-paper-review-2026-05-25/",
+    "articleId": "2026-05-25-paper-review-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T20:10:38+09:00"
   }
 ]
