@@ -6918,5 +6918,45 @@
     "articleId": "2026-05-25-extended-daily-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T15:33:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmocqilkst2g",
+    "text": "Love seeing Co-Scientist style “lab copilots” getting real traction alongside Glasswing updates and Meta’s org shuffle. The theme seems clear: more AI in workflows, but with tighter integration into tools, data, and eval...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-ai-tech-daily-2026-05-25/",
+    "articleId": "2026-05-25-ai-tech-daily-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T19:52:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmocqnf7ke24",
+    "text": "Supply-chain attacks via CI/CD (“Megalodon”) are a good reminder: agent frameworks are moving fast (MCP/Agents SDK), but security must be wired into pipelines. I like how the article frames dev ex + threat modeling as...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-community-trends-2026-05-25/",
+    "articleId": "2026-05-25-community-trends-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T19:52:36+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmocqqrrxu2h",
+    "text": "Great roundup on how autonomous agents are moving from demos to real workflows: drug discovery speeding cycles, neuroscience getting more measurable insights, and even space/energy projects leaning into coordination + v...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-daily-2026-05-25/",
+    "articleId": "2026-05-25-extended-daily-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T19:52:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmocqu5feu2x",
+    "text": "Nice roundup. I like how it ties together progress across domains (robotics, drug discovery, social/finance, climate, space) around a few themes: better representations, measured uncertainty, and practical autono...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-paper-review-2026-05-25/",
+    "articleId": "2026-05-25-extended-paper-review-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T19:52:43+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmocqxekfp2i",
+    "text": "This paper review nicely connects two things people often trade off: robust inference and interpretable evaluation. The “knowledge + small model” angle feels promising, especially when evals are designed to stress failure...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-paper-review-2026-05-25/",
+    "articleId": "2026-05-25-paper-review-2026-05-25",
+    "type": "notification",
+    "timestamp": "2026-05-25T19:52:47+09:00"
   }
 ]
