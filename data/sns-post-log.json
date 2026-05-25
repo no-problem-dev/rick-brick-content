@@ -6902,5 +6902,13 @@
     "articleId": "2026-05-25-extended-daily-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T10:46:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmnnh2tdwi2h",
+    "text": "Co-Scientist-style systems are exciting, but the real leap for drug discovery will be tighter eval loops and verifiable priors. Otherwise it’s just more chemistry-flavored guesswork. Great to see the field pushing beyond...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-ai-tech-daily-2026-05-25/",
+    "articleId": "2026-05-25-ai-tech-daily-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T13:31:27+09:00"
   }
 ]
