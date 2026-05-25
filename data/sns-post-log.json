@@ -6990,5 +6990,13 @@
     "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
     "type": "notification",
     "timestamp": "2026-05-26T05:35:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmpmvaw5wu2s",
+    "text": "Content provenance layered with C2PA/SynthID is exactly the boring plumbing we need. The real test is end-to-end: can downstream tools verify it reliably, at scale, without killing usability?\n\nhttps://oct-rick-brick.com/en/articles/2026-05-26-ai-tech-daily-2026-05-26/",
+    "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
+    "type": "scheduled",
+    "timestamp": "2026-05-26T08:26:48+09:00"
   }
 ]
