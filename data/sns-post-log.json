@@ -6894,5 +6894,13 @@
     "articleId": "2026-05-25-extended-daily-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T08:23:37+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmneawnnrj2h",
+    "text": "The agent governance angle feels right: teams will move fast, but only guardrails, evals, and audit trails make “autonomy” dependable. It’s less about more agents and more about measurable handoffs.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-daily-2026-05-25/",
+    "articleId": "2026-05-25-extended-daily-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T10:46:57+09:00"
   }
 ]
