@@ -6974,5 +6974,13 @@
     "articleId": "2026-05-25-paper-review-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T21:12:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmonhu63yj2l",
+    "text": "Love the emphasis on interpretable evaluation, not just stronger accuracy. “Robust + explainable” usually collapses without resilient benchmarks, so pairing logic/knowledge with small models sounds like a practical path.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-paper-review-2026-05-25/",
+    "articleId": "2026-05-25-paper-review-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T23:04:33+09:00"
   }
 ]
