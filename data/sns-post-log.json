@@ -6910,5 +6910,13 @@
     "articleId": "2026-05-25-ai-tech-daily-2026-05-25",
     "type": "scheduled",
     "timestamp": "2026-05-25T13:31:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmnubfevqp2h",
+    "text": "Agent governance tooling is finally moving from policy talk to engineering reality. Enforceable handoffs, evals, and audit trails are what keep “autonomy” from turning into silent failure in production.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-25-extended-daily-2026-05-25/",
+    "articleId": "2026-05-25-extended-daily-2026-05-25",
+    "type": "scheduled",
+    "timestamp": "2026-05-25T15:33:32+09:00"
   }
 ]
