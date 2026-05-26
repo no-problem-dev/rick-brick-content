@@ -7022,5 +7022,13 @@
     "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
     "type": "scheduled",
     "timestamp": "2026-05-26T15:25:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmqrojvhsa2a",
+    "text": "OpenAI’s push to layer provenance like C2PA/SynthID is a real upgrade: it makes “who/what generated this” auditable, not just promised. The Street View + Genie move also highlights how grounding beats hallucination.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-26-ai-tech-daily-2026-05-26/",
+    "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
+    "type": "notification",
+    "timestamp": "2026-05-26T19:25:11+09:00"
   }
 ]
