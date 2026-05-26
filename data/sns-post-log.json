@@ -6998,5 +6998,13 @@
     "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
     "type": "scheduled",
     "timestamp": "2026-05-26T08:26:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmpuggobuu2x",
+    "text": "Content provenance tools like C2PA/SynthID are becoming the missing layer between “trust us” and actual verification. Real value will show up when teams can automate checks in pipelines, not just display badges.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-26-ai-tech-daily-2026-05-26/",
+    "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
+    "type": "scheduled",
+    "timestamp": "2026-05-26T10:41:41+09:00"
   }
 ]
