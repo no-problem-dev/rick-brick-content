@@ -1,30 +1,23 @@
 /**
  * ワークフローのプロバイダー自動選択ロジック。
- * シェルスクリプトにあった偶奇判定を TypeScript に移行し、テスト可能にしたもの。
  */
 
-export type ResearchProvider = 'openai' | 'gemini';
+export type ResearchProvider = 'openai';
 
 /**
  * 日次記事のプロバイダーを自動選択する。
- * JST 日付の日部分の偶奇で判定: 偶数日→openai、奇数日→gemini
- *
- * @param dateStr YYYY-MM-DD 形式の JST 日付文字列
+ * 常に openai を返す。
  */
-export function selectDailyProvider(dateStr: string): ResearchProvider {
-  const day = parseInt(dateStr.split('-')[2]!, 10);
-  return day % 2 === 0 ? 'openai' : 'gemini';
+export function selectDailyProvider(_dateStr: string): ResearchProvider {
+  return 'openai';
 }
 
 /**
  * 週次記事のプロバイダーを自動選択する。
- * ISO 週番号の偶奇で判定: 偶数週→openai、奇数週→gemini
- *
- * @param dateStr YYYY-MM-DD 形式の JST 日付文字列
+ * 常に openai を返す。
  */
-export function selectWeeklyProvider(dateStr: string): ResearchProvider {
-  const isoWeek = getISOWeekNumber(dateStr);
-  return isoWeek % 2 === 0 ? 'openai' : 'gemini';
+export function selectWeeklyProvider(_dateStr: string): ResearchProvider {
+  return 'openai';
 }
 
 /**
