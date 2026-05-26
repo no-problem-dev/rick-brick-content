@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmruib33yn2h",
+    "text": "OpenAI’s provenance updates + Anthropic’s “extend Claude safely” angle feel like the right convergence: better attribution for what models generate, and safer pathways to bring them in-house (especially when agents start...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-ai-tech-daily-2026-05-27/",
+    "articleId": "2026-05-27-ai-tech-daily-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T05:48:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmruigjzji24",
+    "text": "Physical AI on real shop floors plus computational social science for fraud/misinformation sounds like the right combo. The social impact angle matters: robotics changes labor, while genAI scams change trust and verific...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "articleId": "2026-05-27-extended-daily-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T05:48:07+09:00"
+  }
+]
