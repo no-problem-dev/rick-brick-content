@@ -8,7 +8,7 @@
  */
 import { describe, it, expect } from 'vitest';
 import { determineRecapCategories, isLastDayOfMonth } from '../utils/recap-routing.js';
-import { selectDailyProvider, selectWeeklyProvider, getISOWeekNumber } from '../utils/provider-routing.js';
+import { selectDailyProvider, selectWeeklyProvider } from '../utils/provider-routing.js';
 import type { RecapCategory } from '../config/constants.js';
 
 // 2026-03-23(月) 〜 2026-03-29(日) の1週間
@@ -25,11 +25,9 @@ const WEEK_DATES = [
 describe('スケジュール結合テスト: 1週間のフルサイクル', () => {
   describe('Daily ワークフロー (毎日 JST 05:00)', () => {
     for (const { date, dayName } of WEEK_DATES) {
-      it(`${date}(${dayName}): プロバイダーが正しく選択される`, () => {
+      it(`${date}(${dayName}): プロバイダーが openai になる`, () => {
         const provider = selectDailyProvider(date);
-        const day = parseInt(date.split('-')[2]!, 10);
-        const expected = day % 2 === 0 ? 'openai' : 'gemini';
-        expect(provider).toBe(expected);
+        expect(provider).toBe('openai');
       });
     }
   });
@@ -38,11 +36,9 @@ describe('スケジュール結合テスト: 1週間のフルサイクル', () =
     const weeklyDates = WEEK_DATES.filter(({ dow }) => [1, 3, 5].includes(dow));
 
     for (const { date, dayName } of weeklyDates) {
-      it(`${date}(${dayName}): プロバイダーが正しく選択される`, () => {
+      it(`${date}(${dayName}): プロバイダーが openai になる`, () => {
         const provider = selectWeeklyProvider(date);
-        const isoWeek = getISOWeekNumber(date);
-        const expected = isoWeek % 2 === 0 ? 'openai' : 'gemini';
-        expect(provider).toBe(expected);
+        expect(provider).toBe('openai');
       });
     }
 
@@ -119,33 +115,20 @@ describe('月末判定: 2026年全12ヶ月', () => {
 });
 
 describe('プロバイダー自動選択: 月間パターン検証', () => {
-  it('1ヶ月間の daily プロバイダーが正確に交互する', () => {
-    const results: Array<{ date: string; provider: string }> = [];
+  it('1ヶ月間の daily プロバイダーが全て openai', () => {
     for (let d = 1; d <= 31; d++) {
       const date = `2026-03-${String(d).padStart(2, '0')}`;
-      results.push({ date, provider: selectDailyProvider(date) });
+      expect(selectDailyProvider(date)).toBe('openai');
     }
-
-    // 偶数日は全て openai、奇数日は全て gemini
-    const openaiDays = results.filter((r) => r.provider === 'openai');
-    const geminiDays = results.filter((r) => r.provider === 'gemini');
-    expect(openaiDays).toHaveLength(15); // 2,4,6,...,30
-    expect(geminiDays).toHaveLength(16); // 1,3,5,...,31
   });
 
-  it('2ヶ月間の weekly プロバイダーが週単位で一貫している', () => {
-    // 同じISO週内の月・水・金は同じプロバイダーであること
-    const monWedFri = [
-      // W13: 2026-03-23(月), 2026-03-25(水), 2026-03-27(金)
-      ['2026-03-23', '2026-03-25', '2026-03-27'],
-      // W14: 2026-03-30(月), 2026-04-01(水), 2026-04-03(金)
-      ['2026-03-30', '2026-04-01', '2026-04-03'],
+  it('weekly プロバイダーが常に openai', () => {
+    const dates = [
+      '2026-03-23', '2026-03-25', '2026-03-27',
+      '2026-03-30', '2026-04-01', '2026-04-03',
     ];
-
-    for (const weekDates of monWedFri) {
-      const providers = weekDates.map((d) => selectWeeklyProvider(d));
-      // 同一週は全て同じプロバイダー
-      expect(new Set(providers).size).toBe(1);
+    for (const d of dates) {
+      expect(selectWeeklyProvider(d)).toBe('openai');
     }
   });
 });
