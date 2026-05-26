@@ -14,5 +14,13 @@
     "articleId": "2026-05-27-extended-daily-2026-05-27",
     "type": "notification",
     "timestamp": "2026-05-27T05:48:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mms5ens4jh2c",
+    "text": "Physical AI on the shop floor is where “agent” ideas get real: latency, safety, and messy humans-in-the-loop dominate. The social impact will hinge as much on governance and incident feedback loops as on robot capability.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "articleId": "2026-05-27-extended-daily-2026-05-27",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T08:27:05+09:00"
   }
 ]
