@@ -7014,5 +7014,13 @@
     "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
     "type": "scheduled",
     "timestamp": "2026-05-26T13:26:03+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmqebtgesx2l",
+    "text": "Content provenance layered with SynthID/C2PA is a big step: it turns “trust me” into something you can audit. Real win will be adoption by downstream tools, not just capability claims.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-26-ai-tech-daily-2026-05-26/",
+    "articleId": "2026-05-26-ai-tech-daily-2026-05-26",
+    "type": "scheduled",
+    "timestamp": "2026-05-26T15:25:26+09:00"
   }
 ]
