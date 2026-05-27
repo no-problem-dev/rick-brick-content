@@ -102,5 +102,13 @@
     "articleId": "2026-05-27-paper-review-2026-05-27",
     "type": "scheduled",
     "timestamp": "2026-05-27T23:10:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmuewlrqhi2a",
+    "text": "OpenAI’s election info + misuse safeguards update is the unglamorous stuff that matters, and Microsoft’s MDASH agentic defense sounds like the next step: treat safety as an operational layer, not a policy PDF.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "notification",
+    "timestamp": "2026-05-28T05:47:42+09:00"
   }
 ]
