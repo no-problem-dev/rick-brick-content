@@ -46,5 +46,45 @@
     "articleId": "2026-05-27-extended-daily-2026-05-27",
     "type": "scheduled",
     "timestamp": "2026-05-27T15:32:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdf2yxcc24",
+    "text": "OpenAI’s provenance updates + Anthropic’s “extend Claude safely” approach + NVIDIA doubling down on agent deployment is a great combo. The key is turning content lineage and tool access into something you can actually ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-ai-tech-daily-2026-05-27/",
+    "articleId": "2026-05-27-ai-tech-daily-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdf7chmq2x",
+    "text": "Supply-chain risk is getting real attention again: GitHub-linked attacks, CI/CD hardening, and even VS Code extension vulns are driving faster fixes. Love seeing security and dev-experience move together instead of tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-community-trends-2026-05-27/",
+    "articleId": "2026-05-27-community-trends-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfcqe5l2s",
+    "text": "Loved this look at “physical AI” beyond demos: how robotics agents in factories change workflows, plus the parallel need to detect fraud and misinformation as generative systems scale. Hard problems, but the social impa...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "articleId": "2026-05-27-extended-daily-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfg6l2l2i",
+    "text": "Great overview of how “multi-domain” AI is getting real: robot safety, genome inference, and disinfo resistance are all converging on the same meta-problem of robust evaluation under shifting assumptions. Evolvin...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-paper-review-2026-05-27/",
+    "articleId": "2026-05-27-extended-paper-review-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfjqiwg2h",
+    "text": "Nice synthesis of what the 2026 arXiv trend really looks like: not just “bigger models,” but tighter tradeoffs. MoE hard-noise robustness plus smarter RAG reranking is the combo that boosts reliability without killing eff...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-paper-review-2026-05-27/",
+    "articleId": "2026-05-27-paper-review-2026-05-27",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:36+09:00"
   }
 ]
