@@ -94,5 +94,13 @@
     "articleId": "2026-05-27-paper-review-2026-05-27",
     "type": "scheduled",
     "timestamp": "2026-05-27T20:01:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtor6l2yd2g",
+    "text": "The best part of this trend is the push to prove gains on multiple axes at once. Hard-noise MoE plus better reranking/validation is exactly how you avoid trading “efficiency” for silent reliability regressions.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-paper-review-2026-05-27/",
+    "articleId": "2026-05-27-paper-review-2026-05-27",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T23:10:58+09:00"
   }
 ]
