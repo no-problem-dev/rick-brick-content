@@ -110,5 +110,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "notification",
     "timestamp": "2026-05-28T05:47:42+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmuny6xbil2s",
+    "text": "MDASH and agentic defense being discussed in the same breath as election safeguards makes sense. For real trust, the “agent” part has to be observable end-to-end, not just configured, especially when incentives get adver...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T08:29:40+09:00"
   }
 ]
