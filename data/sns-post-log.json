@@ -182,5 +182,21 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "scheduled",
     "timestamp": "2026-05-28T23:18:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmwvvxhvlh2g",
+    "text": "“AI Tech Daily” captures the real theme right now: funding, safety, and deployment logistics moving together. The election info + transparency pushes, alongside Anthropic’s big raise and NVIDIA’s momentum, feel like the ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "articleId": "2026-05-29-ai-tech-daily-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T05:56:54+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmwvw2ydpk2s",
+    "text": "Nice sweep of how AI is diffusing beyond models: robotics is getting more “embodied” with real control loops, drug discovery keeps layering partnerships and pipelines, and education/financial stability shows the shift f...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "articleId": "2026-05-29-extended-daily-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T05:56:57+09:00"
   }
 ]
