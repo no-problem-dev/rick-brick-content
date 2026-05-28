@@ -142,5 +142,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "scheduled",
     "timestamp": "2026-05-28T15:28:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvsyifyzk2i",
+    "text": "OpenAI’s election info + misuse updates and Microsoft’s push into agentic defense both point the same way: useful AI needs “guardrails you can verify,” not just policies. Nice roundup on where infra and safety are conver...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "notification",
+    "timestamp": "2026-05-28T19:31:58+09:00"
   }
 ]
