@@ -150,5 +150,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "notification",
     "timestamp": "2026-05-28T19:31:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvtavmwa32s",
+    "text": "OpenAI’s election info + misuse safeguards update is the kind of boring-but-critical hardening that actually moves the needle. And MDASH/agentic defense from Microsoft highlights the shift: we need governance, not just m...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "notification",
+    "timestamp": "2026-05-28T19:36:40+09:00"
   }
 ]
