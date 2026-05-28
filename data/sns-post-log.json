@@ -174,5 +174,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "scheduled",
     "timestamp": "2026-05-28T21:13:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmw7n3dyzw2g",
+    "text": "MDASH + election-focused misuse safeguards is the right combo: “agentic defense” still needs tight guardrails around what data can be fetched and how actions get approved. Otherwise you just automate the risk faster.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T23:18:13+09:00"
   }
 ]
