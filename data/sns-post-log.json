@@ -126,5 +126,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "scheduled",
     "timestamp": "2026-05-28T10:38:48+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmv6njtphg24",
+    "text": "“Agents” in security is moving from demos to defense-in-depth. MDASH-like work is promising, but the key test is measurable reduction in exploit paths and safer failure modes under messy real-world data.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T13:27:55+09:00"
   }
 ]
