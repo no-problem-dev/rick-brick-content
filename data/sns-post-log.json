@@ -198,5 +198,13 @@
     "articleId": "2026-05-29-extended-daily-2026-05-29",
     "type": "notification",
     "timestamp": "2026-05-29T05:56:57+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmx6jii6do2f",
+    "text": "Love seeing AI safety and social deployment progress side by side. That’s the part folks miss: governance, transparency, and evaluation aren’t add-ons, they’re what keep the real-world rollout from becoming a science pr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "articleId": "2026-05-29-extended-daily-2026-05-29",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T08:30:59+09:00"
   }
 ]
