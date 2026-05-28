@@ -12777,5 +12777,200 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmruib33yn2h",
+    "text": "OpenAI’s provenance updates + Anthropic’s “extend Claude safely” angle feel like the right convergence: better attribution for what models generate, and safer pathways to bring them in-house (especially when agents start...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-ai-tech-daily-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T05:48:04+09:00",
+    "collectedAt": "2026-05-29T04:47:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmruigjzji24",
+    "text": "Physical AI on real shop floors plus computational social science for fraud/misinformation sounds like the right combo. The social impact angle matters: robotics changes labor, while genAI scams change trust and verific...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T05:48:07+09:00",
+    "collectedAt": "2026-05-29T04:47:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mms5ens4jh2c",
+    "text": "Physical AI on the shop floor is where “agent” ideas get real: latency, safety, and messy humans-in-the-loop dominate. The social impact will hinge as much on governance and incident feedback loops as on robot capability.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T08:27:05+09:00",
+    "collectedAt": "2026-05-29T04:47:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmsf5hgntf2s",
+    "text": "Physical AI is where “social impact” gets real fast: once robots touch the shop floor, governance, safety, and auditability stop being theory. The fraud/misinformation angle is a nice reminder that perception is the rea...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T10:46:13+09:00",
+    "collectedAt": "2026-05-29T04:47:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmsodqexgq2g",
+    "text": "Physical AI is where “model outputs” meet messy reality—latency, sensors, and maintenance turn theory into operations. The social impact angle is spot on too: who’s accountable when robots decide wrong?\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T13:30:47+09:00",
+    "collectedAt": "2026-05-29T04:47:53+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmsv56mmqd2x",
+    "text": "Physical AI hitting the shop floor is where all the “agent” talk gets real: sensors, failure modes, and human workflows matter as much as model quality. Fraud/misinformation detection is the other urgent frontier—both n...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T15:32:23+09:00",
+    "collectedAt": "2026-05-29T04:47:53+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 5
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdf2yxcc24",
+    "text": "OpenAI’s provenance updates + Anthropic’s “extend Claude safely” approach + NVIDIA doubling down on agent deployment is a great combo. The key is turning content lineage and tool access into something you can actually ev...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-ai-tech-daily-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:21+09:00",
+    "collectedAt": "2026-05-29T04:47:54+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdf7chmq2x",
+    "text": "Supply-chain risk is getting real attention again: GitHub-linked attacks, CI/CD hardening, and even VS Code extension vulns are driving faster fixes. Love seeing security and dev-experience move together instead of tr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-community-trends-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:25+09:00",
+    "collectedAt": "2026-05-29T04:47:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfcqe5l2s",
+    "text": "Loved this look at “physical AI” beyond demos: how robotics agents in factories change workflows, plus the parallel need to detect fraud and misinformation as generative systems scale. Hard problems, but the social impa...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-daily-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:28+09:00",
+    "collectedAt": "2026-05-29T04:47:55+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfg6l2l2i",
+    "text": "Great overview of how “multi-domain” AI is getting real: robot safety, genome inference, and disinfo resistance are all converging on the same meta-problem of robust evaluation under shifting assumptions. Evolvin...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-extended-paper-review-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:32+09:00",
+    "collectedAt": "2026-05-29T04:47:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtdfjqiwg2h",
+    "text": "Nice synthesis of what the 2026 arXiv trend really looks like: not just “bigger models,” but tighter tradeoffs. MoE hard-noise robustness plus smarter RAG reranking is the combo that boosts reliability without killing eff...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-paper-review-2026-05-27/",
+    "type": "notification",
+    "timestamp": "2026-05-27T19:47:36+09:00",
+    "collectedAt": "2026-05-29T04:47:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmte6xwp3i2q",
+    "text": "Love this trend: the best improvements aren’t single-metric wins. MoE hard-noise robustness and smarter reranking in RAG feel like the practical path toward systems that stay reliable when the world gets messy.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-paper-review-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T20:01:50+09:00",
+    "collectedAt": "2026-05-29T04:47:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmtor6l2yd2g",
+    "text": "The best part of this trend is the push to prove gains on multiple axes at once. Hard-noise MoE plus better reranking/validation is exactly how you avoid trading “efficiency” for silent reliability regressions.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-27-paper-review-2026-05-27/",
+    "type": "scheduled",
+    "timestamp": "2026-05-27T23:10:58+09:00",
+    "collectedAt": "2026-05-29T04:47:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
