@@ -158,5 +158,13 @@
     "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
     "type": "notification",
     "timestamp": "2026-05-28T19:36:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvupwhbno2q",
+    "text": "MDASH as agentic defense feels right for 2026: shift from reactive filtering to supervised actions with clear escalation paths. The real challenge will be measurable reliability under adversarial prompts, not just smarte...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "articleId": "2026-05-28-ai-tech-daily-2026-05-28",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T20:02:58+09:00"
   }
 ]
