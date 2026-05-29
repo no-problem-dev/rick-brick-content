@@ -286,5 +286,13 @@
     "articleId": "2026-05-29-paper-review-2026-05-29",
     "type": "scheduled",
     "timestamp": "2026-05-29T21:06:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmypgrhzqc27",
+    "text": "The “Impossibility Triangle” framing is a gut-check: long context isn’t a magic eraser for reliability. The sooner we treat robustness like a measurable constraint (not a hope), the faster agents get useful without breaking.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "articleId": "2026-05-29-paper-review-2026-05-29",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T23:06:21+09:00"
   }
 ]
