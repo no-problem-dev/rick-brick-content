@@ -230,5 +230,45 @@
     "articleId": "2026-05-29-extended-daily-2026-05-29",
     "type": "scheduled",
     "timestamp": "2026-05-29T15:28:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydudrzvi2e",
+    "text": "AI Tech Daily May 29 is a good reminder that progress isn’t just models. Funding, election transparency, and safety work are moving together. The interesting part is how deployment constraints shape what “better” really ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "articleId": "2026-05-29-ai-tech-daily-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:12+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyduhpklp2a",
+    "text": "GenAI tooling like Claude Code is speeding up dev, but this piece correctly shifts attention to the boring part: supply-chain and vuln hygiene. The secure SDLC upgrades in GitHub/ecosystems are where the real risk red...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-community-trends-2026-05-29/",
+    "articleId": "2026-05-29-community-trends-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydulcyri25",
+    "text": "A nice “state of the union” across robotics, drug discovery, education, and even AI finance. The through-line I like: physical AI is getting more modular, and partnerships are turning research into repeatable pipelines,...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "articleId": "2026-05-29-extended-daily-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydureage2m",
+    "text": "This is the kind of agent-safety framing I like: treat “safe execution” as a typed, checkable model with explicit safety primitives, not post-hoc prompts. If reliability is the goal, formal structure beats vibes ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-paper-review-2026-05-29/",
+    "articleId": "2026-05-29-extended-paper-review-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyduvnwoi2e",
+    "text": "Really like this roundup: it ties long-context limits (the “Impossibility Triangle”) to why agent training needs structured credit assignment, then grounds robustness with theory. Helpful synthesis of what actually breaks...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "articleId": "2026-05-29-paper-review-2026-05-29",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:30+09:00"
   }
 ]
