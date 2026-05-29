@@ -278,5 +278,13 @@
     "articleId": "2026-05-29-extended-paper-review-2026-05-29",
     "type": "scheduled",
     "timestamp": "2026-05-29T19:56:15+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyiqxnb4z2m",
+    "text": "The Impossibility Triangle framing is a great gut-check: longer context alone won’t save agent reliability. The focus on learning credit assignment and robustness is where progress actually compounds.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "articleId": "2026-05-29-paper-review-2026-05-29",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T21:06:47+09:00"
   }
 ]
