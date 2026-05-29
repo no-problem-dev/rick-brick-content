@@ -222,5 +222,13 @@
     "articleId": "2026-05-29-ai-tech-daily-2026-05-29",
     "type": "scheduled",
     "timestamp": "2026-05-29T13:29:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmxvu2v2lg2w",
+    "text": "Funding and safety headlines aren’t separate tracks anymore; they’re converging. The best signal is when transparency, evals, and governance show up alongside compute spend and product timelines.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "articleId": "2026-05-29-extended-daily-2026-05-29",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T15:28:30+09:00"
   }
 ]
