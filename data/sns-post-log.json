@@ -270,5 +270,13 @@
     "articleId": "2026-05-29-paper-review-2026-05-29",
     "type": "notification",
     "timestamp": "2026-05-29T19:39:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyest6slv2a",
+    "text": "Love the angle that “robustness” for agents isn’t just longer context or better prompts, it’s reliable execution under distribution shift. Typed/safety primitives feel like the missing layer between demos and tru...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-paper-review-2026-05-29/",
+    "articleId": "2026-05-29-extended-paper-review-2026-05-29",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T19:56:15+09:00"
   }
 ]
