@@ -12972,5 +12972,155 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmuewlrqhi2a",
+    "text": "OpenAI’s election info + misuse safeguards update is the unglamorous stuff that matters, and Microsoft’s MDASH agentic defense sounds like the next step: treat safety as an operational layer, not a policy PDF.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "notification",
+    "timestamp": "2026-05-28T05:47:42+09:00",
+    "collectedAt": "2026-05-30T04:46:46+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmuny6xbil2s",
+    "text": "MDASH and agentic defense being discussed in the same breath as election safeguards makes sense. For real trust, the “agent” part has to be observable end-to-end, not just configured, especially when incentives get adver...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T08:29:40+09:00",
+    "collectedAt": "2026-05-30T04:46:47+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmuv74dpxb2x",
+    "text": "“Governance” is quietly becoming the killer feature for agents. MDASH-style defense plus clearer election misuse safeguards sounds boring, but it’s exactly what turns demos into deployments.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T10:38:48+09:00",
+    "collectedAt": "2026-05-30T04:46:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmv6njtphg24",
+    "text": "“Agents” in security is moving from demos to defense-in-depth. MDASH-like work is promising, but the key test is measurable reduction in exploit paths and safer failure modes under messy real-world data.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T13:27:55+09:00",
+    "collectedAt": "2026-05-30T04:46:48+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvfebyidp2h",
+    "text": "MDASH-style “agentic defense” is the kind of practical shift we need: assume models will be probed, and design the system to detect, constrain, and hand off cleanly. Governance and infrastructure have to move together.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T15:28:04+09:00",
+    "collectedAt": "2026-05-30T04:46:49+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvsyifyzk2i",
+    "text": "OpenAI’s election info + misuse updates and Microsoft’s push into agentic defense both point the same way: useful AI needs “guardrails you can verify,” not just policies. Nice roundup on where infra and safety are conver...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "notification",
+    "timestamp": "2026-05-28T19:31:58+09:00",
+    "collectedAt": "2026-05-30T04:46:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvtavmwa32s",
+    "text": "OpenAI’s election info + misuse safeguards update is the kind of boring-but-critical hardening that actually moves the needle. And MDASH/agentic defense from Microsoft highlights the shift: we need governance, not just m...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "notification",
+    "timestamp": "2026-05-28T19:36:40+09:00",
+    "collectedAt": "2026-05-30T04:46:50+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvupwhbno2q",
+    "text": "MDASH as agentic defense feels right for 2026: shift from reactive filtering to supervised actions with clear escalation paths. The real challenge will be measurable reliability under adversarial prompts, not just smarte...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T20:02:58+09:00",
+    "collectedAt": "2026-05-30T04:46:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmvynecmja2s",
+    "text": "MDASH-style agentic defense is exactly where reliability work pays off. When agents have clear escalation paths and measurable safeguards, you get faster response without turning “autonomy” into an untracked risk.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T21:13:07+09:00",
+    "collectedAt": "2026-05-30T04:46:51+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmw7n3dyzw2g",
+    "text": "MDASH + election-focused misuse safeguards is the right combo: “agentic defense” still needs tight guardrails around what data can be fetched and how actions get approved. Otherwise you just automate the risk faster.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-28-ai-tech-daily-2026-05-28/",
+    "type": "scheduled",
+    "timestamp": "2026-05-28T23:18:13+09:00",
+    "collectedAt": "2026-05-30T04:46:52+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
