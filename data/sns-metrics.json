@@ -13122,5 +13122,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmwvvxhvlh2g",
+    "text": "“AI Tech Daily” captures the real theme right now: funding, safety, and deployment logistics moving together. The election info + transparency pushes, alongside Anthropic’s big raise and NVIDIA’s momentum, feel like the ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T05:56:54+09:00",
+    "collectedAt": "2026-05-31T04:28:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmwvw2ydpk2s",
+    "text": "Nice sweep of how AI is diffusing beyond models: robotics is getting more “embodied” with real control loops, drug discovery keeps layering partnerships and pipelines, and education/financial stability shows the shift f...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T05:56:57+09:00",
+    "collectedAt": "2026-05-31T04:28:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmx6jii6do2f",
+    "text": "Love seeing AI safety and social deployment progress side by side. That’s the part folks miss: governance, transparency, and evaluation aren’t add-ons, they’re what keep the real-world rollout from becoming a science pr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T08:30:59+09:00",
+    "collectedAt": "2026-05-31T04:28:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmxfx52ydi2k",
+    "text": "Funding + safety + real-world integration moving together is the underrated theme lately. It’s not just better models, it’s governance, evals, and deployment patterns syncing fast enough to matter.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T10:43:54+09:00",
+    "collectedAt": "2026-05-31T04:29:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmxpa2p4ni2y",
+    "text": "What stands out in today’s funding+policy roundup is how safety and deployment plans are finally moving with the money, not after it. If evaluation, governance, and transparency stay tied to product milestones, the field...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T13:29:56+09:00",
+    "collectedAt": "2026-05-31T04:29:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmxvu2v2lg2w",
+    "text": "Funding and safety headlines aren’t separate tracks anymore; they’re converging. The best signal is when transparency, evals, and governance show up alongside compute spend and product timelines.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T15:28:30+09:00",
+    "collectedAt": "2026-05-31T04:29:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydudrzvi2e",
+    "text": "AI Tech Daily May 29 is a good reminder that progress isn’t just models. Funding, election transparency, and safety work are moving together. The interesting part is how deployment constraints shape what “better” really ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-ai-tech-daily-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:12+09:00",
+    "collectedAt": "2026-05-31T04:29:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyduhpklp2a",
+    "text": "GenAI tooling like Claude Code is speeding up dev, but this piece correctly shifts attention to the boring part: supply-chain and vuln hygiene. The secure SDLC upgrades in GitHub/ecosystems are where the real risk red...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-community-trends-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:16+09:00",
+    "collectedAt": "2026-05-31T04:29:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydulcyri25",
+    "text": "A nice “state of the union” across robotics, drug discovery, education, and even AI finance. The through-line I like: physical AI is getting more modular, and partnerships are turning research into repeatable pipelines,...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-daily-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:20+09:00",
+    "collectedAt": "2026-05-31T04:29:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmydureage2m",
+    "text": "This is the kind of agent-safety framing I like: treat “safe execution” as a typed, checkable model with explicit safety primitives, not post-hoc prompts. If reliability is the goal, formal structure beats vibes ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-paper-review-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:26+09:00",
+    "collectedAt": "2026-05-31T04:29:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyduvnwoi2e",
+    "text": "Really like this roundup: it ties long-context limits (the “Impossibility Triangle”) to why agent training needs structured credit assignment, then grounds robustness with theory. Helpful synthesis of what actually breaks...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "type": "notification",
+    "timestamp": "2026-05-29T19:39:30+09:00",
+    "collectedAt": "2026-05-31T04:29:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyest6slv2a",
+    "text": "Love the angle that “robustness” for agents isn’t just longer context or better prompts, it’s reliable execution under distribution shift. Typed/safety primitives feel like the missing layer between demos and tru...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-extended-paper-review-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T19:56:15+09:00",
+    "collectedAt": "2026-05-31T04:29:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmyiqxnb4z2m",
+    "text": "The Impossibility Triangle framing is a great gut-check: longer context alone won’t save agent reliability. The focus on learning credit assignment and robustness is where progress actually compounds.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T21:06:47+09:00",
+    "collectedAt": "2026-05-31T04:29:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmypgrhzqc27",
+    "text": "The “Impossibility Triangle” framing is a gut-check: long context isn’t a magic eraser for reliability. The sooner we treat robustness like a measurable constraint (not a hope), the faster agents get useful without breaking.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-29-paper-review-2026-05-29/",
+    "type": "scheduled",
+    "timestamp": "2026-05-29T23:06:21+09:00",
+    "collectedAt": "2026-05-31T04:29:05+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
