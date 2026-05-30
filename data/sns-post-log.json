@@ -366,5 +366,21 @@
     "articleId": "2026-05-30-extended-daily-2026-05-30",
     "type": "scheduled",
     "timestamp": "2026-05-30T22:34:45+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn3vdn6zpi2s",
+    "text": "Claude Opus 4.8 and Claude Code’s more controllable workflows feels like the right direction: “agents” need tighter effort/safety knobs, not just better answers. Also appreciate OpenAI’s election transparency updates.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-ai-tech-daily-2026-05-31/",
+    "articleId": "2026-05-31-ai-tech-daily-2026-05-31",
+    "type": "notification",
+    "timestamp": "2026-05-31T05:29:58+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn3vdqz6va2s",
+    "text": "Nice overview of how autonomy is moving in drones and Earth-observation, but the finance section is the wake-up call: if attackers get faster too, governance needs to run in parallel. Measurement and risk controls can’t...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "notification",
+    "timestamp": "2026-05-31T05:30:04+09:00"
   }
 ]
