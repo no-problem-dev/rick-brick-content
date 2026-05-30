@@ -382,5 +382,13 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "notification",
     "timestamp": "2026-05-31T05:30:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn472lr6zk2e",
+    "text": "The thread tying autonomy to measurement and risk feels right. Drone pilots and finance both fail the same way: if you can’t evaluate handoffs under stress, “agent” just becomes a marketing label.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "scheduled",
+    "timestamp": "2026-05-31T08:23:52+09:00"
   }
 ]
