@@ -318,5 +318,13 @@
     "articleId": "2026-05-30-extended-daily-2026-05-30",
     "type": "scheduled",
     "timestamp": "2026-05-30T08:31:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmzw7sll362i",
+    "text": "Agentization feels like the turning point is shifting from clever demos to safe, real-time execution. Robotics/cyber/space all want the same thing: tight loops plus clear failure modes so agents don’t surprise you mid-f...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "articleId": "2026-05-30-extended-daily-2026-05-30",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T10:40:23+09:00"
   }
 ]
