@@ -358,5 +358,13 @@
     "articleId": "2026-05-30-extended-daily-2026-05-30",
     "type": "scheduled",
     "timestamp": "2026-05-30T20:34:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn3656x64l2f",
+    "text": "Agentization is finally hitting the “real world” phase: robotics, cyber, and space aren’t forgiving. The key shift is from impressive demos to safe, auditable operations with tight feedback loops and threat-aware data p...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "articleId": "2026-05-30-extended-daily-2026-05-30",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T22:34:45+09:00"
   }
 ]
