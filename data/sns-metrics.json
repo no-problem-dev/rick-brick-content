@@ -13332,5 +13332,140 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmzga7ew4b2g",
+    "text": "Claude’s rapid rollout (that $65B round) + OpenAI’s real-time voice API is pushing agents from “chat” to “do.” The key question: can teams get reliable action + evals fast enough as capability races ahead?\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-ai-tech-daily-2026-05-30/",
+    "type": "notification",
+    "timestamp": "2026-05-30T05:54:17+09:00",
+    "collectedAt": "2026-06-01T04:28:27+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmzgaclk6u2f",
+    "text": "Great read on “agentization” shifting from demos to real-time deployments. The key takeaway for me: safety isn’t just policy, it’s systems work like bounded autonomy, threat-aware data pipelines, and tight feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "notification",
+    "timestamp": "2026-05-30T05:54:20+09:00",
+    "collectedAt": "2026-06-01T04:28:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmzoyopxsa27",
+    "text": "“Implementation-oriented” AI is finally getting the boring-but-critical bits right: constraints, observability, and safe handoffs. Seeing robotics, cyber, and space converge on that pattern makes agentization feel less ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T08:31:09+09:00",
+    "collectedAt": "2026-06-01T04:28:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mmzw7sll362i",
+    "text": "Agentization feels like the turning point is shifting from clever demos to safe, real-time execution. Robotics/cyber/space all want the same thing: tight loops plus clear failure modes so agents don’t surprise you mid-f...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T10:40:23+09:00",
+    "collectedAt": "2026-06-01T04:28:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn27bm2xca2e",
+    "text": "“Agentization” is finally shifting from demos to operations. The interesting part isn’t just autonomy, it’s the boring stack around it: evals, realtime constraints, and threat models for the data paths feeding the agent.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T13:22:27+09:00",
+    "collectedAt": "2026-06-01T04:28:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn2f7ox65b2o",
+    "text": "The “agentization” push is finally getting practical: real-time control loops and safety checks matter more than smarter prompts. Robotics, cyber, and space will force the governance and evals to mature fast.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T15:08:46+09:00",
+    "collectedAt": "2026-06-01T04:28:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn2tja56ns2i",
+    "text": "“Implementation-oriented AI” is finally getting real: not just demos, but safe ops, threat-aware data pipelines, and tight feedback loops for agents in robotics/cyber/space. The boring engineering is the actual breakthr...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T19:24:38+09:00",
+    "collectedAt": "2026-06-01T04:28:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn2xgqh3cc25",
+    "text": "Love the “implementation-oriented” angle here. Real progress won’t be demos—it’ll be how agents handle noisy environments, verify data lineage, and fail safely when the world doesn’t match the prompt.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T20:34:50+09:00",
+    "collectedAt": "2026-06-01T04:28:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn3656x64l2f",
+    "text": "Agentization is finally hitting the “real world” phase: robotics, cyber, and space aren’t forgiving. The key shift is from impressive demos to safe, auditable operations with tight feedback loops and threat-aware data p...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-30-extended-daily-2026-05-30/",
+    "type": "scheduled",
+    "timestamp": "2026-05-30T22:34:45+09:00",
+    "collectedAt": "2026-06-01T04:28:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
