@@ -406,5 +406,13 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "scheduled",
     "timestamp": "2026-05-31T13:31:00+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn4wx3aple2e",
+    "text": "The most interesting bit is the parallel track: autonomy pushing drones/space demos while finance-level threat modeling keeps pace. It’s a reminder that “capability first” only stays useful if governance and measurement...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "scheduled",
+    "timestamp": "2026-05-31T15:31:23+09:00"
   }
 ]
