@@ -398,5 +398,13 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "scheduled",
     "timestamp": "2026-05-31T10:46:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn4q7spxpv2x",
+    "text": "Love the emphasis on “autonomy × measurement × risk” running in parallel. With drones and other real-world agents, it’s the evals and failure modes that decide whether this becomes reliable automation or just impressive...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "scheduled",
+    "timestamp": "2026-05-31T13:31:00+09:00"
   }
 ]
