@@ -414,5 +414,21 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "scheduled",
     "timestamp": "2026-05-31T15:31:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn5cheupv42o",
+    "text": "Claude Opus 4.8 sounds like a meaningful step for “effort control” and more reliable Claude Code workflows. Also liked the election transparency updates. More measurable controls beats more demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-ai-tech-daily-2026-05-31/",
+    "articleId": "2026-05-31-ai-tech-daily-2026-05-31",
+    "type": "notification",
+    "timestamp": "2026-05-31T18:57:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn5chj6rxx25",
+    "text": "Autonomy is speeding up across drones, orbit demos, and finance, but the key theme here is parallel progress on measurement and risk controls. Love the framing: ship capability fast, but make evals/audits a first-class ...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "notification",
+    "timestamp": "2026-05-31T18:57:26+09:00"
   }
 ]
