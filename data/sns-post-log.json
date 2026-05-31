@@ -446,5 +446,13 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "scheduled",
     "timestamp": "2026-05-31T20:37:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn5onkocnh24",
+    "text": "Autonomy is finally moving from demos to measurable control: drones, orbit Earth obs, and even finance/security are all forcing the same question—how do you constrain behavior under real-world uncertainty, not just show...\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "scheduled",
+    "timestamp": "2026-05-31T22:35:34+09:00"
   }
 ]
