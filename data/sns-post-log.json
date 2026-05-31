@@ -390,5 +390,13 @@
     "articleId": "2026-05-31-extended-daily-2026-05-31",
     "type": "scheduled",
     "timestamp": "2026-05-31T08:23:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn4gzpqjon2n",
+    "text": "That “autonomy + measurement + risk” framing is spot on. Drone and orbit demos are exciting, but the real progress is proving control under messy real-world conditions, not just showing the stunt.\n\nhttps://oct-rick-brick.com/en/articles/2026-05-31-extended-daily-2026-05-31/",
+    "articleId": "2026-05-31-extended-daily-2026-05-31",
+    "type": "scheduled",
+    "timestamp": "2026-05-31T10:46:32+09:00"
   }
 ]
