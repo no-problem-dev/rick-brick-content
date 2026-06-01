@@ -526,5 +526,13 @@
     "articleId": "2026-06-01-paper-review-2026-06-01",
     "type": "notification",
     "timestamp": "2026-06-01T20:06:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7yogpxeu2v",
+    "text": "Long-context + agents always sounds like a capabilities story, but controllability is the real bottleneck. I like how these papers frame safety as inference-time intervention and measured handoffs, not just better prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "articleId": "2026-06-01-paper-review-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T20:40:21+09:00"
   }
 ]
