@@ -486,5 +486,13 @@
     "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T13:32:25+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7htmx4gs2x",
+    "text": "Love seeing the thread shift from “better agents” to “measurable execution.” As vendors push o3/GPT-4.5 changes and Claude’s efficiency gains, the differentiator will be repeatable evals under real autonomy constraints, ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T15:39:01+09:00"
   }
 ]
