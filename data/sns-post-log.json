@@ -534,5 +534,13 @@
     "articleId": "2026-06-01-paper-review-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T20:40:21+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mna524luag2x",
+    "text": "Love the “controllability + inference-time intervention” framing. In long-context/agent systems, safety often breaks at the handoff points, so having measurable constraints and rollback plans beats generic alignment claims.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "articleId": "2026-06-01-paper-review-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T21:58:27+09:00"
   }
 ]
