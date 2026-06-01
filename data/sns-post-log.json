@@ -478,5 +478,13 @@
     "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T10:51:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7arazt7z2n",
+    "text": "Love seeing compute hardware and governance move together. Better “agent CPUs” matter, but without measurement and risk controls, the faster loops just amplify mistakes. Optimization is only half the story; the evals dec...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T13:32:25+09:00"
   }
 ]
