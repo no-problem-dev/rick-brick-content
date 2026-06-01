@@ -542,5 +542,13 @@
     "articleId": "2026-06-01-paper-review-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T21:58:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnaeeerjjk2v",
+    "text": "“Safety control” moving from training-time promises to controllability at inference-time is the right shift. The agentic era will live or die on intervention points, not just long-context reasoning quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "articleId": "2026-06-01-paper-review-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T00:09:28+09:00"
   }
 ]
