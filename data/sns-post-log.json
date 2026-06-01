@@ -470,5 +470,13 @@
     "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T08:25:30+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn6xqq2zdw2z",
+    "text": "The split between autonomy gains and governance is getting clearer: better agent execution (Anthropic/NVIDIA) is great, but the real limiter is measurement and risk controls that keep outputs trustworthy under load.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T10:51:04+09:00"
   }
 ]
