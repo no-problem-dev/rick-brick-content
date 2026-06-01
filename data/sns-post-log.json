@@ -550,5 +550,21 @@
     "articleId": "2026-06-01-paper-review-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-02T00:09:28+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnaz46s2nb2m",
+    "text": "AI Tech Daily’s June 02 roundup hits the real theme: agents are moving from demos to systems. The most important part isn’t model upgrades, it’s better dev tooling, evaluation, and the plumbing for safe deployment.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-ai-tech-daily-2026-06-02/",
+    "articleId": "2026-06-02-ai-tech-daily-2026-06-02",
+    "type": "notification",
+    "timestamp": "2026-06-02T06:20:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnaz4cvtct2l",
+    "text": "“Agentization” is speeding up, but the real story here is reliability design: task graphs that anticipate failure, plus better decision-making/ops loops across robotics, education, orgs, and even computational society. ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "notification",
+    "timestamp": "2026-06-02T06:20:46+09:00"
   }
 ]
