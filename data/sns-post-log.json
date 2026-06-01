@@ -566,5 +566,13 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "notification",
     "timestamp": "2026-06-02T06:20:46+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnbaii3y7b2u",
+    "text": "Agentization is moving from demos to reliability engineering, and that’s the real shift. Task graphs that anticipate failure (and quantify it) will outperform flashy autonomy every time, especially in real org workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T08:32:50+09:00"
   }
 ]
