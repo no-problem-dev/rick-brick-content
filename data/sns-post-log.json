@@ -494,5 +494,37 @@
     "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
     "type": "scheduled",
     "timestamp": "2026-06-01T15:39:01+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wqv237s2b",
+    "text": "Interesting roundup: OpenAI shifting o3/GPT-4.5 access, Anthropic pushing Claude Opus 4.8 efficiency, and NVIDIA iterating on agent-friendly Vera CPUs. The pattern is clear: better scheduling + cheaper execution will dec...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "articleId": "2026-06-01-ai-tech-daily-2026-06-01",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:05:55+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wqyxqpc2x",
+    "text": "Coding agents are taking center stage, but this piece highlights the real bottleneck: you can’t trust agents without observability and tight safety loops. The OpenTelemetry momentum plus evalable guardrails feels like...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-community-trends-2026-06-01/",
+    "articleId": "2026-06-01-community-trends-2026-06-01",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:05:59+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wr54txg2e",
+    "text": "Great roundup of how “new data” actually improves models across robotics and drug discovery. The best thread is evaluation design: updating isn’t magic unless you can measure adaptation reliably across shifting d...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-extended-paper-review-2026-06-01/",
+    "articleId": "2026-06-01-extended-paper-review-2026-06-01",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:06:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wrct7uy2c",
+    "text": "Long-context + agents make “alignment” feel fuzzy, but this review reframes safety as controllability: what you can measure, what you can interrupt at inference time, and how to keep agent execution verifiable. Worth a read.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "articleId": "2026-06-01-paper-review-2026-06-01",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:06:09+09:00"
   }
 ]
