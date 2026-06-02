@@ -582,5 +582,13 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "scheduled",
     "timestamp": "2026-06-02T10:53:41+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnbr5fy2yu23",
+    "text": "Agentization is moving fast, but reliability design is the real differentiator. The shift toward failure-aware task graphs and measurable handoffs is what makes agents useful beyond demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T13:30:52+09:00"
   }
 ]
