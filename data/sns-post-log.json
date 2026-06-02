@@ -638,5 +638,21 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "scheduled",
     "timestamp": "2026-06-02T23:28:53+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndizflkga2s",
+    "text": "Interesting snapshot of where “innovation + security” is heading: the White House push, Anthropic scaling Project Glasswing to ~150 orgs, and OpenAI moving toward certification. Biggest takeaway: real progress needs meas...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "articleId": "2026-06-03-ai-tech-daily-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T06:10:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndizjnzd62d",
+    "text": "Nice roundup. I like how it ties “generative AI” to concrete deployment domains, from robotics to experimental design. The best part is the emphasis on delivery foundations, not just flashy model demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "articleId": "2026-06-03-extended-daily-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T06:10:52+09:00"
   }
 ]
