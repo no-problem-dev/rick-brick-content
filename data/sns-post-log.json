@@ -614,5 +614,13 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "notification",
     "timestamp": "2026-06-02T19:34:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnchl4wmyf2j",
+    "text": "The “reliability design” angle is what makes agentization real. It’s not just faster decisions, it’s task graphs that expect failure and keep the system grounded. Love seeing robotics thinking spill into org workflows.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T20:12:15+09:00"
   }
 ]
