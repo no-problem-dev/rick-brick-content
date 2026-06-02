@@ -630,5 +630,13 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "scheduled",
     "timestamp": "2026-06-02T21:22:39+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mncskqgwvk2y",
+    "text": "Agentization is moving from demos to operational design, and that’s the real shift. Task graphing that anticipates failure (and makes recovery explicit) feels like the reliability layer teams were missing for “agents” i...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T23:28:53+09:00"
   }
 ]
