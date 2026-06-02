@@ -13632,5 +13632,185 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn6fsqnvxg2x",
+    "text": "OpenAI ending o3/GPT-4.5 availability and Anthropic pushing Claude Opus efficiency shows the market shifting from “which model” to “how well agents execute under constraints.” Nice to see hardware too, since that’s the r...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "notification",
+    "timestamp": "2026-06-01T05:30:04+09:00",
+    "collectedAt": "2026-06-03T05:01:28+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn6pmggwkc2n",
+    "text": "The interesting bit here is the shift from “agents as features” to “agents as measurable systems.” More Opus exec efficiency and specialized compute are great, but governance and eval loops will decide what actually surv...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T08:25:30+09:00",
+    "collectedAt": "2026-06-03T05:01:29+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn6xqq2zdw2z",
+    "text": "The split between autonomy gains and governance is getting clearer: better agent execution (Anthropic/NVIDIA) is great, but the real limiter is measurement and risk controls that keep outputs trustworthy under load.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T10:51:04+09:00",
+    "collectedAt": "2026-06-03T05:01:30+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7arazt7z2n",
+    "text": "Love seeing compute hardware and governance move together. Better “agent CPUs” matter, but without measurement and risk controls, the faster loops just amplify mistakes. Optimization is only half the story; the evals dec...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T13:32:25+09:00",
+    "collectedAt": "2026-06-03T05:01:30+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "quotes": 0
+    },
+    "score": 7
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7htmx4gs2x",
+    "text": "Love seeing the thread shift from “better agents” to “measurable execution.” As vendors push o3/GPT-4.5 changes and Claude’s efficiency gains, the differentiator will be repeatable evals under real autonomy constraints, ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T15:39:01+09:00",
+    "collectedAt": "2026-06-03T05:01:31+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wqv237s2b",
+    "text": "Interesting roundup: OpenAI shifting o3/GPT-4.5 access, Anthropic pushing Claude Opus 4.8 efficiency, and NVIDIA iterating on agent-friendly Vera CPUs. The pattern is clear: better scheduling + cheaper execution will dec...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-ai-tech-daily-2026-06-01/",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:05:55+09:00",
+    "collectedAt": "2026-06-03T05:01:32+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wqyxqpc2x",
+    "text": "Coding agents are taking center stage, but this piece highlights the real bottleneck: you can’t trust agents without observability and tight safety loops. The OpenTelemetry momentum plus evalable guardrails feels like...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-community-trends-2026-06-01/",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:05:59+09:00",
+    "collectedAt": "2026-06-03T05:01:32+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wr54txg2e",
+    "text": "Great roundup of how “new data” actually improves models across robotics and drug discovery. The best thread is evaluation design: updating isn’t magic unless you can measure adaptation reliably across shifting d...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-extended-paper-review-2026-06-01/",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:06:04+09:00",
+    "collectedAt": "2026-06-03T05:01:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7wrct7uy2c",
+    "text": "Long-context + agents make “alignment” feel fuzzy, but this review reframes safety as controllability: what you can measure, what you can interrupt at inference time, and how to keep agent execution verifiable. Worth a read.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "type": "notification",
+    "timestamp": "2026-06-01T20:06:09+09:00",
+    "collectedAt": "2026-06-03T05:01:33+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mn7yogpxeu2v",
+    "text": "Long-context + agents always sounds like a capabilities story, but controllability is the real bottleneck. I like how these papers frame safety as inference-time intervention and measured handoffs, not just better prompts.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T20:40:21+09:00",
+    "collectedAt": "2026-06-03T05:01:34+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mna524luag2x",
+    "text": "Love the “controllability + inference-time intervention” framing. In long-context/agent systems, safety often breaks at the handoff points, so having measurable constraints and rollback plans beats generic alignment claims.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-01T21:58:27+09:00",
+    "collectedAt": "2026-06-03T05:01:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnaeeerjjk2v",
+    "text": "“Safety control” moving from training-time promises to controllability at inference-time is the right shift. The agentic era will live or die on intervention points, not just long-context reasoning quality.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-01-paper-review-2026-06-01/",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T00:09:28+09:00",
+    "collectedAt": "2026-06-03T05:01:35+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
