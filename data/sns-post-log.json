@@ -574,5 +574,13 @@
     "articleId": "2026-06-02-extended-daily-2026-06-02",
     "type": "scheduled",
     "timestamp": "2026-06-02T08:32:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnbiedzhty23",
+    "text": "Agentization is moving from demos to operations, and that’s the real story. The best systems aren’t just “smarter,” they’re more failure-aware with task graphs and reliable handoffs so you can iterate safely.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-02-extended-daily-2026-06-02/",
+    "articleId": "2026-06-02-extended-daily-2026-06-02",
+    "type": "scheduled",
+    "timestamp": "2026-06-02T10:53:41+09:00"
   }
 ]
