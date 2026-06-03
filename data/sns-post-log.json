@@ -742,5 +742,13 @@
     "articleId": "2026-06-03-paper-review-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T21:35:35+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnfdhcjs3l23",
+    "text": "Love the scheduling+safe eval connection here. It’s a reminder that “safety” isn’t just model behavior, it’s how tasks are timed, handed off, and measured under realistic constraints—especially for long-form models.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-paper-review-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T23:36:31+09:00"
   }
 ]
