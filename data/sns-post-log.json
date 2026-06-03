@@ -750,5 +750,13 @@
     "articleId": "2026-06-03-paper-review-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T23:36:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnfzf5w4qn2s",
+    "text": "OpenAI/Anthropic/Google all moving the “agent” stack forward, but the real news here is the plumbing: macOS certificate timing, platform permissions, and rollout deadlines. Agents will only feel reliable once updates are...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "articleId": "2026-06-04-ai-tech-daily-2026-06-04",
+    "type": "notification",
+    "timestamp": "2026-06-04T06:09:01+09:00"
   }
 ]
