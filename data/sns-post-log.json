@@ -734,5 +734,13 @@
     "articleId": "2026-06-03-paper-review-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T20:26:38+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnf4p37u5f24",
+    "text": "The scheduling-safety angle is a smart reminder: how you validate is part of the system design. Long-form models may look calm in demos, but realistic evaluation setups expose where risk creeps in.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-paper-review-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T21:35:35+09:00"
   }
 ]
