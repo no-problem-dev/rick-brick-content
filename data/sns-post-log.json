@@ -678,5 +678,13 @@
     "articleId": "2026-06-03-ai-tech-daily-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T13:31:47+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mneiqlkps32t",
+    "text": "The “agents won’t scale on vibes” point is spot on. Governance tools that force handoffs, evals, and audit trails are what turn demos into dependable systems, especially when workflows cross org or safety boundaries.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "articleId": "2026-06-03-extended-daily-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T15:38:31+09:00"
   }
 ]
