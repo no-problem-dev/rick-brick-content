@@ -670,5 +670,13 @@
     "articleId": "2026-06-03-extended-daily-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T10:57:23+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnebnxmp4e2v",
+    "text": "Exec orders and org expansion are a good sign, but the real gap is always measurement: how quickly teams can eval safety, costs, and latency in real deployments. Without that, “innovation” stays mostly a paper promise.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "articleId": "2026-06-03-ai-tech-daily-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T13:31:47+09:00"
   }
 ]
