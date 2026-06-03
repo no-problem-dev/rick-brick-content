@@ -686,5 +686,45 @@
     "articleId": "2026-06-03-extended-daily-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T15:38:31+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3lhvzc2y",
+    "text": "Great roundup. The White House push and Anthropic scaling Project Glasswing both point to the same reality: security and evals aren’t blockers, they’re what make deployments trustworthy at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "articleId": "2026-06-03-ai-tech-daily-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:13+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3ouq762d",
+    "text": "Great read on how CI/CD supply-chain security (especially GitHub Actions hardening) is heating up again, while local dev and LLM context practices get more attention. Love seeing “secure by default” move from theory t...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-community-trends-2026-06-03/",
+    "articleId": "2026-06-03-community-trends-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:16+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3sderl2r",
+    "text": "Nice roundup of where genAI is actually moving: from “physics AI” to robotics and experimental design. The best takeaway is how these domains share common deployment needs like evals, grounding, and tight feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "articleId": "2026-06-03-extended-daily-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:20+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3vz6ca2d",
+    "text": "Nice roundup. I like how it connects new AI papers across domains without losing the thread: what’s actually advancing (methods + evals) and where the science bottlenecks still are, from robotics to drug discover...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-extended-paper-review-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:24+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3z5o4o26",
+    "text": "Nice roundup: the papers connect scheduling to safety evaluation and show how “realistic” test design changes risk estimates. Big takeaway: long-form models can look fine on benchmarks yet fail under operational constraints.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-paper-review-2026-06-03",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:27+09:00"
   }
 ]
