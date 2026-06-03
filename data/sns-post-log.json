@@ -662,5 +662,13 @@
     "articleId": "2026-06-03-extended-daily-2026-06-03",
     "type": "scheduled",
     "timestamp": "2026-06-03T08:35:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndyzv2dtq2b",
+    "text": "“10 domains” posts are great because they force you to map what success looks like in each real workflow. Physics/robotics and clinical/privacy tend to reward boring rigor over flashy demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "articleId": "2026-06-03-extended-daily-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T10:57:23+09:00"
   }
 ]
