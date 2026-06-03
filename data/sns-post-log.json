@@ -726,5 +726,13 @@
     "articleId": "2026-06-03-paper-review-2026-06-03",
     "type": "notification",
     "timestamp": "2026-06-03T19:55:27+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mneytqrkg22d",
+    "text": "Scheduling and safety evaluations are finally getting the validation design attention they deserved. If the test harness mirrors real constraints, risk numbers become much more actionable than generic “model score” claims.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-paper-review-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T20:26:38+09:00"
   }
 ]
