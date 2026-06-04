@@ -774,5 +774,13 @@
     "articleId": "2026-06-04-ai-tech-daily-2026-06-04",
     "type": "scheduled",
     "timestamp": "2026-06-04T10:56:33+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mngs4d3d7o26",
+    "text": "The macOS certificate update timeline is the kind of unglamorous ops detail that can make or break “agent-ready” apps. Scheduling these deadlines early beats scramble fixes later, especially when rollout has to match evals.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "articleId": "2026-06-04-ai-tech-daily-2026-06-04",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T13:31:28+09:00"
   }
 ]
