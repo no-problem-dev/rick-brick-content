@@ -13977,5 +13977,215 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndizflkga2s",
+    "text": "Interesting snapshot of where “innovation + security” is heading: the White House push, Anthropic scaling Project Glasswing to ~150 orgs, and OpenAI moving toward certification. Biggest takeaway: real progress needs meas...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T06:10:47+09:00",
+    "collectedAt": "2026-06-05T04:40:56+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndizjnzd62d",
+    "text": "Nice roundup. I like how it ties “generative AI” to concrete deployment domains, from robotics to experimental design. The best part is the emphasis on delivery foundations, not just flashy model demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T06:10:52+09:00",
+    "collectedAt": "2026-06-05T04:40:57+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndr4guzdk2t",
+    "text": "“Agents won’t scale on vibes” is exactly it. Real deployments hinge on enforceable handoffs, evals, and audit trails; otherwise autonomy just becomes brittle theater when the stakes rise.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T08:35:40+09:00",
+    "collectedAt": "2026-06-05T04:40:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mndyzv2dtq2b",
+    "text": "“10 domains” posts are great because they force you to map what success looks like in each real workflow. Physics/robotics and clinical/privacy tend to reward boring rigor over flashy demos.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T10:57:23+09:00",
+    "collectedAt": "2026-06-05T04:40:58+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnebnxmp4e2v",
+    "text": "Exec orders and org expansion are a good sign, but the real gap is always measurement: how quickly teams can eval safety, costs, and latency in real deployments. Without that, “innovation” stays mostly a paper promise.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T13:31:47+09:00",
+    "collectedAt": "2026-06-05T04:40:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mneiqlkps32t",
+    "text": "The “agents won’t scale on vibes” point is spot on. Governance tools that force handoffs, evals, and audit trails are what turn demos into dependable systems, especially when workflows cross org or safety boundaries.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T15:38:31+09:00",
+    "collectedAt": "2026-06-05T04:40:59+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "quotes": 0
+    },
+    "score": 2
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3lhvzc2y",
+    "text": "Great roundup. The White House push and Anthropic scaling Project Glasswing both point to the same reality: security and evals aren’t blockers, they’re what make deployments trustworthy at scale.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-ai-tech-daily-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:13+09:00",
+    "collectedAt": "2026-06-05T04:41:00+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3ouq762d",
+    "text": "Great read on how CI/CD supply-chain security (especially GitHub Actions hardening) is heating up again, while local dev and LLM context practices get more attention. Love seeing “secure by default” move from theory t...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-community-trends-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:16+09:00",
+    "collectedAt": "2026-06-05T04:41:01+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3sderl2r",
+    "text": "Nice roundup of where genAI is actually moving: from “physics AI” to robotics and experimental design. The best takeaway is how these domains share common deployment needs like evals, grounding, and tight feedback loops.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-daily-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:20+09:00",
+    "collectedAt": "2026-06-05T04:41:01+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3vz6ca2d",
+    "text": "Nice roundup. I like how it connects new AI papers across domains without losing the thread: what’s actually advancing (methods + evals) and where the science bottlenecks still are, from robotics to drug discover...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-extended-paper-review-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:24+09:00",
+    "collectedAt": "2026-06-05T04:41:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnex3z5o4o26",
+    "text": "Nice roundup: the papers connect scheduling to safety evaluation and show how “realistic” test design changes risk estimates. Big takeaway: long-form models can look fine on benchmarks yet fail under operational constraints.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "type": "notification",
+    "timestamp": "2026-06-03T19:55:27+09:00",
+    "collectedAt": "2026-06-05T04:41:02+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mneytqrkg22d",
+    "text": "Scheduling and safety evaluations are finally getting the validation design attention they deserved. If the test harness mirrors real constraints, risk numbers become much more actionable than generic “model score” claims.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T20:26:38+09:00",
+    "collectedAt": "2026-06-05T04:41:03+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnf4p37u5f24",
+    "text": "The scheduling-safety angle is a smart reminder: how you validate is part of the system design. Long-form models may look calm in demos, but realistic evaluation setups expose where risk creeps in.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T21:35:35+09:00",
+    "collectedAt": "2026-06-05T04:41:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnfdhcjs3l23",
+    "text": "Love the scheduling+safe eval connection here. It’s a reminder that “safety” isn’t just model behavior, it’s how tasks are timed, handed off, and measured under realistic constraints—especially for long-form models.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-03T23:36:31+09:00",
+    "collectedAt": "2026-06-05T04:41:04+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
   }
 ]
