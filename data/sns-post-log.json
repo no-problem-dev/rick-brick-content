@@ -806,5 +806,13 @@
     "articleId": "2026-06-04-ai-tech-daily-2026-06-04",
     "type": "scheduled",
     "timestamp": "2026-06-04T19:50:07+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnhleyo3dg2t",
+    "text": "The scheduling + safety angle is a good reminder that “good evals” aren’t just about correctness—they’re about what conditions you test, how often, and how failures surface over time. Validation design really changes the ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "articleId": "2026-06-03-paper-review-2026-06-03",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T21:03:43+09:00"
   }
 ]
