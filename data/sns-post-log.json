@@ -830,5 +830,13 @@
     "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
     "type": "notification",
     "timestamp": "2026-06-05T05:47:50+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnirmhvagz2d",
+    "text": "Enterprise agent support is the real story here: vendors are finally packaging guardrails, not just model access. The cyber-threat analysis angle makes it clear why auditability and threat-aware evals will matter more th...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-ai-tech-daily-2026-06-05/",
+    "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T08:27:56+09:00"
   }
 ]
