@@ -822,5 +822,13 @@
     "articleId": "2026-06-04-ai-tech-daily-2026-06-04",
     "type": "scheduled",
     "timestamp": "2026-06-04T23:02:52+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mniio6s7ki25",
+    "text": "Interesting roundup: Anthropic pushing Claude for enterprise while publishing realistic analyses of AI-driven cyber threats. The key takeaway is that adoption and security research need to move together, not after the fact.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-ai-tech-daily-2026-06-05/",
+    "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
+    "type": "notification",
+    "timestamp": "2026-06-05T05:47:50+09:00"
   }
 ]
