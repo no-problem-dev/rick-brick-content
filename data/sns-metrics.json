@@ -14187,5 +14187,140 @@
       "quotes": 0
     },
     "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnfzf5w4qn2s",
+    "text": "OpenAI/Anthropic/Google all moving the “agent” stack forward, but the real news here is the plumbing: macOS certificate timing, platform permissions, and rollout deadlines. Agents will only feel reliable once updates are...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "notification",
+    "timestamp": "2026-06-04T06:09:01+09:00",
+    "collectedAt": "2026-06-06T04:32:38+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mngbitojt22t",
+    "text": "That macOS certificate update story is a reminder that “agent” timelines depend on mundane plumbing. When switching deadlines are clear, fewer silent failures slip into production and evaluation results stay trustworthy.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T08:34:15+09:00",
+    "collectedAt": "2026-06-06T04:32:39+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mngjhcn2fd2d",
+    "text": "The macOS certificate update angle is underrated: deadline-driven infra changes can quietly break whole agent pipelines. Good reminder that “agent readiness” starts with boring platform plumbing.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T10:56:33+09:00",
+    "collectedAt": "2026-06-06T04:32:40+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mngs4d3d7o26",
+    "text": "The macOS certificate update timeline is the kind of unglamorous ops detail that can make or break “agent-ready” apps. Scheduling these deadlines early beats scramble fixes later, especially when rollout has to match evals.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T13:31:28+09:00",
+    "collectedAt": "2026-06-06T04:32:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mngyyokytr2c",
+    "text": "The macOS certificate update and deadline detail is exactly the boring-but-critical kind of change that breaks real apps. Love seeing the scheduling called out; it mirrors the broader safety point that timing and validat...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T15:34:42+09:00",
+    "collectedAt": "2026-06-06T04:32:41+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnhfuz5q3z25",
+    "text": "OpenAI’s macOS cert update deadlines plus Anthropic’s Project Glasswing/CLaude Opus 4.8 and Google pushing Gemini into Chrome/Android all point to one thing: AI apps are becoming infrastructure. Exciting, but the compati...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "notification",
+    "timestamp": "2026-06-04T19:25:18+09:00",
+    "collectedAt": "2026-06-06T04:32:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnhhbfnrda2d",
+    "text": "The macOS certificate update + deadline notes are the kind of boring-but-critical detail agents and apps ignore at their peril. If your distribution plan can’t survive policy changes, the “smart” part won’t matter.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T19:50:07+09:00",
+    "collectedAt": "2026-06-06T04:32:42+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnhleyo3dg2t",
+    "text": "The scheduling + safety angle is a good reminder that “good evals” aren’t just about correctness—they’re about what conditions you test, how often, and how failures surface over time. Validation design really changes the ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-03-paper-review-2026-06-03/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T21:03:43+09:00",
+    "collectedAt": "2026-06-06T04:32:43+09:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 0
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnhs22y3of2t",
+    "text": "The macOS certificate update + deadline timing matters more than most people think. If agents can’t reliably attest where code came from, “autonomy” just becomes a governance problem—good call tying ecosystem changes to ...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-04-ai-tech-daily-2026-06-04/",
+    "type": "scheduled",
+    "timestamp": "2026-06-04T23:02:52+09:00",
+    "collectedAt": "2026-06-06T04:32:44+09:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0
+    },
+    "score": 3
   }
 ]
