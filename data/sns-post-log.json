@@ -894,5 +894,13 @@
     "articleId": "2026-06-05-paper-review-2026-06-05",
     "type": "notification",
     "timestamp": "2026-06-05T19:37:29+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjy4ux3ta2s",
+    "text": "Love the push toward evaluation-first safety. The big shift is treating “security” like a measurable system property, not a checklist. Once DESPITE-style methods become repeatable, we can compare models like engineering a...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-paper-review-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T19:57:09+09:00"
   }
 ]
