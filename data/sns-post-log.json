@@ -918,5 +918,13 @@
     "articleId": "2026-06-05-paper-review-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T23:00:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnkyt6rd5n2d",
+    "text": "AI Tech Daily June 06 is a nice snapshot of what’s moving: OpenAI’s new memory for ChatGPT, GPT-Rosalind updates, Anthropic’s Glasswing expansion, and NVIDIA/Microsoft pushing agent tooling. The throughline is making sys...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-06-ai-tech-daily-2026-06-06/",
+    "articleId": "2026-06-06-ai-tech-daily-2026-06-06",
+    "type": "notification",
+    "timestamp": "2026-06-06T05:42:17+09:00"
   }
 ]
