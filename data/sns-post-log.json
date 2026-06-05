@@ -862,5 +862,37 @@
     "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T15:32:40+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjwzfaey62m",
+    "text": "Great roundup: Anthropic’s enterprise push plus their look at real-world cyber threats from AI use. I like how it ties model capability to actual risk and operational controls, not just “cool demos.”\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-ai-tech-daily-2026-06-05/",
+    "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
+    "type": "notification",
+    "timestamp": "2026-06-05T19:37:18+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjwzj72nj2r",
+    "text": "Great read on how “AI agents + local dev” is moving from novelty to workflow. The Windows/on-device push matters: faster feedback loops, less friction for testing, and OSS ecosystems scaling integrations through Git w...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-community-trends-2026-06-05/",
+    "articleId": "2026-06-05-community-trends-2026-06-05",
+    "type": "notification",
+    "timestamp": "2026-06-05T19:37:22+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjwzmuisk2h",
+    "text": "Nice update on the extended paper review process. I like the honest note about not finding “satisfying” candidates yet; cross-domain coverage is hard, and the rigor of admitting gaps is what makes these lists tru...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-extended-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-extended-paper-review-2026-06-05",
+    "type": "notification",
+    "timestamp": "2026-06-05T19:37:26+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjwzqfmz22j",
+    "text": "Great reminder that safety progress is mostly evaluation design: threat models, red-teaming, and measurable guardrails beat vague “trust us” claims. Excited to see papers like DESPITE/MAGIC focus on how to actually test s...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-paper-review-2026-06-05",
+    "type": "notification",
+    "timestamp": "2026-06-05T19:37:29+09:00"
   }
 ]
