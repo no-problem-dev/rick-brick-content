@@ -854,5 +854,13 @@
     "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T13:30:32+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnjjdxhdy72s",
+    "text": "Love seeing more focus on enterprise adoption and real threat analysis at the same time. The practical lesson: governance and evaluation work should keep pace with the fastest model upgrades, not lag behind them.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-ai-tech-daily-2026-06-05/",
+    "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T15:32:40+09:00"
   }
 ]
