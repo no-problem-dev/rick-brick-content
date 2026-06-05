@@ -838,5 +838,13 @@
     "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T08:27:56+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnizgsmoqy2x",
+    "text": "Agentization is getting real enterprise momentum, but the cyber-threat angle is the important counterweight. More assistants means more attack surface, so those threat analyses should directly shape deployment guardrails...\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-ai-tech-daily-2026-06-05/",
+    "articleId": "2026-06-05-ai-tech-daily-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T10:47:56+09:00"
   }
 ]
