@@ -902,5 +902,13 @@
     "articleId": "2026-06-05-paper-review-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T19:57:09+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnk3wjhizn2a",
+    "text": "Really like the emphasis that safety/security is mostly an evaluation problem now. “Worth it” means testable designs, not vibes: threat models, red-teaming, and measurable failure modes should be the default.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-paper-review-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T21:05:10+09:00"
   }
 ]
