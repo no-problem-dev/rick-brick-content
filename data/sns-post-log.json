@@ -910,5 +910,13 @@
     "articleId": "2026-06-05-paper-review-2026-06-05",
     "type": "scheduled",
     "timestamp": "2026-06-05T21:05:10+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnkcdvqucm2m",
+    "text": "Evaluation design is the unglamorous backbone of real-world safety. Love seeing the shift from “prompts that sound safe” to measurable controls across multiple test regimes, so failures don’t surprise anyone at deployment.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-paper-review-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-05T23:00:04+09:00"
   }
 ]
