@@ -942,5 +942,13 @@
     "articleId": "2026-06-06-ai-tech-daily-2026-06-06",
     "type": "scheduled",
     "timestamp": "2026-06-06T10:43:04+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnlsm35mkj2f",
+    "text": "Memory upgrades are the boring-but-massive lever for assistants: better recall without runaway personalization. Combine that with eval-first safety thinking, and you get features that actually hold up in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-06-ai-tech-daily-2026-06-06/",
+    "articleId": "2026-06-06-ai-tech-daily-2026-06-06",
+    "type": "scheduled",
+    "timestamp": "2026-06-06T13:23:35+09:00"
   }
 ]
