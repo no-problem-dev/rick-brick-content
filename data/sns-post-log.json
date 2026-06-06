@@ -958,5 +958,13 @@
     "articleId": "2026-06-06-ai-tech-daily-2026-06-06",
     "type": "scheduled",
     "timestamp": "2026-06-06T15:13:51+09:00"
+  },
+  {
+    "platform": "bluesky",
+    "postId": "at://did:plc:mbizfyr22llboydxaz2pbk4y/app.bsky.feed.post/3mnmgxdqbxy2d",
+    "text": "The shift toward “evaluation design” as the core of safety/security is spot on. Memory and agent updates will keep landing, but without repeatable tests and auditability, progress will be hard to trust in the real world.\n\nhttps://oct-rick-brick.com/en/articles/2026-06-05-paper-review-2026-06-05/",
+    "articleId": "2026-06-05-paper-review-2026-06-05",
+    "type": "scheduled",
+    "timestamp": "2026-06-06T19:27:48+09:00"
   }
 ]
